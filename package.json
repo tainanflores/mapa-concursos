@@ -1,0 +1,17 @@
+{
+  "name": "mapa-concursos",
+  "version": "1.0.0",
+  "description": "Mapa de concursos públicos próximos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "baixar:municipios": "node src/baixar-municipios.js",
+    "baixar:pci": "node src/baixar-pci.js",
+    "extrair": "node src/extrair-listagem.js",
+    "atualizar": "node src/atualizar.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "csv-parse": "^7.0.1"
+  }
+}

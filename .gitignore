@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+data/pci-concursos.html
+data/noticias/
+npm-debug.log*
