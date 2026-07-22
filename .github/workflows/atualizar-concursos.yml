@@ -1,0 +1,50 @@
+name: Atualizar concursos
+
+on:
+  workflow_dispatch:
+
+  # Será ativado quando o scraper estiver completo.
+  # O GitHub interpreta este cron em UTC.
+  #
+  # 10:17 UTC = 07:17 no horário de Brasília.
+  #
+  # schedule:
+  #   - cron: "17 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Atualizar concursos
+        run: npm run atualizar
+
+      - name: Salvar mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/concursos.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração encontrada."
+            exit 0
+          fi
+
+          git commit -m "Atualiza concursos automaticamente"
+          git push
