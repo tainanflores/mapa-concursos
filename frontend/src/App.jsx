@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import L from "leaflet";
 import {
   CircleMarker,
   MapContainer,
@@ -9,9 +10,18 @@ import {
 } from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
+import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
+import iconUrl from "leaflet/dist/images/marker-icon.png";
+import shadowUrl from "leaflet/dist/images/marker-shadow.png";
 import "./App.css";
 import { filtrarPinsMapa } from "../../src/filtros-mapa.js";
 import { calcularDistanciaPorRota } from "./rotas.js";
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl,
+  iconUrl,
+  shadowUrl,
+});
 
 const CENTRO_DO_BRASIL = [-14.235, -51.9253];
 
