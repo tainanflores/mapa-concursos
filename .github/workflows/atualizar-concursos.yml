@@ -8,8 +8,8 @@ on:
   #
   # 10:17 UTC = 07:17 no horário de Brasília.
   #
-  # schedule:
-  #   - cron: "17 10 * * *"
+  schedule:
+    - cron: "17 10 * * *"
 
 permissions:
   contents: write
