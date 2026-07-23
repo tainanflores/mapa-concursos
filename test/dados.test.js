@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import concursos from "../public/data/concursos.json" with { type: "json" };
+import localidadesParaMapa from "../public/data/localidades.json" with { type: "json" };
+import pontosParaMapa from "../public/data/pontos-mapa.json" with { type: "json" };
 import resumo from "../public/data/resumo.json" with { type: "json" };
 
 const prioridade = {
@@ -76,4 +78,44 @@ test("pendências possuem abrangência sem receber localização artificial", ()
     assert.equal(concurso.abrangencia, undefined, concurso.orgao);
     assert.equal(concurso.motivoSemCidade, undefined, concurso.orgao);
   }
+});
+
+test("arquivo de pins contém somente localidades exibíveis", () => {
+  const idsEsperados = concursos.flatMap((concurso) =>
+    concurso.localidades
+      .filter((localidade) => localidade.exibirNoMapa === true)
+      .map((localidade) => `${concurso.id}:${localidade.codigoIbge}`),
+  );
+
+  assert.deepEqual(
+    localidadesParaMapa.map((localidade) => localidade.id).sort(),
+    idsEsperados.sort(),
+  );
+
+  assert.ok(
+    localidadesParaMapa.every(
+      (localidade) => localidade.latitude && localidade.longitude && localidade.urlPCI,
+    ),
+  );
+});
+
+test("pontos do mapa agrupam todos os pins por município", () => {
+  const idsDosPins = pontosParaMapa.flatMap((ponto) =>
+    ponto.concursos.map((concurso) => concurso.id),
+  );
+
+  assert.equal(
+    pontosParaMapa.reduce((total, ponto) => total + ponto.totalConcursos, 0),
+    localidadesParaMapa.length,
+  );
+
+  assert.deepEqual(
+    idsDosPins.sort(),
+    localidadesParaMapa.map((localidade) => localidade.id).sort(),
+  );
+
+  assert.equal(
+    new Set(pontosParaMapa.map((ponto) => ponto.codigoIbge)).size,
+    pontosParaMapa.length,
+  );
 });

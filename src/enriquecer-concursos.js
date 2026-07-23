@@ -1,11 +1,17 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 import { carregarMunicipios } from "./municipios.js";
+import {
+  agruparPinsPorMunicipio,
+  criarLocalidadesParaMapa,
+} from "./dados-mapa.js";
 
 import { extrairLocalidadesDaNoticia } from "./extrair-noticia.js";
 
 const CAMINHO_CONCURSOS = "public/data/concursos.json";
 const CAMINHO_RESUMO = "public/data/resumo.json";
+const CAMINHO_LOCALIDADES_MAPA = "public/data/localidades.json";
+const CAMINHO_PONTOS_MAPA = "public/data/pontos-mapa.json";
 
 const INTERVALO_REQUISICOES_MS = 800;
 
@@ -211,11 +217,25 @@ export async function enriquecerConcursos() {
   }
 
   const resumo = criarResumo(resultado);
+  const localidadesParaMapa = criarLocalidadesParaMapa(resultado);
+  const pontosParaMapa = agruparPinsPorMunicipio(localidadesParaMapa);
 
   await Promise.all([
     writeFile(CAMINHO_CONCURSOS, JSON.stringify(resultado, null, 2), "utf8"),
 
     writeFile(CAMINHO_RESUMO, JSON.stringify(resumo, null, 2), "utf8"),
+
+    writeFile(
+      CAMINHO_LOCALIDADES_MAPA,
+      JSON.stringify(localidadesParaMapa, null, 2),
+      "utf8",
+    ),
+
+    writeFile(
+      CAMINHO_PONTOS_MAPA,
+      JSON.stringify(pontosParaMapa, null, 2),
+      "utf8",
+    ),
   ]);
 
   console.log("");

@@ -12,10 +12,16 @@ import {
 } from "./utils.js";
 
 import { carregarMunicipios, encontrarMunicipioNoTexto } from "./municipios.js";
+import {
+  agruparPinsPorMunicipio,
+  criarLocalidadesParaMapa,
+} from "./dados-mapa.js";
 
 const CAMINHO_HTML = "data/pci-concursos.html";
 const CAMINHO_SAIDA = "public/data/concursos.json";
 const CAMINHO_RESUMO = "public/data/resumo.json";
+const CAMINHO_LOCALIDADES_MAPA = "public/data/localidades.json";
+const CAMINHO_PONTOS_MAPA = "public/data/pontos-mapa.json";
 
 const UF_POR_SECAO = {
   acre: "AC",
@@ -261,6 +267,7 @@ export async function extrairListagem() {
               longitude: municipio.longitude,
               tipo: "nome_orgao_ou_titulo",
               confianca: "alta",
+              exibirNoMapa: true,
               contexto: `${orgao} — ${titulo}`,
             },
           ]
@@ -301,6 +308,9 @@ export async function extrairListagem() {
     porSecao,
   };
 
+  const localidadesParaMapa = criarLocalidadesParaMapa(concursos);
+  const pontosParaMapa = agruparPinsPorMunicipio(localidadesParaMapa);
+
   await mkdir("public/data", {
     recursive: true,
   });
@@ -309,6 +319,18 @@ export async function extrairListagem() {
     writeFile(CAMINHO_SAIDA, JSON.stringify(concursos, null, 2), "utf8"),
 
     writeFile(CAMINHO_RESUMO, JSON.stringify(resumo, null, 2), "utf8"),
+
+    writeFile(
+      CAMINHO_LOCALIDADES_MAPA,
+      JSON.stringify(localidadesParaMapa, null, 2),
+      "utf8",
+    ),
+
+    writeFile(
+      CAMINHO_PONTOS_MAPA,
+      JSON.stringify(pontosParaMapa, null, 2),
+      "utf8",
+    ),
   ]);
 
   console.log("Listagem extraída.");

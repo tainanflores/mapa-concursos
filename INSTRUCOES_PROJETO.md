@@ -21,6 +21,8 @@ data/
   pci-concursos.html
 public/data/
   concursos.json
+  localidades.json
+  pontos-mapa.json
   resumo.json
 ```
 
@@ -117,8 +119,8 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 ### 2. Preparar uma API de dados para a interface
 
-- [ ] Definir um seletor/transformador que entregue apenas localidades com `exibirNoMapa: true`.
-- [ ] Decidir como agrupar múltiplos concursos no mesmo município.
+- [x] Definir um seletor/transformador que entregue apenas localidades com `exibirNoMapa: true`.
+- [x] Decidir como agrupar múltiplos concursos no mesmo município.
 - [ ] Definir filtros mínimos: distância, UF, status, tipo de seleção e período de inscrição.
 - [x] Manter `urlPCI` como fonte do link externo de cada cartão/popup.
 
@@ -140,4 +142,4 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 ## Próxima tarefa recomendada
 
-Definir um seletor/transformador que entregue somente localidades com `exibirNoMapa: true` para a futura interface de mapa.
+Definir os filtros mínimos para a interface: distância, UF, status, tipo de seleção e período de inscrição.
