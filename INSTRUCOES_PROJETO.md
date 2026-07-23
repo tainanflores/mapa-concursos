@@ -121,7 +121,7 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 - [x] Definir um seletor/transformador que entregue apenas localidades com `exibirNoMapa: true`.
 - [x] Decidir como agrupar múltiplos concursos no mesmo município.
-- [ ] Definir filtros mínimos: distância, UF, status, tipo de seleção e período de inscrição.
+- [x] Definir filtros mínimos: distância, UF, status, tipo de seleção e período de inscrição.
 - [x] Manter `urlPCI` como fonte do link externo de cada cartão/popup.
 
 ### 3. Construir a interface React de mapa
@@ -142,4 +142,4 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 ## Próxima tarefa recomendada
 
-Definir os filtros mínimos para a interface: distância, UF, status, tipo de seleção e período de inscrição.
+Iniciar a interface React do mapa, começando pela escolha do stack de visualização e pelo esqueleto da tela com carregamento de `pontos-mapa.json`.
