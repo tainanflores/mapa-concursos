@@ -10,6 +10,7 @@ import {
 
 import "leaflet/dist/leaflet.css";
 import "./App.css";
+import { filtrarPinsMapa } from "../../src/filtros-mapa.js";
 import { calcularDistanciaPorRota } from "./rotas.js";
 
 const CENTRO_DO_BRASIL = [-14.235, -51.9253];
@@ -20,6 +21,15 @@ const ROTULOS_TIPO_SELECAO = {
   selecao_publica: "Seleção pública",
   misto: "Concurso e processo seletivo",
   indefinido: "Não informado",
+};
+
+const FILTROS_INICIAIS = {
+  distanciaMaximaKm: "",
+  uf: "",
+  status: "",
+  tipoSelecao: "",
+  inscricoesEmAndamento: false,
+  inscricaoAte: "",
 };
 
 function normalizarTexto(texto) {
@@ -60,6 +70,34 @@ function formatarDistancia(distanciaMetros) {
   }).format(distanciaMetros / 1000);
 }
 
+function agruparPinsPorMunicipio(pins) {
+  const grupos = new Map();
+
+  for (const pin of pins) {
+    const grupo = grupos.get(pin.codigoIbge);
+
+    if (grupo) {
+      grupo.concursos.push(pin);
+      continue;
+    }
+
+    grupos.set(pin.codigoIbge, {
+      codigoIbge: pin.codigoIbge,
+      cidade: pin.cidade,
+      uf: pin.uf,
+      latitude: pin.latitude,
+      longitude: pin.longitude,
+      distanciaKm: pin.distanciaKm,
+      concursos: [pin],
+    });
+  }
+
+  return [...grupos.values()].map((grupo) => ({
+    ...grupo,
+    totalConcursos: grupo.concursos.length,
+  }));
+}
+
 function RecentrarMapa({ localizacao }) {
   const mapa = useMap();
 
@@ -95,8 +133,13 @@ function DetalhesConcurso({
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-detalhes">
-          <button className="fechar-detalhes" type="button" onClick={aoFechar}>
-            Fechar ×
+          <button
+            className="fechar-detalhes"
+            type="button"
+            aria-label="Fechar detalhes"
+            onClick={aoFechar}
+          >
+            ×
           </button>
           <p className="sobretitulo">Detalhes do concurso</p>
           <h2 id="titulo-detalhes">{concurso.titulo}</h2>
@@ -203,9 +246,8 @@ function App() {
   const [erro, setErro] = useState(null);
   const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
   const [centroMapa, setCentroMapa] = useState(null);
-  const [mensagemLocalizacao, setMensagemLocalizacao] = useState(null);
+  const [notificacao, setNotificacao] = useState(null);
   const [cidadePesquisada, setCidadePesquisada] = useState("");
-  const [mensagemBusca, setMensagemBusca] = useState(null);
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false);
   const [cidadeSelecionada, setCidadeSelecionada] = useState(null);
   const [detalheSelecionado, setDetalheSelecionado] = useState(null);
@@ -213,9 +255,12 @@ function App() {
   const [calculandoRota, setCalculandoRota] = useState(false);
   const [erroRota, setErroRota] = useState(null);
   const [emTelaCheia, setEmTelaCheia] = useState(false);
+  const [filtros, setFiltros] = useState(FILTROS_INICIAIS);
+  const [filtrosAbertos, setFiltrosAbertos] = useState(false);
   const areaMapaRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
+  const temporizadorNotificacaoRef = useRef(null);
 
   useEffect(() => {
     async function carregarDados() {
@@ -247,6 +292,11 @@ function App() {
     carregarDados();
   }, []);
 
+  useEffect(
+    () => () => clearTimeout(temporizadorNotificacaoRef.current),
+    [],
+  );
+
   useEffect(() => {
     function atualizarTelaCheia() {
       setEmTelaCheia(document.fullscreenElement === areaMapaRef.current);
@@ -274,20 +324,84 @@ function App() {
       .slice(0, 10);
   }, [cidadePesquisada, municipios]);
 
+  const pinsParaFiltrar = useMemo(
+    () => pontos.flatMap((ponto) => ponto.concursos),
+    [pontos],
+  );
+
+  const pinsFiltrados = useMemo(() => {
+    const hoje = new Date().toISOString().slice(0, 10);
+
+    return filtrarPinsMapa(pinsParaFiltrar, {
+      latitude: centroMapa?.latitude,
+      longitude: centroMapa?.longitude,
+      distanciaMaximaKm:
+        centroMapa && filtros.distanciaMaximaKm
+          ? Number(filtros.distanciaMaximaKm)
+          : undefined,
+      uf: filtros.uf || undefined,
+      status: filtros.status || undefined,
+      tipoSelecao: filtros.tipoSelecao || undefined,
+      inscricaoDe: filtros.inscricoesEmAndamento ? hoje : undefined,
+      inscricaoAte: filtros.inscricaoAte || undefined,
+    });
+  }, [centroMapa, filtros, pinsParaFiltrar]);
+
+  const pontosFiltrados = useMemo(
+    () => agruparPinsPorMunicipio(pinsFiltrados),
+    [pinsFiltrados],
+  );
+
+  const ufsDisponiveis = useMemo(
+    () => [...new Set(pinsParaFiltrar.map((pin) => pin.uf))].sort(),
+    [pinsParaFiltrar],
+  );
+
+  const filtrosAtivos =
+    filtros.distanciaMaximaKm ||
+    filtros.uf ||
+    filtros.status ||
+    filtros.tipoSelecao ||
+    filtros.inscricoesEmAndamento ||
+    filtros.inscricaoAte;
+
+  const quantidadeFiltrosAtivos = [
+    filtros.distanciaMaximaKm,
+    filtros.uf,
+    filtros.status,
+    filtros.tipoSelecao,
+    filtros.inscricoesEmAndamento,
+    filtros.inscricaoAte,
+  ].filter(Boolean).length;
+
+  function alterarFiltro(campo, valor) {
+    setFiltros((filtrosAtuais) => ({
+      ...filtrosAtuais,
+      [campo]: valor,
+    }));
+  }
+
+  function mostrarNotificacao(mensagem) {
+    clearTimeout(temporizadorNotificacaoRef.current);
+    setNotificacao(mensagem);
+
+    temporizadorNotificacaoRef.current = setTimeout(() => {
+      setNotificacao(null);
+    }, 5_000);
+  }
+
   function usarMinhaLocalizacao() {
     if (!window.isSecureContext) {
-      setMensagemLocalizacao(
+      mostrarNotificacao(
         "A localização exige HTTPS neste celular. Use a busca por cidade durante este teste na rede local.",
       );
       return;
     }
 
     if (!navigator.geolocation) {
-      setMensagemLocalizacao("Seu navegador não oferece suporte à geolocalização.");
+      mostrarNotificacao("Seu navegador não oferece suporte à geolocalização.");
       return;
     }
-
-    setMensagemLocalizacao("Obtendo sua localização...");
 
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
@@ -299,10 +413,10 @@ function App() {
         setLocalizacaoUsuario(novaLocalizacao);
         setCentroMapa(novaLocalizacao);
         setCidadeSelecionada(null);
-        setMensagemLocalizacao("Mapa centralizado na sua localização.");
+        setNotificacao(null);
       },
       () => {
-        setMensagemLocalizacao(
+        mostrarNotificacao(
           "Não foi possível obter sua localização. Busque uma cidade para centralizar o mapa.",
         );
       },
@@ -310,27 +424,10 @@ function App() {
     );
   }
 
-  function buscarCidade(evento) {
-    evento.preventDefault();
-
-    if (sugestoesDeCidade.length === 0) {
-      setMensagemBusca("Cidade não encontrada. Informe o nome e a UF, por exemplo: Capanema - PR.");
-      return;
-    }
-
-    const cidade = sugestoesDeCidade[0];
-    setCentroMapa(cidade);
-    setCidadeSelecionada(cidade);
-    setCidadePesquisada(`${cidade.cidade} - ${cidade.uf}`);
-    setMostrarSugestoes(false);
-    setMensagemBusca(`Mapa centralizado em ${cidade.cidade}/${cidade.uf}.`);
-  }
-
   function selecionarCidade(municipio) {
     setCidadePesquisada(`${municipio.cidade} - ${municipio.uf}`);
     setCentroMapa(municipio);
     setCidadeSelecionada(municipio);
-    setMensagemBusca(`Mapa centralizado em ${municipio.cidade}/${municipio.uf}.`);
     setMostrarSugestoes(false);
   }
 
@@ -399,47 +496,217 @@ function App() {
       }
 
       if (!areaMapaRef.current?.requestFullscreen) {
-        setMensagemBusca("Seu navegador não oferece suporte ao modo de tela cheia.");
+        mostrarNotificacao("Seu navegador não oferece suporte ao modo de tela cheia.");
         return;
       }
 
       await areaMapaRef.current.requestFullscreen();
     } catch {
-      setMensagemBusca("Não foi possível ativar a tela cheia neste navegador.");
+      mostrarNotificacao("Não foi possível ativar a tela cheia neste navegador.");
     }
   }
 
   return (
-    <main>
-      <header>
-        <div>
-          <p className="sobretitulo">Mapa de Concursos</p>
-          <h1>Concursos próximos de você</h1>
-          <p>{pontos.length} municípios com oportunidades localizadas.</p>
+    <main className="app">
+      <header className="cabecalho-principal">
+        <div className="marca">
+          <span className="marca-icone" aria-hidden="true">⌖</span>
+          <div>
+            <p className="sobretitulo">Mapa de Concursos</p>
+            <h1>Oportunidades perto de você</h1>
+          </div>
         </div>
 
-        <div className="acoes-localizacao">
-          <button type="button" onClick={usarMinhaLocalizacao}>
-            Usar minha localização
+        <div className="acoes-principais">
+          <button
+            className="botao-filtros"
+            type="button"
+            aria-expanded={filtrosAbertos}
+            aria-label="Abrir filtros"
+            onClick={() => setFiltrosAbertos(true)}
+          >
+            <span className="icone-menu" aria-hidden="true">☰</span>
+            {quantidadeFiltrosAtivos > 0 && <span>{quantidadeFiltrosAtivos}</span>}
           </button>
-          <form className="busca-cidade" onSubmit={buscarCidade}>
-            <label htmlFor="cidade">ou busque uma cidade</label>
-            <div>
-              <input
-                id="cidade"
-                type="search"
-                value={cidadePesquisada}
-                onChange={({ target }) => {
-                  setCidadePesquisada(target.value);
-                  setMensagemBusca(null);
-                  setMostrarSugestoes(true);
-                }}
-                onFocus={() => setMostrarSugestoes(true)}
-                placeholder="Ex.: Capanema - PR"
-                autoComplete="off"
-              />
-              <button type="submit">Buscar</button>
+        </div>
+      </header>
+
+      <section className="busca-principal" aria-label="Buscar cidade">
+        <div className="busca-cidade">
+          <label className="visualmente-oculto" htmlFor="cidade">Cidade e UF</label>
+          <div>
+            <input
+              id="cidade"
+              type="search"
+              value={cidadePesquisada}
+              onChange={({ target }) => {
+                setCidadePesquisada(target.value);
+                setMostrarSugestoes(true);
+              }}
+              onFocus={() => setMostrarSugestoes(true)}
+              placeholder="Digite sua cidade (ex.: Capanema/PR)"
+              autoComplete="off"
+            />
+          </div>
+          {mostrarSugestoes && sugestoesDeCidade.length > 0 && (
+            <ul className="sugestoes-cidade" role="listbox">
+              {sugestoesDeCidade.map((municipio) => (
+                <li key={municipio.codigoIbge}>
+                  <button
+                    type="button"
+                    onMouseDown={(evento) => evento.preventDefault()}
+                    onClick={() => selecionarCidade(municipio)}
+                  >
+                    {municipio.cidade} - {municipio.uf}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </section>
+
+      {filtrosAbertos && (
+        <div className="sobreposicao-filtros" onMouseDown={() => setFiltrosAbertos(false)}>
+          <aside
+            className="gaveta-filtros"
+            aria-labelledby="titulo-filtros"
+            onMouseDown={(evento) => evento.stopPropagation()}
+          >
+            <div className="cabecalho-filtros">
+              <div>
+                <p className="sobretitulo">Refine sua busca</p>
+                <h2 id="titulo-filtros">Filtros</h2>
+              </div>
+              <button
+                className="botao-fechar-filtros"
+                type="button"
+                aria-label="Fechar filtros"
+                onClick={() => setFiltrosAbertos(false)}
+              >
+                ×
+              </button>
             </div>
+
+            <div className="resumo-filtros" aria-live="polite">
+              <strong>{pinsFiltrados.length} concursos</strong>
+              <span>em {pontosFiltrados.length} municípios</span>
+              {centroMapa && <small>Ordenados por distância em linha reta.</small>}
+            </div>
+
+            <div className="campos-filtros">
+              <label>
+                Raio de busca
+                <select
+                  value={filtros.distanciaMaximaKm}
+                  disabled={!centroMapa}
+                  onChange={({ target }) => alterarFiltro("distanciaMaximaKm", target.value)}
+                >
+                  <option value="">Sem limite</option>
+                  <option value="25">Até 25 km</option>
+                  <option value="50">Até 50 km</option>
+                  <option value="100">Até 100 km</option>
+                  <option value="250">Até 250 km</option>
+                  <option value="500">Até 500 km</option>
+                </select>
+                {!centroMapa && <small>Defina uma origem para usar o raio.</small>}
+              </label>
+
+              <label>
+                UF
+                <select value={filtros.uf} onChange={({ target }) => alterarFiltro("uf", target.value)}>
+                  <option value="">Todas as UFs</option>
+                  {ufsDisponiveis.map((uf) => <option key={uf} value={uf}>{uf}</option>)}
+                </select>
+              </label>
+
+              <label>
+                Situação
+                <select value={filtros.status} onChange={({ target }) => alterarFiltro("status", target.value)}>
+                  <option value="">Todos os status</option>
+                  <option value="aberto">Abertos</option>
+                  <option value="encerrado">Encerrados</option>
+                </select>
+              </label>
+
+              <label>
+                Modalidade
+                <select value={filtros.tipoSelecao} onChange={({ target }) => alterarFiltro("tipoSelecao", target.value)}>
+                  <option value="">Todas as modalidades</option>
+                  {Object.entries(ROTULOS_TIPO_SELECAO).map(([tipo, rotulo]) => (
+                    <option key={tipo} value={tipo}>{rotulo}</option>
+                  ))}
+                </select>
+              </label>
+
+              <label>
+                Prazo de inscrição até
+                <input
+                  type="date"
+                  value={filtros.inscricaoAte}
+                  onChange={({ target }) => alterarFiltro("inscricaoAte", target.value)}
+                />
+              </label>
+
+              <label className="campo-checkbox">
+                <input
+                  type="checkbox"
+                  checked={filtros.inscricoesEmAndamento}
+                  onChange={({ target }) => alterarFiltro("inscricoesEmAndamento", target.checked)}
+                />
+                <span>Somente prazo de inscrição não encerrado</span>
+              </label>
+            </div>
+
+            <div className="rodape-filtros">
+              {filtrosAtivos && (
+                <button className="botao-secundario" type="button" onClick={() => setFiltros(FILTROS_INICIAIS)}>
+                  Limpar filtros
+                </button>
+              )}
+              <button type="button" onClick={() => setFiltrosAbertos(false)}>
+                Ver {pinsFiltrados.length} concursos
+              </button>
+            </div>
+          </aside>
+        </div>
+      )}
+
+      {erro ? (
+        <p className="erro" role="alert">{erro}</p>
+      ) : (
+        <div className="area-mapa" ref={areaMapaRef}>
+          {notificacao && (
+            <p className="notificacao-mapa" role="status">
+              {notificacao}
+            </p>
+          )}
+          <button className="botao-tela-cheia" type="button" onClick={alternarTelaCheia}>
+            {emTelaCheia ? "Sair da tela cheia" : "Tela cheia"}
+          </button>
+          <button
+            className="botao-localizacao-mapa"
+            type="button"
+            title="Usar minha localização"
+            aria-label="Usar minha localização"
+            onClick={usarMinhaLocalizacao}
+          >
+            ⌖
+          </button>
+          <div className="busca-tela-cheia">
+            <label className="visualmente-oculto" htmlFor="cidade-tela-cheia">Cidade e UF</label>
+            <input
+              id="cidade-tela-cheia"
+              type="search"
+              value={cidadePesquisada}
+              onChange={({ target }) => {
+                setCidadePesquisada(target.value);
+                setMostrarSugestoes(true);
+              }}
+              onFocus={() => setMostrarSugestoes(true)}
+              placeholder="Digite sua cidade (ex.: Capanema/PR)"
+              autoComplete="off"
+            />
             {mostrarSugestoes && sugestoesDeCidade.length > 0 && (
               <ul className="sugestoes-cidade" role="listbox">
                 {sugestoesDeCidade.map((municipio) => (
@@ -455,20 +722,7 @@ function App() {
                 ))}
               </ul>
             )}
-          </form>
-        </div>
-      </header>
-
-      {mensagemLocalizacao && <p className="mensagem" role="status">{mensagemLocalizacao}</p>}
-      {mensagemBusca && <p className="mensagem" role="status">{mensagemBusca}</p>}
-
-      {erro ? (
-        <p className="erro" role="alert">{erro}</p>
-      ) : (
-        <div className="area-mapa" ref={areaMapaRef}>
-          <button className="botao-tela-cheia" type="button" onClick={alternarTelaCheia}>
-            {emTelaCheia ? "Sair da tela cheia" : "Tela cheia"}
-          </button>
+          </div>
           <MapContainer center={CENTRO_DO_BRASIL} zoom={4} scrollWheelZoom>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -497,11 +751,16 @@ function App() {
               </CircleMarker>
             )}
 
-            {pontos.map((ponto) => (
+            {pontosFiltrados.map((ponto) => (
               <Marker key={ponto.codigoIbge} position={[ponto.latitude, ponto.longitude]}>
-              <Popup minWidth={260} closeOnClick={false}>
+              <Popup minWidth={260} maxWidth={360} closeOnClick={false}>
                   <strong>{ponto.cidade}/{ponto.uf}</strong>
                   <p>{ponto.totalConcursos} concurso(s) encontrado(s)</p>
+                  {ponto.distanciaKm !== null && (
+                    <p className="distancia-em-linha-reta">
+                      {ponto.distanciaKm.toFixed(1).replace(".", ",")} km em linha reta
+                    </p>
+                  )}
                   <ul className="lista-concursos">
                     {ponto.concursos.map((concurso) => (
                       <li key={concurso.id}>
@@ -525,6 +784,11 @@ function App() {
               </Marker>
             ))}
           </MapContainer>
+          {pontosFiltrados.length === 0 && (
+            <p className="sem-resultados" role="status">
+              Nenhum concurso encontrado com os filtros atuais.
+            </p>
+          )}
           <DetalhesConcurso
             concurso={detalheSelecionado?.concurso}
             destino={detalheSelecionado?.destino}

@@ -13,12 +13,5 @@ body {
 }
 
 button {
-  border: 0;
-  border-radius: 8px;
-  padding: 0.8rem 1rem;
-  background: #0b6e4f;
-  color: white;
   font: inherit;
-  font-weight: 700;
-  cursor: pointer;
 }
