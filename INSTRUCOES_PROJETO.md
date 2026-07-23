@@ -93,40 +93,49 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 3. Antes de criar uma regra, avaliar falsos positivos e registrar um teste de regressão.
 4. Não rebaixar uma classificação existente: lotação, prova e menção têm semânticas distintas.
 5. Rodar `npm run extrair` para mudanças de listagem e `npm run atualizar` para mudanças de enriquecimento.
-6. Após o fluxo completo, conferir `concursos.json`; atualmente `resumo.json` é produzido antes do enriquecimento e precisa ser sincronizado em etapa futura.
+6. Após o fluxo completo, conferir se `concursos.json` e `resumo.json` possuem os mesmos totais de localizados e pendentes.
 
 ## Roadmap
 
+### Concluído
+
+- [x] Extrair concursos abertos e encerrados da listagem, com status e tipo de seleção.
+- [x] Localizar municípios pela listagem, inclusive em nomes oficiais de instituições.
+- [x] Enriquecer concursos pendentes pelas notícias do PCI.
+- [x] Classificar localidades por lotação, sede, prova, inscrição e menção, preservando a prioridade.
+- [x] Exibir menções somente quando não existir localização mais útil na notícia.
+- [x] Documentar o contrato de dados, regras de extração e visão da interface de mapa.
+
 ### 1. Consolidar a coleta e o contrato de dados
 
-- Atualizar `resumo.json` após o enriquecimento, para refletir o resultado final de `concursos.json`.
-- Criar testes automatizados com `node:test` para municípios, classificação e prioridades.
-- Incluir, de forma explícita, `abrangencia` ou `motivoSemCidade` nos concursos ainda sem município.
-- Continuar adicionando regras específicas somente quando uma notícia real justificar a regra e houver teste de regressão.
+- [x] Atualizar `resumo.json` após o enriquecimento, para refletir o resultado final de `concursos.json`.
+- [x] Criar testes automatizados com `node:test` para municípios, classificação e prioridades.
+- [ ] Incluir, de forma explícita, `abrangencia` ou `motivoSemCidade` nos concursos ainda sem município.
+- [ ] Continuar adicionando regras específicas somente quando uma notícia real justificar a regra e houver teste de regressão.
 
 ### 2. Preparar uma API de dados para a interface
 
-- Definir um seletor/transformador que entregue apenas localidades com `exibirNoMapa: true`.
-- Decidir como agrupar múltiplos concursos no mesmo município.
-- Definir filtros mínimos: distância, UF, status, tipo de seleção e período de inscrição.
-- Manter `urlPCI` como fonte do link externo de cada cartão/popup.
+- [ ] Definir um seletor/transformador que entregue apenas localidades com `exibirNoMapa: true`.
+- [ ] Decidir como agrupar múltiplos concursos no mesmo município.
+- [ ] Definir filtros mínimos: distância, UF, status, tipo de seleção e período de inscrição.
+- [x] Manter `urlPCI` como fonte do link externo de cada cartão/popup.
 
 ### 3. Construir a interface React de mapa
 
-- Solicitar geolocalização com `navigator.geolocation` apenas após ação da pessoa usuária.
-- Prever estado de permissão negada e uma localização manual como alternativa.
-- Renderizar pins com latitude e longitude das `localidades` exibíveis.
-- Calcular e ordenar a proximidade em relação à localização da pessoa usuária.
-- Ao clicar em um pin, mostrar órgão, título, status, tipo de seleção, inscrição, vagas, salário, cidade, tipo da localidade e o link **Mais detalhes** para `urlPCI`.
-- Exibir concursos sem município em lista separada; não colocá-los arbitrariamente no mapa.
+- [ ] Solicitar geolocalização com `navigator.geolocation` apenas após ação da pessoa usuária.
+- [ ] Prever estado de permissão negada e uma localização manual como alternativa.
+- [ ] Renderizar pins com latitude e longitude das `localidades` exibíveis.
+- [ ] Calcular e ordenar a proximidade em relação à localização da pessoa usuária.
+- [ ] Ao clicar em um pin, mostrar órgão, título, status, tipo de seleção, inscrição, vagas, salário, cidade, tipo da localidade e o link **Mais detalhes** para `urlPCI`.
+- [ ] Exibir concursos sem município em lista separada; não colocá-los arbitrariamente no mapa.
 
 ### 4. Qualidade da experiência e publicação
 
-- Tratar agrupamento de pins próximos e acessibilidade do popup.
-- Exibir data/hora da última atualização dos dados.
-- Configurar atualização periódica no ambiente de publicação.
-- Monitorar alterações no HTML do PCI e falhas de extração.
+- [ ] Tratar agrupamento de pins próximos e acessibilidade do popup.
+- [ ] Exibir data/hora da última atualização dos dados.
+- [ ] Configurar atualização periódica no ambiente de publicação.
+- [ ] Monitorar alterações no HTML do PCI e falhas de extração.
 
 ## Próxima tarefa recomendada
 
-Sincronizar `public/data/resumo.json` após o enriquecimento e criar os primeiros testes automatizados das regras já validadas. Isso estabiliza a camada de dados antes de iniciar a interface React com mapa.
+Definir e incluir `abrangencia` ou `motivoSemCidade` nos concursos sem município, sem criar pins geográficos artificiais.

@@ -128,7 +128,7 @@ function pareceLocalDaVaga(texto, cidade) {
   );
 }
 
-function classificarContexto(texto, cidade, uf, origemElemento) {
+export function classificarContexto(texto, cidade, uf, origemElemento) {
   const contexto = normalizarTexto(extrairContextoProximo(texto, cidade));
 
   const contem = (...radicais) =>

@@ -5,6 +5,7 @@ import { carregarMunicipios } from "./municipios.js";
 import { extrairLocalidadesDaNoticia } from "./extrair-noticia.js";
 
 const CAMINHO_CONCURSOS = "public/data/concursos.json";
+const CAMINHO_RESUMO = "public/data/resumo.json";
 
 const INTERVALO_REQUISICOES_MS = 800;
 
@@ -16,6 +17,30 @@ function aguardar(milisegundos) {
 
 function deveEnriquecer(concurso) {
   return concurso.localizacaoPendente === true;
+}
+
+function criarResumo(concursos) {
+  const localizados = concursos.filter(
+    (concurso) => !concurso.localizacaoPendente,
+  );
+
+  const pendentes = concursos.filter(
+    (concurso) => concurso.localizacaoPendente,
+  );
+
+  const porSecao = concursos.reduce((resultado, concurso) => {
+    resultado[concurso.secao] = (resultado[concurso.secao] ?? 0) + 1;
+
+    return resultado;
+  }, {});
+
+  return {
+    geradoEm: new Date().toISOString(),
+    total: concursos.length,
+    localizados: localizados.length,
+    pendentes: pendentes.length,
+    porSecao,
+  };
 }
 
 function possuiLocalidadeUtil(localidades) {
@@ -183,11 +208,13 @@ export async function enriquecerConcursos() {
     await aguardar(INTERVALO_REQUISICOES_MS);
   }
 
-  await writeFile(
-    CAMINHO_CONCURSOS,
-    JSON.stringify(resultado, null, 2),
-    "utf8",
-  );
+  const resumo = criarResumo(resultado);
+
+  await Promise.all([
+    writeFile(CAMINHO_CONCURSOS, JSON.stringify(resultado, null, 2), "utf8"),
+
+    writeFile(CAMINHO_RESUMO, JSON.stringify(resumo, null, 2), "utf8"),
+  ]);
 
   console.log("");
   console.log("Enriquecimento concluído.");
@@ -197,6 +224,10 @@ export async function enriquecerConcursos() {
   console.log(`Enriquecidos: ${enriquecidos}`);
 
   console.log(`Erros: ${erros}`);
+
+  console.log(`Localizados no total: ${resumo.localizados}`);
+
+  console.log(`Pendentes no total: ${resumo.pendentes}`);
 
   return resultado;
 }

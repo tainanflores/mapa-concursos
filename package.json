@@ -9,7 +9,8 @@
     "baixar:pci": "node src/baixar-pci.js",
     "extrair": "node src/extrair-listagem.js",
     "atualizar": "node src/atualizar.js",
-    "testar:noticia": "node src/testar-noticia.js"
+    "testar:noticia": "node src/testar-noticia.js",
+    "test": "node --test"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
