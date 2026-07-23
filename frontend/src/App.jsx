@@ -10,6 +10,7 @@ import {
 
 import "leaflet/dist/leaflet.css";
 import "./App.css";
+import { calcularDistanciaPorRota } from "./rotas.js";
 
 const CENTRO_DO_BRASIL = [-14.235, -51.9253];
 
@@ -52,6 +53,13 @@ function formatarSalario(valor) {
   }).format(valor);
 }
 
+function formatarDistancia(distanciaMetros) {
+  return new Intl.NumberFormat("pt-BR", {
+    maximumFractionDigits: 1,
+    minimumFractionDigits: 1,
+  }).format(distanciaMetros / 1000);
+}
+
 function RecentrarMapa({ localizacao }) {
   const mapa = useMap();
 
@@ -64,7 +72,15 @@ function RecentrarMapa({ localizacao }) {
   return null;
 }
 
-function DetalhesConcurso({ concurso, aoFechar }) {
+function DetalhesConcurso({
+  concurso,
+  destino,
+  distanciaRota,
+  calculandoRota,
+  erroRota,
+  possuiOrigem,
+  aoFechar,
+}) {
   if (!concurso) return null;
 
   const localidades = concurso.localidades ?? [];
@@ -86,6 +102,16 @@ function DetalhesConcurso({ concurso, aoFechar }) {
           <h2 id="titulo-detalhes">{concurso.titulo}</h2>
         </div>
         <p className="orgao">{concurso.orgao}</p>
+
+        <div className="distancia-rota">
+          <strong>Distância por rota até {destino.cidade}/{destino.uf}</strong>
+          {!possuiOrigem && <p>Defina sua localização ou busque uma cidade para calcular.</p>}
+          {possuiOrigem && calculandoRota && <p>Calculando rota...</p>}
+          {possuiOrigem && distanciaRota !== null && (
+            <p>{formatarDistancia(distanciaRota)} km de carro</p>
+          )}
+          {possuiOrigem && erroRota && <p>{erroRota}</p>}
+        </div>
 
         <dl className="dados-concurso">
           <div>
@@ -182,9 +208,14 @@ function App() {
   const [mensagemBusca, setMensagemBusca] = useState(null);
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false);
   const [cidadeSelecionada, setCidadeSelecionada] = useState(null);
-  const [concursoSelecionado, setConcursoSelecionado] = useState(null);
+  const [detalheSelecionado, setDetalheSelecionado] = useState(null);
+  const [distanciaRota, setDistanciaRota] = useState(null);
+  const [calculandoRota, setCalculandoRota] = useState(false);
+  const [erroRota, setErroRota] = useState(null);
   const [emTelaCheia, setEmTelaCheia] = useState(false);
   const areaMapaRef = useRef(null);
+  const cacheRotasRef = useRef(new Map());
+  const solicitacaoRotaRef = useRef(0);
 
   useEffect(() => {
     async function carregarDados() {
@@ -301,6 +332,63 @@ function App() {
     setCidadeSelecionada(municipio);
     setMensagemBusca(`Mapa centralizado em ${municipio.cidade}/${municipio.uf}.`);
     setMostrarSugestoes(false);
+  }
+
+  async function abrirDetalhes(pin) {
+    const concurso = concursosPorId.get(pin.concursoId) ?? pin;
+    const solicitacaoAtual = solicitacaoRotaRef.current + 1;
+
+    solicitacaoRotaRef.current = solicitacaoAtual;
+    setDetalheSelecionado({ concurso, destino: pin });
+    setDistanciaRota(null);
+    setErroRota(null);
+
+    if (!centroMapa) {
+      setCalculandoRota(false);
+      return;
+    }
+
+    const chave = [
+      centroMapa.latitude,
+      centroMapa.longitude,
+      pin.latitude,
+      pin.longitude,
+    ].join(":");
+
+    const distanciaEmCache = cacheRotasRef.current.get(chave);
+
+    if (distanciaEmCache !== undefined) {
+      setCalculandoRota(false);
+      setDistanciaRota(distanciaEmCache);
+      return;
+    }
+
+    setCalculandoRota(true);
+
+    try {
+      const distancia = await calcularDistanciaPorRota({
+        origem: centroMapa,
+        destino: pin,
+      });
+
+      cacheRotasRef.current.set(chave, distancia);
+
+      if (solicitacaoRotaRef.current === solicitacaoAtual) {
+        setDistanciaRota(distancia);
+      }
+    } catch (erro) {
+      if (solicitacaoRotaRef.current === solicitacaoAtual) {
+        setErroRota(
+          erro instanceof Error
+            ? erro.message
+            : "Não foi possível calcular a rota neste momento.",
+        );
+      }
+    } finally {
+      if (solicitacaoRotaRef.current === solicitacaoAtual) {
+        setCalculandoRota(false);
+      }
+    }
   }
 
   async function alternarTelaCheia() {
@@ -421,14 +509,12 @@ function App() {
                         <span>{concurso.titulo}</span>
                         <button
                           className="botao-detalhes"
-                          type="button"
-                          onMouseDown={(evento) => evento.stopPropagation()}
-                          onClick={(evento) => {
-                            evento.stopPropagation();
-                            setConcursoSelecionado(
-                              concursosPorId.get(concurso.concursoId) ?? concurso,
-                            );
-                          }}
+                        type="button"
+                        onMouseDown={(evento) => evento.stopPropagation()}
+                        onClick={(evento) => {
+                          evento.stopPropagation();
+                          abrirDetalhes(concurso);
+                        }}
                         >
                           Mais detalhes
                         </button>
@@ -440,8 +526,16 @@ function App() {
             ))}
           </MapContainer>
           <DetalhesConcurso
-            concurso={concursoSelecionado}
-            aoFechar={() => setConcursoSelecionado(null)}
+            concurso={detalheSelecionado?.concurso}
+            destino={detalheSelecionado?.destino}
+            distanciaRota={distanciaRota}
+            calculandoRota={calculandoRota}
+            erroRota={erroRota}
+            possuiOrigem={centroMapa !== null}
+            aoFechar={() => {
+              solicitacaoRotaRef.current += 1;
+              setDetalheSelecionado(null);
+            }}
           />
         </div>
       )}
