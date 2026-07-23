@@ -8,7 +8,8 @@
     "baixar:municipios": "node src/baixar-municipios.js",
     "baixar:pci": "node src/baixar-pci.js",
     "extrair": "node src/extrair-listagem.js",
-    "atualizar": "node src/atualizar.js"
+    "atualizar": "node src/atualizar.js",
+    "testar:noticia": "node src/testar-noticia.js"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

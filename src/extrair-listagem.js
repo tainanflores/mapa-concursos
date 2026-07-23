@@ -57,6 +57,44 @@ function obterUf(secao, textoUf) {
   return UF_POR_SECAO[normalizarTexto(secao)] ?? null;
 }
 
+function identificarTipoSelecao(...textos) {
+  const texto = normalizarTexto(textos.filter(Boolean).join(" "));
+
+  const temConcurso =
+    texto.includes("concurso publico") || texto.includes("concursos publicos");
+
+  const temProcessoSeletivo =
+    texto.includes("processo seletivo") ||
+    texto.includes("processos seletivos");
+
+  if (temConcurso && temProcessoSeletivo) {
+    return "misto";
+  }
+
+  if (temProcessoSeletivo) {
+    return "processo_seletivo";
+  }
+
+  if (
+    temConcurso ||
+    texto.includes("concurso") ||
+    texto.includes("concursos")
+  ) {
+    return "concurso_publico";
+  }
+
+  if (
+    texto.includes("selecao publica") ||
+    texto.includes("selecao simplificada") ||
+    texto.includes("selecao para") ||
+    texto.includes("abre selecao")
+  ) {
+    return "selecao_publica";
+  }
+
+  return "indefinido";
+}
+
 function extrairDetalhes($, conteudo) {
   const bloco = conteudo.children(".cd").first();
 
@@ -88,6 +126,7 @@ function localizarMunicipio({ orgao, titulo, uf, municipios }) {
     texto,
     uf,
     municipios,
+    permitirNomeInstituicao: true,
   });
 }
 
@@ -102,7 +141,7 @@ export async function extrairListagem() {
   const concursos = [];
   let secaoAtual = "Nacional";
 
-  $(".ua, .da, .na").each((_, elemento) => {
+  $(".ua, .da, .na, .ea").each((_, elemento) => {
     const bloco = $(elemento);
 
     if (bloco.hasClass("ua")) {
@@ -130,15 +169,25 @@ export async function extrairListagem() {
 
     const orgao = limparTexto(linkPrincipal.text());
 
+    const imagemPrincipal = conteudo.children(".cb").find("img").first();
+
+    const tituloLink = limparTexto(linkPrincipal.attr("title"));
+
+    const tituloImagem = limparTexto(imagemPrincipal.attr("title"));
+
     if (!orgao || !url) {
       return;
     }
 
-    const titulo =
-      limparTexto(linkPrincipal.attr("title")) ||
-      limparTexto(conteudo.children(".cb").find("img").first().attr("title")) ||
-      orgao;
+    const titulo = tituloLink || tituloImagem || orgao;
 
+    const tipoSelecao = identificarTipoSelecao(
+      tituloLink,
+      tituloImagem,
+      titulo,
+      orgao,
+      url,
+    );
     const uf = obterUf(secaoAtual, conteudo.children(".cc").text());
 
     const prazoTexto = limparTexto(conteudo.children(".ce").text());
@@ -152,15 +201,17 @@ export async function extrairListagem() {
       municipios,
     });
 
+    const status = bloco.hasClass("ea") ? "encerrado" : "aberto";
+
     concursos.push({
       id: criarIdPelaUrl(url),
       fonte: "PCI Concursos",
       classePCI: bloco.attr("class")?.trim() ?? null,
-      status: "aberto",
-
+      status,
       secao: secaoAtual,
       orgao,
       titulo,
+      tipoSelecao,
       urlPCI: url,
       uf,
 
