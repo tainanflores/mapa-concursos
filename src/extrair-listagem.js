@@ -15,6 +15,7 @@ import { carregarMunicipios, encontrarMunicipioNoTexto } from "./municipios.js";
 import {
   agruparPinsPorMunicipio,
   criarLocalidadesParaMapa,
+  criarMunicipiosParaBusca,
 } from "./dados-mapa.js";
 
 const CAMINHO_HTML = "data/pci-concursos.html";
@@ -22,6 +23,7 @@ const CAMINHO_SAIDA = "public/data/concursos.json";
 const CAMINHO_RESUMO = "public/data/resumo.json";
 const CAMINHO_LOCALIDADES_MAPA = "public/data/localidades.json";
 const CAMINHO_PONTOS_MAPA = "public/data/pontos-mapa.json";
+const CAMINHO_MUNICIPIOS = "public/data/municipios.json";
 
 const UF_POR_SECAO = {
   acre: "AC",
@@ -310,6 +312,7 @@ export async function extrairListagem() {
 
   const localidadesParaMapa = criarLocalidadesParaMapa(concursos);
   const pontosParaMapa = agruparPinsPorMunicipio(localidadesParaMapa);
+  const municipiosParaBusca = criarMunicipiosParaBusca(municipios);
 
   await mkdir("public/data", {
     recursive: true,
@@ -329,6 +332,12 @@ export async function extrairListagem() {
     writeFile(
       CAMINHO_PONTOS_MAPA,
       JSON.stringify(pontosParaMapa, null, 2),
+      "utf8",
+    ),
+
+    writeFile(
+      CAMINHO_MUNICIPIOS,
+      JSON.stringify(municipiosParaBusca, null, 2),
       "utf8",
     ),
   ]);

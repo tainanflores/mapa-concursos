@@ -28,6 +28,22 @@ export function criarLocalidadesParaMapa(concursos) {
   );
 }
 
+export function criarMunicipiosParaBusca(municipios) {
+  return municipios
+    .map((municipio) => ({
+      codigoIbge: municipio.codigoIbge,
+      cidade: municipio.nome,
+      uf: municipio.uf,
+      latitude: municipio.latitude,
+      longitude: municipio.longitude,
+    }))
+    .sort(
+      (a, b) =>
+        a.uf.localeCompare(b.uf, "pt-BR") ||
+        a.cidade.localeCompare(b.cidade, "pt-BR"),
+    );
+}
+
 export function agruparPinsPorMunicipio(pins) {
   const grupos = new Map();
 

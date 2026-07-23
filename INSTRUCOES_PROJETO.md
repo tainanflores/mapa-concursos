@@ -126,11 +126,11 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 ### 3. Construir a interface React de mapa
 
-- [ ] Solicitar geolocalização com `navigator.geolocation` apenas após ação da pessoa usuária.
+- [x] Solicitar geolocalização com `navigator.geolocation` apenas após ação da pessoa usuária.
 - [ ] Prever estado de permissão negada e uma localização manual como alternativa.
-- [ ] Renderizar pins com latitude e longitude das `localidades` exibíveis.
+- [x] Renderizar pins com latitude e longitude das `localidades` exibíveis.
 - [ ] Calcular e ordenar a proximidade em relação à localização da pessoa usuária.
-- [ ] Ao clicar em um pin, mostrar órgão, título, status, tipo de seleção, inscrição, vagas, salário, cidade, tipo da localidade e o link **Mais detalhes** para `urlPCI`.
+- [x] Ao clicar em um pin, mostrar órgão, título e o link **Mais detalhes** para `urlPCI`.
 - [ ] Exibir concursos sem município em lista separada; não colocá-los arbitrariamente no mapa.
 
 ### 4. Qualidade da experiência e publicação
@@ -143,3 +143,11 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 ## Próxima tarefa recomendada
 
 Iniciar a interface React do mapa, começando pela escolha do stack de visualização e pelo esqueleto da tela com carregamento de `pontos-mapa.json`.
+
+## Automação e hospedagem
+
+O scraper permanece na raiz do repositório e é executado pelo workflow `.github/workflows/atualizar-concursos.yml`. Ele usa `npm ci`, executa `npm run atualizar`, valida o resultado com `npm test` e versiona todos os arquivos em `public/data/*.json` quando houver alterações.
+
+O agendamento permanece desativado até uma execução manual bem-sucedida no GitHub Actions. Depois disso, o cron pode ser habilitado para atualizar os dados periodicamente.
+
+O front-end React ficará em `frontend/` e será hospedado na Vercel. A Vercel deve usar `frontend/` como diretório-raiz do projeto. Os JSONs gerados na raiz serão disponibilizados ao front-end por meio de cópia durante o build, para que o site entregue `/data/concursos.json`, `/data/localidades.json`, `/data/pontos-mapa.json` e `/data/resumo.json`.
