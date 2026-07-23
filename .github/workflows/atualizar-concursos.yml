@@ -37,17 +37,28 @@ jobs:
       - name: Executar testes
         run: npm test
 
+      - name: Verificar alterações efetivas nos dados
+        id: dados
+        run: |
+          mudou="$(node src/verificar-alteracoes-dados.js)"
+          echo "mudou=$mudou" >> "$GITHUB_OUTPUT"
+
       - name: Salvar mudanças
         run: |
+          if [ "${{ steps.dados.outputs.mudou }}" != "true" ]; then
+            echo "Nenhuma alteração efetiva nos dados. Nenhum commit será criado."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add public/data/*.json
 
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração encontrada."
+            echo "Nenhum arquivo de dados foi alterado."
             exit 0
           fi
 
-          git commit -m "Atualiza concursos automaticamente"
+          git commit -m "chore(dados): atualiza concursos automaticamente"
           git push
