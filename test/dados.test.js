@@ -51,3 +51,29 @@ test("localização principal respeita a maior prioridade disponível", () => {
     );
   }
 });
+
+test("pendências possuem abrangência sem receber localização artificial", () => {
+  const abrangenciasValidas = new Set([
+    "nacional",
+    "estadual",
+    "distrito_federal",
+    "indefinida",
+  ]);
+
+  for (const concurso of concursos) {
+    if (concurso.localizacaoPendente) {
+      assert.ok(abrangenciasValidas.has(concurso.abrangencia), concurso.orgao);
+      assert.equal(
+        concurso.motivoSemCidade,
+        "noticia_sem_municipio_confiavel",
+        concurso.orgao,
+      );
+      assert.equal(concurso.localizacao, null, concurso.orgao);
+
+      continue;
+    }
+
+    assert.equal(concurso.abrangencia, undefined, concurso.orgao);
+    assert.equal(concurso.motivoSemCidade, undefined, concurso.orgao);
+  }
+});

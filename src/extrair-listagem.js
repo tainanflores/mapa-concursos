@@ -57,6 +57,22 @@ function obterUf(secao, textoUf) {
   return UF_POR_SECAO[normalizarTexto(secao)] ?? null;
 }
 
+function obterAbrangenciaPendente(secao, uf) {
+  if (normalizarTexto(secao) === "nacional") {
+    return "nacional";
+  }
+
+  if (uf === "DF") {
+    return "distrito_federal";
+  }
+
+  if (uf) {
+    return "estadual";
+  }
+
+  return "indefinida";
+}
+
 function identificarTipoSelecao(...textos) {
   const texto = normalizarTexto(textos.filter(Boolean).join(" "));
 
@@ -251,6 +267,14 @@ export async function extrairListagem() {
         : [],
 
       localizacaoPendente: !municipio,
+
+      ...(!municipio
+        ? {
+            abrangencia: obterAbrangenciaPendente(secaoAtual, uf),
+            motivoSemCidade: "noticia_sem_municipio_confiavel",
+          }
+        : {}),
+
       coletadoEm: new Date().toISOString(),
     });
   });

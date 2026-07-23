@@ -46,6 +46,8 @@ npm run testar:noticia -- "URL_DA_NOTICIA" UF
 
 Cada concurso contém, entre outros, `id`, `orgao`, `titulo`, `urlPCI`, `uf`, `localizacao`, `localidades` e `localizacaoPendente`.
 
+Quando `localizacaoPendente` é `true`, o concurso também possui `abrangencia` (`nacional`, `estadual`, `distrito_federal` ou `indefinida`) e `motivoSemCidade`. Esses campos descrevem o escopo disponível sem criar uma localização ou pin artificial.
+
 Uma localidade contém `codigoIbge`, `cidade`, `uf`, `latitude`, `longitude`, `tipo`, `confianca`, `exibirNoMapa`, `contexto` e `contextos`.
 
 Tipos, prioridades e exibição:
@@ -110,7 +112,7 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 - [x] Atualizar `resumo.json` após o enriquecimento, para refletir o resultado final de `concursos.json`.
 - [x] Criar testes automatizados com `node:test` para municípios, classificação e prioridades.
-- [ ] Incluir, de forma explícita, `abrangencia` ou `motivoSemCidade` nos concursos ainda sem município.
+- [x] Incluir, de forma explícita, `abrangencia` ou `motivoSemCidade` nos concursos ainda sem município.
 - [ ] Continuar adicionando regras específicas somente quando uma notícia real justificar a regra e houver teste de regressão.
 
 ### 2. Preparar uma API de dados para a interface
@@ -138,4 +140,4 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 
 ## Próxima tarefa recomendada
 
-Definir e incluir `abrangencia` ou `motivoSemCidade` nos concursos sem município, sem criar pins geográficos artificiais.
+Definir um seletor/transformador que entregue somente localidades com `exibirNoMapa: true` para a futura interface de mapa.

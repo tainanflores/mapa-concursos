@@ -188,10 +188,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.108Z",
+    "coletadoEm": "2026-07-23T04:01:10.170Z",
     "publicadoEm": "2026-07-03T11:27:23-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:30.394Z"
+    "enriquecidoEm": "2026-07-23T04:01:13.741Z"
   },
   {
     "id": "ibge-retifica-edital-de-processo-seletivo-para-o-censo-agropecuario-florestal-e-aquicola",
@@ -234,7 +234,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.338Z"
+    "coletadoEm": "2026-07-23T04:01:10.401Z"
   },
   {
     "id": "ibge-divulga-retificacao-do-processo-seletivo-para-agente-e-analista-censitario",
@@ -259,10 +259,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.356Z",
+    "abrangencia": "nacional",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.420Z",
     "publicadoEm": "2026-07-21T10:50:49-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:32.085Z"
+    "enriquecidoEm": "2026-07-23T04:01:15.489Z"
   },
   {
     "id": "unicamp-sp-abre-concurso-para-pesquisador-na-area-de-ciencia-politica",
@@ -305,7 +307,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.376Z"
+    "coletadoEm": "2026-07-23T04:01:10.439Z"
   },
   {
     "id": "camara-de-maua-sp-republica-edital-de-concurso-publico-para-agentes-legislativos",
@@ -348,7 +350,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.380Z"
+    "coletadoEm": "2026-07-23T04:01:10.444Z"
   },
   {
     "id": "pm-sp-abre-concurso-com-2000-vagas-para-aluno-soldado",
@@ -372,10 +374,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.387Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.450Z",
     "publicadoEm": "2026-06-05T13:21:37-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:35.773Z"
+    "enriquecidoEm": "2026-07-23T04:01:16.981Z"
   },
   {
     "id": "prefeitura-de-andradina-sp-retifica-concurso-publico-com-salarios-de-ate-6566",
@@ -421,7 +425,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.390Z"
+    "coletadoEm": "2026-07-23T04:01:10.453Z"
   },
   {
     "id": "prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
@@ -464,7 +468,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.414Z"
+    "coletadoEm": "2026-07-23T04:01:10.478Z"
   },
   {
     "id": "tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo",
@@ -512,10 +516,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.419Z",
+    "coletadoEm": "2026-07-23T04:01:10.482Z",
     "publicadoEm": "2026-07-06T14:04:42-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:39.647Z"
+    "enriquecidoEm": "2026-07-23T04:01:18.533Z"
   },
   {
     "id": "camara-de-aruja-sp-retifica-concurso-publico-com-salarios-de-ate-15-6-mil",
@@ -560,7 +564,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.422Z"
+    "coletadoEm": "2026-07-23T04:01:10.486Z"
   },
   {
     "id": "camara-de-itarare-sp-abre-concurso-publico-para-controlador-interno",
@@ -603,7 +607,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.425Z"
+    "coletadoEm": "2026-07-23T04:01:10.489Z"
   },
   {
     "id": "camara-de-moncoes-sp-abre-concurso-publico-para-diretor-geral-e-controlador-interno",
@@ -646,7 +650,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.429Z"
+    "coletadoEm": "2026-07-23T04:01:10.492Z"
   },
   {
     "id": "camara-de-pirajui-sp-divulga-retificacao-de-concurso-publico-com-salarios-de-ate-5269",
@@ -690,7 +694,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.433Z"
+    "coletadoEm": "2026-07-23T04:01:10.497Z"
   },
   {
     "id": "camara-de-tabapua-sp-abre-concurso-publico-com-salarios-de-ate-6778",
@@ -735,7 +739,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.437Z"
+    "coletadoEm": "2026-07-23T04:01:10.500Z"
   },
   {
     "id": "camara-de-tupi-paulista-sp-abre-concurso-com-salarios-de-ate-8485",
@@ -779,7 +783,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.440Z"
+    "coletadoEm": "2026-07-23T04:01:10.504Z"
   },
   {
     "id": "camara-de-salto-de-pirapora-sp-retifica-edital-de-concurso-publico",
@@ -823,7 +827,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.444Z"
+    "coletadoEm": "2026-07-23T04:01:10.508Z"
   },
   {
     "id": "emdurb-de-ubatuba-sp-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -867,7 +871,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.449Z"
+    "coletadoEm": "2026-07-23T04:01:10.513Z"
   },
   {
     "id": "famesp-abre-processos-seletivos-para-medicos-em-botucatu-sp",
@@ -910,7 +914,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.453Z"
+    "coletadoEm": "2026-07-23T04:01:10.517Z"
   },
   {
     "id": "famesp-abre-vaga-para-tecnico-de-laboratorio-no-ame-de-itapetininga-sp",
@@ -954,7 +958,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.457Z"
+    "coletadoEm": "2026-07-23T04:01:10.521Z"
   },
   {
     "id": "fea-sp-abre-processo-seletivo-para-vagas-imediatas-e-formacao-de-cadastro-de-reserva",
@@ -998,7 +1002,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.462Z"
+    "coletadoEm": "2026-07-23T04:01:10.524Z"
   },
   {
     "id": "faculdade-de-medicina-de-jundiai-sp-retifica-concurso-publico-com-vaga-para-enfermeiro",
@@ -1041,7 +1045,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.466Z"
+    "coletadoEm": "2026-07-23T04:01:10.528Z"
   },
   {
     "id": "funcabes-taubate-sp-abre-selecao-para-controlador-interno-escriturario-e-auxiliar-administrativo",
@@ -1085,7 +1089,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.471Z"
+    "coletadoEm": "2026-07-23T04:01:10.533Z"
   },
   {
     "id": "funcamp-sp-publica-editais-de-processos-seletivos-para-profissionais-de-nivel-superior",
@@ -1109,10 +1113,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.474Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.535Z",
     "publicadoEm": "2026-07-08T17:06:12-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:41.172Z"
+    "enriquecidoEm": "2026-07-23T04:01:19.951Z"
   },
   {
     "id": "funcamp-sp-abre-vaga-para-medico-ginecologista-oncologico-no-caism",
@@ -1136,10 +1142,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.476Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.537Z",
     "publicadoEm": "2026-07-15T15:26:37-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:42.918Z"
+    "enriquecidoEm": "2026-07-23T04:01:22.573Z"
   },
   {
     "id": "funcamp-sp-abre-processo-seletivo-para-o-cargo-de-ux-designer-junior",
@@ -1163,10 +1171,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.479Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.540Z",
     "publicadoEm": "2026-07-20T18:30:16-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:44.557Z"
+    "enriquecidoEm": "2026-07-23T04:01:24.046Z"
   },
   {
     "id": "funcamp-sp-anuncia-processo-seletivo-para-farmaceutico-no-caism",
@@ -1214,10 +1224,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.482Z",
+    "coletadoEm": "2026-07-23T04:01:10.542Z",
     "publicadoEm": "2026-07-21T16:23:12-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:45.985Z"
+    "enriquecidoEm": "2026-07-23T04:01:25.583Z"
   },
   {
     "id": "fundacao-florestal-sp-publica-retificacoes-do-concurso-publico",
@@ -1262,7 +1272,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.490Z"
+    "coletadoEm": "2026-07-23T04:01:10.545Z"
   },
   {
     "id": "impral-de-altinopolis-sp-abre-concurso-publico-com-vaga-para-contador",
@@ -1305,7 +1315,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.495Z"
+    "coletadoEm": "2026-07-23T04:01:10.549Z"
   },
   {
     "id": "iprem-de-lencois-paulista-sp-abre-concurso-para-assistente-tecnico-administrativo-e-contador",
@@ -1348,7 +1358,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.499Z"
+    "coletadoEm": "2026-07-23T04:01:10.554Z"
   },
   {
     "id": "ipremo-de-morro-agudo-sp-abre-concurso-para-agente-de-servico-publico-e-agente-administrativo",
@@ -1392,7 +1402,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.504Z"
+    "coletadoEm": "2026-07-23T04:01:10.558Z"
   },
   {
     "id": "ipremt-de-taquaritinga-sp-abre-concurso-com-salarios-de-ate-4695",
@@ -1437,7 +1447,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.507Z"
+    "coletadoEm": "2026-07-23T04:01:10.562Z"
   },
   {
     "id": "mp-sp-abre-concurso-publico-para-analista-de-promotoria-terapeuta-ocupacional",
@@ -1485,10 +1495,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.510Z",
+    "coletadoEm": "2026-07-23T04:01:10.565Z",
     "publicadoEm": "2026-07-22T11:25:28-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:47.420Z"
+    "enriquecidoEm": "2026-07-23T04:01:27.020Z"
   },
   {
     "id": "prefeitura-de-itanhaem-sp-abre-concurso-publico-com-vagas-para-agente-comunitario-de-saude",
@@ -1531,7 +1541,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.513Z"
+    "coletadoEm": "2026-07-23T04:01:10.568Z"
   },
   {
     "id": "prefeitura-de-ibira-sp-abre-concurso-publico-com-salarios-de-ate-5016",
@@ -1577,7 +1587,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.517Z"
+    "coletadoEm": "2026-07-23T04:01:10.571Z"
   },
   {
     "id": "prefeitura-de-olimpia-sp-retifica-concurso-publico-com-salarios-de-ate-9-mil",
@@ -1623,7 +1633,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.521Z"
+    "coletadoEm": "2026-07-23T04:01:10.574Z"
   },
   {
     "id": "prefeitura-de-olimpia-sp-abre-concurso-publico-para-historiador-e-museologo",
@@ -1666,7 +1676,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.524Z"
+    "coletadoEm": "2026-07-23T04:01:10.577Z"
   },
   {
     "id": "prefeitura-de-amparo-sp-prorroga-inscricoes-para-concursos-publicos",
@@ -1712,7 +1722,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.527Z"
+    "coletadoEm": "2026-07-23T04:01:10.581Z"
   },
   {
     "id": "prefeitura-de-angatuba-sp-abre-concurso-publico-com-salarios-de-ate-6102",
@@ -1758,7 +1768,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.530Z"
+    "coletadoEm": "2026-07-23T04:01:10.584Z"
   },
   {
     "id": "prefeitura-de-balsamo-sp-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -1804,7 +1814,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.533Z"
+    "coletadoEm": "2026-07-23T04:01:10.588Z"
   },
   {
     "id": "prefeitura-de-bauru-sp-abre-concursos-com-vagas-para-merendeira-medico-e-professor-de-arte",
@@ -1848,7 +1858,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.537Z"
+    "coletadoEm": "2026-07-23T04:01:10.591Z"
   },
   {
     "id": "prefeitura-de-bauru-sp-abre-concurso-para-medico-ginecologista-e-obstetra",
@@ -1891,7 +1901,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.539Z"
+    "coletadoEm": "2026-07-23T04:01:10.595Z"
   },
   {
     "id": "prefeitura-de-bento-de-abreu-sp-abre-concurso-publico-para-assistente-social-e-professor-de-aee",
@@ -1934,7 +1944,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.543Z"
+    "coletadoEm": "2026-07-23T04:01:10.599Z"
   },
   {
     "id": "prefeitura-de-boa-esperanca-do-sul-sp-abre-concurso-publico-com-salarios-de-ate-9836",
@@ -1978,7 +1988,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.546Z"
+    "coletadoEm": "2026-07-23T04:01:10.603Z"
   },
   {
     "id": "prefeitura-de-boituva-sp-abre-concurso-publico-com-vagas-de-nivel-superior",
@@ -2021,7 +2031,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.549Z"
+    "coletadoEm": "2026-07-23T04:01:10.606Z"
   },
   {
     "id": "prefeitura-de-cajati-sp-abre-processo-seletivo-para-agente-comunitario-de-saude",
@@ -2064,7 +2074,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.553Z"
+    "coletadoEm": "2026-07-23T04:01:10.610Z"
   },
   {
     "id": "prefeitura-de-cajuru-sp-abre-concurso-publico-com-salarios-de-ate-3196",
@@ -2110,7 +2120,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.556Z"
+    "coletadoEm": "2026-07-23T04:01:10.614Z"
   },
   {
     "id": "prefeitura-de-diadema-sp-divulga-concursos-publicos-com-salarios-de-ate-4512",
@@ -2155,7 +2165,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.559Z"
+    "coletadoEm": "2026-07-23T04:01:10.617Z"
   },
   {
     "id": "prefeitura-de-embu-das-artes-sp-abre-concurso-publico-com-salarios-de-ate-13149",
@@ -2201,7 +2211,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.562Z"
+    "coletadoEm": "2026-07-23T04:01:10.624Z"
   },
   {
     "id": "prefeitura-de-embu-das-artes-sp-abre-concurso-publico-com-vagas-na-educacao",
@@ -2245,7 +2255,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.565Z"
+    "coletadoEm": "2026-07-23T04:01:10.627Z"
   },
   {
     "id": "prefeitura-de-espirito-santo-do-turvo-sp-abre-concurso-para-diversos-cargos",
@@ -2291,7 +2301,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.569Z"
+    "coletadoEm": "2026-07-23T04:01:10.631Z"
   },
   {
     "id": "prefeitura-de-brotas-sp-abre-concurso-com-salarios-de-ate-19354",
@@ -2337,7 +2347,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.573Z"
+    "coletadoEm": "2026-07-23T04:01:10.635Z"
   },
   {
     "id": "prefeitura-de-franca-sp-abre-concursos-publicos-para-diversos-cargos-e-niveis-de-escolaridade",
@@ -2383,7 +2393,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.576Z"
+    "coletadoEm": "2026-07-23T04:01:10.637Z"
   },
   {
     "id": "prefeitura-de-glicerio-sp-abre-processo-seletivo-para-auxiliar-de-servicos-gerais-e-motorista",
@@ -2426,7 +2436,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.579Z"
+    "coletadoEm": "2026-07-23T04:01:10.640Z"
   },
   {
     "id": "prefeitura-de-guararema-sp-abre-concurso-publico-com-salarios-de-ate-16825",
@@ -2471,7 +2481,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.582Z"
+    "coletadoEm": "2026-07-23T04:01:10.643Z"
   },
   {
     "id": "prefeitura-de-herculandia-sp-abre-concurso-publico-para-cargos-de-nivel-superior",
@@ -2514,7 +2524,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.586Z"
+    "coletadoEm": "2026-07-23T04:01:10.647Z"
   },
   {
     "id": "prefeitura-de-itupeva-sp-retifica-editais-de-concursos-publicos",
@@ -2559,7 +2569,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.589Z"
+    "coletadoEm": "2026-07-23T04:01:10.650Z"
   },
   {
     "id": "prefeitura-de-itupeva-sp-abre-concurso-publico-para-guarda-civil-municipal",
@@ -2602,7 +2612,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.591Z"
+    "coletadoEm": "2026-07-23T04:01:10.653Z"
   },
   {
     "id": "prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-14128",
@@ -2647,7 +2657,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.595Z"
+    "coletadoEm": "2026-07-23T04:01:10.656Z"
   },
   {
     "id": "prefeitura-de-jundiai-sp-retifica-um-dos-quatro-editais-de-concursos-publicos",
@@ -2690,7 +2700,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.598Z"
+    "coletadoEm": "2026-07-23T04:01:10.658Z"
   },
   {
     "id": "prefeitura-de-jundiai-sp-abre-concursos-publicos-com-vagas-para-medicos",
@@ -2733,7 +2743,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.600Z"
+    "coletadoEm": "2026-07-23T04:01:10.661Z"
   },
   {
     "id": "prefeitura-de-junqueiropolis-sp-abre-concurso-com-salarios-de-ate-7422",
@@ -2779,7 +2789,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.604Z"
+    "coletadoEm": "2026-07-23T04:01:10.664Z"
   },
   {
     "id": "prefeitura-de-lucelia-sp-abre-inscricoes-para-concurso-publico-e-processo-seletivo",
@@ -2825,7 +2835,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.607Z"
+    "coletadoEm": "2026-07-23T04:01:10.668Z"
   },
   {
     "id": "prefeitura-de-meridiano-sp-publica-retificacao-em-concurso-publico-com-salarios-de-ate-9722",
@@ -2871,7 +2881,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.611Z"
+    "coletadoEm": "2026-07-23T04:01:10.671Z"
   },
   {
     "id": "prefeitura-de-monte-aprazivel-sp-reabre-inscricoes-do-processo-seletivo-para-educador-social",
@@ -2914,7 +2924,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.614Z"
+    "coletadoEm": "2026-07-23T04:01:10.675Z"
   },
   {
     "id": "prefeitura-de-monte-castelo-sp-abre-concurso-para-motorista-do-setor-da-saude",
@@ -2957,7 +2967,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.618Z"
+    "coletadoEm": "2026-07-23T04:01:10.679Z"
   },
   {
     "id": "prefeitura-de-paulinia-sp-abre-processo-seletivo-com-salarios-de-ate-7350",
@@ -3001,7 +3011,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.622Z"
+    "coletadoEm": "2026-07-23T04:01:10.682Z"
   },
   {
     "id": "prefeitura-de-poloni-sp-lanca-concurso-publico-para-profissionais-da-educacao",
@@ -3044,7 +3054,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.625Z"
+    "coletadoEm": "2026-07-23T04:01:10.685Z"
   },
   {
     "id": "prefeitura-de-porangaba-sp-abre-concursos-com-salarios-de-ate-9128",
@@ -3090,7 +3100,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.628Z"
+    "coletadoEm": "2026-07-23T04:01:10.689Z"
   },
   {
     "id": "prefeitura-de-porangaba-sp-abre-vagas-para-psicologo-infantil-e-terapeuta-ocupacional",
@@ -3133,7 +3143,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.632Z"
+    "coletadoEm": "2026-07-23T04:01:10.692Z"
   },
   {
     "id": "prefeitura-de-potirendaba-sp-abre-concurso-publico-com-remuneracoes-de-ate-12-6-mil",
@@ -3179,7 +3189,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.635Z"
+    "coletadoEm": "2026-07-23T04:01:10.695Z"
   },
   {
     "id": "prefeitura-de-riolandia-sp-abre-concurso-publico-com-salarios-de-ate-3970",
@@ -3224,7 +3234,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.639Z"
+    "coletadoEm": "2026-07-23T04:01:10.699Z"
   },
   {
     "id": "prefeitura-de-sales-oliveira-sp-abre-concurso-publico-para-procurador-juridico",
@@ -3267,7 +3277,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.642Z"
+    "coletadoEm": "2026-07-23T04:01:10.704Z"
   },
   {
     "id": "prefeitura-de-santana-de-parnaiba-sp-abre-novo-concurso-com-vagas-para-diversos-niveis-de-escolaridade",
@@ -3312,7 +3322,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.646Z"
+    "coletadoEm": "2026-07-23T04:01:10.707Z"
   },
   {
     "id": "prefeitura-de-santos-sp-abre-cinco-editais-de-concursos-publicos",
@@ -3358,7 +3368,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.653Z"
+    "coletadoEm": "2026-07-23T04:01:10.711Z"
   },
   {
     "id": "prefeitura-de-sao-carlos-sp-abre-concurso-publico-com-salarios-de-ate-9833",
@@ -3403,7 +3413,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.657Z"
+    "coletadoEm": "2026-07-23T04:01:10.714Z"
   },
   {
     "id": "prefeitura-de-sao-joao-da-boa-vista-sp-abre-concursos-publicos-para-cadastro-de-reserva",
@@ -3448,7 +3458,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.661Z"
+    "coletadoEm": "2026-07-23T04:01:10.719Z"
   },
   {
     "id": "prefeitura-de-sarapui-sp-retifica-editais-de-concursos-publicos",
@@ -3494,7 +3504,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.665Z"
+    "coletadoEm": "2026-07-23T04:01:10.722Z"
   },
   {
     "id": "prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas",
@@ -3540,7 +3550,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.668Z"
+    "coletadoEm": "2026-07-23T04:01:10.725Z"
   },
   {
     "id": "prefeitura-de-taubate-sp-abre-concurso-para-auditor-fiscal-de-tributos-municipais",
@@ -3583,7 +3593,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.671Z"
+    "coletadoEm": "2026-07-23T04:01:10.728Z"
   },
   {
     "id": "prefeitura-de-ubirajara-sp-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -3629,7 +3639,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.674Z"
+    "coletadoEm": "2026-07-23T04:01:10.731Z"
   },
   {
     "id": "prefeitura-de-valinhos-sp-abre-concurso-publico-para-o-cargo-de-procurador",
@@ -3672,7 +3682,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.676Z"
+    "coletadoEm": "2026-07-23T04:01:10.734Z"
   },
   {
     "id": "prefeitura-de-vargem-grande-paulista-sp-abre-concursos-publicos-com-salarios-ate-9687",
@@ -3718,7 +3728,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.680Z"
+    "coletadoEm": "2026-07-23T04:01:10.738Z"
   },
   {
     "id": "santa-casa-de-ribeirao-bonito-sp-publica-retificacoes-do-processo-seletivo-com-salarios-de-ate-9220",
@@ -3764,7 +3774,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.685Z"
+    "coletadoEm": "2026-07-23T04:01:10.743Z"
   },
   {
     "id": "unesp-abre-vaga-para-assistente-operacional-i-em-botucatu-sp",
@@ -3807,7 +3817,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.688Z"
+    "coletadoEm": "2026-07-23T04:01:10.747Z"
   },
   {
     "id": "unesp-abre-concurso-publico-para-o-cargo-de-medico-em-franca-sp",
@@ -3850,7 +3860,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.691Z"
+    "coletadoEm": "2026-07-23T04:01:10.752Z"
   },
   {
     "id": "unesp-sp-abre-concurso-publico-com-vagas-de-nivel-medio-e-salarios-de-6509",
@@ -3899,10 +3909,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.693Z",
+    "coletadoEm": "2026-07-23T04:01:10.754Z",
     "publicadoEm": "2026-06-11T11:00:33-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:48.859Z"
+    "enriquecidoEm": "2026-07-23T04:01:28.550Z"
   },
   {
     "id": "usp-sp-publica-editais-de-concursos-com-remuneracao-de-ate-11334",
@@ -3948,7 +3958,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.696Z"
+    "coletadoEm": "2026-07-23T04:01:10.757Z"
   },
   {
     "id": "camara-de-nilopolis-rj-abre-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva",
@@ -3992,7 +4002,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.698Z"
+    "coletadoEm": "2026-07-23T04:01:10.758Z"
   },
   {
     "id": "prefeitura-de-volta-redonda-rj-abre-concurso-publico-para-enfermeiro-e-tecnico-em-enfermagem",
@@ -4036,7 +4046,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.700Z"
+    "coletadoEm": "2026-07-23T04:01:10.760Z"
   },
   {
     "id": "mobi-rio-rj-abre-processo-seletivo-com-salarios-de-ate-5675",
@@ -4085,10 +4095,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.700Z",
+    "coletadoEm": "2026-07-23T04:01:10.761Z",
     "publicadoEm": "2026-07-21T17:06:32-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:50.263Z"
+    "enriquecidoEm": "2026-07-23T04:01:29.959Z"
   },
   {
     "id": "prefeitura-de-casimiro-de-abreu-rj-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -4131,7 +4141,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.703Z"
+    "coletadoEm": "2026-07-23T04:01:10.763Z"
   },
   {
     "id": "prefeitura-de-sao-pedro-da-aldeia-rj-abre-selecao-para-cadastro-de-reserva-na-educacao",
@@ -4175,7 +4185,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.705Z"
+    "coletadoEm": "2026-07-23T04:01:10.766Z"
   },
   {
     "id": "prefeitura-de-saquarema-rj-abre-concurso-publico-com-vagas-na-educacao",
@@ -4219,7 +4229,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.706Z"
+    "coletadoEm": "2026-07-23T04:01:10.768Z"
   },
   {
     "id": "prefeitura-de-saquarema-rj-abre-concurso-com-80-vagas-para-guarda-vidas",
@@ -4262,7 +4272,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.710Z"
+    "coletadoEm": "2026-07-23T04:01:10.772Z"
   },
   {
     "id": "cidasg-mg-atualiza-edital-de-concurso-publico-para-cargos-de-nivel-medio-e-superior",
@@ -4311,10 +4321,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.714Z",
+    "coletadoEm": "2026-07-23T04:01:10.775Z",
     "publicadoEm": "2026-07-22T10:05:57-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:51.757Z"
+    "enriquecidoEm": "2026-07-23T04:01:31.333Z"
   },
   {
     "id": "itabiraprev-mg-abre-concurso-publico-com-salarios-de-ate-6280",
@@ -4359,7 +4369,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.719Z"
+    "coletadoEm": "2026-07-23T04:01:10.781Z"
   },
   {
     "id": "prefeitura-de-paracatu-mg-publica-edital-retificado-de-concurso-publico",
@@ -4405,7 +4415,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.723Z"
+    "coletadoEm": "2026-07-23T04:01:10.785Z"
   },
   {
     "id": "prefeitura-de-paracatu-mg-publica-edital-retificado-de-concurso-publico-para-guarda-civil-municipal",
@@ -4448,7 +4458,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.727Z"
+    "coletadoEm": "2026-07-23T04:01:10.788Z"
   },
   {
     "id": "amarp-mg-abre-concurso-publico-para-cargos-de-nivel-fundamental",
@@ -4496,10 +4506,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.730Z",
+    "coletadoEm": "2026-07-23T04:01:10.793Z",
     "publicadoEm": "2026-07-10T18:22:27-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:53.279Z"
+    "enriquecidoEm": "2026-07-23T04:01:33.038Z"
   },
   {
     "id": "camara-de-augusto-de-lima-mg-abre-concurso-para-motorista-e-auxiliar-administrativo-e-legislativo",
@@ -4543,7 +4553,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.735Z"
+    "coletadoEm": "2026-07-23T04:01:10.797Z"
   },
   {
     "id": "camara-de-bom-despacho-mg-abre-concurso-com-salarios-de-ate-6210",
@@ -4587,7 +4597,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.740Z"
+    "coletadoEm": "2026-07-23T04:01:10.802Z"
   },
   {
     "id": "camara-de-capelinha-mg-abre-concurso-publico-com-salarios-de-ate-4527",
@@ -4633,7 +4643,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.743Z"
+    "coletadoEm": "2026-07-23T04:01:10.805Z"
   },
   {
     "id": "camara-de-dom-silverio-mg-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -4678,7 +4688,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.747Z"
+    "coletadoEm": "2026-07-23T04:01:10.809Z"
   },
   {
     "id": "camara-de-governador-valadares-mg-abre-concurso-publico-com-salarios-de-ate-5135",
@@ -4722,7 +4732,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.752Z"
+    "coletadoEm": "2026-07-23T04:01:10.814Z"
   },
   {
     "id": "camara-de-ingai-mg-abre-concurso-publico-para-o-cargo-de-auxiliar-administrativo",
@@ -4765,7 +4775,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.756Z"
+    "coletadoEm": "2026-07-23T04:01:10.818Z"
   },
   {
     "id": "camara-de-itabirinha-mg-abre-concurso-publico-com-salarios-de-ate-6200",
@@ -4809,7 +4819,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.759Z"
+    "coletadoEm": "2026-07-23T04:01:10.822Z"
   },
   {
     "id": "camara-de-itacarambi-mg-abre-concurso-publico-para-diversos-cargos",
@@ -4854,7 +4864,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.763Z"
+    "coletadoEm": "2026-07-23T04:01:10.825Z"
   },
   {
     "id": "camara-de-joao-monlevade-mg-abre-concurso-publico-para-cargos-de-nivel-medio",
@@ -4897,7 +4907,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.768Z"
+    "coletadoEm": "2026-07-23T04:01:10.830Z"
   },
   {
     "id": "camara-de-lagoa-dourada-mg-abre-concurso-para-agente-de-servicos",
@@ -4940,7 +4950,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.773Z"
+    "coletadoEm": "2026-07-23T04:01:10.835Z"
   },
   {
     "id": "camara-de-passos-mg-abre-concurso-publico-com-salarios-de-ate-5485",
@@ -4984,7 +4994,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.777Z"
+    "coletadoEm": "2026-07-23T04:01:10.838Z"
   },
   {
     "id": "camara-de-pedras-de-maria-da-cruz-mg-abre-concurso-publico-para-niveis-fundamental-e-medio",
@@ -5028,7 +5038,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.782Z"
+    "coletadoEm": "2026-07-23T04:01:10.843Z"
   },
   {
     "id": "camara-de-prudente-de-morais-mg-abre-concurso-para-auxiliar-administrativo-e-auxiliar-de-servicos-gerais",
@@ -5072,7 +5082,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.787Z"
+    "coletadoEm": "2026-07-23T04:01:10.847Z"
   },
   {
     "id": "camara-de-queluzito-mg-abre-processo-seletivo-com-vaga-para-agente-do-legislativo",
@@ -5115,7 +5125,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.791Z"
+    "coletadoEm": "2026-07-23T04:01:10.852Z"
   },
   {
     "id": "camara-de-rio-piracicaba-mg-abre-concurso-publico-com-salarios-de-ate-4000",
@@ -5160,7 +5170,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.794Z"
+    "coletadoEm": "2026-07-23T04:01:10.856Z"
   },
   {
     "id": "camara-de-santa-juliana-mg-abre-concurso-para-profissionais-de-nivel-medio-e-superior",
@@ -5204,7 +5214,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.799Z"
+    "coletadoEm": "2026-07-23T04:01:10.860Z"
   },
   {
     "id": "camara-de-santa-margarida-mg-publica-edital-de-concurso-com-salarios-de-ate-5313",
@@ -5249,7 +5259,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.803Z"
+    "coletadoEm": "2026-07-23T04:01:10.864Z"
   },
   {
     "id": "camara-de-tres-coracoes-mg-abre-concurso-publico-com-salarios-de-ate-7339",
@@ -5294,7 +5304,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.807Z"
+    "coletadoEm": "2026-07-23T04:01:10.870Z"
   },
   {
     "id": "cesama-de-juiz-de-fora-mg-retifica-concurso-publico-com-salarios-de-ate-9-mil",
@@ -5340,7 +5350,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.812Z"
+    "coletadoEm": "2026-07-23T04:01:10.874Z"
   },
   {
     "id": "cisicom-mg-anuncia-concurso-publico-com-vaga-para-medico-veterinario",
@@ -5388,10 +5398,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.816Z",
+    "coletadoEm": "2026-07-23T04:01:10.878Z",
     "publicadoEm": "2026-07-22T14:52:37-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:54.608Z"
+    "enriquecidoEm": "2026-07-23T04:01:34.512Z"
   },
   {
     "id": "crea-mg-concurso-publico-oferece-vagas-com-salarios-iniciais-de-ate-13609",
@@ -5417,10 +5427,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:27.820Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:10.881Z",
     "publicadoEm": "2026-07-10T09:48:05-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:55.874Z"
+    "enriquecidoEm": "2026-07-23T04:01:35.924Z"
   },
   {
     "id": "dmae-de-uberlandia-mg-abre-concurso-publico-com-vagas-para-diversos-niveis-de-escolaridade",
@@ -5466,7 +5478,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.824Z"
+    "coletadoEm": "2026-07-23T04:01:10.886Z"
   },
   {
     "id": "fundacao-joao-pinheiro-mg-abre-concurso-publico-para-especialista-em-politicas-publicas-e-gestao-governamental",
@@ -5509,7 +5521,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.828Z"
+    "coletadoEm": "2026-07-23T04:01:10.890Z"
   },
   {
     "id": "hospital-metropolitano-odilon-behrens-mg-abre-concurso-publico-com-salarios-de-ate-7397",
@@ -5559,10 +5571,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.832Z",
+    "coletadoEm": "2026-07-23T04:01:10.894Z",
     "publicadoEm": "2026-07-07T11:20:23-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:57.499Z"
+    "enriquecidoEm": "2026-07-23T04:01:37.599Z"
   },
   {
     "id": "hospital-metropolitano-odilon-behrens-mg-abre-selecao-para-tecnico-em-nutricao-e-dietetica",
@@ -5610,10 +5622,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.835Z",
+    "coletadoEm": "2026-07-23T04:01:10.898Z",
     "publicadoEm": "2026-07-17T10:20:58-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:51:58.999Z"
+    "enriquecidoEm": "2026-07-23T04:01:39.008Z"
   },
   {
     "id": "prefeitura-e-camara-de-tombos-mg-abrem-concurso-publico-com-diversas-vagas-e-cadastro-de-reserva",
@@ -5659,7 +5671,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.839Z"
+    "coletadoEm": "2026-07-23T04:01:10.902Z"
   },
   {
     "id": "prefeitura-de-abre-campo-mg-abre-selecao-para-profissionais-de-nivel-medio",
@@ -5702,7 +5714,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.843Z"
+    "coletadoEm": "2026-07-23T04:01:10.906Z"
   },
   {
     "id": "prefeitura-de-agua-comprida-mg-abre-concurso-com-salarios-de-ate-10788",
@@ -5748,7 +5760,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.848Z"
+    "coletadoEm": "2026-07-23T04:01:10.910Z"
   },
   {
     "id": "prefeitura-de-alto-rio-doce-mg-abre-vagas-para-agente-comunitario-de-saude",
@@ -5791,7 +5803,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.854Z"
+    "coletadoEm": "2026-07-23T04:01:10.916Z"
   },
   {
     "id": "prefeitura-de-araxa-mg-abre-selecao-para-agente-comunitario-de-saude",
@@ -5834,7 +5846,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.857Z"
+    "coletadoEm": "2026-07-23T04:01:10.919Z"
   },
   {
     "id": "prefeitura-de-barra-longa-mg-abre-processo-seletivo-com-7-vagas-para-agente-comunitario-de-saude",
@@ -5877,7 +5889,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.861Z"
+    "coletadoEm": "2026-07-23T04:01:10.923Z"
   },
   {
     "id": "prefeitura-de-belo-vale-mg-publica-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -5920,7 +5932,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.865Z"
+    "coletadoEm": "2026-07-23T04:01:10.927Z"
   },
   {
     "id": "prefeitura-de-bom-repouso-mg-retifica-editais-de-concurso-publico-e-processo-seletivo",
@@ -5966,7 +5978,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.870Z"
+    "coletadoEm": "2026-07-23T04:01:10.932Z"
   },
   {
     "id": "prefeitura-de-brumadinho-mg-retifica-concurso-com-40-vagas-para-guarda-civil-municipal",
@@ -6009,7 +6021,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.902Z"
+    "coletadoEm": "2026-07-23T04:01:10.964Z"
   },
   {
     "id": "prefeitura-de-campanario-mg-publica-edital-de-concurso-publico-com-diversas-vagas",
@@ -6055,7 +6067,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.906Z"
+    "coletadoEm": "2026-07-23T04:01:10.969Z"
   },
   {
     "id": "prefeitura-de-carmo-da-mata-mg-abre-concurso-publico-para-diversos-cargos",
@@ -6101,7 +6113,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.910Z"
+    "coletadoEm": "2026-07-23T04:01:10.973Z"
   },
   {
     "id": "prefeitura-de-carmo-da-mata-mg-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -6147,7 +6159,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.915Z"
+    "coletadoEm": "2026-07-23T04:01:10.978Z"
   },
   {
     "id": "prefeitura-de-carrancas-mg-abre-processo-seletivo-para-agente-comunitario-de-saude",
@@ -6190,7 +6202,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.920Z"
+    "coletadoEm": "2026-07-23T04:01:10.983Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-divulga-processo-seletivo-para-fisioterapeuta",
@@ -6233,7 +6245,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.924Z"
+    "coletadoEm": "2026-07-23T04:01:10.986Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-abre-concurso-publico-para-cargos-de-nivel-superior-na-educacao",
@@ -6276,7 +6288,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.927Z"
+    "coletadoEm": "2026-07-23T04:01:10.990Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-abre-vaga-em-processo-seletivo-para-auxiliar-de-odontologia",
@@ -6319,7 +6331,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.930Z"
+    "coletadoEm": "2026-07-23T04:01:10.993Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-abre-selecao-para-o-cargo-de-operario",
@@ -6362,7 +6374,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.934Z"
+    "coletadoEm": "2026-07-23T04:01:10.997Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-abre-processo-seletivo-com-vaga-para-auxiliar-de-servicos-gerais",
@@ -6405,7 +6417,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.937Z"
+    "coletadoEm": "2026-07-23T04:01:11.000Z"
   },
   {
     "id": "prefeitura-de-claudio-mg-abre-processo-seletivo-com-vaga-para-o-cargo-de-motorista",
@@ -6448,7 +6460,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.941Z"
+    "coletadoEm": "2026-07-23T04:01:11.003Z"
   },
   {
     "id": "prefeitura-de-conceicao-da-barra-de-minas-mg-abre-concurso-publico-com-salarios-de-ate-16016",
@@ -6494,7 +6506,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.945Z"
+    "coletadoEm": "2026-07-23T04:01:11.008Z"
   },
   {
     "id": "prefeitura-de-congonhal-mg-retifica-edital-de-concurso-publico",
@@ -6540,7 +6552,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.949Z"
+    "coletadoEm": "2026-07-23T04:01:11.013Z"
   },
   {
     "id": "prefeitura-de-conselheiro-pena-mg-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -6583,7 +6595,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.954Z"
+    "coletadoEm": "2026-07-23T04:01:11.018Z"
   },
   {
     "id": "prefeitura-de-coromandel-mg-abre-concurso-publico-com-salarios-de-ate-7821",
@@ -6628,7 +6640,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.958Z"
+    "coletadoEm": "2026-07-23T04:01:11.021Z"
   },
   {
     "id": "prefeitura-de-corrego-fundo-mg-abre-concurso-para-auditor-fiscal-de-tributos-e-tecnico-em-informatica",
@@ -6673,7 +6685,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.961Z"
+    "coletadoEm": "2026-07-23T04:01:11.025Z"
   },
   {
     "id": "prefeitura-de-delfinopolis-mg-abre-concurso-e-processo-seletivo-com-diversas-vagas",
@@ -6719,7 +6731,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.966Z"
+    "coletadoEm": "2026-07-23T04:01:11.029Z"
   },
   {
     "id": "prefeitura-de-delfinopolis-mg-abre-selecao-para-supervisor-educacional",
@@ -6762,7 +6774,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.969Z"
+    "coletadoEm": "2026-07-23T04:01:11.033Z"
   },
   {
     "id": "prefeitura-de-divinopolis-mg-abre-processo-seletivo-para-profissionais-de-nivel-superior-na-saude",
@@ -6805,7 +6817,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.974Z"
+    "coletadoEm": "2026-07-23T04:01:11.038Z"
   },
   {
     "id": "prefeitura-de-dores-do-indaia-mg-abre-concurso-publico-com-salarios-de-ate-18702",
@@ -6851,7 +6863,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.978Z"
+    "coletadoEm": "2026-07-23T04:01:11.042Z"
   },
   {
     "id": "prefeitura-de-entre-rios-de-minas-mg-retifica-o-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -6894,7 +6906,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.984Z"
+    "coletadoEm": "2026-07-23T04:01:11.047Z"
   },
   {
     "id": "prefeitura-de-eugenopolis-mg-anuncia-selecao-para-agentes-de-saude-e-de-endemias",
@@ -6937,7 +6949,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.988Z"
+    "coletadoEm": "2026-07-23T04:01:11.052Z"
   },
   {
     "id": "prefeitura-de-faria-lemos-mg-abre-concurso-publico-com-remuneracoes-de-ate-16803",
@@ -6983,7 +6995,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.992Z"
+    "coletadoEm": "2026-07-23T04:01:11.055Z"
   },
   {
     "id": "prefeitura-de-faria-lemos-mg-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -7026,7 +7038,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.995Z"
+    "coletadoEm": "2026-07-23T04:01:11.059Z"
   },
   {
     "id": "prefeitura-de-guimarania-mg-abre-concurso-publico-para-fiscal-tributario",
@@ -7069,7 +7081,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:27.999Z"
+    "coletadoEm": "2026-07-23T04:01:11.064Z"
   },
   {
     "id": "prefeitura-de-ibia-mg-abre-concurso-publico-com-salarios-de-ate-5261",
@@ -7113,7 +7125,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.004Z"
+    "coletadoEm": "2026-07-23T04:01:11.068Z"
   },
   {
     "id": "prefeitura-de-ipaba-mg-abre-concurso-publico-com-salarios-de-ate-5275",
@@ -7159,7 +7171,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.008Z"
+    "coletadoEm": "2026-07-23T04:01:11.071Z"
   },
   {
     "id": "prefeitura-de-ipatinga-mg-retifica-concurso-publico-para-diversos-cargos",
@@ -7204,7 +7216,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.011Z"
+    "coletadoEm": "2026-07-23T04:01:11.075Z"
   },
   {
     "id": "prefeitura-de-itajuba-mg-abre-processo-seletivo-para-assistente-social",
@@ -7247,7 +7259,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.015Z"
+    "coletadoEm": "2026-07-23T04:01:11.079Z"
   },
   {
     "id": "prefeitura-de-lagoa-da-prata-mg-retifica-concurso-publico-com-salarios-de-ate-21-mil",
@@ -7293,7 +7305,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.021Z"
+    "coletadoEm": "2026-07-23T04:01:11.084Z"
   },
   {
     "id": "prefeitura-de-leopoldina-mg-abre-selecoes-para-cuidador-social-assistente-social-e-psicologo",
@@ -7337,7 +7349,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.025Z"
+    "coletadoEm": "2026-07-23T04:01:11.088Z"
   },
   {
     "id": "prefeitura-de-machado-mg-retifica-o-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -7380,7 +7392,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.029Z"
+    "coletadoEm": "2026-07-23T04:01:11.091Z"
   },
   {
     "id": "municipio-de-mesquita-mg-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -7423,7 +7435,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.033Z"
+    "coletadoEm": "2026-07-23T04:01:11.095Z"
   },
   {
     "id": "prefeitura-de-nova-porteirinha-mg-abre-vagas-para-agentes-de-saude-e-de-endemias",
@@ -7466,7 +7478,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.038Z"
+    "coletadoEm": "2026-07-23T04:01:11.101Z"
   },
   {
     "id": "prefeitura-de-nova-uniao-mg-abre-concurso-publico-com-salarios-de-ate-4699",
@@ -7512,7 +7524,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.042Z"
+    "coletadoEm": "2026-07-23T04:01:11.104Z"
   },
   {
     "id": "prefeitura-de-oliveira-fortes-mg-abre-concurso-com-salarios-de-ate-10331",
@@ -7558,7 +7570,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.047Z"
+    "coletadoEm": "2026-07-23T04:01:11.108Z"
   },
   {
     "id": "prefeitura-de-pedra-dourada-mg-divulga-retificacoes-do-concurso-publico-e-do-processo-seletivo",
@@ -7604,7 +7616,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.052Z"
+    "coletadoEm": "2026-07-23T04:01:11.115Z"
   },
   {
     "id": "prefeitura-de-perdigao-mg-abre-processo-seletivo-para-servical-e-auxiliar-administrativo",
@@ -7647,7 +7659,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.056Z"
+    "coletadoEm": "2026-07-23T04:01:11.119Z"
   },
   {
     "id": "prefeitura-de-piumhi-mg-abre-concurso-para-guarda-civil-municipal",
@@ -7690,7 +7702,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.060Z"
+    "coletadoEm": "2026-07-23T04:01:11.123Z"
   },
   {
     "id": "prefeitura-de-ponte-nova-mg-abre-processo-seletivo-para-profissionais-da-educacao-basica",
@@ -7734,7 +7746,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.064Z"
+    "coletadoEm": "2026-07-23T04:01:11.127Z"
   },
   {
     "id": "prefeitura-de-ponto-chique-mg-retifica-concurso-publico",
@@ -7780,7 +7792,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.069Z"
+    "coletadoEm": "2026-07-23T04:01:11.131Z"
   },
   {
     "id": "prefeitura-de-rio-espera-mg-abre-concurso-publico-com-vagas-para-medico-esf",
@@ -7823,7 +7835,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.073Z"
+    "coletadoEm": "2026-07-23T04:01:11.136Z"
   },
   {
     "id": "prefeitura-de-santo-antonio-do-itambe-mg-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -7866,7 +7878,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.077Z"
+    "coletadoEm": "2026-07-23T04:01:11.140Z"
   },
   {
     "id": "prefeitura-de-sao-felix-de-minas-mg-abre-concurso-publico-com-salarios-de-ate-12-mil",
@@ -7912,7 +7924,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.082Z"
+    "coletadoEm": "2026-07-23T04:01:11.144Z"
   },
   {
     "id": "prefeitura-de-sao-pedro-da-uniao-mg-abre-vagas-para-auxiliar-administrativo-e-auxiliar-de-servicos-gerais",
@@ -7955,7 +7967,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.087Z"
+    "coletadoEm": "2026-07-23T04:01:11.149Z"
   },
   {
     "id": "prefeitura-de-sao-sebastiao-do-anta-mg-abre-processo-seletivo-para-agentes-de-saude-e-vigilancia-epidemiologica",
@@ -7998,7 +8010,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.091Z"
+    "coletadoEm": "2026-07-23T04:01:11.154Z"
   },
   {
     "id": "prefeitura-de-sao-sebastiao-do-oeste-mg-abre-processo-seletivo-para-cargos-de-nivel-medio",
@@ -8041,7 +8053,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.095Z"
+    "coletadoEm": "2026-07-23T04:01:11.158Z"
   },
   {
     "id": "prefeitura-de-sao-sebastiao-do-rio-preto-mg-abre-vagas-para-agentes-de-saude-e-de-endemias",
@@ -8084,7 +8096,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.101Z"
+    "coletadoEm": "2026-07-23T04:01:11.164Z"
   },
   {
     "id": "prefeitura-de-sao-sebastiao-do-rio-verde-mg-abre-concurso-publico-com-salarios-de-ate-12642",
@@ -8129,7 +8141,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.106Z"
+    "coletadoEm": "2026-07-23T04:01:11.169Z"
   },
   {
     "id": "prefeitura-de-senador-modestino-goncalves-mg-abre-vagas-para-cargos-de-nivel-medio",
@@ -8172,7 +8184,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.111Z"
+    "coletadoEm": "2026-07-23T04:01:11.174Z"
   },
   {
     "id": "prefeitura-de-tocos-do-moji-mg-abre-processo-seletivo-para-profissionais-de-diferentes-niveis",
@@ -8216,7 +8228,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.115Z"
+    "coletadoEm": "2026-07-23T04:01:11.179Z"
   },
   {
     "id": "prefeitura-de-uruana-de-minas-mg-abre-processo-seletivo-para-cargos-de-nivel-medio",
@@ -8259,7 +8271,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.120Z"
+    "coletadoEm": "2026-07-23T04:01:11.184Z"
   },
   {
     "id": "semul-varginha-mg-abre-processo-seletivo-para-diversos-cargos",
@@ -8303,7 +8315,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.124Z"
+    "coletadoEm": "2026-07-23T04:01:11.188Z"
   },
   {
     "id": "pmes-divulga-retificacoes-de-concursos-para-soldado-combatente-e-musico",
@@ -8327,10 +8339,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.125Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.188Z",
     "publicadoEm": "2026-07-17T10:26:53-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:00.411Z"
+    "enriquecidoEm": "2026-07-23T04:01:40.332Z"
   },
   {
     "id": "prefeitura-de-aracruz-es-seleciona-professores-e-pedagogos",
@@ -8373,7 +8387,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.129Z"
+    "coletadoEm": "2026-07-23T04:01:11.192Z"
   },
   {
     "id": "prefeitura-de-divino-de-sao-lourenco-es-abre-concurso-para-o-magisterio-municipal",
@@ -8416,7 +8430,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.132Z"
+    "coletadoEm": "2026-07-23T04:01:11.195Z"
   },
   {
     "id": "prefeitura-de-ibiracu-es-abre-selecao-para-educador-social-e-servente",
@@ -8460,7 +8474,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.133Z"
+    "coletadoEm": "2026-07-23T04:01:11.197Z"
   },
   {
     "id": "prefeitura-de-irupi-es-abre-processo-seletivo-para-o-cargo-de-bracal",
@@ -8503,7 +8517,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.135Z"
+    "coletadoEm": "2026-07-23T04:01:11.199Z"
   },
   {
     "id": "prefeitura-de-itarana-es-abre-concurso-publico-com-vagas-para-profissionais-de-nivel-superior",
@@ -8546,7 +8560,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.136Z"
+    "coletadoEm": "2026-07-23T04:01:11.201Z"
   },
   {
     "id": "prefeitura-de-joao-neiva-es-abre-processo-seletivo-para-diversos-cargos",
@@ -8591,7 +8605,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.138Z"
+    "coletadoEm": "2026-07-23T04:01:11.202Z"
   },
   {
     "id": "prefeitura-de-joao-neiva-es-abre-processo-seletivo-para-o-cargo-de-merendeira",
@@ -8634,7 +8648,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.139Z"
+    "coletadoEm": "2026-07-23T04:01:11.204Z"
   },
   {
     "id": "prefeitura-de-marataizes-es-abre-selecao-para-agente-comunitario-de-saude",
@@ -8677,7 +8691,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.141Z"
+    "coletadoEm": "2026-07-23T04:01:11.205Z"
   },
   {
     "id": "prefeitura-de-santa-teresa-es-abre-selecao-para-pedreiro-e-trabalhador-bracal",
@@ -8720,7 +8734,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.142Z"
+    "coletadoEm": "2026-07-23T04:01:11.207Z"
   },
   {
     "id": "prefeitura-de-venda-nova-do-imigrante-es-abre-processo-seletivo-com-vagas-para-medico-e-motorista",
@@ -8764,7 +8778,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.144Z"
+    "coletadoEm": "2026-07-23T04:01:11.209Z"
   },
   {
     "id": "prefeitura-de-vila-velha-es-abre-selecao-para-cargos-de-nivel-superior",
@@ -8807,7 +8821,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.146Z"
+    "coletadoEm": "2026-07-23T04:01:11.210Z"
   },
   {
     "id": "prefeitura-de-vitoria-es-abre-selecao-para-assistente-social",
@@ -8850,7 +8864,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.148Z"
+    "coletadoEm": "2026-07-23T04:01:11.213Z"
   },
   {
     "id": "prefeitura-de-vitoria-es-abre-processo-seletivo-com-vaga-para-nutricionista",
@@ -8893,7 +8907,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.152Z"
+    "coletadoEm": "2026-07-23T04:01:11.214Z"
   },
   {
     "id": "consud-pr-republica-edital-de-concurso-publico",
@@ -8944,10 +8958,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.154Z",
+    "coletadoEm": "2026-07-23T04:01:11.216Z",
     "publicadoEm": "2026-07-21T10:05:53-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:01.647Z"
+    "enriquecidoEm": "2026-07-23T04:01:41.980Z"
   },
   {
     "id": "cra-pr-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -8998,10 +9012,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.157Z",
+    "coletadoEm": "2026-07-23T04:01:11.220Z",
     "publicadoEm": "2026-06-23T19:23:27-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:02.919Z"
+    "enriquecidoEm": "2026-07-23T04:01:43.396Z"
   },
   {
     "id": "prefeitura-de-ponta-grossa-pr-divulga-retificacao-do-concurso-publico",
@@ -9047,7 +9061,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.160Z"
+    "coletadoEm": "2026-07-23T04:01:11.222Z"
   },
   {
     "id": "uenp-pr-retifica-concursos-com-vagas-para-agentes-universitarios-de-execucao-e-profissionais",
@@ -9154,10 +9168,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.161Z",
+    "coletadoEm": "2026-07-23T04:01:11.224Z",
     "publicadoEm": "2026-07-22T10:16:04-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:04.329Z"
+    "enriquecidoEm": "2026-07-23T04:01:44.897Z"
   },
   {
     "id": "agepar-pr-abre-concurso-publico-com-vagas-para-especialistas-em-regulacao",
@@ -9205,10 +9219,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.163Z",
+    "coletadoEm": "2026-07-23T04:01:11.225Z",
     "publicadoEm": "2026-07-01T13:54:59-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:05.649Z"
+    "enriquecidoEm": "2026-07-23T04:01:46.362Z"
   },
   {
     "id": "camara-de-ibipora-pr-divulga-retificacao-de-concurso-publico",
@@ -9252,7 +9266,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.166Z"
+    "coletadoEm": "2026-07-23T04:01:11.228Z"
   },
   {
     "id": "camara-de-imbituva-pr-abre-selecao-com-remuneracoes-de-ate-7637",
@@ -9298,7 +9312,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.169Z"
+    "coletadoEm": "2026-07-23T04:01:11.231Z"
   },
   {
     "id": "camara-de-jaguariaiva-pr-abre-concurso-publico-com-remuneracoes-de-ate-11588",
@@ -9344,7 +9358,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.172Z"
+    "coletadoEm": "2026-07-23T04:01:11.234Z"
   },
   {
     "id": "camara-de-jesuitas-pr-abre-concurso-publico-para-agente-administrativo",
@@ -9387,7 +9401,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.174Z"
+    "coletadoEm": "2026-07-23T04:01:11.236Z"
   },
   {
     "id": "cisamusep-pr-abre-selecao-com-salarios-de-ate-6581",
@@ -9437,10 +9451,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.175Z",
+    "coletadoEm": "2026-07-23T04:01:11.238Z",
     "publicadoEm": "2026-07-06T14:57:51-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:07.914Z"
+    "enriquecidoEm": "2026-07-23T04:01:47.909Z"
   },
   {
     "id": "policia-civil-pr-abre-concurso-publico-com-remuneracoes-ate-26876",
@@ -9518,10 +9532,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.177Z",
+    "coletadoEm": "2026-07-23T04:01:11.239Z",
     "publicadoEm": "2026-07-06T11:41:44-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:09.054Z"
+    "enriquecidoEm": "2026-07-23T04:01:49.431Z"
   },
   {
     "id": "prefeitura-de-almirante-tamandare-pr-abre-selecao-para-tecnico-em-enfermagem",
@@ -9564,7 +9578,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.180Z"
+    "coletadoEm": "2026-07-23T04:01:11.242Z"
   },
   {
     "id": "prefeitura-de-amapora-pr-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -9610,7 +9624,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.184Z"
+    "coletadoEm": "2026-07-23T04:01:11.246Z"
   },
   {
     "id": "prefeitura-de-balsa-nova-pr-abre-processo-seletivo-para-terapeuta-ocupacional",
@@ -9653,7 +9667,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.200Z"
+    "coletadoEm": "2026-07-23T04:01:11.262Z"
   },
   {
     "id": "prefeitura-de-castro-pr-abre-concurso-publico-com-vagas-de-nivel-medio",
@@ -9696,7 +9710,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.203Z"
+    "coletadoEm": "2026-07-23T04:01:11.265Z"
   },
   {
     "id": "prefeitura-de-chopinzinho-pr-abre-processos-seletivos-para-enfermeiro-e-educador-social",
@@ -9740,7 +9754,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.206Z"
+    "coletadoEm": "2026-07-23T04:01:11.268Z"
   },
   {
     "id": "prefeitura-de-coronel-vivida-pr-abre-processo-seletivo-com-vaga-para-farmaceutico",
@@ -9783,7 +9797,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.209Z"
+    "coletadoEm": "2026-07-23T04:01:11.270Z"
   },
   {
     "id": "prefeitura-de-general-carneiro-pr-retifica-concurso-com-vagas-imediatas-e-formacao-de-cadastro-de-reserva",
@@ -9829,7 +9843,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.212Z"
+    "coletadoEm": "2026-07-23T04:01:11.273Z"
   },
   {
     "id": "prefeitura-de-itauna-do-sul-pr-abre-processo-seletivo-com-salarios-de-ate-5130",
@@ -9875,7 +9889,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.215Z"
+    "coletadoEm": "2026-07-23T04:01:11.277Z"
   },
   {
     "id": "prefeitura-de-japura-pr-divulga-retificacao-de-concurso-com-salarios-de-ate-26762",
@@ -9921,7 +9935,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.218Z"
+    "coletadoEm": "2026-07-23T04:01:11.280Z"
   },
   {
     "id": "prefeitura-de-maria-helena-pr-abre-processo-seletivo-com-salarios-de-ate-5458",
@@ -9966,7 +9980,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.221Z"
+    "coletadoEm": "2026-07-23T04:01:11.282Z"
   },
   {
     "id": "prefeitura-de-maua-da-serra-pr-abre-selecao-para-agente-de-combate-as-endemias-e-agente-comunitario-de-saude",
@@ -10009,7 +10023,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.224Z"
+    "coletadoEm": "2026-07-23T04:01:11.286Z"
   },
   {
     "id": "prefeitura-de-nova-santa-rosa-pr-abre-processo-seletivo-para-fonoaudiologo",
@@ -10052,7 +10066,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.227Z"
+    "coletadoEm": "2026-07-23T04:01:11.288Z"
   },
   {
     "id": "prefeitura-de-palmeira-pr-altera-periodo-de-inscricoes-do-processo-seletivo-para-cadastro-de-reserva",
@@ -10097,7 +10111,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.229Z"
+    "coletadoEm": "2026-07-23T04:01:11.290Z"
   },
   {
     "id": "prefeitura-de-paula-freitas-pr-abre-processo-seletivo-para-cargos-na-area-da-saude",
@@ -10141,7 +10155,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.233Z"
+    "coletadoEm": "2026-07-23T04:01:11.293Z"
   },
   {
     "id": "prefeitura-de-ponta-grossa-pr-abre-concurso-com-vagas-para-agentes-de-saude-e-agentes-de-combate-as-endemias",
@@ -10184,7 +10198,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.235Z"
+    "coletadoEm": "2026-07-23T04:01:11.296Z"
   },
   {
     "id": "prefeitura-de-rancho-alegre-doeste-pr-abre-concurso-publico-com-salarios-de-ate-14322",
@@ -10230,7 +10244,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.239Z"
+    "coletadoEm": "2026-07-23T04:01:11.300Z"
   },
   {
     "id": "prefeitura-de-rio-azul-pr-abre-novos-concursos-com-salarios-de-ate-22-mil",
@@ -10276,7 +10290,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.242Z"
+    "coletadoEm": "2026-07-23T04:01:11.302Z"
   },
   {
     "id": "prefeitura-de-toledo-pr-abre-processo-seletivo-com-remuneracoes-de-ate-21192",
@@ -10320,7 +10334,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.244Z"
+    "coletadoEm": "2026-07-23T04:01:11.304Z"
   },
   {
     "id": "prefeitura-de-umuarama-pr-abre-concurso-publico-para-agente-da-autoridade-de-transito",
@@ -10363,7 +10377,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.247Z"
+    "coletadoEm": "2026-07-23T04:01:11.308Z"
   },
   {
     "id": "prefeitura-de-novo-hamburgo-rs-divulga-retificacao-de-concurso-publico",
@@ -10408,7 +10422,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.250Z"
+    "coletadoEm": "2026-07-23T04:01:11.311Z"
   },
   {
     "id": "comur-novo-hamburgo-rs-abre-processo-seletivo-com-30-vagas-para-serventes",
@@ -10451,7 +10465,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.274Z"
+    "coletadoEm": "2026-07-23T04:01:11.331Z"
   },
   {
     "id": "demhab-de-porto-alegre-rs-abre-concurso-com-salarios-de-ate-11822",
@@ -10495,7 +10509,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.278Z"
+    "coletadoEm": "2026-07-23T04:01:11.335Z"
   },
   {
     "id": "faurgs-rs-abre-processo-seletivo-para-profissionais-de-nivel-tecnico",
@@ -10538,7 +10552,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.283Z"
+    "coletadoEm": "2026-07-23T04:01:11.339Z"
   },
   {
     "id": "hospital-beneficente-dr-cesar-santos-rs-abre-processo-seletivo-com-salarios-de-ate-6050",
@@ -10588,10 +10602,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.286Z",
+    "coletadoEm": "2026-07-23T04:01:11.340Z",
     "publicadoEm": "2026-07-21T15:48:19-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:10.438Z"
+    "enriquecidoEm": "2026-07-23T04:01:50.941Z"
   },
   {
     "id": "hcpa-rs-anuncia-selecao-para-cadastro-de-reserva-em-diversas-areas",
@@ -10636,7 +10650,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.290Z"
+    "coletadoEm": "2026-07-23T04:01:11.345Z"
   },
   {
     "id": "ogmo-rg-rs-abre-selecao-com-90-vagas-para-estivador",
@@ -10679,7 +10693,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.293Z"
+    "coletadoEm": "2026-07-23T04:01:11.348Z"
   },
   {
     "id": "prefeitura-de-alegria-rs-abre-processo-seletivo-para-o-cargo-de-tratorista-agricola",
@@ -10722,7 +10736,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.296Z"
+    "coletadoEm": "2026-07-23T04:01:11.351Z"
   },
   {
     "id": "prefeitura-de-barros-cassal-rs-abre-processo-seletivo-para-profissional-de-educacao-fisica",
@@ -10765,7 +10779,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.299Z"
+    "coletadoEm": "2026-07-23T04:01:11.354Z"
   },
   {
     "id": "prefeitura-de-cachoeira-do-sul-rs-abre-processo-seletivo-com-13-vagas-disponiveis",
@@ -10810,7 +10824,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.303Z"
+    "coletadoEm": "2026-07-23T04:01:11.357Z"
   },
   {
     "id": "prefeitura-de-caicara-rs-divulga-retificacao-de-concurso-publico",
@@ -10856,7 +10870,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.306Z"
+    "coletadoEm": "2026-07-23T04:01:11.360Z"
   },
   {
     "id": "prefeitura-de-capao-bonito-do-sul-rs-abre-selecao-para-fiscal-sanitario",
@@ -10900,7 +10914,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.309Z"
+    "coletadoEm": "2026-07-23T04:01:11.364Z"
   },
   {
     "id": "prefeitura-de-cerro-grande-do-sul-rs-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -10944,7 +10958,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.312Z"
+    "coletadoEm": "2026-07-23T04:01:11.368Z"
   },
   {
     "id": "prefeitura-de-forquetinha-rs-abre-concurso-com-salarios-de-ate-4763",
@@ -10990,7 +11004,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.316Z"
+    "coletadoEm": "2026-07-23T04:01:11.370Z"
   },
   {
     "id": "prefeitura-de-gravatai-rs-abre-selecao-para-agente-de-educacao-especial-inclusiva",
@@ -11033,7 +11047,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.319Z"
+    "coletadoEm": "2026-07-23T04:01:11.373Z"
   },
   {
     "id": "prefeitura-de-gravatai-rs-abre-selecao-com-salarios-de-ate-7955",
@@ -11077,7 +11091,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.322Z"
+    "coletadoEm": "2026-07-23T04:01:11.375Z"
   },
   {
     "id": "prefeitura-de-imbe-rs-abre-processo-seletivo-para-agente-recenseador",
@@ -11120,7 +11134,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.324Z"
+    "coletadoEm": "2026-07-23T04:01:11.379Z"
   },
   {
     "id": "prefeitura-de-itaqui-rs-abre-selecao-para-cargos-de-nivel-fundamental-incompleto",
@@ -11163,7 +11177,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.327Z"
+    "coletadoEm": "2026-07-23T04:01:11.382Z"
   },
   {
     "id": "prefeitura-de-maquine-rs-abre-selecoes-para-motorista-e-professor",
@@ -11207,7 +11221,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.329Z"
+    "coletadoEm": "2026-07-23T04:01:11.385Z"
   },
   {
     "id": "prefeitura-de-marques-de-souza-rs-abre-concurso-e-processo-seletivo-com-salarios-de-ate-5181",
@@ -11253,7 +11267,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.333Z"
+    "coletadoEm": "2026-07-23T04:01:11.388Z"
   },
   {
     "id": "prefeitura-de-nova-santa-rita-rs-lanca-concurso-publico-com-salarios-ate-4587",
@@ -11299,7 +11313,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.337Z"
+    "coletadoEm": "2026-07-23T04:01:11.392Z"
   },
   {
     "id": "prefeitura-de-porto-alegre-rs-abre-concurso-publico-para-agente-de-fiscalizacao-municipal",
@@ -11342,7 +11356,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.339Z"
+    "coletadoEm": "2026-07-23T04:01:11.394Z"
   },
   {
     "id": "prefeitura-de-quevedos-rs-abre-selecao-para-o-cargo-de-servicos-diversos",
@@ -11385,7 +11399,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.341Z"
+    "coletadoEm": "2026-07-23T04:01:11.398Z"
   },
   {
     "id": "prefeitura-de-rio-grande-rs-abre-vagas-em-processos-seletivos-para-educadores-sociais",
@@ -11428,7 +11442,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.344Z"
+    "coletadoEm": "2026-07-23T04:01:11.401Z"
   },
   {
     "id": "prefeitura-de-rio-grande-rs-abre-selecao-para-o-programa-pet-saude-clima",
@@ -11472,7 +11486,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.346Z"
+    "coletadoEm": "2026-07-23T04:01:11.403Z"
   },
   {
     "id": "prefeitura-de-rio-grande-rs-abre-selecao-para-assistente-social-nutricionista-e-psicologo",
@@ -11515,7 +11529,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.349Z"
+    "coletadoEm": "2026-07-23T04:01:11.405Z"
   },
   {
     "id": "prefeitura-de-santo-angelo-rs-abre-concurso-publico-com-salarios-de-ate-6369",
@@ -11560,7 +11574,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.352Z"
+    "coletadoEm": "2026-07-23T04:01:11.409Z"
   },
   {
     "id": "prefeitura-de-sinimbu-rs-abre-selecao-para-atendente-de-consultorio-odontologico",
@@ -11603,7 +11617,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.355Z"
+    "coletadoEm": "2026-07-23T04:01:11.413Z"
   },
   {
     "id": "prefeitura-de-tapejara-rs-abre-processo-seletivo-para-cadastro-de-reserva-em-diversos-cargos",
@@ -11647,7 +11661,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.358Z"
+    "coletadoEm": "2026-07-23T04:01:11.416Z"
   },
   {
     "id": "prefeitura-de-tavares-rs-abre-processo-seletivo-para-o-cargo-de-servente",
@@ -11690,7 +11704,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.362Z"
+    "coletadoEm": "2026-07-23T04:01:11.419Z"
   },
   {
     "id": "prefeitura-de-travesseiro-rs-abre-concurso-publico-com-salarios-de-ate-4395",
@@ -11735,7 +11749,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.366Z"
+    "coletadoEm": "2026-07-23T04:01:11.422Z"
   },
   {
     "id": "prefeitura-de-tres-coroas-rs-abre-processo-seletivo-para-enfermeiro",
@@ -11778,7 +11792,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.369Z"
+    "coletadoEm": "2026-07-23T04:01:11.425Z"
   },
   {
     "id": "prefeitura-de-victor-graeff-rs-abre-vagas-em-processo-seletivo-para-operarios",
@@ -11821,7 +11835,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.372Z"
+    "coletadoEm": "2026-07-23T04:01:11.428Z"
   },
   {
     "id": "sape-sc-abre-concurso-com-20-vagas-para-analista-tecnico-administrativo-ii",
@@ -11929,10 +11943,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.374Z",
+    "coletadoEm": "2026-07-23T04:01:11.430Z",
     "publicadoEm": "2026-07-10T14:11:50-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:11.595Z"
+    "enriquecidoEm": "2026-07-23T04:01:52.366Z"
   },
   {
     "id": "amfri-sc-abre-processo-seletivo-com-salarios-de-ate-13154",
@@ -11976,7 +11990,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.378Z"
+    "coletadoEm": "2026-07-23T04:01:11.434Z"
   },
   {
     "id": "camara-de-blumenau-sc-abre-concurso-publico-para-controlador-interno-e-procurador",
@@ -12019,7 +12033,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.380Z"
+    "coletadoEm": "2026-07-23T04:01:11.436Z"
   },
   {
     "id": "camara-de-catanduvas-sc-abre-concurso-com-salarios-de-ate-8833",
@@ -12063,7 +12077,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.382Z"
+    "coletadoEm": "2026-07-23T04:01:11.437Z"
   },
   {
     "id": "camara-de-lindoia-do-sul-rs-abre-concurso-publico-para-analista-administrativo-e-contador",
@@ -12106,7 +12120,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.385Z"
+    "coletadoEm": "2026-07-23T04:01:11.440Z"
   },
   {
     "id": "camara-de-penha-sc-publica-edital-de-concurso-publico-para-diversos-cargos",
@@ -12151,7 +12165,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.387Z"
+    "coletadoEm": "2026-07-23T04:01:11.442Z"
   },
   {
     "id": "fahece-sc-anuncia-vaga-para-fonoaudiologo-i-no-cepon-de-florianopolis",
@@ -12194,7 +12208,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.391Z"
+    "coletadoEm": "2026-07-23T04:01:11.446Z"
   },
   {
     "id": "fahece-sc-anuncia-processos-seletivos-para-enfermeiro-e-assistente-administrativo-em-florianopolis",
@@ -12238,7 +12252,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.394Z"
+    "coletadoEm": "2026-07-23T04:01:11.449Z"
   },
   {
     "id": "fahece-sc-anuncia-processo-seletivo-para-medico-ii-no-cepon-de-florianopolis",
@@ -12281,7 +12295,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.395Z"
+    "coletadoEm": "2026-07-23T04:01:11.450Z"
   },
   {
     "id": "fahece-sc-abre-processo-seletivo-para-o-cargo-de-enfermeiro-i-na-central-de-quimioterapia",
@@ -12329,10 +12343,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.396Z",
+    "coletadoEm": "2026-07-23T04:01:11.452Z",
     "publicadoEm": "2026-07-21T16:07:32-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:13.019Z"
+    "enriquecidoEm": "2026-07-23T04:01:54.861Z"
   },
   {
     "id": "fumaf-de-morro-da-fumaca-sc-abre-vagas-para-geologo-e-auxiliar-de-jardinagem",
@@ -12376,7 +12390,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.400Z"
+    "coletadoEm": "2026-07-23T04:01:11.454Z"
   },
   {
     "id": "furb-sc-abre-selecoes-para-profissionais-de-diversas-areas-com-salarios-de-ate-7546",
@@ -12421,7 +12435,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.403Z"
+    "coletadoEm": "2026-07-23T04:01:11.458Z"
   },
   {
     "id": "fahece-sc-abre-processos-seletivos-para-o-hemosc-de-joacaba",
@@ -12465,7 +12479,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.407Z"
+    "coletadoEm": "2026-07-23T04:01:11.461Z"
   },
   {
     "id": "ifsc-abre-concurso-publico-para-cargos-de-tecnicos-administrativos-em-educacao",
@@ -12593,10 +12607,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.408Z",
+    "coletadoEm": "2026-07-23T04:01:11.463Z",
     "publicadoEm": "2026-07-21T14:55:50-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:14.313Z"
+    "enriquecidoEm": "2026-07-23T04:01:56.328Z"
   },
   {
     "id": "instituto-do-meio-ambiente-de-balneario-picarras-sc-abre-concurso-publico-para-formar-cadastro-de-reserva",
@@ -12640,7 +12654,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.411Z"
+    "coletadoEm": "2026-07-23T04:01:11.466Z"
   },
   {
     "id": "prefeitura-de-schroeder-sc-abre-processo-seletivo-para-a-secretaria-municipal-de-educacao",
@@ -12685,7 +12699,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.413Z"
+    "coletadoEm": "2026-07-23T04:01:11.468Z"
   },
   {
     "id": "prefeitura-de-apiuna-sc-abre-selecao-para-enfermeiro-e-farmaceutico",
@@ -12728,7 +12742,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.415Z"
+    "coletadoEm": "2026-07-23T04:01:11.471Z"
   },
   {
     "id": "prefeitura-de-arabuta-sc-abre-concurso-publico-com-salarios-de-ate-6742",
@@ -12773,7 +12787,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.418Z"
+    "coletadoEm": "2026-07-23T04:01:11.473Z"
   },
   {
     "id": "prefeitura-de-balneario-picarras-sc-abre-concurso-para-a-guarda-municipal",
@@ -12816,7 +12830,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.420Z"
+    "coletadoEm": "2026-07-23T04:01:11.474Z"
   },
   {
     "id": "prefeitura-de-balneario-picarras-sc-abre-concursos-e-processo-seletivo-com-salarios-de-ate-22936",
@@ -12862,7 +12876,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.421Z"
+    "coletadoEm": "2026-07-23T04:01:11.476Z"
   },
   {
     "id": "prefeitura-de-bandeirante-sc-abre-processo-seletivo-para-cadastro-de-reserva",
@@ -12908,7 +12922,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.433Z"
+    "coletadoEm": "2026-07-23T04:01:11.487Z"
   },
   {
     "id": "prefeitura-de-bombinhas-sc-abre-selecao-para-agente-da-fiscalizacao-de-temporada-e-agente-da-tpa",
@@ -12951,7 +12965,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.435Z"
+    "coletadoEm": "2026-07-23T04:01:11.489Z"
   },
   {
     "id": "prefeitura-de-brusque-sc-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -12995,7 +13009,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.438Z"
+    "coletadoEm": "2026-07-23T04:01:11.491Z"
   },
   {
     "id": "prefeitura-de-campo-alegre-sc-abre-processo-seletivo-para-profissionais-de-nivel-superior-na-educacao",
@@ -13038,7 +13052,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.440Z"
+    "coletadoEm": "2026-07-23T04:01:11.494Z"
   },
   {
     "id": "prefeitura-de-caxambu-do-sul-sc-abre-selecao-para-profissionais-da-educacao",
@@ -13081,7 +13095,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.442Z"
+    "coletadoEm": "2026-07-23T04:01:11.497Z"
   },
   {
     "id": "prefeitura-de-cunha-pora-sc-abre-concurso-publico-e-processo-seletivo-com-salarios-de-ate-22504",
@@ -13126,7 +13140,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.444Z"
+    "coletadoEm": "2026-07-23T04:01:11.499Z"
   },
   {
     "id": "prefeitura-de-doutor-pedrinho-sc-abre-concurso-publico-para-fiscal-de-tributos",
@@ -13169,7 +13183,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.446Z"
+    "coletadoEm": "2026-07-23T04:01:11.501Z"
   },
   {
     "id": "prefeitura-de-florianopolis-sc-divulga-processo-seletivo-para-profissionais-de-saude",
@@ -13212,7 +13226,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.448Z"
+    "coletadoEm": "2026-07-23T04:01:11.503Z"
   },
   {
     "id": "prefeitura-de-fraiburgo-sc-abre-processo-seletivo-para-cargos-de-nivel-fundamental-e-superior",
@@ -13256,7 +13270,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.450Z"
+    "coletadoEm": "2026-07-23T04:01:11.504Z"
   },
   {
     "id": "prefeitura-de-gaspar-sc-abre-vagas-em-processo-seletivo-para-agentes-comunitarios-de-saude",
@@ -13299,7 +13313,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.453Z"
+    "coletadoEm": "2026-07-23T04:01:11.506Z"
   },
   {
     "id": "prefeitura-de-grao-para-sc-abre-processo-seletivo-com-vaga-para-assistente-social",
@@ -13342,7 +13356,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.455Z"
+    "coletadoEm": "2026-07-23T04:01:11.508Z"
   },
   {
     "id": "prefeitura-de-grao-para-sc-abre-vaga-para-agente-de-servicos-gerais",
@@ -13385,7 +13399,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.457Z"
+    "coletadoEm": "2026-07-23T04:01:11.510Z"
   },
   {
     "id": "prefeitura-de-indaial-sc-abre-selecao-com-salarios-de-ate-20671-para-a-secretaria-de-saude",
@@ -13430,7 +13444,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.458Z"
+    "coletadoEm": "2026-07-23T04:01:11.513Z"
   },
   {
     "id": "prefeitura-de-ita-sc-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -13475,7 +13489,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.460Z"
+    "coletadoEm": "2026-07-23T04:01:11.517Z"
   },
   {
     "id": "prefeitura-de-itajai-sc-retifica-editais-de-concursos-publicos",
@@ -13520,7 +13534,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.462Z"
+    "coletadoEm": "2026-07-23T04:01:11.519Z"
   },
   {
     "id": "prefeitura-de-macieira-sc-abre-processo-seletivo-com-vagas-para-a-area-da-educacao",
@@ -13564,7 +13578,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.464Z"
+    "coletadoEm": "2026-07-23T04:01:11.521Z"
   },
   {
     "id": "prefeitura-de-morro-da-fumaca-sc-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -13609,7 +13623,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.466Z"
+    "coletadoEm": "2026-07-23T04:01:11.522Z"
   },
   {
     "id": "prefeitura-de-morro-da-fumaca-sc-abre-processo-seletivo-para-operador-de-equipamentos",
@@ -13652,7 +13666,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.469Z"
+    "coletadoEm": "2026-07-23T04:01:11.523Z"
   },
   {
     "id": "prefeitura-de-painel-sc-abre-vagas-em-concurso-e-processos-seletivos",
@@ -13698,7 +13712,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.474Z"
+    "coletadoEm": "2026-07-23T04:01:11.526Z"
   },
   {
     "id": "prefeitura-de-palmeira-sc-abre-concurso-para-pedreiro-e-operador-de-equipamentos-iii",
@@ -13741,7 +13755,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.476Z"
+    "coletadoEm": "2026-07-23T04:01:11.528Z"
   },
   {
     "id": "prefeitura-de-pinheiro-preto-sc-divulga-retificacoes-de-concurso-publico-e-processo-seletivo",
@@ -13787,7 +13801,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.479Z"
+    "coletadoEm": "2026-07-23T04:01:11.531Z"
   },
   {
     "id": "prefeitura-de-piratuba-sc-divulga-retificacao-de-concurso-publico-com-salarios-de-ate-21473-80",
@@ -13831,7 +13845,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.481Z"
+    "coletadoEm": "2026-07-23T04:01:11.533Z"
   },
   {
     "id": "prefeitura-de-rio-do-sul-sc-abre-concurso-publico-com-vagas-para-guarda-municipal",
@@ -13874,7 +13888,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.484Z"
+    "coletadoEm": "2026-07-23T04:01:11.536Z"
   },
   {
     "id": "prefeitura-de-salete-sc-abre-selecao-para-cadastro-de-reserva-em-diversas-areas",
@@ -13920,7 +13934,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.486Z"
+    "coletadoEm": "2026-07-23T04:01:11.538Z"
   },
   {
     "id": "prefeitura-de-sao-cristovao-do-sul-sc-abre-concurso-com-salarios-de-ate-10999",
@@ -13966,7 +13980,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.490Z"
+    "coletadoEm": "2026-07-23T04:01:11.540Z"
   },
   {
     "id": "prefeitura-de-sao-jose-do-cedro-sc-abre-concurso-e-processos-seletivos-com-salarios-de-ate-8732",
@@ -14011,7 +14025,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.493Z"
+    "coletadoEm": "2026-07-23T04:01:11.544Z"
   },
   {
     "id": "prefeitura-de-sao-lourenco-do-oeste-sc-abre-vagas-para-odontologo-e-farmaceutico",
@@ -14054,7 +14068,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.496Z"
+    "coletadoEm": "2026-07-23T04:01:11.547Z"
   },
   {
     "id": "prefeitura-de-sao-miguel-do-oeste-sc-retifica-edital-de-concurso-publico",
@@ -14099,7 +14113,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.499Z"
+    "coletadoEm": "2026-07-23T04:01:11.550Z"
   },
   {
     "id": "prefeitura-de-tangara-sc-abre-processo-seletivo-com-salarios-de-ate-2318",
@@ -14143,7 +14157,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.501Z"
+    "coletadoEm": "2026-07-23T04:01:11.552Z"
   },
   {
     "id": "prefeitura-de-timbo-sc-abre-concurso-publico-com-salarios-de-ate-7247",
@@ -14189,7 +14203,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.504Z"
+    "coletadoEm": "2026-07-23T04:01:11.554Z"
   },
   {
     "id": "prefeitura-de-timbo-sc-abre-concursos-publicos-para-diversos-cargos-e-areas",
@@ -14234,7 +14248,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.506Z"
+    "coletadoEm": "2026-07-23T04:01:11.555Z"
   },
   {
     "id": "prefeitura-de-tres-barras-sc-abre-processo-seletivo-para-monitores-e-tecnicos-de-enfermagem",
@@ -14277,7 +14291,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.508Z"
+    "coletadoEm": "2026-07-23T04:01:11.557Z"
   },
   {
     "id": "prefeitura-de-tubarao-sc-abre-processo-seletivo-para-a-area-da-saude",
@@ -14322,7 +14336,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.509Z"
+    "coletadoEm": "2026-07-23T04:01:11.559Z"
   },
   {
     "id": "prefeitura-de-vargem-sc-abre-processo-seletivo-para-nutricionista-e-professora-de-ingles",
@@ -14365,7 +14379,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.511Z"
+    "coletadoEm": "2026-07-23T04:01:11.562Z"
   },
   {
     "id": "prefeitura-e-camara-de-ituporanga-sc-lancam-quatro-editais-de-concurso-publico",
@@ -14411,7 +14425,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.513Z"
+    "coletadoEm": "2026-07-23T04:01:11.564Z"
   },
   {
     "id": "samae-de-nova-trento-sc-abre-processo-seletivo-com-salarios-de-ate-4062",
@@ -14455,7 +14469,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.516Z"
+    "coletadoEm": "2026-07-23T04:01:11.567Z"
   },
   {
     "id": "sanefrai-sc-abre-processo-seletivo-para-o-cargo-de-agente-de-servicos-gerais",
@@ -14498,7 +14512,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.520Z"
+    "coletadoEm": "2026-07-23T04:01:11.570Z"
   },
   {
     "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
@@ -15011,10 +15025,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.521Z",
+    "coletadoEm": "2026-07-23T04:01:11.571Z",
     "publicadoEm": "2026-06-23T10:49:19-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:15.685Z"
+    "enriquecidoEm": "2026-07-23T04:01:57.948Z"
   },
   {
     "id": "ses-sc-abre-selecao-para-tecnico-em-enfermagem-no-hospital-governador-celso-ramos",
@@ -15057,7 +15071,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.526Z"
+    "coletadoEm": "2026-07-23T04:01:11.577Z"
   },
   {
     "id": "abgf-retifica-edital-de-concurso-publico-com-vagas-para-cargos-de-nivel-superior",
@@ -15105,10 +15119,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.527Z",
+    "coletadoEm": "2026-07-23T04:01:11.578Z",
     "publicadoEm": "2026-07-22T12:06:48-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:16.997Z"
+    "enriquecidoEm": "2026-07-23T04:01:59.350Z"
   },
   {
     "id": "igesdf-df-processos-seletivos-visam-formacao-de-cadastro-de-reserva-para-medicos-e-tecnicos-de-enfermagem",
@@ -15133,10 +15147,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.527Z",
+    "abrangencia": "distrito_federal",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.578Z",
     "publicadoEm": "2026-07-20T17:34:01-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:18.421Z"
+    "enriquecidoEm": "2026-07-23T04:02:00.781Z"
   },
   {
     "id": "sedes-df-publica-retificacao-de-edital-de-concurso-publico",
@@ -15161,10 +15177,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.527Z",
+    "abrangencia": "distrito_federal",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.578Z",
     "publicadoEm": "2026-06-02T15:00:32-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:19.858Z"
+    "enriquecidoEm": "2026-07-23T04:02:02.339Z"
   },
   {
     "id": "tcdf-anuncia-concurso-publico-para-o-cargo-de-analista-administrativo",
@@ -15188,10 +15206,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.528Z",
+    "abrangencia": "distrito_federal",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.579Z",
     "publicadoEm": "2026-07-09T11:16:25-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:20.959Z"
+    "enriquecidoEm": "2026-07-23T04:02:03.749Z"
   },
   {
     "id": "prefeitura-de-cristalina-go-retifica-edital-de-concurso-publico-para-a-secretaria-de-educacao",
@@ -15236,7 +15256,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.530Z"
+    "coletadoEm": "2026-07-23T04:01:11.581Z"
   },
   {
     "id": "camara-de-aragarcas-go-abre-concurso-publico-com-vagas-de-nivel-fundamental-e-medio",
@@ -15281,7 +15301,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.532Z"
+    "coletadoEm": "2026-07-23T04:01:11.583Z"
   },
   {
     "id": "camara-de-ipameri-go-abre-concurso-publico-com-remuneracoes-de-ate-8589",
@@ -15326,7 +15346,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.534Z"
+    "coletadoEm": "2026-07-23T04:01:11.585Z"
   },
   {
     "id": "camara-de-rio-verde-go-abre-concursos-publicos-com-salarios-de-ate-7241",
@@ -15372,7 +15392,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.536Z"
+    "coletadoEm": "2026-07-23T04:01:11.587Z"
   },
   {
     "id": "camara-de-senador-canedo-go-anuncia-retomada-de-concurso-publico-com-salarios-de-ate-11903",
@@ -15417,7 +15437,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.539Z"
+    "coletadoEm": "2026-07-23T04:01:11.589Z"
   },
   {
     "id": "camara-de-trombas-go-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -15462,7 +15482,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.541Z"
+    "coletadoEm": "2026-07-23T04:01:11.591Z"
   },
   {
     "id": "prefeitura-de-anicuns-go-divulga-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -15505,7 +15525,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.550Z"
+    "coletadoEm": "2026-07-23T04:01:11.601Z"
   },
   {
     "id": "prefeitura-de-buriti-alegre-go-abre-concurso-publico-com-salarios-de-ate-4656",
@@ -15551,7 +15571,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.553Z"
+    "coletadoEm": "2026-07-23T04:01:11.603Z"
   },
   {
     "id": "prefeitura-de-cezarina-go-abre-concurso-publico-com-vaga-para-fiscal-de-tributos-municipais",
@@ -15594,7 +15614,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.555Z"
+    "coletadoEm": "2026-07-23T04:01:11.604Z"
   },
   {
     "id": "prefeitura-de-minacu-go-retifica-concurso-publico-com-salarios-de-ate-21-7-mil",
@@ -15637,7 +15657,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.556Z"
+    "coletadoEm": "2026-07-23T04:01:11.606Z"
   },
   {
     "id": "prefeitura-de-piracanjuba-go-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -15681,7 +15701,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.558Z"
+    "coletadoEm": "2026-07-23T04:01:11.608Z"
   },
   {
     "id": "prefeitura-de-santo-antonio-da-barra-go-retifica-edital-de-concurso-publico",
@@ -15727,7 +15747,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.560Z"
+    "coletadoEm": "2026-07-23T04:01:11.611Z"
   },
   {
     "id": "prefeitura-de-sao-miguel-do-araguaia-go-abre-concurso-publico-com-vagas-em-diversos-cargos",
@@ -15773,7 +15793,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.563Z"
+    "coletadoEm": "2026-07-23T04:01:11.613Z"
   },
   {
     "id": "prefeitura-de-trombas-go-abre-concurso-publico-com-salarios-de-ate-5130",
@@ -15819,7 +15839,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.565Z"
+    "coletadoEm": "2026-07-23T04:01:11.615Z"
   },
   {
     "id": "camara-e-prefeitura-de-trindade-go-abrem-vagas-com-salarios-de-ate-7500",
@@ -15864,7 +15884,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.567Z"
+    "coletadoEm": "2026-07-23T04:01:11.617Z"
   },
   {
     "id": "secretaria-de-educacao-de-caldas-novas-go-abre-selecao-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -15908,7 +15928,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.570Z"
+    "coletadoEm": "2026-07-23T04:01:11.620Z"
   },
   {
     "id": "secretaria-de-desenvolvimento-social-de-luziania-go-abre-processo-seletivo-para-diversos-cargos",
@@ -15953,7 +15973,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.572Z"
+    "coletadoEm": "2026-07-23T04:01:11.622Z"
   },
   {
     "id": "prefeitura-de-coronel-sapucaia-ms-abre-processo-seletivo-para-profissionais-de-nivel-superior",
@@ -15996,7 +16016,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.574Z"
+    "coletadoEm": "2026-07-23T04:01:11.624Z"
   },
   {
     "id": "prefeitura-de-rio-verde-de-mato-grosso-ms-abre-processo-seletivo-para-agente-comunitario-de-saude",
@@ -16039,7 +16059,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.576Z"
+    "coletadoEm": "2026-07-23T04:01:11.626Z"
   },
   {
     "id": "prefeitura-de-primavera-do-leste-mt-retifica-edital-de-concurso-publico",
@@ -16084,7 +16104,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.578Z"
+    "coletadoEm": "2026-07-23T04:01:11.630Z"
   },
   {
     "id": "camara-de-conquista-doeste-mt-abre-concurso-publico-com-salarios-de-ate-6595",
@@ -16129,7 +16149,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.580Z"
+    "coletadoEm": "2026-07-23T04:01:11.632Z"
   },
   {
     "id": "camara-de-general-carneiro-mt-abre-concurso-para-diversos-cargos",
@@ -16173,7 +16193,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.581Z"
+    "coletadoEm": "2026-07-23T04:01:11.634Z"
   },
   {
     "id": "ifmt-abre-concurso-publico-com-vagas-para-cargos-tecnico-administrativos-em-educacao",
@@ -16396,10 +16416,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.582Z",
+    "coletadoEm": "2026-07-23T04:01:11.634Z",
     "publicadoEm": "2026-07-16T10:51:54-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:22.336Z"
+    "enriquecidoEm": "2026-07-23T04:02:05.278Z"
   },
   {
     "id": "prefeitura-de-alto-garcas-mt-abre-selecao-com-salarios-de-ate-8348-na-secretaria-de-saude",
@@ -16444,7 +16464,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.584Z"
+    "coletadoEm": "2026-07-23T04:01:11.636Z"
   },
   {
     "id": "prefeitura-de-brasnorte-mt-abre-vaga-para-medico-veterinario",
@@ -16487,7 +16507,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.586Z"
+    "coletadoEm": "2026-07-23T04:01:11.638Z"
   },
   {
     "id": "prefeitura-de-caceres-mt-abre-processo-seletivo-para-a-secretaria-de-saude",
@@ -16530,7 +16550,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.589Z"
+    "coletadoEm": "2026-07-23T04:01:11.639Z"
   },
   {
     "id": "prefeitura-de-juara-mt-abre-selecao-para-auxiliar-de-professor-na-zona-rural",
@@ -16573,7 +16593,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.591Z"
+    "coletadoEm": "2026-07-23T04:01:11.640Z"
   },
   {
     "id": "prefeitura-de-marcelandia-mt-abre-processo-seletivo-com-vagas-para-diversos-cargos",
@@ -16619,7 +16639,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.592Z"
+    "coletadoEm": "2026-07-23T04:01:11.642Z"
   },
   {
     "id": "prefeitura-de-nova-monte-verde-mt-abre-selecao-para-a-secretaria-de-saude",
@@ -16664,7 +16684,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.594Z"
+    "coletadoEm": "2026-07-23T04:01:11.644Z"
   },
   {
     "id": "prefeitura-de-novo-sao-joaquim-mt-abre-processo-seletivo-com-salarios-de-ate-4688",
@@ -16710,7 +16730,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.596Z"
+    "coletadoEm": "2026-07-23T04:01:11.647Z"
   },
   {
     "id": "prefeitura-de-primavera-do-leste-mt-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -16753,7 +16773,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.598Z"
+    "coletadoEm": "2026-07-23T04:01:11.649Z"
   },
   {
     "id": "prefeitura-de-serra-nova-dourada-mt-abre-processo-seletivo-com-salarios-de-ate-5600",
@@ -16798,7 +16818,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.601Z"
+    "coletadoEm": "2026-07-23T04:01:11.651Z"
   },
   {
     "id": "pgm-manaus-am-abre-concurso-publico-com-vagas-para-procurador-do-municipio-de-3-classe",
@@ -16841,7 +16861,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.602Z"
+    "coletadoEm": "2026-07-23T04:01:11.652Z"
   },
   {
     "id": "prefeitura-de-amatura-am-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -16884,7 +16904,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.604Z"
+    "coletadoEm": "2026-07-23T04:01:11.653Z"
   },
   {
     "id": "companhia-docas-do-para-divulga-retificacoes-de-concursos-publicos",
@@ -16949,10 +16969,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.605Z",
+    "coletadoEm": "2026-07-23T04:01:11.654Z",
     "publicadoEm": "2026-07-20T11:17:46-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:23.788Z"
+    "enriquecidoEm": "2026-07-23T04:02:06.863Z"
   },
   {
     "id": "prefeitura-de-porto-velho-ro-abre-concurso-com-50-vagas-para-guarda-municipal",
@@ -16995,7 +17015,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.608Z"
+    "coletadoEm": "2026-07-23T04:01:11.657Z"
   },
   {
     "id": "camara-de-ariquemes-ro-abre-concurso-para-niveis-tecnico-e-superior",
@@ -17040,7 +17060,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.609Z"
+    "coletadoEm": "2026-07-23T04:01:11.658Z"
   },
   {
     "id": "sesdec-ro-abre-processo-seletivo-com-vagas-para-o-projeto-voluntariar",
@@ -17067,10 +17087,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.609Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.659Z",
     "publicadoEm": "2026-07-08T15:01:33-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:24.916Z"
+    "enriquecidoEm": "2026-07-23T04:02:08.274Z"
   },
   {
     "id": "cbmrr-rr-abre-concurso-publico-com-vagas-para-soldados-e-oficiais",
@@ -17119,10 +17141,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.610Z",
+    "coletadoEm": "2026-07-23T04:01:11.659Z",
     "publicadoEm": "2026-07-06T14:00:35-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:26.311Z"
+    "enriquecidoEm": "2026-07-23T04:02:09.693Z"
   },
   {
     "id": "caer-rr-abre-concurso-publico-com-salarios-ate-4554",
@@ -17148,10 +17170,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.610Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.659Z",
     "publicadoEm": "2026-07-15T15:07:33-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:27.744Z"
+    "enriquecidoEm": "2026-07-23T04:02:10.984Z"
   },
   {
     "id": "camara-de-nova-olinda-to-publica-edital-de-concurso-com-vagas-para-diversos-cargos",
@@ -17195,7 +17219,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.612Z"
+    "coletadoEm": "2026-07-23T04:01:11.661Z"
   },
   {
     "id": "prefeitura-de-araguaina-to-retifica-editais-de-concursos-publicos",
@@ -17240,7 +17264,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.613Z"
+    "coletadoEm": "2026-07-23T04:01:11.663Z"
   },
   {
     "id": "prefeitura-de-arraias-to-abre-concurso-publico-com-vagas-para-diversos-cargos",
@@ -17286,7 +17310,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.615Z"
+    "coletadoEm": "2026-07-23T04:01:11.665Z"
   },
   {
     "id": "prefeitura-de-campo-alegre-al-abre-concurso-publico-com-salarios-de-ate-3885",
@@ -17330,7 +17354,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.617Z"
+    "coletadoEm": "2026-07-23T04:01:11.667Z"
   },
   {
     "id": "seplag-seduc-al-retificam-concurso-publico-para-professores",
@@ -17393,10 +17417,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.618Z",
+    "coletadoEm": "2026-07-23T04:01:11.667Z",
     "publicadoEm": "2026-06-29T16:28:10-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:29.204Z"
+    "enriquecidoEm": "2026-07-23T04:02:12.313Z"
   },
   {
     "id": "sesau-al-retifica-concurso-para-especialistas-e-assistentes-em-saude",
@@ -17422,10 +17446,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.619Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.668Z",
     "publicadoEm": "2026-07-20T13:24:15-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:30.330Z"
+    "enriquecidoEm": "2026-07-23T04:02:13.906Z"
   },
   {
     "id": "seplag-e-alprev-al-publicam-retificacao-em-concurso-com-vagas-para-analistas-previdenciarios",
@@ -17474,10 +17500,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.619Z",
+    "coletadoEm": "2026-07-23T04:01:11.668Z",
     "publicadoEm": "2026-07-10T18:19:28-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:31.439Z"
+    "enriquecidoEm": "2026-07-23T04:02:15.327Z"
   },
   {
     "id": "cbm-al-divulga-retificacao-de-concurso-publico",
@@ -17540,10 +17566,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.620Z",
+    "coletadoEm": "2026-07-23T04:01:11.669Z",
     "publicadoEm": "2026-06-16T17:54:40-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:32.769Z"
+    "enriquecidoEm": "2026-07-23T04:02:16.763Z"
   },
   {
     "id": "procon-e-seplag-al-anunciam-concurso-com-salarios-de-5501",
@@ -17591,10 +17617,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.621Z",
+    "coletadoEm": "2026-07-23T04:01:11.669Z",
     "publicadoEm": "2026-07-06T11:09:24-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:34.198Z"
+    "enriquecidoEm": "2026-07-23T04:02:18.196Z"
   },
   {
     "id": "seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil",
@@ -17657,10 +17683,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.621Z",
+    "coletadoEm": "2026-07-23T04:01:11.670Z",
     "publicadoEm": "2026-07-06T11:16:32-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:36.482Z"
+    "enriquecidoEm": "2026-07-23T04:02:19.624Z"
   },
   {
     "id": "consorcio-de-saude-da-regiao-de-irece-ba-abre-concurso-publico-para-profissionais-de-diversas-areas",
@@ -17705,7 +17731,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.627Z"
+    "coletadoEm": "2026-07-23T04:01:11.675Z"
   },
   {
     "id": "prefeitura-de-salvador-ba-abre-concurso-publico-para-profissionais-da-educacao",
@@ -17748,7 +17774,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.629Z"
+    "coletadoEm": "2026-07-23T04:01:11.678Z"
   },
   {
     "id": "prefeitura-de-abare-ba-retifica-edital-de-concurso-publico-para-agente-comunitario-de-saude",
@@ -17791,7 +17817,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.633Z"
+    "coletadoEm": "2026-07-23T04:01:11.682Z"
   },
   {
     "id": "prefeitura-de-bonito-ba-retifica-editais-de-concurso-publico-e-processo-seletivo",
@@ -17837,7 +17863,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.635Z"
+    "coletadoEm": "2026-07-23T04:01:11.684Z"
   },
   {
     "id": "prefeitura-de-formosa-do-rio-preto-ba-prorroga-inscricoes-para-concurso-publico",
@@ -17883,7 +17909,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.639Z"
+    "coletadoEm": "2026-07-23T04:01:11.688Z"
   },
   {
     "id": "prefeitura-de-licinio-de-almeida-ba-prorroga-inscricoes-do-concurso-publico-com-vagas-de-nivel-medio-e-superior",
@@ -17927,7 +17953,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.641Z"
+    "coletadoEm": "2026-07-23T04:01:11.690Z"
   },
   {
     "id": "prefeitura-de-riachao-do-jacuipe-ba-abre-concurso-publico-com-vagas-para-diversos-cargos",
@@ -17971,7 +17997,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.644Z"
+    "coletadoEm": "2026-07-23T04:01:11.694Z"
   },
   {
     "id": "prefeitura-de-ubaira-ba-abre-processo-seletivo-com-vagas-disponiveis-em-diversas-secretarias",
@@ -18017,7 +18043,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.647Z"
+    "coletadoEm": "2026-07-23T04:01:11.697Z"
   },
   {
     "id": "alece-ce-reabre-inscricoes-de-concurso-com-vagas-para-analista-e-tecnico-legislativo",
@@ -18042,10 +18068,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.648Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.698Z",
     "publicadoEm": "2026-06-24T10:35:47-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:37.923Z"
+    "enriquecidoEm": "2026-07-23T04:02:21.018Z"
   },
   {
     "id": "camara-de-coreau-ce-reabre-inscricoes-do-concurso-publico-para-agente-administrativo-e-auxiliar-de-servicos-gerais",
@@ -18089,7 +18117,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.650Z"
+    "coletadoEm": "2026-07-23T04:01:11.700Z"
   },
   {
     "id": "prefeitura-de-aracati-ce-abre-concurso-publico-com-vagas-para-professores",
@@ -18132,7 +18160,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.652Z"
+    "coletadoEm": "2026-07-23T04:01:11.701Z"
   },
   {
     "id": "prefeitura-de-baturite-ce-abre-concurso-publico-para-guarda-municipal-escolar",
@@ -18175,7 +18203,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.654Z"
+    "coletadoEm": "2026-07-23T04:01:11.703Z"
   },
   {
     "id": "prefeitura-de-forquilha-ce-abre-concurso-para-agente-comunitario-de-saude",
@@ -18218,7 +18246,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.655Z"
+    "coletadoEm": "2026-07-23T04:01:11.704Z"
   },
   {
     "id": "prefeitura-de-forquilha-ce-abre-concurso-com-salarios-de-ate-11500",
@@ -18264,7 +18292,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.656Z"
+    "coletadoEm": "2026-07-23T04:01:11.705Z"
   },
   {
     "id": "prefeitura-de-marco-ce-abre-edital-de-concurso-publico-com-salarios-de-ate-12308",
@@ -18310,7 +18338,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.658Z"
+    "coletadoEm": "2026-07-23T04:01:11.707Z"
   },
   {
     "id": "prefeitura-de-palhano-ce-reabre-inscricoes-de-concurso-publico",
@@ -18356,7 +18384,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.659Z"
+    "coletadoEm": "2026-07-23T04:01:11.708Z"
   },
   {
     "id": "prefeitura-de-palhano-ce-reabre-inscricoes-de-concursos-publicos",
@@ -18400,7 +18428,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.660Z"
+    "coletadoEm": "2026-07-23T04:01:11.710Z"
   },
   {
     "id": "prefeitura-de-sobral-ce-retifica-concurso-publico-para-guarda-civil-municipal",
@@ -18443,7 +18471,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.662Z"
+    "coletadoEm": "2026-07-23T04:01:11.712Z"
   },
   {
     "id": "prefeitura-de-uruburetama-ce-abre-concurso-publico-para-diversas-areas",
@@ -18489,7 +18517,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.664Z"
+    "coletadoEm": "2026-07-23T04:01:11.714Z"
   },
   {
     "id": "cbmma-ma-abre-edital-para-curso-de-formacao-de-oficiais",
@@ -18513,10 +18541,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.665Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.715Z",
     "publicadoEm": "2026-06-24T10:09:35-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:39.336Z"
+    "enriquecidoEm": "2026-07-23T04:02:23.144Z"
   },
   {
     "id": "pmma-retifica-o-processo-seletivo-para-o-curso-de-formacao-de-oficiais",
@@ -18564,10 +18594,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.666Z",
+    "coletadoEm": "2026-07-23T04:01:11.716Z",
     "publicadoEm": "2026-07-22T14:01:50-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:40.653Z"
+    "enriquecidoEm": "2026-07-23T04:02:24.439Z"
   },
   {
     "id": "ref-21-ma-retifica-edital-de-concurso-com-vagas-para-diferentes-regioes-do-estado",
@@ -18652,10 +18682,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.668Z",
+    "coletadoEm": "2026-07-23T04:01:11.717Z",
     "publicadoEm": "2026-07-10T11:50:09-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:42.100Z"
+    "enriquecidoEm": "2026-07-23T04:02:25.893Z"
   },
   {
     "id": "policia-civil-ma-abre-concurso-publico-com-vagas-para-oficial-investigador",
@@ -18763,10 +18793,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.669Z",
+    "coletadoEm": "2026-07-23T04:01:11.718Z",
     "publicadoEm": "2026-07-14T10:55:30-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:43.520Z"
+    "enriquecidoEm": "2026-07-23T04:02:27.215Z"
   },
   {
     "id": "policia-civil-ma-abre-concurso-publico-com-58-vagas-imediatas-para-delegado",
@@ -18790,10 +18820,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.670Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.719Z",
     "publicadoEm": "2026-07-14T10:58:37-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:44.779Z"
+    "enriquecidoEm": "2026-07-23T04:02:28.639Z"
   },
   {
     "id": "pm-e-cbm-ma-abrem-concursos-publicos-com-vagas-para-pracas-soldados-e-musicos",
@@ -18817,10 +18849,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.671Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.720Z",
     "publicadoEm": "2026-07-20T11:02:13-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:46.128Z"
+    "enriquecidoEm": "2026-07-23T04:02:30.092Z"
   },
   {
     "id": "prefeitura-de-milagres-do-maranhao-ma-abre-selecao-para-agentes-de-saude-e-de-endemias",
@@ -18863,7 +18897,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.673Z"
+    "coletadoEm": "2026-07-23T04:01:11.722Z"
   },
   {
     "id": "sead-e-ssp-ma-abrem-concurso-para-pericia-oficial-com-remuneracoes-de-ate-14675",
@@ -18887,10 +18921,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.674Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.723Z",
     "publicadoEm": "2026-07-20T09:19:03-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:47.421Z"
+    "enriquecidoEm": "2026-07-23T04:02:31.524Z"
   },
   {
     "id": "seap-ma-abre-selecoes-para-especialistas-em-pedagogia-direito-e-servico-social",
@@ -18968,10 +19004,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.675Z",
+    "coletadoEm": "2026-07-23T04:01:11.724Z",
     "publicadoEm": "2026-07-10T17:06:44-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:48.856Z"
+    "enriquecidoEm": "2026-07-23T04:02:33.060Z"
   },
   {
     "id": "seap-sead-ma-abre-concurso-publico-para-inspetor-de-policia-penal-e-monitor-de-ressocializacao",
@@ -18996,10 +19032,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.676Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.725Z",
     "publicadoEm": "2026-07-21T15:24:30-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:50.277Z"
+    "enriquecidoEm": "2026-07-23T04:02:34.477Z"
   },
   {
     "id": "seap-ma-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -19049,10 +19087,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.677Z",
+    "coletadoEm": "2026-07-23T04:01:11.728Z",
     "publicadoEm": "2026-07-21T17:12:56-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:51.716Z"
+    "enriquecidoEm": "2026-07-23T04:02:35.917Z"
   },
   {
     "id": "seap-ma-abre-selecoes-para-auxiliares-penitenciarios-em-pinheiro",
@@ -19095,7 +19133,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.680Z"
+    "coletadoEm": "2026-07-23T04:01:11.731Z"
   },
   {
     "id": "seap-ma-abre-processos-seletivos-para-auxiliares-e-especialistas-penitenciarios",
@@ -19193,10 +19231,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.681Z",
+    "coletadoEm": "2026-07-23T04:01:11.733Z",
     "publicadoEm": "2026-07-10T16:09:51-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:53.199Z"
+    "enriquecidoEm": "2026-07-23T04:02:37.341Z"
   },
   {
     "id": "seap-ma-abre-selecao-para-auxiliar-penitenciario-em-chapadinha",
@@ -19240,7 +19278,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.685Z"
+    "coletadoEm": "2026-07-23T04:01:11.736Z"
   },
   {
     "id": "seap-ma-abre-selecoes-para-especialistas-e-tecnicos-penitenciarios",
@@ -19322,10 +19360,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.687Z",
+    "coletadoEm": "2026-07-23T04:01:11.737Z",
     "publicadoEm": "2026-07-10T18:21:53-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:54.737Z"
+    "enriquecidoEm": "2026-07-23T04:02:38.787Z"
   },
   {
     "id": "tce-ma-publica-edital-de-concurso-publico-com-salarios-de-ate-20112",
@@ -19351,10 +19389,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.688Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.737Z",
     "publicadoEm": "2026-07-08T16:46:02-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:56.925Z"
+    "enriquecidoEm": "2026-07-23T04:02:40.222Z"
   },
   {
     "id": "camara-de-mae-dagua-pb-retifica-concurso-publico-para-cargos-de-nivel-medio",
@@ -19398,7 +19438,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.690Z"
+    "coletadoEm": "2026-07-23T04:01:11.739Z"
   },
   {
     "id": "prefeitura-de-campina-grande-pb-prorroga-inscricoes-para-concurso-publico",
@@ -19444,7 +19484,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.692Z"
+    "coletadoEm": "2026-07-23T04:01:11.741Z"
   },
   {
     "id": "prefeitura-de-conceicao-pb-retifica-edital-de-concurso-publico",
@@ -19490,7 +19530,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.694Z"
+    "coletadoEm": "2026-07-23T04:01:11.743Z"
   },
   {
     "id": "prefeitura-de-mae-dagua-pb-retifica-edital-de-concurso-publico",
@@ -19536,7 +19576,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.695Z"
+    "coletadoEm": "2026-07-23T04:01:11.745Z"
   },
   {
     "id": "prefeitura-de-mogeiro-pb-abre-vagas-para-agente-comunitario-de-saude",
@@ -19579,7 +19619,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.697Z"
+    "coletadoEm": "2026-07-23T04:01:11.747Z"
   },
   {
     "id": "prefeitura-de-pirpirituba-pb-abre-concurso-publico-com-salarios-de-ate-6000",
@@ -19625,7 +19665,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.699Z"
+    "coletadoEm": "2026-07-23T04:01:11.749Z"
   },
   {
     "id": "camara-de-belo-jardim-pe-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -19671,7 +19711,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.701Z"
+    "coletadoEm": "2026-07-23T04:01:11.751Z"
   },
   {
     "id": "prefeitura-de-alagoinha-pe-abre-concurso-publico-com-vagas-para-diversos-cargos",
@@ -19716,7 +19756,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.703Z"
+    "coletadoEm": "2026-07-23T04:01:11.753Z"
   },
   {
     "id": "prefeitura-de-custodia-pe-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -19760,7 +19800,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.705Z"
+    "coletadoEm": "2026-07-23T04:01:11.754Z"
   },
   {
     "id": "prefeitura-de-exu-pe-abre-concurso-publico-com-salarios-de-ate-15180",
@@ -19806,7 +19846,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.707Z"
+    "coletadoEm": "2026-07-23T04:01:11.755Z"
   },
   {
     "id": "prefeitura-de-serra-talhada-pe-abre-selecao-para-formacao-de-cadastro-de-reserva-em-diversos-cargos",
@@ -19852,7 +19892,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.708Z"
+    "coletadoEm": "2026-07-23T04:01:11.757Z"
   },
   {
     "id": "prefeitura-de-surubim-pe-abre-processo-seletivo-para-o-cargo-de-cozinheiro",
@@ -19895,7 +19935,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.716Z"
+    "coletadoEm": "2026-07-23T04:01:11.765Z"
   },
   {
     "id": "prefeitura-de-terra-nova-pe-abre-selecao-publica-com-salarios-de-ate-13000",
@@ -19941,7 +19981,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.718Z"
+    "coletadoEm": "2026-07-23T04:01:11.767Z"
   },
   {
     "id": "secretaria-de-saude-de-paulista-pe-abre-processo-seletivo-com-salarios-ate-5972",
@@ -19986,7 +20026,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.720Z"
+    "coletadoEm": "2026-07-23T04:01:11.769Z"
   },
   {
     "id": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674",
@@ -20069,10 +20109,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.721Z",
+    "coletadoEm": "2026-07-23T04:01:11.770Z",
     "publicadoEm": "2026-06-22T19:20:47-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:58.432Z"
+    "enriquecidoEm": "2026-07-23T04:02:41.694Z"
   },
   {
     "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
@@ -20368,10 +20408,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.722Z",
+    "coletadoEm": "2026-07-23T04:01:11.771Z",
     "publicadoEm": "2026-07-22T12:05:05-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:52:59.782Z"
+    "enriquecidoEm": "2026-07-23T04:02:43.073Z"
   },
   {
     "id": "sead-e-pm-pi-anunciam-concurso-publico-para-soldado-e-oficial-capelao",
@@ -20419,10 +20459,10 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.724Z",
+    "coletadoEm": "2026-07-23T04:01:11.772Z",
     "publicadoEm": "2026-06-19T13:58:57-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:53:01.233Z"
+    "enriquecidoEm": "2026-07-23T04:02:44.513Z"
   },
   {
     "id": "camara-de-vera-mendes-pi-abre-concurso-publico-para-niveis-fundamental-e-medio",
@@ -20466,7 +20506,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.725Z"
+    "coletadoEm": "2026-07-23T04:01:11.774Z"
   },
   {
     "id": "prefeitura-de-altos-pi-publica-edital-de-concurso-publico-com-diversas-vagas",
@@ -20512,7 +20552,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.727Z"
+    "coletadoEm": "2026-07-23T04:01:11.775Z"
   },
   {
     "id": "prefeitura-de-cajueiro-da-praia-pi-retifica-edital-de-concurso-publico",
@@ -20557,7 +20597,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.729Z"
+    "coletadoEm": "2026-07-23T04:01:11.778Z"
   },
   {
     "id": "prefeitura-de-cajueiro-da-praia-pi-retifica-concursos-com-vagas-para-diversas-areas-de-atuacao",
@@ -20602,7 +20642,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.731Z"
+    "coletadoEm": "2026-07-23T04:01:11.780Z"
   },
   {
     "id": "prefeitura-de-canto-do-buriti-pi-abre-processo-seletivo-para-a-educacao",
@@ -20646,7 +20686,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.734Z"
+    "coletadoEm": "2026-07-23T04:01:11.783Z"
   },
   {
     "id": "prefeitura-de-joaquim-pires-pi-retifica-editais-de-concursos-publicos",
@@ -20692,7 +20732,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.736Z"
+    "coletadoEm": "2026-07-23T04:01:11.785Z"
   },
   {
     "id": "prefeitura-de-tamboril-do-piaui-pi-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva",
@@ -20737,7 +20777,7 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.738Z"
+    "coletadoEm": "2026-07-23T04:01:11.787Z"
   },
   {
     "id": "seap-sead-rn-republica-edital-de-concurso-publico-para-policial-penal-e-especialista-em-assistencia-penitenciaria",
@@ -20761,10 +20801,12 @@
     "localizacao": null,
     "localidades": [],
     "localizacaoPendente": true,
-    "coletadoEm": "2026-07-23T03:51:28.739Z",
+    "abrangencia": "estadual",
+    "motivoSemCidade": "noticia_sem_municipio_confiavel",
+    "coletadoEm": "2026-07-23T04:01:11.788Z",
     "publicadoEm": "2026-07-21T11:25:16-03:00",
     "enriquecidoPelaNoticia": true,
-    "enriquecidoEm": "2026-07-23T03:53:02.687Z"
+    "enriquecidoEm": "2026-07-23T04:02:45.963Z"
   },
   {
     "id": "prefeitura-de-aracaju-se-prorroga-inscricoes-do-concurso-para-guarda-municipal",
@@ -20807,6 +20849,6 @@
       }
     ],
     "localizacaoPendente": false,
-    "coletadoEm": "2026-07-23T03:51:28.741Z"
+    "coletadoEm": "2026-07-23T04:01:11.789Z"
   }
 ]

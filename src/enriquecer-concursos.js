@@ -119,8 +119,10 @@ async function enriquecerConcurso({ concurso, municipios }) {
 
     const principal = escolherLocalizacaoPrincipal(localidades);
 
+    const { abrangencia, motivoSemCidade, ...concursoLocalizado } = concurso;
+
     return {
-      ...concurso,
+      ...concursoLocalizado,
 
       publicadoEm: dadosNoticia.publicadoEm,
 
