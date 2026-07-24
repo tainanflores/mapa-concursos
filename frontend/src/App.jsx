@@ -204,7 +204,31 @@ function agruparPinsPorMunicipio(pins) {
   }));
 }
 
-function RecentrarMapa({ localizacao, versaoCentralizacao }) {
+function selecionarConcursosMaisProximos(pins) {
+  const concursoMaisProximo = new Map();
+
+  for (const pin of pins) {
+    const pinAnterior = concursoMaisProximo.get(pin.concursoId);
+
+    if (
+      !pinAnterior ||
+      (pin.distanciaKm !== null && pin.distanciaKm < pinAnterior.distanciaKm)
+    ) {
+      concursoMaisProximo.set(pin.concursoId, pin);
+    }
+  }
+
+  return [...concursoMaisProximo.values()].sort(
+    (a, b) => a.distanciaKm - b.distanciaKm,
+  );
+}
+
+function RecentrarMapa({
+  localizacao,
+  versaoCentralizacao,
+  versaoAjusteResultados,
+  pontos,
+}) {
   const mapa = useMap();
 
   useEffect(() => {
@@ -212,6 +236,28 @@ function RecentrarMapa({ localizacao, versaoCentralizacao }) {
       mapa.setView([localizacao.latitude, localizacao.longitude], 10);
     }
   }, [localizacao, mapa, versaoCentralizacao]);
+
+  useEffect(() => {
+    if (versaoAjusteResultados === 0) return;
+
+    const coordenadas = pontos.map((ponto) => [ponto.latitude, ponto.longitude]);
+
+    if (localizacao) {
+      coordenadas.push([localizacao.latitude, localizacao.longitude]);
+    }
+
+    if (coordenadas.length === 0) return;
+
+    if (coordenadas.length === 1) {
+      mapa.setView(coordenadas[0], 10);
+      return;
+    }
+
+    mapa.fitBounds(coordenadas, {
+      padding: [42, 42],
+      maxZoom: 10,
+    });
+  }, [localizacao, mapa, pontos, versaoAjusteResultados]);
 
   return null;
 }
@@ -445,6 +491,136 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes }) {
   );
 }
 
+function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes }) {
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        aria-labelledby="titulo-mais-proximos"
+        aria-modal="true"
+        className="painel-sem-localizacao"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button
+            className="botao-fechar-filtros"
+            type="button"
+            aria-label="Fechar lista"
+            onClick={aoFechar}
+            autoFocus
+          >
+            ×
+          </button>
+          <p className="sobretitulo">A partir da origem selecionada</p>
+          <h2 id="titulo-mais-proximos">Concursos mais próximos</h2>
+          <p>
+            A lista usa distância em linha reta até a cidade ou localização escolhida.
+            A distância por rota aparece nos detalhes.
+          </p>
+        </div>
+
+        <ul className="lista-mais-proximos">
+          {pins.map((pin) => (
+            <li key={pin.concursoId}>
+              <div>
+                <span className="etiqueta-distancia">
+                  {pin.distanciaKm.toFixed(1).replace(".", ",")} km em linha reta
+                </span>
+                <h3>{pin.orgao}</h3>
+                <p>{pin.titulo}</p>
+                <small>
+                  {pin.cidade}/{pin.uf} · {pin.inscricaoTexto || "Inscrições não informadas"}
+                </small>
+              </div>
+              <button type="button" onClick={(evento) => aoAbrirDetalhes(pin, evento.currentTarget)}>
+                Mais detalhes
+              </button>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  );
+}
+
+function SobreProjeto({ aoFechar }) {
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        aria-labelledby="titulo-sobre"
+        aria-modal="true"
+        className="painel-sem-localizacao"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button
+            className="botao-fechar-filtros"
+            type="button"
+            aria-label="Fechar informações do projeto"
+            onClick={aoFechar}
+            autoFocus
+          >
+            ×
+          </button>
+          <p className="sobretitulo">Transparência</p>
+          <h2 id="titulo-sobre">Sobre, dados e privacidade</h2>
+          <p>Como o Mapa de Concursos reúne, apresenta e utiliza informações.</p>
+        </div>
+
+        <div className="conteudo-sobre">
+          <section>
+            <h3>Como funciona</h3>
+            <p>
+              O mapa reúne oportunidades, identifica localidades mencionadas nas
+              notícias e facilita a busca por concursos próximos. Os detalhes e o
+              edital devem sempre ser confirmados na página oficial da oportunidade.
+            </p>
+          </section>
+
+          <section>
+            <h3>Fonte dos dados</h3>
+            <p>
+              As oportunidades são coletadas do <a href="https://www.pciconcursos.com.br/" target="_blank" rel="noreferrer">PCI Concursos</a>
+              {" "}e atualizadas automaticamente. Este projeto não é afiliado ao PCI
+              Concursos; cada item mantém o link para a notícia original.
+            </p>
+          </section>
+
+          <section>
+            <h3>Localização e privacidade</h3>
+            <p>
+              Sua localização só é solicitada quando você toca no botão de localização.
+              Ela é usada no navegador para centralizar o mapa, filtrar por raio e
+              calcular distâncias; o projeto não possui cadastro nem banco de dados de
+              usuários.
+            </p>
+            <p>
+              Quando você pede a distância por rota, as coordenadas de origem e destino
+              são enviadas ao serviço público OSRM para realizar o cálculo. O mapa usa
+              dados cartográficos do OpenStreetMap.
+            </p>
+          </section>
+
+          <section>
+            <h3>Limitações</h3>
+            <p>
+              Um pin representa uma cidade mencionada de forma confiável na notícia,
+              como lotação, sede ou local de prova. Oportunidades sem município
+              confirmado ficam disponíveis em uma lista separada, sem localização
+              aproximada inventada.
+            </p>
+          </section>
+
+          <p className="aviso-legal">
+            Consulte também a <a href="https://www.pciconcursos.com.br/politica-de-privacidade/" target="_blank" rel="noreferrer">política de privacidade do PCI Concursos</a>.
+          </p>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function App() {
   const [pontos, setPontos] = useState([]);
   const [municipios, setMunicipios] = useState([]);
@@ -453,6 +629,7 @@ function App() {
   const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
   const [centroMapa, setCentroMapa] = useState(null);
   const [versaoCentralizacao, setVersaoCentralizacao] = useState(0);
+  const [versaoAjusteResultados, setVersaoAjusteResultados] = useState(0);
   const [notificacao, setNotificacao] = useState(null);
   const [cidadePesquisada, setCidadePesquisada] = useState("");
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false);
@@ -465,6 +642,8 @@ function App() {
   const [filtros, setFiltros] = useState(FILTROS_INICIAIS);
   const [filtrosAbertos, setFiltrosAbertos] = useState(false);
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
+  const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
+  const [sobreAberto, setSobreAberto] = useState(false);
   const areaMapaRef = useRef(null);
   const botaoFiltrosRef = useRef(null);
   const ultimoFocoRef = useRef(null);
@@ -520,10 +699,25 @@ function App() {
     restaurarFoco();
   }
 
+  function fecharListaMaisProximos() {
+    setListaMaisProximosAberta(false);
+    restaurarFoco();
+  }
+
+  function fecharSobre() {
+    setSobreAberto(false);
+    restaurarFoco();
+  }
+
   function fecharDetalhes() {
     solicitacaoRotaRef.current += 1;
     setDetalheSelecionado(null);
     restaurarFoco();
+  }
+
+  function verConcursosNoMapa() {
+    setVersaoAjusteResultados((versao) => versao + 1);
+    fecharFiltros();
   }
 
   useEffect(() => {
@@ -538,6 +732,14 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharListaSemLocalizacao();
+      } else if (listaMaisProximosAberta) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharListaMaisProximos();
+      } else if (sobreAberto) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharSobre();
       } else if (filtrosAbertos) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -548,7 +750,13 @@ function App() {
     document.addEventListener("keydown", tratarTecla);
 
     return () => document.removeEventListener("keydown", tratarTecla);
-  }, [detalheSelecionado, filtrosAbertos, listaSemLocalizacaoAberta]);
+  }, [
+    detalheSelecionado,
+    filtrosAbertos,
+    listaMaisProximosAberta,
+    listaSemLocalizacaoAberta,
+    sobreAberto,
+  ]);
 
   useEffect(
     () => () => clearTimeout(temporizadorNotificacaoRef.current),
@@ -608,6 +816,11 @@ function App() {
   const pontosFiltrados = useMemo(
     () => agruparPinsPorMunicipio(pinsFiltrados),
     [pinsFiltrados],
+  );
+
+  const concursosMaisProximos = useMemo(
+    () => (centroMapa ? selecionarConcursosMaisProximos(pinsFiltrados) : []),
+    [centroMapa, pinsFiltrados],
   );
 
   const concursosSemLocalizacaoFiltrados = useMemo(() => {
@@ -723,6 +936,7 @@ function App() {
 
   async function abrirDetalhes(pin, elementoDeOrigem) {
     ultimoFocoRef.current = elementoDeOrigem ?? botaoFiltrosRef.current;
+    setListaMaisProximosAberta(false);
     const concurso = concursosPorId.get(pin.concursoId) ?? pin;
     const solicitacaoAtual = solicitacaoRotaRef.current + 1;
 
@@ -820,6 +1034,17 @@ function App() {
 
         <div className="acoes-principais">
           <button
+            className="botao-sobre"
+            type="button"
+            aria-label="Abrir informações sobre dados e privacidade"
+            onClick={(evento) => {
+              ultimoFocoRef.current = evento.currentTarget;
+              setSobreAberto(true);
+            }}
+          >
+            Sobre
+          </button>
+          <button
             ref={botaoFiltrosRef}
             className="botao-filtros"
             type="button"
@@ -903,6 +1128,27 @@ function App() {
               <span>em {pontosFiltrados.length} municípios</span>
               {centroMapa && <small>Ordenados por distância em linha reta.</small>}
             </div>
+
+            <button
+              className="atalho-mais-proximos"
+              type="button"
+              disabled={!centroMapa || concursosMaisProximos.length === 0}
+              onClick={() => {
+                ultimoFocoRef.current = botaoFiltrosRef.current;
+                setFiltrosAbertos(false);
+                setListaMaisProximosAberta(true);
+              }}
+            >
+              <span>
+                <strong>Concursos mais próximos</strong>
+                <small>
+                  {centroMapa
+                    ? `${concursosMaisProximos.length} oportunidades ordenadas por distância`
+                    : "Defina uma origem para ordenar por distância"}
+                </small>
+              </span>
+              <span aria-hidden="true">→</span>
+            </button>
 
             <button
               className="atalho-sem-localizacao"
@@ -990,7 +1236,7 @@ function App() {
                   Limpar filtros
                 </button>
               )}
-              <button type="button" onClick={fecharFiltros}>
+              <button type="button" onClick={verConcursosNoMapa}>
                 Ver {pinsFiltrados.length} concursos
               </button>
             </div>
@@ -1005,6 +1251,16 @@ function App() {
           aoAbrirDetalhes={abrirDetalhesSemLocalizacao}
         />
       )}
+
+      {listaMaisProximosAberta && (
+        <ListaMaisProximos
+          pins={concursosMaisProximos}
+          aoFechar={fecharListaMaisProximos}
+          aoAbrirDetalhes={abrirDetalhes}
+        />
+      )}
+
+      {sobreAberto && <SobreProjeto aoFechar={fecharSobre} />}
 
       {erro ? (
         <p className="erro" role="alert">{erro}</p>
@@ -1078,6 +1334,8 @@ function App() {
             <RecentrarMapa
               localizacao={centroMapa}
               versaoCentralizacao={versaoCentralizacao}
+              versaoAjusteResultados={versaoAjusteResultados}
+              pontos={pontosFiltrados}
             />
             <FecharPopupAoClicarNoMapa />
 

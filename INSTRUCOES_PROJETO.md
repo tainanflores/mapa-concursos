@@ -145,7 +145,7 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Prever estado de permissão negada e uma localização manual como alternativa.
 - [x] Renderizar pins com latitude e longitude das `localidades` exibíveis.
 - [x] Calcular distância por rota quando a pessoa usuária solicitar os detalhes de um concurso.
-- [ ] Ordenar ou destacar os concursos pela proximidade em relação à origem selecionada.
+- [x] Exibir lista de concursos mais próximos, ordenada pela menor distância em linha reta até a origem selecionada.
 - [x] Ao clicar em um pin, mostrar órgão, título e o link **Mais detalhes** para `urlPCI`.
 - [x] Exibir concursos sem município em lista separada, com abrangência, filtros compatíveis e link para os detalhes; não colocá-los arbitrariamente no mapa.
 
@@ -155,6 +155,7 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Oferecer mapa em tela cheia e modal de detalhes em tela cheia, incluindo suporte a viewport móvel dinâmica.
 - [x] Agrupar pins próximos para reduzir sobreposição e permitir zoom progressivo no mapa.
 - [x] Garantir foco inicial, retorno de foco e fechamento por `Esc` nos painéis e modais; permitir fechar popup ao clicar no mapa.
+- [x] Exibir informações sobre fonte dos dados, limitações, localização e privacidade no próprio site.
 - [ ] Fazer uma auditoria manual mais ampla de acessibilidade em teclado e leitor de tela.
 - [ ] Exibir data/hora da última atualização dos dados.
 - [x] Configurar atualização periódica no ambiente de publicação.
