@@ -94,6 +94,40 @@ function normalizarTexto(texto) {
     .toLocaleLowerCase("pt-BR");
 }
 
+function useConterFoco(referencia, ativo) {
+  useEffect(() => {
+    if (!ativo || !referencia.current) return undefined;
+
+    const painel = referencia.current;
+
+    function conterFoco(evento) {
+      if (evento.key !== "Tab") return;
+
+      const elementosFocaveis = [...painel.querySelectorAll(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), summary, [tabindex]:not([tabindex="-1"])',
+      )];
+
+      if (elementosFocaveis.length === 0) return;
+
+      const primeiro = elementosFocaveis[0];
+      const ultimo = elementosFocaveis[elementosFocaveis.length - 1];
+      const focoAtual = document.activeElement;
+
+      if (evento.shiftKey && (focoAtual === primeiro || !painel.contains(focoAtual))) {
+        evento.preventDefault();
+        ultimo.focus();
+      } else if (!evento.shiftKey && (focoAtual === ultimo || !painel.contains(focoAtual))) {
+        evento.preventDefault();
+        primeiro.focus();
+      }
+    }
+
+    document.addEventListener("keydown", conterFoco);
+
+    return () => document.removeEventListener("keydown", conterFoco);
+  }, [ativo, referencia]);
+}
+
 function formatarData(data) {
   if (!data) return "Não informada";
 
@@ -280,6 +314,7 @@ function DetalhesConcurso({
   erroRota,
   possuiOrigem,
   aoFechar,
+  referenciaPainel,
 }) {
   if (!concurso) return null;
 
@@ -288,6 +323,7 @@ function DetalhesConcurso({
   return (
     <div className="sobreposicao-detalhes" role="presentation" onMouseDown={aoFechar}>
       <section
+        ref={referenciaPainel}
         aria-labelledby="titulo-detalhes"
         aria-modal="true"
         className="painel-detalhes"
@@ -413,12 +449,13 @@ function DetalhesConcurso({
   );
 }
 
-function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes }) {
+function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
   const regioes = agruparConcursosPorRegiaoEEstado(concursos);
 
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section
+        ref={referenciaPainel}
         aria-labelledby="titulo-sem-localizacao"
         aria-modal="true"
         className="painel-sem-localizacao"
@@ -494,10 +531,11 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes }) {
   );
 }
 
-function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes }) {
+function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section
+        ref={referenciaPainel}
         aria-labelledby="titulo-mais-proximos"
         aria-modal="true"
         className="painel-sem-localizacao"
@@ -546,10 +584,11 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes }) {
   );
 }
 
-function SobreProjeto({ aoFechar }) {
+function SobreProjeto({ aoFechar, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section
+        ref={referenciaPainel}
         aria-labelledby="titulo-sobre"
         aria-modal="true"
         className="painel-sem-localizacao"
@@ -650,9 +689,20 @@ function App() {
   const areaMapaRef = useRef(null);
   const botaoFiltrosRef = useRef(null);
   const ultimoFocoRef = useRef(null);
+  const painelFiltrosRef = useRef(null);
+  const painelDetalhesRef = useRef(null);
+  const painelListaSemLocalizacaoRef = useRef(null);
+  const painelListaMaisProximosRef = useRef(null);
+  const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
   const temporizadorNotificacaoRef = useRef(null);
+
+  useConterFoco(painelFiltrosRef, filtrosAbertos);
+  useConterFoco(painelDetalhesRef, detalheSelecionado !== null);
+  useConterFoco(painelListaSemLocalizacaoRef, listaSemLocalizacaoAberta);
+  useConterFoco(painelListaMaisProximosRef, listaMaisProximosAberta);
+  useConterFoco(painelSobreRef, sobreAberto);
 
   useEffect(() => {
     async function carregarDados() {
@@ -1103,6 +1153,7 @@ function App() {
       {filtrosAbertos && (
         <div className="sobreposicao-filtros" onMouseDown={fecharFiltros}>
           <aside
+            ref={painelFiltrosRef}
             id="painel-filtros"
             className="gaveta-filtros"
             aria-modal="true"
@@ -1252,6 +1303,7 @@ function App() {
           concursos={concursosSemLocalizacaoFiltrados}
           aoFechar={fecharListaSemLocalizacao}
           aoAbrirDetalhes={abrirDetalhesSemLocalizacao}
+          referenciaPainel={painelListaSemLocalizacaoRef}
         />
       )}
 
@@ -1260,10 +1312,13 @@ function App() {
           pins={concursosMaisProximos}
           aoFechar={fecharListaMaisProximos}
           aoAbrirDetalhes={abrirDetalhes}
+          referenciaPainel={painelListaMaisProximosRef}
         />
       )}
 
-      {sobreAberto && <SobreProjeto aoFechar={fecharSobre} />}
+      {sobreAberto && (
+        <SobreProjeto aoFechar={fecharSobre} referenciaPainel={painelSobreRef} />
+      )}
 
       {erro ? (
         <p className="erro" role="alert">{erro}</p>
@@ -1419,6 +1474,7 @@ function App() {
             erroRota={erroRota}
             possuiOrigem={centroMapa !== null}
             aoFechar={fecharDetalhes}
+            referenciaPainel={painelDetalhesRef}
           />
         </div>
       )}

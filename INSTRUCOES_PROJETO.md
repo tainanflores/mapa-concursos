@@ -154,7 +154,7 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Limitar a altura dos popups e permitir rolagem para preservar a usabilidade em telas pequenas.
 - [x] Oferecer mapa em tela cheia e modal de detalhes em tela cheia, incluindo suporte a viewport móvel dinâmica.
 - [x] Agrupar pins próximos para reduzir sobreposição e permitir zoom progressivo no mapa.
-- [x] Garantir foco inicial, retorno de foco e fechamento por `Esc` nos painéis e modais; permitir fechar popup ao clicar no mapa.
+- [x] Garantir foco inicial, retorno e contenção de foco, além de fechamento por `Esc` nos painéis e modais; permitir fechar popup ao clicar no mapa.
 - [x] Exibir informações sobre fonte dos dados, limitações, localização e privacidade no próprio site.
 - [ ] Fazer uma auditoria manual mais ampla de acessibilidade em teclado e leitor de tela.
 - [ ] Exibir data/hora da última atualização dos dados.
