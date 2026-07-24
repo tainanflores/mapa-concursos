@@ -1,6 +1,10 @@
 .app {
   height: 100dvh;
-  padding: clamp(1rem, 3vw, 2.5rem);
+  padding:
+    max(clamp(1rem, 3vw, 2.5rem), calc(var(--safe-area-inset-top, env(safe-area-inset-top, 0px)) + 0.4rem))
+    max(clamp(1rem, 3vw, 2.5rem), calc(var(--safe-area-inset-right, env(safe-area-inset-right, 0px)) + 0.75rem))
+    max(clamp(1rem, 3vw, 2.5rem), calc(var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)) + 0.75rem))
+    max(clamp(1rem, 3vw, 2.5rem), calc(var(--safe-area-inset-left, env(safe-area-inset-left, 0px)) + 0.75rem));
   display: flex;
   flex-direction: column;
 }
@@ -1017,10 +1021,6 @@ a:focus-visible {
 }
 
 @media (max-width: 480px) {
-  .app {
-    padding: 1rem;
-  }
-
   .cabecalho-principal {
     margin-bottom: 1.25rem;
   }

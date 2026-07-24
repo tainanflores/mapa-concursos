@@ -209,7 +209,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 ### 5. Preparar aplicativo sem monetização
 
 - [x] Tornar o front-end instalável como PWA, com manifesto, service worker e botão de instalação quando suportado; manter `/data/*` fora do cache do service worker.
-- [ ] Integrar Capacitor ao React e gerar APK de desenvolvimento para testes no Android.
+- [x] Integrar Capacitor ao React, criar o projeto Android e gerar/instalar o primeiro APK de desenvolvimento.
 - [ ] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
 - [ ] Criar favoritos locais e pesquisas salvas locais como primeira experiência pessoal.
 - [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.

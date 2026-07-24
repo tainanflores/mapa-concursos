@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
+import { Geolocation } from "@capacitor/geolocation";
 import L from "leaflet";
 import {
   CircleMarker,
@@ -828,6 +830,14 @@ function App() {
   }, []);
 
   useEffect(() => {
+    if (!Capacitor.isNativePlatform()) return;
+
+    SystemBars.setStyle({ style: SystemBarsStyle.Light }).catch(() => {
+      // A aparência padrão continua disponível se o sistema não aceitar a configuração.
+    });
+  }, []);
+
+  useEffect(() => {
     function prepararInstalacao(evento) {
       evento.preventDefault();
       setEventoInstalacao(evento);
@@ -969,7 +979,29 @@ function App() {
     setEventoInstalacao(null);
   }
 
-  function usarMinhaLocalizacao() {
+  function aplicarLocalizacao({ latitude, longitude }) {
+    const novaLocalizacao = { latitude, longitude };
+
+    setLocalizacaoUsuario(novaLocalizacao);
+    setCentroMapa(novaLocalizacao);
+    setVersaoCentralizacao((versao) => versao + 1);
+    setCidadeSelecionada(null);
+    setNotificacao(null);
+  }
+
+  function mensagemErroLocalizacao(erroAtual) {
+    if (erroAtual?.code === "OS-PLUG-GLOC-0003") {
+      return "Permita a localização para centralizar o mapa automaticamente.";
+    }
+
+    if (erroAtual?.code === "OS-PLUG-GLOC-0007") {
+      return "Ative a localização do aparelho para centralizar o mapa automaticamente.";
+    }
+
+    return "Não foi possível obter sua localização. Busque uma cidade para centralizar o mapa.";
+  }
+
+  async function usarMinhaLocalizacao() {
     const origemAtiva = cidadeSelecionada ?? localizacaoUsuario;
 
     if (origemAtiva) {
@@ -979,10 +1011,37 @@ function App() {
       return;
     }
 
-    if (!window.isSecureContext) {
+    const aplicativoNativo = Capacitor.isNativePlatform();
+
+    if (!aplicativoNativo && !window.isSecureContext) {
       mostrarNotificacao(
         "A localização exige HTTPS neste celular. Use a busca por cidade durante este teste na rede local.",
       );
+      return;
+    }
+
+    if (aplicativoNativo) {
+      try {
+        const permissao = await Geolocation.requestPermissions({
+          permissions: ["location"],
+        });
+
+        if (permissao.location !== "granted") {
+          mostrarNotificacao("Permita a localização para centralizar o mapa automaticamente.");
+          return;
+        }
+
+        const posicao = await Geolocation.getCurrentPosition({
+          enableHighAccuracy: true,
+          timeout: 15_000,
+          maximumAge: 10_000,
+        });
+
+        aplicarLocalizacao(posicao.coords);
+      } catch (erroAtual) {
+        mostrarNotificacao(mensagemErroLocalizacao(erroAtual));
+      }
+
       return;
     }
 
@@ -993,21 +1052,10 @@ function App() {
 
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
-        const novaLocalizacao = {
-          latitude: coords.latitude,
-          longitude: coords.longitude,
-        };
-
-        setLocalizacaoUsuario(novaLocalizacao);
-        setCentroMapa(novaLocalizacao);
-        setVersaoCentralizacao((versao) => versao + 1);
-        setCidadeSelecionada(null);
-        setNotificacao(null);
+        aplicarLocalizacao(coords);
       },
-      () => {
-        mostrarNotificacao(
-          "Não foi possível obter sua localização. Busque uma cidade para centralizar o mapa.",
-        );
+      (erroAtual) => {
+        mostrarNotificacao(mensagemErroLocalizacao(erroAtual));
       },
       { enableHighAccuracy: false, timeout: 10_000 },
     );

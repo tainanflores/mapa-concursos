@@ -1,0 +1,12 @@
+{
+  "appId": "br.com.teadigital.mapaconcursos",
+  "appName": "Mapa de Concursos",
+  "webDir": "dist",
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "LIGHT",
+      "hidden": false
+    }
+  }
+}

@@ -10,6 +10,13 @@
 
 body {
   margin: 0;
+  background: #f6f8f5;
+}
+
+html,
+#root {
+  min-height: 100%;
+  background: #f6f8f5;
 }
 
 button {
