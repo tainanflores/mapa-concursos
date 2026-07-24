@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
 import { Geolocation } from "@capacitor/geolocation";
+import { LocalNotifications } from "@capacitor/local-notifications";
 import L from "leaflet";
 import {
   CircleMarker,
@@ -31,6 +32,9 @@ L.Icon.Default.mergeOptions({
 
 const CENTRO_DO_BRASIL = [-14.235, -51.9253];
 const CHAVE_FAVORITOS = "mapa-concursos:favoritos:v1";
+const CHAVE_LEMBRETES_ATIVOS = "mapa-concursos:lembretes-ativos:v1";
+const CHAVE_IDS_LEMBRETES = "mapa-concursos:ids-lembretes:v1";
+const CHAVE_HORA_LEMBRETES = "mapa-concursos:hora-lembretes:v1";
 
 const ROTULOS_TIPO_SELECAO = {
   concurso_publico: "Concurso público",
@@ -107,6 +111,66 @@ function lerIdsFavoritos() {
   } catch {
     return [];
   }
+}
+
+function lerValorBooleano(chave) {
+  try {
+    return window.localStorage.getItem(chave) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function lerHoraLembretes() {
+  try {
+    const hora = window.localStorage.getItem(CHAVE_HORA_LEMBRETES);
+    return /^([01]\d|2[0-3]):[0-5]\d$/.test(hora ?? "") ? hora : "09:00";
+  } catch {
+    return "09:00";
+  }
+}
+
+function lerIdsLembretes() {
+  try {
+    const ids = JSON.parse(window.localStorage.getItem(CHAVE_IDS_LEMBRETES) ?? "[]");
+    return Array.isArray(ids) ? ids.filter(Number.isInteger) : [];
+  } catch {
+    return [];
+  }
+}
+
+function idLembrete(concursoId, diasAntes) {
+  let hash = 0;
+
+  for (const caractere of concursoId) {
+    hash = ((hash * 31) + caractere.charCodeAt(0)) >>> 0;
+  }
+
+  return ((hash % 200_000_000) * 10) + diasAntes;
+}
+
+function criarLembretes(concursos, hora) {
+  const agora = new Date();
+  const diasDeAntecedencia = [7, 3, 1];
+
+  return concursos.flatMap((concurso) => {
+    if (!concurso.inscricaoFim) return [];
+
+    return diasDeAntecedencia.flatMap((diasAntes) => {
+      const quando = new Date(`${concurso.inscricaoFim}T${hora}:00`);
+      quando.setDate(quando.getDate() - diasAntes);
+
+      if (Number.isNaN(quando.getTime()) || quando <= agora) return [];
+
+      return [{
+        id: idLembrete(concurso.id, diasAntes),
+        title: "Prazo de inscrição se aproxima",
+        body: `${concurso.orgao}: faltam ${diasAntes} ${diasAntes === 1 ? "dia" : "dias"} para o encerramento.`,
+        schedule: { at: quando },
+        extra: { concursoId: concurso.id, tipo: "lembrete-inscricao" },
+      }];
+    });
+  });
 }
 
 function useConterFoco(referencia, ativo) {
@@ -610,7 +674,18 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
   );
 }
 
-function ListaFavoritos({ concursos, aoFechar, aoAbrirDetalhes, aoRemover, referenciaPainel }) {
+function ListaFavoritos({
+  concursos,
+  lembretesAtivos,
+  horaLembretes,
+  notificacoesDisponiveis,
+  aoAlterarLembretes,
+  aoAlterarHora,
+  aoFechar,
+  aoAbrirDetalhes,
+  aoRemover,
+  referenciaPainel,
+}) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section
@@ -637,6 +712,32 @@ function ListaFavoritos({ concursos, aoFechar, aoAbrirDetalhes, aoRemover, refer
             Seus favoritos ficam neste aparelho. A sincronização entre dispositivos
             será oferecida com uma conta em uma etapa futura.
           </p>
+          {notificacoesDisponiveis ? (
+            <>
+              <label className="opcao-lembretes">
+                <input
+                  type="checkbox"
+                  checked={lembretesAtivos}
+                  onChange={({ target }) => aoAlterarLembretes(target.checked)}
+                />
+                <span>
+                  <strong>Lembretes de inscrição</strong>
+                  <small>Avisar 7, 3 e 1 dia antes do prazo dos favoritos.</small>
+                </span>
+              </label>
+              <label className="hora-lembretes">
+                Horário dos avisos
+                <input
+                  type="time"
+                  value={horaLembretes}
+                  disabled={!lembretesAtivos}
+                  onChange={({ target }) => aoAlterarHora(target.value)}
+                />
+              </label>
+            </>
+          ) : (
+            <p className="aviso-lembretes">Lembretes estão disponíveis no aplicativo Android.</p>
+          )}
         </div>
 
         {concursos.length > 0 ? (
@@ -759,6 +860,7 @@ function App() {
   const [pontos, setPontos] = useState([]);
   const [municipios, setMunicipios] = useState([]);
   const [concursos, setConcursos] = useState([]);
+  const [dadosCarregados, setDadosCarregados] = useState(false);
   const [erro, setErro] = useState(null);
   const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
   const [centroMapa, setCentroMapa] = useState(null);
@@ -781,6 +883,8 @@ function App() {
   const [sobreAberto, setSobreAberto] = useState(false);
   const [eventoInstalacao, setEventoInstalacao] = useState(null);
   const [idsFavoritos, setIdsFavoritos] = useState(lerIdsFavoritos);
+  const [lembretesAtivos, setLembretesAtivos] = useState(() => lerValorBooleano(CHAVE_LEMBRETES_ATIVOS));
+  const [horaLembretes, setHoraLembretes] = useState(lerHoraLembretes);
   const areaMapaRef = useRef(null);
   const botaoFiltrosRef = useRef(null);
   const botaoFavoritosRef = useRef(null);
@@ -824,6 +928,7 @@ function App() {
         setPontos(pontosCarregados);
         setMunicipios(municipiosCarregados);
         setConcursos(concursosCarregados);
+        setDadosCarregados(true);
       } catch (erroAtual) {
         setErro(erroAtual.message);
       }
@@ -933,6 +1038,22 @@ function App() {
   }, [idsFavoritos]);
 
   useEffect(() => {
+    try {
+      window.localStorage.setItem(CHAVE_LEMBRETES_ATIVOS, String(lembretesAtivos));
+    } catch {
+      // A preferência só deixa de persistir; a tela continua utilizável.
+    }
+  }, [lembretesAtivos]);
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(CHAVE_HORA_LEMBRETES, horaLembretes);
+    } catch {
+      // A hora volta ao padrão na próxima abertura se o armazenamento não estiver disponível.
+    }
+  }, [horaLembretes]);
+
+  useEffect(() => {
     function atualizarTelaCheia() {
       setEmTelaCheia(document.fullscreenElement === areaMapaRef.current);
     }
@@ -981,6 +1102,48 @@ function App() {
       .filter(Boolean),
     [concursosPorId, idsFavoritos],
   );
+
+  useEffect(() => {
+    if (!dadosCarregados || !Capacitor.isNativePlatform()) return undefined;
+
+    let emExecucao = true;
+
+    async function sincronizarLembretes() {
+      const idsAnteriores = lerIdsLembretes();
+
+      if (idsAnteriores.length > 0) {
+        await LocalNotifications.cancel({
+          notifications: idsAnteriores.map((id) => ({ id })),
+        });
+      }
+
+      if (!emExecucao || !lembretesAtivos) {
+        window.localStorage.removeItem(CHAVE_IDS_LEMBRETES);
+        return;
+      }
+
+      const lembretes = criarLembretes(favoritos, horaLembretes);
+
+      if (lembretes.length > 0) {
+        await LocalNotifications.schedule({ notifications: lembretes });
+      }
+
+      if (emExecucao) {
+        window.localStorage.setItem(
+          CHAVE_IDS_LEMBRETES,
+          JSON.stringify(lembretes.map((lembrete) => lembrete.id)),
+        );
+      }
+    }
+
+    sincronizarLembretes().catch(() => {
+      // A permissão pode ser removida nas configurações do aparelho a qualquer momento.
+    });
+
+    return () => {
+      emExecucao = false;
+    };
+  }, [dadosCarregados, favoritos, horaLembretes, lembretesAtivos]);
 
   const sugestoesDeCidade = useMemo(() => {
     const busca = normalizarTexto(cidadePesquisada);
@@ -1092,6 +1255,40 @@ function App() {
         ? idsAtuais.filter((idFavorito) => idFavorito !== id)
         : [...idsAtuais, id]
     ));
+  }
+
+  async function alterarLembretes(ativo) {
+    if (!Capacitor.isNativePlatform()) return;
+
+    if (!ativo) {
+      setLembretesAtivos(false);
+      mostrarNotificacao("Lembretes de inscrição desativados.");
+      return;
+    }
+
+    try {
+      let permissao = await LocalNotifications.checkPermissions();
+
+      if (permissao.display !== "granted") {
+        permissao = await LocalNotifications.requestPermissions();
+      }
+
+      if (permissao.display !== "granted") {
+        mostrarNotificacao("Permita notificações para ativar os lembretes de inscrição.");
+        return;
+      }
+
+      setLembretesAtivos(true);
+      mostrarNotificacao("Lembretes de inscrição ativados para seus favoritos.");
+    } catch {
+      mostrarNotificacao("Não foi possível ativar os lembretes neste aparelho.");
+    }
+  }
+
+  function alterarHoraLembretes(hora) {
+    if (/^([01]\d|2[0-3]):[0-5]\d$/.test(hora)) {
+      setHoraLembretes(hora);
+    }
   }
 
   async function instalarAplicativo() {
@@ -1562,6 +1759,11 @@ function App() {
       {favoritosAbertos && (
         <ListaFavoritos
           concursos={favoritos}
+          lembretesAtivos={lembretesAtivos}
+          horaLembretes={horaLembretes}
+          notificacoesDisponiveis={Capacitor.isNativePlatform()}
+          aoAlterarLembretes={alterarLembretes}
+          aoAlterarHora={alterarHoraLembretes}
           aoFechar={fecharFavoritos}
           aoAbrirDetalhes={abrirDetalhesFavorito}
           aoRemover={alternarFavorito}

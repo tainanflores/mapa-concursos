@@ -223,7 +223,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [ ] Integrar Firebase Cloud Messaging no app Android, inicialmente em ambiente de teste.
 - [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
 - [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
-- [ ] Implementar lembretes locais de prazo para favoritos como alternativa enquanto o push não estiver disponível.
+- [x] Implementar lembretes locais para favoritos: avisos 7, 3 e 1 dia antes do prazo, com horário configurável no APK e sem backend.
 
 ### 7. Migrar hospedagem antes da monetização
 

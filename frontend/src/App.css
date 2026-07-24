@@ -801,6 +801,67 @@ a:focus-visible {
   color: #52675e;
 }
 
+.opcao-lembretes {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 9px;
+  background: #edf6f1;
+  color: #1b513e;
+  cursor: pointer;
+}
+
+.opcao-lembretes input {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin-top: 0.2rem;
+  accent-color: #087657;
+}
+
+.opcao-lembretes span {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.opcao-lembretes small,
+.aviso-lembretes {
+  color: #52675e;
+  font-size: 0.82rem;
+}
+
+.hora-lembretes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.7rem;
+  color: #315d4f;
+  font-size: 0.88rem;
+  font-weight: 750;
+}
+
+.hora-lembretes input {
+  min-height: 2.35rem;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid #b9ccc4;
+  border-radius: 8px;
+  background: #fff;
+  color: #18372e;
+  font: inherit;
+}
+
+.hora-lembretes input:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.aviso-lembretes {
+  margin-top: 0.9rem;
+  margin-bottom: 0;
+}
+
 .lista-regioes-sem-localizacao {
   display: grid;
   gap: 0.8rem;
