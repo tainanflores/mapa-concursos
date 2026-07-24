@@ -7,6 +7,7 @@ import {
   Popup,
   TileLayer,
   useMap,
+  useMapEvents,
 } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 
@@ -215,6 +216,16 @@ function RecentrarMapa({ localizacao, versaoCentralizacao }) {
   return null;
 }
 
+function FecharPopupAoClicarNoMapa() {
+  const mapa = useMapEvents({
+    click() {
+      mapa.closePopup();
+    },
+  });
+
+  return null;
+}
+
 function DetalhesConcurso({
   concurso,
   destino,
@@ -243,6 +254,7 @@ function DetalhesConcurso({
             type="button"
             aria-label="Fechar detalhes"
             onClick={aoFechar}
+            autoFocus
           >
             ×
           </button>
@@ -370,6 +382,7 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes }) {
             type="button"
             aria-label="Fechar lista"
             onClick={aoFechar}
+            autoFocus
           >
             ×
           </button>
@@ -453,6 +466,8 @@ function App() {
   const [filtrosAbertos, setFiltrosAbertos] = useState(false);
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const areaMapaRef = useRef(null);
+  const botaoFiltrosRef = useRef(null);
+  const ultimoFocoRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
   const temporizadorNotificacaoRef = useRef(null);
@@ -486,6 +501,54 @@ function App() {
 
     carregarDados();
   }, []);
+
+  function restaurarFoco() {
+    const alvo = ultimoFocoRef.current?.isConnected
+      ? ultimoFocoRef.current
+      : botaoFiltrosRef.current;
+
+    requestAnimationFrame(() => alvo?.focus());
+  }
+
+  function fecharFiltros() {
+    setFiltrosAbertos(false);
+    restaurarFoco();
+  }
+
+  function fecharListaSemLocalizacao() {
+    setListaSemLocalizacaoAberta(false);
+    restaurarFoco();
+  }
+
+  function fecharDetalhes() {
+    solicitacaoRotaRef.current += 1;
+    setDetalheSelecionado(null);
+    restaurarFoco();
+  }
+
+  useEffect(() => {
+    function tratarTecla(evento) {
+      if (evento.key !== "Escape") return;
+
+      if (detalheSelecionado) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharDetalhes();
+      } else if (listaSemLocalizacaoAberta) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharListaSemLocalizacao();
+      } else if (filtrosAbertos) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharFiltros();
+      }
+    }
+
+    document.addEventListener("keydown", tratarTecla);
+
+    return () => document.removeEventListener("keydown", tratarTecla);
+  }, [detalheSelecionado, filtrosAbertos, listaSemLocalizacaoAberta]);
 
   useEffect(
     () => () => clearTimeout(temporizadorNotificacaoRef.current),
@@ -658,7 +721,8 @@ function App() {
     setMostrarSugestoes(false);
   }
 
-  async function abrirDetalhes(pin) {
+  async function abrirDetalhes(pin, elementoDeOrigem) {
+    ultimoFocoRef.current = elementoDeOrigem ?? botaoFiltrosRef.current;
     const concurso = concursosPorId.get(pin.concursoId) ?? pin;
     const solicitacaoAtual = solicitacaoRotaRef.current + 1;
 
@@ -716,6 +780,7 @@ function App() {
   }
 
   function abrirDetalhesSemLocalizacao(concurso) {
+    ultimoFocoRef.current = botaoFiltrosRef.current;
     solicitacaoRotaRef.current += 1;
     setDetalheSelecionado({ concurso, destino: null });
     setDistanciaRota(null);
@@ -755,11 +820,16 @@ function App() {
 
         <div className="acoes-principais">
           <button
+            ref={botaoFiltrosRef}
             className="botao-filtros"
             type="button"
             aria-expanded={filtrosAbertos}
+            aria-controls="painel-filtros"
             aria-label="Abrir filtros"
-            onClick={() => setFiltrosAbertos(true)}
+            onClick={(evento) => {
+              ultimoFocoRef.current = evento.currentTarget;
+              setFiltrosAbertos(true);
+            }}
           >
             <span className="icone-menu" aria-hidden="true">☰</span>
             {quantidadeFiltrosAtivos > 0 && <span>{quantidadeFiltrosAtivos}</span>}
@@ -803,10 +873,13 @@ function App() {
       </section>
 
       {filtrosAbertos && (
-        <div className="sobreposicao-filtros" onMouseDown={() => setFiltrosAbertos(false)}>
+        <div className="sobreposicao-filtros" onMouseDown={fecharFiltros}>
           <aside
+            id="painel-filtros"
             className="gaveta-filtros"
+            aria-modal="true"
             aria-labelledby="titulo-filtros"
+            role="dialog"
             onMouseDown={(evento) => evento.stopPropagation()}
           >
             <div className="cabecalho-filtros">
@@ -818,7 +891,8 @@ function App() {
                 className="botao-fechar-filtros"
                 type="button"
                 aria-label="Fechar filtros"
-                onClick={() => setFiltrosAbertos(false)}
+                onClick={fecharFiltros}
+                autoFocus
               >
                 ×
               </button>
@@ -834,6 +908,7 @@ function App() {
               className="atalho-sem-localizacao"
               type="button"
               onClick={() => {
+                ultimoFocoRef.current = botaoFiltrosRef.current;
                 setFiltrosAbertos(false);
                 setListaSemLocalizacaoAberta(true);
               }}
@@ -915,7 +990,7 @@ function App() {
                   Limpar filtros
                 </button>
               )}
-              <button type="button" onClick={() => setFiltrosAbertos(false)}>
+              <button type="button" onClick={fecharFiltros}>
                 Ver {pinsFiltrados.length} concursos
               </button>
             </div>
@@ -926,7 +1001,7 @@ function App() {
       {listaSemLocalizacaoAberta && (
         <ListaSemLocalizacao
           concursos={concursosSemLocalizacaoFiltrados}
-          aoFechar={() => setListaSemLocalizacaoAberta(false)}
+          aoFechar={fecharListaSemLocalizacao}
           aoAbrirDetalhes={abrirDetalhesSemLocalizacao}
         />
       )}
@@ -1004,6 +1079,7 @@ function App() {
               localizacao={centroMapa}
               versaoCentralizacao={versaoCentralizacao}
             />
+            <FecharPopupAoClicarNoMapa />
 
             {localizacaoUsuario && (
               <CircleMarker
@@ -1031,8 +1107,13 @@ function App() {
               showCoverageOnHover={false}
             >
               {pontosFiltrados.map((ponto) => (
-                <Marker key={ponto.codigoIbge} position={[ponto.latitude, ponto.longitude]}>
-                  <Popup minWidth={260} maxWidth={360} closeOnClick={false}>
+                <Marker
+                  key={ponto.codigoIbge}
+                  position={[ponto.latitude, ponto.longitude]}
+                  title={`Ver concursos em ${ponto.cidade}/${ponto.uf}`}
+                  alt={`Concursos em ${ponto.cidade}/${ponto.uf}`}
+                >
+                  <Popup minWidth={260} maxWidth={360} closeOnClick>
                     <strong>{ponto.cidade}/{ponto.uf}</strong>
                     <p>{ponto.totalConcursos} concurso(s) encontrado(s)</p>
                     {ponto.distanciaKm !== null && (
@@ -1051,7 +1132,7 @@ function App() {
                             onMouseDown={(evento) => evento.stopPropagation()}
                             onClick={(evento) => {
                               evento.stopPropagation();
-                              abrirDetalhes(concurso);
+                              abrirDetalhes(concurso, evento.currentTarget);
                             }}
                           >
                             Mais detalhes
@@ -1076,10 +1157,7 @@ function App() {
             calculandoRota={calculandoRota}
             erroRota={erroRota}
             possuiOrigem={centroMapa !== null}
-            aoFechar={() => {
-              solicitacaoRotaRef.current += 1;
-              setDetalheSelecionado(null);
-            }}
+            aoFechar={fecharDetalhes}
           />
         </div>
       )}
