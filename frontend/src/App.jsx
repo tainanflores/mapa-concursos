@@ -307,7 +307,9 @@ function DetalhesConcurso({
           <p className="sobretitulo">Detalhes do concurso</p>
           <h2 id="titulo-detalhes">{concurso.titulo}</h2>
         </div>
-        <p className="orgao">{concurso.orgao}</p>
+
+        <div className="conteudo-detalhes">
+          <p className="orgao">{concurso.orgao}</p>
 
         {destino ? (
           <div className="distancia-rota">
@@ -397,14 +399,15 @@ function DetalhesConcurso({
           <p>Nenhuma cidade foi identificada na notícia.</p>
         )}
 
-        <a
-          className="link-pci"
-          href={concurso.urlPCI}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Abrir link PCI Concursos
-        </a>
+          <a
+            className="link-pci"
+            href={concurso.urlPCI}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Abrir link PCI Concursos
+          </a>
+        </div>
       </section>
     </div>
   );
