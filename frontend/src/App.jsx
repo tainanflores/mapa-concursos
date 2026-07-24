@@ -8,8 +8,11 @@ import {
   TileLayer,
   useMap,
 } from "react-leaflet";
+import MarkerClusterGroup from "react-leaflet-cluster";
 
 import "leaflet/dist/leaflet.css";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.css";
+import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 import iconUrl from "leaflet/dist/images/marker-icon.png";
 import shadowUrl from "leaflet/dist/images/marker-shadow.png";
@@ -42,6 +45,45 @@ const FILTROS_INICIAIS = {
   inscricaoAte: "",
 };
 
+const ESTADO_E_REGIAO_POR_UF = {
+  AC: { estado: "Acre", regiao: "Norte" },
+  AL: { estado: "Alagoas", regiao: "Nordeste" },
+  AP: { estado: "Amapá", regiao: "Norte" },
+  AM: { estado: "Amazonas", regiao: "Norte" },
+  BA: { estado: "Bahia", regiao: "Nordeste" },
+  CE: { estado: "Ceará", regiao: "Nordeste" },
+  DF: { estado: "Distrito Federal", regiao: "Centro-Oeste" },
+  ES: { estado: "Espírito Santo", regiao: "Sudeste" },
+  GO: { estado: "Goiás", regiao: "Centro-Oeste" },
+  MA: { estado: "Maranhão", regiao: "Nordeste" },
+  MT: { estado: "Mato Grosso", regiao: "Centro-Oeste" },
+  MS: { estado: "Mato Grosso do Sul", regiao: "Centro-Oeste" },
+  MG: { estado: "Minas Gerais", regiao: "Sudeste" },
+  PA: { estado: "Pará", regiao: "Norte" },
+  PB: { estado: "Paraíba", regiao: "Nordeste" },
+  PR: { estado: "Paraná", regiao: "Sul" },
+  PE: { estado: "Pernambuco", regiao: "Nordeste" },
+  PI: { estado: "Piauí", regiao: "Nordeste" },
+  RJ: { estado: "Rio de Janeiro", regiao: "Sudeste" },
+  RN: { estado: "Rio Grande do Norte", regiao: "Nordeste" },
+  RS: { estado: "Rio Grande do Sul", regiao: "Sul" },
+  RO: { estado: "Rondônia", regiao: "Norte" },
+  RR: { estado: "Roraima", regiao: "Norte" },
+  SC: { estado: "Santa Catarina", regiao: "Sul" },
+  SP: { estado: "São Paulo", regiao: "Sudeste" },
+  SE: { estado: "Sergipe", regiao: "Nordeste" },
+  TO: { estado: "Tocantins", regiao: "Norte" },
+};
+
+const ORDEM_REGIOES = [
+  "Norte",
+  "Nordeste",
+  "Centro-Oeste",
+  "Sudeste",
+  "Sul",
+  "Abrangência geral",
+];
+
 function normalizarTexto(texto) {
   return texto
     .normalize("NFD")
@@ -73,11 +115,64 @@ function formatarSalario(valor) {
   }).format(valor);
 }
 
+function formatarAbrangencia(abrangencia) {
+  const rotulos = {
+    nacional: "Abrangência nacional",
+    estadual: "Abrangência estadual",
+    distrito_federal: "Distrito Federal",
+    indefinida: "Abrangência não informada",
+  };
+
+  return rotulos[abrangencia] ?? "Abrangência não informada";
+}
+
 function formatarDistancia(distanciaMetros) {
   return new Intl.NumberFormat("pt-BR", {
     maximumFractionDigits: 1,
     minimumFractionDigits: 1,
   }).format(distanciaMetros / 1000);
+}
+
+function agruparConcursosPorRegiaoEEstado(concursos) {
+  const regioes = new Map();
+
+  for (const concurso of concursos) {
+    const informacaoUf = ESTADO_E_REGIAO_POR_UF[concurso.uf];
+    const nomeRegiao = informacaoUf?.regiao ?? "Abrangência geral";
+    const nomeEstado = informacaoUf
+      ? `${informacaoUf.estado} (${concurso.uf})`
+      : "Nacional ou sem UF informada";
+
+    if (!regioes.has(nomeRegiao)) {
+      regioes.set(nomeRegiao, new Map());
+    }
+
+    const estados = regioes.get(nomeRegiao);
+
+    if (!estados.has(nomeEstado)) {
+      estados.set(nomeEstado, []);
+    }
+
+    estados.get(nomeEstado).push(concurso);
+  }
+
+  return [...regioes.entries()]
+    .map(([regiao, estados]) => ({
+      regiao,
+      total: [...estados.values()].reduce(
+        (total, concursosDoEstado) => total + concursosDoEstado.length,
+        0,
+      ),
+      estados: [...estados.entries()]
+        .map(([estado, concursosDoEstado]) => ({
+          estado,
+          concursos: concursosDoEstado,
+        }))
+        .sort((a, b) => a.estado.localeCompare(b.estado, "pt-BR")),
+    }))
+    .sort(
+      (a, b) => ORDEM_REGIOES.indexOf(a.regiao) - ORDEM_REGIOES.indexOf(b.regiao),
+    );
 }
 
 function agruparPinsPorMunicipio(pins) {
@@ -108,14 +203,14 @@ function agruparPinsPorMunicipio(pins) {
   }));
 }
 
-function RecentrarMapa({ localizacao }) {
+function RecentrarMapa({ localizacao, versaoCentralizacao }) {
   const mapa = useMap();
 
   useEffect(() => {
     if (localizacao) {
       mapa.setView([localizacao.latitude, localizacao.longitude], 10);
     }
-  }, [localizacao, mapa]);
+  }, [localizacao, mapa, versaoCentralizacao]);
 
   return null;
 }
@@ -156,15 +251,23 @@ function DetalhesConcurso({
         </div>
         <p className="orgao">{concurso.orgao}</p>
 
-        <div className="distancia-rota">
-          <strong>Distância por rota até {destino.cidade}/{destino.uf}</strong>
-          {!possuiOrigem && <p>Defina sua localização ou busque uma cidade para calcular.</p>}
-          {possuiOrigem && calculandoRota && <p>Calculando rota...</p>}
-          {possuiOrigem && distanciaRota !== null && (
-            <p>{formatarDistancia(distanciaRota)} km de carro</p>
-          )}
-          {possuiOrigem && erroRota && <p>{erroRota}</p>}
-        </div>
+        {destino ? (
+          <div className="distancia-rota">
+            <strong>Distância por rota até {destino.cidade}/{destino.uf}</strong>
+            {!possuiOrigem && <p>Defina sua localização ou busque uma cidade para calcular.</p>}
+            {possuiOrigem && calculandoRota && <p>Calculando rota...</p>}
+            {possuiOrigem && distanciaRota !== null && (
+              <p>{formatarDistancia(distanciaRota)} km de carro</p>
+            )}
+            {possuiOrigem && erroRota && <p>{erroRota}</p>}
+          </div>
+        ) : (
+          <div className="aviso-sem-localizacao">
+            <strong>Localização não informada com precisão</strong>
+            <p>{formatarAbrangencia(concurso.abrangencia)}</p>
+            <p>A notícia não apresenta um município confiável para este concurso.</p>
+          </div>
+        )}
 
         <dl className="dados-concurso">
           <div>
@@ -249,6 +352,86 @@ function DetalhesConcurso({
   );
 }
 
+function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes }) {
+  const regioes = agruparConcursosPorRegiaoEEstado(concursos);
+
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        aria-labelledby="titulo-sem-localizacao"
+        aria-modal="true"
+        className="painel-sem-localizacao"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button
+            className="botao-fechar-filtros"
+            type="button"
+            aria-label="Fechar lista"
+            onClick={aoFechar}
+          >
+            ×
+          </button>
+          <p className="sobretitulo">Resultados fora do mapa</p>
+          <h2 id="titulo-sem-localizacao">Concursos sem localização precisa</h2>
+          <p>
+            A notícia não informa um município confiável. Por isso, esses concursos
+            não recebem um pin no mapa.
+          </p>
+        </div>
+
+        {concursos.length > 0 ? (
+          <div className="lista-regioes-sem-localizacao">
+            {regioes.map((grupoRegiao) => (
+              <details key={grupoRegiao.regiao} className="dropdown-regiao">
+                <summary>
+                  <strong>{grupoRegiao.regiao}</strong>
+                  <span>{grupoRegiao.total} concurso(s)</span>
+                </summary>
+
+                <div className="lista-estados-sem-localizacao">
+                  {grupoRegiao.estados.map((grupoEstado) => (
+                    <section key={grupoEstado.estado} className="grupo-estado-sem-localizacao">
+                      <h3>{grupoEstado.estado}</h3>
+                      <ul className="lista-concursos-sem-localizacao">
+                        {grupoEstado.concursos.map((concurso) => (
+                          <li key={concurso.id}>
+                            <div>
+                              <span className="etiqueta-abrangencia">
+                                {formatarAbrangencia(concurso.abrangencia)}
+                              </span>
+                              <h4>{concurso.orgao}</h4>
+                              <p>{concurso.titulo}</p>
+                              <small>
+                                {concurso.inscricaoTexto || "Inscrições não informadas"}
+                              </small>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => aoAbrirDetalhes(concurso)}
+                            >
+                              Mais detalhes
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </section>
+                  ))}
+                </div>
+              </details>
+            ))}
+          </div>
+        ) : (
+          <p className="estado-vazio-lista">
+            Nenhum concurso sem localização precisa corresponde aos filtros atuais.
+          </p>
+        )}
+      </section>
+    </div>
+  );
+}
+
 function App() {
   const [pontos, setPontos] = useState([]);
   const [municipios, setMunicipios] = useState([]);
@@ -256,6 +439,7 @@ function App() {
   const [erro, setErro] = useState(null);
   const [localizacaoUsuario, setLocalizacaoUsuario] = useState(null);
   const [centroMapa, setCentroMapa] = useState(null);
+  const [versaoCentralizacao, setVersaoCentralizacao] = useState(0);
   const [notificacao, setNotificacao] = useState(null);
   const [cidadePesquisada, setCidadePesquisada] = useState("");
   const [mostrarSugestoes, setMostrarSugestoes] = useState(false);
@@ -267,6 +451,7 @@ function App() {
   const [emTelaCheia, setEmTelaCheia] = useState(false);
   const [filtros, setFiltros] = useState(FILTROS_INICIAIS);
   const [filtrosAbertos, setFiltrosAbertos] = useState(false);
+  const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const areaMapaRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
@@ -362,9 +547,30 @@ function App() {
     [pinsFiltrados],
   );
 
+  const concursosSemLocalizacaoFiltrados = useMemo(() => {
+    const hoje = new Date().toISOString().slice(0, 10);
+
+    return concursos
+      .filter((concurso) => concurso.localizacaoPendente)
+      .filter((concurso) => !filtros.uf || concurso.uf === filtros.uf)
+      .filter((concurso) => !filtros.status || concurso.status === filtros.status)
+      .filter(
+        (concurso) =>
+          !filtros.tipoSelecao || concurso.tipoSelecao === filtros.tipoSelecao,
+      )
+      .filter(
+        (concurso) =>
+          !filtros.inscricoesEmAndamento || concurso.inscricaoFim >= hoje,
+      )
+      .filter(
+        (concurso) =>
+          !filtros.inscricaoAte || concurso.inscricaoFim <= filtros.inscricaoAte,
+      );
+  }, [concursos, filtros]);
+
   const ufsDisponiveis = useMemo(
-    () => [...new Set(pinsParaFiltrar.map((pin) => pin.uf))].sort(),
-    [pinsParaFiltrar],
+    () => [...new Set(concursos.map((concurso) => concurso.uf).filter(Boolean))].sort(),
+    [concursos],
   );
 
   const filtrosAtivos =
@@ -401,6 +607,15 @@ function App() {
   }
 
   function usarMinhaLocalizacao() {
+    const origemAtiva = cidadeSelecionada ?? localizacaoUsuario;
+
+    if (origemAtiva) {
+      setCentroMapa(origemAtiva);
+      setVersaoCentralizacao((versao) => versao + 1);
+      setNotificacao(null);
+      return;
+    }
+
     if (!window.isSecureContext) {
       mostrarNotificacao(
         "A localização exige HTTPS neste celular. Use a busca por cidade durante este teste na rede local.",
@@ -422,6 +637,7 @@ function App() {
 
         setLocalizacaoUsuario(novaLocalizacao);
         setCentroMapa(novaLocalizacao);
+        setVersaoCentralizacao((versao) => versao + 1);
         setCidadeSelecionada(null);
         setNotificacao(null);
       },
@@ -437,6 +653,7 @@ function App() {
   function selecionarCidade(municipio) {
     setCidadePesquisada(`${municipio.cidade} - ${municipio.uf}`);
     setCentroMapa(municipio);
+    setVersaoCentralizacao((versao) => versao + 1);
     setCidadeSelecionada(municipio);
     setMostrarSugestoes(false);
   }
@@ -496,6 +713,15 @@ function App() {
         setCalculandoRota(false);
       }
     }
+  }
+
+  function abrirDetalhesSemLocalizacao(concurso) {
+    solicitacaoRotaRef.current += 1;
+    setDetalheSelecionado({ concurso, destino: null });
+    setDistanciaRota(null);
+    setCalculandoRota(false);
+    setErroRota(null);
+    setListaSemLocalizacaoAberta(false);
   }
 
   async function alternarTelaCheia() {
@@ -604,6 +830,21 @@ function App() {
               {centroMapa && <small>Ordenados por distância em linha reta.</small>}
             </div>
 
+            <button
+              className="atalho-sem-localizacao"
+              type="button"
+              onClick={() => {
+                setFiltrosAbertos(false);
+                setListaSemLocalizacaoAberta(true);
+              }}
+            >
+              <span>
+                <strong>{concursosSemLocalizacaoFiltrados.length} sem localização precisa</strong>
+                <small>Ver oportunidades que não podem receber pin no mapa</small>
+              </span>
+              <span aria-hidden="true">→</span>
+            </button>
+
             <div className="campos-filtros">
               <label>
                 Raio de busca
@@ -682,6 +923,14 @@ function App() {
         </div>
       )}
 
+      {listaSemLocalizacaoAberta && (
+        <ListaSemLocalizacao
+          concursos={concursosSemLocalizacaoFiltrados}
+          aoFechar={() => setListaSemLocalizacaoAberta(false)}
+          aoAbrirDetalhes={abrirDetalhesSemLocalizacao}
+        />
+      )}
+
       {erro ? (
         <p className="erro" role="alert">{erro}</p>
       ) : (
@@ -697,8 +946,20 @@ function App() {
           <button
             className="botao-localizacao-mapa"
             type="button"
-            title="Usar minha localização"
-            aria-label="Usar minha localização"
+            title={
+              cidadeSelecionada
+                ? `Centralizar em ${cidadeSelecionada.cidade}/${cidadeSelecionada.uf}`
+                : localizacaoUsuario
+                  ? "Centralizar na minha localização"
+                  : "Usar minha localização"
+            }
+            aria-label={
+              cidadeSelecionada
+                ? `Centralizar em ${cidadeSelecionada.cidade}/${cidadeSelecionada.uf}`
+                : localizacaoUsuario
+                  ? "Centralizar na minha localização"
+                  : "Usar minha localização"
+            }
             onClick={usarMinhaLocalizacao}
           >
             ⌖
@@ -739,7 +1000,10 @@ function App() {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
 
-            <RecentrarMapa localizacao={centroMapa} />
+            <RecentrarMapa
+              localizacao={centroMapa}
+              versaoCentralizacao={versaoCentralizacao}
+            />
 
             {localizacaoUsuario && (
               <CircleMarker
@@ -761,38 +1025,44 @@ function App() {
               </CircleMarker>
             )}
 
-            {pontosFiltrados.map((ponto) => (
-              <Marker key={ponto.codigoIbge} position={[ponto.latitude, ponto.longitude]}>
-              <Popup minWidth={260} maxWidth={360} closeOnClick={false}>
-                  <strong>{ponto.cidade}/{ponto.uf}</strong>
-                  <p>{ponto.totalConcursos} concurso(s) encontrado(s)</p>
-                  {ponto.distanciaKm !== null && (
-                    <p className="distancia-em-linha-reta">
-                      {ponto.distanciaKm.toFixed(1).replace(".", ",")} km em linha reta
-                    </p>
-                  )}
-                  <ul className="lista-concursos">
-                    {ponto.concursos.map((concurso) => (
-                      <li key={concurso.id}>
-                        <strong>{concurso.orgao}</strong>
-                        <span>{concurso.titulo}</span>
-                        <button
-                          className="botao-detalhes"
-                        type="button"
-                        onMouseDown={(evento) => evento.stopPropagation()}
-                        onClick={(evento) => {
-                          evento.stopPropagation();
-                          abrirDetalhes(concurso);
-                        }}
-                        >
-                          Mais detalhes
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </Popup>
-              </Marker>
-            ))}
+            <MarkerClusterGroup
+              chunkedLoading
+              maxClusterRadius={52}
+              showCoverageOnHover={false}
+            >
+              {pontosFiltrados.map((ponto) => (
+                <Marker key={ponto.codigoIbge} position={[ponto.latitude, ponto.longitude]}>
+                  <Popup minWidth={260} maxWidth={360} closeOnClick={false}>
+                    <strong>{ponto.cidade}/{ponto.uf}</strong>
+                    <p>{ponto.totalConcursos} concurso(s) encontrado(s)</p>
+                    {ponto.distanciaKm !== null && (
+                      <p className="distancia-em-linha-reta">
+                        {ponto.distanciaKm.toFixed(1).replace(".", ",")} km em linha reta
+                      </p>
+                    )}
+                    <ul className="lista-concursos">
+                      {ponto.concursos.map((concurso) => (
+                        <li key={concurso.id}>
+                          <strong>{concurso.orgao}</strong>
+                          <span>{concurso.titulo}</span>
+                          <button
+                            className="botao-detalhes"
+                            type="button"
+                            onMouseDown={(evento) => evento.stopPropagation()}
+                            onClick={(evento) => {
+                              evento.stopPropagation();
+                              abrirDetalhes(concurso);
+                            }}
+                          >
+                            Mais detalhes
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </Popup>
+                </Marker>
+              ))}
+            </MarkerClusterGroup>
           </MapContainer>
           {pontosFiltrados.length === 0 && (
             <p className="sem-resultados" role="status">

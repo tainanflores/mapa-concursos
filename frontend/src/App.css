@@ -281,6 +281,21 @@ a:focus-visible {
   box-shadow: 0 14px 35px rgb(20 50 42 / 14%);
 }
 
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background: rgb(8 118 87 / 26%);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  margin: 5px;
+  background: #087657;
+  color: #fff;
+  font-weight: 800;
+}
+
 .botao-tela-cheia {
   position: absolute;
   z-index: 500;
@@ -328,7 +343,8 @@ a:focus-visible {
 }
 
 .sobreposicao-filtros,
-.sobreposicao-detalhes {
+.sobreposicao-detalhes,
+.sobreposicao-lista {
   position: fixed;
   z-index: 2000;
   inset: 0;
@@ -393,6 +409,32 @@ a:focus-visible {
 .resumo-filtros small {
   margin-top: 0.2rem;
   color: #587168;
+}
+
+.atalho-sem-localizacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+  padding: 0.85rem;
+  background: #f7f2e8;
+  color: #5d430d;
+  text-align: left;
+}
+
+.atalho-sem-localizacao:hover {
+  background: #f2e7ce;
+}
+
+.atalho-sem-localizacao > span:first-child {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.atalho-sem-localizacao small {
+  color: #765d2b;
+  font-weight: 500;
 }
 
 .campos-filtros {
@@ -604,6 +646,176 @@ a:focus-visible {
   text-decoration: none;
 }
 
+.aviso-sem-localizacao {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 4px solid #b7791f;
+  border-radius: 4px;
+  background: #fdf7e8;
+  color: #624b17;
+}
+
+.aviso-sem-localizacao p:last-child {
+  margin-bottom: 0;
+}
+
+.sobreposicao-lista {
+  display: grid;
+  place-items: center;
+  padding: clamp(0.75rem, 4vw, 2rem);
+}
+
+.painel-sem-localizacao {
+  width: min(760px, 100%);
+  max-height: 100%;
+  overflow-y: auto;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 22px 60px rgb(5 25 19 / 26%);
+}
+
+.cabecalho-lista-sem-localizacao {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 1.25rem 1.25rem 1rem;
+  border-bottom: 1px solid #d8e1dc;
+  background: #fff;
+}
+
+.cabecalho-lista-sem-localizacao .botao-fechar-filtros {
+  float: right;
+}
+
+.cabecalho-lista-sem-localizacao h2 {
+  margin-bottom: 0.4rem;
+}
+
+.cabecalho-lista-sem-localizacao > p:last-child {
+  max-width: 580px;
+  margin-bottom: 0;
+  color: #52675e;
+}
+
+.lista-regioes-sem-localizacao {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 1.25rem;
+}
+
+.dropdown-regiao {
+  overflow: hidden;
+  border: 1px solid #dbe5df;
+  border-radius: 10px;
+  background: #fbfdfc;
+}
+
+.dropdown-regiao summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  color: #14322a;
+  cursor: pointer;
+  list-style: none;
+}
+
+.dropdown-regiao summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown-regiao summary::after {
+  content: "+";
+  order: 3;
+  color: #087657;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.dropdown-regiao[open] summary {
+  border-bottom: 1px solid #dbe5df;
+  background: #edf6f1;
+}
+
+.dropdown-regiao[open] summary::after {
+  content: "−";
+}
+
+.dropdown-regiao summary span {
+  margin-left: auto;
+  color: #587168;
+  font-size: 0.84rem;
+}
+
+.lista-estados-sem-localizacao {
+  display: grid;
+  gap: 1.25rem;
+  padding: 1rem;
+}
+
+.grupo-estado-sem-localizacao h3 {
+  margin-bottom: 0.6rem;
+  color: #315d4f;
+  font-size: 0.95rem;
+}
+
+.lista-concursos-sem-localizacao {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-concursos-sem-localizacao li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e1e9e4;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.lista-concursos-sem-localizacao h4 {
+  margin: 0.55rem 0 0.2rem;
+  color: #14322a;
+  font-size: 1rem;
+}
+
+.lista-concursos-sem-localizacao p {
+  margin-bottom: 0.45rem;
+  color: #38574d;
+}
+
+.lista-concursos-sem-localizacao small {
+  color: #617b70;
+}
+
+.lista-concursos-sem-localizacao button {
+  flex: 0 0 auto;
+}
+
+.etiqueta-abrangencia {
+  display: inline-block;
+  padding: 0.25rem 0.45rem;
+  border-radius: 999px;
+  background: #f7e6b9;
+  color: #6a4a08;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.estado-vazio-lista {
+  margin: 0;
+  padding: 2.25rem 1.25rem;
+  color: #52675e;
+  text-align: center;
+}
+
 .visualmente-oculto {
   position: absolute;
   width: 1px;
@@ -670,5 +882,30 @@ a:focus-visible {
   .painel-detalhes {
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+
+  .sobreposicao-lista {
+    padding: 0;
+  }
+
+  .painel-sem-localizacao {
+    width: 100%;
+    height: 100dvh;
+    max-height: none;
+    border-radius: 0;
+  }
+
+  .cabecalho-lista-sem-localizacao,
+  .lista-regioes-sem-localizacao {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .lista-concursos-sem-localizacao li {
+    flex-direction: column;
+  }
+
+  .lista-concursos-sem-localizacao button {
+    width: 100%;
   }
 }

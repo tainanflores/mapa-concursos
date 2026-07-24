@@ -147,13 +147,14 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Calcular distância por rota quando a pessoa usuária solicitar os detalhes de um concurso.
 - [ ] Ordenar ou destacar os concursos pela proximidade em relação à origem selecionada.
 - [x] Ao clicar em um pin, mostrar órgão, título e o link **Mais detalhes** para `urlPCI`.
-- [ ] Exibir concursos sem município em lista separada; não colocá-los arbitrariamente no mapa.
+- [x] Exibir concursos sem município em lista separada, com abrangência, filtros compatíveis e link para os detalhes; não colocá-los arbitrariamente no mapa.
 
 ### 4. Qualidade da experiência e publicação
 
 - [x] Limitar a altura dos popups e permitir rolagem para preservar a usabilidade em telas pequenas.
 - [x] Oferecer mapa em tela cheia e modal de detalhes em tela cheia, incluindo suporte a viewport móvel dinâmica.
-- [ ] Tratar agrupamento de pins próximos e revisar a acessibilidade de controles, popup e modal.
+- [x] Agrupar pins próximos para reduzir sobreposição e permitir zoom progressivo no mapa.
+- [ ] Revisar a acessibilidade de controles, popup e modal.
 - [ ] Exibir data/hora da última atualização dos dados.
 - [x] Configurar atualização periódica no ambiente de publicação.
 - [x] Evitar commit/deploy quando somente os metadados técnicos de data tiverem mudado.
