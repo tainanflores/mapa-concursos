@@ -686,6 +686,7 @@ function App() {
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
+  const [eventoInstalacao, setEventoInstalacao] = useState(null);
   const areaMapaRef = useRef(null);
   const botaoFiltrosRef = useRef(null);
   const ultimoFocoRef = useRef(null);
@@ -708,9 +709,9 @@ function App() {
     async function carregarDados() {
       try {
         const [respostaPontos, respostaMunicipios, respostaConcursos] = await Promise.all([
-          fetch("/data/pontos-mapa.json"),
-          fetch("/data/municipios.json"),
-          fetch("/data/concursos.json"),
+          fetch("/data/pontos-mapa.json", { cache: "no-cache" }),
+          fetch("/data/municipios.json", { cache: "no-cache" }),
+          fetch("/data/concursos.json", { cache: "no-cache" }),
         ]);
 
         if (!respostaPontos.ok || !respostaMunicipios.ok || !respostaConcursos.ok) {
@@ -826,6 +827,26 @@ function App() {
     return () => document.removeEventListener("fullscreenchange", atualizarTelaCheia);
   }, []);
 
+  useEffect(() => {
+    function prepararInstalacao(evento) {
+      evento.preventDefault();
+      setEventoInstalacao(evento);
+    }
+
+    function registrarInstalacao() {
+      setEventoInstalacao(null);
+      mostrarNotificacao("Mapa de Concursos instalado neste aparelho.");
+    }
+
+    window.addEventListener("beforeinstallprompt", prepararInstalacao);
+    window.addEventListener("appinstalled", registrarInstalacao);
+
+    return () => {
+      window.removeEventListener("beforeinstallprompt", prepararInstalacao);
+      window.removeEventListener("appinstalled", registrarInstalacao);
+    };
+  }, []);
+
   const concursosPorId = useMemo(
     () => new Map(concursos.map((concurso) => [concurso.id, concurso])),
     [concursos],
@@ -933,6 +954,19 @@ function App() {
     temporizadorNotificacaoRef.current = setTimeout(() => {
       setNotificacao(null);
     }, 5_000);
+  }
+
+  async function instalarAplicativo() {
+    if (!eventoInstalacao) return;
+
+    eventoInstalacao.prompt();
+    const escolha = await eventoInstalacao.userChoice;
+
+    if (escolha.outcome === "dismissed") {
+      mostrarNotificacao("Você pode instalar o mapa quando quiser pelo menu do navegador.");
+    }
+
+    setEventoInstalacao(null);
   }
 
   function usarMinhaLocalizacao() {
@@ -1086,6 +1120,15 @@ function App() {
         </div>
 
         <div className="acoes-principais">
+          {eventoInstalacao && (
+            <button
+              className="botao-instalar"
+              type="button"
+              onClick={instalarAplicativo}
+            >
+              Instalar app
+            </button>
+          )}
           <button
             className="botao-sobre"
             type="button"

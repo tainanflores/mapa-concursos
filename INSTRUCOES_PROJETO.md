@@ -107,6 +107,49 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 5. Rodar `npm run extrair` para mudanças de listagem e `npm run atualizar` para mudanças de enriquecimento.
 6. Após o fluxo completo, conferir se `concursos.json` e `resumo.json` possuem os mesmos totais de localizados e pendentes.
 
+## Publicação e fluxo de Git
+
+O ramo de produção é `main`. Enquanto o projeto estiver conectado à Vercel, um `git push origin main` publica uma nova versão do site. Portanto, durante o desenvolvimento é aceitável criar commits locais normalmente, mas o push só deve ser feito quando a alteração estiver verificada e puder ir para produção.
+
+Não será mantida uma branch remota de desenvolvimento neste momento: pushes de outras branches conectadas à Vercel podem gerar *preview deployments*. Se, no futuro, a equipe precisar de revisão por pull request ou homologação, reavaliar esse fluxo junto com a migração de hospedagem.
+
+## Direção futura: aplicativo e monetização
+
+O mapa e a consulta de concursos continuarão gratuitos. O `urlPCI` permanece como fonte e link de detalhes de cada concurso. Não acessar todas as notícias apenas para procurar editais: isso aumenta o tempo e a fragilidade da coleta. Caso uma extração confiável de edital seja criada no futuro, exibir **Ver edital** como link adicional, sem remover **Mais detalhes no PCI**.
+
+O aplicativo Android deverá reutilizar o front-end React por meio do Capacitor. A primeira versão será funcional e sem monetização; a monetização só será ativada depois da migração da hospedagem, pois o plano Hobby da Vercel é destinado a uso pessoal/não comercial.
+
+Modelo definido:
+
+| Plano gratuito | Mapa de Concursos Plus |
+| --- | --- |
+| Mapa, busca, filtros e detalhes | Todos os recursos gratuitos |
+| Banner adaptável e discreto no rodapé | Sem anúncios |
+| App Open Ad com limite conservador de frequência | Favoritos sincronizados |
+|  | Pesquisas e cidades salvas |
+|  | Alertas de novos concursos compatíveis e de prazos próximos |
+
+Regras de anúncios:
+
+- Usar AdMob nativo no aplicativo Capacitor.
+- O banner deve reservar espaço próprio, não cobrir mapa, pins, controles ou conteúdo; ocultá-lo em tela cheia e em modais.
+- Usar o formato **App Open Ad** apenas na abertura/retorno do aplicativo, com limite de frequência. Não usar intersticial comum na inicialização nem durante a navegação do mapa.
+- Nunca apresentar banner junto com App Open Ad.
+- Uma assinatura Plus válida impede o carregamento e a exibição de anúncios.
+
+Arquitetura prevista para recursos pessoais:
+
+```text
+Aplicativo Capacitor (React)
+  → Supabase: autenticação, favoritos, pesquisas, alertas e dispositivos
+  → Firebase Cloud Messaging: entrega gratuita de notificações push
+  → rotina diária no GitHub Actions / serviço seguro: compara concursos e envia avisos
+```
+
+O Firebase será usado somente para o Firebase Cloud Messaging (FCM), que é gratuito. O Supabase será o banco e a autenticação. Chaves administrativas nunca devem ser incluídas no aplicativo: ficam nos segredos do GitHub Actions ou em uma função/serviço seguro.
+
+Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio, UF, situação e tipo), registrar cada envio para evitar duplicação e permitir definir frequência. A rotina roda diariamente mesmo se os dados não mudarem: novidades e alterações dependem da comparação da coleta; prazos próximos dependem do conjunto atual. Notificações de novos concursos exigem backend; antes disso, podem existir lembretes locais apenas para concursos favoritados.
+
 ## Roadmap
 
 ### Concluído
@@ -157,15 +200,49 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Garantir foco inicial, retorno e contenção de foco, além de fechamento por `Esc` nos painéis e modais; permitir fechar popup ao clicar no mapa.
 - [x] Exibir informações sobre fonte dos dados, limitações, localização e privacidade no próprio site.
 - [ ] Fazer uma auditoria manual mais ampla de acessibilidade em teclado e leitor de tela.
-- [ ] Exibir data/hora da última atualização dos dados.
+- [x] Decidir não exibir data/hora de atualização na interface; a situação e os prazos já aparecem nos pontos e detalhes.
 - [x] Configurar atualização periódica no ambiente de publicação.
 - [x] Evitar commit/deploy quando somente os metadados técnicos de data tiverem mudado.
 - [x] Impedir publicação quando a extração produzir resultado vazio, inconsistente ou 40% menor que o último conjunto publicado; registrar uma falha clara no GitHub Actions.
 - [ ] Monitorar alterações no HTML do PCI e falhas de extração.
 
+### 5. Preparar aplicativo sem monetização
+
+- [x] Tornar o front-end instalável como PWA, com manifesto, service worker e botão de instalação quando suportado; manter `/data/*` fora do cache do service worker.
+- [ ] Integrar Capacitor ao React e gerar APK de desenvolvimento para testes no Android.
+- [ ] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
+- [ ] Criar favoritos locais e pesquisas salvas locais como primeira experiência pessoal.
+- [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.
+- [ ] Criar política de privacidade e termos adequados para o aplicativo, incluindo localização, notificações, FCM e anúncios futuros.
+
+### 6. Criar recursos pessoais e alertas
+
+- [ ] Criar projeto Supabase e modelar perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios.
+- [ ] Implementar autenticação e sincronização de favoritos, pesquisas e preferências entre aparelhos.
+- [ ] Integrar Firebase Cloud Messaging no app Android, inicialmente em ambiente de teste.
+- [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
+- [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
+- [ ] Implementar lembretes locais de prazo para favoritos como alternativa enquanto o push não estiver disponível.
+
+### 7. Migrar hospedagem antes da monetização
+
+- [ ] Migrar o frontend estático e os JSONs para Cloudflare Pages, preservando o deploy pelo GitHub e a revalidação dos dados.
+- [ ] Validar em produção mapa, arquivos `/data/*`, cache, domínio e atualização automática após uma mudança real nos dados.
+- [ ] Atualizar documentação e política de privacidade com os provedores efetivamente usados.
+- [ ] Manter a Vercel sem monetização até concluir a migração ou contratar plano comercial compatível.
+
+### 8. Ativar modelo freemium e publicar beta
+
+- [ ] Integrar AdMob nativo no Capacitor: banner adaptável em área reservada e App Open Ad com limite de frequência.
+- [ ] Ocultar completamente anúncios para assinantes Plus e em contextos que prejudiquem o mapa, tela cheia ou modais.
+- [ ] Integrar Google Play Billing em ambiente sandbox e validar assinaturas no backend.
+- [ ] Ativar Plus com recursos recorrentes: sem anúncios, favoritos sincronizados, pesquisas/cidades salvas e alertas.
+- [ ] Preparar ficha da Play Store: ícone, screenshots, classificação indicativa, Data Safety, política de privacidade e beta fechado.
+- [ ] Publicar beta fechado, recolher feedback e só então habilitar anúncios e assinaturas para público real.
+
 ## Próxima tarefa recomendada
 
-Monitorar as execuções do GitHub Actions e, quando uma alteração real no HTML do PCI provocar falha, atualizar o extrator com um teste de regressão antes de liberar uma nova atualização.
+Preparar o front-end como PWA e, em seguida, integrar o Capacitor para gerar um APK de desenvolvimento. Isso permite validar o uso real no Android sem ativar anúncios, assinaturas ou depender de backend.
 
 ## Automação e hospedagem
 

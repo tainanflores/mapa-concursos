@@ -1,0 +1,19 @@
+{
+  "name": "Mapa de Concursos",
+  "short_name": "Concursos",
+  "description": "Encontre concursos públicos próximos de você em um mapa interativo.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f8f5",
+  "theme_color": "#087657",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -127,6 +127,16 @@ a:focus-visible {
   color: #285146;
 }
 
+.botao-instalar {
+  padding: 0.6rem 0.75rem;
+  background: #e2f3ea;
+  color: #075e45;
+}
+
+.botao-instalar:hover {
+  background: #cce8db;
+}
+
 .botao-sobre:hover {
   background: #edf3f0;
 }
