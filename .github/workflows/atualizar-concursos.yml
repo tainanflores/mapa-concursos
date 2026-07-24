@@ -34,6 +34,9 @@ jobs:
       - name: Atualizar concursos
         run: npm run atualizar
 
+      - name: Validar resultado da extração
+        run: node src/verificar-sanidade-dados.js
+
       - name: Executar testes
         run: npm test
 

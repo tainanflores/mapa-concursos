@@ -16,14 +16,22 @@ src/
   extrair-noticia.js         extrai localidades da notícia individual
   enriquecer-concursos.js    complementa apenas registros pendentes
   atualizar.js               orquestra o fluxo completo
+  dados-atualizados.js       compara dados sem metadados técnicos de execução
+  verificar-alteracoes-dados.js
+                             verifica se há mudança efetiva antes do commit
 data/
   municipios.csv
   pci-concursos.html
 public/data/
   concursos.json
   localidades.json
+  municipios.json
   pontos-mapa.json
   resumo.json
+frontend/
+  src/                       interface React + Leaflet
+  scripts/copiar-dados.mjs   leva os JSONs para o build do front-end
+  vercel.json                define a política de cache dos dados
 ```
 
 ```text
@@ -109,6 +117,13 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 - [x] Classificar localidades por lotação, sede, prova, inscrição e menção, preservando a prioridade.
 - [x] Exibir menções somente quando não existir localização mais útil na notícia.
 - [x] Documentar o contrato de dados, regras de extração e visão da interface de mapa.
+- [x] Criar interface React responsiva com Leaflet, pins por município, popup e tela de detalhes.
+- [x] Adicionar busca manual de cidade, geolocalização por ação da pessoa usuária e marcador de origem.
+- [x] Adicionar filtros por raio, UF, status, tipo de seleção e período de inscrição.
+- [x] Calcular distância por rota sob demanda na tela de detalhes.
+- [x] Publicar o front-end na Vercel e corrigir o carregamento de ícones do Leaflet em produção.
+- [x] Configurar revalidação dos JSONs para que uma recarga do site obtenha dados atualizados.
+- [x] Configurar GitHub Actions diário, com commit e deploy somente quando houver mudança efetiva nos dados.
 
 ### 1. Consolidar a coleta e o contrato de dados
 
@@ -127,27 +142,32 @@ Regra especial do Distrito Federal só deve ser adotada conscientemente: usar Br
 ### 3. Construir a interface React de mapa
 
 - [x] Solicitar geolocalização com `navigator.geolocation` apenas após ação da pessoa usuária.
-- [ ] Prever estado de permissão negada e uma localização manual como alternativa.
+- [x] Prever estado de permissão negada e uma localização manual como alternativa.
 - [x] Renderizar pins com latitude e longitude das `localidades` exibíveis.
-- [ ] Calcular e ordenar a proximidade em relação à localização da pessoa usuária.
+- [x] Calcular distância por rota quando a pessoa usuária solicitar os detalhes de um concurso.
+- [ ] Ordenar ou destacar os concursos pela proximidade em relação à origem selecionada.
 - [x] Ao clicar em um pin, mostrar órgão, título e o link **Mais detalhes** para `urlPCI`.
 - [ ] Exibir concursos sem município em lista separada; não colocá-los arbitrariamente no mapa.
 
 ### 4. Qualidade da experiência e publicação
 
-- [ ] Tratar agrupamento de pins próximos e acessibilidade do popup.
+- [x] Limitar a altura dos popups e permitir rolagem para preservar a usabilidade em telas pequenas.
+- [x] Oferecer mapa em tela cheia e modal de detalhes em tela cheia, incluindo suporte a viewport móvel dinâmica.
+- [ ] Tratar agrupamento de pins próximos e revisar a acessibilidade de controles, popup e modal.
 - [ ] Exibir data/hora da última atualização dos dados.
-- [ ] Configurar atualização periódica no ambiente de publicação.
+- [x] Configurar atualização periódica no ambiente de publicação.
+- [x] Evitar commit/deploy quando somente os metadados técnicos de data tiverem mudado.
+- [x] Impedir publicação quando a extração produzir resultado vazio, inconsistente ou 40% menor que o último conjunto publicado; registrar uma falha clara no GitHub Actions.
 - [ ] Monitorar alterações no HTML do PCI e falhas de extração.
 
 ## Próxima tarefa recomendada
 
-Iniciar a interface React do mapa, começando pela escolha do stack de visualização e pelo esqueleto da tela com carregamento de `pontos-mapa.json`.
+Monitorar as execuções do GitHub Actions e, quando uma alteração real no HTML do PCI provocar falha, atualizar o extrator com um teste de regressão antes de liberar uma nova atualização.
 
 ## Automação e hospedagem
 
-O scraper permanece na raiz do repositório e é executado pelo workflow `.github/workflows/atualizar-concursos.yml`. Ele usa `npm ci`, executa `npm run atualizar`, valida o resultado com `npm test` e versiona todos os arquivos em `public/data/*.json` quando houver alterações.
+O scraper permanece na raiz do repositório e é executado pelo workflow `.github/workflows/atualizar-concursos.yml`. Ele usa `npm ci`, executa `npm run atualizar` e bloqueia o fluxo se o resumo for vazio, inconsistente ou tiver queda superior a 40% em relação ao último conjunto publicado. Em seguida, executa `npm test`. Antes de versionar `public/data/*.json`, compara os dados gerados com o último commit, ignorando `coletadoEm`, `geradoEm`, `enriquecidoEm` e `enriquecimentoTentadoEm`. Portanto, só cria commit quando houver mudança efetiva para o site.
 
-O agendamento permanece desativado até uma execução manual bem-sucedida no GitHub Actions. Depois disso, o cron pode ser habilitado para atualizar os dados periodicamente.
+O agendamento diário está ativo às 07:17 no horário de Brasília (`17 10 * * *` em UTC). Uma execução sem alteração efetiva não gera deploy na Vercel.
 
-O front-end React ficará em `frontend/` e será hospedado na Vercel. A Vercel deve usar `frontend/` como diretório-raiz do projeto. Os JSONs gerados na raiz serão disponibilizados ao front-end por meio de cópia durante o build, para que o site entregue `/data/concursos.json`, `/data/localidades.json`, `/data/pontos-mapa.json` e `/data/resumo.json`.
+O front-end React está em `frontend/` e é hospedado na Vercel, usando `frontend/` como diretório-raiz do projeto. Os JSONs gerados na raiz são copiados durante o build, para que o site entregue `/data/concursos.json`, `/data/localidades.json`, `/data/municipios.json`, `/data/pontos-mapa.json` e `/data/resumo.json`. O `frontend/vercel.json` configura os dados com `Cache-Control: public, max-age=0, must-revalidate`: em uma recarga, o navegador valida a versão atual sem precisar limpar o cache manualmente.
