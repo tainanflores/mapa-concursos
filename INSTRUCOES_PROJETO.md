@@ -211,7 +211,8 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [x] Tornar o front-end instalável como PWA, com manifesto, service worker e botão de instalação quando suportado; manter `/data/*` fora do cache do service worker.
 - [x] Integrar Capacitor ao React, criar o projeto Android e gerar/instalar o primeiro APK de desenvolvimento.
 - [ ] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
-- [ ] Criar favoritos locais e pesquisas salvas locais como primeira experiência pessoal.
+- [x] Criar favoritos locais persistidos no aparelho, com inclusão pelos detalhes e lista para consultar/remover.
+- [ ] Criar pesquisas salvas locais como primeira experiência pessoal.
 - [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.
 - [ ] Criar política de privacidade e termos adequados para o aplicativo, incluindo localização, notificações, FCM e anúncios futuros.
 

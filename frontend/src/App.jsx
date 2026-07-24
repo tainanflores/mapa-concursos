@@ -30,6 +30,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const CENTRO_DO_BRASIL = [-14.235, -51.9253];
+const CHAVE_FAVORITOS = "mapa-concursos:favoritos:v1";
 
 const ROTULOS_TIPO_SELECAO = {
   concurso_publico: "Concurso público",
@@ -94,6 +95,18 @@ function normalizarTexto(texto) {
     .replace(/[^a-z0-9]+/gi, " ")
     .trim()
     .toLocaleLowerCase("pt-BR");
+}
+
+function lerIdsFavoritos() {
+  try {
+    const ids = JSON.parse(window.localStorage.getItem(CHAVE_FAVORITOS) ?? "[]");
+
+    return Array.isArray(ids)
+      ? [...new Set(ids.filter((id) => typeof id === "string"))]
+      : [];
+  } catch {
+    return [];
+  }
 }
 
 function useConterFoco(referencia, ativo) {
@@ -315,6 +328,8 @@ function DetalhesConcurso({
   calculandoRota,
   erroRota,
   possuiOrigem,
+  favorito,
+  aoAlternarFavorito,
   aoFechar,
   referenciaPainel,
 }) {
@@ -348,6 +363,15 @@ function DetalhesConcurso({
 
         <div className="conteudo-detalhes">
           <p className="orgao">{concurso.orgao}</p>
+
+          <button
+            className="botao-favorito-detalhes"
+            type="button"
+            aria-pressed={favorito}
+            onClick={() => aoAlternarFavorito(concurso.id)}
+          >
+            {favorito ? "★ Remover dos favoritos" : "☆ Adicionar aos favoritos"}
+          </button>
 
         {destino ? (
           <div className="distancia-rota">
@@ -586,6 +610,72 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
   );
 }
 
+function ListaFavoritos({ concursos, aoFechar, aoAbrirDetalhes, aoRemover, referenciaPainel }) {
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        ref={referenciaPainel}
+        aria-labelledby="titulo-favoritos"
+        aria-modal="true"
+        className="painel-sem-localizacao"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button
+            className="botao-fechar-filtros"
+            type="button"
+            aria-label="Fechar favoritos"
+            onClick={aoFechar}
+            autoFocus
+          >
+            ×
+          </button>
+          <p className="sobretitulo">Salvos neste aparelho</p>
+          <h2 id="titulo-favoritos">Meus favoritos</h2>
+          <p>
+            Seus favoritos ficam neste aparelho. A sincronização entre dispositivos
+            será oferecida com uma conta em uma etapa futura.
+          </p>
+        </div>
+
+        {concursos.length > 0 ? (
+          <ul className="lista-favoritos">
+            {concursos.map((concurso) => (
+              <li key={concurso.id}>
+                <div>
+                  <span className={`etiqueta-status status-${concurso.status}`}>
+                    {concurso.status === "aberto" ? "Inscrições abertas" : "Encerrado"}
+                  </span>
+                  <h3>{concurso.orgao}</h3>
+                  <p>{concurso.titulo}</p>
+                  <small>{concurso.inscricaoTexto || "Inscrições não informadas"}</small>
+                </div>
+                <div className="acoes-favorito">
+                  <button type="button" onClick={() => aoAbrirDetalhes(concurso)}>
+                    Ver detalhes
+                  </button>
+                  <button
+                    className="botao-remover-favorito"
+                    type="button"
+                    onClick={() => aoRemover(concurso.id)}
+                  >
+                    Remover
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="estado-vazio-lista">
+            Você ainda não favoritou nenhum concurso. Abra os detalhes de uma oportunidade para salvá-la.
+          </p>
+        )}
+      </section>
+    </div>
+  );
+}
+
 function SobreProjeto({ aoFechar, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
@@ -687,15 +777,19 @@ function App() {
   const [filtrosAbertos, setFiltrosAbertos] = useState(false);
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
+  const [favoritosAbertos, setFavoritosAbertos] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
   const [eventoInstalacao, setEventoInstalacao] = useState(null);
+  const [idsFavoritos, setIdsFavoritos] = useState(lerIdsFavoritos);
   const areaMapaRef = useRef(null);
   const botaoFiltrosRef = useRef(null);
+  const botaoFavoritosRef = useRef(null);
   const ultimoFocoRef = useRef(null);
   const painelFiltrosRef = useRef(null);
   const painelDetalhesRef = useRef(null);
   const painelListaSemLocalizacaoRef = useRef(null);
   const painelListaMaisProximosRef = useRef(null);
+  const painelFavoritosRef = useRef(null);
   const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
@@ -705,6 +799,7 @@ function App() {
   useConterFoco(painelDetalhesRef, detalheSelecionado !== null);
   useConterFoco(painelListaSemLocalizacaoRef, listaSemLocalizacaoAberta);
   useConterFoco(painelListaMaisProximosRef, listaMaisProximosAberta);
+  useConterFoco(painelFavoritosRef, favoritosAbertos);
   useConterFoco(painelSobreRef, sobreAberto);
 
   useEffect(() => {
@@ -760,6 +855,11 @@ function App() {
     restaurarFoco();
   }
 
+  function fecharFavoritos() {
+    setFavoritosAbertos(false);
+    restaurarFoco();
+  }
+
   function fecharSobre() {
     setSobreAberto(false);
     restaurarFoco();
@@ -792,6 +892,10 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharListaMaisProximos();
+      } else if (favoritosAbertos) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharFavoritos();
       } else if (sobreAberto) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -809,6 +913,7 @@ function App() {
   }, [
     detalheSelecionado,
     filtrosAbertos,
+    favoritosAbertos,
     listaMaisProximosAberta,
     listaSemLocalizacaoAberta,
     sobreAberto,
@@ -818,6 +923,14 @@ function App() {
     () => () => clearTimeout(temporizadorNotificacaoRef.current),
     [],
   );
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(CHAVE_FAVORITOS, JSON.stringify(idsFavoritos));
+    } catch {
+      // O mapa continua funcional se o navegador não disponibilizar armazenamento local.
+    }
+  }, [idsFavoritos]);
 
   useEffect(() => {
     function atualizarTelaCheia() {
@@ -860,6 +973,13 @@ function App() {
   const concursosPorId = useMemo(
     () => new Map(concursos.map((concurso) => [concurso.id, concurso])),
     [concursos],
+  );
+
+  const favoritos = useMemo(
+    () => idsFavoritos
+      .map((id) => concursosPorId.get(id))
+      .filter(Boolean),
+    [concursosPorId, idsFavoritos],
   );
 
   const sugestoesDeCidade = useMemo(() => {
@@ -964,6 +1084,14 @@ function App() {
     temporizadorNotificacaoRef.current = setTimeout(() => {
       setNotificacao(null);
     }, 5_000);
+  }
+
+  function alternarFavorito(id) {
+    setIdsFavoritos((idsAtuais) => (
+      idsAtuais.includes(id)
+        ? idsAtuais.filter((idFavorito) => idFavorito !== id)
+        : [...idsAtuais, id]
+    ));
   }
 
   async function instalarAplicativo() {
@@ -1138,6 +1266,16 @@ function App() {
     setListaSemLocalizacaoAberta(false);
   }
 
+  function abrirDetalhesFavorito(concurso) {
+    ultimoFocoRef.current = botaoFavoritosRef.current;
+    solicitacaoRotaRef.current += 1;
+    setDetalheSelecionado({ concurso, destino: concurso.localizacao ?? null });
+    setDistanciaRota(null);
+    setCalculandoRota(false);
+    setErroRota(null);
+    setFavoritosAbertos(false);
+  }
+
   async function alternarTelaCheia() {
     try {
       if (document.fullscreenElement) {
@@ -1177,6 +1315,20 @@ function App() {
               Instalar app
             </button>
           )}
+          <button
+            ref={botaoFavoritosRef}
+            className="botao-favoritos"
+            type="button"
+            aria-label={`Abrir favoritos${favoritos.length ? `: ${favoritos.length} salvos` : ""}`}
+            onClick={(evento) => {
+              ultimoFocoRef.current = evento.currentTarget;
+              setFavoritosAbertos(true);
+            }}
+          >
+            <span aria-hidden="true">★</span>
+            <span className="rotulo-favoritos">Favoritos</span>
+            {favoritos.length > 0 && <b>{favoritos.length}</b>}
+          </button>
           <button
             className="botao-sobre"
             type="button"
@@ -1407,6 +1559,16 @@ function App() {
         />
       )}
 
+      {favoritosAbertos && (
+        <ListaFavoritos
+          concursos={favoritos}
+          aoFechar={fecharFavoritos}
+          aoAbrirDetalhes={abrirDetalhesFavorito}
+          aoRemover={alternarFavorito}
+          referenciaPainel={painelFavoritosRef}
+        />
+      )}
+
       {sobreAberto && (
         <SobreProjeto aoFechar={fecharSobre} referenciaPainel={painelSobreRef} />
       )}
@@ -1564,6 +1726,8 @@ function App() {
             calculandoRota={calculandoRota}
             erroRota={erroRota}
             possuiOrigem={centroMapa !== null}
+            favorito={idsFavoritos.includes(detalheSelecionado?.concurso?.id)}
+            aoAlternarFavorito={alternarFavorito}
             aoFechar={fecharDetalhes}
             referenciaPainel={painelDetalhesRef}
           />

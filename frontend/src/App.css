@@ -131,6 +131,30 @@ a:focus-visible {
   color: #285146;
 }
 
+.botao-favoritos {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.6rem 0.75rem;
+  background: #fff4d8;
+  color: #805400;
+}
+
+.botao-favoritos:hover {
+  background: #f8e7b4;
+}
+
+.botao-favoritos b {
+  display: grid;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  place-items: center;
+  border-radius: 50%;
+  background: #805400;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
 .botao-instalar {
   padding: 0.6rem 0.75rem;
   background: #e2f3ea;
@@ -716,6 +740,16 @@ a:focus-visible {
   text-decoration: none;
 }
 
+.botao-favorito-detalhes {
+  margin-bottom: 0.25rem;
+  background: #fff4d8;
+  color: #805400;
+}
+
+.botao-favorito-detalhes:hover {
+  background: #f8e7b4;
+}
+
 .aviso-sem-localizacao {
   margin: 1rem 0;
   padding: 0.85rem 1rem;
@@ -959,6 +993,68 @@ a:focus-visible {
   flex: 0 0 auto;
 }
 
+.lista-favoritos {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 1.25rem;
+  list-style: none;
+}
+
+.lista-favoritos li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #dbe5df;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.lista-favoritos h3 {
+  margin: 0.55rem 0 0.2rem;
+  color: #14322a;
+}
+
+.lista-favoritos p,
+.lista-favoritos small {
+  color: #52675e;
+}
+
+.etiqueta-status {
+  display: inline-block;
+  padding: 0.25rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.status-aberto {
+  background: #d9eee5;
+  color: #075e45;
+}
+
+.status-encerrado {
+  background: #edf0ee;
+  color: #55645e;
+}
+
+.acoes-favorito {
+  display: grid;
+  flex: 0 0 auto;
+  gap: 0.45rem;
+}
+
+.botao-remover-favorito {
+  background: transparent;
+  color: #a12c2c;
+}
+
+.botao-remover-favorito:hover {
+  background: #fde8e8;
+}
+
 .etiqueta-distancia {
   display: inline-block;
   padding: 0.25rem 0.45rem;
@@ -1111,11 +1207,19 @@ a:focus-visible {
     flex-direction: column;
   }
 
+  .lista-favoritos li {
+    flex-direction: column;
+  }
+
   .lista-concursos-sem-localizacao button {
     width: 100%;
   }
 
   .lista-mais-proximos button {
+    width: 100%;
+  }
+
+  .acoes-favorito {
     width: 100%;
   }
 }
