@@ -219,7 +219,8 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 
 ### 6. Criar recursos pessoais e alertas
 
-- [ ] Criar projeto Supabase e modelar perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios.
+- [x] Modelar a base Supabase e preparar o cliente: perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios, todos protegidos por Row Level Security.
+- [ ] Criar o projeto Supabase e aplicar a migration inicial no painel.
 - [ ] Implementar autenticação e sincronização de favoritos, pesquisas e preferências entre aparelhos.
 - [ ] Integrar Firebase Cloud Messaging no app Android, inicialmente em ambiente de teste.
 - [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
@@ -244,7 +245,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 
 ## Próxima tarefa recomendada
 
-Preparar o front-end como PWA e, em seguida, integrar o Capacitor para gerar um APK de desenvolvimento. Isso permite validar o uso real no Android sem ativar anúncios, assinaturas ou depender de backend.
+Criar o projeto Supabase, aplicar a migration inicial e configurar `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` em `frontend/.env.local`. Em seguida, implementar autenticação e sincronização dos favoritos locais.
 
 ## Automação e hospedagem
 
@@ -255,3 +256,16 @@ O agendamento diário está ativo às 07:17 no horário de Brasília (`17 10 * *
 O front-end React está em `frontend/` e é hospedado na Vercel, usando `frontend/` como diretório-raiz do projeto. Os JSONs gerados na raiz são copiados durante o build, para que o site entregue `/data/concursos.json`, `/data/localidades.json`, `/data/municipios.json`, `/data/pontos-mapa.json` e `/data/resumo.json`. O `frontend/vercel.json` configura os dados com `Cache-Control: public, max-age=0, must-revalidate`: em uma recarga, o navegador valida a versão atual sem precisar limpar o cache manualmente.
 
 Para o APK, a variável de build `VITE_DADOS_BASE_URL` pode apontar para uma pasta pública `data`, como `https://dominio.exemplo/data`. Sem essa variável, ou caso a consulta remota falhe, o aplicativo usa os JSONs copiados para dentro do APK. Os dados públicos recebem `Access-Control-Allow-Origin: *`, necessário para que o WebView do Capacitor consulte uma origem diferente. O arquivo `frontend/.env.example` documenta a configuração; criar `frontend/.env.local` com a URL real quando houver hospedagem de dados.
+
+## Supabase
+
+O esquema inicial está em `supabase/migrations/20260724000000_initial_schema.sql`. Ele não armazena os concursos públicos: guarda apenas dados pessoais, como favoritos, pesquisas, alertas, dispositivos e registro de notificações. Todas as tabelas possuem Row Level Security; a pessoa autenticada só pode acessar registros com o próprio `usuario_id`.
+
+Para configurar o ambiente local, copiar os valores públicos do projeto para `frontend/.env.local`:
+
+```text
+VITE_SUPABASE_URL=https://SEU-PROJETO.supabase.co
+VITE_SUPABASE_ANON_KEY=SUA_CHAVE_ANON_PUBLICA
+```
+
+Nunca incluir a chave `service_role` no front-end, no APK ou em arquivos versionados. Ela será usada futuramente somente em automações seguras, como uma função que envia notificações.
