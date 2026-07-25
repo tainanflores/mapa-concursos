@@ -215,6 +215,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [ ] Criar pesquisas salvas locais como primeira experiência pessoal.
 - [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.
 - [ ] Criar política de privacidade e termos adequados para o aplicativo, incluindo localização, notificações, FCM e anúncios futuros.
+- [x] Preparar fonte de dados configurável: usar `VITE_DADOS_BASE_URL` para JSONs remotos e recorrer aos JSONs incluídos no APK se a URL não estiver definida ou falhar.
 
 ### 6. Criar recursos pessoais e alertas
 
@@ -252,3 +253,5 @@ O scraper permanece na raiz do repositório e é executado pelo workflow `.githu
 O agendamento diário está ativo às 07:17 no horário de Brasília (`17 10 * * *` em UTC). Uma execução sem alteração efetiva não gera deploy na Vercel.
 
 O front-end React está em `frontend/` e é hospedado na Vercel, usando `frontend/` como diretório-raiz do projeto. Os JSONs gerados na raiz são copiados durante o build, para que o site entregue `/data/concursos.json`, `/data/localidades.json`, `/data/municipios.json`, `/data/pontos-mapa.json` e `/data/resumo.json`. O `frontend/vercel.json` configura os dados com `Cache-Control: public, max-age=0, must-revalidate`: em uma recarga, o navegador valida a versão atual sem precisar limpar o cache manualmente.
+
+Para o APK, a variável de build `VITE_DADOS_BASE_URL` pode apontar para uma pasta pública `data`, como `https://dominio.exemplo/data`. Sem essa variável, ou caso a consulta remota falhe, o aplicativo usa os JSONs copiados para dentro do APK. Os dados públicos recebem `Access-Control-Allow-Origin: *`, necessário para que o WebView do Capacitor consulte uma origem diferente. O arquivo `frontend/.env.example` documenta a configuração; criar `frontend/.env.local` com a URL real quando houver hospedagem de dados.

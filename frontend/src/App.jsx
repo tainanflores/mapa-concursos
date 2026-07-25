@@ -35,6 +35,32 @@ const CHAVE_FAVORITOS = "mapa-concursos:favoritos:v1";
 const CHAVE_LEMBRETES_ATIVOS = "mapa-concursos:lembretes-ativos:v1";
 const CHAVE_IDS_LEMBRETES = "mapa-concursos:ids-lembretes:v1";
 const CHAVE_HORA_LEMBRETES = "mapa-concursos:hora-lembretes:v1";
+const ORIGEM_DADOS_REMOTA = import.meta.env.VITE_DADOS_BASE_URL?.replace(/\/+$/, "");
+
+function urlDados(origem, arquivo) {
+  return `${origem}/${arquivo}`;
+}
+
+async function carregarArquivoDados(arquivo) {
+  const origens = ORIGEM_DADOS_REMOTA
+    ? [ORIGEM_DADOS_REMOTA, "/data"]
+    : ["/data"];
+  let ultimoErro;
+
+  for (const origem of origens) {
+    try {
+      const resposta = await fetch(urlDados(origem, arquivo), { cache: "no-cache" });
+
+      if (resposta.ok) return resposta.json();
+
+      ultimoErro = new Error(`Não foi possível carregar ${arquivo}.`);
+    } catch (erroAtual) {
+      ultimoErro = erroAtual;
+    }
+  }
+
+  throw ultimoErro ?? new Error(`Não foi possível carregar ${arquivo}.`);
+}
 
 const ROTULOS_TIPO_SELECAO = {
   concurso_publico: "Concurso público",
@@ -909,20 +935,10 @@ function App() {
   useEffect(() => {
     async function carregarDados() {
       try {
-        const [respostaPontos, respostaMunicipios, respostaConcursos] = await Promise.all([
-          fetch("/data/pontos-mapa.json", { cache: "no-cache" }),
-          fetch("/data/municipios.json", { cache: "no-cache" }),
-          fetch("/data/concursos.json", { cache: "no-cache" }),
-        ]);
-
-        if (!respostaPontos.ok || !respostaMunicipios.ok || !respostaConcursos.ok) {
-          throw new Error("Não foi possível carregar os dados do mapa.");
-        }
-
         const [pontosCarregados, municipiosCarregados, concursosCarregados] = await Promise.all([
-          respostaPontos.json(),
-          respostaMunicipios.json(),
-          respostaConcursos.json(),
+          carregarArquivoDados("pontos-mapa.json"),
+          carregarArquivoDados("municipios.json"),
+          carregarArquivoDados("concursos.json"),
         ]);
 
         setPontos(pontosCarregados);
