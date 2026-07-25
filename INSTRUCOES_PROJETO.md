@@ -222,8 +222,9 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [x] Modelar a base Supabase e preparar o cliente: perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios, todos protegidos por Row Level Security.
 - [x] Criar o projeto Supabase e aplicar a migration inicial no painel.
 - [x] Implementar autenticação por e-mail e sincronização de favoritos entre aparelhos, mantendo a cópia local como contingência.
+- [x] Oferecer confirmação de senha no cadastro e recuperação de senha por e-mail.
 - [ ] Sincronizar pesquisas e preferências entre aparelhos.
-- [ ] Integrar Firebase Cloud Messaging no app Android, inicialmente em ambiente de teste.
+- [x] Integrar Firebase Cloud Messaging no app Android e validar o primeiro envio em ambiente de teste.
 - [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
 - [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
 - [x] Implementar lembretes locais para favoritos: avisos 7, 3 e 1 dia antes do prazo, com horário configurável no APK e sem backend.
@@ -270,3 +271,5 @@ VITE_SUPABASE_ANON_KEY=SUA_CHAVE_ANON_PUBLICA
 ```
 
 Nunca incluir a chave `service_role` no front-end, no APK ou em arquivos versionados. Ela será usada futuramente somente em automações seguras, como uma função que envia notificações.
+
+No Supabase, em **Authentication → URL Configuration**, o `Site URL` e as `Redirect URLs` devem incluir o domínio publicado do site. No Vercel, configurar `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` nos ambientes de Production e Preview antes de publicar recursos de conta.

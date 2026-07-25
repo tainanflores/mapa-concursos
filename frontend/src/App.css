@@ -892,6 +892,19 @@ a:focus-visible {
   gap: 0.9rem;
 }
 
+.campos-conta {
+  display: grid;
+  gap: 0.9rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.campos-conta:disabled {
+  opacity: 0.65;
+}
+
 .formulario-conta label {
   display: grid;
   gap: 0.35rem;
@@ -910,10 +923,75 @@ a:focus-visible {
   font: inherit;
 }
 
+.campo-senha {
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #b9ccc4;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.campo-senha input {
+  min-width: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.botao-mostrar-senha {
+  flex: 0 0 auto;
+  display: grid;
+  width: 2.8rem;
+  place-items: center;
+  padding: 0.45rem;
+  border-radius: 0;
+  background: #edf6f1;
+  color: #075e45;
+}
+
+.botao-mostrar-senha svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.botao-mostrar-senha:hover {
+  background: #d9eee5;
+}
+
+.ajuda-senha {
+  margin-top: -0.45rem;
+  color: #52675e;
+  line-height: 1.4;
+}
+
+.confirmacao-conta {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.confirmacao-conta p {
+  margin: 0;
+  color: #405b50;
+  line-height: 1.5;
+}
+
 .mensagem-conta {
   margin: 0;
   color: #405b50;
   line-height: 1.45;
+}
+
+.botao-link-conta {
+  justify-self: start;
+  padding: 0.2rem 0;
+  background: transparent;
+  color: #076c4f;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.botao-link-conta:hover {
+  background: transparent;
+  color: #054d39;
 }
 
 .lista-regioes-sem-localizacao {

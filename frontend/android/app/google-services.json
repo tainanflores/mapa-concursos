@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721961039818",
+    "project_id": "mapa-de-concursos",
+    "storage_bucket": "mapa-de-concursos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721961039818:android:eee4f4fbeccbb052df0133",
+        "android_client_info": {
+          "package_name": "br.com.teadigital.mapaconcursos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYTgKSeF9LWrOBlTjVXUdpwuRI0vU-baM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

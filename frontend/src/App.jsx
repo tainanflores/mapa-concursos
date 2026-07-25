@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
 import { Geolocation } from "@capacitor/geolocation";
 import { LocalNotifications } from "@capacitor/local-notifications";
+import { PushNotifications } from "@capacitor/push-notifications";
 import { supabase, supabaseConfigurado } from "./supabase.js";
 import L from "leaflet";
 import {
@@ -126,6 +127,13 @@ function normalizarTexto(texto) {
     .replace(/[^a-z0-9]+/gi, " ")
     .trim()
     .toLocaleLowerCase("pt-BR");
+}
+
+function senhaAtendeRequisitos(senha) {
+  return senha.length >= 8
+    && /[a-z]/.test(senha)
+    && /[A-Z]/.test(senha)
+    && /\d/.test(senha);
 }
 
 function lerIdsFavoritos() {
@@ -704,6 +712,7 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
 function ListaFavoritos({
   concursos,
   usuario,
+  estadoPush,
   lembretesAtivos,
   horaLembretes,
   notificacoesDisponiveis,
@@ -712,6 +721,7 @@ function ListaFavoritos({
   aoFechar,
   aoAbrirDetalhes,
   aoAbrirConta,
+  aoAtivarPush,
   aoRemover,
   referenciaPainel,
 }) {
@@ -746,6 +756,23 @@ function ListaFavoritos({
             <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>
               {usuario ? "Gerenciar conta" : "Entrar para sincronizar"}
             </button>
+          )}
+          {notificacoesDisponiveis && usuario && (
+            <button
+              className="botao-conta-favoritos"
+              type="button"
+              disabled={estadoPush === "solicitando"}
+              onClick={aoAtivarPush}
+            >
+              {estadoPush === "ativo"
+                ? "Notificações push ativadas"
+                : estadoPush === "solicitando"
+                  ? "Ativando notificações..."
+                  : "Ativar notificações push"}
+            </button>
+          )}
+          {notificacoesDisponiveis && !usuario && (
+            <p className="aviso-lembretes">Entre em uma conta para ativar notificações push neste aparelho.</p>
           )}
           {notificacoesDisponiveis ? (
             <>
@@ -812,11 +839,33 @@ function ListaFavoritos({
   );
 }
 
-function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, referenciaPainel }) {
+function IconeOlho({ senhaVisivel }) {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" />
+      <circle cx="12" cy="12" r="2.5" />
+      {!senhaVisivel && <path d="M4 4 20 20" />}
+    </svg>
+  );
+}
+
+function ContaUsuario({
+  usuario,
+  redefinindoSenha,
+  aoFechar,
+  aoEntrar,
+  aoCadastrar,
+  aoSolicitarRedefinicao,
+  aoAtualizarSenha,
+  aoSair,
+  referenciaPainel,
+}) {
   const [modoCadastro, setModoCadastro] = useState(false);
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const [confirmacaoSenha, setConfirmacaoSenha] = useState("");
+  const [mostrarSenha, setMostrarSenha] = useState(false);
+  const [aguardandoConfirmacao, setAguardandoConfirmacao] = useState(false);
   const [mensagem, setMensagem] = useState(null);
   const [enviando, setEnviando] = useState(false);
 
@@ -824,17 +873,45 @@ function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, refere
     evento.preventDefault();
     setMensagem(null);
 
-    if (modoCadastro && senha !== confirmacaoSenha) {
+    if ((modoCadastro || redefinindoSenha) && !senhaAtendeRequisitos(senha)) {
+      setMensagem("Use ao menos 8 caracteres, incluindo letra maiúscula, minúscula e número.");
+      return;
+    }
+
+    if ((modoCadastro || redefinindoSenha) && senha !== confirmacaoSenha) {
       setMensagem("As senhas não coincidem.");
       return;
     }
 
     setEnviando(true);
 
-    const resultado = modoCadastro
-      ? await aoCadastrar({ email, senha })
-      : await aoEntrar({ email, senha });
+    const resultado = redefinindoSenha
+      ? await aoAtualizarSenha({ senha })
+      : modoCadastro
+        ? await aoCadastrar({ email, senha })
+        : await aoEntrar({ email, senha });
 
+    setEnviando(false);
+    setMensagem(resultado.mensagem);
+
+    if (resultado.contaCriada) {
+      setSenha("");
+      setConfirmacaoSenha("");
+      setMostrarSenha(false);
+      setModoCadastro(false);
+      setAguardandoConfirmacao(resultado.confirmacaoNecessaria);
+    }
+  }
+
+  async function solicitarRedefinicao() {
+    if (!email) {
+      setMensagem("Digite seu e-mail para receber o link de redefinição.");
+      return;
+    }
+
+    setEnviando(true);
+    setMensagem(null);
+    const resultado = await aoSolicitarRedefinicao({ email });
     setEnviando(false);
     setMensagem(resultado.mensagem);
   }
@@ -852,51 +929,86 @@ function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, refere
         <div className="cabecalho-lista-sem-localizacao">
           <button className="botao-fechar-filtros" type="button" aria-label="Fechar conta" onClick={aoFechar} autoFocus>×</button>
           <p className="sobretitulo">Sincronização</p>
-          <h2 id="titulo-conta">{usuario ? "Sua conta" : "Entre para sincronizar"}</h2>
+          <h2 id="titulo-conta">
+            {redefinindoSenha ? "Defina uma nova senha" : usuario ? "Sua conta" : "Entre para sincronizar"}
+          </h2>
           <p>
-            {usuario
+            {redefinindoSenha
+              ? "Escolha uma nova senha para voltar a acessar sua conta."
+              : usuario
               ? "Seus favoritos serão preservados e poderão ser acessados em outros aparelhos."
               : "Use sua conta para manter favoritos e preferências ao trocar de aparelho."}
           </p>
         </div>
 
         <div className="conteudo-conta">
-          {usuario ? (
+          {aguardandoConfirmacao ? (
+            <div className="confirmacao-conta">
+              <p><strong>Conta criada!</strong></p>
+              <p>Enviamos um link de confirmação para <strong>{email}</strong>. Confirme seu e-mail antes de entrar.</p>
+              <button type="button" onClick={() => setAguardandoConfirmacao(false)}>Ir para o login</button>
+            </div>
+          ) : redefinindoSenha ? (
+            <form className="formulario-conta" onSubmit={enviarFormulario}>
+              <fieldset className="campos-conta" disabled={enviando}>
+                <label>
+                  Nova senha
+                  <span className="campo-senha">
+                    <input type={mostrarSenha ? "text" : "password"} value={senha} onChange={({ target }) => setSenha(target.value)} autoComplete="new-password" minLength="8" required />
+                    <button type="button" className="botao-mostrar-senha" onClick={() => setMostrarSenha((atual) => !atual)} aria-label={mostrarSenha ? "Ocultar senha" : "Mostrar senha"} title={mostrarSenha ? "Ocultar senha" : "Mostrar senha"}><IconeOlho senhaVisivel={mostrarSenha} /></button>
+                  </span>
+                </label>
+                <label>
+                  Confirmar nova senha
+                  <input type={mostrarSenha ? "text" : "password"} value={confirmacaoSenha} onChange={({ target }) => setConfirmacaoSenha(target.value)} autoComplete="new-password" minLength="8" required />
+                </label>
+                <small className="ajuda-senha">Mínimo de 8 caracteres, com maiúscula, minúscula e número.</small>
+                <button type="submit">{enviando ? "Aguarde..." : "Salvar nova senha"}</button>
+              </fieldset>
+            </form>
+          ) : usuario ? (
             <>
               <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
             </>
           ) : (
             <form className="formulario-conta" onSubmit={enviarFormulario}>
-              <label>
-                E-mail
-                <input type="email" value={email} onChange={({ target }) => setEmail(target.value)} autoComplete="email" required />
-              </label>
-              <label>
-                Senha
-                <input type="password" value={senha} onChange={({ target }) => setSenha(target.value)} autoComplete={modoCadastro ? "new-password" : "current-password"} minLength="6" required />
-              </label>
-              {modoCadastro && (
+              <fieldset className="campos-conta" disabled={enviando}>
                 <label>
-                  Confirmar senha
-                  <input
-                    type="password"
-                    value={confirmacaoSenha}
-                    onChange={({ target }) => setConfirmacaoSenha(target.value)}
-                    autoComplete="new-password"
-                    minLength="6"
-                    required
-                  />
+                  E-mail
+                  <input type="email" value={email} onChange={({ target }) => setEmail(target.value)} autoComplete="email" required />
                 </label>
-              )}
-              <button type="submit" disabled={enviando}>{enviando ? "Aguarde..." : modoCadastro ? "Criar conta" : "Entrar"}</button>
-              <button className="botao-secundario" type="button" onClick={() => {
-                setModoCadastro((atual) => !atual);
-                setConfirmacaoSenha("");
-                setMensagem(null);
-              }}>
-                {modoCadastro ? "Já tenho uma conta" : "Criar uma conta"}
-              </button>
+                <label>
+                  Senha
+                  <span className="campo-senha">
+                    <input type={mostrarSenha ? "text" : "password"} value={senha} onChange={({ target }) => setSenha(target.value)} autoComplete={modoCadastro ? "new-password" : "current-password"} minLength={modoCadastro ? "8" : "6"} required />
+                    <button type="button" className="botao-mostrar-senha" onClick={() => setMostrarSenha((atual) => !atual)} aria-label={mostrarSenha ? "Ocultar senha" : "Mostrar senha"} title={mostrarSenha ? "Ocultar senha" : "Mostrar senha"}><IconeOlho senhaVisivel={mostrarSenha} /></button>
+                  </span>
+                </label>
+                {modoCadastro && (
+                  <>
+                    <label>
+                      Confirmar senha
+                      <input type={mostrarSenha ? "text" : "password"} value={confirmacaoSenha} onChange={({ target }) => setConfirmacaoSenha(target.value)} autoComplete="new-password" minLength="8" required />
+                    </label>
+                    <small className="ajuda-senha">Mínimo de 8 caracteres, com maiúscula, minúscula e número.</small>
+                  </>
+                )}
+                <button type="submit">{enviando ? "Aguarde..." : modoCadastro ? "Criar conta" : "Entrar"}</button>
+                {!modoCadastro && (
+                  <button className="botao-link-conta" type="button" onClick={solicitarRedefinicao}>
+                    Esqueci minha senha
+                  </button>
+                )}
+                <button className="botao-secundario" type="button" onClick={() => {
+                  setModoCadastro((atual) => !atual);
+                  setConfirmacaoSenha("");
+                  setMostrarSenha(false);
+                  setMensagem(null);
+                }}>
+                  {modoCadastro ? "Já tenho uma conta" : "Criar uma conta"}
+                </button>
+              </fieldset>
             </form>
           )}
           {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
@@ -1010,8 +1122,11 @@ function App() {
   const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
   const [favoritosAbertos, setFavoritosAbertos] = useState(false);
   const [contaAberta, setContaAberta] = useState(false);
+  const [redefinindoSenha, setRedefinindoSenha] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
   const [usuario, setUsuario] = useState(null);
+  const [tokenPush, setTokenPush] = useState(null);
+  const [estadoPush, setEstadoPush] = useState("inativo");
   const [eventoInstalacao, setEventoInstalacao] = useState(null);
   const [idsFavoritos, setIdsFavoritos] = useState(lerIdsFavoritos);
   const [lembretesAtivos, setLembretesAtivos] = useState(() => lerValorBooleano(CHAVE_LEMBRETES_ATIVOS));
@@ -1168,6 +1283,37 @@ function App() {
   }, [idsFavoritos]);
 
   useEffect(() => {
+    if (!Capacitor.isNativePlatform()) return undefined;
+
+    let ativo = true;
+    let ouvintes = [];
+
+    Promise.all([
+      PushNotifications.addListener("registration", (token) => {
+        if (!ativo) return;
+        setTokenPush(token.value);
+        setEstadoPush("ativo");
+      }),
+      PushNotifications.addListener("registrationError", () => {
+        if (!ativo) return;
+        setEstadoPush("erro");
+        mostrarNotificacao("Não foi possível registrar este aparelho para notificações.");
+      }),
+      PushNotifications.addListener("pushNotificationReceived", (notificacaoRecebida) => {
+        if (!ativo) return;
+        mostrarNotificacao(notificacaoRecebida.title || "Você recebeu uma nova notificação.");
+      }),
+    ]).then((novosOuvintes) => {
+      ouvintes = novosOuvintes;
+    });
+
+    return () => {
+      ativo = false;
+      ouvintes.forEach((ouvinte) => ouvinte.remove());
+    };
+  }, []);
+
+  useEffect(() => {
     if (!supabase) return undefined;
 
     let componenteAtivo = true;
@@ -1176,8 +1322,13 @@ function App() {
       if (componenteAtivo) setUsuario(session?.user ?? null);
     });
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_evento, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((evento, session) => {
       setUsuario(session?.user ?? null);
+
+      if (evento === "PASSWORD_RECOVERY") {
+        setRedefinindoSenha(true);
+        setContaAberta(true);
+      }
     });
 
     return () => {
@@ -1193,6 +1344,15 @@ function App() {
       mostrarNotificacao("Não foi possível sincronizar seus favoritos agora.");
     });
   }, [usuario?.id]);
+
+  useEffect(() => {
+    if (!tokenPush || !usuario?.id || !supabase) return;
+
+    sincronizarDispositivoPush(usuario.id, tokenPush).catch(() => {
+      setEstadoPush("erro");
+      mostrarNotificacao("As notificações foram ativadas, mas este aparelho ainda não foi vinculado à conta.");
+    });
+  }, [tokenPush, usuario?.id]);
 
   useEffect(() => {
     try {
@@ -1443,6 +1603,48 @@ function App() {
     setIdsFavoritos(favoritosUnificados);
   }
 
+  async function sincronizarDispositivoPush(usuarioId, token) {
+    if (!supabase) return;
+
+    const { error } = await supabase
+      .from("dispositivos")
+      .upsert(
+        {
+          usuario_id: usuarioId,
+          token_push: token,
+          plataforma: "android",
+          ativo: true,
+        },
+        { onConflict: "token_push" },
+      );
+
+    if (error) throw error;
+  }
+
+  async function ativarNotificacoesPush() {
+    if (!Capacitor.isNativePlatform()) return;
+
+    try {
+      let permissao = await PushNotifications.checkPermissions();
+
+      if (permissao.receive === "prompt") {
+        permissao = await PushNotifications.requestPermissions();
+      }
+
+      if (permissao.receive !== "granted") {
+        setEstadoPush("negado");
+        mostrarNotificacao("Permita notificações nas configurações do aparelho para receber avisos.");
+        return;
+      }
+
+      setEstadoPush("solicitando");
+      await PushNotifications.register();
+    } catch {
+      setEstadoPush("erro");
+      mostrarNotificacao("Não foi possível ativar notificações neste aparelho.");
+    }
+  }
+
   async function alternarFavorito(id) {
     const jaFavorito = idsFavoritos.includes(id);
 
@@ -1495,7 +1697,35 @@ function App() {
       mensagem: data.session
         ? "Conta criada. Seus favoritos serão sincronizados agora."
         : "Conta criada. Confira seu e-mail para confirmar o cadastro antes de entrar.",
+      contaCriada: true,
+      confirmacaoNecessaria: !data.session,
     };
+  }
+
+  async function solicitarRedefinicaoSenha({ email }) {
+    if (!supabase) return { mensagem: "A recuperação de senha ainda não está configurada." };
+
+    const redirectTo = `${window.location.origin}${window.location.pathname}`;
+    const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo });
+
+    return {
+      mensagem: error
+        ? "Não foi possível enviar o e-mail agora. Tente novamente mais tarde."
+        : "Se existir uma conta com esse e-mail, você receberá um link para redefinir a senha.",
+    };
+  }
+
+  async function atualizarSenha({ senha }) {
+    if (!supabase) return { mensagem: "A recuperação de senha ainda não está configurada." };
+
+    const { error } = await supabase.auth.updateUser({ password: senha });
+
+    if (error) return { mensagem: "Não foi possível atualizar a senha. Solicite um novo link." };
+
+    setRedefinindoSenha(false);
+    window.history.replaceState({}, "", window.location.pathname);
+
+    return { mensagem: "Senha atualizada. Você já pode continuar usando sua conta." };
   }
 
   async function sairDaConta() {
@@ -2016,6 +2246,7 @@ function App() {
         <ListaFavoritos
           concursos={favoritos}
           usuario={usuario}
+          estadoPush={estadoPush}
           lembretesAtivos={lembretesAtivos}
           horaLembretes={horaLembretes}
           notificacoesDisponiveis={Capacitor.isNativePlatform()}
@@ -2028,6 +2259,7 @@ function App() {
             setFavoritosAbertos(false);
             setContaAberta(true);
           }}
+          aoAtivarPush={ativarNotificacoesPush}
           aoRemover={alternarFavorito}
           referenciaPainel={painelFavoritosRef}
         />
@@ -2036,9 +2268,12 @@ function App() {
       {contaAberta && (
         <ContaUsuario
           usuario={usuario}
+          redefinindoSenha={redefinindoSenha}
           aoFechar={fecharConta}
           aoEntrar={entrarConta}
           aoCadastrar={cadastrarConta}
+          aoSolicitarRedefinicao={solicitarRedefinicaoSenha}
+          aoAtualizarSenha={atualizarSenha}
           aoSair={sairDaConta}
           referenciaPainel={painelContaRef}
         />

@@ -6,7 +6,7 @@ const chaveAnonima = import.meta.env.VITE_SUPABASE_ANON_KEY;
 export const supabase = url && chaveAnonima
   ? createClient(url, chaveAnonima, {
     auth: {
-      detectSessionInUrl: false,
+      detectSessionInUrl: true,
       persistSession: true,
     },
   })

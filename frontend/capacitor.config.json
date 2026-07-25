@@ -7,6 +7,9 @@
       "insetsHandling": "css",
       "style": "LIGHT",
       "hidden": false
+    },
+    "PushNotifications": {
+      "presentationOptions": ["sound", "alert"]
     }
   }
 }
