@@ -214,7 +214,8 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [x] Criar favoritos locais persistidos no aparelho, com inclusão pelos detalhes e lista para consultar/remover.
 - [ ] Criar pesquisas salvas locais como primeira experiência pessoal.
 - [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.
-- [ ] Criar política de privacidade e termos adequados para o aplicativo, incluindo localização, notificações, FCM e anúncios futuros.
+- [x] Publicar Política de Privacidade e Termos de Uso acessíveis no site, cobrindo localização, conta, favoritos, notificações, FCM e fontes dos dados.
+- [ ] Definir e-mail oficial de suporte e substituir o canal provisório do GitHub nos documentos antes da publicação na Play Store.
 - [x] Preparar fonte de dados configurável: usar `VITE_DADOS_BASE_URL` para JSONs remotos e recorrer aos JSONs incluídos no APK se a URL não estiver definida ou falhar.
 
 ### 6. Criar recursos pessoais e alertas
@@ -247,7 +248,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 
 ## Próxima tarefa recomendada
 
-Validar em dois aparelhos a criação de conta e a sincronização de favoritos. Em seguida, criar pesquisas/cidades salvas e sincronizar suas preferências entre aparelhos.
+Definir um e-mail oficial de suporte e atualizar os documentos legais antes da Play Store. Em seguida, criar a rotina segura diária que envia alertas push sem expor credenciais administrativas.
 
 ## Automação e hospedagem
 

@@ -1089,7 +1089,7 @@ function SobreProjeto({ aoFechar, referenciaPainel }) {
           </section>
 
           <p className="aviso-legal">
-            Consulte também a <a href="https://www.pciconcursos.com.br/politica-de-privacidade/" target="_blank" rel="noreferrer">política de privacidade do PCI Concursos</a>.
+            Consulte a <a href="/politica-de-privacidade.html" target="_blank" rel="noreferrer">Política de Privacidade</a> e os <a href="/termos-de-uso.html" target="_blank" rel="noreferrer">Termos de Uso</a> do Mapa de Concursos. A fonte das oportunidades também possui sua <a href="https://www.pciconcursos.com.br/politica-de-privacidade/" target="_blank" rel="noreferrer">política de privacidade</a>.
           </p>
         </div>
       </section>
