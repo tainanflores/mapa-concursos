@@ -816,13 +816,20 @@ function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, refere
   const [modoCadastro, setModoCadastro] = useState(false);
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
+  const [confirmacaoSenha, setConfirmacaoSenha] = useState("");
   const [mensagem, setMensagem] = useState(null);
   const [enviando, setEnviando] = useState(false);
 
   async function enviarFormulario(evento) {
     evento.preventDefault();
-    setEnviando(true);
     setMensagem(null);
+
+    if (modoCadastro && senha !== confirmacaoSenha) {
+      setMensagem("As senhas não coincidem.");
+      return;
+    }
+
+    setEnviando(true);
 
     const resultado = modoCadastro
       ? await aoCadastrar({ email, senha })
@@ -869,8 +876,25 @@ function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, refere
                 Senha
                 <input type="password" value={senha} onChange={({ target }) => setSenha(target.value)} autoComplete={modoCadastro ? "new-password" : "current-password"} minLength="6" required />
               </label>
+              {modoCadastro && (
+                <label>
+                  Confirmar senha
+                  <input
+                    type="password"
+                    value={confirmacaoSenha}
+                    onChange={({ target }) => setConfirmacaoSenha(target.value)}
+                    autoComplete="new-password"
+                    minLength="6"
+                    required
+                  />
+                </label>
+              )}
               <button type="submit" disabled={enviando}>{enviando ? "Aguarde..." : modoCadastro ? "Criar conta" : "Entrar"}</button>
-              <button className="botao-secundario" type="button" onClick={() => setModoCadastro((atual) => !atual)}>
+              <button className="botao-secundario" type="button" onClick={() => {
+                setModoCadastro((atual) => !atual);
+                setConfirmacaoSenha("");
+                setMensagem(null);
+              }}>
                 {modoCadastro ? "Já tenho uma conta" : "Criar uma conta"}
               </button>
             </form>
