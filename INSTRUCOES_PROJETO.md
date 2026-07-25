@@ -220,8 +220,9 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 ### 6. Criar recursos pessoais e alertas
 
 - [x] Modelar a base Supabase e preparar o cliente: perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios, todos protegidos por Row Level Security.
-- [ ] Criar o projeto Supabase e aplicar a migration inicial no painel.
-- [ ] Implementar autenticação e sincronização de favoritos, pesquisas e preferências entre aparelhos.
+- [x] Criar o projeto Supabase e aplicar a migration inicial no painel.
+- [x] Implementar autenticação por e-mail e sincronização de favoritos entre aparelhos, mantendo a cópia local como contingência.
+- [ ] Sincronizar pesquisas e preferências entre aparelhos.
 - [ ] Integrar Firebase Cloud Messaging no app Android, inicialmente em ambiente de teste.
 - [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
 - [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
@@ -245,7 +246,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 
 ## Próxima tarefa recomendada
 
-Criar o projeto Supabase, aplicar a migration inicial e configurar `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` em `frontend/.env.local`. Em seguida, implementar autenticação e sincronização dos favoritos locais.
+Validar em dois aparelhos a criação de conta e a sincronização de favoritos. Em seguida, criar pesquisas/cidades salvas e sincronizar suas preferências entre aparelhos.
 
 ## Automação e hospedagem
 

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
 import { Geolocation } from "@capacitor/geolocation";
 import { LocalNotifications } from "@capacitor/local-notifications";
+import { supabase, supabaseConfigurado } from "./supabase.js";
 import L from "leaflet";
 import {
   CircleMarker,
@@ -702,6 +703,7 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
 
 function ListaFavoritos({
   concursos,
+  usuario,
   lembretesAtivos,
   horaLembretes,
   notificacoesDisponiveis,
@@ -709,6 +711,7 @@ function ListaFavoritos({
   aoAlterarHora,
   aoFechar,
   aoAbrirDetalhes,
+  aoAbrirConta,
   aoRemover,
   referenciaPainel,
 }) {
@@ -732,12 +735,18 @@ function ListaFavoritos({
           >
             ×
           </button>
-          <p className="sobretitulo">Salvos neste aparelho</p>
+          <p className="sobretitulo">Seus concursos salvos</p>
           <h2 id="titulo-favoritos">Meus favoritos</h2>
           <p>
-            Seus favoritos ficam neste aparelho. A sincronização entre dispositivos
-            será oferecida com uma conta em uma etapa futura.
+            {usuario
+              ? "Seus favoritos são sincronizados com sua conta."
+              : "Entre em uma conta para sincronizar seus favoritos entre aparelhos."}
           </p>
+          {supabaseConfigurado && (
+            <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>
+              {usuario ? "Gerenciar conta" : "Entrar para sincronizar"}
+            </button>
+          )}
           {notificacoesDisponiveis ? (
             <>
               <label className="opcao-lembretes">
@@ -803,6 +812,76 @@ function ListaFavoritos({
   );
 }
 
+function ContaUsuario({ usuario, aoFechar, aoEntrar, aoCadastrar, aoSair, referenciaPainel }) {
+  const [modoCadastro, setModoCadastro] = useState(false);
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
+  const [mensagem, setMensagem] = useState(null);
+  const [enviando, setEnviando] = useState(false);
+
+  async function enviarFormulario(evento) {
+    evento.preventDefault();
+    setEnviando(true);
+    setMensagem(null);
+
+    const resultado = modoCadastro
+      ? await aoCadastrar({ email, senha })
+      : await aoEntrar({ email, senha });
+
+    setEnviando(false);
+    setMensagem(resultado.mensagem);
+  }
+
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        ref={referenciaPainel}
+        aria-labelledby="titulo-conta"
+        aria-modal="true"
+        className="painel-sem-localizacao painel-conta"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar conta" onClick={aoFechar} autoFocus>×</button>
+          <p className="sobretitulo">Sincronização</p>
+          <h2 id="titulo-conta">{usuario ? "Sua conta" : "Entre para sincronizar"}</h2>
+          <p>
+            {usuario
+              ? "Seus favoritos serão preservados e poderão ser acessados em outros aparelhos."
+              : "Use sua conta para manter favoritos e preferências ao trocar de aparelho."}
+          </p>
+        </div>
+
+        <div className="conteudo-conta">
+          {usuario ? (
+            <>
+              <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
+              <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
+            </>
+          ) : (
+            <form className="formulario-conta" onSubmit={enviarFormulario}>
+              <label>
+                E-mail
+                <input type="email" value={email} onChange={({ target }) => setEmail(target.value)} autoComplete="email" required />
+              </label>
+              <label>
+                Senha
+                <input type="password" value={senha} onChange={({ target }) => setSenha(target.value)} autoComplete={modoCadastro ? "new-password" : "current-password"} minLength="6" required />
+              </label>
+              <button type="submit" disabled={enviando}>{enviando ? "Aguarde..." : modoCadastro ? "Criar conta" : "Entrar"}</button>
+              <button className="botao-secundario" type="button" onClick={() => setModoCadastro((atual) => !atual)}>
+                {modoCadastro ? "Já tenho uma conta" : "Criar uma conta"}
+              </button>
+            </form>
+          )}
+          {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function SobreProjeto({ aoFechar, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
@@ -853,8 +932,8 @@ function SobreProjeto({ aoFechar, referenciaPainel }) {
             <p>
               Sua localização só é solicitada quando você toca no botão de localização.
               Ela é usada no navegador para centralizar o mapa, filtrar por raio e
-              calcular distâncias; o projeto não possui cadastro nem banco de dados de
-              usuários.
+              calcular distâncias. Se você optar por criar uma conta, armazenamos o
+              e-mail e os favoritos para sincronizá-los entre aparelhos.
             </p>
             <p>
               Quando você pede a distância por rota, as coordenadas de origem e destino
@@ -906,7 +985,9 @@ function App() {
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
   const [favoritosAbertos, setFavoritosAbertos] = useState(false);
+  const [contaAberta, setContaAberta] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
+  const [usuario, setUsuario] = useState(null);
   const [eventoInstalacao, setEventoInstalacao] = useState(null);
   const [idsFavoritos, setIdsFavoritos] = useState(lerIdsFavoritos);
   const [lembretesAtivos, setLembretesAtivos] = useState(() => lerValorBooleano(CHAVE_LEMBRETES_ATIVOS));
@@ -920,6 +1001,8 @@ function App() {
   const painelListaSemLocalizacaoRef = useRef(null);
   const painelListaMaisProximosRef = useRef(null);
   const painelFavoritosRef = useRef(null);
+  const painelContaRef = useRef(null);
+  const idsFavoritosRef = useRef(idsFavoritos);
   const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
@@ -930,6 +1013,7 @@ function App() {
   useConterFoco(painelListaSemLocalizacaoRef, listaSemLocalizacaoAberta);
   useConterFoco(painelListaMaisProximosRef, listaMaisProximosAberta);
   useConterFoco(painelFavoritosRef, favoritosAbertos);
+  useConterFoco(painelContaRef, contaAberta);
   useConterFoco(painelSobreRef, sobreAberto);
 
   useEffect(() => {
@@ -981,6 +1065,11 @@ function App() {
     restaurarFoco();
   }
 
+  function fecharConta() {
+    setContaAberta(false);
+    restaurarFoco();
+  }
+
   function fecharSobre() {
     setSobreAberto(false);
     restaurarFoco();
@@ -1017,6 +1106,10 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharFavoritos();
+      } else if (contaAberta) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharConta();
       } else if (sobreAberto) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -1033,6 +1126,7 @@ function App() {
     return () => document.removeEventListener("keydown", tratarTecla);
   }, [
     detalheSelecionado,
+    contaAberta,
     filtrosAbertos,
     favoritosAbertos,
     listaMaisProximosAberta,
@@ -1044,6 +1138,37 @@ function App() {
     () => () => clearTimeout(temporizadorNotificacaoRef.current),
     [],
   );
+
+  useEffect(() => {
+    idsFavoritosRef.current = idsFavoritos;
+  }, [idsFavoritos]);
+
+  useEffect(() => {
+    if (!supabase) return undefined;
+
+    let componenteAtivo = true;
+
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (componenteAtivo) setUsuario(session?.user ?? null);
+    });
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_evento, session) => {
+      setUsuario(session?.user ?? null);
+    });
+
+    return () => {
+      componenteAtivo = false;
+      subscription.unsubscribe();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!usuario?.id || !supabase) return;
+
+    sincronizarFavoritosComConta(usuario.id).catch(() => {
+      mostrarNotificacao("Não foi possível sincronizar seus favoritos agora.");
+    });
+  }, [usuario?.id]);
 
   useEffect(() => {
     try {
@@ -1265,12 +1390,103 @@ function App() {
     }, 5_000);
   }
 
-  function alternarFavorito(id) {
+  async function sincronizarFavoritosComConta(usuarioId) {
+    if (!supabase) return;
+
+    const favoritosLocais = idsFavoritosRef.current;
+    const { data, error } = await supabase
+      .from("favoritos")
+      .select("concurso_id")
+      .eq("usuario_id", usuarioId);
+
+    if (error) throw error;
+
+    const favoritosRemotos = (data ?? []).map(({ concurso_id: concursoId }) => concursoId);
+    const favoritosUnificados = [...new Set([...favoritosLocais, ...favoritosRemotos])];
+    const paraEnviar = favoritosLocais.filter((id) => !favoritosRemotos.includes(id));
+
+    if (paraEnviar.length > 0) {
+      const { error: erroSalvar } = await supabase
+        .from("favoritos")
+        .upsert(
+          paraEnviar.map((concursoId) => ({ usuario_id: usuarioId, concurso_id: concursoId })),
+          { onConflict: "usuario_id,concurso_id" },
+        );
+
+      if (erroSalvar) throw erroSalvar;
+    }
+
+    setIdsFavoritos(favoritosUnificados);
+  }
+
+  async function alternarFavorito(id) {
+    const jaFavorito = idsFavoritos.includes(id);
+
     setIdsFavoritos((idsAtuais) => (
       idsAtuais.includes(id)
         ? idsAtuais.filter((idFavorito) => idFavorito !== id)
         : [...idsAtuais, id]
     ));
+
+    if (!usuario || !supabase) return;
+
+    try {
+      const { error } = jaFavorito
+        ? await supabase
+          .from("favoritos")
+          .delete()
+          .eq("usuario_id", usuario.id)
+          .eq("concurso_id", id)
+        : await supabase
+          .from("favoritos")
+          .upsert(
+            { usuario_id: usuario.id, concurso_id: id },
+            { onConflict: "usuario_id,concurso_id" },
+          );
+
+      if (error) throw error;
+    } catch {
+      mostrarNotificacao("Favorito salvo neste aparelho. A sincronização será tentada novamente depois.");
+    }
+  }
+
+  async function entrarConta({ email, senha }) {
+    if (!supabase) return { mensagem: "A sincronização de conta ainda não está configurada." };
+
+    const { error } = await supabase.auth.signInWithPassword({ email, password: senha });
+
+    return {
+      mensagem: error ? "Não foi possível entrar. Confira o e-mail e a senha." : "Login realizado. Seus favoritos serão sincronizados.",
+    };
+  }
+
+  async function cadastrarConta({ email, senha }) {
+    if (!supabase) return { mensagem: "A sincronização de conta ainda não está configurada." };
+
+    const { data, error } = await supabase.auth.signUp({ email, password: senha });
+
+    if (error) return { mensagem: error.message };
+
+    return {
+      mensagem: data.session
+        ? "Conta criada. Seus favoritos serão sincronizados agora."
+        : "Conta criada. Confira seu e-mail para confirmar o cadastro antes de entrar.",
+    };
+  }
+
+  async function sairDaConta() {
+    if (!supabase) return;
+
+    const { error } = await supabase.auth.signOut();
+
+    if (error) {
+      mostrarNotificacao("Não foi possível sair da conta agora.");
+      return;
+    }
+
+    setUsuario(null);
+    fecharConta();
+    mostrarNotificacao("Você saiu da conta. Seus favoritos continuam salvos neste aparelho.");
   }
 
   async function alterarLembretes(ativo) {
@@ -1775,6 +1991,7 @@ function App() {
       {favoritosAbertos && (
         <ListaFavoritos
           concursos={favoritos}
+          usuario={usuario}
           lembretesAtivos={lembretesAtivos}
           horaLembretes={horaLembretes}
           notificacoesDisponiveis={Capacitor.isNativePlatform()}
@@ -1782,8 +1999,24 @@ function App() {
           aoAlterarHora={alterarHoraLembretes}
           aoFechar={fecharFavoritos}
           aoAbrirDetalhes={abrirDetalhesFavorito}
+          aoAbrirConta={() => {
+            ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
+            setFavoritosAbertos(false);
+            setContaAberta(true);
+          }}
           aoRemover={alternarFavorito}
           referenciaPainel={painelFavoritosRef}
+        />
+      )}
+
+      {contaAberta && (
+        <ContaUsuario
+          usuario={usuario}
+          aoFechar={fecharConta}
+          aoEntrar={entrarConta}
+          aoCadastrar={cadastrarConta}
+          aoSair={sairDaConta}
+          referenciaPainel={painelContaRef}
         />
       )}
 

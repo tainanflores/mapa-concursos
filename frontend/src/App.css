@@ -862,6 +862,60 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
+.botao-conta-favoritos {
+  margin-top: 0.9rem;
+  background: #edf6f1;
+  color: #075e45;
+}
+
+.botao-conta-favoritos:hover {
+  background: #d9eee5;
+}
+
+.conteudo-conta {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
+}
+
+.email-conta {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border-radius: 9px;
+  background: #edf6f1;
+  color: #1b513e;
+  overflow-wrap: anywhere;
+}
+
+.formulario-conta {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.formulario-conta label {
+  display: grid;
+  gap: 0.35rem;
+  color: #315d4f;
+  font-weight: 750;
+}
+
+.formulario-conta input {
+  width: 100%;
+  min-height: 2.7rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #b9ccc4;
+  border-radius: 8px;
+  background: #fff;
+  color: #18372e;
+  font: inherit;
+}
+
+.mensagem-conta {
+  margin: 0;
+  color: #405b50;
+  line-height: 1.45;
+}
+
 .lista-regioes-sem-localizacao {
   display: grid;
   gap: 0.8rem;
