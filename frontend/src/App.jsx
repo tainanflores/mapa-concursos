@@ -40,6 +40,23 @@ const CHAVE_HORA_LEMBRETES = "mapa-concursos:hora-lembretes:v1";
 const CHAVE_PUSH_DESATIVADO = "mapa-concursos:push-desativado:v1";
 const ORIGEM_DADOS_REMOTA = import.meta.env.VITE_DADOS_BASE_URL?.replace(/\/+$/, "");
 
+const PLANOS = {
+  gratuito: {
+    nome: "Gratuito",
+    descricao: "1 alerta para uma cidade específica",
+  },
+  plus: {
+    nome: "Mapa de Concursos Plus",
+    descricao: "Até 10 alertas, sem anúncios e lembretes de prazo",
+  },
+};
+
+function resolverPlano(perfil) {
+  const plusValido = perfil?.plano === "plus"
+    && (!perfil.plano_expira_em || new Date(perfil.plano_expira_em) > new Date());
+  return plusValido ? { codigo: "plus", ...PLANOS.plus } : { codigo: "gratuito", ...PLANOS.gratuito };
+}
+
 function urlDados(origem, arquivo) {
   return `${origem}/${arquivo}`;
 }
@@ -891,6 +908,7 @@ function IconeOlho({ senhaVisivel }) {
 
 function ContaUsuario({
   usuario,
+  plano,
   redefinindoSenha,
   aoFechar,
   aoEntrar,
@@ -1039,6 +1057,11 @@ function ContaUsuario({
               </form>
             ) : <>
               <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
+              <div className={`resumo-plano resumo-plano-${plano.codigo}`}>
+                <span>Plano atual</span>
+                <strong>{plano.nome}</strong>
+                <small>{plano.descricao}</small>
+              </div>
               <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
               <button type="button" className="botao-secundario" onClick={aoAbrirPlus}>Conhecer o Mapa de Concursos Plus</button>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
@@ -1175,15 +1198,15 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
   );
 }
 
-function PainelPlus({ aoFechar, referenciaPainel }) {
+function PainelPlus({ plano, aoFechar, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section ref={referenciaPainel} aria-labelledby="titulo-plus" aria-modal="true" className="painel-sem-localizacao painel-plus" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
         <div className="cabecalho-lista-sem-localizacao">
           <button className="botao-fechar-filtros" type="button" aria-label="Fechar informações do Plus" onClick={aoFechar} autoFocus>×</button>
           <p className="sobretitulo">Mapa de Concursos Plus</p>
-          <h2 id="titulo-plus">Acompanhe mais oportunidades</h2>
-          <p>O Plus foi planejado para quem acompanha concursos em mais de uma área e prefere usar o aplicativo sem anúncios.</p>
+          <h2 id="titulo-plus">{plano.codigo === "plus" ? "Seu Plus está ativo" : "Acompanhe mais oportunidades"}</h2>
+          <p>{plano.codigo === "plus" ? "Você tem acesso aos recursos ampliados do Mapa de Concursos Plus." : "O Plus foi planejado para quem acompanha concursos em mais de uma área e prefere usar o aplicativo sem anúncios."}</p>
         </div>
         <div className="conteudo-conta conteudo-plus">
           <section className="cartao-preco-plus" aria-label="Preço planejado do Plus">
@@ -1195,7 +1218,7 @@ function PainelPlus({ aoFechar, referenciaPainel }) {
             <div><h3>Gratuito</h3><ul><li>Mapa, filtros e detalhes</li><li>Favoritos sincronizados</li><li>1 alerta para cidade específica</li><li>Publicidade discreta</li></ul></div>
             <div className="destaque-plus"><h3>Plus</h3><ul><li>Sem anúncios</li><li>Até 10 alertas</li><li>Alertas por UF, raio e Brasil</li><li>Lembretes de prazo</li></ul></div>
           </section>
-          <p className="aviso-alertas-plus">As assinaturas ainda não estão disponíveis. Durante os testes, os tipos de alerta planejados para Plus permanecem liberados.</p>
+          <p className="aviso-alertas-plus">{plano.codigo === "plus" ? "Seu plano Plus está ativo neste aparelho." : "As assinaturas ainda não estão disponíveis. Durante os testes, os tipos de alerta planejados para Plus permanecem liberados."}</p>
         </div>
       </section>
     </div>
@@ -1315,6 +1338,7 @@ function App() {
   const [plusAberto, setPlusAberto] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
   const [usuario, setUsuario] = useState(null);
+  const [planoConta, setPlanoConta] = useState(() => resolverPlano());
   const [tokenPush, setTokenPush] = useState(null);
   const [estadoPush, setEstadoPush] = useState("inativo");
   const [pushDesativado, setPushDesativado] = useState(lerPushDesativado);
@@ -1643,6 +1667,28 @@ function App() {
     supabase.from("alertas").select("id, nome, criterios, ativo").eq("usuario_id", usuario.id).order("criado_em", { ascending: false }).then(({ data, error }) => {
       if (!error) setAlertas(data ?? []);
     });
+  }, [usuario?.id]);
+
+  useEffect(() => {
+    if (!usuario?.id || !supabase) {
+      setPlanoConta(resolverPlano());
+      return;
+    }
+
+    let ativo = true;
+
+    supabase
+      .from("perfis")
+      .select("plano, plano_expira_em")
+      .eq("id", usuario.id)
+      .maybeSingle()
+      .then(({ data, error }) => {
+        if (ativo && !error) setPlanoConta(resolverPlano(data));
+      });
+
+    return () => {
+      ativo = false;
+    };
   }, [usuario?.id]);
 
   useEffect(() => {
@@ -2737,6 +2783,7 @@ function App() {
       {contaAberta && (
         <ContaUsuario
           usuario={usuario}
+          plano={planoConta}
           redefinindoSenha={redefinindoSenha}
           aoFechar={fecharConta}
           aoEntrar={entrarConta}
@@ -2764,7 +2811,7 @@ function App() {
       )}
 
       {plusAberto && (
-        <PainelPlus aoFechar={fecharPlus} referenciaPainel={painelPlusRef} />
+        <PainelPlus plano={planoConta} aoFechar={fecharPlus} referenciaPainel={painelPlusRef} />
       )}
 
       {sobreAberto && (

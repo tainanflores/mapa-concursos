@@ -903,6 +903,37 @@ a:focus-visible {
   overflow-wrap: anywhere;
 }
 
+.resumo-plano {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #dbe5df;
+  border-radius: 9px;
+  background: #f4f8f5;
+  color: #315d4f;
+}
+
+.resumo-plano span {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resumo-plano strong {
+  color: #14322a;
+}
+
+.resumo-plano small {
+  color: #52675e;
+  line-height: 1.4;
+}
+
+.resumo-plano-plus {
+  border-color: #0b8964;
+  background: #edf8f2;
+}
+
 .formulario-conta {
   display: grid;
   gap: 0.9rem;
