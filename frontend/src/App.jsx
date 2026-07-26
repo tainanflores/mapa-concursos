@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
+import { App as CapacitorApp } from "@capacitor/app";
 import { Geolocation } from "@capacitor/geolocation";
 import { LocalNotifications } from "@capacitor/local-notifications";
 import { PushNotifications } from "@capacitor/push-notifications";
@@ -278,6 +279,30 @@ function useConterFoco(referencia, ativo) {
   }, [ativo, referencia]);
 }
 
+function CamadaComTransicao({ aberta, children }) {
+  const [montada, setMontada] = useState(aberta);
+  const [fechando, setFechando] = useState(false);
+  const conteudoRef = useRef(children);
+
+  if (aberta) conteudoRef.current = children;
+
+  useEffect(() => {
+    let temporizador;
+
+    if (aberta) {
+      setMontada(true);
+      requestAnimationFrame(() => setFechando(false));
+    } else if (montada) {
+      setFechando(true);
+      temporizador = window.setTimeout(() => setMontada(false), 180);
+    }
+
+    return () => window.clearTimeout(temporizador);
+  }, [aberta, montada]);
+
+  return montada ? conteudoRef.current(fechando) : null;
+}
+
 function formatarData(data) {
   if (!data) return "Não informada";
 
@@ -469,12 +494,40 @@ function Icone({ nome }) {
     pausa: <><path d="M8 5v14M16 5v14" /></>,
     ativar: <path d="m8 5 11 7-11 7V5Z" />,
     excluir: <><path d="M4 7h16M10 11v5M14 11v5M6 7l1 13h10l1-13M9 7V4h6v3" /></>,
+    voltar: <><path d="M19 12H5" /><path d="m11 6-6 6 6 6" /></>,
   };
 
   return (
     <svg className={`icone-ui icone-ui-${nome}`} aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       {desenhos[nome] ?? desenhos.seta}
     </svg>
+  );
+}
+
+function AcoesCabecalhoPainel({ aoVoltar, aoFechar, rotuloFechar }) {
+  return (
+    <div className="acoes-cabecalho-painel">
+      {aoVoltar && (
+        <button
+          className="botao-voltar-painel"
+          type="button"
+          aria-label="Voltar"
+          onClick={aoVoltar}
+          autoFocus
+        >
+          <Icone nome="voltar" />
+        </button>
+      )}
+      <button
+        className="botao-fechar-filtros"
+        type="button"
+        aria-label={rotuloFechar}
+        onClick={aoFechar}
+        autoFocus={!aoVoltar}
+      >
+        <Icone nome="fechar" />
+      </button>
+    </div>
   );
 }
 
@@ -488,6 +541,8 @@ function DetalhesConcurso({
   favorito,
   aoAlternarFavorito,
   aoFechar,
+  aoVoltar,
+  fechando,
   referenciaPainel,
 }) {
   if (!concurso) return null;
@@ -495,7 +550,7 @@ function DetalhesConcurso({
   const localidades = concurso.localidades ?? [];
 
   return (
-    <div className="sobreposicao-detalhes" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-detalhes${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-detalhes"
@@ -505,15 +560,10 @@ function DetalhesConcurso({
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-detalhes">
-          <button
-            className="fechar-detalhes"
-            type="button"
-            aria-label="Fechar detalhes"
-            onClick={aoFechar}
-            autoFocus
-          >
-            <Icone nome="fechar" />
-          </button>
+          <div className="acoes-cabecalho-painel">
+            {aoVoltar && <button className="botao-voltar-painel" type="button" aria-label="Voltar" onClick={aoVoltar} autoFocus><Icone nome="voltar" /></button>}
+            <button className="fechar-detalhes" type="button" aria-label="Fechar detalhes" onClick={aoFechar} autoFocus={!aoVoltar}><Icone nome="fechar" /></button>
+          </div>
           <p className="sobretitulo">Detalhes do concurso</p>
           <h2 id="titulo-detalhes">{concurso.titulo}</h2>
         </div>
@@ -633,11 +683,11 @@ function DetalhesConcurso({
   );
 }
 
-function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
+function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, fechando, referenciaPainel }) {
   const regioes = agruparConcursosPorRegiaoEEstado(concursos);
 
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-sem-localizacao"
@@ -647,15 +697,7 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaP
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button
-            className="botao-fechar-filtros"
-            type="button"
-            aria-label="Fechar lista"
-            onClick={aoFechar}
-            autoFocus
-          >
-            <Icone nome="fechar" />
-          </button>
+          <AcoesCabecalhoPainel aoFechar={aoFechar} rotuloFechar="Fechar lista" />
           <p className="sobretitulo">Resultados fora do mapa</p>
           <h2 id="titulo-sem-localizacao">Concursos sem localização precisa</h2>
           <p>
@@ -715,9 +757,9 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaP
   );
 }
 
-function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
+function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, fechando, referenciaPainel }) {
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-mais-proximos"
@@ -727,15 +769,7 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button
-            className="botao-fechar-filtros"
-            type="button"
-            aria-label="Fechar lista"
-            onClick={aoFechar}
-            autoFocus
-          >
-            <Icone nome="fechar" />
-          </button>
+          <AcoesCabecalhoPainel aoFechar={aoFechar} rotuloFechar="Fechar lista" />
           <p className="sobretitulo">A partir da origem selecionada</p>
           <h2 id="titulo-mais-proximos">Concursos mais próximos</h2>
           <p>
@@ -768,9 +802,9 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
   );
 }
 
-function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
+function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, fechando, referenciaPainel }) {
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-novidades-notificacao"
@@ -780,7 +814,7 @@ function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, refer
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar novidades" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
+          <AcoesCabecalhoPainel aoFechar={aoFechar} rotuloFechar="Fechar novidades" />
           <p className="sobretitulo">Notificação recebida</p>
           <h2 id="titulo-novidades-notificacao">Novos concursos</h2>
           <p>Estas são as oportunidades encontradas para o alerta que você selecionou.</p>
@@ -823,10 +857,11 @@ function ListaFavoritos({
   aoAtivarPush,
   aoDesativarPush,
   aoRemover,
+  fechando,
   referenciaPainel,
 }) {
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-favoritos"
@@ -836,15 +871,7 @@ function ListaFavoritos({
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button
-            className="botao-fechar-filtros"
-            type="button"
-            aria-label="Fechar favoritos"
-            onClick={aoFechar}
-            autoFocus
-          >
-            <Icone nome="fechar" />
-          </button>
+          <AcoesCabecalhoPainel aoFechar={aoFechar} rotuloFechar="Fechar favoritos" />
           <p className="sobretitulo">Seus concursos salvos</p>
           <h2 id="titulo-favoritos">Meus favoritos</h2>
           <p>
@@ -944,6 +971,7 @@ function ContaUsuario({
   plano,
   redefinindoSenha,
   aoFechar,
+  aoVoltar,
   aoEntrar,
   aoCadastrar,
   aoSolicitarRedefinicao,
@@ -952,6 +980,7 @@ function ContaUsuario({
   aoAbrirPlus,
   aoExcluirConta,
   aoSair,
+  fechando,
   referenciaPainel,
 }) {
   const [modoCadastro, setModoCadastro] = useState(false);
@@ -1026,7 +1055,7 @@ function ContaUsuario({
   }
 
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-conta"
@@ -1036,7 +1065,7 @@ function ContaUsuario({
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar conta" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
+          <AcoesCabecalhoPainel aoVoltar={aoVoltar} aoFechar={aoFechar} rotuloFechar="Fechar conta" />
           <p className="sobretitulo">Sincronização</p>
           <h2 id="titulo-conta">
             {redefinindoSenha ? "Defina uma nova senha" : usuario ? "Sua conta" : "Entre para sincronizar"}
@@ -1151,7 +1180,7 @@ function ContaUsuario({
   );
 }
 
-function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, aoFechar, referenciaPainel }) {
+function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, aoFechar, aoVoltar, fechando, referenciaPainel }) {
   const [tipo, setTipo] = useState("cidade");
   const [textoCidade, setTextoCidade] = useState("");
   const [uf, setUf] = useState("");
@@ -1194,10 +1223,10 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
   }
 
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section ref={referenciaPainel} aria-labelledby="titulo-alertas" aria-modal="true" className="painel-sem-localizacao painel-alertas" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar alertas" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
+          <AcoesCabecalhoPainel aoVoltar={aoVoltar} aoFechar={aoFechar} rotuloFechar="Fechar alertas" />
           <p className="sobretitulo">Notificações de novidades</p>
           <h2 id="titulo-alertas">Meus alertas</h2>
           <p>Receba avisos quando a atualização diária encontrar novos concursos abertos na área escolhida.</p>
@@ -1235,12 +1264,12 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
   );
 }
 
-function PainelPlus({ plano, aoFechar, referenciaPainel }) {
+function PainelPlus({ plano, aoFechar, aoVoltar, fechando, referenciaPainel }) {
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section ref={referenciaPainel} aria-labelledby="titulo-plus" aria-modal="true" className="painel-sem-localizacao painel-plus" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar informações do Plus" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
+          <AcoesCabecalhoPainel aoVoltar={aoVoltar} aoFechar={aoFechar} rotuloFechar="Fechar informações do Plus" />
           <p className="sobretitulo">Mapa de Concursos Plus</p>
           <h2 id="titulo-plus">{plano.codigo === "plus" ? "Seu Plus está ativo" : "Acompanhe mais oportunidades"}</h2>
           <p>{plano.codigo === "plus" ? "Você tem acesso aos recursos ampliados do Mapa de Concursos Plus." : "O Plus foi planejado para quem acompanha concursos em mais de uma área e prefere usar o aplicativo sem anúncios."}</p>
@@ -1262,9 +1291,9 @@ function PainelPlus({ plano, aoFechar, referenciaPainel }) {
   );
 }
 
-function SobreProjeto({ aoFechar, referenciaPainel }) {
+function SobreProjeto({ aoFechar, fechando, referenciaPainel }) {
   return (
-    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+    <div className={`sobreposicao-lista${fechando ? " esta-fechando" : ""}`} role="presentation" onMouseDown={aoFechar}>
       <section
         ref={referenciaPainel}
         aria-labelledby="titulo-sobre"
@@ -1274,15 +1303,7 @@ function SobreProjeto({ aoFechar, referenciaPainel }) {
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button
-            className="botao-fechar-filtros"
-            type="button"
-            aria-label="Fechar informações do projeto"
-            onClick={aoFechar}
-            autoFocus
-          >
-            <Icone nome="fechar" />
-          </button>
+          <AcoesCabecalhoPainel aoFechar={aoFechar} rotuloFechar="Fechar informações do projeto" />
           <p className="sobretitulo">Transparência</p>
           <h2 id="titulo-sobre">Sobre, dados e privacidade</h2>
           <p>Como o Mapa de Concursos reúne, apresenta e utiliza informações.</p>
@@ -1374,6 +1395,10 @@ function App() {
   const [alertas, setAlertas] = useState([]);
   const [plusAberto, setPlusAberto] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
+  const [origemDetalhes, setOrigemDetalhes] = useState(null);
+  const [origemConta, setOrigemConta] = useState(null);
+  const [origemAlertas, setOrigemAlertas] = useState(null);
+  const [origemPlus, setOrigemPlus] = useState(null);
   const [usuario, setUsuario] = useState(null);
   const [planoConta, setPlanoConta] = useState(() => resolverPlano());
   const [tokenPush, setTokenPush] = useState(null);
@@ -1435,65 +1460,114 @@ function App() {
     carregarDados();
   }, []);
 
-  function restaurarFoco() {
+  const restaurarFoco = useCallback(() => {
     const alvo = ultimoFocoRef.current?.isConnected
       ? ultimoFocoRef.current
       : botaoFiltrosRef.current;
 
     requestAnimationFrame(() => alvo?.focus());
-  }
+  }, []);
 
-  function fecharFiltros() {
+  const fecharFiltros = useCallback(() => {
     setFiltrosAbertos(false);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharListaSemLocalizacao() {
+  const fecharListaSemLocalizacao = useCallback(() => {
     setListaSemLocalizacaoAberta(false);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharListaMaisProximos() {
+  const fecharListaMaisProximos = useCallback(() => {
     setListaMaisProximosAberta(false);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharListaNovidades() {
+  const fecharListaNovidades = useCallback(() => {
     setListaNovidadesAberta(false);
     setNovidadesNotificacao([]);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharFavoritos() {
+  const fecharFavoritos = useCallback(() => {
     setFavoritosAbertos(false);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharConta() {
+  const fecharConta = useCallback(() => {
     setContaAberta(false);
+    setOrigemConta(null);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharAlertas() {
+  const fecharAlertas = useCallback(() => {
     setAlertasAbertos(false);
+    setOrigemAlertas(null);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharPlus() {
+  const fecharPlus = useCallback(() => {
     setPlusAberto(false);
+    setOrigemPlus(null);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharSobre() {
+  const fecharSobre = useCallback(() => {
     setSobreAberto(false);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
 
-  function fecharDetalhes() {
+  const fecharDetalhes = useCallback(() => {
     solicitacaoRotaRef.current += 1;
     setDetalheSelecionado(null);
+    setOrigemDetalhes(null);
     restaurarFoco();
-  }
+  }, [restaurarFoco]);
+
+  const reabrirTelaDeOrigem = useCallback((origem) => {
+    if (origem === "favoritos") setFavoritosAbertos(true);
+    if (origem === "conta") setContaAberta(true);
+    if (origem === "sem-localizacao") setListaSemLocalizacaoAberta(true);
+    if (origem === "mais-proximos") setListaMaisProximosAberta(true);
+    if (origem === "novidades") setListaNovidadesAberta(true);
+  }, []);
+
+  const voltarDosDetalhes = useCallback(() => {
+    const origem = origemDetalhes;
+    solicitacaoRotaRef.current += 1;
+    setDetalheSelecionado(null);
+    setOrigemDetalhes(null);
+
+    if (origem) reabrirTelaDeOrigem(origem);
+    else restaurarFoco();
+  }, [origemDetalhes, reabrirTelaDeOrigem, restaurarFoco]);
+
+  const voltarDaConta = useCallback(() => {
+    const origem = origemConta;
+    setContaAberta(false);
+    setOrigemConta(null);
+
+    if (origem) reabrirTelaDeOrigem(origem);
+    else restaurarFoco();
+  }, [origemConta, reabrirTelaDeOrigem, restaurarFoco]);
+
+  const voltarDosAlertas = useCallback(() => {
+    const origem = origemAlertas;
+    setAlertasAbertos(false);
+    setOrigemAlertas(null);
+
+    if (origem) reabrirTelaDeOrigem(origem);
+    else restaurarFoco();
+  }, [origemAlertas, reabrirTelaDeOrigem, restaurarFoco]);
+
+  const voltarDoPlus = useCallback(() => {
+    const origem = origemPlus;
+    setPlusAberto(false);
+    setOrigemPlus(null);
+
+    if (origem) reabrirTelaDeOrigem(origem);
+    else restaurarFoco();
+  }, [origemPlus, reabrirTelaDeOrigem, restaurarFoco]);
 
   function verConcursosNoMapa() {
     setVersaoAjusteResultados((versao) => versao + 1);
@@ -1561,6 +1635,77 @@ function App() {
     listaNovidadesAberta,
     listaSemLocalizacaoAberta,
     sobreAberto,
+    fecharAlertas,
+    fecharConta,
+    fecharDetalhes,
+    fecharFiltros,
+    fecharFavoritos,
+    fecharListaMaisProximos,
+    fecharListaNovidades,
+    fecharListaSemLocalizacao,
+    fecharPlus,
+    fecharSobre,
+  ]);
+
+  useEffect(() => {
+    if (!Capacitor.isNativePlatform()) return undefined;
+
+    let removerOuvinte;
+
+    CapacitorApp.addListener("backButton", () => {
+      if (detalheSelecionado) {
+        voltarDosDetalhes();
+      } else if (listaSemLocalizacaoAberta) {
+        fecharListaSemLocalizacao();
+      } else if (listaMaisProximosAberta) {
+        fecharListaMaisProximos();
+      } else if (listaNovidadesAberta) {
+        fecharListaNovidades();
+      } else if (favoritosAbertos) {
+        fecharFavoritos();
+      } else if (contaAberta) {
+        voltarDaConta();
+      } else if (alertasAbertos) {
+        voltarDosAlertas();
+      } else if (plusAberto) {
+        voltarDoPlus();
+      } else if (sobreAberto) {
+        fecharSobre();
+      } else if (filtrosAbertos) {
+        fecharFiltros();
+      } else {
+        CapacitorApp.exitApp();
+      }
+    }).then((ouvinte) => {
+      removerOuvinte = () => ouvinte.remove();
+    });
+
+    return () => removerOuvinte?.();
+  }, [
+    detalheSelecionado,
+    contaAberta,
+    alertasAbertos,
+    plusAberto,
+    filtrosAbertos,
+    favoritosAbertos,
+    listaMaisProximosAberta,
+    listaNovidadesAberta,
+    listaSemLocalizacaoAberta,
+    sobreAberto,
+    origemAlertas,
+    origemConta,
+    origemDetalhes,
+    origemPlus,
+    voltarDaConta,
+    voltarDosAlertas,
+    voltarDosDetalhes,
+    voltarDoPlus,
+    fecharFiltros,
+    fecharFavoritos,
+    fecharListaMaisProximos,
+    fecharListaNovidades,
+    fecharListaSemLocalizacao,
+    fecharSobre,
   ]);
 
   useEffect(
@@ -2431,6 +2576,7 @@ function App() {
 
   async function abrirDetalhes(pin, elementoDeOrigem) {
     ultimoFocoRef.current = elementoDeOrigem ?? botaoFiltrosRef.current;
+    setOrigemDetalhes(listaMaisProximosAberta ? "mais-proximos" : null);
     setListaMaisProximosAberta(false);
     const concurso = concursosPorId.get(pin.concursoId) ?? pin;
     const solicitacaoAtual = solicitacaoRotaRef.current + 1;
@@ -2491,6 +2637,7 @@ function App() {
   function abrirDetalhesSemLocalizacao(concurso) {
     ultimoFocoRef.current = botaoFiltrosRef.current;
     solicitacaoRotaRef.current += 1;
+    setOrigemDetalhes("sem-localizacao");
     setDetalheSelecionado({ concurso, destino: null });
     setDistanciaRota(null);
     setCalculandoRota(false);
@@ -2501,6 +2648,7 @@ function App() {
   function abrirDetalhesFavorito(concurso) {
     ultimoFocoRef.current = botaoFavoritosRef.current;
     solicitacaoRotaRef.current += 1;
+    setOrigemDetalhes("favoritos");
     setDetalheSelecionado({ concurso, destino: concurso.localizacao ?? null });
     setDistanciaRota(null);
     setCalculandoRota(false);
@@ -2511,12 +2659,12 @@ function App() {
   function abrirDetalhesNotificacao(concurso) {
     ultimoFocoRef.current = botaoFavoritosRef.current;
     solicitacaoRotaRef.current += 1;
+    setOrigemDetalhes("novidades");
     setDetalheSelecionado({ concurso, destino: concurso.localizacao ?? null });
     setDistanciaRota(null);
     setCalculandoRota(false);
     setErroRota(null);
     setListaNovidadesAberta(false);
-    setNovidadesNotificacao([]);
   }
 
   async function alternarTelaCheia() {
@@ -2636,8 +2784,9 @@ function App() {
         </div>
       </section>
 
-      {filtrosAbertos && (
-        <div className="sobreposicao-filtros" onMouseDown={fecharFiltros}>
+      <CamadaComTransicao aberta={filtrosAbertos}>
+        {(fechando) => (
+        <div className={`sobreposicao-filtros${fechando ? " esta-fechando" : ""}`} onMouseDown={fecharFiltros}>
           <aside
             ref={painelFiltrosRef}
             id="painel-filtros"
@@ -2790,36 +2939,47 @@ function App() {
             </div>
           </aside>
         </div>
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {listaSemLocalizacaoAberta && (
+      <CamadaComTransicao aberta={listaSemLocalizacaoAberta}>
+        {(fechando) => (
         <ListaSemLocalizacao
           concursos={concursosSemLocalizacaoFiltrados}
           aoFechar={fecharListaSemLocalizacao}
           aoAbrirDetalhes={abrirDetalhesSemLocalizacao}
+          fechando={fechando}
           referenciaPainel={painelListaSemLocalizacaoRef}
         />
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {listaMaisProximosAberta && (
+      <CamadaComTransicao aberta={listaMaisProximosAberta}>
+        {(fechando) => (
         <ListaMaisProximos
           pins={concursosMaisProximos}
           aoFechar={fecharListaMaisProximos}
           aoAbrirDetalhes={abrirDetalhes}
+          fechando={fechando}
           referenciaPainel={painelListaMaisProximosRef}
         />
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {listaNovidadesAberta && (
+      <CamadaComTransicao aberta={listaNovidadesAberta}>
+        {(fechando) => (
         <ListaNovidadesNotificacao
           concursos={novidadesNotificacao}
           aoFechar={fecharListaNovidades}
           aoAbrirDetalhes={abrirDetalhesNotificacao}
+          fechando={fechando}
           referenciaPainel={painelListaNovidadesRef}
         />
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {favoritosAbertos && (
+      <CamadaComTransicao aberta={favoritosAbertos}>
+        {(fechando) => (
         <ListaFavoritos
           concursos={favoritos}
           usuario={usuario}
@@ -2835,31 +2995,38 @@ function App() {
           aoAbrirConta={() => {
             ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
             setFavoritosAbertos(false);
+            setOrigemConta("favoritos");
             setContaAberta(true);
           }}
           aoAbrirAlertas={() => {
             ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
             setFavoritosAbertos(false);
+            setOrigemAlertas("favoritos");
             setAlertasAbertos(true);
           }}
           aoAbrirPlus={() => {
             ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
             setFavoritosAbertos(false);
+            setOrigemPlus("favoritos");
             setPlusAberto(true);
           }}
           aoAtivarPush={ativarNotificacoesPush}
           aoDesativarPush={desativarNotificacoesPush}
           aoRemover={alternarFavorito}
+          fechando={fechando}
           referenciaPainel={painelFavoritosRef}
         />
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {contaAberta && (
+      <CamadaComTransicao aberta={contaAberta}>
+        {(fechando) => (
         <ContaUsuario
           usuario={usuario}
           plano={planoConta}
           redefinindoSenha={redefinindoSenha}
           aoFechar={fecharConta}
+          aoVoltar={origemConta ? voltarDaConta : undefined}
           aoEntrar={entrarConta}
           aoCadastrar={cadastrarConta}
           aoSolicitarRedefinicao={solicitarRedefinicaoSenha}
@@ -2867,30 +3034,34 @@ function App() {
           aoAbrirAlertas={() => {
             ultimoFocoRef.current = painelContaRef.current?.querySelector("button") ?? botaoFavoritosRef.current;
             setContaAberta(false);
+            setOrigemAlertas("conta");
             setAlertasAbertos(true);
           }}
           aoAbrirPlus={() => {
             ultimoFocoRef.current = painelContaRef.current?.querySelector("button") ?? botaoFavoritosRef.current;
             setContaAberta(false);
+            setOrigemPlus("conta");
             setPlusAberto(true);
           }}
           aoExcluirConta={excluirConta}
           aoSair={sairDaConta}
+          fechando={fechando}
           referenciaPainel={painelContaRef}
         />
-      )}
+        )}
+      </CamadaComTransicao>
 
-      {alertasAbertos && (
-        <PainelAlertas municipios={municipios} alertas={alertas} aoCriar={criarAlerta} aoAlternar={alternarAlerta} aoExcluir={excluirAlerta} aoFechar={fecharAlertas} referenciaPainel={painelAlertasRef} />
-      )}
+      <CamadaComTransicao aberta={alertasAbertos}>
+        {(fechando) => <PainelAlertas municipios={municipios} alertas={alertas} aoCriar={criarAlerta} aoAlternar={alternarAlerta} aoExcluir={excluirAlerta} aoFechar={fecharAlertas} aoVoltar={origemAlertas ? voltarDosAlertas : undefined} fechando={fechando} referenciaPainel={painelAlertasRef} />}
+      </CamadaComTransicao>
 
-      {plusAberto && (
-        <PainelPlus plano={planoConta} aoFechar={fecharPlus} referenciaPainel={painelPlusRef} />
-      )}
+      <CamadaComTransicao aberta={plusAberto}>
+        {(fechando) => <PainelPlus plano={planoConta} aoFechar={fecharPlus} aoVoltar={origemPlus ? voltarDoPlus : undefined} fechando={fechando} referenciaPainel={painelPlusRef} />}
+      </CamadaComTransicao>
 
-      {sobreAberto && (
-        <SobreProjeto aoFechar={fecharSobre} referenciaPainel={painelSobreRef} />
-      )}
+      <CamadaComTransicao aberta={sobreAberto}>
+        {(fechando) => <SobreProjeto aoFechar={fecharSobre} fechando={fechando} referenciaPainel={painelSobreRef} />}
+      </CamadaComTransicao>
 
       {erro ? (
         <p className="erro" role="alert">{erro}</p>
@@ -3038,18 +3209,24 @@ function App() {
               Nenhum concurso encontrado com os filtros atuais.
             </p>
           )}
-          <DetalhesConcurso
-            concurso={detalheSelecionado?.concurso}
-            destino={detalheSelecionado?.destino}
-            distanciaRota={distanciaRota}
-            calculandoRota={calculandoRota}
-            erroRota={erroRota}
-            possuiOrigem={centroMapa !== null}
-            favorito={idsFavoritos.includes(detalheSelecionado?.concurso?.id)}
-            aoAlternarFavorito={alternarFavorito}
-            aoFechar={fecharDetalhes}
-            referenciaPainel={painelDetalhesRef}
-          />
+          <CamadaComTransicao aberta={detalheSelecionado !== null}>
+            {(fechando) => (
+              <DetalhesConcurso
+                concurso={detalheSelecionado?.concurso}
+                destino={detalheSelecionado?.destino}
+                distanciaRota={distanciaRota}
+                calculandoRota={calculandoRota}
+                erroRota={erroRota}
+                possuiOrigem={centroMapa !== null}
+                favorito={idsFavoritos.includes(detalheSelecionado?.concurso?.id)}
+                aoAlternarFavorito={alternarFavorito}
+                aoFechar={fecharDetalhes}
+                aoVoltar={origemDetalhes ? voltarDosDetalhes : undefined}
+                fechando={fechando}
+                referenciaPainel={painelDetalhesRef}
+              />
+            )}
+          </CamadaComTransicao>
         </div>
       )}
     </main>

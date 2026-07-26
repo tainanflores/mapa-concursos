@@ -464,6 +464,23 @@ a:focus-visible {
   animation: aparecer-sobreposicao 180ms ease-out both;
 }
 
+.esta-fechando {
+  pointer-events: none;
+  animation: sair-sobreposicao 180ms ease-in both;
+}
+
+.esta-fechando .gaveta-filtros {
+  animation: sair-gaveta 180ms ease-in both;
+}
+
+.esta-fechando .painel-sem-localizacao {
+  animation: sair-painel-central 180ms ease-in both;
+}
+
+.esta-fechando .painel-detalhes {
+  animation: sair-painel-detalhes 180ms ease-in both;
+}
+
 .sobreposicao-filtros {
   display: flex;
   justify-content: flex-end;
@@ -906,8 +923,36 @@ a:focus-visible {
   background: #fff;
 }
 
+.acoes-cabecalho-painel {
+  position: absolute;
+  z-index: 2;
+  top: 1.1rem;
+  right: 1.1rem;
+  display: flex;
+  gap: 0.45rem;
+}
+
+.botao-voltar-painel,
+.acoes-cabecalho-painel .botao-fechar-filtros {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  padding: 0;
+  border: 1px solid #d6e3dd;
+  border-radius: 50%;
+  background: #f7faf8;
+  color: #285146;
+}
+
+.botao-voltar-painel:hover {
+  border-color: #8ebba9;
+  background: #e9f4ee;
+  color: #087657;
+}
+
 .cabecalho-lista-sem-localizacao .botao-fechar-filtros {
-  float: right;
+  float: none;
 }
 
 .cabecalho-lista-sem-localizacao h2 {
@@ -1878,6 +1923,22 @@ a:focus-visible {
 @keyframes entrar-painel-detalhes {
   from { opacity: 0.7; transform: translateY(1rem); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sair-sobreposicao {
+  to { opacity: 0; }
+}
+
+@keyframes sair-gaveta {
+  to { opacity: 0; transform: translateX(1.25rem); }
+}
+
+@keyframes sair-painel-central {
+  to { opacity: 0; transform: translateY(0.5rem) scale(0.99); }
+}
+
+@keyframes sair-painel-detalhes {
+  to { opacity: 0; transform: translateY(0.75rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
