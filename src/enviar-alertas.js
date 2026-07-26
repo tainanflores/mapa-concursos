@@ -67,6 +67,42 @@ function resumoNotificacao(concursos) {
   };
 }
 
+async function enviarNotificacaoDeTeste(supabase, messaging) {
+  const { data: dispositivos, error } = await supabase
+    .from("dispositivos")
+    .select("token_push")
+    .eq("ativo", true)
+    .eq("plataforma", "android");
+
+  if (error) throw error;
+
+  const tokens = [...new Set((dispositivos ?? []).map((dispositivo) => dispositivo.token_push))];
+  if (tokens.length === 0) {
+    console.log("Nenhum aparelho Android ativo encontrado para a notificação de teste.");
+    return;
+  }
+
+  const resultado = await messaging.sendEachForMulticast({
+    tokens,
+    notification: {
+      title: "Notificações ativadas",
+      body: "Seu aparelho está pronto para receber alertas do Mapa de Concursos.",
+    },
+    data: { tipo: "teste_notificacao" },
+    android: { priority: "high", notification: { channelId: "fcm_fallback_notification_channel" } },
+  });
+
+  if (resultado.failureCount > 0) {
+    const falhas = resultado.responses
+      .filter((resposta) => !resposta.success)
+      .map((resposta) => resposta.error?.code ?? "erro-desconhecido");
+    console.log(`Teste enviado para ${resultado.successCount} dispositivo(s); ${resultado.failureCount} falha(s): ${falhas.join(", ")}`);
+    return;
+  }
+
+  console.log(`Notificação de teste enviada para ${resultado.successCount} dispositivo(s).`);
+}
+
 async function executar() {
   const url = process.env.SUPABASE_URL;
   const chave = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -74,6 +110,16 @@ async function executar() {
 
   if (!url || !chave || !credenciaisFirebase) {
     console.log("Alertas ignorados: Secrets administrativos não configurados.");
+    return;
+  }
+
+  const supabase = createClient(url, chave, { auth: { autoRefreshToken: false, persistSession: false } });
+  const credenciais = JSON.parse(credenciaisFirebase);
+  if (getApps().length === 0) initializeApp({ credential: cert(credenciais) });
+  const messaging = getMessaging();
+
+  if (process.env.ENVIAR_ALERTA_TESTE === "true") {
+    await enviarNotificacaoDeTeste(supabase, messaging);
     return;
   }
 
@@ -89,7 +135,6 @@ async function executar() {
 
   const pontos = JSON.parse(readFileSync(ARQUIVO_PONTOS, "utf8"));
   const localidadesPorConcurso = agruparPontosPorConcurso(pontos);
-  const supabase = createClient(url, chave, { auth: { autoRefreshToken: false, persistSession: false } });
   const [{ data: alertas, error: erroAlertas }, { data: dispositivos, error: erroDispositivos }] = await Promise.all([
     supabase.from("alertas").select("id, usuario_id, criterios, frequencia").eq("ativo", true),
     supabase.from("dispositivos").select("usuario_id, token_push").eq("ativo", true).eq("plataforma", "android"),
@@ -105,9 +150,6 @@ async function executar() {
     dispositivosPorUsuario.set(dispositivo.usuario_id, tokens);
   }
 
-  const credenciais = JSON.parse(credenciaisFirebase);
-  if (getApps().length === 0) initializeApp({ credential: cert(credenciais) });
-  const messaging = getMessaging();
   let totalEnvios = 0;
 
   for (const alerta of alertas ?? []) {

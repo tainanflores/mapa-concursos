@@ -2,6 +2,12 @@ name: Atualizar concursos
 
 on:
   workflow_dispatch:
+    inputs:
+      enviar_alerta_teste:
+        description: "Enviar uma notificação de teste aos aparelhos Android ativos"
+        required: false
+        default: false
+        type: boolean
 
   # Será ativado quando o scraper estiver completo.
   # O GitHub interpreta este cron em UTC.
@@ -32,22 +38,36 @@ jobs:
         run: npm ci
 
       - name: Atualizar concursos
+        if: ${{ !inputs.enviar_alerta_teste }}
         run: npm run atualizar
 
       - name: Validar resultado da extração
+        if: ${{ !inputs.enviar_alerta_teste }}
         run: node src/verificar-sanidade-dados.js
 
       - name: Executar testes
+        if: ${{ !inputs.enviar_alerta_teste }}
         run: npm test
 
       - name: Verificar alterações efetivas nos dados
+        if: ${{ !inputs.enviar_alerta_teste }}
         id: dados
         run: |
           mudou="$(node src/verificar-alteracoes-dados.js)"
           echo "mudou=$mudou" >> "$GITHUB_OUTPUT"
 
+      - name: Enviar notificação de teste
+        if: ${{ inputs.enviar_alerta_teste }}
+        env:
+          ENVIAR_ALERTA_TESTE: "true"
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run enviar:alertas
+
       - name: Enviar alertas de novos concursos
-        if: steps.dados.outputs.mudou == 'true'
+        if: ${{ !inputs.enviar_alerta_teste && steps.dados.outputs.mudou == 'true' }}
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
@@ -56,6 +76,7 @@ jobs:
         run: npm run enviar:alertas
 
       - name: Salvar mudanças
+        if: ${{ !inputs.enviar_alerta_teste }}
         run: |
           if [ "${{ steps.dados.outputs.mudou }}" != "true" ]; then
             echo "Nenhuma alteração efetiva nos dados. Nenhum commit será criado."
