@@ -23,6 +23,7 @@ import "react-leaflet-cluster/dist/assets/MarkerCluster.Default.css";
 import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
 import iconUrl from "leaflet/dist/images/marker-icon.png";
 import shadowUrl from "leaflet/dist/images/marker-shadow.png";
+import iconeMarcaUrl from "./assets/icone-mapa-concursos.png";
 import "./App.css";
 import { filtrarPinsMapa } from "../../src/filtros-mapa.js";
 import { calcularDistanciaPorRota } from "./rotas.js";
@@ -455,6 +456,28 @@ function FecharPopupAoClicarNoMapa() {
   return null;
 }
 
+function Icone({ nome }) {
+  const desenhos = {
+    fechar: <><path d="m6 6 12 12M18 6 6 18" /></>,
+    favorito: <path d="M20.8 8.6c0 5.2-8.8 10.1-8.8 10.1S3.2 13.8 3.2 8.6A4.8 4.8 0 0 1 12 5.9a4.8 4.8 0 0 1 8.8 2.7Z" />,
+    externo: <><path d="M14 5h5v5" /><path d="m19 5-8 8" /><path d="M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" /></>,
+    seta: <><path d="M5 12h13" /><path d="m13 6 6 6-6 6" /></>,
+    localizacao: <><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.5" /></>,
+    conta: <><circle cx="12" cy="8" r="3.5" /><path d="M5 20c.8-3 3.3-5 7-5s6.2 2 7 5" /></>,
+    sino: <><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" /><path d="M10 21h4" /></>,
+    plus: <><path d="M4 17 3 7l5 4 4-7 4 7 5-4-1 10H4Z" /><path d="M8 21h8" /></>,
+    pausa: <><path d="M8 5v14M16 5v14" /></>,
+    ativar: <path d="m8 5 11 7-11 7V5Z" />,
+    excluir: <><path d="M4 7h16M10 11v5M14 11v5M6 7l1 13h10l1-13M9 7V4h6v3" /></>,
+  };
+
+  return (
+    <svg className={`icone-ui icone-ui-${nome}`} aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      {desenhos[nome] ?? desenhos.seta}
+    </svg>
+  );
+}
+
 function DetalhesConcurso({
   concurso,
   destino,
@@ -489,7 +512,7 @@ function DetalhesConcurso({
             onClick={aoFechar}
             autoFocus
           >
-            ×
+            <Icone nome="fechar" />
           </button>
           <p className="sobretitulo">Detalhes do concurso</p>
           <h2 id="titulo-detalhes">{concurso.titulo}</h2>
@@ -504,7 +527,8 @@ function DetalhesConcurso({
             aria-pressed={favorito}
             onClick={() => aoAlternarFavorito(concurso.id)}
           >
-            {favorito ? "★ Remover dos favoritos" : "☆ Adicionar aos favoritos"}
+            <Icone nome="favorito" />
+            {favorito ? "Remover dos favoritos" : "Adicionar aos favoritos"}
           </button>
 
         {destino ? (
@@ -601,7 +625,7 @@ function DetalhesConcurso({
             target="_blank"
             rel="noreferrer"
           >
-            Abrir link PCI Concursos
+            Abrir link PCI Concursos <Icone nome="externo" />
           </a>
         </div>
       </section>
@@ -630,7 +654,7 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaP
             onClick={aoFechar}
             autoFocus
           >
-            ×
+            <Icone nome="fechar" />
           </button>
           <p className="sobretitulo">Resultados fora do mapa</p>
           <h2 id="titulo-sem-localizacao">Concursos sem localização precisa</h2>
@@ -670,7 +694,7 @@ function ListaSemLocalizacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaP
                               type="button"
                               onClick={() => aoAbrirDetalhes(concurso)}
                             >
-                              Mais detalhes
+                              Ver detalhes <Icone nome="seta" />
                             </button>
                           </li>
                         ))}
@@ -710,7 +734,7 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
             onClick={aoFechar}
             autoFocus
           >
-            ×
+            <Icone nome="fechar" />
           </button>
           <p className="sobretitulo">A partir da origem selecionada</p>
           <h2 id="titulo-mais-proximos">Concursos mais próximos</h2>
@@ -733,8 +757,8 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
                   {pin.cidade}/{pin.uf} · {pin.inscricaoTexto || "Inscrições não informadas"}
                 </small>
               </div>
-              <button type="button" onClick={(evento) => aoAbrirDetalhes(pin, evento.currentTarget)}>
-                Mais detalhes
+              <button className="botao-com-icone" type="button" onClick={(evento) => aoAbrirDetalhes(pin, evento.currentTarget)}>
+                Ver detalhes <Icone nome="seta" />
               </button>
             </li>
           ))}
@@ -756,7 +780,7 @@ function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, refer
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar novidades" onClick={aoFechar} autoFocus>×</button>
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar novidades" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
           <p className="sobretitulo">Notificação recebida</p>
           <h2 id="titulo-novidades-notificacao">Novos concursos</h2>
           <p>Estas são as oportunidades encontradas para o alerta que você selecionou.</p>
@@ -772,7 +796,7 @@ function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, refer
                 <p>{concurso.titulo}</p>
                 <small>{concurso.inscricaoTexto || "Inscrições não informadas"}</small>
               </div>
-              <button type="button" onClick={() => aoAbrirDetalhes(concurso)}>Ver detalhes</button>
+              <button className="botao-com-icone" type="button" onClick={() => aoAbrirDetalhes(concurso)}>Ver detalhes <Icone nome="seta" /></button>
             </li>
           ))}
         </ul>
@@ -819,7 +843,7 @@ function ListaFavoritos({
             onClick={aoFechar}
             autoFocus
           >
-            ×
+            <Icone nome="fechar" />
           </button>
           <p className="sobretitulo">Seus concursos salvos</p>
           <h2 id="titulo-favoritos">Meus favoritos</h2>
@@ -829,13 +853,13 @@ function ListaFavoritos({
               : "Entre em uma conta para sincronizar seus favoritos entre aparelhos."}
           </p>
           <div className="acoes-conta-favoritos">
-            {supabaseConfigurado && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>{usuario ? "Gerenciar conta" : "Entrar para sincronizar"}</button>}
-            {usuario && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirAlertas}>Gerenciar alertas</button>}
-            <button className="botao-conta-favoritos" type="button" onClick={aoAbrirPlus}>Conhecer o Plus</button>
+            {supabaseConfigurado && <button className="botao-conta-favoritos botao-com-icone" type="button" onClick={aoAbrirConta}><Icone nome="conta" />{usuario ? "Gerenciar conta" : "Entrar para sincronizar"}</button>}
+            {usuario && <button className="botao-conta-favoritos botao-com-icone" type="button" onClick={aoAbrirAlertas}><Icone nome="sino" />Gerenciar alertas</button>}
+            <button className="botao-conta-favoritos botao-com-icone" type="button" onClick={aoAbrirPlus}><Icone nome="plus" />Conhecer o Plus</button>
             {notificacoesDisponiveis && usuario && (estadoPush === "ativo" && !pushDesativado ? <>
               <span className="estado-push">● Notificações push ativadas</span>
-              <button className="botao-secundario" type="button" onClick={aoDesativarPush}>Desativar push</button>
-            </> : <button className="botao-conta-favoritos" type="button" disabled={estadoPush === "solicitando"} onClick={aoAtivarPush}>{estadoPush === "solicitando" ? "Ativando notificações..." : estadoPush === "negado" ? "Permitir notificações push" : "Ativar notificações push"}</button>)}
+              <button className="botao-secundario botao-com-icone" type="button" onClick={aoDesativarPush}><Icone nome="pausa" />Desativar push</button>
+            </> : <button className="botao-conta-favoritos botao-com-icone" type="button" disabled={estadoPush === "solicitando"} onClick={aoAtivarPush}><Icone nome="sino" />{estadoPush === "solicitando" ? "Ativando notificações..." : estadoPush === "negado" ? "Permitir notificações push" : "Ativar notificações push"}</button>)}
           </div>
           {notificacoesDisponiveis && !usuario && (
             <p className="aviso-lembretes">Entre em uma conta para ativar notificações push neste aparelho.</p>
@@ -881,15 +905,15 @@ function ListaFavoritos({
                   <small>{concurso.inscricaoTexto || "Inscrições não informadas"}</small>
                 </div>
                 <div className="acoes-favorito">
-                  <button type="button" onClick={() => aoAbrirDetalhes(concurso)}>
-                    Ver detalhes
+                  <button className="botao-com-icone" type="button" onClick={() => aoAbrirDetalhes(concurso)}>
+                    Ver detalhes <Icone nome="seta" />
                   </button>
                   <button
                     className="botao-remover-favorito"
                     type="button"
                     onClick={() => aoRemover(concurso.id)}
                   >
-                    Remover
+                    <Icone nome="excluir" /> Remover
                   </button>
                 </div>
               </li>
@@ -1012,7 +1036,7 @@ function ContaUsuario({
         onMouseDown={(evento) => evento.stopPropagation()}
       >
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar conta" onClick={aoFechar} autoFocus>×</button>
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar conta" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
           <p className="sobretitulo">Sincronização</p>
           <h2 id="titulo-conta">
             {redefinindoSenha ? "Defina uma nova senha" : usuario ? "Sua conta" : "Entre para sincronizar"}
@@ -1071,10 +1095,14 @@ function ContaUsuario({
                 <strong>{plano.nome}</strong>
                 <small>{plano.descricao}</small>
               </div>
-              <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
-              <button type="button" className="botao-secundario" onClick={aoAbrirPlus}>Conhecer o Mapa de Concursos Plus</button>
-              <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
-              <button type="button" className="botao-excluir-conta" onClick={() => setConfirmandoExclusao(true)}>Excluir conta e dados</button>
+              <div className="acoes-conta-principal">
+                <button className="botao-com-icone" type="button" onClick={aoAbrirAlertas}><Icone nome="sino" />Configurar alertas</button>
+                <button type="button" className="botao-secundario botao-com-icone" onClick={aoAbrirPlus}><Icone nome="plus" />Conhecer o Mapa de Concursos Plus</button>
+              </div>
+              <div className="acoes-conta-secundarias">
+                <button type="button" className="botao-remover-favorito botao-com-icone" onClick={aoSair}><Icone nome="conta" />Sair da conta</button>
+                <button type="button" className="botao-excluir-conta botao-com-icone" onClick={() => setConfirmandoExclusao(true)}><Icone nome="excluir" />Excluir conta e dados</button>
+              </div>
             </>
           ) : (
             <form className="formulario-conta" onSubmit={enviarFormulario}>
@@ -1169,7 +1197,7 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section ref={referenciaPainel} aria-labelledby="titulo-alertas" aria-modal="true" className="painel-sem-localizacao painel-alertas" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar alertas" onClick={aoFechar} autoFocus>×</button>
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar alertas" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
           <p className="sobretitulo">Notificações de novidades</p>
           <h2 id="titulo-alertas">Meus alertas</h2>
           <p>Receba avisos quando a atualização diária encontrar novos concursos abertos na área escolhida.</p>
@@ -1195,12 +1223,12 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
               {tipo === "uf" && <label>Estado
                 <select value={uf} onChange={({ target }) => setUf(target.value)}><option value="">Selecione</option>{Object.keys(ESTADO_E_REGIAO_POR_UF).sort().map((sigla) => <option key={sigla} value={sigla}>{ESTADO_E_REGIAO_POR_UF[sigla].estado} ({sigla})</option>)}</select>
               </label>}
-              <button type="submit">{salvando ? "Salvando..." : "Criar alerta"}</button>
+              <button className="botao-com-icone" type="submit"><Icone nome="sino" />{salvando ? "Salvando..." : "Criar alerta"}</button>
             </fieldset>
           </form>
           <p className="aviso-alertas-plus">Os tipos Plus estão liberados durante esta fase de testes. Eles serão exclusivos do Mapa de Concursos Plus quando as assinaturas forem ativadas.</p>
           {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
-          <ul className="lista-alertas">{alertas.map((alerta) => <li key={alerta.id}><div><strong>{alerta.nome}</strong><small>{alerta.ativo ? "Ativo" : "Pausado"} · Novos concursos abertos</small></div><div className="acoes-favorito"><button type="button" onClick={() => aoAlternar(alerta)}>{alerta.ativo ? "Pausar" : "Ativar"}</button><button type="button" className="botao-remover-favorito" onClick={() => aoExcluir(alerta.id)}>Excluir</button></div></li>)}</ul>
+          <ul className="lista-alertas">{alertas.map((alerta) => <li key={alerta.id}><div><strong>{alerta.nome}</strong><small>{alerta.ativo ? "Ativo" : "Pausado"} · Novos concursos abertos</small></div><div className="acoes-favorito"><button className="botao-com-icone" type="button" onClick={() => aoAlternar(alerta)}><Icone nome={alerta.ativo ? "pausa" : "ativar"} />{alerta.ativo ? "Pausar" : "Ativar"}</button><button type="button" className="botao-remover-favorito botao-com-icone" onClick={() => aoExcluir(alerta.id)}><Icone nome="excluir" />Excluir</button></div></li>)}</ul>
         </div>
       </section>
     </div>
@@ -1212,7 +1240,7 @@ function PainelPlus({ plano, aoFechar, referenciaPainel }) {
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
       <section ref={referenciaPainel} aria-labelledby="titulo-plus" aria-modal="true" className="painel-sem-localizacao painel-plus" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
         <div className="cabecalho-lista-sem-localizacao">
-          <button className="botao-fechar-filtros" type="button" aria-label="Fechar informações do Plus" onClick={aoFechar} autoFocus>×</button>
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar informações do Plus" onClick={aoFechar} autoFocus><Icone nome="fechar" /></button>
           <p className="sobretitulo">Mapa de Concursos Plus</p>
           <h2 id="titulo-plus">{plano.codigo === "plus" ? "Seu Plus está ativo" : "Acompanhe mais oportunidades"}</h2>
           <p>{plano.codigo === "plus" ? "Você tem acesso aos recursos ampliados do Mapa de Concursos Plus." : "O Plus foi planejado para quem acompanha concursos em mais de uma área e prefere usar o aplicativo sem anúncios."}</p>
@@ -1253,7 +1281,7 @@ function SobreProjeto({ aoFechar, referenciaPainel }) {
             onClick={aoFechar}
             autoFocus
           >
-            ×
+            <Icone nome="fechar" />
           </button>
           <p className="sobretitulo">Transparência</p>
           <h2 id="titulo-sobre">Sobre, dados e privacidade</h2>
@@ -1950,6 +1978,15 @@ function App() {
     filtros.inscricaoAte,
   ].filter(Boolean).length;
 
+  const etiquetasFiltrosAtivos = [
+    filtros.distanciaMaximaKm && `Raio: ${filtros.distanciaMaximaKm} km`,
+    filtros.uf && `UF: ${filtros.uf}`,
+    filtros.status && (filtros.status === "aberto" ? "Abertos" : "Encerrados"),
+    filtros.tipoSelecao && ROTULOS_TIPO_SELECAO[filtros.tipoSelecao],
+    filtros.inscricoesEmAndamento && "Inscrições em andamento",
+    filtros.inscricaoAte && `Até ${new Date(`${filtros.inscricaoAte}T12:00:00`).toLocaleDateString("pt-BR")}`,
+  ].filter(Boolean);
+
   function alterarFiltro(campo, valor) {
     setFiltros((filtrosAtuais) => ({
       ...filtrosAtuais,
@@ -2504,7 +2541,7 @@ function App() {
     <main className="app">
       <header className="cabecalho-principal">
         <div className="marca">
-          <span className="marca-icone" aria-hidden="true">⌖</span>
+          <img className="marca-icone" src={iconeMarcaUrl} alt="" />
           <div>
             <p className="sobretitulo">Mapa de Concursos</p>
             <h1>Oportunidades perto de você</h1>
@@ -2544,7 +2581,7 @@ function App() {
               setSobreAberto(true);
             }}
           >
-            Sobre
+            <span aria-hidden="true">i</span>
           </button>
           <button
             ref={botaoFiltrosRef}
@@ -2632,6 +2669,12 @@ function App() {
               {centroMapa && <small>Ordenados por distância em linha reta.</small>}
             </div>
 
+            {etiquetasFiltrosAtivos.length > 0 && (
+              <div className="etiquetas-filtros-ativos" aria-label="Filtros ativos">
+                {etiquetasFiltrosAtivos.map((etiqueta) => <span key={etiqueta}>{etiqueta}</span>)}
+              </div>
+            )}
+
             <button
               className="atalho-mais-proximos"
               type="button"
@@ -2670,6 +2713,7 @@ function App() {
             </button>
 
             <div className="campos-filtros">
+              <p className="titulo-secao-filtros">Localização</p>
               <label>
                 Raio de busca
                 <select
@@ -2695,6 +2739,7 @@ function App() {
                 </select>
               </label>
 
+              <p className="titulo-secao-filtros">Oportunidades</p>
               <label>
                 Situação
                 <select value={filtros.status} onChange={({ target }) => alterarFiltro("status", target.value)}>
@@ -2878,7 +2923,7 @@ function App() {
             }
             onClick={usarMinhaLocalizacao}
           >
-            ⌖
+            <Icone nome="localizacao" />
           </button>
           <div className="busca-tela-cheia">
             <label className="visualmente-oculto" htmlFor="cidade-tela-cheia">Cidade e UF</label>
@@ -2970,7 +3015,7 @@ function App() {
                           <strong>{concurso.orgao}</strong>
                           <span>{concurso.titulo}</span>
                           <button
-                            className="botao-detalhes"
+                            className="botao-detalhes botao-com-icone"
                             type="button"
                             onMouseDown={(evento) => evento.stopPropagation()}
                             onClick={(evento) => {
@@ -2978,7 +3023,7 @@ function App() {
                               abrirDetalhes(concurso, evento.currentTarget);
                             }}
                           >
-                            Mais detalhes
+                            Ver detalhes <Icone nome="seta" />
                           </button>
                         </li>
                       ))}

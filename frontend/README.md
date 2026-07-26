@@ -1,16 +1,48 @@
-# React + Vite
+# Front-end — Mapa de Concursos
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação React/Vite do Mapa de Concursos. Ela exibe oportunidades em um mapa
+interativo, permite pesquisa por cidade, filtros, favoritos, alertas e conta de
+usuário. O mesmo front-end é distribuído no navegador e no aplicativo Android
+por meio do Capacitor.
 
-Currently, two official plugins are available:
+## Desenvolvimento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Build web
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run build
+```
 
-## Expanding the Oxlint configuration
+Durante o build, `scripts/copiar-dados.mjs` copia os JSONs públicos da raiz do
+projeto para `public/data`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Dados remotos no APK
+
+Crie `frontend/.env.local` a partir de `.env.example` e informe:
+
+```env
+VITE_DADOS_BASE_URL=https://mapa-concursos.vercel.app/data
+VITE_SUPABASE_URL=https://SEU-PROJETO.supabase.co
+VITE_SUPABASE_ANON_KEY=SUA_CHAVE_ANON_PUBLICA
+```
+
+Sem `VITE_DADOS_BASE_URL`, o APK usa os dados incluídos durante o build. Com a
+variável configurada, ele consulta a versão atual hospedada na Vercel e usa a
+cópia incluída apenas como contingência.
+
+## Android
+
+Depois do build web, sincronize os assets com o projeto Android:
+
+```bash
+npx cap sync android
+```
+
+As instruções de assinatura e geração da versão de publicação ficam em
+`android/key.properties.example`. Nunca versione a chave de assinatura nem o
+arquivo `key.properties`.

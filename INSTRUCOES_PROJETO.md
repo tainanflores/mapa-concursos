@@ -220,6 +220,7 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 
 - [x] Limitar a altura dos popups e permitir rolagem para preservar a usabilidade em telas pequenas.
 - [x] Oferecer mapa em tela cheia e modal de detalhes em tela cheia, incluindo suporte a viewport móvel dinâmica.
+- [x] Refinar a interface com cabeçalho compacto, busca destacada, filtros agrupados com etiquetas ativas, superfícies consistentes e transições que respeitam redução de movimento.
 - [x] Agrupar pins próximos para reduzir sobreposição e permitir zoom progressivo no mapa.
 - [x] Garantir foco inicial, retorno e contenção de foco, além de fechamento por `Esc` nos painéis e modais; permitir fechar popup ao clicar no mapa.
 - [x] Exibir informações sobre fonte dos dados, limitações, localização e privacidade no próprio site.
@@ -235,18 +236,21 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [x] Tornar o front-end instalável como PWA, com manifesto, service worker e botão de instalação quando suportado; manter `/data/*` fora do cache do service worker.
 - [x] Integrar Capacitor ao React, criar o projeto Android e gerar/instalar o primeiro APK de desenvolvimento.
 - [x] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
+- [x] Preparar a configuração de assinatura release e proteger `key.properties` e arquivos de keystore contra versionamento.
+- [ ] Criar a keystore exclusiva de publicação, armazená-la com segurança fora do repositório e gerar o primeiro `.aab` assinado.
 - [x] Criar favoritos locais persistidos no aparelho, com inclusão pelos detalhes e lista para consultar/remover.
 - [x] Decidir não implementar pesquisas salvas nesta primeira versão.
 - [x] Criar telas de conta, favoritos e alertas, sem cobrança ativa.
-- [ ] Criar uma tela simples de comparação entre Gratuito e Plus, apenas informativa e sem bloquear recursos até existir cobrança real.
+- [x] Criar uma tela simples de comparação entre Gratuito e Plus, apenas informativa e sem bloquear recursos até existir cobrança real.
 - [x] Publicar Política de Privacidade e Termos de Uso acessíveis no site, cobrindo localização, conta, favoritos, notificações, FCM e fontes dos dados.
-- [ ] Definir e-mail oficial de suporte e substituir o canal provisório do GitHub nos documentos antes da publicação na Play Store.
+- [x] Definir o e-mail oficial de suporte (`teadigital@outlook.com.br`) e substituir o canal provisório do GitHub nos documentos antes da publicação na Play Store.
 - [x] Preparar fonte de dados configurável: usar `VITE_DADOS_BASE_URL` para JSONs remotos e recorrer aos JSONs incluídos no APK se a URL não estiver definida ou falhar.
 
 ### 6. Criar recursos pessoais e alertas
 
 - [x] Modelar a base Supabase e preparar o cliente: perfis, favoritos, pesquisas salvas, alertas, dispositivos e registro de envios, todos protegidos por Row Level Security.
 - [x] Criar o projeto Supabase e aplicar a migration inicial no painel.
+- [ ] Aplicar a migration de endurecimento das funções do Supabase e confirmar que as funções internas não podem ser chamadas por RPC.
 - [x] Implementar autenticação por e-mail e sincronização de favoritos entre aparelhos, mantendo a cópia local como contingência.
 - [x] Oferecer confirmação de senha no cadastro e recuperação de senha por e-mail.
 - [x] Decidir não sincronizar pesquisas salvas; manter apenas favoritos e alertas.
@@ -263,7 +267,7 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 ### 7. Preparar monetização sem ativá-la
 
 - [x] Criar uma migration do Supabase para perfil de plano (`gratuito`/`plus`), limites e criação automática de perfil para novas contas.
-- [ ] Aplicar a migration de planos no projeto Supabase; as contas existentes e futuras deverão iniciar como `gratuito`.
+- [x] Aplicar a migration de planos no projeto Supabase; as contas existentes e futuras deverão iniciar como `gratuito`.
 - [x] Centralizar no front-end a leitura e exibição do plano da conta, sem bloqueio definitivo enquanto o Google Play Billing não estiver validado.
 - [x] Definir os limites iniciais: gratuito com 1 alerta ativo para cidade específica; Plus com até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo, sem anúncios e futuras preferências avançadas.
 - [x] Definir o preço inicial do Plus: R$ 4,90/mês ou R$ 39,90/ano, sem teste gratuito na primeira versão.
@@ -280,7 +284,8 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [ ] Ocultar anúncios para Plus, mapas em tela cheia, modais e telas críticas; nunca cobrir mapa, pins ou controles.
 - [ ] Integrar Google Play Billing em ambiente sandbox e validar compras/assinaturas em backend seguro antes de conceder o plano Plus.
 - [ ] Ativar Plus: sem anúncios, até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo e preferências avançadas planejadas.
-- [x] Implementar métricas mínimas no Firebase Analytics, sem localização precisa, e sem armazenamento ou personalização para publicidade: contas, alertas e abertura de notificações. Instalações são registradas automaticamente pelo Firebase.
+- [x] Implementar e validar métricas mínimas no Firebase Analytics, sem localização precisa, e sem armazenamento ou personalização para publicidade: contas, alertas e abertura de notificações. Instalações são registradas automaticamente pelo Firebase.
+- [x] Criar e aplicar a identidade inicial nativa: ícone adaptativo de pin com edital e tela de abertura verde clara com o nome do app.
 - [ ] Medir entrega de notificações e conversão para Plus quando assinatura e cobrança existirem.
 - [ ] Preparar ficha da Play Store: ícone, screenshots, classificação indicativa, Data Safety, política de privacidade e beta fechado.
 - [ ] Publicar beta fechado, recolher feedback e só então habilitar anúncios e assinaturas para público real.

@@ -1,0 +1,6 @@
+# Copie este arquivo para key.properties e substitua todos os valores.
+# Nunca versione key.properties nem o arquivo .jks/.keystore correspondente.
+storeFile=app/mapa-concursos-upload.jks
+storePassword=SUA_SENHA_DO_ARMAZENAMENTO
+keyAlias=mapa-concursos
+keyPassword=SUA_SENHA_DA_CHAVE
