@@ -718,6 +718,43 @@ function ListaMaisProximos({ pins, aoFechar, aoAbrirDetalhes, referenciaPainel }
   );
 }
 
+function ListaNovidadesNotificacao({ concursos, aoFechar, aoAbrirDetalhes, referenciaPainel }) {
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section
+        ref={referenciaPainel}
+        aria-labelledby="titulo-novidades-notificacao"
+        aria-modal="true"
+        className="painel-sem-localizacao"
+        role="dialog"
+        onMouseDown={(evento) => evento.stopPropagation()}
+      >
+        <div className="cabecalho-lista-sem-localizacao">
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar novidades" onClick={aoFechar} autoFocus>×</button>
+          <p className="sobretitulo">Notificação recebida</p>
+          <h2 id="titulo-novidades-notificacao">Novos concursos</h2>
+          <p>Estas são as oportunidades encontradas para o alerta que você selecionou.</p>
+        </div>
+        <ul className="lista-favoritos">
+          {concursos.map((concurso) => (
+            <li key={concurso.id}>
+              <div>
+                <span className={`etiqueta-status status-${concurso.status}`}>
+                  {concurso.status === "aberto" ? "Inscrições abertas" : "Encerrado"}
+                </span>
+                <h3>{concurso.orgao}</h3>
+                <p>{concurso.titulo}</p>
+                <small>{concurso.inscricaoTexto || "Inscrições não informadas"}</small>
+              </div>
+              <button type="button" onClick={() => aoAbrirDetalhes(concurso)}>Ver detalhes</button>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  );
+}
+
 function ListaFavoritos({
   concursos,
   usuario,
@@ -1238,6 +1275,9 @@ function App() {
   const [filtrosAbertos, setFiltrosAbertos] = useState(false);
   const [listaSemLocalizacaoAberta, setListaSemLocalizacaoAberta] = useState(false);
   const [listaMaisProximosAberta, setListaMaisProximosAberta] = useState(false);
+  const [listaNovidadesAberta, setListaNovidadesAberta] = useState(false);
+  const [idsNovidadesPendentes, setIdsNovidadesPendentes] = useState([]);
+  const [novidadesNotificacao, setNovidadesNotificacao] = useState([]);
   const [favoritosAbertos, setFavoritosAbertos] = useState(false);
   const [contaAberta, setContaAberta] = useState(false);
   const [redefinindoSenha, setRedefinindoSenha] = useState(false);
@@ -1261,6 +1301,7 @@ function App() {
   const painelDetalhesRef = useRef(null);
   const painelListaSemLocalizacaoRef = useRef(null);
   const painelListaMaisProximosRef = useRef(null);
+  const painelListaNovidadesRef = useRef(null);
   const painelFavoritosRef = useRef(null);
   const painelContaRef = useRef(null);
   const painelAlertasRef = useRef(null);
@@ -1275,6 +1316,7 @@ function App() {
   useConterFoco(painelDetalhesRef, detalheSelecionado !== null);
   useConterFoco(painelListaSemLocalizacaoRef, listaSemLocalizacaoAberta);
   useConterFoco(painelListaMaisProximosRef, listaMaisProximosAberta);
+  useConterFoco(painelListaNovidadesRef, listaNovidadesAberta);
   useConterFoco(painelFavoritosRef, favoritosAbertos);
   useConterFoco(painelContaRef, contaAberta);
   useConterFoco(painelAlertasRef, alertasAbertos);
@@ -1322,6 +1364,12 @@ function App() {
 
   function fecharListaMaisProximos() {
     setListaMaisProximosAberta(false);
+    restaurarFoco();
+  }
+
+  function fecharListaNovidades() {
+    setListaNovidadesAberta(false);
+    setNovidadesNotificacao([]);
     restaurarFoco();
   }
 
@@ -1377,6 +1425,10 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharListaMaisProximos();
+      } else if (listaNovidadesAberta) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharListaNovidades();
       } else if (favoritosAbertos) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -1415,6 +1467,7 @@ function App() {
     filtrosAbertos,
     favoritosAbertos,
     listaMaisProximosAberta,
+    listaNovidadesAberta,
     listaSemLocalizacaoAberta,
     sobreAberto,
   ]);
@@ -1448,6 +1501,21 @@ function App() {
       PushNotifications.addListener("pushNotificationReceived", (notificacaoRecebida) => {
         if (!ativo) return;
         mostrarNotificacao(notificacaoRecebida.title || "Você recebeu uma nova notificação.");
+      }),
+      PushNotifications.addListener("pushNotificationActionPerformed", (acao) => {
+        if (!ativo) return;
+
+        const dados = acao.notification.data ?? {};
+        const ids = typeof dados.concursoIds === "string"
+          ? dados.concursoIds.split("|").filter(Boolean)
+          : [];
+
+        if (dados.tipo === "novo_concurso" && ids.length > 0) {
+          setIdsNovidadesPendentes(ids);
+          return;
+        }
+
+        mostrarNotificacao(acao.notification.title || "Notificação aberta.");
       }),
     ]).then((novosOuvintes) => {
       ouvintes = novosOuvintes;
@@ -1606,6 +1674,29 @@ function App() {
     () => new Map(concursos.map((concurso) => [concurso.id, concurso])),
     [concursos],
   );
+
+  useEffect(() => {
+    if (!dadosCarregados || idsNovidadesPendentes.length === 0) return;
+
+    const concursosRecebidos = idsNovidadesPendentes
+      .map((id) => concursosPorId.get(id))
+      .filter(Boolean);
+
+    setIdsNovidadesPendentes([]);
+
+    if (concursosRecebidos.length === 0) {
+      mostrarNotificacao("Os concursos desta notificação não estão mais disponíveis na atualização atual.");
+      return;
+    }
+
+    if (concursosRecebidos.length === 1) {
+      abrirDetalhesNotificacao(concursosRecebidos[0]);
+      return;
+    }
+
+    setNovidadesNotificacao(concursosRecebidos);
+    setListaNovidadesAberta(true);
+  }, [concursosPorId, dadosCarregados, idsNovidadesPendentes]);
 
   const favoritos = useMemo(
     () => idsFavoritos
@@ -2218,6 +2309,17 @@ function App() {
     setFavoritosAbertos(false);
   }
 
+  function abrirDetalhesNotificacao(concurso) {
+    ultimoFocoRef.current = botaoFavoritosRef.current;
+    solicitacaoRotaRef.current += 1;
+    setDetalheSelecionado({ concurso, destino: concurso.localizacao ?? null });
+    setDistanciaRota(null);
+    setCalculandoRota(false);
+    setErroRota(null);
+    setListaNovidadesAberta(false);
+    setNovidadesNotificacao([]);
+  }
+
   async function alternarTelaCheia() {
     try {
       if (document.fullscreenElement) {
@@ -2498,6 +2600,15 @@ function App() {
           aoFechar={fecharListaMaisProximos}
           aoAbrirDetalhes={abrirDetalhes}
           referenciaPainel={painelListaMaisProximosRef}
+        />
+      )}
+
+      {listaNovidadesAberta && (
+        <ListaNovidadesNotificacao
+          concursos={novidadesNotificacao}
+          aoFechar={fecharListaNovidades}
+          aoAbrirDetalhes={abrirDetalhesNotificacao}
+          referenciaPainel={painelListaNovidadesRef}
         />
       )}
 

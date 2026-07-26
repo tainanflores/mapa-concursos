@@ -86,13 +86,18 @@ async function enviarNotificacaoDeTeste(supabase, messaging) {
     return;
   }
 
+  const concursoDeTeste = JSON.parse(readFileSync(ARQUIVO_CONCURSOS, "utf8"))
+    .find((concurso) => concurso.status === "aberto");
+
   const resultado = await messaging.sendEachForMulticast({
     tokens,
     notification: {
       title: "Notificações ativadas",
-      body: "Seu aparelho está pronto para receber alertas do Mapa de Concursos.",
+      body: "Toque para testar a abertura de um concurso no Mapa de Concursos.",
     },
-    data: { tipo: "teste_notificacao" },
+    data: concursoDeTeste
+      ? { tipo: "novo_concurso", concursoIds: concursoDeTeste.id }
+      : { tipo: "teste_notificacao" },
     android: { priority: "high", notification: { channelId: "fcm_fallback_notification_channel" } },
   });
 
@@ -184,7 +189,13 @@ async function executar() {
     const resultado = await messaging.sendEachForMulticast({
       tokens,
       notification: mensagem,
-      data: { tipo: "novo_concurso", alertaId: alerta.id },
+      data: {
+        tipo: "novo_concurso",
+        alertaId: alerta.id,
+        // Dados do FCM são limitados. Dez oportunidades cobrem o caso usual
+        // de uma atualização diária sem comprometer a abertura no aplicativo.
+        concursoIds: pendentes.slice(0, 10).map((concurso) => concurso.id).join("|"),
+      },
       android: { priority: "high", notification: { channelId: "fcm_fallback_notification_channel" } },
     });
 
