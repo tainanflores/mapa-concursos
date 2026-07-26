@@ -4050,37 +4050,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3136702,
-    "cidade": "Juiz de Fora",
-    "uf": "MG",
-    "latitude": -21.7595,
-    "longitude": -43.3398,
-    "concursos": [
-      {
-        "id": "cesama-de-juiz-de-fora-mg-retifica-concurso-publico-com-salarios-de-ate-9-mil:3136702",
-        "concursoId": "cesama-de-juiz-de-fora-mg-retifica-concurso-publico-com-salarios-de-ate-9-mil",
-        "codigoIbge": 3136702,
-        "cidade": "Juiz de Fora",
-        "uf": "MG",
-        "latitude": -21.7595,
-        "longitude": -43.3398,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "CESAMA - Companhia de Saneamento Municipal — CESAMA de Juiz de Fora - MG retifica concurso público com salários de até R$ 9 mil",
-        "orgao": "CESAMA - Companhia de Saneamento Municipal",
-        "titulo": "CESAMA de Juiz de Fora - MG retifica concurso público com salários de até R$ 9 mil",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cesama-de-juiz-de-fora-mg-retifica-concurso-publico-com-salarios-de-ate-9-mil",
-        "vagas": 34,
-        "salarioMaximo": 9065.06,
-        "inscricaoTexto": "10/07/2026",
-        "inscricaoFim": "2026-07-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3137205,
     "cidade": "Lagoa da Prata",
     "uf": "MG",
@@ -5296,37 +5265,6 @@
         "salarioMaximo": 2673.84,
         "inscricaoTexto": "27 a29/07/2026",
         "inscricaoFim": "2026-07-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5007406,
-    "cidade": "Rio Verde de Mato Grosso",
-    "uf": "MS",
-    "latitude": -18.9249,
-    "longitude": -54.8434,
-    "concursos": [
-      {
-        "id": "prefeitura-de-rio-verde-de-mato-grosso-ms-abre-processo-seletivo-para-agente-comunitario-de-saude:5007406",
-        "concursoId": "prefeitura-de-rio-verde-de-mato-grosso-ms-abre-processo-seletivo-para-agente-comunitario-de-saude",
-        "codigoIbge": 5007406,
-        "cidade": "Rio Verde de Mato Grosso",
-        "uf": "MS",
-        "latitude": -18.9249,
-        "longitude": -54.8434,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Rio Verde de Mato Grosso — Prefeitura de Rio Verde de Mato Grosso - MS abre processo seletivo para Agente Comunitário de Saúde",
-        "orgao": "Prefeitura de Rio Verde de Mato Grosso",
-        "titulo": "Prefeitura de Rio Verde de Mato Grosso - MS abre processo seletivo para Agente Comunitário de Saúde",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-verde-de-mato-grosso-ms-abre-processo-seletivo-para-agente-comunitario-de-saude",
-        "vagas": 8,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "25/07/2026",
-        "inscricaoFim": "2026-07-25"
       }
     ],
     "totalConcursos": 1
@@ -7158,37 +7096,6 @@
         "salarioMaximo": 13536.01,
         "inscricaoTexto": "06/08/2026",
         "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2210953,
-    "cidade": "Tamboril do Piauí",
-    "uf": "PI",
-    "latitude": -8.40937,
-    "longitude": -42.9211,
-    "concursos": [
-      {
-        "id": "prefeitura-de-tamboril-do-piaui-pi-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva:2210953",
-        "concursoId": "prefeitura-de-tamboril-do-piaui-pi-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva",
-        "codigoIbge": 2210953,
-        "cidade": "Tamboril do Piauí",
-        "uf": "PI",
-        "latitude": -8.40937,
-        "longitude": -42.9211,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Tamboril do Piauí — Prefeitura de Tamboril do Piauí - PI abre seleções com vagas imediatas e cadastro de reserva",
-        "orgao": "Prefeitura de Tamboril do Piauí",
-        "titulo": "Prefeitura de Tamboril do Piauí - PI abre seleções com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tamboril-do-piaui-pi-abre-selecoes-com-vagas-imediatas-e-cadastro-de-reserva",
-        "vagas": 22,
-        "salarioMaximo": 2600,
-        "inscricaoTexto": "25/07/2026",
-        "inscricaoFim": "2026-07-25"
       }
     ],
     "totalConcursos": 1
@@ -10600,27 +10507,6 @@
         "inscricaoFim": "2026-07-26"
       },
       {
-        "id": "fahece-sc-abre-selecoes-para-condutor-enfermeiro-e-medico-no-samu-de-florianopolis:4205407",
-        "concursoId": "fahece-sc-abre-selecoes-para-condutor-enfermeiro-e-medico-no-samu-de-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre seleções para Condutor, Enfermeiro e Médico no SAMU de Florianópolis",
-        "orgao": "FAHECE - Fundação de Apoio ao Hemosc e Cepon",
-        "titulo": "FAHECE - SC abre seleções para Condutor, Enfermeiro e Médico no SAMU de Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-selecoes-para-condutor-enfermeiro-e-medico-no-samu-de-florianopolis",
-        "vagas": 13,
-        "salarioMaximo": 5839.52,
-        "inscricaoTexto": "25/07/2026",
-        "inscricaoFim": "2026-07-25"
-      },
-      {
         "id": "fahece-sc-abre-selecao-para-analista-de-contratos-i-no-hemosc-de-florianopolis:4205407",
         "concursoId": "fahece-sc-abre-selecao-para-analista-de-contratos-i-no-hemosc-de-florianopolis",
         "codigoIbge": 4205407,
@@ -10705,7 +10591,7 @@
         "inscricaoFim": "2026-08-05"
       }
     ],
-    "totalConcursos": 9
+    "totalConcursos": 8
   },
   {
     "codigoIbge": 4205506,
