@@ -857,6 +857,7 @@ function ContaUsuario({
   aoCadastrar,
   aoSolicitarRedefinicao,
   aoAtualizarSenha,
+  aoAbrirAlertas,
   aoSair,
   referenciaPainel,
 }) {
@@ -969,6 +970,7 @@ function ContaUsuario({
           ) : usuario ? (
             <>
               <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
+              <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
             </>
           ) : (
@@ -1012,6 +1014,92 @@ function ContaUsuario({
             </form>
           )}
           {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, aoFechar, referenciaPainel }) {
+  const [tipo, setTipo] = useState("raio");
+  const [textoCidade, setTextoCidade] = useState("");
+  const [uf, setUf] = useState("");
+  const [raioKm, setRaioKm] = useState("100");
+  const [frequencia, setFrequencia] = useState("diaria");
+  const [mensagem, setMensagem] = useState(null);
+  const [salvando, setSalvando] = useState(false);
+
+  const sugestoes = useMemo(() => {
+    const busca = normalizarTexto(textoCidade);
+    if (busca.length < 2) return [];
+    return municipios.filter((municipio) => normalizarTexto(`${municipio.cidade} ${municipio.uf}`).includes(busca)).slice(0, 8);
+  }, [municipios, textoCidade]);
+
+  async function salvar(evento) {
+    evento.preventDefault();
+    let origem = null;
+
+    if (tipo === "raio") {
+      origem = municipios.find((municipio) => normalizarTexto(`${municipio.cidade} ${municipio.uf}`) === normalizarTexto(textoCidade));
+      if (!origem) {
+        setMensagem("Selecione uma cidade da lista de sugestões.");
+        return;
+      }
+    }
+
+    if (tipo === "uf" && !uf) {
+      setMensagem("Selecione um estado.");
+      return;
+    }
+
+    setSalvando(true);
+    setMensagem(null);
+    const resultado = await aoCriar({ tipo, origem, uf, raioKm: Number(raioKm), frequencia });
+    setSalvando(false);
+    setMensagem(resultado.mensagem);
+    if (resultado.ok) {
+      setTextoCidade("");
+      setUf("");
+    }
+  }
+
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section ref={referenciaPainel} aria-labelledby="titulo-alertas" aria-modal="true" className="painel-sem-localizacao painel-alertas" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
+        <div className="cabecalho-lista-sem-localizacao">
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar alertas" onClick={aoFechar} autoFocus>×</button>
+          <p className="sobretitulo">Notificações de novidades</p>
+          <h2 id="titulo-alertas">Meus alertas</h2>
+          <p>Receba novos concursos conforme a área escolhida. Prazos de favoritos continuam nos lembretes locais.</p>
+        </div>
+        <div className="conteudo-conta">
+          <form className="formulario-conta" onSubmit={salvar}>
+            <fieldset className="campos-conta" disabled={salvando}>
+              <label>Onde procurar
+                <select value={tipo} onChange={({ target }) => setTipo(target.value)}>
+                  <option value="raio">Em um raio de uma cidade</option>
+                  <option value="uf">Em um estado</option>
+                  <option value="nacional">Em todo o Brasil</option>
+                </select>
+              </label>
+              {tipo === "raio" && <label>Cidade de referência
+                <input value={textoCidade} onChange={({ target }) => setTextoCidade(target.value)} placeholder="Digite e selecione uma cidade" autoComplete="off" />
+                {sugestoes.length > 0 && <ul className="sugestoes-alerta">{sugestoes.map((municipio) => <li key={municipio.codigoIbge}><button type="button" onClick={() => setTextoCidade(`${municipio.cidade} - ${municipio.uf}`)}>{municipio.cidade} - {municipio.uf}</button></li>)}</ul>}
+              </label>}
+              {tipo === "raio" && <label>Raio máximo
+                <select value={raioKm} onChange={({ target }) => setRaioKm(target.value)}><option value="50">Até 50 km</option><option value="100">Até 100 km</option><option value="250">Até 250 km</option><option value="500">Até 500 km</option></select>
+              </label>}
+              {tipo === "uf" && <label>Estado
+                <select value={uf} onChange={({ target }) => setUf(target.value)}><option value="">Selecione</option>{Object.keys(ESTADO_E_REGIAO_POR_UF).sort().map((sigla) => <option key={sigla} value={sigla}>{ESTADO_E_REGIAO_POR_UF[sigla].estado} ({sigla})</option>)}</select>
+              </label>}
+              <label>Frequência
+                <select value={frequencia} onChange={({ target }) => setFrequencia(target.value)}><option value="imediata">Assim que houver novidade</option><option value="diaria">Resumo diário</option><option value="semanal">Resumo semanal</option></select>
+              </label>
+              <button type="submit">{salvando ? "Salvando..." : "Criar alerta"}</button>
+            </fieldset>
+          </form>
+          {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
+          <ul className="lista-alertas">{alertas.map((alerta) => <li key={alerta.id}><div><strong>{alerta.nome}</strong><small>{alerta.frequencia === "imediata" ? "Imediato" : alerta.frequencia === "diaria" ? "Resumo diário" : "Resumo semanal"} · {alerta.ativo ? "Ativo" : "Pausado"}</small></div><div className="acoes-favorito"><button type="button" onClick={() => aoAlternar(alerta)}>{alerta.ativo ? "Pausar" : "Ativar"}</button><button type="button" className="botao-remover-favorito" onClick={() => aoExcluir(alerta.id)}>Excluir</button></div></li>)}</ul>
         </div>
       </section>
     </div>
@@ -1123,6 +1211,8 @@ function App() {
   const [favoritosAbertos, setFavoritosAbertos] = useState(false);
   const [contaAberta, setContaAberta] = useState(false);
   const [redefinindoSenha, setRedefinindoSenha] = useState(false);
+  const [alertasAbertos, setAlertasAbertos] = useState(false);
+  const [alertas, setAlertas] = useState([]);
   const [sobreAberto, setSobreAberto] = useState(false);
   const [usuario, setUsuario] = useState(null);
   const [tokenPush, setTokenPush] = useState(null);
@@ -1141,6 +1231,7 @@ function App() {
   const painelListaMaisProximosRef = useRef(null);
   const painelFavoritosRef = useRef(null);
   const painelContaRef = useRef(null);
+  const painelAlertasRef = useRef(null);
   const idsFavoritosRef = useRef(idsFavoritos);
   const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
@@ -1153,6 +1244,7 @@ function App() {
   useConterFoco(painelListaMaisProximosRef, listaMaisProximosAberta);
   useConterFoco(painelFavoritosRef, favoritosAbertos);
   useConterFoco(painelContaRef, contaAberta);
+  useConterFoco(painelAlertasRef, alertasAbertos);
   useConterFoco(painelSobreRef, sobreAberto);
 
   useEffect(() => {
@@ -1209,6 +1301,11 @@ function App() {
     restaurarFoco();
   }
 
+  function fecharAlertas() {
+    setAlertasAbertos(false);
+    restaurarFoco();
+  }
+
   function fecharSobre() {
     setSobreAberto(false);
     restaurarFoco();
@@ -1249,6 +1346,10 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharConta();
+      } else if (alertasAbertos) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharAlertas();
       } else if (sobreAberto) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -1266,6 +1367,7 @@ function App() {
   }, [
     detalheSelecionado,
     contaAberta,
+    alertasAbertos,
     filtrosAbertos,
     favoritosAbertos,
     listaMaisProximosAberta,
@@ -1342,6 +1444,17 @@ function App() {
 
     sincronizarFavoritosComConta(usuario.id).catch(() => {
       mostrarNotificacao("Não foi possível sincronizar seus favoritos agora.");
+    });
+  }, [usuario?.id]);
+
+  useEffect(() => {
+    if (!usuario?.id || !supabase) {
+      setAlertas([]);
+      return;
+    }
+
+    supabase.from("alertas").select("id, nome, criterios, frequencia, ativo").eq("usuario_id", usuario.id).order("criado_em", { ascending: false }).then(({ data, error }) => {
+      if (!error) setAlertas(data ?? []);
     });
   }, [usuario?.id]);
 
@@ -1643,6 +1756,40 @@ function App() {
       setEstadoPush("erro");
       mostrarNotificacao("Não foi possível ativar notificações neste aparelho.");
     }
+  }
+
+  async function criarAlerta({ tipo, origem, uf, raioKm, frequencia }) {
+    if (!supabase || !usuario) return { ok: false, mensagem: "Entre em sua conta para criar alertas." };
+
+    const criterios = tipo === "nacional"
+      ? { abrangencia: "nacional" }
+      : tipo === "uf"
+        ? { abrangencia: "uf", uf }
+        : { abrangencia: "raio", origem, raioKm };
+    const nome = tipo === "nacional"
+      ? "Novos concursos no Brasil"
+      : tipo === "uf"
+        ? `Novos concursos em ${uf}`
+        : `Até ${raioKm} km de ${origem.cidade}/${origem.uf}`;
+    const { data, error } = await supabase.from("alertas").insert({ usuario_id: usuario.id, nome, criterios, frequencia }).select("id, nome, criterios, frequencia, ativo").single();
+
+    if (error) return { ok: false, mensagem: "Não foi possível salvar o alerta agora." };
+    setAlertas((atuais) => [data, ...atuais]);
+    return { ok: true, mensagem: "Alerta criado. Ele será usado nas próximas atualizações." };
+  }
+
+  async function alternarAlerta(alerta) {
+    if (!supabase) return;
+    const { error } = await supabase.from("alertas").update({ ativo: !alerta.ativo }).eq("id", alerta.id);
+    if (error) return mostrarNotificacao("Não foi possível alterar o alerta agora.");
+    setAlertas((atuais) => atuais.map((item) => item.id === alerta.id ? { ...item, ativo: !item.ativo } : item));
+  }
+
+  async function excluirAlerta(id) {
+    if (!supabase) return;
+    const { error } = await supabase.from("alertas").delete().eq("id", id);
+    if (error) return mostrarNotificacao("Não foi possível excluir o alerta agora.");
+    setAlertas((atuais) => atuais.filter((alerta) => alerta.id !== id));
   }
 
   async function alternarFavorito(id) {
@@ -2274,9 +2421,18 @@ function App() {
           aoCadastrar={cadastrarConta}
           aoSolicitarRedefinicao={solicitarRedefinicaoSenha}
           aoAtualizarSenha={atualizarSenha}
+          aoAbrirAlertas={() => {
+            ultimoFocoRef.current = painelContaRef.current?.querySelector("button") ?? botaoFavoritosRef.current;
+            setContaAberta(false);
+            setAlertasAbertos(true);
+          }}
           aoSair={sairDaConta}
           referenciaPainel={painelContaRef}
         />
+      )}
+
+      {alertasAbertos && (
+        <PainelAlertas municipios={municipios} alertas={alertas} aoCriar={criarAlerta} aoAlternar={alternarAlerta} aoExcluir={excluirAlerta} aoFechar={fecharAlertas} referenciaPainel={painelAlertasRef} />
       )}
 
       {sobreAberto && (

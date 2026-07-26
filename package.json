@@ -9,11 +9,14 @@
     "baixar:pci": "node src/baixar-pci.js",
     "extrair": "node src/extrair-listagem.js",
     "atualizar": "node src/atualizar.js",
+    "enviar:alertas": "node src/enviar-alertas.js",
     "testar:noticia": "node src/testar-noticia.js",
     "test": "node --test"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.8",
     "cheerio": "^1.2.0",
-    "csv-parse": "^7.0.1"
+    "csv-parse": "^7.0.1",
+    "firebase-admin": "^14.2.0"
   }
 }

@@ -46,6 +46,15 @@ jobs:
           mudou="$(node src/verificar-alteracoes-dados.js)"
           echo "mudou=$mudou" >> "$GITHUB_OUTPUT"
 
+      - name: Enviar alertas de novos concursos
+        if: steps.dados.outputs.mudou == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run enviar:alertas
+
       - name: Salvar mudanças
         run: |
           if [ "${{ steps.dados.outputs.mudou }}" != "true" ]; then

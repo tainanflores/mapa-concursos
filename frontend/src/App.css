@@ -974,6 +974,55 @@ a:focus-visible {
   line-height: 1.5;
 }
 
+.sugestoes-alerta,
+.lista-alertas {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sugestoes-alerta {
+  max-height: 11rem;
+  overflow-y: auto;
+  border: 1px solid #dbe5df;
+  border-radius: 8px;
+}
+
+.sugestoes-alerta button {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border-radius: 0;
+  background: #fff;
+  color: #315d4f;
+  text-align: left;
+}
+
+.sugestoes-alerta button:hover {
+  background: #edf6f1;
+}
+
+.lista-alertas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem;
+  border: 1px solid #dbe5df;
+  border-radius: 9px;
+}
+
+.lista-alertas strong,
+.lista-alertas small {
+  display: block;
+}
+
+.lista-alertas small {
+  margin-top: 0.2rem;
+  color: #52675e;
+}
+
 .mensagem-conta {
   margin: 0;
   color: #405b50;

@@ -226,6 +226,7 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [x] Oferecer confirmação de senha no cadastro e recuperação de senha por e-mail.
 - [ ] Sincronizar pesquisas e preferências entre aparelhos.
 - [x] Integrar Firebase Cloud Messaging no app Android e validar o primeiro envio em ambiente de teste.
+- [x] Permitir configurar alertas de novos concursos por alcance nacional, UF ou raio de cidade, com frequência imediata, diária ou semanal.
 - [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
 - [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
 - [x] Implementar lembretes locais para favoritos: avisos 7, 3 e 1 dia antes do prazo, com horário configurável no APK e sem backend.
