@@ -6,6 +6,10 @@ import { createClient } from "@supabase/supabase-js";
 
 const ARQUIVO_CONCURSOS = "public/data/concursos.json";
 const ARQUIVO_PONTOS = "public/data/pontos-mapa.json";
+const ERROS_TOKEN_INVALIDO = new Set([
+  "messaging/invalid-registration-token",
+  "messaging/registration-token-not-registered",
+]);
 
 function distanciaEmKm(origem, destino) {
   const raioTerra = 6371;
@@ -71,6 +75,22 @@ function resumoNotificacao(concursos) {
   };
 }
 
+async function desativarTokensInvalidos(supabase, dispositivos) {
+  const tokensInvalidos = dispositivos
+    .filter(({ resposta }) => ERROS_TOKEN_INVALIDO.has(resposta.error?.code))
+    .map(({ token }) => token);
+
+  if (tokensInvalidos.length === 0) return 0;
+
+  const { error } = await supabase
+    .from("dispositivos")
+    .update({ ativo: false })
+    .in("token_push", tokensInvalidos);
+
+  if (error) throw error;
+  return tokensInvalidos.length;
+}
+
 async function enviarNotificacaoDeTeste(supabase, messaging) {
   const { data: dispositivos, error } = await supabase
     .from("dispositivos")
@@ -101,11 +121,16 @@ async function enviarNotificacaoDeTeste(supabase, messaging) {
     android: { priority: "high", notification: { channelId: "fcm_fallback_notification_channel" } },
   });
 
+  const tokensDesativados = await desativarTokensInvalidos(
+    supabase,
+    resultado.responses.map((resposta, indice) => ({ token: tokens[indice], resposta })),
+  );
+
   if (resultado.failureCount > 0) {
     const falhas = resultado.responses
       .filter((resposta) => !resposta.success)
       .map((resposta) => resposta.error?.code ?? "erro-desconhecido");
-    console.log(`Teste enviado para ${resultado.successCount} dispositivo(s); ${resultado.failureCount} falha(s): ${falhas.join(", ")}`);
+    console.log(`Teste enviado para ${resultado.successCount} dispositivo(s); ${resultado.failureCount} falha(s): ${falhas.join(", ")}. ${tokensDesativados} token(s) inválido(s) desativado(s).`);
     return;
   }
 
@@ -198,6 +223,15 @@ async function executar() {
       },
       android: { priority: "high", notification: { channelId: "fcm_fallback_notification_channel" } },
     });
+
+    const tokensDesativados = await desativarTokensInvalidos(
+      supabase,
+      resultado.responses.map((resposta, indice) => ({ token: tokens[indice], resposta })),
+    );
+
+    if (tokensDesativados > 0) {
+      console.log(`${tokensDesativados} token(s) inválido(s) desativado(s) para o alerta ${alerta.id}.`);
+    }
 
     if (resultado.successCount === 0) continue;
     const { error: erroRegistro } = await supabase.from("envios_notificacao").upsert(

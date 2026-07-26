@@ -255,8 +255,8 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [x] Criar rotina segura no GitHub Actions que detecta concursos novos e abertos, aplica a área de cada alerta, evita duplicação e envia pelo FCM sem expor credenciais administrativas.
 - [x] Criar disparo manual de notificação de teste para validar GitHub Actions, Supabase, Firebase e o APK sem depender de concurso novo.
 - [x] Simplificar a tela e o banco de alertas: remover frequência, situação e tipo; preparar cidade específica como alerta gratuito e UF, raio ou Brasil como recursos Plus. Os tipos Plus permanecem liberados durante os testes, até a cobrança ser ativada.
-- [ ] Fazer o toque em uma notificação abrir os concursos ou o detalhe relacionado no aplicativo.
-- [ ] Limpar ou desativar tokens FCM inválidos retornados pelo Firebase, para não repetir tentativas a aparelhos removidos.
+- [x] Fazer o toque em uma notificação abrir os concursos ou o detalhe relacionado no aplicativo.
+- [x] Limpar ou desativar tokens FCM inválidos retornados pelo Firebase, para não repetir tentativas a aparelhos removidos.
 - [x] Implementar lembretes locais para favoritos: avisos 7, 3 e 1 dia antes do prazo, com horário configurável no APK e sem backend.
 - [ ] Restringir lembretes locais de prazo a contas Plus quando o controle de planos e a cobrança estiverem ativos.
 
