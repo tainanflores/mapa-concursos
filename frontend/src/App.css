@@ -1147,7 +1147,15 @@ a:focus-visible {
 }
 
 .botao-excluir-conta {
+  justify-self: start;
+  margin-top: 0.35rem;
+  border: 1px solid #d98b8b;
+  background: #fff8f8;
   color: #a12c2c;
+}
+
+.botao-excluir-conta:hover {
+  background: #fde8e8;
 }
 
 .botao-link-conta {

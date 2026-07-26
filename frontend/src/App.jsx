@@ -1042,7 +1042,7 @@ function ContaUsuario({
               <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
               <button type="button" className="botao-secundario" onClick={aoAbrirPlus}>Conhecer o Mapa de Concursos Plus</button>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
-              <button type="button" className="botao-link-conta botao-excluir-conta" onClick={() => setConfirmandoExclusao(true)}>Excluir conta e dados</button>
+              <button type="button" className="botao-excluir-conta" onClick={() => setConfirmandoExclusao(true)}>Excluir conta e dados</button>
             </>
           ) : (
             <form className="formulario-conta" onSubmit={enviarFormulario}>
@@ -1336,6 +1336,7 @@ function App() {
   const painelAlertasRef = useRef(null);
   const painelPlusRef = useRef(null);
   const idsFavoritosRef = useRef(idsFavoritos);
+  const pushDesativadoRef = useRef(pushDesativado);
   const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
   const solicitacaoRotaRef = useRef(0);
@@ -1511,16 +1512,32 @@ function App() {
   }, [idsFavoritos]);
 
   useEffect(() => {
+    pushDesativadoRef.current = pushDesativado;
+  }, [pushDesativado]);
+
+  useEffect(() => {
     if (!Capacitor.isNativePlatform()) return undefined;
 
     let ativo = true;
     let ouvintes = [];
 
     Promise.all([
-      PushNotifications.addListener("registration", (token) => {
-        if (!ativo) return;
-        setTokenPush(token.value);
-        setEstadoPush("ativo");
+      PushNotifications.addListener("registration", async (token) => {
+        try {
+          const permissao = await PushNotifications.checkPermissions();
+          if (!ativo) return;
+
+          if (permissao.receive === "granted" && !pushDesativadoRef.current) {
+            setTokenPush(token.value);
+            setEstadoPush("ativo");
+            return;
+          }
+
+          setTokenPush(null);
+          setEstadoPush(permissao.receive === "prompt" ? "inativo" : "negado");
+        } catch {
+          if (ativo) setEstadoPush("erro");
+        }
       }),
       PushNotifications.addListener("registrationError", () => {
         if (!ativo) return;
@@ -1629,13 +1646,13 @@ function App() {
   }, [usuario?.id]);
 
   useEffect(() => {
-    if (!tokenPush || !usuario?.id || !supabase) return;
+    if (!tokenPush || estadoPush !== "ativo" || !usuario?.id || !supabase) return;
 
     sincronizarDispositivoPush(usuario.id, tokenPush).catch(() => {
       setEstadoPush("erro");
       mostrarNotificacao("As notificações foram ativadas, mas este aparelho ainda não foi vinculado à conta.");
     });
-  }, [tokenPush, usuario?.id]);
+  }, [estadoPush, tokenPush, usuario?.id]);
 
   useEffect(() => {
     try {
