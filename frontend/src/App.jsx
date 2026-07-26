@@ -3,6 +3,7 @@ import { Capacitor, SystemBars, SystemBarsStyle } from "@capacitor/core";
 import { Geolocation } from "@capacitor/geolocation";
 import { LocalNotifications } from "@capacitor/local-notifications";
 import { PushNotifications } from "@capacitor/push-notifications";
+import { ConsentStatus, ConsentType, FirebaseAnalytics } from "@capacitor-firebase/analytics";
 import { supabase, supabaseConfigurado } from "./supabase.js";
 import L from "leaflet";
 import {
@@ -55,6 +56,14 @@ function resolverPlano(perfil) {
   const plusValido = perfil?.plano === "plus"
     && (!perfil.plano_expira_em || new Date(perfil.plano_expira_em) > new Date());
   return plusValido ? { codigo: "plus", ...PLANOS.plus } : { codigo: "gratuito", ...PLANOS.gratuito };
+}
+
+function registrarEventoAnalitico(nome, parametros = {}) {
+  if (!Capacitor.isNativePlatform()) return;
+
+  FirebaseAnalytics.logEvent({ name: nome, params: parametros }).catch(() => {
+    // Métricas nunca podem impedir o funcionamento do mapa.
+  });
 }
 
 function urlDados(origem, arquivo) {
@@ -1540,6 +1549,19 @@ function App() {
   }, [pushDesativado]);
 
   useEffect(() => {
+    if (!Capacitor.isNativePlatform()) return;
+
+    Promise.all([
+      FirebaseAnalytics.setConsent({ type: ConsentType.AnalyticsStorage, status: ConsentStatus.Granted }),
+      FirebaseAnalytics.setConsent({ type: ConsentType.AdStorage, status: ConsentStatus.Denied }),
+      FirebaseAnalytics.setConsent({ type: ConsentType.AdUserData, status: ConsentStatus.Denied }),
+      FirebaseAnalytics.setConsent({ type: ConsentType.AdPersonalization, status: ConsentStatus.Denied }),
+    ]).catch(() => {
+      // O app segue funcional se o Analytics não estiver disponível no aparelho.
+    });
+  }, []);
+
+  useEffect(() => {
     if (!Capacitor.isNativePlatform()) return undefined;
 
     let ativo = true;
@@ -1581,6 +1603,7 @@ function App() {
           : [];
 
         if (dados.tipo === "novo_concurso" && ids.length > 0) {
+          registrarEventoAnalitico("notification_opened", { quantidade_concursos: ids.length });
           setIdsNovidadesPendentes(ids);
           return;
         }
@@ -2070,6 +2093,7 @@ function App() {
 
     if (error) return { ok: false, mensagem: "Não foi possível salvar o alerta agora." };
     setAlertas((atuais) => [data, ...atuais]);
+    registrarEventoAnalitico("alert_created", { tipo_alerta: tipo });
     return { ok: true, mensagem: "Alerta criado. Ele será usado nas próximas atualizações." };
   }
 
@@ -2078,6 +2102,7 @@ function App() {
     const { error } = await supabase.from("alertas").update({ ativo: !alerta.ativo }).eq("id", alerta.id);
     if (error) return mostrarNotificacao("Não foi possível alterar o alerta agora.");
     setAlertas((atuais) => atuais.map((item) => item.id === alerta.id ? { ...item, ativo: !item.ativo } : item));
+    registrarEventoAnalitico("alert_toggled", { ativo: !alerta.ativo ? "sim" : "nao" });
   }
 
   async function excluirAlerta(id) {
@@ -2135,6 +2160,8 @@ function App() {
 
     if (error) return { mensagem: error.message };
 
+    registrarEventoAnalitico("sign_up", { metodo: "email" });
+
     return {
       mensagem: data.session
         ? "Conta criada. Seus favoritos serão sincronizados agora."
@@ -2190,6 +2217,8 @@ function App() {
 
     const { error } = await supabase.rpc("excluir_minha_conta");
     if (error) return { ok: false, mensagem: "Não foi possível excluir a conta agora. Tente novamente mais tarde." };
+
+    registrarEventoAnalitico("account_deleted");
 
     try {
       const idsLembretes = lerIdsLembretes();

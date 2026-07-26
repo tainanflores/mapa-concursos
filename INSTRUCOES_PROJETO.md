@@ -280,7 +280,8 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [ ] Ocultar anúncios para Plus, mapas em tela cheia, modais e telas críticas; nunca cobrir mapa, pins ou controles.
 - [ ] Integrar Google Play Billing em ambiente sandbox e validar compras/assinaturas em backend seguro antes de conceder o plano Plus.
 - [ ] Ativar Plus: sem anúncios, até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo e preferências avançadas planejadas.
-- [ ] Implementar métricas mínimas de produto, sem localização precisa para publicidade: instalações, contas, alertas, entrega/abertura de notificações e conversão para Plus.
+- [x] Implementar métricas mínimas no Firebase Analytics, sem localização precisa, e sem armazenamento ou personalização para publicidade: contas, alertas e abertura de notificações. Instalações são registradas automaticamente pelo Firebase.
+- [ ] Medir entrega de notificações e conversão para Plus quando assinatura e cobrança existirem.
 - [ ] Preparar ficha da Play Store: ícone, screenshots, classificação indicativa, Data Safety, política de privacidade e beta fechado.
 - [ ] Publicar beta fechado, recolher feedback e só então habilitar anúncios e assinaturas para público real.
 
