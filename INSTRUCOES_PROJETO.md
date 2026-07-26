@@ -267,7 +267,7 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [ ] Centralizar no front-end os limites do plano, sem bloqueio definitivo enquanto o Google Play Billing não estiver validado.
 - [x] Definir os limites iniciais: gratuito com 1 alerta ativo para cidade específica; Plus com até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo, sem anúncios e futuras preferências avançadas.
 - [x] Definir o preço inicial do Plus: R$ 4,90/mês ou R$ 39,90/ano, sem teste gratuito na primeira versão.
-- [ ] Criar tela informativa “Mapa de Concursos Plus”, sem compra ativa, explicando o que será gratuito e Premium.
+- [x] Criar tela informativa “Mapa de Concursos Plus”, sem compra ativa, explicando o que será gratuito e Premium.
 - [ ] Incluir exclusão definitiva de conta e dados pessoais na tela de conta antes do lançamento público.
 - [ ] Confirmar a hospedagem compatível com uso comercial antes de ativar anúncios ou assinaturas; migrar o frontend e JSONs se necessário.
 - [ ] Atualizar os documentos legais com provedores, anúncios e pagamentos efetivamente ativados.

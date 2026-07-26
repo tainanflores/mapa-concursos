@@ -732,6 +732,7 @@ function ListaFavoritos({
   aoAbrirDetalhes,
   aoAbrirConta,
   aoAbrirAlertas,
+  aoAbrirPlus,
   aoAtivarPush,
   aoDesativarPush,
   aoRemover,
@@ -767,6 +768,7 @@ function ListaFavoritos({
           <div className="acoes-conta-favoritos">
             {supabaseConfigurado && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>{usuario ? "Gerenciar conta" : "Entrar para sincronizar"}</button>}
             {usuario && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirAlertas}>Gerenciar alertas</button>}
+            <button className="botao-conta-favoritos" type="button" onClick={aoAbrirPlus}>Conhecer o Plus</button>
             {notificacoesDisponiveis && usuario && (estadoPush === "ativo" && !pushDesativado ? <>
               <span className="estado-push">● Notificações push ativadas</span>
               <button className="botao-secundario" type="button" onClick={aoDesativarPush}>Desativar push</button>
@@ -859,6 +861,7 @@ function ContaUsuario({
   aoSolicitarRedefinicao,
   aoAtualizarSenha,
   aoAbrirAlertas,
+  aoAbrirPlus,
   aoSair,
   referenciaPainel,
 }) {
@@ -972,6 +975,7 @@ function ContaUsuario({
             <>
               <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
               <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
+              <button type="button" className="botao-secundario" onClick={aoAbrirPlus}>Conhecer o Mapa de Concursos Plus</button>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
             </>
           ) : (
@@ -1105,6 +1109,33 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
   );
 }
 
+function PainelPlus({ aoFechar, referenciaPainel }) {
+  return (
+    <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
+      <section ref={referenciaPainel} aria-labelledby="titulo-plus" aria-modal="true" className="painel-sem-localizacao painel-plus" role="dialog" onMouseDown={(evento) => evento.stopPropagation()}>
+        <div className="cabecalho-lista-sem-localizacao">
+          <button className="botao-fechar-filtros" type="button" aria-label="Fechar informações do Plus" onClick={aoFechar} autoFocus>×</button>
+          <p className="sobretitulo">Mapa de Concursos Plus</p>
+          <h2 id="titulo-plus">Acompanhe mais oportunidades</h2>
+          <p>O Plus foi planejado para quem acompanha concursos em mais de uma área e prefere usar o aplicativo sem anúncios.</p>
+        </div>
+        <div className="conteudo-conta conteudo-plus">
+          <section className="cartao-preco-plus" aria-label="Preço planejado do Plus">
+            <span>Preço planejado</span>
+            <strong>R$ 4,90 <small>por mês</small></strong>
+            <p>ou R$ 39,90 por ano</p>
+          </section>
+          <section className="comparacao-plus">
+            <div><h3>Gratuito</h3><ul><li>Mapa, filtros e detalhes</li><li>Favoritos sincronizados</li><li>1 alerta para cidade específica</li><li>Publicidade discreta</li></ul></div>
+            <div className="destaque-plus"><h3>Plus</h3><ul><li>Sem anúncios</li><li>Até 10 alertas</li><li>Alertas por UF, raio e Brasil</li><li>Lembretes de prazo</li></ul></div>
+          </section>
+          <p className="aviso-alertas-plus">As assinaturas ainda não estão disponíveis. Durante os testes, os tipos de alerta planejados para Plus permanecem liberados.</p>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function SobreProjeto({ aoFechar, referenciaPainel }) {
   return (
     <div className="sobreposicao-lista" role="presentation" onMouseDown={aoFechar}>
@@ -1212,6 +1243,7 @@ function App() {
   const [redefinindoSenha, setRedefinindoSenha] = useState(false);
   const [alertasAbertos, setAlertasAbertos] = useState(false);
   const [alertas, setAlertas] = useState([]);
+  const [plusAberto, setPlusAberto] = useState(false);
   const [sobreAberto, setSobreAberto] = useState(false);
   const [usuario, setUsuario] = useState(null);
   const [tokenPush, setTokenPush] = useState(null);
@@ -1232,6 +1264,7 @@ function App() {
   const painelFavoritosRef = useRef(null);
   const painelContaRef = useRef(null);
   const painelAlertasRef = useRef(null);
+  const painelPlusRef = useRef(null);
   const idsFavoritosRef = useRef(idsFavoritos);
   const painelSobreRef = useRef(null);
   const cacheRotasRef = useRef(new Map());
@@ -1245,6 +1278,7 @@ function App() {
   useConterFoco(painelFavoritosRef, favoritosAbertos);
   useConterFoco(painelContaRef, contaAberta);
   useConterFoco(painelAlertasRef, alertasAbertos);
+  useConterFoco(painelPlusRef, plusAberto);
   useConterFoco(painelSobreRef, sobreAberto);
 
   useEffect(() => {
@@ -1306,6 +1340,11 @@ function App() {
     restaurarFoco();
   }
 
+  function fecharPlus() {
+    setPlusAberto(false);
+    restaurarFoco();
+  }
+
   function fecharSobre() {
     setSobreAberto(false);
     restaurarFoco();
@@ -1350,6 +1389,10 @@ function App() {
         evento.preventDefault();
         evento.stopPropagation();
         fecharAlertas();
+      } else if (plusAberto) {
+        evento.preventDefault();
+        evento.stopPropagation();
+        fecharPlus();
       } else if (sobreAberto) {
         evento.preventDefault();
         evento.stopPropagation();
@@ -1368,6 +1411,7 @@ function App() {
     detalheSelecionado,
     contaAberta,
     alertasAbertos,
+    plusAberto,
     filtrosAbertos,
     favoritosAbertos,
     listaMaisProximosAberta,
@@ -2480,6 +2524,11 @@ function App() {
             setFavoritosAbertos(false);
             setAlertasAbertos(true);
           }}
+          aoAbrirPlus={() => {
+            ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
+            setFavoritosAbertos(false);
+            setPlusAberto(true);
+          }}
           aoAtivarPush={ativarNotificacoesPush}
           aoDesativarPush={desativarNotificacoesPush}
           aoRemover={alternarFavorito}
@@ -2501,6 +2550,11 @@ function App() {
             setContaAberta(false);
             setAlertasAbertos(true);
           }}
+          aoAbrirPlus={() => {
+            ultimoFocoRef.current = painelContaRef.current?.querySelector("button") ?? botaoFavoritosRef.current;
+            setContaAberta(false);
+            setPlusAberto(true);
+          }}
           aoSair={sairDaConta}
           referenciaPainel={painelContaRef}
         />
@@ -2508,6 +2562,10 @@ function App() {
 
       {alertasAbertos && (
         <PainelAlertas municipios={municipios} alertas={alertas} aoCriar={criarAlerta} aoAlternar={alternarAlerta} aoExcluir={excluirAlerta} aoFechar={fecharAlertas} referenciaPainel={painelAlertasRef} />
+      )}
+
+      {plusAberto && (
+        <PainelPlus aoFechar={fecharPlus} referenciaPainel={painelPlusRef} />
       )}
 
       {sobreAberto && (

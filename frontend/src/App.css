@@ -1056,6 +1056,71 @@ a:focus-visible {
   line-height: 1.45;
 }
 
+.conteudo-plus {
+  gap: 1.1rem;
+}
+
+.cartao-preco-plus {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #075e45, #0b8964);
+  color: #fff;
+}
+
+.cartao-preco-plus span {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cartao-preco-plus strong {
+  font-size: 1.75rem;
+}
+
+.cartao-preco-plus strong small {
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+.cartao-preco-plus p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.comparacao-plus {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.comparacao-plus > div {
+  padding: 0.9rem;
+  border: 1px solid #dbe5df;
+  border-radius: 10px;
+}
+
+.comparacao-plus .destaque-plus {
+  border-color: #0b8964;
+  background: #edf8f2;
+}
+
+.comparacao-plus h3 {
+  margin: 0 0 0.55rem;
+}
+
+.comparacao-plus ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #405b50;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
 .mensagem-conta {
   margin: 0;
   color: #405b50;
@@ -1540,5 +1605,9 @@ a:focus-visible {
 
   .lista-alertas .acoes-favorito button {
     flex: 1 1 8rem;
+  }
+
+  .comparacao-plus {
+    grid-template-columns: 1fr;
   }
 }
