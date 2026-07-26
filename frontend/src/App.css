@@ -863,13 +863,29 @@ a:focus-visible {
 }
 
 .botao-conta-favoritos {
-  margin-top: 0.9rem;
   background: #edf6f1;
   color: #075e45;
 }
 
 .botao-conta-favoritos:hover {
   background: #d9eee5;
+}
+
+.acoes-conta-favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 0.9rem;
+}
+
+.estado-push {
+  padding: 0.48rem 0.7rem;
+  border-radius: 999px;
+  background: #d9eee5;
+  color: #075e45;
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .conteudo-conta {
@@ -1011,6 +1027,12 @@ a:focus-visible {
   padding: 0.9rem;
   border: 1px solid #dbe5df;
   border-radius: 9px;
+}
+
+.lista-alertas .acoes-favorito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .lista-alertas strong,
@@ -1494,5 +1516,18 @@ a:focus-visible {
 
   .acoes-favorito {
     width: 100%;
+  }
+
+  .lista-alertas li {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .lista-alertas .acoes-favorito {
+    justify-content: stretch;
+  }
+
+  .lista-alertas .acoes-favorito button {
+    flex: 1 1 8rem;
   }
 }

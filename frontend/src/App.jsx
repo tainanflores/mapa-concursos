@@ -37,6 +37,7 @@ const CHAVE_FAVORITOS = "mapa-concursos:favoritos:v1";
 const CHAVE_LEMBRETES_ATIVOS = "mapa-concursos:lembretes-ativos:v1";
 const CHAVE_IDS_LEMBRETES = "mapa-concursos:ids-lembretes:v1";
 const CHAVE_HORA_LEMBRETES = "mapa-concursos:hora-lembretes:v1";
+const CHAVE_PUSH_DESATIVADO = "mapa-concursos:push-desativado:v1";
 const ORIGEM_DADOS_REMOTA = import.meta.env.VITE_DADOS_BASE_URL?.replace(/\/+$/, "");
 
 function urlDados(origem, arquivo) {
@@ -162,6 +163,14 @@ function lerHoraLembretes() {
     return /^([01]\d|2[0-3]):[0-5]\d$/.test(hora ?? "") ? hora : "09:00";
   } catch {
     return "09:00";
+  }
+}
+
+function lerPushDesativado() {
+  try {
+    return window.localStorage.getItem(CHAVE_PUSH_DESATIVADO) === "true";
+  } catch {
+    return false;
   }
 }
 
@@ -713,6 +722,7 @@ function ListaFavoritos({
   concursos,
   usuario,
   estadoPush,
+  pushDesativado,
   lembretesAtivos,
   horaLembretes,
   notificacoesDisponiveis,
@@ -721,7 +731,9 @@ function ListaFavoritos({
   aoFechar,
   aoAbrirDetalhes,
   aoAbrirConta,
+  aoAbrirAlertas,
   aoAtivarPush,
+  aoDesativarPush,
   aoRemover,
   referenciaPainel,
 }) {
@@ -752,25 +764,14 @@ function ListaFavoritos({
               ? "Seus favoritos são sincronizados com sua conta."
               : "Entre em uma conta para sincronizar seus favoritos entre aparelhos."}
           </p>
-          {supabaseConfigurado && (
-            <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>
-              {usuario ? "Gerenciar conta" : "Entrar para sincronizar"}
-            </button>
-          )}
-          {notificacoesDisponiveis && usuario && (
-            <button
-              className="botao-conta-favoritos"
-              type="button"
-              disabled={estadoPush === "solicitando"}
-              onClick={aoAtivarPush}
-            >
-              {estadoPush === "ativo"
-                ? "Notificações push ativadas"
-                : estadoPush === "solicitando"
-                  ? "Ativando notificações..."
-                  : "Ativar notificações push"}
-            </button>
-          )}
+          <div className="acoes-conta-favoritos">
+            {supabaseConfigurado && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirConta}>{usuario ? "Gerenciar conta" : "Entrar para sincronizar"}</button>}
+            {usuario && <button className="botao-conta-favoritos" type="button" onClick={aoAbrirAlertas}>Gerenciar alertas</button>}
+            {notificacoesDisponiveis && usuario && (estadoPush === "ativo" && !pushDesativado ? <>
+              <span className="estado-push">● Notificações push ativadas</span>
+              <button className="botao-secundario" type="button" onClick={aoDesativarPush}>Desativar push</button>
+            </> : <button className="botao-conta-favoritos" type="button" disabled={estadoPush === "solicitando"} onClick={aoAtivarPush}>{estadoPush === "solicitando" ? "Ativando notificações..." : estadoPush === "negado" ? "Permitir notificações push" : "Ativar notificações push"}</button>)}
+          </div>
           {notificacoesDisponiveis && !usuario && (
             <p className="aviso-lembretes">Entre em uma conta para ativar notificações push neste aparelho.</p>
           )}
@@ -1217,6 +1218,7 @@ function App() {
   const [usuario, setUsuario] = useState(null);
   const [tokenPush, setTokenPush] = useState(null);
   const [estadoPush, setEstadoPush] = useState("inativo");
+  const [pushDesativado, setPushDesativado] = useState(lerPushDesativado);
   const [eventoInstalacao, setEventoInstalacao] = useState(null);
   const [idsFavoritos, setIdsFavoritos] = useState(lerIdsFavoritos);
   const [lembretesAtivos, setLembretesAtivos] = useState(() => lerValorBooleano(CHAVE_LEMBRETES_ATIVOS));
@@ -1414,6 +1416,35 @@ function App() {
       ouvintes.forEach((ouvinte) => ouvinte.remove());
     };
   }, []);
+
+  useEffect(() => {
+    if (!Capacitor.isNativePlatform() || pushDesativado) return;
+
+    let ativo = true;
+
+    async function verificarRegistroExistente() {
+      try {
+        const permissao = await PushNotifications.checkPermissions();
+        if (!ativo) return;
+
+        if (permissao.receive === "granted") {
+          setEstadoPush("solicitando");
+          await PushNotifications.register();
+          return;
+        }
+
+        if (permissao.receive !== "prompt") setEstadoPush("negado");
+      } catch {
+        if (ativo) setEstadoPush("erro");
+      }
+    }
+
+    verificarRegistroExistente();
+
+    return () => {
+      ativo = false;
+    };
+  }, [pushDesativado]);
 
   useEffect(() => {
     if (!supabase) return undefined;
@@ -1750,11 +1781,46 @@ function App() {
         return;
       }
 
+      try {
+        window.localStorage.removeItem(CHAVE_PUSH_DESATIVADO);
+      } catch {
+        // A preferência fica ativa somente até o aplicativo ser fechado.
+      }
+      setPushDesativado(false);
       setEstadoPush("solicitando");
       await PushNotifications.register();
     } catch {
       setEstadoPush("erro");
       mostrarNotificacao("Não foi possível ativar notificações neste aparelho.");
+    }
+  }
+
+  async function desativarNotificacoesPush() {
+    if (!Capacitor.isNativePlatform()) return;
+
+    try {
+      if (supabase && usuario?.id && tokenPush) {
+        const { error } = await supabase
+          .from("dispositivos")
+          .update({ ativo: false })
+          .eq("usuario_id", usuario.id)
+          .eq("token_push", tokenPush);
+
+        if (error) throw error;
+      }
+
+      await PushNotifications.unregister();
+      try {
+        window.localStorage.setItem(CHAVE_PUSH_DESATIVADO, "true");
+      } catch {
+        // A desativação ainda vale para esta sessão.
+      }
+      setPushDesativado(true);
+      setTokenPush(null);
+      setEstadoPush("inativo");
+      mostrarNotificacao("Notificações push desativadas neste aparelho.");
+    } catch {
+      mostrarNotificacao("Não foi possível desativar as notificações agora.");
     }
   }
 
@@ -2394,6 +2460,7 @@ function App() {
           concursos={favoritos}
           usuario={usuario}
           estadoPush={estadoPush}
+          pushDesativado={pushDesativado}
           lembretesAtivos={lembretesAtivos}
           horaLembretes={horaLembretes}
           notificacoesDisponiveis={Capacitor.isNativePlatform()}
@@ -2406,7 +2473,13 @@ function App() {
             setFavoritosAbertos(false);
             setContaAberta(true);
           }}
+          aoAbrirAlertas={() => {
+            ultimoFocoRef.current = painelFavoritosRef.current?.querySelector(".botao-conta-favoritos") ?? botaoFavoritosRef.current;
+            setFavoritosAbertos(false);
+            setAlertasAbertos(true);
+          }}
           aoAtivarPush={ativarNotificacoesPush}
+          aoDesativarPush={desativarNotificacoesPush}
           aoRemover={alternarFavorito}
           referenciaPainel={painelFavoritosRef}
         />
