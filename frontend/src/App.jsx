@@ -899,6 +899,7 @@ function ContaUsuario({
   aoAtualizarSenha,
   aoAbrirAlertas,
   aoAbrirPlus,
+  aoExcluirConta,
   aoSair,
   referenciaPainel,
 }) {
@@ -908,6 +909,8 @@ function ContaUsuario({
   const [confirmacaoSenha, setConfirmacaoSenha] = useState("");
   const [mostrarSenha, setMostrarSenha] = useState(false);
   const [aguardandoConfirmacao, setAguardandoConfirmacao] = useState(false);
+  const [confirmandoExclusao, setConfirmandoExclusao] = useState(false);
+  const [textoExclusao, setTextoExclusao] = useState("");
   const [mensagem, setMensagem] = useState(null);
   const [enviando, setEnviando] = useState(false);
 
@@ -954,6 +957,19 @@ function ContaUsuario({
     setEnviando(true);
     setMensagem(null);
     const resultado = await aoSolicitarRedefinicao({ email });
+    setEnviando(false);
+    setMensagem(resultado.mensagem);
+  }
+
+  async function excluirConta() {
+    if (textoExclusao.trim().toUpperCase() !== "EXCLUIR") {
+      setMensagem('Digite "EXCLUIR" para confirmar a remoção da conta.');
+      return;
+    }
+
+    setEnviando(true);
+    setMensagem(null);
+    const resultado = await aoExcluirConta();
     setEnviando(false);
     setMensagem(resultado.mensagem);
   }
@@ -1009,11 +1025,24 @@ function ContaUsuario({
               </fieldset>
             </form>
           ) : usuario ? (
-            <>
+            confirmandoExclusao ? (
+              <form className="formulario-conta confirmacao-exclusao" onSubmit={(evento) => { evento.preventDefault(); excluirConta(); }}>
+                <p><strong>Esta ação é definitiva.</strong> Seus alertas, favoritos sincronizados e dispositivos serão removidos.</p>
+                <label>
+                  Digite EXCLUIR para confirmar
+                  <input value={textoExclusao} onChange={({ target }) => setTextoExclusao(target.value)} autoComplete="off" disabled={enviando} />
+                </label>
+                <div className="acoes-confirmacao-exclusao">
+                  <button className="botao-secundario" type="button" disabled={enviando} onClick={() => { setConfirmandoExclusao(false); setTextoExclusao(""); setMensagem(null); }}>Cancelar</button>
+                  <button className="botao-remover-favorito" type="submit" disabled={enviando}>{enviando ? "Excluindo..." : "Excluir minha conta"}</button>
+                </div>
+              </form>
+            ) : <>
               <p className="email-conta">Conectado como <strong>{usuario.email}</strong></p>
               <button type="button" onClick={aoAbrirAlertas}>Configurar alertas</button>
               <button type="button" className="botao-secundario" onClick={aoAbrirPlus}>Conhecer o Mapa de Concursos Plus</button>
               <button type="button" className="botao-remover-favorito" onClick={aoSair}>Sair da conta</button>
+              <button type="button" className="botao-link-conta botao-excluir-conta" onClick={() => setConfirmandoExclusao(true)}>Excluir conta e dados</button>
             </>
           ) : (
             <form className="formulario-conta" onSubmit={enviarFormulario}>
@@ -2093,6 +2122,47 @@ function App() {
     mostrarNotificacao("Você saiu da conta. Seus favoritos continuam salvos neste aparelho.");
   }
 
+  async function excluirConta() {
+    if (!supabase || !usuario) return { ok: false, mensagem: "Entre em sua conta para continuar." };
+
+    const { error } = await supabase.rpc("excluir_minha_conta");
+    if (error) return { ok: false, mensagem: "Não foi possível excluir a conta agora. Tente novamente mais tarde." };
+
+    try {
+      const idsLembretes = lerIdsLembretes();
+      if (Capacitor.isNativePlatform() && idsLembretes.length > 0) {
+        await LocalNotifications.cancel({ notifications: idsLembretes.map((id) => ({ id })) });
+      }
+      if (Capacitor.isNativePlatform()) await PushNotifications.unregister();
+    } catch {
+      // A conta e os dados remotos já foram removidos; a limpeza local continua abaixo.
+    }
+
+    try {
+      [
+        CHAVE_FAVORITOS,
+        CHAVE_LEMBRETES_ATIVOS,
+        CHAVE_IDS_LEMBRETES,
+        CHAVE_HORA_LEMBRETES,
+      ].forEach((chave) => window.localStorage.removeItem(chave));
+      window.localStorage.setItem(CHAVE_PUSH_DESATIVADO, "true");
+    } catch {
+      // O estado em memória ainda é limpo mesmo se o armazenamento não estiver acessível.
+    }
+
+    await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+    setUsuario(null);
+    setAlertas([]);
+    setIdsFavoritos([]);
+    setLembretesAtivos(false);
+    setHoraLembretes("09:00");
+    setTokenPush(null);
+    setEstadoPush("inativo");
+    setPushDesativado(true);
+
+    return { ok: true, mensagem: "Conta e dados excluídos. Você pode criar uma nova conta quando quiser." };
+  }
+
   async function alterarLembretes(ativo) {
     if (!Capacitor.isNativePlatform()) return;
 
@@ -2666,6 +2736,7 @@ function App() {
             setContaAberta(false);
             setPlusAberto(true);
           }}
+          aoExcluirConta={excluirConta}
           aoSair={sairDaConta}
           referenciaPainel={painelContaRef}
         />

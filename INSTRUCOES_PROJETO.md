@@ -268,7 +268,8 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 - [x] Definir os limites iniciais: gratuito com 1 alerta ativo para cidade específica; Plus com até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo, sem anúncios e futuras preferências avançadas.
 - [x] Definir o preço inicial do Plus: R$ 4,90/mês ou R$ 39,90/ano, sem teste gratuito na primeira versão.
 - [x] Criar tela informativa “Mapa de Concursos Plus”, sem compra ativa, explicando o que será gratuito e Premium.
-- [ ] Incluir exclusão definitiva de conta e dados pessoais na tela de conta antes do lançamento público.
+- [x] Criar tela de confirmação e migration segura para exclusão definitiva da própria conta, dados remotos, lembretes e preferências locais.
+- [ ] Aplicar a migration de exclusão de conta no projeto Supabase e validar o fluxo com uma conta de teste.
 - [ ] Confirmar a hospedagem compatível com uso comercial antes de ativar anúncios ou assinaturas; migrar o frontend e JSONs se necessário.
 - [ ] Atualizar os documentos legais com provedores, anúncios e pagamentos efetivamente ativados.
 

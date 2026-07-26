@@ -1127,6 +1127,29 @@ a:focus-visible {
   line-height: 1.45;
 }
 
+.confirmacao-exclusao {
+  padding: 1rem;
+  border: 1px solid #f2c9c9;
+  border-radius: 10px;
+  background: #fff8f8;
+}
+
+.confirmacao-exclusao p {
+  margin: 0;
+  color: #713333;
+  line-height: 1.5;
+}
+
+.acoes-confirmacao-exclusao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.botao-excluir-conta {
+  color: #a12c2c;
+}
+
 .botao-link-conta {
   justify-self: start;
   padding: 0.2rem 0;
