@@ -262,7 +262,8 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 
 ### 7. Preparar monetização sem ativá-la
 
-- [ ] Criar uma nova migration do Supabase para o perfil de plano (`gratuito`/`plus`) e limites de recursos; manter todas as contas como gratuitas inicialmente.
+- [x] Criar uma migration do Supabase para perfil de plano (`gratuito`/`plus`), limites e criação automática de perfil para novas contas.
+- [ ] Aplicar a migration de planos no projeto Supabase; as contas existentes e futuras deverão iniciar como `gratuito`.
 - [ ] Centralizar no front-end os limites do plano, sem bloqueio definitivo enquanto o Google Play Billing não estiver validado.
 - [x] Definir os limites iniciais: gratuito com 1 alerta ativo para cidade específica; Plus com até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo, sem anúncios e futuras preferências avançadas.
 - [x] Definir o preço inicial do Plus: R$ 4,90/mês ou R$ 39,90/ano, sem teste gratuito na primeira versão.
@@ -284,7 +285,7 @@ Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com 
 
 ## Próxima tarefa recomendada
 
-Criar a migration de planos e limites no Supabase, mantendo todas as contas como gratuitas inicialmente. Em seguida, criar a tela informativa do Mapa de Concursos Plus, ainda sem bloquear recursos nem integrar cobrança.
+Aplicar a migration de planos e limites no Supabase, mantendo todas as contas como gratuitas inicialmente. Em seguida, criar a tela informativa do Mapa de Concursos Plus, ainda sem bloquear recursos nem integrar cobrança.
 
 ## Automação e hospedagem
 
