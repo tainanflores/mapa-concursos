@@ -34,7 +34,12 @@ function agruparPontosPorConcurso(pontos) {
   for (const ponto of pontos) {
     for (const concurso of ponto.concursos ?? []) {
       const localidades = porConcurso.get(concurso.concursoId) ?? [];
-      localidades.push({ latitude: ponto.latitude, longitude: ponto.longitude, uf: ponto.uf });
+      localidades.push({
+        codigoIbge: ponto.codigoIbge,
+        latitude: ponto.latitude,
+        longitude: ponto.longitude,
+        uf: ponto.uf,
+      });
       porConcurso.set(concurso.concursoId, localidades);
     }
   }
@@ -47,14 +52,13 @@ function correspondeAoAlerta(concurso, localidades, criterios) {
   if (criterios?.abrangencia === "uf") {
     return localidades.some((localidade) => localidade.uf === criterios.uf) || concurso.uf === criterios.uf;
   }
+  if (criterios?.abrangencia === "cidade") {
+    return localidades.some((localidade) => localidade.codigoIbge === criterios.codigoIbge);
+  }
   if (criterios?.abrangencia === "raio") {
     return localidades.some((localidade) => distanciaEmKm(criterios.origem, localidade) <= criterios.raioKm);
   }
   return false;
-}
-
-function deveEnviarHoje(frequencia) {
-  return frequencia !== "semanal" || new Date().getUTCDay() === 1;
 }
 
 function resumoNotificacao(concursos) {
@@ -136,7 +140,7 @@ async function executar() {
   const pontos = JSON.parse(readFileSync(ARQUIVO_PONTOS, "utf8"));
   const localidadesPorConcurso = agruparPontosPorConcurso(pontos);
   const [{ data: alertas, error: erroAlertas }, { data: dispositivos, error: erroDispositivos }] = await Promise.all([
-    supabase.from("alertas").select("id, usuario_id, criterios, frequencia").eq("ativo", true),
+    supabase.from("alertas").select("id, usuario_id, criterios").eq("ativo", true),
     supabase.from("dispositivos").select("usuario_id, token_push").eq("ativo", true).eq("plataforma", "android"),
   ]);
 
@@ -153,7 +157,6 @@ async function executar() {
   let totalEnvios = 0;
 
   for (const alerta of alertas ?? []) {
-    if (!deveEnviarHoje(alerta.frequencia)) continue;
     const tokens = dispositivosPorUsuario.get(alerta.usuario_id) ?? [];
     if (tokens.length === 0) continue;
 

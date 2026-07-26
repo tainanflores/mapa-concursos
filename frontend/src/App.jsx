@@ -1022,11 +1022,10 @@ function ContaUsuario({
 }
 
 function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, aoFechar, referenciaPainel }) {
-  const [tipo, setTipo] = useState("raio");
+  const [tipo, setTipo] = useState("cidade");
   const [textoCidade, setTextoCidade] = useState("");
   const [uf, setUf] = useState("");
   const [raioKm, setRaioKm] = useState("100");
-  const [frequencia, setFrequencia] = useState("diaria");
   const [mensagem, setMensagem] = useState(null);
   const [salvando, setSalvando] = useState(false);
 
@@ -1040,7 +1039,7 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
     evento.preventDefault();
     let origem = null;
 
-    if (tipo === "raio") {
+    if (tipo === "cidade" || tipo === "raio") {
       origem = municipios.find((municipio) => normalizarTexto(`${municipio.cidade} ${municipio.uf}`) === normalizarTexto(textoCidade));
       if (!origem) {
         setMensagem("Selecione uma cidade da lista de sugestões.");
@@ -1055,7 +1054,7 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
 
     setSalvando(true);
     setMensagem(null);
-    const resultado = await aoCriar({ tipo, origem, uf, raioKm: Number(raioKm), frequencia });
+    const resultado = await aoCriar({ tipo, origem, uf, raioKm: Number(raioKm) });
     setSalvando(false);
     setMensagem(resultado.mensagem);
     if (resultado.ok) {
@@ -1071,19 +1070,20 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
           <button className="botao-fechar-filtros" type="button" aria-label="Fechar alertas" onClick={aoFechar} autoFocus>×</button>
           <p className="sobretitulo">Notificações de novidades</p>
           <h2 id="titulo-alertas">Meus alertas</h2>
-          <p>Receba novos concursos conforme a área escolhida. Prazos de favoritos continuam nos lembretes locais.</p>
+          <p>Receba avisos quando a atualização diária encontrar novos concursos abertos na área escolhida.</p>
         </div>
         <div className="conteudo-conta">
           <form className="formulario-conta" onSubmit={salvar}>
             <fieldset className="campos-conta" disabled={salvando}>
               <label>Onde procurar
                 <select value={tipo} onChange={({ target }) => setTipo(target.value)}>
-                  <option value="raio">Em um raio de uma cidade</option>
-                  <option value="uf">Em um estado</option>
-                  <option value="nacional">Em todo o Brasil</option>
+                  <option value="cidade">Em uma cidade específica — Gratuito</option>
+                  <option value="raio">Em um raio de uma cidade — Plus</option>
+                  <option value="uf">Em um estado — Plus</option>
+                  <option value="nacional">Em todo o Brasil — Plus</option>
                 </select>
               </label>
-              {tipo === "raio" && <label>Cidade de referência
+              {(tipo === "cidade" || tipo === "raio") && <label>{tipo === "cidade" ? "Cidade" : "Cidade de referência"}
                 <input value={textoCidade} onChange={({ target }) => setTextoCidade(target.value)} placeholder="Digite e selecione uma cidade" autoComplete="off" />
                 {sugestoes.length > 0 && <ul className="sugestoes-alerta">{sugestoes.map((municipio) => <li key={municipio.codigoIbge}><button type="button" onClick={() => setTextoCidade(`${municipio.cidade} - ${municipio.uf}`)}>{municipio.cidade} - {municipio.uf}</button></li>)}</ul>}
               </label>}
@@ -1093,14 +1093,12 @@ function PainelAlertas({ municipios, alertas, aoCriar, aoAlternar, aoExcluir, ao
               {tipo === "uf" && <label>Estado
                 <select value={uf} onChange={({ target }) => setUf(target.value)}><option value="">Selecione</option>{Object.keys(ESTADO_E_REGIAO_POR_UF).sort().map((sigla) => <option key={sigla} value={sigla}>{ESTADO_E_REGIAO_POR_UF[sigla].estado} ({sigla})</option>)}</select>
               </label>}
-              <label>Frequência
-                <select value={frequencia} onChange={({ target }) => setFrequencia(target.value)}><option value="imediata">Assim que houver novidade</option><option value="diaria">Resumo diário</option><option value="semanal">Resumo semanal</option></select>
-              </label>
               <button type="submit">{salvando ? "Salvando..." : "Criar alerta"}</button>
             </fieldset>
           </form>
+          <p className="aviso-alertas-plus">Os tipos Plus estão liberados durante esta fase de testes. Eles serão exclusivos do Mapa de Concursos Plus quando as assinaturas forem ativadas.</p>
           {mensagem && <p className="mensagem-conta" role="status">{mensagem}</p>}
-          <ul className="lista-alertas">{alertas.map((alerta) => <li key={alerta.id}><div><strong>{alerta.nome}</strong><small>{alerta.frequencia === "imediata" ? "Imediato" : alerta.frequencia === "diaria" ? "Resumo diário" : "Resumo semanal"} · {alerta.ativo ? "Ativo" : "Pausado"}</small></div><div className="acoes-favorito"><button type="button" onClick={() => aoAlternar(alerta)}>{alerta.ativo ? "Pausar" : "Ativar"}</button><button type="button" className="botao-remover-favorito" onClick={() => aoExcluir(alerta.id)}>Excluir</button></div></li>)}</ul>
+          <ul className="lista-alertas">{alertas.map((alerta) => <li key={alerta.id}><div><strong>{alerta.nome}</strong><small>{alerta.ativo ? "Ativo" : "Pausado"} · Novos concursos abertos</small></div><div className="acoes-favorito"><button type="button" onClick={() => aoAlternar(alerta)}>{alerta.ativo ? "Pausar" : "Ativar"}</button><button type="button" className="botao-remover-favorito" onClick={() => aoExcluir(alerta.id)}>Excluir</button></div></li>)}</ul>
         </div>
       </section>
     </div>
@@ -1484,7 +1482,7 @@ function App() {
       return;
     }
 
-    supabase.from("alertas").select("id, nome, criterios, frequencia, ativo").eq("usuario_id", usuario.id).order("criado_em", { ascending: false }).then(({ data, error }) => {
+    supabase.from("alertas").select("id, nome, criterios, ativo").eq("usuario_id", usuario.id).order("criado_em", { ascending: false }).then(({ data, error }) => {
       if (!error) setAlertas(data ?? []);
     });
   }, [usuario?.id]);
@@ -1824,20 +1822,24 @@ function App() {
     }
   }
 
-  async function criarAlerta({ tipo, origem, uf, raioKm, frequencia }) {
+  async function criarAlerta({ tipo, origem, uf, raioKm }) {
     if (!supabase || !usuario) return { ok: false, mensagem: "Entre em sua conta para criar alertas." };
 
     const criterios = tipo === "nacional"
       ? { abrangencia: "nacional" }
       : tipo === "uf"
         ? { abrangencia: "uf", uf }
-        : { abrangencia: "raio", origem, raioKm };
+        : tipo === "cidade"
+          ? { abrangencia: "cidade", codigoIbge: origem.codigoIbge, cidade: origem.cidade, uf: origem.uf }
+          : { abrangencia: "raio", origem, raioKm };
     const nome = tipo === "nacional"
       ? "Novos concursos no Brasil"
       : tipo === "uf"
         ? `Novos concursos em ${uf}`
-        : `Até ${raioKm} km de ${origem.cidade}/${origem.uf}`;
-    const { data, error } = await supabase.from("alertas").insert({ usuario_id: usuario.id, nome, criterios, frequencia }).select("id, nome, criterios, frequencia, ativo").single();
+        : tipo === "cidade"
+          ? `Novos concursos em ${origem.cidade}/${origem.uf}`
+          : `Até ${raioKm} km de ${origem.cidade}/${origem.uf}`;
+    const { data, error } = await supabase.from("alertas").insert({ usuario_id: usuario.id, nome, criterios }).select("id, nome, criterios, ativo").single();
 
     if (error) return { ok: false, mensagem: "Não foi possível salvar o alerta agora." };
     setAlertas((atuais) => [data, ...atuais]);

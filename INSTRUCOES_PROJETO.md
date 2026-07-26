@@ -113,42 +113,66 @@ O ramo de produção é `main`. Enquanto o projeto estiver conectado à Vercel, 
 
 Não será mantida uma branch remota de desenvolvimento neste momento: pushes de outras branches conectadas à Vercel podem gerar *preview deployments*. Se, no futuro, a equipe precisar de revisão por pull request ou homologação, reavaliar esse fluxo junto com a migração de hospedagem.
 
-## Direção futura: aplicativo e monetização
+## Aplicativo, alertas e monetização
 
 O mapa e a consulta de concursos continuarão gratuitos. O `urlPCI` permanece como fonte e link de detalhes de cada concurso. Não acessar todas as notícias apenas para procurar editais: isso aumenta o tempo e a fragilidade da coleta. Caso uma extração confiável de edital seja criada no futuro, exibir **Ver edital** como link adicional, sem remover **Mais detalhes no PCI**.
 
-O aplicativo Android deverá reutilizar o front-end React por meio do Capacitor. A primeira versão será funcional e sem monetização; a monetização só será ativada depois da migração da hospedagem, pois o plano Hobby da Vercel é destinado a uso pessoal/não comercial.
+O aplicativo Android reutiliza o front-end React por meio do Capacitor. A consulta de concursos continuará gratuita. Antes de ativar publicidade ou cobrança, confirmar que a hospedagem escolhida e seus termos atendem ao uso comercial; se necessário, migrar o front-end estático e os JSONs antes do lançamento público.
 
 Modelo definido:
 
 | Plano gratuito | Mapa de Concursos Plus |
 | --- | --- |
 | Mapa, busca, filtros e detalhes | Todos os recursos gratuitos |
+| Conta e favoritos sincronizados | Sem anúncios |
+| Um alerta ativo para uma cidade específica | Até 10 alertas por cidade, UF, raio ou Brasil inteiro |
 | Banner adaptável e discreto no rodapé | Sem anúncios |
-| App Open Ad com limite conservador de frequência | Favoritos sincronizados |
-|  | Pesquisas e cidades salvas |
-|  | Alertas de novos concursos compatíveis e de prazos próximos |
+| App Open Ad com limite conservador de frequência | — |
+|  | Lembretes de prazo de inscrição dos favoritos |
+|  | Preferências avançadas de alertas quando houver necessidade real |
+
+Não haverá pesquisas salvas nesta primeira versão. No plano gratuito, a pessoa escolhe somente uma cidade específica para receber alertas de **novos concursos abertos**. Alertas por UF, raio de uma origem ou Brasil inteiro são recursos Plus. A coleta é diária; por isso não prometer notificações em tempo real. As opções de frequência (imediata, diária e semanal) não fazem parte do produto planejado: há apenas o aviso quando a rotina diária detectar uma novidade compatível.
+
+Preço inicial planejado para o Plus:
+
+- R$ 4,90 por mês.
+- R$ 39,90 por ano.
+- Sem período de teste gratuito na primeira versão. Preços promocionais e testes só serão avaliados após o beta e dados reais de uso.
+- A assinatura será vendida exclusivamente pelo Google Play Billing. O backend validará a compra antes de conceder o plano Plus.
 
 Regras de anúncios:
 
 - Usar AdMob nativo no aplicativo Capacitor.
 - O banner deve reservar espaço próprio, não cobrir mapa, pins, controles ou conteúdo; ocultá-lo em tela cheia e em modais.
-- Usar o formato **App Open Ad** apenas na abertura/retorno do aplicativo, com limite de frequência. Não usar intersticial comum na inicialização nem durante a navegação do mapa.
+- Usar o formato **App Open Ad** apenas na abertura/retorno do aplicativo, no máximo uma vez a cada 24 horas. Não usar intersticial comum na inicialização nem durante a navegação do mapa.
+- Não exibir App Open Ad na primeira abertura após a instalação nem em retornos rápidos ao aplicativo.
 - Nunca apresentar banner junto com App Open Ad.
 - Uma assinatura Plus válida impede o carregamento e a exibição de anúncios.
+- Antes do Google Play Billing estar validado no backend, não bloquear recursos: no máximo, apresentar a comparação de planos como “em breve”.
+- Não criar uma espera fixa de cinco segundos: o comportamento de fechar deve respeitar o formato e as políticas do AdMob.
+- Antes de ativar anúncios, implementar consentimento adequado de publicidade e privacidade.
+
+Regras de conta, privacidade e notificações:
+
+- O mapa pode ser usado sem conta. Cadastro é necessário apenas para alertas e sincronização de favoritos.
+- Uma conta pode ser usada em mais de um aparelho.
+- A tela de conta deverá oferecer exclusão definitiva da conta e dos dados associados: perfil, favoritos, alertas e dispositivos.
+- Ao tocar em uma notificação, o aplicativo deverá abrir a lista ou o detalhe do concurso que gerou o aviso.
+- Não enviar duas vezes a mesma combinação de pessoa, alerta e concurso.
+- Métricas devem ser agregadas e mínimas: instalações, contas criadas, alertas criados/pausados, notificações entregues/abertas e conversão para Plus. Não usar localização precisa para segmentação de publicidade.
 
 Arquitetura prevista para recursos pessoais:
 
 ```text
 Aplicativo Capacitor (React)
-  → Supabase: autenticação, favoritos, pesquisas, alertas e dispositivos
+  → Supabase: autenticação, favoritos, alertas, dispositivos e plano da conta
   → Firebase Cloud Messaging: entrega gratuita de notificações push
   → rotina diária no GitHub Actions / serviço seguro: compara concursos e envia avisos
 ```
 
 O Firebase será usado somente para o Firebase Cloud Messaging (FCM), que é gratuito. O Supabase será o banco e a autenticação. Chaves administrativas nunca devem ser incluídas no aplicativo: ficam nos segredos do GitHub Actions ou em uma função/serviço seguro.
 
-Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio, UF, situação e tipo), registrar cada envio para evitar duplicação e permitir definir frequência. A rotina roda diariamente mesmo se os dados não mudarem: novidades e alterações dependem da comparação da coleta; prazos próximos dependem do conjunto atual. Notificações de novos concursos exigem backend; antes disso, podem existir lembretes locais apenas para concursos favoritados.
+Alertas respeitam a área salva de cada pessoa (Brasil, UF ou cidade/origem com raio), registram cada envio para evitar duplicação e notificam apenas concursos novos e abertos. A rotina diária só tenta enviar quando a coleta encontrar uma mudança efetiva nos dados. Lembretes de prazo de favoritos continuam locais no aparelho e não exigem backend.
 
 ## Roadmap
 
@@ -210,10 +234,11 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 
 - [x] Tornar o front-end instalável como PWA, com manifesto, service worker e botão de instalação quando suportado; manter `/data/*` fora do cache do service worker.
 - [x] Integrar Capacitor ao React, criar o projeto Android e gerar/instalar o primeiro APK de desenvolvimento.
-- [ ] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
+- [x] Validar mapa, geolocalização, pesquisa, tela cheia, modais e links externos no aparelho físico.
 - [x] Criar favoritos locais persistidos no aparelho, com inclusão pelos detalhes e lista para consultar/remover.
-- [ ] Criar pesquisas salvas locais como primeira experiência pessoal.
-- [ ] Criar telas de conta, favoritos, alertas e comparação entre Gratuito e Plus, sem cobrança ativa.
+- [x] Decidir não implementar pesquisas salvas nesta primeira versão.
+- [x] Criar telas de conta, favoritos e alertas, sem cobrança ativa.
+- [ ] Criar uma tela simples de comparação entre Gratuito e Plus, apenas informativa e sem bloquear recursos até existir cobrança real.
 - [x] Publicar Política de Privacidade e Termos de Uso acessíveis no site, cobrindo localização, conta, favoritos, notificações, FCM e fontes dos dados.
 - [ ] Definir e-mail oficial de suporte e substituir o canal provisório do GitHub nos documentos antes da publicação na Play Store.
 - [x] Preparar fonte de dados configurável: usar `VITE_DADOS_BASE_URL` para JSONs remotos e recorrer aos JSONs incluídos no APK se a URL não estiver definida ou falhar.
@@ -224,32 +249,42 @@ Alertas devem respeitar a preferência salva de cada pessoa (cidade/origem, raio
 - [x] Criar o projeto Supabase e aplicar a migration inicial no painel.
 - [x] Implementar autenticação por e-mail e sincronização de favoritos entre aparelhos, mantendo a cópia local como contingência.
 - [x] Oferecer confirmação de senha no cadastro e recuperação de senha por e-mail.
-- [ ] Sincronizar pesquisas e preferências entre aparelhos.
+- [x] Decidir não sincronizar pesquisas salvas; manter apenas favoritos e alertas.
 - [x] Integrar Firebase Cloud Messaging no app Android e validar o primeiro envio em ambiente de teste.
-- [x] Permitir configurar alertas de novos concursos por alcance nacional, UF ou raio de cidade, com frequência imediata, diária ou semanal.
-- [ ] Criar rotina segura diária que detecte novos concursos, alterações e prazos próximos, aplique os filtros de cada alerta e evite avisos duplicados.
-- [ ] Permitir configurar cidades, raio, UF, situação, tipo e frequência dos alertas.
+- [x] Permitir configurar alertas de novos concursos por alcance nacional, UF ou raio de cidade.
+- [x] Criar rotina segura no GitHub Actions que detecta concursos novos e abertos, aplica a área de cada alerta, evita duplicação e envia pelo FCM sem expor credenciais administrativas.
+- [x] Criar disparo manual de notificação de teste para validar GitHub Actions, Supabase, Firebase e o APK sem depender de concurso novo.
+- [x] Simplificar a tela e o banco de alertas: remover frequência, situação e tipo; preparar cidade específica como alerta gratuito e UF, raio ou Brasil como recursos Plus. Os tipos Plus permanecem liberados durante os testes, até a cobrança ser ativada.
+- [ ] Fazer o toque em uma notificação abrir os concursos ou o detalhe relacionado no aplicativo.
+- [ ] Limpar ou desativar tokens FCM inválidos retornados pelo Firebase, para não repetir tentativas a aparelhos removidos.
 - [x] Implementar lembretes locais para favoritos: avisos 7, 3 e 1 dia antes do prazo, com horário configurável no APK e sem backend.
+- [ ] Restringir lembretes locais de prazo a contas Plus quando o controle de planos e a cobrança estiverem ativos.
 
-### 7. Migrar hospedagem antes da monetização
+### 7. Preparar monetização sem ativá-la
 
-- [ ] Migrar o frontend estático e os JSONs para Cloudflare Pages, preservando o deploy pelo GitHub e a revalidação dos dados.
-- [ ] Validar em produção mapa, arquivos `/data/*`, cache, domínio e atualização automática após uma mudança real nos dados.
-- [ ] Atualizar documentação e política de privacidade com os provedores efetivamente usados.
-- [ ] Manter a Vercel sem monetização até concluir a migração ou contratar plano comercial compatível.
+- [ ] Criar uma nova migration do Supabase para o perfil de plano (`gratuito`/`plus`) e limites de recursos; manter todas as contas como gratuitas inicialmente.
+- [ ] Centralizar no front-end os limites do plano, sem bloqueio definitivo enquanto o Google Play Billing não estiver validado.
+- [x] Definir os limites iniciais: gratuito com 1 alerta ativo para cidade específica; Plus com até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo, sem anúncios e futuras preferências avançadas.
+- [x] Definir o preço inicial do Plus: R$ 4,90/mês ou R$ 39,90/ano, sem teste gratuito na primeira versão.
+- [ ] Criar tela informativa “Mapa de Concursos Plus”, sem compra ativa, explicando o que será gratuito e Premium.
+- [ ] Incluir exclusão definitiva de conta e dados pessoais na tela de conta antes do lançamento público.
+- [ ] Confirmar a hospedagem compatível com uso comercial antes de ativar anúncios ou assinaturas; migrar o frontend e JSONs se necessário.
+- [ ] Atualizar os documentos legais com provedores, anúncios e pagamentos efetivamente ativados.
 
 ### 8. Ativar modelo freemium e publicar beta
 
-- [ ] Integrar AdMob nativo no Capacitor: banner adaptável em área reservada e App Open Ad com limite de frequência.
-- [ ] Ocultar completamente anúncios para assinantes Plus e em contextos que prejudiquem o mapa, tela cheia ou modais.
-- [ ] Integrar Google Play Billing em ambiente sandbox e validar assinaturas no backend.
-- [ ] Ativar Plus com recursos recorrentes: sem anúncios, favoritos sincronizados, pesquisas/cidades salvas e alertas.
+- [ ] Criar conta AdMob, configurar consentimento e usar IDs de teste durante o desenvolvimento.
+- [ ] Integrar AdMob nativo no Capacitor: banner adaptável em área reservada e App Open Ad no máximo uma vez a cada 24 horas, sem mostrar na primeira abertura pós-instalação ou em retornos rápidos.
+- [ ] Ocultar anúncios para Plus, mapas em tela cheia, modais e telas críticas; nunca cobrir mapa, pins ou controles.
+- [ ] Integrar Google Play Billing em ambiente sandbox e validar compras/assinaturas em backend seguro antes de conceder o plano Plus.
+- [ ] Ativar Plus: sem anúncios, até 10 alertas por cidade, UF, raio ou Brasil, lembretes de prazo e preferências avançadas planejadas.
+- [ ] Implementar métricas mínimas de produto, sem localização precisa para publicidade: instalações, contas, alertas, entrega/abertura de notificações e conversão para Plus.
 - [ ] Preparar ficha da Play Store: ícone, screenshots, classificação indicativa, Data Safety, política de privacidade e beta fechado.
 - [ ] Publicar beta fechado, recolher feedback e só então habilitar anúncios e assinaturas para público real.
 
 ## Próxima tarefa recomendada
 
-Definir um e-mail oficial de suporte e atualizar os documentos legais antes da Play Store. Em seguida, criar a rotina segura diária que envia alertas push sem expor credenciais administrativas.
+Criar a migration de planos e limites no Supabase, mantendo todas as contas como gratuitas inicialmente. Em seguida, criar a tela informativa do Mapa de Concursos Plus, ainda sem bloquear recursos nem integrar cobrança.
 
 ## Automação e hospedagem
 
