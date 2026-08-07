@@ -200,7 +200,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-sebastiao-al-reabre-concurso-com-remuneracoes-de-ate-5000",
         "vagas": 203,
         "salarioMaximo": 5000,
-        "inscricaoTexto": "Reabertura de07/08 a08/09/2026",
+        "inscricaoTexto": "Reaberto até08/09/2026",
         "inscricaoFim": "2026-09-08"
       }
     ],
@@ -625,7 +625,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/policia-civil-ba-abre-concurso-publico-para-delegado-investigador-e-escrivao",
         "vagas": 750,
         "salarioMaximo": 16495.67,
-        "inscricaoTexto": "07/08 a08/09/2026",
+        "inscricaoTexto": "08/09/2026",
         "inscricaoFim": "2026-09-08"
       }
     ],
@@ -796,7 +796,7 @@
         "contextoLocalidade": "Desenvolvimento de Software - Fortaleza/CE (20 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -1117,7 +1117,7 @@
         "contextoLocalidade": "Análise de Negócio de TI - Brasília/DF (5 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -1147,8 +1147,8 @@
         "inscricaoFim": "2026-09-17"
       },
       {
-        "id": "abgf-retifica-edital-de-concurso-publico-com-vagas-para-cargos-de-nivel-superior:5300108",
-        "concursoId": "abgf-retifica-edital-de-concurso-publico-com-vagas-para-cargos-de-nivel-superior",
+        "id": "abgf-prorroga-inscricoes-do-concurso-publico-com-vagas-para-cargos-de-nivel-superior:5300108",
+        "concursoId": "abgf-prorroga-inscricoes-do-concurso-publico-com-vagas-para-cargos-de-nivel-superior",
         "codigoIbge": 5300108,
         "cidade": "Brasília",
         "uf": "DF",
@@ -1158,14 +1158,14 @@
         "confiancaLocalidade": "media",
         "contextoLocalidade": "As provas estão previstas para o dia 27 de setembro de 2026, nas cidades de Brasília/DF e São Paulo/SP.",
         "orgao": "ABGF - Agência Brasileira Gestora de Fundos Garantidores e Garantias",
-        "titulo": "ABGF retifica edital de concurso público com vagas para cargos de nível superior",
+        "titulo": "ABGF prorroga inscrições do concurso público com vagas para cargos de nível superior",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/abgf-retifica-edital-de-concurso-publico-com-vagas-para-cargos-de-nivel-superior",
-        "vagas": 49,
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/abgf-prorroga-inscricoes-do-concurso-publico-com-vagas-para-cargos-de-nivel-superior",
+        "vagas": 184,
         "salarioMaximo": 15200,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
+        "inscricaoTexto": "Prorrogado até11/08/2026",
+        "inscricaoFim": "2026-08-11"
       }
     ],
     "totalConcursos": 3
@@ -1319,39 +1319,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-irupi-es-abre-selecao-para-fisioterapeuta-do-nasf",
         "vagas": null,
         "salarioMaximo": 1876.03,
-        "inscricaoTexto": "07 a20/08/2026",
+        "inscricaoTexto": "20/08/2026",
         "inscricaoFim": "2026-08-20"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3202900,
-    "cidade": "Itarana",
-    "uf": "ES",
-    "latitude": -19.875,
-    "longitude": -40.8753,
-    "concursos": [
-      {
-        "id": "prefeitura-de-itarana-es-abre-concurso-publico-com-vagas-para-profissionais-de-nivel-superior:3202900",
-        "concursoId": "prefeitura-de-itarana-es-abre-concurso-publico-com-vagas-para-profissionais-de-nivel-superior",
-        "codigoIbge": 3202900,
-        "cidade": "Itarana",
-        "uf": "ES",
-        "latitude": -19.875,
-        "longitude": -40.8753,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Itarana — Prefeitura de Itarana - ES abre concurso público com vagas para profissionais de nível superior",
-        "orgao": "Prefeitura de Itarana",
-        "titulo": "Prefeitura de Itarana - ES abre concurso público com vagas para profissionais de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itarana-es-abre-concurso-publico-com-vagas-para-profissionais-de-nivel-superior",
-        "vagas": 43,
-        "salarioMaximo": 3205.64,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
       }
     ],
     "totalConcursos": 1
@@ -1533,37 +1502,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 5204250,
-    "cidade": "Cachoeira Dourada",
-    "uf": "GO",
-    "latitude": -18.4859,
-    "longitude": -49.4766,
-    "concursos": [
-      {
-        "id": "prefeitura-de-cachoeira-dourada-go-abre-processo-seletivo-com-vagas-imediatas-e-para-cadastro-de-reserva:5204250",
-        "concursoId": "prefeitura-de-cachoeira-dourada-go-abre-processo-seletivo-com-vagas-imediatas-e-para-cadastro-de-reserva",
-        "codigoIbge": 5204250,
-        "cidade": "Cachoeira Dourada",
-        "uf": "GO",
-        "latitude": -18.4859,
-        "longitude": -49.4766,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Cachoeira Dourada — Prefeitura de Cachoeira Dourada - GO abre processo seletivo com vagas imediatas e para cadastro de reserva",
-        "orgao": "Prefeitura de Cachoeira Dourada",
-        "titulo": "Prefeitura de Cachoeira Dourada - GO abre processo seletivo com vagas imediatas e para cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cachoeira-dourada-go-abre-processo-seletivo-com-vagas-imediatas-e-para-cadastro-de-reserva",
-        "vagas": 16,
-        "salarioMaximo": 2346.4,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 5204508,
     "cidade": "Caldas Novas",
     "uf": "GO",
@@ -1650,7 +1588,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cristalina-go-retifica-edital-de-concurso-publico-para-a-secretaria-de-educacao",
         "vagas": 307,
         "salarioMaximo": 5165.78,
-        "inscricaoTexto": "07/08 a10/09/2026",
+        "inscricaoTexto": "10/09/2026",
         "inscricaoFim": "2026-09-10"
       }
     ],
@@ -1776,9 +1714,30 @@
         "salarioMaximo": 7241.14,
         "inscricaoTexto": "21/08 a21/09/2026",
         "inscricaoFim": "2026-09-21"
+      },
+      {
+        "id": "idtech-go-abre-vagas-para-biomedico-ou-farmaceutico-em-ceres-e-rio-verde:5218805",
+        "concursoId": "idtech-go-abre-vagas-para-biomedico-ou-farmaceutico-em-ceres-e-rio-verde",
+        "codigoIbge": 5218805,
+        "cidade": "Rio Verde",
+        "uf": "GO",
+        "latitude": -17.7923,
+        "longitude": -50.9192,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "IDTECH - Instituto de Desenvolvimento Tecnológico e Humano — IDTECH - GO abre vagas para Biomédico ou Farmacêutico em Ceres e Rio Verde",
+        "orgao": "IDTECH - Instituto de Desenvolvimento Tecnológico e Humano",
+        "titulo": "IDTECH - GO abre vagas para Biomédico ou Farmacêutico em Ceres e Rio Verde",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/idtech-go-abre-vagas-para-biomedico-ou-farmaceutico-em-ceres-e-rio-verde",
+        "vagas": 2,
+        "salarioMaximo": 5657.33,
+        "inscricaoTexto": "08 a11/08/2026",
+        "inscricaoFim": "2026-08-11"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 5220108,
@@ -2232,9 +2191,30 @@
         "salarioMaximo": 1822.34,
         "inscricaoTexto": "19/08/2026",
         "inscricaoFim": "2026-08-19"
+      },
+      {
+        "id": "prefeitura-de-sao-luis-ma-abre-processo-seletivo-para-medicos:2111300",
+        "concursoId": "prefeitura-de-sao-luis-ma-abre-processo-seletivo-para-medicos",
+        "codigoIbge": 2111300,
+        "cidade": "São Luís",
+        "uf": "MA",
+        "latitude": -2.53874,
+        "longitude": -44.2825,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SEMUS - Secretaria Municipal de Saúde de São Luís — Prefeitura de São Luís - MA abre processo seletivo para médicos",
+        "orgao": "SEMUS - Secretaria Municipal de Saúde de São Luís",
+        "titulo": "Prefeitura de São Luís - MA abre processo seletivo para médicos",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-luis-ma-abre-processo-seletivo-para-medicos",
+        "vagas": 177,
+        "salarioMaximo": 28700.18,
+        "inscricaoTexto": "20/08/2026",
+        "inscricaoFim": "2026-08-20"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 2112001,
@@ -3295,6 +3275,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3122306,
+    "cidade": "Divinópolis",
+    "uf": "MG",
+    "latitude": -20.1446,
+    "longitude": -44.8912,
+    "concursos": [
+      {
+        "id": "prefeitura-de-divinopolis-mg-abre-vagas-para-assistente-social-e-nutricionista:3122306",
+        "concursoId": "prefeitura-de-divinopolis-mg-abre-vagas-para-assistente-social-e-nutricionista",
+        "codigoIbge": 3122306,
+        "cidade": "Divinópolis",
+        "uf": "MG",
+        "latitude": -20.1446,
+        "longitude": -44.8912,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Divinópolis — Prefeitura de Divinópolis - MG abre vagas para Assistente Social e Nutricionista",
+        "orgao": "Prefeitura de Divinópolis",
+        "titulo": "Prefeitura de Divinópolis - MG abre vagas para Assistente Social e Nutricionista",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-divinopolis-mg-abre-vagas-para-assistente-social-e-nutricionista",
+        "vagas": 8,
+        "salarioMaximo": 2462.8,
+        "inscricaoTexto": "10 a24/08/2026",
+        "inscricaoFim": "2026-08-24"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3122405,
     "cidade": "Divisa Nova",
     "uf": "MG",
@@ -3926,37 +3937,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3132206,
-    "cidade": "Itaguara",
-    "uf": "MG",
-    "latitude": -20.3947,
-    "longitude": -44.4875,
-    "concursos": [
-      {
-        "id": "prefeitura-de-itaguara-mg-abre-vagas-para-agente-comunitario-de-saude-e-auxiliar-de-saude-bucal:3132206",
-        "concursoId": "prefeitura-de-itaguara-mg-abre-vagas-para-agente-comunitario-de-saude-e-auxiliar-de-saude-bucal",
-        "codigoIbge": 3132206,
-        "cidade": "Itaguara",
-        "uf": "MG",
-        "latitude": -20.3947,
-        "longitude": -44.4875,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Itaguara — Prefeitura de Itaguara - MG abre vagas para Agente Comunitário de Saúde e Auxiliar de Saúde Bucal",
-        "orgao": "Prefeitura de Itaguara",
-        "titulo": "Prefeitura de Itaguara - MG abre vagas para Agente Comunitário de Saúde e Auxiliar de Saúde Bucal",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itaguara-mg-abre-vagas-para-agente-comunitario-de-saude-e-auxiliar-de-saude-bucal",
-        "vagas": 5,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3133105,
     "cidade": "Itanhandu",
     "uf": "MG",
@@ -4012,7 +3992,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/cides-mg-abre-selecao-com-vagas-para-agente-de-inspecao-sanitaria",
         "vagas": 2,
         "salarioMaximo": 2238.02,
-        "inscricaoTexto": "07 a25/08/2026",
+        "inscricaoTexto": "25/08/2026",
         "inscricaoFim": "2026-08-25"
       }
     ],
@@ -4138,6 +4118,37 @@
         "salarioMaximo": 21489.7,
         "inscricaoTexto": "24/08 a23/09/2026",
         "inscricaoFim": "2026-09-23"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3138401,
+    "cidade": "Leopoldina",
+    "uf": "MG",
+    "latitude": -21.5296,
+    "longitude": -42.6421,
+    "concursos": [
+      {
+        "id": "prefeitura-de-leopoldina-mg-abre-processo-seletivo-para-a-secretaria-de-assistencia-social:3138401",
+        "concursoId": "prefeitura-de-leopoldina-mg-abre-processo-seletivo-para-a-secretaria-de-assistencia-social",
+        "codigoIbge": 3138401,
+        "cidade": "Leopoldina",
+        "uf": "MG",
+        "latitude": -21.5296,
+        "longitude": -42.6421,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Leopoldina — Prefeitura de Leopoldina - MG abre processo seletivo para a Secretaria de Assistência Social",
+        "orgao": "Prefeitura de Leopoldina",
+        "titulo": "Prefeitura de Leopoldina - MG abre processo seletivo para a Secretaria de Assistência Social",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-leopoldina-mg-abre-processo-seletivo-para-a-secretaria-de-assistencia-social",
+        "vagas": 6,
+        "salarioMaximo": 2060.32,
+        "inscricaoTexto": "11/08/2026",
+        "inscricaoFim": "2026-08-11"
       }
     ],
     "totalConcursos": 1
@@ -5409,7 +5420,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/cides-mg-abre-selecao-com-vagas-para-agente-de-inspecao-sanitaria",
         "vagas": 2,
         "salarioMaximo": 2238.02,
-        "inscricaoTexto": "07 a25/08/2026",
+        "inscricaoTexto": "25/08/2026",
         "inscricaoFim": "2026-08-25"
       },
       {
@@ -5699,7 +5710,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-chapada-dos-guimaraes-mt-abre-concurso-publico-para-diversas-areas",
         "vagas": 147,
         "salarioMaximo": 6265.16,
-        "inscricaoTexto": "07/08 a10/09/2026",
+        "inscricaoTexto": "10/09/2026",
         "inscricaoFim": "2026-09-10"
       }
     ],
@@ -6346,7 +6357,7 @@
         "contextoLocalidade": "Desenvolvimento de Software - João Pessoa/PB (20 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -6696,27 +6707,6 @@
     "longitude": -44.359,
     "concursos": [
       {
-        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2201903",
-        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "codigoIbge": 2201903,
-        "cidade": "Bom Jesus",
-        "uf": "PI",
-        "latitude": -9.07124,
-        "longitude": -44.359,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Fiscal Estadual Agropecuário - ADAPI (Engenheiro Agrônomo - Bom Jesus, Guadalupe, Piripiri, Teresina, Parnaíba;",
-        "orgao": "Governo do Piauí - Estado do Piauí",
-        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "vagas": null,
-        "salarioMaximo": 13536.01,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
-      {
         "id": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674:2201903",
         "concursoId": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674",
         "codigoIbge": 2201903,
@@ -6736,6 +6726,79 @@
         "salarioMaximo": 6674.43,
         "inscricaoTexto": "05/08/2026",
         "inscricaoFim": "2026-08-05"
+      },
+      {
+        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2201903",
+        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "codigoIbge": 2201903,
+        "cidade": "Bom Jesus",
+        "uf": "PI",
+        "latitude": -9.07124,
+        "longitude": -44.359,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Fiscal Estadual Agropecuário - ADAPI (Engenheiro Agrônomo - Bom Jesus, Guadalupe, Piripiri, Teresina, Parnaíba;",
+        "orgao": "Governo do Piauí - Estado do Piauí",
+        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "vagas": null,
+        "salarioMaximo": 13536.01,
+        "inscricaoTexto": "06/08/2026",
+        "inscricaoFim": "2026-08-06"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 2202083,
+    "cidade": "Cajueiro da Praia",
+    "uf": "PI",
+    "latitude": -2.93111,
+    "longitude": -41.3408,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concurso-publico:2202083",
+        "concursoId": "prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concurso-publico",
+        "codigoIbge": 2202083,
+        "cidade": "Cajueiro da Praia",
+        "uf": "PI",
+        "latitude": -2.93111,
+        "longitude": -41.3408,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cajueiro da Praia — Prefeitura de Cajueiro da Praia - PI reabre inscrições para concurso público",
+        "orgao": "Prefeitura de Cajueiro da Praia",
+        "titulo": "Prefeitura de Cajueiro da Praia - PI reabre inscrições para concurso público",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concurso-publico",
+        "vagas": 29,
+        "salarioMaximo": 4000,
+        "inscricaoTexto": "Reaberto até30/08/2026",
+        "inscricaoFim": "2026-08-30"
+      },
+      {
+        "id": "prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concursos-publicos:2202083",
+        "concursoId": "prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concursos-publicos",
+        "codigoIbge": 2202083,
+        "cidade": "Cajueiro da Praia",
+        "uf": "PI",
+        "latitude": -2.93111,
+        "longitude": -41.3408,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cajueiro da Praia — Prefeitura de Cajueiro da Praia - PI reabre inscrições para concursos públicos",
+        "orgao": "Prefeitura de Cajueiro da Praia",
+        "titulo": "Prefeitura de Cajueiro da Praia - PI reabre inscrições para concursos públicos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concursos-publicos",
+        "vagas": 7,
+        "salarioMaximo": 3414.44,
+        "inscricaoTexto": "Reaberto até30/08/2026",
+        "inscricaoFim": "2026-08-30"
       }
     ],
     "totalConcursos": 2
@@ -6760,7 +6823,7 @@
         "contextoLocalidade": "Zootecnista - Corrente, Piripiri)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6791,7 +6854,7 @@
         "contextoLocalidade": "Analista de Trânsito - DETRAN/PI (Floriano, Parnaíba, Teresina)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6822,7 +6885,7 @@
         "contextoLocalidade": "Fiscal Estadual Agropecuário - ADAPI (Engenheiro Agrônomo - Bom Jesus, Guadalupe, Piripiri, Teresina, Parnaíba;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6865,37 +6928,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2206308,
-    "cidade": "Miguel Leão",
-    "uf": "PI",
-    "latitude": -5.68077,
-    "longitude": -42.7436,
-    "concursos": [
-      {
-        "id": "prefeitura-de-miguel-leao-pi-abre-vagas-para-auxiliar-de-atividade-educacional:2206308",
-        "concursoId": "prefeitura-de-miguel-leao-pi-abre-vagas-para-auxiliar-de-atividade-educacional",
-        "codigoIbge": 2206308,
-        "cidade": "Miguel Leão",
-        "uf": "PI",
-        "latitude": -5.68077,
-        "longitude": -42.7436,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Miguel Leão — Prefeitura de Miguel Leão - PI abre vagas para Auxiliar de Atividade Educacional",
-        "orgao": "Prefeitura de Miguel Leão",
-        "titulo": "Prefeitura de Miguel Leão - PI abre vagas para Auxiliar de Atividade Educacional",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-miguel-leao-pi-abre-vagas-para-auxiliar-de-atividade-educacional",
-        "vagas": 2,
-        "salarioMaximo": null,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2207009,
     "cidade": "Oeiras",
     "uf": "PI",
@@ -6915,7 +6947,7 @@
         "contextoLocalidade": "Agente de Assistência Técnica e Extensão Rural - SADA (Engenheiro Agrônomo - Floriano, Parnaíba, Paulistana, Picos, Oeiras, São Raimundo Nonato, Uruçuí, Valença do Piauí;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6946,7 +6978,7 @@
         "contextoLocalidade": "Analista de Trânsito - DETRAN/PI (Floriano, Parnaíba, Teresina)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6977,7 +7009,7 @@
         "contextoLocalidade": "Agente de Assistência Técnica e Extensão Rural - SADA (Engenheiro Agrônomo - Floriano, Parnaíba, Paulistana, Picos, Oeiras, São Raimundo Nonato, Uruçuí, Valença do Piauí;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -6995,27 +7027,6 @@
     "latitude": -7.07721,
     "longitude": -41.467,
     "concursos": [
-      {
-        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2208007",
-        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "codigoIbge": 2208007,
-        "cidade": "Picos",
-        "uf": "PI",
-        "latitude": -7.07721,
-        "longitude": -41.467,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Agente Superior de Serviços - TV Antares (Jornalismo - Parnaíba, Picos, Teresina)",
-        "orgao": "Governo do Piauí - Estado do Piauí",
-        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "vagas": null,
-        "salarioMaximo": 13536.01,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
       {
         "id": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674:2208007",
         "concursoId": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674",
@@ -7036,6 +7047,27 @@
         "salarioMaximo": 6674.43,
         "inscricaoTexto": "05/08/2026",
         "inscricaoFim": "2026-08-05"
+      },
+      {
+        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2208007",
+        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "codigoIbge": 2208007,
+        "cidade": "Picos",
+        "uf": "PI",
+        "latitude": -7.07721,
+        "longitude": -41.467,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Agente Superior de Serviços - TV Antares (Jornalismo - Parnaíba, Picos, Teresina)",
+        "orgao": "Governo do Piauí - Estado do Piauí",
+        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "vagas": null,
+        "salarioMaximo": 13536.01,
+        "inscricaoTexto": "06/08/2026",
+        "inscricaoFim": "2026-08-06"
       }
     ],
     "totalConcursos": 2
@@ -7060,7 +7092,7 @@
         "contextoLocalidade": "Médico Veterinário - Piracuruca, Raimundo Nonato, Simões, Simplício Mendes, Uruçuí)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7091,7 +7123,7 @@
         "contextoLocalidade": "Fiscal Estadual Agropecuário - ADAPI (Engenheiro Agrônomo - Bom Jesus, Guadalupe, Piripiri, Teresina, Parnaíba;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7122,7 +7154,7 @@
         "contextoLocalidade": "Agente de Assistência Técnica e Extensão Rural - SADA (Engenheiro Agrônomo - Floriano, Parnaíba, Paulistana, Picos, Oeiras, São Raimundo Nonato, Uruçuí, Valença do Piauí;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7153,7 +7185,7 @@
         "contextoLocalidade": "Médico Veterinário - Piracuruca, Raimundo Nonato, Simões, Simplício Mendes, Uruçuí)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7184,7 +7216,7 @@
         "contextoLocalidade": "Médico Veterinário - Piracuruca, Raimundo Nonato, Simões, Simplício Mendes, Uruçuí)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7202,27 +7234,6 @@
     "latitude": -5.09194,
     "longitude": -42.8034,
     "concursos": [
-      {
-        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2211001",
-        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "codigoIbge": 2211001,
-        "cidade": "Teresina",
-        "uf": "PI",
-        "latitude": -5.09194,
-        "longitude": -42.8034,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Analista de Trânsito - DETRAN/PI (Floriano, Parnaíba, Teresina)",
-        "orgao": "Governo do Piauí - Estado do Piauí",
-        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
-        "vagas": null,
-        "salarioMaximo": 13536.01,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
       {
         "id": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674:2211001",
         "concursoId": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674",
@@ -7243,6 +7254,27 @@
         "salarioMaximo": 6674.43,
         "inscricaoTexto": "05/08/2026",
         "inscricaoFim": "2026-08-05"
+      },
+      {
+        "id": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536:2211001",
+        "concursoId": "governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "codigoIbge": 2211001,
+        "cidade": "Teresina",
+        "uf": "PI",
+        "latitude": -5.09194,
+        "longitude": -42.8034,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Analista de Trânsito - DETRAN/PI (Floriano, Parnaíba, Teresina)",
+        "orgao": "Governo do Piauí - Estado do Piauí",
+        "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
+        "vagas": null,
+        "salarioMaximo": 13536.01,
+        "inscricaoTexto": "06/08/2026",
+        "inscricaoFim": "2026-08-06"
       },
       {
         "id": "ifpi-abre-concurso-publico-para-cargos-tecnico-administrativos-em-educacao:2211001",
@@ -7309,7 +7341,7 @@
         "contextoLocalidade": "Médico Veterinário - Piracuruca, Raimundo Nonato, Simões, Simplício Mendes, Uruçuí)",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7340,7 +7372,7 @@
         "contextoLocalidade": "Agente de Assistência Técnica e Extensão Rural - SADA (Engenheiro Agrônomo - Floriano, Parnaíba, Paulistana, Picos, Oeiras, São Raimundo Nonato, Uruçuí, Valença do Piauí;",
         "orgao": "Governo do Piauí - Estado do Piauí",
         "titulo": "Governo do Estado do Piauí anuncia três concursos unificados com salários de até R$ 13.536,01",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-piaui-anuncia-tres-concursos-unificados-com-salarios-de-ate-13536",
         "vagas": null,
@@ -7469,7 +7501,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barracao-pr-abre-processo-seletivo-com-salarios-de-ate-5088",
         "vagas": 5,
         "salarioMaximo": 5088.82,
-        "inscricaoTexto": "07 a19/08/2026",
+        "inscricaoTexto": "19/08/2026",
         "inscricaoFim": "2026-08-19"
       }
     ],
@@ -7502,37 +7534,6 @@
         "salarioMaximo": 26876.48,
         "inscricaoTexto": "12/08/2026",
         "inscricaoFim": "2026-08-12"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4104907,
-    "cidade": "Castro",
-    "uf": "PR",
-    "latitude": -24.7891,
-    "longitude": -50.0108,
-    "concursos": [
-      {
-        "id": "prefeitura-de-castro-pr-abre-concurso-publico-com-vagas-de-nivel-medio:4104907",
-        "concursoId": "prefeitura-de-castro-pr-abre-concurso-publico-com-vagas-de-nivel-medio",
-        "codigoIbge": 4104907,
-        "cidade": "Castro",
-        "uf": "PR",
-        "latitude": -24.7891,
-        "longitude": -50.0108,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Castro — Prefeitura de Castro - PR abre concurso público com vagas de nível médio",
-        "orgao": "Prefeitura de Castro",
-        "titulo": "Prefeitura de Castro - PR abre concurso público com vagas de nível médio",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-castro-pr-abre-concurso-publico-com-vagas-de-nivel-medio",
-        "vagas": 32,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
       }
     ],
     "totalConcursos": 1
@@ -7709,9 +7710,30 @@
         "salarioMaximo": 4992.03,
         "inscricaoTexto": "07/08/2026",
         "inscricaoFim": "2026-08-07"
+      },
+      {
+        "id": "prefeitura-de-coronel-vivida-pr-abre-concurso-publico-com-salarios-de-ate-21525:4106506",
+        "concursoId": "prefeitura-de-coronel-vivida-pr-abre-concurso-publico-com-salarios-de-ate-21525",
+        "codigoIbge": 4106506,
+        "cidade": "Coronel Vivida",
+        "uf": "PR",
+        "latitude": -25.9767,
+        "longitude": -52.5641,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Coronel Vivida — Prefeitura de Coronel Vivida - PR abre concurso público com salários de até R$ 21.525,56",
+        "orgao": "Prefeitura de Coronel Vivida",
+        "titulo": "Prefeitura de Coronel Vivida - PR abre concurso público com salários de até R$ 21.525,56",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-coronel-vivida-pr-abre-concurso-publico-com-salarios-de-ate-21525",
+        "vagas": 65,
+        "salarioMaximo": 21525.56,
+        "inscricaoTexto": "11/08 a08/10/2026",
+        "inscricaoFim": "2026-10-08"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4106902,
@@ -8132,7 +8154,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mallet-pr-abre-processo-seletivo-para-terapeuta-ocupacional",
         "vagas": 1,
         "salarioMaximo": 5293.99,
-        "inscricaoTexto": "07 a14/08/2026",
+        "inscricaoTexto": "14/08/2026",
         "inscricaoFim": "2026-08-14"
       }
     ],
@@ -8165,37 +8187,6 @@
         "salarioMaximo": 6768.66,
         "inscricaoTexto": "10/08 a03/09/2026",
         "inscricaoFim": "2026-09-03"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4115200,
-    "cidade": "Maringá",
-    "uf": "PR",
-    "latitude": -23.4205,
-    "longitude": -51.9333,
-    "concursos": [
-      {
-        "id": "cisamusep-pr-abre-selecao-com-salarios-de-ate-6581:4115200",
-        "concursoId": "cisamusep-pr-abre-selecao-com-salarios-de-ate-6581",
-        "codigoIbge": 4115200,
-        "cidade": "Maringá",
-        "uf": "PR",
-        "latitude": -23.4205,
-        "longitude": -51.9333,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas objetivas serão aplicadas em Maringá/PR, em 23 de agosto de 2026.",
-        "orgao": "CISAMUSEP - Consórcio Público Intermunicipal de Saúde do Setentrião Paranaense",
-        "titulo": "CISAMUSEP - PR abre seleção com salários de até R$ 6.581,34",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisamusep-pr-abre-selecao-com-salarios-de-ate-6581",
-        "vagas": 10,
-        "salarioMaximo": 6581.34,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
       }
     ],
     "totalConcursos": 1
@@ -8512,6 +8503,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4121604,
+    "cidade": "Renascença",
+    "uf": "PR",
+    "latitude": -26.1588,
+    "longitude": -52.9703,
+    "concursos": [
+      {
+        "id": "prefeitura-de-renascenca-pr-abre-vagas-para-aprendiz-auxiliar-administrativo:4121604",
+        "concursoId": "prefeitura-de-renascenca-pr-abre-vagas-para-aprendiz-auxiliar-administrativo",
+        "codigoIbge": 4121604,
+        "cidade": "Renascença",
+        "uf": "PR",
+        "latitude": -26.1588,
+        "longitude": -52.9703,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Renascença — Prefeitura de Renascença - PR abre vagas para Aprendiz Auxiliar Administrativo",
+        "orgao": "Prefeitura de Renascença",
+        "titulo": "Prefeitura de Renascença - PR abre vagas para Aprendiz Auxiliar Administrativo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-renascenca-pr-abre-vagas-para-aprendiz-auxiliar-administrativo",
+        "vagas": 5,
+        "salarioMaximo": null,
+        "inscricaoTexto": "19/08/2026",
+        "inscricaoFim": "2026-08-19"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4127882,
     "cidade": "Tunas do Paraná",
     "uf": "PR",
@@ -8569,6 +8591,37 @@
         "salarioMaximo": 2682.32,
         "inscricaoTexto": "19/08/2026",
         "inscricaoFim": "2026-08-19"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3300258,
+    "cidade": "Arraial do Cabo",
+    "uf": "RJ",
+    "latitude": -22.9774,
+    "longitude": -42.0267,
+    "concursos": [
+      {
+        "id": "prefeitura-de-arraial-do-cabo-rj-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias:3300258",
+        "concursoId": "prefeitura-de-arraial-do-cabo-rj-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
+        "codigoIbge": 3300258,
+        "cidade": "Arraial do Cabo",
+        "uf": "RJ",
+        "latitude": -22.9774,
+        "longitude": -42.0267,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Arraial do Cabo — Prefeitura de Arraial do Cabo - RJ abre processo seletivo para agentes de saúde e de endemias",
+        "orgao": "Prefeitura de Arraial do Cabo",
+        "titulo": "Prefeitura de Arraial do Cabo - RJ abre processo seletivo para agentes de saúde e de endemias",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-arraial-do-cabo-rj-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
+        "vagas": 100,
+        "salarioMaximo": 3242,
+        "inscricaoTexto": "17/08 a21/10/2026",
+        "inscricaoFim": "2026-10-21"
       }
     ],
     "totalConcursos": 1
@@ -8633,8 +8686,8 @@
     "longitude": -43.4233,
     "concursos": [
       {
-        "id": "camara-de-nilopolis-rj-abre-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva:3303203",
-        "concursoId": "camara-de-nilopolis-rj-abre-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva",
+        "id": "camara-de-nilopolis-rj-prorroga-inscricoes-do-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva:3303203",
+        "concursoId": "camara-de-nilopolis-rj-prorroga-inscricoes-do-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva",
         "codigoIbge": 3303203,
         "cidade": "Nilópolis",
         "uf": "RJ",
@@ -8642,16 +8695,16 @@
         "longitude": -43.4233,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Nilópolis — Câmara de Nilópolis - RJ abre concurso com 35 vagas imediatas e cadastro de reserva",
+        "contextoLocalidade": "Câmara de Nilópolis — Câmara de Nilópolis - RJ prorroga inscrições do concurso com 35 vagas imediatas e cadastro de reserva",
         "orgao": "Câmara de Nilópolis",
-        "titulo": "Câmara de Nilópolis - RJ abre concurso com 35 vagas imediatas e cadastro de reserva",
-        "status": "encerrado",
+        "titulo": "Câmara de Nilópolis - RJ prorroga inscrições do concurso com 35 vagas imediatas e cadastro de reserva",
+        "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-nilopolis-rj-abre-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-nilopolis-rj-prorroga-inscricoes-do-concurso-com-35-vagas-imediatas-e-cadastro-de-reserva",
         "vagas": 35,
         "salarioMaximo": 2500,
-        "inscricaoTexto": "31/07/2026",
-        "inscricaoFim": "2026-07-31"
+        "inscricaoTexto": "Prorrogado até12/08/2026",
+        "inscricaoFim": "2026-08-12"
       }
     ],
     "totalConcursos": 1
@@ -8707,7 +8760,7 @@
         "contextoLocalidade": "Arquitetura, Engenharia e Sustentação Tecnológica - Rio de Janeiro/RJ (10 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -8883,42 +8936,11 @@
         "contextoLocalidade": "Desenvolvimento de Software - Natal/RN (20 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
         "salarioMaximo": 10685.44,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2414407,
-    "cidade": "Touros",
-    "uf": "RN",
-    "latitude": -5.20182,
-    "longitude": -35.4621,
-    "concursos": [
-      {
-        "id": "saae-de-touros-rn-abre-processo-seletivo-para-o-cargo-de-operador-de-bombas:2414407",
-        "concursoId": "saae-de-touros-rn-abre-processo-seletivo-para-o-cargo-de-operador-de-bombas",
-        "codigoIbge": 2414407,
-        "cidade": "Touros",
-        "uf": "RN",
-        "latitude": -5.20182,
-        "longitude": -35.4621,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SAAE - Serviço Autônomo de Água e Esgoto de Touros — SAAE de Touros - RN abre processo seletivo para o cargo de Operador de Bombas",
-        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Touros",
-        "titulo": "SAAE de Touros - RN abre processo seletivo para o cargo de Operador de Bombas",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-touros-rn-abre-processo-seletivo-para-o-cargo-de-operador-de-bombas",
-        "vagas": 1,
-        "salarioMaximo": 1621,
         "inscricaoTexto": "06/08/2026",
         "inscricaoFim": "2026-08-06"
       }
@@ -9350,6 +9372,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4308433,
+    "cidade": "Forquetinha",
+    "uf": "RS",
+    "latitude": -29.3828,
+    "longitude": -52.0981,
+    "concursos": [
+      {
+        "id": "prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763:4308433",
+        "concursoId": "prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763",
+        "codigoIbge": 4308433,
+        "cidade": "Forquetinha",
+        "uf": "RS",
+        "latitude": -29.3828,
+        "longitude": -52.0981,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Forquetinha — Prefeitura de Forquetinha - RS prorroga inscrições do concurso com salários de até R$ 4.763,85",
+        "orgao": "Prefeitura de Forquetinha",
+        "titulo": "Prefeitura de Forquetinha - RS prorroga inscrições do concurso com salários de até R$ 4.763,85",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763",
+        "vagas": 11,
+        "salarioMaximo": 4763.85,
+        "inscricaoTexto": "Prorrogado até09/08/2026",
+        "inscricaoFim": "2026-08-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4308904,
     "cidade": "Getúlio Vargas",
     "uf": "RS",
@@ -9598,6 +9651,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4314407,
+    "cidade": "Pelotas",
+    "uf": "RS",
+    "latitude": -31.7649,
+    "longitude": -52.3371,
+    "concursos": [
+      {
+        "id": "prefeitura-de-pelotas-rs-abre-selecao-para-o-cargo-de-cozinheiro:4314407",
+        "concursoId": "prefeitura-de-pelotas-rs-abre-selecao-para-o-cargo-de-cozinheiro",
+        "codigoIbge": 4314407,
+        "cidade": "Pelotas",
+        "uf": "RS",
+        "latitude": -31.7649,
+        "longitude": -52.3371,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Pelotas — Prefeitura de Pelotas - RS abre seleção para o cargo de Cozinheiro",
+        "orgao": "Prefeitura de Pelotas",
+        "titulo": "Prefeitura de Pelotas - RS abre seleção para o cargo de Cozinheiro",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pelotas-rs-abre-selecao-para-o-cargo-de-cozinheiro",
+        "vagas": 1,
+        "salarioMaximo": 1789.04,
+        "inscricaoTexto": "14/08/2026",
+        "inscricaoFim": "2026-08-14"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4314902,
     "cidade": "Porto Alegre",
     "uf": "RS",
@@ -9678,8 +9762,8 @@
     "longitude": -52.1071,
     "concursos": [
       {
-        "id": "cremers-rs-abre-concurso-publico-para-medico-fiscal-e-agente-fiscal:4315602",
-        "concursoId": "cremers-rs-abre-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+        "id": "cremers-rs-retifica-edital-de-concurso-publico-para-medico-fiscal-e-agente-fiscal:4315602",
+        "concursoId": "cremers-rs-retifica-edital-de-concurso-publico-para-medico-fiscal-e-agente-fiscal",
         "codigoIbge": 4315602,
         "cidade": "Rio Grande",
         "uf": "RS",
@@ -9687,16 +9771,16 @@
         "longitude": -52.1071,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "CREMERS - Conselho Regional de Medicina do Estado do Rio Grande do Sul — CREMERS - RS abre concurso público para Médico Fiscal e Agente Fiscal",
+        "contextoLocalidade": "CREMERS - Conselho Regional de Medicina do Estado do Rio Grande do Sul — CREMERS - RS retifica edital de concurso público para Médico Fiscal e Agente Fiscal",
         "orgao": "CREMERS - Conselho Regional de Medicina do Estado do Rio Grande do Sul",
-        "titulo": "CREMERS - RS abre concurso público para Médico Fiscal e Agente Fiscal",
+        "titulo": "CREMERS - RS retifica edital de concurso público para Médico Fiscal e Agente Fiscal",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cremers-rs-abre-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cremers-rs-retifica-edital-de-concurso-publico-para-medico-fiscal-e-agente-fiscal",
         "vagas": 60,
         "salarioMaximo": 18847.08,
-        "inscricaoTexto": "31/08/2026",
-        "inscricaoFim": "2026-08-31"
+        "inscricaoTexto": "07/09/2026",
+        "inscricaoFim": "2026-09-07"
       },
       {
         "id": "faurgs-rs-abre-processo-seletivo-para-profissionais-de-nivel-tecnico:4315602",
@@ -10013,68 +10097,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4322806,
-    "cidade": "Veranópolis",
-    "uf": "RS",
-    "latitude": -28.9312,
-    "longitude": -51.5516,
-    "concursos": [
-      {
-        "id": "prefeitura-de-veranopolis-rs-abre-processo-seletivo-para-assistente-educacional:4322806",
-        "concursoId": "prefeitura-de-veranopolis-rs-abre-processo-seletivo-para-assistente-educacional",
-        "codigoIbge": 4322806,
-        "cidade": "Veranópolis",
-        "uf": "RS",
-        "latitude": -28.9312,
-        "longitude": -51.5516,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Veranópolis — Prefeitura de Veranópolis - RS abre processo seletivo para Assistente Educacional",
-        "orgao": "Prefeitura de Veranópolis",
-        "titulo": "Prefeitura de Veranópolis - RS abre processo seletivo para Assistente Educacional",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-veranopolis-rs-abre-processo-seletivo-para-assistente-educacional",
-        "vagas": null,
-        "salarioMaximo": 1963.13,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4323200,
-    "cidade": "Victor Graeff",
-    "uf": "RS",
-    "latitude": -28.5632,
-    "longitude": -52.7495,
-    "concursos": [
-      {
-        "id": "prefeitura-de-victor-graeff-rs-abre-selecao-para-auxiliar-de-limpeza-externa:4323200",
-        "concursoId": "prefeitura-de-victor-graeff-rs-abre-selecao-para-auxiliar-de-limpeza-externa",
-        "codigoIbge": 4323200,
-        "cidade": "Victor Graeff",
-        "uf": "RS",
-        "latitude": -28.5632,
-        "longitude": -52.7495,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Victor Graeff — Prefeitura de Victor Graeff - RS abre seleção para Auxiliar de Limpeza Externa",
-        "orgao": "Prefeitura de Victor Graeff",
-        "titulo": "Prefeitura de Victor Graeff - RS abre seleção para Auxiliar de Limpeza Externa",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-victor-graeff-rs-abre-selecao-para-auxiliar-de-limpeza-externa",
-        "vagas": null,
-        "salarioMaximo": 1871.02,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4201273,
     "cidade": "Arabutã",
     "uf": "SC",
@@ -10144,27 +10166,6 @@
     "longitude": -48.6352,
     "concursos": [
       {
-        "id": "fahece-sc-abre-vaga-para-tecnico-auxiliar-de-regulacao-medica-em-balneario-camboriu:4202008",
-        "concursoId": "fahece-sc-abre-vaga-para-tecnico-auxiliar-de-regulacao-medica-em-balneario-camboriu",
-        "codigoIbge": 4202008,
-        "cidade": "Balneário Camboriú",
-        "uf": "SC",
-        "latitude": -26.9926,
-        "longitude": -48.6352,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre vaga para Técnico Auxiliar de Regulação Médica em Balneário Camboriú",
-        "orgao": "FAHECE - Fundação de Apoio ao Hemosc e Cepon",
-        "titulo": "FAHECE - SC abre vaga para Técnico Auxiliar de Regulação Médica em Balneário Camboriú",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-vaga-para-tecnico-auxiliar-de-regulacao-medica-em-balneario-camboriu",
-        "vagas": 1,
-        "salarioMaximo": 2537.12,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
-      {
         "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes:4202008",
         "concursoId": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
         "codigoIbge": 4202008,
@@ -10186,7 +10187,7 @@
         "inscricaoFim": "2026-08-27"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4212809,
@@ -10260,6 +10261,37 @@
       }
     ],
     "totalConcursos": 3
+  },
+  {
+    "codigoIbge": 4220000,
+    "cidade": "Balneário Rincão",
+    "uf": "SC",
+    "latitude": -28.8314,
+    "longitude": -49.2352,
+    "concursos": [
+      {
+        "id": "camara-de-balneario-rincao-sc-abre-concurso-publico-para-agente-de-contratacao-e-motorista:4220000",
+        "concursoId": "camara-de-balneario-rincao-sc-abre-concurso-publico-para-agente-de-contratacao-e-motorista",
+        "codigoIbge": 4220000,
+        "cidade": "Balneário Rincão",
+        "uf": "SC",
+        "latitude": -28.8314,
+        "longitude": -49.2352,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Balneário Rincão — Câmara de Balneário Rincão - SC abre concurso público para Agente de Contratação e Motorista",
+        "orgao": "Câmara de Balneário Rincão",
+        "titulo": "Câmara de Balneário Rincão - SC abre concurso público para Agente de Contratação e Motorista",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-balneario-rincao-sc-abre-concurso-publico-para-agente-de-contratacao-e-motorista",
+        "vagas": 2,
+        "salarioMaximo": 4680,
+        "inscricaoTexto": "17/08 a15/09/2026",
+        "inscricaoFim": "2026-09-15"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4202156,
@@ -10428,6 +10460,58 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4202800,
+    "cidade": "Braço do Norte",
+    "uf": "SC",
+    "latitude": -28.2681,
+    "longitude": -49.1701,
+    "concursos": [
+      {
+        "id": "funbama-sc-abre-processo-seletivo-para-o-cargo-de-engenheiro-civil:4202800",
+        "concursoId": "funbama-sc-abre-processo-seletivo-para-o-cargo-de-engenheiro-civil",
+        "codigoIbge": 4202800,
+        "cidade": "Braço do Norte",
+        "uf": "SC",
+        "latitude": -28.2681,
+        "longitude": -49.1701,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "FUNBAMA - Fundação do Meio Ambiente de Braço do Norte — FUNBAMA - SC abre processo seletivo para o cargo de Engenheiro Civil",
+        "orgao": "FUNBAMA - Fundação do Meio Ambiente de Braço do Norte",
+        "titulo": "FUNBAMA - SC abre processo seletivo para o cargo de Engenheiro Civil",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/funbama-sc-abre-processo-seletivo-para-o-cargo-de-engenheiro-civil",
+        "vagas": 1,
+        "salarioMaximo": 6827.75,
+        "inscricaoTexto": "19/08/2026",
+        "inscricaoFim": "2026-08-19"
+      },
+      {
+        "id": "prefeitura-de-braco-do-norte-sc-abre-processo-seletivo-com-salarios-de-ate-4228:4202800",
+        "concursoId": "prefeitura-de-braco-do-norte-sc-abre-processo-seletivo-com-salarios-de-ate-4228",
+        "codigoIbge": 4202800,
+        "cidade": "Braço do Norte",
+        "uf": "SC",
+        "latitude": -28.2681,
+        "longitude": -49.1701,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Braço do Norte — Prefeitura de Braço do Norte - SC abre processo seletivo com salários de até R$ 4.228,42",
+        "orgao": "Prefeitura de Braço do Norte",
+        "titulo": "Prefeitura de Braço do Norte - SC abre processo seletivo com salários de até R$ 4.228,42",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-braco-do-norte-sc-abre-processo-seletivo-com-salarios-de-ate-4228",
+        "vagas": 9,
+        "salarioMaximo": 4228.42,
+        "inscricaoTexto": "20/08/2026",
+        "inscricaoFim": "2026-08-20"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
     "codigoIbge": 4202909,
     "cidade": "Brusque",
     "uf": "SC",
@@ -10549,6 +10633,27 @@
     "longitude": -51.2276,
     "concursos": [
       {
+        "id": "prefeitura-de-campos-novos-sc-abre-processo-seletivo-para-o-cargo-de-motorista:4203600",
+        "concursoId": "prefeitura-de-campos-novos-sc-abre-processo-seletivo-para-o-cargo-de-motorista",
+        "codigoIbge": 4203600,
+        "cidade": "Campos Novos",
+        "uf": "SC",
+        "latitude": -27.4002,
+        "longitude": -51.2276,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Campos Novos — Prefeitura de Campos Novos - SC abre processo seletivo para o cargo de motorista",
+        "orgao": "Prefeitura de Campos Novos",
+        "titulo": "Prefeitura de Campos Novos - SC abre processo seletivo para o cargo de motorista",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-campos-novos-sc-abre-processo-seletivo-para-o-cargo-de-motorista",
+        "vagas": 1,
+        "salarioMaximo": 2906.16,
+        "inscricaoTexto": "25/08/2026",
+        "inscricaoFim": "2026-08-25"
+      },
+      {
         "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes:4203600",
         "concursoId": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
         "codigoIbge": 4203600,
@@ -10570,7 +10675,7 @@
         "inscricaoFim": "2026-08-27"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4203808,
@@ -10746,6 +10851,27 @@
     "longitude": -49.3729,
     "concursos": [
       {
+        "id": "hospital-materno-infantil-santa-catarina-sc-abre-selecao-com-salarios-de-ate-6110:4204608",
+        "concursoId": "hospital-materno-infantil-santa-catarina-sc-abre-selecao-com-salarios-de-ate-6110",
+        "codigoIbge": 4204608,
+        "cidade": "Criciúma",
+        "uf": "SC",
+        "latitude": -28.6723,
+        "longitude": -49.3729,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Os profissionais contratados atuarão no Hospital Materno Infantil Santa Catarina, situado em Criciúma/SC.",
+        "orgao": "HMISC - Hospital Materno Infantil Santa Catarina",
+        "titulo": "Hospital Materno Infantil Santa Catarina - SC abre seleção com salários de até R$ 6.110,24",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-materno-infantil-santa-catarina-sc-abre-selecao-com-salarios-de-ate-6110",
+        "vagas": 28,
+        "salarioMaximo": 6110.24,
+        "inscricaoTexto": "14/08/2026",
+        "inscricaoFim": "2026-08-14"
+      },
+      {
         "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes:4204608",
         "concursoId": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
         "codigoIbge": 4204608,
@@ -10767,7 +10893,7 @@
         "inscricaoFim": "2026-08-27"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4204707,
@@ -10851,7 +10977,7 @@
         "contextoLocalidade": "Desenvolvimento de Software - Florianópolis/SC (20 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -10881,27 +11007,6 @@
         "inscricaoFim": "2026-08-09"
       },
       {
-        "id": "fahece-sc-abre-processo-seletivo-para-analista-de-sistemas-i-em-florianopolis:4205407",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-analista-de-sistemas-i-em-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC abre processo seletivo para Analista de Sistemas I em Florianópolis",
-        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-        "titulo": "FAHECE - SC abre processo seletivo para Analista de Sistemas I em Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-analista-de-sistemas-i-em-florianopolis",
-        "vagas": 1,
-        "salarioMaximo": 6753.04,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
-      {
         "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes:4205407",
         "concursoId": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
         "codigoIbge": 4205407,
@@ -10923,7 +11028,7 @@
         "inscricaoFim": "2026-08-27"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 4205506,
@@ -11244,27 +11349,6 @@
     "longitude": -51.5108,
     "concursos": [
       {
-        "id": "fahece-sc-abre-processo-seletivo-para-analista-administrativo-i-no-hemosc-de-joacaba:4209003",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-analista-administrativo-i-no-hemosc-de-joacaba",
-        "codigoIbge": 4209003,
-        "cidade": "Joaçaba",
-        "uf": "SC",
-        "latitude": -27.1721,
-        "longitude": -51.5108,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC abre processo seletivo para Analista Administrativo I no HEMOSC de Joaçaba",
-        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-        "titulo": "FAHECE - SC abre processo seletivo para Analista Administrativo I no HEMOSC de Joaçaba",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-analista-administrativo-i-no-hemosc-de-joacaba",
-        "vagas": 1,
-        "salarioMaximo": 5060.78,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
-      {
         "id": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes:4209003",
         "concursoId": "sas-sc-abre-processo-seletivo-para-assistentes-sociais-em-diversas-regioes",
         "codigoIbge": 4209003,
@@ -11286,7 +11370,7 @@
         "inscricaoFim": "2026-08-27"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4209102,
@@ -11818,6 +11902,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4214300,
+    "cidade": "Rancho Queimado",
+    "uf": "SC",
+    "latitude": -27.6727,
+    "longitude": -49.0191,
+    "concursos": [
+      {
+        "id": "prefeitura-de-rancho-queimado-sc-abre-selecao-para-professores-e-auxiliares:4214300",
+        "concursoId": "prefeitura-de-rancho-queimado-sc-abre-selecao-para-professores-e-auxiliares",
+        "codigoIbge": 4214300,
+        "cidade": "Rancho Queimado",
+        "uf": "SC",
+        "latitude": -27.6727,
+        "longitude": -49.0191,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Rancho Queimado — Prefeitura de Rancho Queimado - SC abre seleção para professores e auxiliares",
+        "orgao": "Prefeitura de Rancho Queimado",
+        "titulo": "Prefeitura de Rancho Queimado - SC abre seleção para professores e auxiliares",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rancho-queimado-sc-abre-selecao-para-professores-e-auxiliares",
+        "vagas": null,
+        "salarioMaximo": 5111.16,
+        "inscricaoTexto": "11/08/2026",
+        "inscricaoFim": "2026-08-11"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4214805,
     "cidade": "Rio do Sul",
     "uf": "SC",
@@ -11889,6 +12004,37 @@
       }
     ],
     "totalConcursos": 3
+  },
+  {
+    "codigoIbge": 4215000,
+    "cidade": "Rio Negrinho",
+    "uf": "SC",
+    "latitude": -26.2591,
+    "longitude": -49.5177,
+    "concursos": [
+      {
+        "id": "prefeitura-de-rio-negrinho-sc-abre-selecao-para-medico-psiquiatra:4215000",
+        "concursoId": "prefeitura-de-rio-negrinho-sc-abre-selecao-para-medico-psiquiatra",
+        "codigoIbge": 4215000,
+        "cidade": "Rio Negrinho",
+        "uf": "SC",
+        "latitude": -26.2591,
+        "longitude": -49.5177,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Rio Negrinho — Prefeitura de Rio Negrinho - SC abre seleção para Médico Psiquiatra",
+        "orgao": "Prefeitura de Rio Negrinho",
+        "titulo": "Prefeitura de Rio Negrinho - SC abre seleção para Médico Psiquiatra",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-negrinho-sc-abre-selecao-para-medico-psiquiatra",
+        "vagas": 1,
+        "salarioMaximo": 18538.78,
+        "inscricaoTexto": "24/08/2026",
+        "inscricaoFim": "2026-08-24"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4215208,
@@ -12538,30 +12684,9 @@
         "salarioMaximo": 6566.5,
         "inscricaoTexto": "Prorrogado até07/08/2026",
         "inscricaoFim": "2026-08-07"
-      },
-      {
-        "id": "fea-sp-abre-processo-seletivo-para-vagas-imediatas-e-formacao-de-cadastro-de-reserva:3502101",
-        "concursoId": "fea-sp-abre-processo-seletivo-para-vagas-imediatas-e-formacao-de-cadastro-de-reserva",
-        "codigoIbge": 3502101,
-        "cidade": "Andradina",
-        "uf": "SP",
-        "latitude": -20.8948,
-        "longitude": -51.3786,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FEA - Fundação Educacional de Andradina — FEA - SP abre processo seletivo para vagas imediatas e formação de cadastro de reserva",
-        "orgao": "FEA - Fundação Educacional de Andradina",
-        "titulo": "FEA - SP abre processo seletivo para vagas imediatas e formação de cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fea-sp-abre-processo-seletivo-para-vagas-imediatas-e-formacao-de-cadastro-de-reserva",
-        "vagas": 4,
-        "salarioMaximo": 2310,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3502200,
@@ -13234,27 +13359,6 @@
     "longitude": -46.5333,
     "concursos": [
       {
-        "id": "prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi:3518800",
-        "concursoId": "prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
-        "codigoIbge": 3518800,
-        "cidade": "Guarulhos",
-        "uf": "SP",
-        "latitude": -23.4538,
-        "longitude": -46.5333,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Guarulhos — Prefeitura de Guarulhos - SP abre 10 vagas para Auditor Fiscal VI",
-        "orgao": "Prefeitura de Guarulhos",
-        "titulo": "Prefeitura de Guarulhos - SP abre 10 vagas para Auditor Fiscal VI",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
-        "vagas": 10,
-        "salarioMaximo": 7213.33,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
-      {
         "id": "prefeitura-de-guarulhos-sp-abre-concurso-publico-para-o-cargo-de-guarda-vidas:3518800",
         "concursoId": "prefeitura-de-guarulhos-sp-abre-concurso-publico-para-o-cargo-de-guarda-vidas",
         "codigoIbge": 3518800,
@@ -13274,6 +13378,27 @@
         "salarioMaximo": 1932.12,
         "inscricaoTexto": "24/08/2026",
         "inscricaoFim": "2026-08-24"
+      },
+      {
+        "id": "prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi:3518800",
+        "concursoId": "prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
+        "codigoIbge": 3518800,
+        "cidade": "Guarulhos",
+        "uf": "SP",
+        "latitude": -23.4538,
+        "longitude": -46.5333,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Guarulhos — Prefeitura de Guarulhos - SP abre 10 vagas para Auditor Fiscal VI",
+        "orgao": "Prefeitura de Guarulhos",
+        "titulo": "Prefeitura de Guarulhos - SP abre 10 vagas para Auditor Fiscal VI",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
+        "vagas": 10,
+        "salarioMaximo": 7213.33,
+        "inscricaoTexto": "06/08/2026",
+        "inscricaoFim": "2026-08-06"
       }
     ],
     "totalConcursos": 2
@@ -13465,6 +13590,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3521309,
+    "cidade": "Ipuã",
+    "uf": "SP",
+    "latitude": -20.4438,
+    "longitude": -48.0129,
+    "concursos": [
+      {
+        "id": "prefeitura-de-ipua-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-6536:3521309",
+        "concursoId": "prefeitura-de-ipua-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-6536",
+        "codigoIbge": 3521309,
+        "cidade": "Ipuã",
+        "uf": "SP",
+        "latitude": -20.4438,
+        "longitude": -48.0129,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Ipuã — Prefeitura de Ipuã - SP reabre inscrições para o concurso público com salários de até R$ 6.536,19",
+        "orgao": "Prefeitura de Ipuã",
+        "titulo": "Prefeitura de Ipuã - SP reabre inscrições para o concurso público com salários de até R$ 6.536,19",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipua-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-6536",
+        "vagas": 4,
+        "salarioMaximo": 6536.19,
+        "inscricaoTexto": "Reaberto até10/08/2026",
+        "inscricaoFim": "2026-08-10"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3522109,
     "cidade": "Itanhaém",
     "uf": "SP",
@@ -13558,37 +13714,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3523206,
-    "cidade": "Itararé",
-    "uf": "SP",
-    "latitude": -24.1085,
-    "longitude": -49.3352,
-    "concursos": [
-      {
-        "id": "camara-de-itarare-sp-abre-concurso-publico-para-controlador-interno:3523206",
-        "concursoId": "camara-de-itarare-sp-abre-concurso-publico-para-controlador-interno",
-        "codigoIbge": 3523206,
-        "cidade": "Itararé",
-        "uf": "SP",
-        "latitude": -24.1085,
-        "longitude": -49.3352,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Itararé — Câmara de Itararé - SP abre concurso público para Controlador Interno",
-        "orgao": "Câmara de Itararé",
-        "titulo": "Câmara de Itararé - SP abre concurso público para Controlador Interno",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-itarare-sp-abre-concurso-publico-para-controlador-interno",
-        "vagas": 1,
-        "salarioMaximo": 8500,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3524006,
     "cidade": "Itupeva",
     "uf": "SP",
@@ -13620,64 +13745,12 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3525201,
-    "cidade": "Jarinu",
-    "uf": "SP",
-    "latitude": -23.1039,
-    "longitude": -46.728,
-    "concursos": [
-      {
-        "id": "prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-14128:3525201",
-        "concursoId": "prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-14128",
-        "codigoIbge": 3525201,
-        "cidade": "Jarinu",
-        "uf": "SP",
-        "latitude": -23.1039,
-        "longitude": -46.728,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Jarinu — Prefeitura de Jarinu - SP abre concurso público com salários de até R$ 14.128,00",
-        "orgao": "Prefeitura de Jarinu",
-        "titulo": "Prefeitura de Jarinu - SP abre concurso público com salários de até R$ 14.128,00",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-14128",
-        "vagas": 4,
-        "salarioMaximo": 14128,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3525904,
     "cidade": "Jundiaí",
     "uf": "SP",
     "latitude": -23.1852,
     "longitude": -46.8974,
     "concursos": [
-      {
-        "id": "faculdade-de-medicina-de-jundiai-sp-retifica-concurso-publico-com-vaga-para-enfermeiro:3525904",
-        "concursoId": "faculdade-de-medicina-de-jundiai-sp-retifica-concurso-publico-com-vaga-para-enfermeiro",
-        "codigoIbge": 3525904,
-        "cidade": "Jundiaí",
-        "uf": "SP",
-        "latitude": -23.1852,
-        "longitude": -46.8974,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FMJ - Faculdade de Medicina de Jundiaí — Faculdade de Medicina de Jundiaí - SP retifica concurso público com vaga para Enfermeiro",
-        "orgao": "FMJ - Faculdade de Medicina de Jundiaí",
-        "titulo": "Faculdade de Medicina de Jundiaí - SP retifica concurso público com vaga para Enfermeiro",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/faculdade-de-medicina-de-jundiai-sp-retifica-concurso-publico-com-vaga-para-enfermeiro",
-        "vagas": 15,
-        "salarioMaximo": 10748.35,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      },
       {
         "id": "prefeitura-de-jundiai-sp-retifica-um-dos-quatro-editais-de-concursos-publicos:3525904",
         "concursoId": "prefeitura-de-jundiai-sp-retifica-um-dos-quatro-editais-de-concursos-publicos",
@@ -13721,7 +13794,7 @@
         "inscricaoFim": "2026-08-19"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3526803,
@@ -14396,37 +14469,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3546801,
-    "cidade": "Santa Isabel",
-    "uf": "SP",
-    "latitude": -23.3172,
-    "longitude": -46.2237,
-    "concursos": [
-      {
-        "id": "famesp-sp-abre-editais-de-processos-seletivos-para-diferentes-niveis-de-escolaridade:3546801",
-        "concursoId": "famesp-sp-abre-editais-de-processos-seletivos-para-diferentes-niveis-de-escolaridade",
-        "codigoIbge": 3546801,
-        "cidade": "Santa Isabel",
-        "uf": "SP",
-        "latitude": -23.3172,
-        "longitude": -46.2237,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Técnico de Enfermagem - Maternidade Santa Isabel - MSI (1 vaga)",
-        "orgao": "FAMESP - Fundação para o Desenvolvimento Médico e Hospitalar",
-        "titulo": "FAMESP - SP abre editais de processos seletivos para diferentes níveis de escolaridade",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/famesp-sp-abre-editais-de-processos-seletivos-para-diferentes-niveis-de-escolaridade",
-        "vagas": 23,
-        "salarioMaximo": 4212.8,
-        "inscricaoTexto": "06/08/2026",
-        "inscricaoFim": "2026-08-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3546900,
     "cidade": "Santa Lúcia",
     "uf": "SP",
@@ -14663,7 +14705,7 @@
         "contextoLocalidade": "Arquitetura, Engenharia e Sustentação Tecnológica - São Paulo/SP (10 vagas)",
         "orgao": "DATAPREV - Empresa de Tecnologia e Informações da Previdência",
         "titulo": "Dataprev abre concurso público com vagas de nível superior em diversas cidades do Brasil",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/dataprev-abre-concurso-publico-com-vagas-de-nivel-superior-em-diversas-cidades-do-brasil",
         "vagas": 212,
@@ -14693,8 +14735,8 @@
         "inscricaoFim": "2026-09-17"
       },
       {
-        "id": "tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo:3550308",
-        "concursoId": "tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo",
+        "id": "tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo:3550308",
+        "concursoId": "tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
         "codigoIbge": 3550308,
         "cidade": "São Paulo",
         "uf": "SP",
@@ -14703,15 +14745,15 @@
         "tipoLocalidade": "prova",
         "confiancaLocalidade": "media",
         "contextoLocalidade": "As provas estão previstas para o dia 11 de outubro de 2026, na cidade de São Paulo/SP.",
-        "orgao": "TCE-SP - Tribunal de Contas do Estado de São Paulo",
-        "titulo": "TCE-SP abre concurso com vagas para Auditor de Controle Externo",
+        "orgao": "TCESP - Tribunal de Contas do Estado de São Paulo",
+        "titulo": "TCE-SP prorroga inscrições do concurso público para Auditor de Controle Externo",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
         "vagas": 50,
         "salarioMaximo": 20940.2,
-        "inscricaoTexto": "11/08/2026",
-        "inscricaoFim": "2026-08-11"
+        "inscricaoTexto": "Prorrogado até20/08/2026",
+        "inscricaoFim": "2026-08-20"
       },
       {
         "id": "mp-sp-abre-concurso-publico-para-analista-de-promotoria-terapeuta-ocupacional:3550308",
@@ -15021,7 +15063,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-araguatins-to-abre-concurso-publico-com-14-vagas-imediatas",
         "vagas": 14,
         "salarioMaximo": 2400,
-        "inscricaoTexto": "07/08 a07/09/2026",
+        "inscricaoTexto": "07/09/2026",
         "inscricaoFim": "2026-09-07"
       },
       {
