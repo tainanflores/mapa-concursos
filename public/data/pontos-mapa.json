@@ -383,37 +383,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2911105,
-    "cidade": "Formosa do Rio Preto",
-    "uf": "BA",
-    "latitude": -11.0328,
-    "longitude": -45.193,
-    "concursos": [
-      {
-        "id": "prefeitura-de-formosa-do-rio-preto-ba-prorroga-inscricoes-para-concurso-publico:2911105",
-        "concursoId": "prefeitura-de-formosa-do-rio-preto-ba-prorroga-inscricoes-para-concurso-publico",
-        "codigoIbge": 2911105,
-        "cidade": "Formosa do Rio Preto",
-        "uf": "BA",
-        "latitude": -11.0328,
-        "longitude": -45.193,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Formosa do Rio Preto — Prefeitura de Formosa do Rio Preto - BA prorroga inscrições para concurso público",
-        "orgao": "Prefeitura de Formosa do Rio Preto",
-        "titulo": "Prefeitura de Formosa do Rio Preto - BA prorroga inscrições para concurso público",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-formosa-do-rio-preto-ba-prorroga-inscricoes-para-concurso-publico",
-        "vagas": 397,
-        "salarioMaximo": 6780.53,
-        "inscricaoTexto": "Prorrogado até08/08/2026",
-        "inscricaoFim": "2026-08-08"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2917359,
     "cidade": "Jaborandi",
     "uf": "BA",
@@ -2182,27 +2151,6 @@
         "inscricaoFim": "2026-09-14"
       },
       {
-        "id": "pmma-retifica-o-processo-seletivo-para-o-curso-de-formacao-de-oficiais:2111300",
-        "concursoId": "pmma-retifica-o-processo-seletivo-para-o-curso-de-formacao-de-oficiais",
-        "codigoIbge": 2111300,
-        "cidade": "São Luís",
-        "uf": "MA",
-        "latitude": -2.53874,
-        "longitude": -44.2825,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "As fases práticas e presenciais acontecerão em São Luís (MA), em locais definidos no edital ou no site da PMMA.",
-        "orgao": "Polícia Militar do Maranhão",
-        "titulo": "PMMA retifica o processo seletivo para o Curso de Formação de Oficiais",
-        "status": "encerrado",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/pmma-retifica-o-processo-seletivo-para-o-curso-de-formacao-de-oficiais",
-        "vagas": 40,
-        "salarioMaximo": null,
-        "inscricaoTexto": "24/07/2026",
-        "inscricaoFim": "2026-07-24"
-      },
-      {
         "id": "seap-ma-abre-selecoes-para-auxiliares-penitenciarios-masculinos:2111300",
         "concursoId": "seap-ma-abre-selecoes-para-auxiliares-penitenciarios-masculinos",
         "codigoIbge": 2111300,
@@ -2245,7 +2193,7 @@
         "inscricaoFim": "2026-08-20"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2112001,
@@ -6002,37 +5950,6 @@
         "salarioMaximo": 6407.39,
         "inscricaoTexto": "10/08/2026",
         "inscricaoFim": "2026-08-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5107883,
-    "cidade": "Serra Nova Dourada",
-    "uf": "MT",
-    "latitude": -12.0896,
-    "longitude": -51.4025,
-    "concursos": [
-      {
-        "id": "prefeitura-de-serra-nova-dourada-mt-abre-processo-seletivo-com-salarios-de-ate-5600:5107883",
-        "concursoId": "prefeitura-de-serra-nova-dourada-mt-abre-processo-seletivo-com-salarios-de-ate-5600",
-        "codigoIbge": 5107883,
-        "cidade": "Serra Nova Dourada",
-        "uf": "MT",
-        "latitude": -12.0896,
-        "longitude": -51.4025,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Serra Nova Dourada — Prefeitura de Serra Nova Dourada - MT abre processo seletivo com salários de até R$ 5.600,37",
-        "orgao": "Prefeitura de Serra Nova Dourada",
-        "titulo": "Prefeitura de Serra Nova Dourada - MT abre processo seletivo com salários de até R$ 5.600,37",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-serra-nova-dourada-mt-abre-processo-seletivo-com-salarios-de-ate-5600",
-        "vagas": 15,
-        "salarioMaximo": 5600.37,
-        "inscricaoTexto": "08/08/2026",
-        "inscricaoFim": "2026-08-08"
       }
     ],
     "totalConcursos": 1
