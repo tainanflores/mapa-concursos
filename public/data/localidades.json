@@ -462,27 +462,6 @@
     "inscricaoFim": "2026-08-20"
   },
   {
-    "id": "prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas:3554102",
-    "concursoId": "prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas",
-    "codigoIbge": 3554102,
-    "cidade": "Taubaté",
-    "uf": "SP",
-    "latitude": -23.0104,
-    "longitude": -45.5593,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Taubaté — Prefeitura de Taubaté - SP retifica concursos públicos com vagas para diversas áreas",
-    "orgao": "Prefeitura de Taubaté",
-    "titulo": "Prefeitura de Taubaté - SP retifica concursos públicos com vagas para diversas áreas",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas",
-    "vagas": 239,
-    "salarioMaximo": 13962.62,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
-  },
-  {
     "id": "tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo:3550308",
     "concursoId": "tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
     "codigoIbge": 3550308,
@@ -983,7 +962,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ilhabela-sp-abre-concurso-publico-com-remuneracoes-de-ate-12579",
     "vagas": 53,
     "salarioMaximo": 12579.96,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -1130,7 +1109,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-abre-concurso-publico-com-vagas-para-diversos-cargos",
     "vagas": 42,
     "salarioMaximo": 6502.13,
-    "inscricaoTexto": "10/08 a01/09/2026",
+    "inscricaoTexto": "01/09/2026",
     "inscricaoFim": "2026-09-01"
   },
   {
@@ -1256,7 +1235,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-caraguatatuba-sp-abre-processo-seletivo-para-profissionais-da-educacao",
     "vagas": null,
     "salarioMaximo": null,
-    "inscricaoTexto": "10 a31/08/2026",
+    "inscricaoTexto": "31/08/2026",
     "inscricaoFim": "2026-08-31"
   },
   {
@@ -1340,7 +1319,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-embu-das-artes-sp-abre-concurso-com-diversas-vagas-e-cadastro-de-reserva",
     "vagas": 94,
     "salarioMaximo": 9745,
-    "inscricaoTexto": "10/08 a08/10/2026",
+    "inscricaoTexto": "08/10/2026",
     "inscricaoFim": "2026-10-08"
   },
   {
@@ -1781,7 +1760,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rincao-sp-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
     "vagas": 7,
     "salarioMaximo": 2786.56,
-    "inscricaoTexto": "10/08 a03/09/2026",
+    "inscricaoTexto": "03/09/2026",
     "inscricaoFim": "2026-09-03"
   },
   {
@@ -1846,6 +1825,27 @@
     "salarioMaximo": 6768,
     "inscricaoTexto": "16/08/2026",
     "inscricaoFim": "2026-08-16"
+  },
+  {
+    "id": "prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas:3554102",
+    "concursoId": "prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas",
+    "codigoIbge": 3554102,
+    "cidade": "Taubaté",
+    "uf": "SP",
+    "latitude": -23.0104,
+    "longitude": -45.5593,
+    "tipoLocalidade": "nome_orgao_ou_titulo",
+    "confiancaLocalidade": "alta",
+    "contextoLocalidade": "Prefeitura de Taubaté — Prefeitura de Taubaté - SP retifica concursos públicos com vagas para diversas áreas",
+    "orgao": "Prefeitura de Taubaté",
+    "titulo": "Prefeitura de Taubaté - SP retifica concursos públicos com vagas para diversas áreas",
+    "status": "encerrado",
+    "tipoSelecao": "concurso_publico",
+    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-taubate-sp-retifica-concursos-publicos-com-vagas-para-diversas-areas",
+    "vagas": 239,
+    "salarioMaximo": 13962.62,
+    "inscricaoTexto": "09/08/2026",
+    "inscricaoFim": "2026-08-09"
   },
   {
     "id": "prefeitura-de-taubate-sp-abre-concurso-para-auditor-fiscal-de-tributos-municipais:3554102",
@@ -2012,7 +2012,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/saaedoco-de-dois-corregos-sp-abre-vaga-em-concurso-publico-para-leiturista",
     "vagas": 1,
     "salarioMaximo": 2290.63,
-    "inscricaoTexto": "10 a24/08/2026",
+    "inscricaoTexto": "24/08/2026",
     "inscricaoFim": "2026-08-24"
   },
   {
@@ -2201,7 +2201,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-do-rio-de-janeiro-rj-abre-selecao-para-operadores-e-supervisores-de-centro-de-controle-operacional",
     "vagas": 33,
     "salarioMaximo": 7000,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -2663,7 +2663,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-santa-juliana-mg-abre-concurso-para-profissionais-de-nivel-medio-e-superior",
     "vagas": 5,
     "salarioMaximo": 6750.01,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -3318,27 +3318,6 @@
     "inscricaoFim": "2026-11-13"
   },
   {
-    "id": "prefeitura-de-bom-jardim-de-minas-mg-reabre-inscricoes-para-o-concurso-publico:3107505",
-    "concursoId": "prefeitura-de-bom-jardim-de-minas-mg-reabre-inscricoes-para-o-concurso-publico",
-    "codigoIbge": 3107505,
-    "cidade": "Bom Jardim de Minas",
-    "uf": "MG",
-    "latitude": -21.9479,
-    "longitude": -44.1885,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Bom Jardim de Minas — Prefeitura de Bom Jardim de Minas - MG reabre inscrições para o concurso público",
-    "orgao": "Prefeitura de Bom Jardim de Minas",
-    "titulo": "Prefeitura de Bom Jardim de Minas - MG reabre inscrições para o concurso público",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bom-jardim-de-minas-mg-reabre-inscricoes-para-o-concurso-publico",
-    "vagas": 113,
-    "salarioMaximo": 14263.17,
-    "inscricaoTexto": "Reaberto até09/08/2026",
-    "inscricaoFim": "2026-08-09"
-  },
-  {
     "id": "prefeitura-de-campanario-mg-publica-edital-de-concurso-publico-com-diversas-vagas:3110806",
     "concursoId": "prefeitura-de-campanario-mg-publica-edital-de-concurso-publico-com-diversas-vagas",
     "codigoIbge": 3110806,
@@ -3713,7 +3692,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-divinopolis-mg-abre-vagas-para-assistente-social-e-nutricionista",
     "vagas": 8,
     "salarioMaximo": 2462.8,
-    "inscricaoTexto": "10 a24/08/2026",
+    "inscricaoTexto": "24/08/2026",
     "inscricaoFim": "2026-08-24"
   },
   {
@@ -3818,7 +3797,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-faria-lemos-mg-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
     "vagas": 9,
     "salarioMaximo": 3242,
-    "inscricaoTexto": "10/08 a08/09/2026",
+    "inscricaoTexto": "08/09/2026",
     "inscricaoFim": "2026-09-08"
   },
   {
@@ -3986,7 +3965,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-machado-mg-retifica-o-processo-seletivo-para-agentes-de-saude-e-de-endemias",
     "vagas": 3,
     "salarioMaximo": 3242,
-    "inscricaoTexto": "10/08 a08/09/2026",
+    "inscricaoTexto": "08/09/2026",
     "inscricaoFim": "2026-09-08"
   },
   {
@@ -4007,7 +3986,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mariana-mg-abre-processo-seletivo-para-cadastro-de-reserva",
     "vagas": null,
     "salarioMaximo": 6407.89,
-    "inscricaoTexto": "10 a24/08/2026",
+    "inscricaoTexto": "24/08/2026",
     "inscricaoFim": "2026-08-24"
   },
   {
@@ -4557,27 +4536,6 @@
     "inscricaoFim": "2026-08-27"
   },
   {
-    "id": "prefeitura-de-presidente-kennedy-es-abre-selecao-para-agentes-de-saude-e-de-endemias:3204302",
-    "concursoId": "prefeitura-de-presidente-kennedy-es-abre-selecao-para-agentes-de-saude-e-de-endemias",
-    "codigoIbge": 3204302,
-    "cidade": "Presidente Kennedy",
-    "uf": "ES",
-    "latitude": -21.0964,
-    "longitude": -41.0468,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Presidente Kennedy — Prefeitura de Presidente Kennedy - ES abre seleção para Agentes de Saúde e de Endemias",
-    "orgao": "Prefeitura de Presidente Kennedy",
-    "titulo": "Prefeitura de Presidente Kennedy - ES abre seleção para Agentes de Saúde e de Endemias",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-presidente-kennedy-es-abre-selecao-para-agentes-de-saude-e-de-endemias",
-    "vagas": null,
-    "salarioMaximo": 3242,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
-  },
-  {
     "id": "prefeitura-de-rio-novo-do-sul-es-abre-vagas-em-selecoes-para-motorista-e-servente:3204401",
     "concursoId": "prefeitura-de-rio-novo-do-sul-es-abre-vagas-em-selecoes-para-motorista-e-servente",
     "codigoIbge": 3204401,
@@ -4595,7 +4553,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-novo-do-sul-es-abre-vagas-em-selecoes-para-motorista-e-servente",
     "vagas": 2,
     "salarioMaximo": 1621,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -4616,7 +4574,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-joao-neiva-es-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
     "vagas": 6,
     "salarioMaximo": 2296.12,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -5204,7 +5162,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-marialva-pr-abre-concurso-publico-com-salarios-de-ate-6768",
     "vagas": 42,
     "salarioMaximo": 6768.66,
-    "inscricaoTexto": "10/08 a03/09/2026",
+    "inscricaoTexto": "03/09/2026",
     "inscricaoFim": "2026-09-03"
   },
   {
@@ -5817,27 +5775,6 @@
     "inscricaoFim": "2026-09-02"
   },
   {
-    "id": "prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763:4308433",
-    "concursoId": "prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763",
-    "codigoIbge": 4308433,
-    "cidade": "Forquetinha",
-    "uf": "RS",
-    "latitude": -29.3828,
-    "longitude": -52.0981,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Forquetinha — Prefeitura de Forquetinha - RS prorroga inscrições do concurso com salários de até R$ 4.763,85",
-    "orgao": "Prefeitura de Forquetinha",
-    "titulo": "Prefeitura de Forquetinha - RS prorroga inscrições do concurso com salários de até R$ 4.763,85",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-forquetinha-rs-prorroga-inscricoes-do-concurso-com-salarios-de-ate-4763",
-    "vagas": 11,
-    "salarioMaximo": 4763.85,
-    "inscricaoTexto": "Prorrogado até09/08/2026",
-    "inscricaoFim": "2026-08-09"
-  },
-  {
     "id": "prefeitura-de-itaqui-rs-abre-processos-seletivos-para-formar-cadastro-de-reserva:4310603",
     "concursoId": "prefeitura-de-itaqui-rs-abre-processos-seletivos-para-formar-cadastro-de-reserva",
     "codigoIbge": 4310603,
@@ -6254,7 +6191,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-paraiso-sc-abre-concurso-publico-para-controlador-interno",
     "vagas": 1,
     "salarioMaximo": 7846.71,
-    "inscricaoTexto": "10/08 a09/09/2026",
+    "inscricaoTexto": "09/09/2026",
     "inscricaoFim": "2026-09-09"
   },
   {
@@ -6277,27 +6214,6 @@
     "salarioMaximo": 4942.64,
     "inscricaoTexto": "29/08/2026",
     "inscricaoFim": "2026-08-29"
-  },
-  {
-    "id": "fahece-sc-anuncia-vaga-para-fonoaudiologo-i-no-cepon-de-florianopolis:4205407",
-    "concursoId": "fahece-sc-anuncia-vaga-para-fonoaudiologo-i-no-cepon-de-florianopolis",
-    "codigoIbge": 4205407,
-    "cidade": "Florianópolis",
-    "uf": "SC",
-    "latitude": -27.5945,
-    "longitude": -48.5477,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC anuncia vaga para Fonoaudiólogo I no CEPON de Florianópolis",
-    "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-    "titulo": "FAHECE - SC anuncia vaga para Fonoaudiólogo I no CEPON de Florianópolis",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-vaga-para-fonoaudiologo-i-no-cepon-de-florianopolis",
-    "vagas": 1,
-    "salarioMaximo": 3409.85,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
   },
   {
     "id": "prefeitura-de-ibicare-sc-abre-vaga-em-processo-seletivo-para-assistente-social:4206801",
@@ -6653,7 +6569,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-bonita-sc-abre-selecao-para-agente-de-combate-a-endemias-e-auxiliar-de-consultorio-odontologico",
     "vagas": 2,
     "salarioMaximo": 3205.42,
-    "inscricaoTexto": "10 a13/08/2026",
+    "inscricaoTexto": "13/08/2026",
     "inscricaoFim": "2026-08-13"
   },
   {
@@ -6844,27 +6760,6 @@
     "salarioMaximo": 4736.41,
     "inscricaoTexto": "17/08/2026",
     "inscricaoFim": "2026-08-17"
-  },
-  {
-    "id": "prefeitura-de-herval-doeste-sc-abre-processo-seletivo-para-enfermeiro:4206702",
-    "concursoId": "prefeitura-de-herval-doeste-sc-abre-processo-seletivo-para-enfermeiro",
-    "codigoIbge": 4206702,
-    "cidade": "Herval d'Oeste",
-    "uf": "SC",
-    "latitude": -27.1903,
-    "longitude": -51.4917,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Herval d'Oeste — Prefeitura de Herval d'Oeste - SC abre processo seletivo para Enfermeiro",
-    "orgao": "Prefeitura de Herval d'Oeste",
-    "titulo": "Prefeitura de Herval d'Oeste - SC abre processo seletivo para Enfermeiro",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-herval-doeste-sc-abre-processo-seletivo-para-enfermeiro",
-    "vagas": 1,
-    "salarioMaximo": 6337.12,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
   },
   {
     "id": "prefeitura-de-indaial-sc-abre-selecao-com-salarios-de-ate-20671-para-a-secretaria-de-saude:4207502",
@@ -8039,7 +7934,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-trombas-go-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
     "vagas": 4,
     "salarioMaximo": 3500,
-    "inscricaoTexto": "10 a21/08/2026",
+    "inscricaoTexto": "21/08/2026",
     "inscricaoFim": "2026-08-21"
   },
   {
@@ -8081,7 +7976,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/instituto-socrates-guanaes-go-abre-processo-seletivo-com-salarios-de-ate-9428",
     "vagas": null,
     "salarioMaximo": 9428.4,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -8102,7 +7997,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bela-vista-de-goias-go-abre-selecao-com-salarios-de-ate-7789",
     "vagas": 7,
     "salarioMaximo": 7789.26,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -8627,7 +8522,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itanhanga-mt-abre-processo-seletivo-para-cadastro-de-reserva-em-diversas-areas",
     "vagas": null,
     "salarioMaximo": 5403.45,
-    "inscricaoTexto": "10 a19/08/2026",
+    "inscricaoTexto": "19/08/2026",
     "inscricaoFim": "2026-08-19"
   },
   {
@@ -8757,27 +8652,6 @@
     "inscricaoFim": "2026-08-27"
   },
   {
-    "id": "fundape-ac-abre-processo-seletivo-para-niveis-fundamental-e-medio:1200401",
-    "concursoId": "fundape-ac-abre-processo-seletivo-para-niveis-fundamental-e-medio",
-    "codigoIbge": 1200401,
-    "cidade": "Rio Branco",
-    "uf": "AC",
-    "latitude": -9.97499,
-    "longitude": -67.8243,
-    "tipoLocalidade": "mencao",
-    "confiancaLocalidade": "baixa",
-    "contextoLocalidade": "As inscrições devem ser realizadas exclusivamente pela internet, no site fundape.com.br, no período de 27 de julho de 2026 a 9 de agosto de 2026, conforme o horário local de Rio Branco - AC.",
-    "orgao": "FUNDAPE - Fundação de Apoio e Desenvolvimento ao Ensino, Pesquisa e Extensão Universitária no Acre",
-    "titulo": "FUNDAPE - AC abre processo seletivo para níveis fundamental e médio",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/fundape-ac-abre-processo-seletivo-para-niveis-fundamental-e-medio",
-    "vagas": 4,
-    "salarioMaximo": 2271.78,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
-  },
-  {
     "id": "companhia-docas-do-para-divulga-retificacoes-de-concursos-publicos:1506807",
     "concursoId": "companhia-docas-do-para-divulga-retificacoes-de-concursos-publicos",
     "codigoIbge": 1506807,
@@ -8837,7 +8711,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-abaetetuba-pa-abre-concurso-com-vagas-em-diversas-areas",
     "vagas": 344,
     "salarioMaximo": 3242,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -8879,7 +8753,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-uniao-ro-abre-selecao-para-jovens-aprendizes",
     "vagas": 10,
     "salarioMaximo": null,
-    "inscricaoTexto": "10 a14/08/2026",
+    "inscricaoTexto": "14/08/2026",
     "inscricaoFim": "2026-08-14"
   },
   {
@@ -9026,7 +8900,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-tocantins-to-lanca-concurso-com-vagas-de-nivel-medio-e-superior",
     "vagas": 946,
     "salarioMaximo": 17727.63,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -9047,7 +8921,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-tocantins-to-lanca-concurso-com-vagas-de-nivel-medio-e-superior",
     "vagas": 946,
     "salarioMaximo": 17727.63,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -9068,7 +8942,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-tocantins-to-lanca-concurso-com-vagas-de-nivel-medio-e-superior",
     "vagas": 946,
     "salarioMaximo": 17727.63,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -9089,7 +8963,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-tocantins-to-lanca-concurso-com-vagas-de-nivel-medio-e-superior",
     "vagas": 946,
     "salarioMaximo": 17727.63,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -9299,7 +9173,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-do-almeida-ba-abre-concurso-publico-com-vagas-para-diversos-cargos",
     "vagas": 236,
     "salarioMaximo": 3000,
-    "inscricaoTexto": "10/08 a10/09/2026",
+    "inscricaoTexto": "10/09/2026",
     "inscricaoFim": "2026-09-10"
   },
   {
@@ -10076,7 +9950,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-caruaru-pe-abre-concurso-publico-para-auditores-e-analistas-fiscais",
     "vagas": 20,
     "salarioMaximo": 6000,
-    "inscricaoTexto": "10/08 a08/10/2026",
+    "inscricaoTexto": "08/10/2026",
     "inscricaoFim": "2026-10-08"
   },
   {
@@ -10225,27 +10099,6 @@
     "salarioMaximo": 5215.39,
     "inscricaoTexto": "12/08 a08/09/2026",
     "inscricaoFim": "2026-09-08"
-  },
-  {
-    "id": "camara-de-vera-mendes-pi-abre-concurso-publico-para-niveis-fundamental-e-medio:2211506",
-    "concursoId": "camara-de-vera-mendes-pi-abre-concurso-publico-para-niveis-fundamental-e-medio",
-    "codigoIbge": 2211506,
-    "cidade": "Vera Mendes",
-    "uf": "PI",
-    "latitude": -7.59748,
-    "longitude": -41.4673,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Câmara de Vera Mendes — Câmara de Vera Mendes - PI abre concurso público para níveis fundamental e médio",
-    "orgao": "Câmara de Vera Mendes",
-    "titulo": "Câmara de Vera Mendes - PI abre concurso público para níveis fundamental e médio",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-vera-mendes-pi-abre-concurso-publico-para-niveis-fundamental-e-medio",
-    "vagas": 3,
-    "salarioMaximo": 1621,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
   },
   {
     "id": "cref-15-pi-abre-concurso-publico-com-salarios-de-ate-6674:2211001",
@@ -10750,27 +10603,6 @@
     "salarioMaximo": 5215.39,
     "inscricaoTexto": "27/08/2026",
     "inscricaoFim": "2026-08-27"
-  },
-  {
-    "id": "secretaria-municipal-de-educacao-de-acari-rn-abre-selecao-para-cargos-de-nivel-superior:2400109",
-    "concursoId": "secretaria-municipal-de-educacao-de-acari-rn-abre-selecao-para-cargos-de-nivel-superior",
-    "codigoIbge": 2400109,
-    "cidade": "Acari",
-    "uf": "RN",
-    "latitude": -6.4282,
-    "longitude": -36.6347,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Acari — Secretaria Municipal de Educação de Acari - RN abre seleção para cargos de nível superior",
-    "orgao": "Prefeitura de Acari",
-    "titulo": "Secretaria Municipal de Educação de Acari - RN abre seleção para cargos de nível superior",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-municipal-de-educacao-de-acari-rn-abre-selecao-para-cargos-de-nivel-superior",
-    "vagas": 1,
-    "salarioMaximo": 3847.97,
-    "inscricaoTexto": "09/08/2026",
-    "inscricaoFim": "2026-08-09"
   },
   {
     "id": "prefeitura-de-lagoa-de-pedras-rn-abre-concurso-com-vagas-para-diversos-niveis-de-escolaridade:2406304",
