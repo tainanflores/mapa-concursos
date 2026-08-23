@@ -420,30 +420,9 @@
         "salarioMaximo": 9973.34,
         "inscricaoTexto": "26/08 a21/09/2026",
         "inscricaoFim": "2026-09-21"
-      },
-      {
-        "id": "prefeitura-de-salvador-ba-retifica-edital-do-concurso-publico-para-profissionais-da-educacao:2927408",
-        "concursoId": "prefeitura-de-salvador-ba-retifica-edital-do-concurso-publico-para-profissionais-da-educacao",
-        "codigoIbge": 2927408,
-        "cidade": "Salvador",
-        "uf": "BA",
-        "latitude": -12.9718,
-        "longitude": -38.5011,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "PMS - Prefeitura de Salvador — Prefeitura de Salvador - BA retifica edital do concurso público para profissionais da educação",
-        "orgao": "PMS - Prefeitura de Salvador",
-        "titulo": "Prefeitura de Salvador - BA retifica edital do concurso público para profissionais da educação",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-salvador-ba-retifica-edital-do-concurso-publico-para-profissionais-da-educacao",
-        "vagas": 190,
-        "salarioMaximo": 6156.76,
-        "inscricaoTexto": "07/08/2026",
-        "inscricaoFim": "2026-08-07"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2929909,
@@ -4287,37 +4266,6 @@
       }
     ],
     "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 3138401,
-    "cidade": "Leopoldina",
-    "uf": "MG",
-    "latitude": -21.5296,
-    "longitude": -42.6421,
-    "concursos": [
-      {
-        "id": "prefeitura-de-leopoldina-mg-divulga-edital-de-processo-seletivo-para-medico-esf:3138401",
-        "concursoId": "prefeitura-de-leopoldina-mg-divulga-edital-de-processo-seletivo-para-medico-esf",
-        "codigoIbge": 3138401,
-        "cidade": "Leopoldina",
-        "uf": "MG",
-        "latitude": -21.5296,
-        "longitude": -42.6421,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Leopoldina — Prefeitura de Leopoldina - MG divulga edital de processo seletivo para Médico ESF",
-        "orgao": "Prefeitura de Leopoldina",
-        "titulo": "Prefeitura de Leopoldina - MG divulga edital de processo seletivo para Médico ESF",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-leopoldina-mg-divulga-edital-de-processo-seletivo-para-medico-esf",
-        "vagas": 1,
-        "salarioMaximo": 19537.02,
-        "inscricaoTexto": "22/08/2026",
-        "inscricaoFim": "2026-08-22"
-      }
-    ],
-    "totalConcursos": 1
   },
   {
     "codigoIbge": 3139003,
@@ -10527,7 +10475,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-calmon-sc-abre-concurso-publico-com-salarios-de-ate-7314",
         "vagas": 100,
         "salarioMaximo": 7314.3,
-        "inscricaoTexto": "23/08 a14/09/2026",
+        "inscricaoTexto": "14/09/2026",
         "inscricaoFim": "2026-09-14"
       }
     ],
@@ -13278,27 +13226,6 @@
     "longitude": -51.3786,
     "concursos": [
       {
-        "id": "prefeitura-de-andradina-sp-retifica-concurso-publico-com-salarios-de-ate-6566:3502101",
-        "concursoId": "prefeitura-de-andradina-sp-retifica-concurso-publico-com-salarios-de-ate-6566",
-        "codigoIbge": 3502101,
-        "cidade": "Andradina",
-        "uf": "SP",
-        "latitude": -20.8948,
-        "longitude": -51.3786,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Andradina — Prefeitura de Andradina - SP retifica concurso público com salários de até R$ 6.566,50",
-        "orgao": "Prefeitura de Andradina",
-        "titulo": "Prefeitura de Andradina - SP retifica concurso público com salários de até R$ 6.566,50",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-andradina-sp-retifica-concurso-publico-com-salarios-de-ate-6566",
-        "vagas": 38,
-        "salarioMaximo": 6566.5,
-        "inscricaoTexto": "Prorrogado até07/08/2026",
-        "inscricaoFim": "2026-08-07"
-      },
-      {
         "id": "prefeitura-de-andradina-sp-abre-concurso-publico-para-profissionais-da-educacao:3502101",
         "concursoId": "prefeitura-de-andradina-sp-abre-concurso-publico-para-profissionais-da-educacao",
         "codigoIbge": 3502101,
@@ -13320,7 +13247,7 @@
         "inscricaoFim": "2026-09-23"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3502606,
@@ -13816,27 +13743,6 @@
     "longitude": -46.8579,
     "concursos": [
       {
-        "id": "prefeitura-de-embu-das-artes-sp-abre-concurso-publico-com-vagas-na-educacao:3515004",
-        "concursoId": "prefeitura-de-embu-das-artes-sp-abre-concurso-publico-com-vagas-na-educacao",
-        "codigoIbge": 3515004,
-        "cidade": "Embu das Artes",
-        "uf": "SP",
-        "latitude": -23.6437,
-        "longitude": -46.8579,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Embu das Artes — Prefeitura de Embu das Artes - SP abre concurso público com vagas na educação",
-        "orgao": "Prefeitura de Embu das Artes",
-        "titulo": "Prefeitura de Embu das Artes - SP abre concurso público com vagas na educação",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-embu-das-artes-sp-abre-concurso-publico-com-vagas-na-educacao",
-        "vagas": 74,
-        "salarioMaximo": 4166.79,
-        "inscricaoTexto": "07/08/2026",
-        "inscricaoFim": "2026-08-07"
-      },
-      {
         "id": "prefeitura-de-embu-das-artes-sp-abre-concurso-com-diversas-vagas-e-cadastro-de-reserva:3515004",
         "concursoId": "prefeitura-de-embu-das-artes-sp-abre-concurso-com-diversas-vagas-e-cadastro-de-reserva",
         "codigoIbge": 3515004,
@@ -13858,7 +13764,7 @@
         "inscricaoFim": "2026-10-08"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3516853,
