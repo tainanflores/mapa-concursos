@@ -3117,37 +3117,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3120904,
-    "cidade": "Curvelo",
-    "uf": "MG",
-    "latitude": -18.7527,
-    "longitude": -44.4303,
-    "concursos": [
-      {
-        "id": "prefeitura-de-curvelo-mg-abre-processo-seletivo-para-auxiliar-de-servicos-i:3120904",
-        "concursoId": "prefeitura-de-curvelo-mg-abre-processo-seletivo-para-auxiliar-de-servicos-i",
-        "codigoIbge": 3120904,
-        "cidade": "Curvelo",
-        "uf": "MG",
-        "latitude": -18.7527,
-        "longitude": -44.4303,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Curvelo — Prefeitura de Curvelo - MG abre processo seletivo para Auxiliar de Serviços I",
-        "orgao": "Prefeitura de Curvelo",
-        "titulo": "Prefeitura de Curvelo - MG abre processo seletivo para Auxiliar de Serviços I",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-curvelo-mg-abre-processo-seletivo-para-auxiliar-de-servicos-i",
-        "vagas": 4,
-        "salarioMaximo": 1621,
-        "inscricaoTexto": "29/08/2026",
-        "inscricaoFim": "2026-08-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3121209,
     "cidade": "Delfinópolis",
     "uf": "MG",
@@ -10503,37 +10472,6 @@
     "totalConcursos": 3
   },
   {
-    "codigoIbge": 4209854,
-    "cidade": "Lindóia do Sul",
-    "uf": "SC",
-    "latitude": -27.0545,
-    "longitude": -52.069,
-    "concursos": [
-      {
-        "id": "consorcio-casa-lar-pequeno-principe-sc-divulga-retificacao-de-concurso-para-cadastro-de-reserva:4209854",
-        "concursoId": "consorcio-casa-lar-pequeno-principe-sc-divulga-retificacao-de-concurso-para-cadastro-de-reserva",
-        "codigoIbge": 4209854,
-        "cidade": "Lindóia do Sul",
-        "uf": "SC",
-        "latitude": -27.0545,
-        "longitude": -52.069,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "O Consórcio Intermunicipal de Serviço Socioassistencial de Alta Complexidade - Casa Lar Pequeno Príncipe, com sede em Lindóia do Sul/SC, abriu um Concurso Público para a formação de cadastro de reserva em funções de nível fundamental, médio e superior.",
-        "orgao": "Casa Lar Pequeno Príncipe - Consórcio Intermunicipal de Serviço Socioassistencial de Alta Complexidade",
-        "titulo": "Consórcio Casa Lar Pequeno Príncipe - SC divulga retificação de concurso para cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consorcio-casa-lar-pequeno-principe-sc-divulga-retificacao-de-concurso-para-cadastro-de-reserva",
-        "vagas": null,
-        "salarioMaximo": 4942.64,
-        "inscricaoTexto": "29/08/2026",
-        "inscricaoFim": "2026-08-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4210100,
     "cidade": "Mafra",
     "uf": "SC",
@@ -11759,7 +11697,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/famesp-sp-abre-processos-seletivos-com-vagas-para-diversas-areas-em-bauru",
         "vagas": 11,
         "salarioMaximo": 3789.08,
-        "inscricaoTexto": "30/08 a08/09/2026",
+        "inscricaoTexto": "08/09/2026",
         "inscricaoFim": "2026-09-08"
       }
     ],
@@ -11790,7 +11728,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/famesp-sp-abre-processos-seletivos-com-salarios-de-ate-6077-em-botucatu",
         "vagas": 8,
         "salarioMaximo": 6077.09,
-        "inscricaoTexto": "30/08 a08/09/2026",
+        "inscricaoTexto": "08/09/2026",
         "inscricaoFim": "2026-09-08"
       },
       {
