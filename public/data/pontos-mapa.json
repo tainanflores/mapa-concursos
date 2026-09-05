@@ -169,7 +169,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-do-mundau-al-abre-concurso-com-salarios-de-ate-8354",
         "vagas": 101,
         "salarioMaximo": 8354,
-        "inscricaoTexto": "05/09 a05/10/2026",
+        "inscricaoTexto": "05/10/2026",
         "inscricaoFim": "2026-10-05"
       }
     ],
@@ -321,37 +321,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 1302801,
-    "cidade": "Maraã",
-    "uf": "AM",
-    "latitude": -1.85313,
-    "longitude": -65.573,
-    "concursos": [
-      {
-        "id": "prefeitura-de-maraa-am-abre-vaga-para-motorista-com-salario-de-2000:1302801",
-        "concursoId": "prefeitura-de-maraa-am-abre-vaga-para-motorista-com-salario-de-2000",
-        "codigoIbge": 1302801,
-        "cidade": "Maraã",
-        "uf": "AM",
-        "latitude": -1.85313,
-        "longitude": -65.573,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Maraã — Prefeitura de Maraã - AM abre vaga para Motorista com salário de R$ 2.000,00",
-        "orgao": "Prefeitura de Maraã",
-        "titulo": "Prefeitura de Maraã - AM abre vaga para Motorista com salário de R$ 2.000,00",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maraa-am-abre-vaga-para-motorista-com-salario-de-2000",
-        "vagas": 1,
-        "salarioMaximo": 2000,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 1302900,
     "cidade": "Maués",
     "uf": "AM",
@@ -492,37 +461,6 @@
         "salarioMaximo": null,
         "inscricaoTexto": "06/09/2026",
         "inscricaoFim": "2026-09-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2917359,
-    "cidade": "Jaborandi",
-    "uf": "BA",
-    "latitude": -13.6071,
-    "longitude": -44.4255,
-    "concursos": [
-      {
-        "id": "prefeitura-de-jaborandi-ba-abre-concurso-publico-com-diversas-vagas:2917359",
-        "concursoId": "prefeitura-de-jaborandi-ba-abre-concurso-publico-com-diversas-vagas",
-        "codigoIbge": 2917359,
-        "cidade": "Jaborandi",
-        "uf": "BA",
-        "latitude": -13.6071,
-        "longitude": -44.4255,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Jaborandi — Prefeitura de Jaborandi - BA abre concurso público com diversas vagas",
-        "orgao": "Prefeitura de Jaborandi",
-        "titulo": "Prefeitura de Jaborandi - BA abre concurso público com diversas vagas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jaborandi-ba-abre-concurso-publico-com-diversas-vagas",
-        "vagas": 290,
-        "salarioMaximo": 7888.55,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -756,32 +694,32 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2300101,
-    "cidade": "Abaiara",
+    "codigoIbge": 2300200,
+    "cidade": "Acaraú",
     "uf": "CE",
-    "latitude": -7.34588,
-    "longitude": -39.0416,
+    "latitude": -2.88769,
+    "longitude": -40.1183,
     "concursos": [
       {
-        "id": "prefeitura-de-abaiara-ce-abre-selecao-para-assistente-social-do-creas:2300101",
-        "concursoId": "prefeitura-de-abaiara-ce-abre-selecao-para-assistente-social-do-creas",
-        "codigoIbge": 2300101,
-        "cidade": "Abaiara",
+        "id": "prefeitura-de-acarau-ce-abre-concurso-com-vagas-para-diversos-niveis-de-escolaridade:2300200",
+        "concursoId": "prefeitura-de-acarau-ce-abre-concurso-com-vagas-para-diversos-niveis-de-escolaridade",
+        "codigoIbge": 2300200,
+        "cidade": "Acaraú",
         "uf": "CE",
-        "latitude": -7.34588,
-        "longitude": -39.0416,
+        "latitude": -2.88769,
+        "longitude": -40.1183,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Abaiara — Prefeitura de Abaiara - CE abre seleção para Assistente Social do CREAS",
-        "orgao": "Prefeitura de Abaiara",
-        "titulo": "Prefeitura de Abaiara - CE abre seleção para Assistente Social do CREAS",
+        "contextoLocalidade": "Prefeitura de Acaraú — Prefeitura de Acaraú - CE abre concurso com vagas para diversos níveis de escolaridade",
+        "orgao": "Prefeitura de Acaraú",
+        "titulo": "Prefeitura de Acaraú - CE abre concurso com vagas para diversos níveis de escolaridade",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-abaiara-ce-abre-selecao-para-assistente-social-do-creas",
-        "vagas": 1,
-        "salarioMaximo": 3375,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-acarau-ce-abre-concurso-com-vagas-para-diversos-niveis-de-escolaridade",
+        "vagas": 266,
+        "salarioMaximo": 5000,
+        "inscricaoTexto": "05/10/2026",
+        "inscricaoFim": "2026-10-05"
       }
     ],
     "totalConcursos": 1
@@ -1087,6 +1025,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2306900,
+    "cidade": "Jaguaribe",
+    "uf": "CE",
+    "latitude": -5.90213,
+    "longitude": -38.6227,
+    "concursos": [
+      {
+        "id": "prefeitura-de-jaguaribe-ce-abre-concursos-publicos-com-vagas-imediatas-e-cadastro-de-reserva:2306900",
+        "concursoId": "prefeitura-de-jaguaribe-ce-abre-concursos-publicos-com-vagas-imediatas-e-cadastro-de-reserva",
+        "codigoIbge": 2306900,
+        "cidade": "Jaguaribe",
+        "uf": "CE",
+        "latitude": -5.90213,
+        "longitude": -38.6227,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Jaguaribe — Prefeitura de Jaguaribe - CE abre concursos públicos com vagas imediatas e cadastro de reserva",
+        "orgao": "Prefeitura de Jaguaribe",
+        "titulo": "Prefeitura de Jaguaribe - CE abre concursos públicos com vagas imediatas e cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jaguaribe-ce-abre-concursos-publicos-com-vagas-imediatas-e-cadastro-de-reserva",
+        "vagas": 183,
+        "salarioMaximo": 12948.01,
+        "inscricaoTexto": "21/09/2026",
+        "inscricaoFim": "2026-09-21"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2307304,
     "cidade": "Juazeiro do Norte",
     "uf": "CE",
@@ -1311,8 +1280,8 @@
     "longitude": -47.9297,
     "concursos": [
       {
-        "id": "agsus-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt:5300108",
-        "concursoId": "agsus-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt",
+        "id": "agsus-retifica-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt:5300108",
+        "concursoId": "agsus-retifica-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt",
         "codigoIbge": 5300108,
         "cidade": "Brasília",
         "uf": "DF",
@@ -1320,20 +1289,20 @@
         "longitude": -47.9297,
         "tipoLocalidade": "mencao",
         "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "As inscrições são gratuitas e deverão ser feitas exclusivamente pela internet, no site do Cebraspe, de 16 de setembro de 2026 a 16 de outubro de 2026, das 10h às 18h, horário de Brasília.",
+        "contextoLocalidade": "As inscrições são gratuitas e deverão ser feitas exclusivamente pela internet, no site do Cebraspe, de 9 a 22 de setembro de 2026, das 10h do primeiro dia às 18h do último dia, horário de Brasília.",
         "orgao": "AgSUS - Agência Brasileira de Apoio à Gestão do SUS",
-        "titulo": "AgSUS abre processo seletivo para formação de cadastro de reserva no projeto SESMT",
+        "titulo": "AgSUS retifica processo seletivo para formação de cadastro de reserva no projeto SESMT",
         "status": "aberto",
         "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/agsus-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/agsus-retifica-processo-seletivo-para-formacao-de-cadastro-de-reserva-no-projeto-sesmt",
         "vagas": null,
         "salarioMaximo": 10302,
-        "inscricaoTexto": "16/09 a16/10/2026",
-        "inscricaoFim": "2026-10-16"
+        "inscricaoTexto": "09 a22/09/2026",
+        "inscricaoFim": "2026-09-22"
       },
       {
-        "id": "agsus-abre-selecao-para-psicologo-com-remuneracao-de-8800:5300108",
-        "concursoId": "agsus-abre-selecao-para-psicologo-com-remuneracao-de-8800",
+        "id": "agsus-retifica-processo-seletivo-para-psicologos:5300108",
+        "concursoId": "agsus-retifica-processo-seletivo-para-psicologos",
         "codigoIbge": 5300108,
         "cidade": "Brasília",
         "uf": "DF",
@@ -1341,16 +1310,16 @@
         "longitude": -47.9297,
         "tipoLocalidade": "mencao",
         "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "As inscrições estarão abertas de 4 a 18 de setembro de 2026, das 10h às 18h (horário de Brasília/DF), exclusivamente pelo site www.cebraspe.org.br.",
+        "contextoLocalidade": "De acordo com o documento de retificação, o período de inscrição foi alterado para 16 de setembro de 2026 a 16 de outubro de 2026, das 10h do primeiro dia às 18h do último dia (horário de Brasília/DF), pelo site www.cebraspe.org.br.",
         "orgao": "AgSUS - Agência Brasileira de Apoio à Gestão do SUS",
-        "titulo": "AgSUS abre seleção para psicólogo com remuneração de R$ 8.800,00",
+        "titulo": "AgSUS retifica processo seletivo para psicólogos",
         "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/agsus-abre-selecao-para-psicologo-com-remuneracao-de-8800",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/agsus-retifica-processo-seletivo-para-psicologos",
         "vagas": null,
         "salarioMaximo": 8800,
-        "inscricaoTexto": "18/09/2026",
-        "inscricaoFim": "2026-09-18"
+        "inscricaoTexto": "16/09 a16/10/2026",
+        "inscricaoFim": "2026-10-16"
       },
       {
         "id": "decex-brasil-divulga-retificacao-de-processo-seletivo-para-colegios-militares:5300108",
@@ -1396,6 +1365,37 @@
       }
     ],
     "totalConcursos": 4
+  },
+  {
+    "codigoIbge": 3200201,
+    "cidade": "Alegre",
+    "uf": "ES",
+    "latitude": -20.758,
+    "longitude": -41.5382,
+    "concursos": [
+      {
+        "id": "prefeitura-de-alegre-es-abre-selecao-para-cuidador-escolar:3200201",
+        "concursoId": "prefeitura-de-alegre-es-abre-selecao-para-cuidador-escolar",
+        "codigoIbge": 3200201,
+        "cidade": "Alegre",
+        "uf": "ES",
+        "latitude": -20.758,
+        "longitude": -41.5382,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Alegre — Prefeitura de Alegre - ES abre seleção para Cuidador Escolar",
+        "orgao": "Prefeitura de Alegre",
+        "titulo": "Prefeitura de Alegre - ES abre seleção para Cuidador Escolar",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-alegre-es-abre-selecao-para-cuidador-escolar",
+        "vagas": null,
+        "salarioMaximo": 1621,
+        "inscricaoTexto": "09 a11/09/2026",
+        "inscricaoFim": "2026-09-11"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3202207,
@@ -1522,37 +1522,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3205150,
-    "cidade": "Vila Pavão",
-    "uf": "ES",
-    "latitude": -18.6091,
-    "longitude": -40.609,
-    "concursos": [
-      {
-        "id": "prefeitura-de-vila-pavao-es-abre-selecao-para-cadastro-de-reserva-em-diversos-cargos:3205150",
-        "concursoId": "prefeitura-de-vila-pavao-es-abre-selecao-para-cadastro-de-reserva-em-diversos-cargos",
-        "codigoIbge": 3205150,
-        "cidade": "Vila Pavão",
-        "uf": "ES",
-        "latitude": -18.6091,
-        "longitude": -40.609,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Vila Pavão — Prefeitura de Vila Pavão - ES abre seleção para cadastro de reserva em diversos cargos",
-        "orgao": "Prefeitura de Vila Pavão",
-        "titulo": "Prefeitura de Vila Pavão - ES abre seleção para cadastro de reserva em diversos cargos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vila-pavao-es-abre-selecao-para-cadastro-de-reserva-em-diversos-cargos",
-        "vagas": null,
-        "salarioMaximo": 4545.9,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3205200,
     "cidade": "Vila Velha",
     "uf": "ES",
@@ -1636,37 +1605,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 5201306,
-    "cidade": "Anicuns",
-    "uf": "GO",
-    "latitude": -16.4642,
-    "longitude": -49.9617,
-    "concursos": [
-      {
-        "id": "fundo-municipal-de-educacao-de-anicuns-go-abre-processo-seletivo-para-diversos-cargos:5201306",
-        "concursoId": "fundo-municipal-de-educacao-de-anicuns-go-abre-processo-seletivo-para-diversos-cargos",
-        "codigoIbge": 5201306,
-        "cidade": "Anicuns",
-        "uf": "GO",
-        "latitude": -16.4642,
-        "longitude": -49.9617,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Anicuns - Fundo Municipal de Educação — Fundo Municipal de Educação de Anicuns - GO abre processo seletivo para diversos cargos",
-        "orgao": "Prefeitura de Anicuns - Fundo Municipal de Educação",
-        "titulo": "Fundo Municipal de Educação de Anicuns - GO abre processo seletivo para diversos cargos",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fundo-municipal-de-educacao-de-anicuns-go-abre-processo-seletivo-para-diversos-cargos",
-        "vagas": 21,
-        "salarioMaximo": 3642.47,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 5201702,
     "cidade": "Aragarças",
     "uf": "GO",
@@ -1693,37 +1631,6 @@
         "salarioMaximo": 2400,
         "inscricaoTexto": "20/09/2026",
         "inscricaoFim": "2026-09-20"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5204003,
-    "cidade": "Cabeceiras",
-    "uf": "GO",
-    "latitude": -15.7995,
-    "longitude": -46.9265,
-    "concursos": [
-      {
-        "id": "prefeitura-de-cabeceiras-go-abre-processo-seletivo-para-enfermeiros:5204003",
-        "concursoId": "prefeitura-de-cabeceiras-go-abre-processo-seletivo-para-enfermeiros",
-        "codigoIbge": 5204003,
-        "cidade": "Cabeceiras",
-        "uf": "GO",
-        "latitude": -15.7995,
-        "longitude": -46.9265,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Cabeceiras — Prefeitura de Cabeceiras - GO abre processo seletivo para enfermeiros",
-        "orgao": "Prefeitura de Cabeceiras",
-        "titulo": "Prefeitura de Cabeceiras - GO abre processo seletivo para enfermeiros",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cabeceiras-go-abre-processo-seletivo-para-enfermeiros",
-        "vagas": 2,
-        "salarioMaximo": 2078,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -3117,37 +3024,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3110905,
-    "cidade": "Campanha",
-    "uf": "MG",
-    "latitude": -21.836,
-    "longitude": -45.4004,
-    "concursos": [
-      {
-        "id": "prefeitura-de-campanha-mg-abre-vagas-para-orientador-e-assistente-social:3110905",
-        "concursoId": "prefeitura-de-campanha-mg-abre-vagas-para-orientador-e-assistente-social",
-        "codigoIbge": 3110905,
-        "cidade": "Campanha",
-        "uf": "MG",
-        "latitude": -21.836,
-        "longitude": -45.4004,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura da Campanha — Prefeitura de Campanha - MG abre vagas para Orientador e Assistente Social",
-        "orgao": "Prefeitura da Campanha",
-        "titulo": "Prefeitura de Campanha - MG abre vagas para Orientador e Assistente Social",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-campanha-mg-abre-vagas-para-orientador-e-assistente-social",
-        "vagas": 3,
-        "salarioMaximo": 2551.99,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3112307,
     "cidade": "Capelinha",
     "uf": "MG",
@@ -3205,6 +3081,37 @@
         "salarioMaximo": 5800,
         "inscricaoTexto": "01 a16/10/2026",
         "inscricaoFim": "2026-10-16"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3113909,
+    "cidade": "Carmo da Cachoeira",
+    "uf": "MG",
+    "latitude": -21.4633,
+    "longitude": -45.2201,
+    "concursos": [
+      {
+        "id": "prefeitura-de-carmo-da-cachoeira-mg-abre-selecao-para-agentes-de-saude-e-de-endemias:3113909",
+        "concursoId": "prefeitura-de-carmo-da-cachoeira-mg-abre-selecao-para-agentes-de-saude-e-de-endemias",
+        "codigoIbge": 3113909,
+        "cidade": "Carmo da Cachoeira",
+        "uf": "MG",
+        "latitude": -21.4633,
+        "longitude": -45.2201,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Carmo da Cachoeira — Prefeitura de Carmo da Cachoeira - MG abre seleção para agentes de saúde e de endemias",
+        "orgao": "Prefeitura de Carmo da Cachoeira",
+        "titulo": "Prefeitura de Carmo da Cachoeira - MG abre seleção para agentes de saúde e de endemias",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-carmo-da-cachoeira-mg-abre-selecao-para-agentes-de-saude-e-de-endemias",
+        "vagas": 2,
+        "salarioMaximo": 3242,
+        "inscricaoTexto": "17/11 a17/12/2026",
+        "inscricaoFim": "2026-12-17"
       }
     ],
     "totalConcursos": 1
@@ -3718,64 +3625,12 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 3124104,
-    "cidade": "Esmeraldas",
-    "uf": "MG",
-    "latitude": -19.764,
-    "longitude": -44.3065,
-    "concursos": [
-      {
-        "id": "consane-mg-abre-processo-seletivo-para-engenheiro-florestal-em-esmeraldas:3124104",
-        "concursoId": "consane-mg-abre-processo-seletivo-para-engenheiro-florestal-em-esmeraldas",
-        "codigoIbge": 3124104,
-        "cidade": "Esmeraldas",
-        "uf": "MG",
-        "latitude": -19.764,
-        "longitude": -44.3065,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "CONSANE - Consórcio Regional de Saneamento Básico — CONSANE - MG abre processo seletivo para Engenheiro Florestal em Esmeraldas",
-        "orgao": "CONSANE - Consórcio Regional de Saneamento Básico",
-        "titulo": "CONSANE - MG abre processo seletivo para Engenheiro Florestal em Esmeraldas",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consane-mg-abre-processo-seletivo-para-engenheiro-florestal-em-esmeraldas",
-        "vagas": 1,
-        "salarioMaximo": 4600,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3125309,
     "cidade": "Faria Lemos",
     "uf": "MG",
     "latitude": -20.8097,
     "longitude": -42.0213,
     "concursos": [
-      {
-        "id": "prefeitura-de-faria-lemos-mg-abre-concurso-publico-com-remuneracoes-de-ate-16803:3125309",
-        "concursoId": "prefeitura-de-faria-lemos-mg-abre-concurso-publico-com-remuneracoes-de-ate-16803",
-        "codigoIbge": 3125309,
-        "cidade": "Faria Lemos",
-        "uf": "MG",
-        "latitude": -20.8097,
-        "longitude": -42.0213,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Faria Lemos — Prefeitura de Faria Lemos - MG abre concurso público com remunerações de até R$ 16.803,20",
-        "orgao": "Prefeitura de Faria Lemos",
-        "titulo": "Prefeitura de Faria Lemos - MG abre concurso público com remunerações de até R$ 16.803,20",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-faria-lemos-mg-abre-concurso-publico-com-remuneracoes-de-ate-16803",
-        "vagas": 102,
-        "salarioMaximo": 16803.2,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      },
       {
         "id": "prefeitura-de-faria-lemos-mg-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias:3125309",
         "concursoId": "prefeitura-de-faria-lemos-mg-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
@@ -3798,7 +3653,7 @@
         "inscricaoFim": "2026-09-08"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3128709,
@@ -4137,6 +3992,37 @@
         "salarioMaximo": 2279.61,
         "inscricaoTexto": "11/09/2026",
         "inscricaoFim": "2026-09-11"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3133006,
+    "cidade": "Itamonte",
+    "uf": "MG",
+    "latitude": -22.2859,
+    "longitude": -44.868,
+    "concursos": [
+      {
+        "id": "prefeitura-de-itamonte-mg-retifica-e-reabre-inscricoes-para-processo-seletivo:3133006",
+        "concursoId": "prefeitura-de-itamonte-mg-retifica-e-reabre-inscricoes-para-processo-seletivo",
+        "codigoIbge": 3133006,
+        "cidade": "Itamonte",
+        "uf": "MG",
+        "latitude": -22.2859,
+        "longitude": -44.868,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Itamonte — Prefeitura de Itamonte - MG retifica e reabre inscrições para processo seletivo",
+        "orgao": "Prefeitura de Itamonte",
+        "titulo": "Prefeitura de Itamonte - MG retifica e reabre inscrições para processo seletivo",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itamonte-mg-retifica-e-reabre-inscricoes-para-processo-seletivo",
+        "vagas": 47,
+        "salarioMaximo": 17802.73,
+        "inscricaoTexto": "Reaberto até14/09/2026",
+        "inscricaoFim": "2026-09-14"
       }
     ],
     "totalConcursos": 1
@@ -4680,37 +4566,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3147303,
-    "cidade": "Paraisópolis",
-    "uf": "MG",
-    "latitude": -22.5539,
-    "longitude": -45.7803,
-    "concursos": [
-      {
-        "id": "prefeitura-de-paraisopolis-mg-abre-vagas-para-cirurgiao-dentista-e-farmaceutico-bioquimico:3147303",
-        "concursoId": "prefeitura-de-paraisopolis-mg-abre-vagas-para-cirurgiao-dentista-e-farmaceutico-bioquimico",
-        "codigoIbge": 3147303,
-        "cidade": "Paraisópolis",
-        "uf": "MG",
-        "latitude": -22.5539,
-        "longitude": -45.7803,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Paraisópolis — Prefeitura de Paraisópolis - MG abre vagas para Cirurgião Dentista e Farmacêutico Bioquímico",
-        "orgao": "Prefeitura de Paraisópolis",
-        "titulo": "Prefeitura de Paraisópolis - MG abre vagas para Cirurgião Dentista e Farmacêutico Bioquímico",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-paraisopolis-mg-abre-vagas-para-cirurgiao-dentista-e-farmaceutico-bioquimico",
-        "vagas": 3,
-        "salarioMaximo": 3901.24,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3147907,
     "cidade": "Passos",
     "uf": "MG",
@@ -4768,30 +4623,9 @@
         "salarioMaximo": 7321.75,
         "inscricaoTexto": "30/09 a30/10/2026",
         "inscricaoFim": "2026-10-30"
-      },
-      {
-        "id": "ciscem-mg-abre-processo-seletivo-com-vagas-para-o-centro-estadual-de-atencao-especializada:3148004",
-        "concursoId": "ciscem-mg-abre-processo-seletivo-com-vagas-para-o-centro-estadual-de-atencao-especializada",
-        "codigoIbge": 3148004,
-        "cidade": "Patos de Minas",
-        "uf": "MG",
-        "latitude": -18.5699,
-        "longitude": -46.5013,
-        "tipoLocalidade": "sede",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "As entrevistas ocorrerão nos dias 16, 17 e 18 de setembro de 2026, na sede do CISCEM, Rua Doutor José Olímpio Borges, 35, Centro, Patos de Minas/MG.",
-        "orgao": "CISCEM - Consórcio Intermunicipal de Saúde do Cerrado Mineiro",
-        "titulo": "CISCEM - MG abre processo seletivo com vagas para o Centro Estadual de Atenção Especializada",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/ciscem-mg-abre-processo-seletivo-com-vagas-para-o-centro-estadual-de-atencao-especializada",
-        "vagas": 24,
-        "salarioMaximo": 8763.09,
-        "inscricaoTexto": "09 a11/09/2026",
-        "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3149002,
@@ -5611,37 +5445,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3169406,
-    "cidade": "Três Pontas",
-    "uf": "MG",
-    "latitude": -21.3694,
-    "longitude": -45.5109,
-    "concursos": [
-      {
-        "id": "camara-de-tres-pontas-mg-abre-processo-seletivo-para-o-cargo-de-contador:3169406",
-        "concursoId": "camara-de-tres-pontas-mg-abre-processo-seletivo-para-o-cargo-de-contador",
-        "codigoIbge": 3169406,
-        "cidade": "Três Pontas",
-        "uf": "MG",
-        "latitude": -21.3694,
-        "longitude": -45.5109,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Três Pontas — Câmara de Três Pontas - MG abre processo seletivo para o cargo de Contador",
-        "orgao": "Câmara de Três Pontas",
-        "titulo": "Câmara de Três Pontas - MG abre processo seletivo para o cargo de Contador",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-tres-pontas-mg-abre-processo-seletivo-para-o-cargo-de-contador",
-        "vagas": null,
-        "salarioMaximo": 8607.47,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3170206,
     "cidade": "Uberlândia",
     "uf": "MG",
@@ -6035,6 +5838,68 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5105580,
+    "cidade": "Marcelândia",
+    "uf": "MT",
+    "latitude": -11.0463,
+    "longitude": -54.4377,
+    "concursos": [
+      {
+        "id": "prefeitura-de-marcelandia-mt-publica-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias:5105580",
+        "concursoId": "prefeitura-de-marcelandia-mt-publica-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias",
+        "codigoIbge": 5105580,
+        "cidade": "Marcelândia",
+        "uf": "MT",
+        "latitude": -11.0463,
+        "longitude": -54.4377,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Marcelândia — Prefeitura de Marcelândia - MT publica edital de processo seletivo para agentes de saúde e de endemias",
+        "orgao": "Prefeitura de Marcelândia",
+        "titulo": "Prefeitura de Marcelândia - MT publica edital de processo seletivo para agentes de saúde e de endemias",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-marcelandia-mt-publica-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias",
+        "vagas": 3,
+        "salarioMaximo": 3036,
+        "inscricaoTexto": "08/09 a08/10/2026",
+        "inscricaoFim": "2026-10-08"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 5105606,
+    "cidade": "Matupá",
+    "uf": "MT",
+    "latitude": -10.1821,
+    "longitude": -54.9467,
+    "concursos": [
+      {
+        "id": "prefeitura-de-matupa-mt-abre-processo-seletivo-para-agentes-comunitarios-de-saude:5105606",
+        "concursoId": "prefeitura-de-matupa-mt-abre-processo-seletivo-para-agentes-comunitarios-de-saude",
+        "codigoIbge": 5105606,
+        "cidade": "Matupá",
+        "uf": "MT",
+        "latitude": -10.1821,
+        "longitude": -54.9467,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Matupá — Prefeitura de Matupá - MT abre processo seletivo para agentes comunitários de saúde",
+        "orgao": "Prefeitura de Matupá",
+        "titulo": "Prefeitura de Matupá - MT abre processo seletivo para agentes comunitários de saúde",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-matupa-mt-abre-processo-seletivo-para-agentes-comunitarios-de-saude",
+        "vagas": 13,
+        "salarioMaximo": 3242,
+        "inscricaoTexto": "14 a28/09/2026",
+        "inscricaoFim": "2026-09-28"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5105622,
     "cidade": "Mirassol d'Oeste",
     "uf": "MT",
@@ -6123,9 +5988,30 @@
         "salarioMaximo": 7313.43,
         "inscricaoTexto": "30/09/2026",
         "inscricaoFim": "2026-09-30"
+      },
+      {
+        "id": "prefeitura-de-sapezal-mt-abre-selecao-com-salarios-de-ate-13097:5107875",
+        "concursoId": "prefeitura-de-sapezal-mt-abre-selecao-com-salarios-de-ate-13097",
+        "codigoIbge": 5107875,
+        "cidade": "Sapezal",
+        "uf": "MT",
+        "latitude": -12.9892,
+        "longitude": -58.7645,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Sapezal — Prefeitura de Sapezal - MT abre seleção com salários de até R$ 13.097,38",
+        "orgao": "Prefeitura de Sapezal",
+        "titulo": "Prefeitura de Sapezal - MT abre seleção com salários de até R$ 13.097,38",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sapezal-mt-abre-selecao-com-salarios-de-ate-13097",
+        "vagas": 8,
+        "salarioMaximo": 13097.38,
+        "inscricaoTexto": "08 a28/09/2026",
+        "inscricaoFim": "2026-09-28"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 1500107,
@@ -6209,37 +6095,6 @@
       }
     ],
     "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 1504208,
-    "cidade": "Marabá",
-    "uf": "PA",
-    "latitude": -5.38075,
-    "longitude": -49.1327,
-    "concursos": [
-      {
-        "id": "prefeitura-de-maraba-pa-abre-processo-seletivo-para-historiador:1504208",
-        "concursoId": "prefeitura-de-maraba-pa-abre-processo-seletivo-para-historiador",
-        "codigoIbge": 1504208,
-        "cidade": "Marabá",
-        "uf": "PA",
-        "latitude": -5.38075,
-        "longitude": -49.1327,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FCCM - Fundação Casa da Cultura de Marabá — Prefeitura de Marabá - PA abre processo seletivo para Historiador",
-        "orgao": "FCCM - Fundação Casa da Cultura de Marabá",
-        "titulo": "Prefeitura de Marabá - PA abre processo seletivo para Historiador",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maraba-pa-abre-processo-seletivo-para-historiador",
-        "vagas": null,
-        "salarioMaximo": 1911.46,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
   },
   {
     "codigoIbge": 1506807,
@@ -6516,37 +6371,6 @@
         "salarioMaximo": 2500,
         "inscricaoTexto": "18/09/2026",
         "inscricaoFim": "2026-09-18"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2514107,
-    "cidade": "São João do Tigre",
-    "uf": "PB",
-    "latitude": -8.07703,
-    "longitude": -36.8547,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sao-joao-do-tigre-pb-abre-selecao-para-psicologo-educacional:2514107",
-        "concursoId": "prefeitura-de-sao-joao-do-tigre-pb-abre-selecao-para-psicologo-educacional",
-        "codigoIbge": 2514107,
-        "cidade": "São João do Tigre",
-        "uf": "PB",
-        "latitude": -8.07703,
-        "longitude": -36.8547,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São João do Tigre — Prefeitura de São João do Tigre - PB abre seleção para psicólogo educacional",
-        "orgao": "Prefeitura de São João do Tigre",
-        "titulo": "Prefeitura de São João do Tigre - PB abre seleção para psicólogo educacional",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-do-tigre-pb-abre-selecao-para-psicologo-educacional",
-        "vagas": 1,
-        "salarioMaximo": 1800,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -8323,6 +8147,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2403004,
+    "cidade": "Cruzeta",
+    "uf": "RN",
+    "latitude": -6.40894,
+    "longitude": -36.7782,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cruzeta-rn-abre-tres-concursos-publicos-com-diversas-vagas-e-cadastro-de-reserva:2403004",
+        "concursoId": "prefeitura-de-cruzeta-rn-abre-tres-concursos-publicos-com-diversas-vagas-e-cadastro-de-reserva",
+        "codigoIbge": 2403004,
+        "cidade": "Cruzeta",
+        "uf": "RN",
+        "latitude": -6.40894,
+        "longitude": -36.7782,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura e Câmara de Cruzeta — Prefeitura de Cruzeta - RN abre três concursos públicos com diversas vagas e cadastro de reserva",
+        "orgao": "Prefeitura e Câmara de Cruzeta",
+        "titulo": "Prefeitura de Cruzeta - RN abre três concursos públicos com diversas vagas e cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cruzeta-rn-abre-tres-concursos-publicos-com-diversas-vagas-e-cadastro-de-reserva",
+        "vagas": 132,
+        "salarioMaximo": 9867.47,
+        "inscricaoTexto": "05/10/2026",
+        "inscricaoFim": "2026-10-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2403400,
     "cidade": "Equador",
     "uf": "RN",
@@ -8354,32 +8209,32 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2414902,
-    "cidade": "Viçosa",
-    "uf": "RN",
-    "latitude": -5.98253,
-    "longitude": -37.9462,
+    "codigoIbge": 1100700,
+    "cidade": "Campo Novo de Rondônia",
+    "uf": "RO",
+    "latitude": -10.5712,
+    "longitude": -63.6266,
     "concursos": [
       {
-        "id": "prefeitura-de-vicosa-rn-abre-selecao-com-salarios-de-ate-3242:2414902",
-        "concursoId": "prefeitura-de-vicosa-rn-abre-selecao-com-salarios-de-ate-3242",
-        "codigoIbge": 2414902,
-        "cidade": "Viçosa",
-        "uf": "RN",
-        "latitude": -5.98253,
-        "longitude": -37.9462,
+        "id": "prefeitura-de-campo-novo-de-rondonia-ro-abre-processo-seletivo-com-salarios-de-ate-5259:1100700",
+        "concursoId": "prefeitura-de-campo-novo-de-rondonia-ro-abre-processo-seletivo-com-salarios-de-ate-5259",
+        "codigoIbge": 1100700,
+        "cidade": "Campo Novo de Rondônia",
+        "uf": "RO",
+        "latitude": -10.5712,
+        "longitude": -63.6266,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Viçosa — Prefeitura de Viçosa - RN abre seleção com salários de até R$ 3.242,00",
-        "orgao": "Prefeitura de Viçosa",
-        "titulo": "Prefeitura de Viçosa - RN abre seleção com salários de até R$ 3.242,00",
+        "contextoLocalidade": "Prefeitura da Estância Turística Campo Novo de Rondônia — Prefeitura de Campo Novo de Rondônia - RO abre processo seletivo com salários de até R$ 5.259,93",
+        "orgao": "Prefeitura da Estância Turística Campo Novo de Rondônia",
+        "titulo": "Prefeitura de Campo Novo de Rondônia - RO abre processo seletivo com salários de até R$ 5.259,93",
         "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vicosa-rn-abre-selecao-com-salarios-de-ate-3242",
-        "vagas": 3,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-campo-novo-de-rondonia-ro-abre-processo-seletivo-com-salarios-de-ate-5259",
+        "vagas": 12,
+        "salarioMaximo": 5259.93,
+        "inscricaoTexto": "07/09/2026",
+        "inscricaoFim": "2026-09-07"
       }
     ],
     "totalConcursos": 1
@@ -8633,37 +8488,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4304309,
-    "cidade": "Cândido Godói",
-    "uf": "RS",
-    "latitude": -27.9515,
-    "longitude": -54.7517,
-    "concursos": [
-      {
-        "id": "prefeitura-de-candido-godoi-rs-abre-vagas-para-visitador-do-pim:4304309",
-        "concursoId": "prefeitura-de-candido-godoi-rs-abre-vagas-para-visitador-do-pim",
-        "codigoIbge": 4304309,
-        "cidade": "Cândido Godói",
-        "uf": "RS",
-        "latitude": -27.9515,
-        "longitude": -54.7517,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Cândido Godói — Prefeitura de Cândido Godói - RS abre vagas para Visitador do PIM",
-        "orgao": "Prefeitura de Cândido Godói",
-        "titulo": "Prefeitura de Cândido Godói - RS abre vagas para Visitador do PIM",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-candido-godoi-rs-abre-vagas-para-visitador-do-pim",
-        "vagas": 2,
-        "salarioMaximo": 1758.71,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4304408,
     "cidade": "Canela",
     "uf": "RS",
@@ -8690,6 +8514,37 @@
         "salarioMaximo": 5130.63,
         "inscricaoTexto": "21/08/2026",
         "inscricaoFim": "2026-08-21"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4304507,
+    "cidade": "Canguçu",
+    "uf": "RS",
+    "latitude": -31.396,
+    "longitude": -52.6783,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cangucu-rs-abre-concurso-publico-com-salarios-de-ate-7470:4304507",
+        "concursoId": "prefeitura-de-cangucu-rs-abre-concurso-publico-com-salarios-de-ate-7470",
+        "codigoIbge": 4304507,
+        "cidade": "Canguçu",
+        "uf": "RS",
+        "latitude": -31.396,
+        "longitude": -52.6783,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Canguçu — Prefeitura de Canguçu - RS abre concurso público com salários de até R$ 7.470,46",
+        "orgao": "Prefeitura de Canguçu",
+        "titulo": "Prefeitura de Canguçu - RS abre concurso público com salários de até R$ 7.470,46",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cangucu-rs-abre-concurso-publico-com-salarios-de-ate-7470",
+        "vagas": 92,
+        "salarioMaximo": 7470.46,
+        "inscricaoTexto": "10/09 a02/10/2026",
+        "inscricaoFim": "2026-10-02"
       }
     ],
     "totalConcursos": 1
@@ -8819,32 +8674,32 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4311775,
-    "cidade": "Maquiné",
+    "codigoIbge": 4310330,
+    "cidade": "Imbé",
     "uf": "RS",
-    "latitude": -29.6798,
-    "longitude": -50.2079,
+    "latitude": -29.9753,
+    "longitude": -50.1281,
     "concursos": [
       {
-        "id": "prefeitura-de-maquine-rs-abre-selecoes-para-motorista-escolar-e-medico-veterinario:4311775",
-        "concursoId": "prefeitura-de-maquine-rs-abre-selecoes-para-motorista-escolar-e-medico-veterinario",
-        "codigoIbge": 4311775,
-        "cidade": "Maquiné",
+        "id": "prefeitura-de-imbe-rs-abre-processo-seletivo-com-salarios-de-ate-21695:4310330",
+        "concursoId": "prefeitura-de-imbe-rs-abre-processo-seletivo-com-salarios-de-ate-21695",
+        "codigoIbge": 4310330,
+        "cidade": "Imbé",
         "uf": "RS",
-        "latitude": -29.6798,
-        "longitude": -50.2079,
+        "latitude": -29.9753,
+        "longitude": -50.1281,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Maquiné — Prefeitura de Maquiné - RS abre seleções para Motorista Escolar e Médico Veterinário",
-        "orgao": "Prefeitura de Maquiné",
-        "titulo": "Prefeitura de Maquiné - RS abre seleções para Motorista Escolar e Médico Veterinário",
+        "contextoLocalidade": "Prefeitura de Imbé — Prefeitura de Imbé - RS abre processo seletivo com salários de até R$ 21.695,07",
+        "orgao": "Prefeitura de Imbé",
+        "titulo": "Prefeitura de Imbé - RS abre processo seletivo com salários de até R$ 21.695,07",
         "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maquine-rs-abre-selecoes-para-motorista-escolar-e-medico-veterinario",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-imbe-rs-abre-processo-seletivo-com-salarios-de-ate-21695",
         "vagas": null,
-        "salarioMaximo": 8655.74,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
+        "salarioMaximo": 21695.07,
+        "inscricaoTexto": "08 a14/09/2026",
+        "inscricaoFim": "2026-09-14"
       }
     ],
     "totalConcursos": 1
@@ -8876,68 +8731,6 @@
         "salarioMaximo": 1924.18,
         "inscricaoTexto": "Cancelado",
         "inscricaoFim": null
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4314100,
-    "cidade": "Passo Fundo",
-    "uf": "RS",
-    "latitude": -28.2576,
-    "longitude": -52.4091,
-    "concursos": [
-      {
-        "id": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050:4314100",
-        "concursoId": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050",
-        "codigoIbge": 4314100,
-        "cidade": "Passo Fundo",
-        "uf": "RS",
-        "latitude": -28.2576,
-        "longitude": -52.4091,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "O município de Passo Fundo, no Rio Grande do Sul, por meio do Hospital Beneficente Dr.",
-        "orgao": "Hospital Beneficente Dr. César Santos",
-        "titulo": "Hospital Beneficente Dr. César Santos - RS abre seleção com salários de até R$ 6.050,19",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050",
-        "vagas": 32,
-        "salarioMaximo": 6050.19,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4314472,
-    "cidade": "Pinhal Grande",
-    "uf": "RS",
-    "latitude": -29.345,
-    "longitude": -53.3206,
-    "concursos": [
-      {
-        "id": "prefeitura-de-pinhal-grande-rs-abre-selecao-para-operador-de-maquinas-e-operario:4314472",
-        "concursoId": "prefeitura-de-pinhal-grande-rs-abre-selecao-para-operador-de-maquinas-e-operario",
-        "codigoIbge": 4314472,
-        "cidade": "Pinhal Grande",
-        "uf": "RS",
-        "latitude": -29.345,
-        "longitude": -53.3206,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Pinhal Grande — Prefeitura de Pinhal Grande - RS abre seleção para Operador de Máquinas e Operário",
-        "orgao": "Prefeitura de Pinhal Grande",
-        "titulo": "Prefeitura de Pinhal Grande - RS abre seleção para Operador de Máquinas e Operário",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pinhal-grande-rs-abre-selecao-para-operador-de-maquinas-e-operario",
-        "vagas": null,
-        "salarioMaximo": 2524.55,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -9024,6 +8817,37 @@
       }
     ],
     "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 4315057,
+    "cidade": "Porto Mauá",
+    "uf": "RS",
+    "latitude": -27.5796,
+    "longitude": -54.6657,
+    "concursos": [
+      {
+        "id": "prefeitura-de-porto-maua-rs-abre-selecao-para-tecnico-em-enfermagem:4315057",
+        "concursoId": "prefeitura-de-porto-maua-rs-abre-selecao-para-tecnico-em-enfermagem",
+        "codigoIbge": 4315057,
+        "cidade": "Porto Mauá",
+        "uf": "RS",
+        "latitude": -27.5796,
+        "longitude": -54.6657,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Porto Mauá — Prefeitura de Porto Mauá - RS abre seleção para Técnico em Enfermagem",
+        "orgao": "Prefeitura de Porto Mauá",
+        "titulo": "Prefeitura de Porto Mauá - RS abre seleção para Técnico em Enfermagem",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-maua-rs-abre-selecao-para-tecnico-em-enfermagem",
+        "vagas": null,
+        "salarioMaximo": 2287.67,
+        "inscricaoTexto": "09/09/2026",
+        "inscricaoFim": "2026-09-09"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4315404,
@@ -9137,27 +8961,6 @@
         "inscricaoFim": "2026-09-07"
       },
       {
-        "id": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050:4315602",
-        "concursoId": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050",
-        "codigoIbge": 4315602,
-        "cidade": "Rio Grande",
-        "uf": "RS",
-        "latitude": -32.0349,
-        "longitude": -52.1071,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "O município de Passo Fundo, no Rio Grande do Sul, por meio do Hospital Beneficente Dr.",
-        "orgao": "Hospital Beneficente Dr. César Santos",
-        "titulo": "Hospital Beneficente Dr. César Santos - RS abre seleção com salários de até R$ 6.050,19",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-salarios-de-ate-6050",
-        "vagas": 32,
-        "salarioMaximo": 6050.19,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      },
-      {
         "id": "sebrae-rs-abre-processo-seletivo-para-bolsistas-no-projeto-agentes-locais-de-inovacao:4315602",
         "concursoId": "sebrae-rs-abre-processo-seletivo-para-bolsistas-no-projeto-agentes-locais-de-inovacao",
         "codigoIbge": 4315602,
@@ -9200,7 +9003,7 @@
         "inscricaoFim": "2026-10-14"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 4316709,
@@ -9291,37 +9094,6 @@
         "salarioMaximo": 1778.53,
         "inscricaoTexto": "18/09/2026",
         "inscricaoFim": "2026-09-18"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4318200,
-    "cidade": "São Francisco de Paula",
-    "uf": "RS",
-    "latitude": -29.4404,
-    "longitude": -50.5828,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sao-francisco-de-paula-rs-abre-processo-seletivo-para-diversos-cargos:4318200",
-        "concursoId": "prefeitura-de-sao-francisco-de-paula-rs-abre-processo-seletivo-para-diversos-cargos",
-        "codigoIbge": 4318200,
-        "cidade": "São Francisco de Paula",
-        "uf": "RS",
-        "latitude": -29.4404,
-        "longitude": -50.5828,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São Francisco de Paula — Prefeitura de São Francisco de Paula - RS abre processo seletivo para diversos cargos",
-        "orgao": "Prefeitura de São Francisco de Paula",
-        "titulo": "Prefeitura de São Francisco de Paula - RS abre processo seletivo para diversos cargos",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-francisco-de-paula-rs-abre-processo-seletivo-para-diversos-cargos",
-        "vagas": null,
-        "salarioMaximo": 2875.07,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -9420,37 +9192,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4321006,
-    "cidade": "Tapera",
-    "uf": "RS",
-    "latitude": -28.6277,
-    "longitude": -52.8613,
-    "concursos": [
-      {
-        "id": "prefeitura-de-tapera-rs-abre-vagas-para-concurso-publico-e-processo-seletivo:4321006",
-        "concursoId": "prefeitura-de-tapera-rs-abre-vagas-para-concurso-publico-e-processo-seletivo",
-        "codigoIbge": 4321006,
-        "cidade": "Tapera",
-        "uf": "RS",
-        "latitude": -28.6277,
-        "longitude": -52.8613,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Tapera — Prefeitura de Tapera - RS abre vagas para concurso público e processo seletivo",
-        "orgao": "Prefeitura de Tapera",
-        "titulo": "Prefeitura de Tapera - RS abre vagas para concurso público e processo seletivo",
-        "status": "aberto",
-        "tipoSelecao": "misto",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tapera-rs-abre-vagas-para-concurso-publico-e-processo-seletivo",
-        "vagas": 89,
-        "salarioMaximo": 16839.7,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4321477,
     "cidade": "Tiradentes do Sul",
     "uf": "RS",
@@ -9506,6 +9247,37 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-toropi-rs-abre-concurso-publico-com-salarios-de-ate-8900",
         "vagas": 9,
         "salarioMaximo": 8900,
+        "inscricaoTexto": "10/09/2026",
+        "inscricaoFim": "2026-09-10"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4202008,
+    "cidade": "Balneário Camboriú",
+    "uf": "SC",
+    "latitude": -26.9926,
+    "longitude": -48.6352,
+    "concursos": [
+      {
+        "id": "emasa-de-balneario-camboriu-sc-abre-processo-seletivo-com-vaga-para-fiscal-sanitarista:4202008",
+        "concursoId": "emasa-de-balneario-camboriu-sc-abre-processo-seletivo-com-vaga-para-fiscal-sanitarista",
+        "codigoIbge": 4202008,
+        "cidade": "Balneário Camboriú",
+        "uf": "SC",
+        "latitude": -26.9926,
+        "longitude": -48.6352,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "EMASA - Empresa Municipal de Água e Saneamento — EMASA de Balneário Camboriú - SC abre processo seletivo com vaga para Fiscal Sanitarista",
+        "orgao": "EMASA - Empresa Municipal de Água e Saneamento",
+        "titulo": "EMASA de Balneário Camboriú - SC abre processo seletivo com vaga para Fiscal Sanitarista",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/emasa-de-balneario-camboriu-sc-abre-processo-seletivo-com-vaga-para-fiscal-sanitarista",
+        "vagas": 1,
+        "salarioMaximo": 7949.94,
         "inscricaoTexto": "10/09/2026",
         "inscricaoFim": "2026-09-10"
       }
@@ -9570,6 +9342,37 @@
         "salarioMaximo": 4680,
         "inscricaoTexto": "15/09/2026",
         "inscricaoFim": "2026-09-15"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4202099,
+    "cidade": "Barra Bonita",
+    "uf": "SC",
+    "latitude": -26.654,
+    "longitude": -53.44,
+    "concursos": [
+      {
+        "id": "prefeitura-de-barra-bonita-sc-abre-concurso-com-salarios-de-ate-8344:4202099",
+        "concursoId": "prefeitura-de-barra-bonita-sc-abre-concurso-com-salarios-de-ate-8344",
+        "codigoIbge": 4202099,
+        "cidade": "Barra Bonita",
+        "uf": "SC",
+        "latitude": -26.654,
+        "longitude": -53.44,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Barra Bonita — Prefeitura de Barra Bonita - SC abre concurso com salários de até R$ 8.344,63",
+        "orgao": "Prefeitura de Barra Bonita",
+        "titulo": "Prefeitura de Barra Bonita - SC abre concurso com salários de até R$ 8.344,63",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-bonita-sc-abre-concurso-com-salarios-de-ate-8344",
+        "vagas": 6,
+        "salarioMaximo": 8344.63,
+        "inscricaoTexto": "05/10/2026",
+        "inscricaoFim": "2026-10-05"
       }
     ],
     "totalConcursos": 1
@@ -10008,27 +9811,6 @@
         "inscricaoFim": "2026-09-23"
       },
       {
-        "id": "comcap-florianopolis-sc-abre-selecao-com-vagas-para-garis-e-motoristas:4205407",
-        "concursoId": "comcap-florianopolis-sc-abre-selecao-com-vagas-para-garis-e-motoristas",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "COMCAP - Autarquia de Melhoramentos da Capital — COMCAP Florianópolis - SC abre seleção com vagas para garis e motoristas",
-        "orgao": "COMCAP - Autarquia de Melhoramentos da Capital",
-        "titulo": "COMCAP Florianópolis - SC abre seleção com vagas para garis e motoristas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comcap-florianopolis-sc-abre-selecao-com-vagas-para-garis-e-motoristas",
-        "vagas": 300,
-        "salarioMaximo": 3628.01,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      },
-      {
         "id": "epagri-sc-abre-concurso-publico-com-salarios-iniciais-de-ate-16990:4205407",
         "concursoId": "epagri-sc-abre-concurso-publico-com-salarios-iniciais-de-ate-16990",
         "codigoIbge": 4205407,
@@ -10067,6 +9849,27 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-processo-seletivo-para-assistente-de-gestao-de-pessoas-em-florianopolis",
         "vagas": 1,
         "salarioMaximo": 3733.38,
+        "inscricaoTexto": "07/09/2026",
+        "inscricaoFim": "2026-09-07"
+      },
+      {
+        "id": "fahece-sc-anuncia-processo-seletivo-para-assistente-de-qualidade-i-em-florianopolis:4205407",
+        "concursoId": "fahece-sc-anuncia-processo-seletivo-para-assistente-de-qualidade-i-em-florianopolis",
+        "codigoIbge": 4205407,
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "latitude": -27.5945,
+        "longitude": -48.5477,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC anuncia processo seletivo para Assistente de Qualidade I em Florianópolis",
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
+        "titulo": "FAHECE - SC anuncia processo seletivo para Assistente de Qualidade I em Florianópolis",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-processo-seletivo-para-assistente-de-qualidade-i-em-florianopolis",
+        "vagas": 1,
+        "salarioMaximo": 2519.21,
         "inscricaoTexto": "07/09/2026",
         "inscricaoFim": "2026-09-07"
       },
@@ -10495,30 +10298,9 @@
         "salarioMaximo": 3731.71,
         "inscricaoTexto": "06/09/2026",
         "inscricaoFim": "2026-09-06"
-      },
-      {
-        "id": "prefeitura-de-lages-sc-abre-selecao-para-motorista-socorrista:4209300",
-        "concursoId": "prefeitura-de-lages-sc-abre-selecao-para-motorista-socorrista",
-        "codigoIbge": 4209300,
-        "cidade": "Lages",
-        "uf": "SC",
-        "latitude": -27.815,
-        "longitude": -50.3259,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Lages — Prefeitura de Lages - SC abre seleção para Motorista Socorrista",
-        "orgao": "Prefeitura de Lages",
-        "titulo": "Prefeitura de Lages - SC abre seleção para Motorista Socorrista",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-lages-sc-abre-selecao-para-motorista-socorrista",
-        "vagas": 1,
-        "salarioMaximo": 2378.29,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 4209904,
@@ -10547,37 +10329,6 @@
         "salarioMaximo": 8105.36,
         "inscricaoTexto": "29/09/2026",
         "inscricaoFim": "2026-09-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4210100,
-    "cidade": "Mafra",
-    "uf": "SC",
-    "latitude": -26.1159,
-    "longitude": -49.8086,
-    "concursos": [
-      {
-        "id": "ses-sc-abre-processo-seletivo-com-vagas-para-medicos-em-mafra:4210100",
-        "concursoId": "ses-sc-abre-processo-seletivo-com-vagas-para-medicos-em-mafra",
-        "codigoIbge": 4210100,
-        "cidade": "Mafra",
-        "uf": "SC",
-        "latitude": -26.1159,
-        "longitude": -49.8086,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SES - Secretaria de Estado da Saúde de Santa Catarina — SES - SC abre processo seletivo com vagas para médicos em Mafra",
-        "orgao": "SES - Secretaria de Estado da Saúde de Santa Catarina",
-        "titulo": "SES - SC abre processo seletivo com vagas para médicos em Mafra",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/ses-sc-abre-processo-seletivo-com-vagas-para-medicos-em-mafra",
-        "vagas": 3,
-        "salarioMaximo": 10581.16,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -11018,37 +10769,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4215000,
-    "cidade": "Rio Negrinho",
-    "uf": "SC",
-    "latitude": -26.2591,
-    "longitude": -49.5177,
-    "concursos": [
-      {
-        "id": "prefeitura-de-rio-negrinho-sc-abre-selecao-com-salarios-de-ate-18538:4215000",
-        "concursoId": "prefeitura-de-rio-negrinho-sc-abre-selecao-com-salarios-de-ate-18538",
-        "codigoIbge": 4215000,
-        "cidade": "Rio Negrinho",
-        "uf": "SC",
-        "latitude": -26.2591,
-        "longitude": -49.5177,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Rio Negrinho — Prefeitura de Rio Negrinho - SC abre seleção com salários de até R$ 18.538,78",
-        "orgao": "Prefeitura de Rio Negrinho",
-        "titulo": "Prefeitura de Rio Negrinho - SC abre seleção com salários de até R$ 18.538,78",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-negrinho-sc-abre-selecao-com-salarios-de-ate-18538",
-        "vagas": 2,
-        "salarioMaximo": 18538.78,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4215356,
     "cidade": "Saltinho",
     "uf": "SC",
@@ -11137,6 +10857,37 @@
         "salarioMaximo": 3242,
         "inscricaoTexto": "17/09/2026",
         "inscricaoFim": "2026-09-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4216255,
+    "cidade": "São João do Oeste",
+    "uf": "SC",
+    "latitude": -27.0984,
+    "longitude": -53.5977,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-joao-do-oeste-sc-abre-concurso-publico-e-processo-seletivo-para-diversos-cargos:4216255",
+        "concursoId": "prefeitura-de-sao-joao-do-oeste-sc-abre-concurso-publico-e-processo-seletivo-para-diversos-cargos",
+        "codigoIbge": 4216255,
+        "cidade": "São João do Oeste",
+        "uf": "SC",
+        "latitude": -27.0984,
+        "longitude": -53.5977,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São João do Oeste — Prefeitura de São João do Oeste - SC abre concurso público e processo seletivo para diversos cargos",
+        "orgao": "Prefeitura de São João do Oeste",
+        "titulo": "Prefeitura de São João do Oeste - SC abre concurso público e processo seletivo para diversos cargos",
+        "status": "aberto",
+        "tipoSelecao": "misto",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-do-oeste-sc-abre-concurso-publico-e-processo-seletivo-para-diversos-cargos",
+        "vagas": null,
+        "salarioMaximo": 5578.25,
+        "inscricaoTexto": "05/10/2026",
+        "inscricaoFim": "2026-10-05"
       }
     ],
     "totalConcursos": 1
@@ -11794,6 +11545,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3508405,
+    "cidade": "Cabreúva",
+    "uf": "SP",
+    "latitude": -23.3053,
+    "longitude": -47.1362,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cabreuva-sp-abre-concurso-publico-com-salarios-de-ate-11735:3508405",
+        "concursoId": "prefeitura-de-cabreuva-sp-abre-concurso-publico-com-salarios-de-ate-11735",
+        "codigoIbge": 3508405,
+        "cidade": "Cabreúva",
+        "uf": "SP",
+        "latitude": -23.3053,
+        "longitude": -47.1362,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cabreúva — Prefeitura de Cabreúva - SP abre concurso público com salários de até R$ 11.735,45",
+        "orgao": "Prefeitura de Cabreúva",
+        "titulo": "Prefeitura de Cabreúva - SP abre concurso público com salários de até R$ 11.735,45",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cabreuva-sp-abre-concurso-publico-com-salarios-de-ate-11735",
+        "vagas": 9,
+        "salarioMaximo": 11735.45,
+        "inscricaoTexto": "05/10/2026",
+        "inscricaoFim": "2026-10-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3508504,
     "cidade": "Caçapava",
     "uf": "SP",
@@ -12032,6 +11814,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3512209,
+    "cidade": "Conchal",
+    "uf": "SP",
+    "latitude": -22.3375,
+    "longitude": -47.1729,
+    "concursos": [
+      {
+        "id": "prefeitura-de-conchal-sp-abre-concurso-publico-com-vagas-para-diversos-cargos:3512209",
+        "concursoId": "prefeitura-de-conchal-sp-abre-concurso-publico-com-vagas-para-diversos-cargos",
+        "codigoIbge": 3512209,
+        "cidade": "Conchal",
+        "uf": "SP",
+        "latitude": -22.3375,
+        "longitude": -47.1729,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Conchal — Prefeitura de Conchal - SP abre concurso público com vagas para diversos cargos",
+        "orgao": "Prefeitura de Conchal",
+        "titulo": "Prefeitura de Conchal - SP abre concurso público com vagas para diversos cargos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conchal-sp-abre-concurso-publico-com-vagas-para-diversos-cargos",
+        "vagas": 26,
+        "salarioMaximo": 3809.23,
+        "inscricaoTexto": "07/10/2026",
+        "inscricaoFim": "2026-10-07"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3513801,
     "cidade": "Diadema",
     "uf": "SP",
@@ -12261,6 +12074,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3516705,
+    "cidade": "Garça",
+    "uf": "SP",
+    "latitude": -22.2125,
+    "longitude": -49.6546,
+    "concursos": [
+      {
+        "id": "camara-de-garca-sp-abre-concurso-publico-para-tecnico-legislativo:3516705",
+        "concursoId": "camara-de-garca-sp-abre-concurso-publico-para-tecnico-legislativo",
+        "codigoIbge": 3516705,
+        "cidade": "Garça",
+        "uf": "SP",
+        "latitude": -22.2125,
+        "longitude": -49.6546,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Garça — Câmara de Garça - SP abre concurso público para Técnico Legislativo",
+        "orgao": "Câmara de Garça",
+        "titulo": "Câmara de Garça - SP abre concurso público para Técnico Legislativo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-garca-sp-abre-concurso-publico-para-tecnico-legislativo",
+        "vagas": 1,
+        "salarioMaximo": 3378.77,
+        "inscricaoTexto": "07/10/2026",
+        "inscricaoFim": "2026-10-07"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3516853,
     "cidade": "Gavião Peixoto",
     "uf": "SP",
@@ -12287,68 +12131,6 @@
         "salarioMaximo": 4292.22,
         "inscricaoTexto": "21/09/2026",
         "inscricaoFim": "2026-09-21"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3517307,
-    "cidade": "Guaimbê",
-    "uf": "SP",
-    "latitude": -21.9091,
-    "longitude": -49.8986,
-    "concursos": [
-      {
-        "id": "prefeitura-de-guaimbe-sp-abre-concurso-publico-com-salarios-de-ate-12565:3517307",
-        "concursoId": "prefeitura-de-guaimbe-sp-abre-concurso-publico-com-salarios-de-ate-12565",
-        "codigoIbge": 3517307,
-        "cidade": "Guaimbê",
-        "uf": "SP",
-        "latitude": -21.9091,
-        "longitude": -49.8986,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Guaimbê — Prefeitura de Guaimbê - SP abre concurso público com salários de até R$ 12.565,04",
-        "orgao": "Prefeitura de Guaimbê",
-        "titulo": "Prefeitura de Guaimbê - SP abre concurso público com salários de até R$ 12.565,04",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guaimbe-sp-abre-concurso-publico-com-salarios-de-ate-12565",
-        "vagas": 42,
-        "salarioMaximo": 12565.04,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3518602,
-    "cidade": "Guariba",
-    "uf": "SP",
-    "latitude": -21.3594,
-    "longitude": -48.2316,
-    "concursos": [
-      {
-        "id": "prefeitura-de-guariba-sp-retifica-concurso-publico-com-salarios-de-ate-9147:3518602",
-        "concursoId": "prefeitura-de-guariba-sp-retifica-concurso-publico-com-salarios-de-ate-9147",
-        "codigoIbge": 3518602,
-        "cidade": "Guariba",
-        "uf": "SP",
-        "latitude": -21.3594,
-        "longitude": -48.2316,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Guariba — Prefeitura de Guariba - SP retifica concurso público com salários de até R$ 9.147,63",
-        "orgao": "Prefeitura de Guariba",
-        "titulo": "Prefeitura de Guariba - SP retifica concurso público com salários de até R$ 9.147,63",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guariba-sp-retifica-concurso-publico-com-salarios-de-ate-9147",
-        "vagas": 5,
-        "salarioMaximo": 9147.63,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -12707,6 +12489,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3525201,
+    "cidade": "Jarinu",
+    "uf": "SP",
+    "latitude": -23.1039,
+    "longitude": -46.728,
+    "concursos": [
+      {
+        "id": "prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-11267:3525201",
+        "concursoId": "prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-11267",
+        "codigoIbge": 3525201,
+        "cidade": "Jarinu",
+        "uf": "SP",
+        "latitude": -23.1039,
+        "longitude": -46.728,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Jarinu — Prefeitura de Jarinu - SP abre concurso público com salários de até R$ 11.267,00",
+        "orgao": "Prefeitura de Jarinu",
+        "titulo": "Prefeitura de Jarinu - SP abre concurso público com salários de até R$ 11.267,00",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jarinu-sp-abre-concurso-publico-com-salarios-de-ate-11267",
+        "vagas": 4,
+        "salarioMaximo": 11267,
+        "inscricaoTexto": "14/09 a15/10/2026",
+        "inscricaoFim": "2026-10-15"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3525706,
     "cidade": "José Bonifácio",
     "uf": "SP",
@@ -12745,27 +12558,6 @@
     "longitude": -47.397,
     "concursos": [
       {
-        "id": "funcamp-sp-abre-vaga-para-auxiliar-de-limpeza-no-ame-de-limeira:3526902",
-        "concursoId": "funcamp-sp-abre-vaga-para-auxiliar-de-limpeza-no-ame-de-limeira",
-        "codigoIbge": 3526902,
-        "cidade": "Limeira",
-        "uf": "SP",
-        "latitude": -22.566,
-        "longitude": -47.397,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FUNCAMP - Fundação de Desenvolvimento da Unicamp — FUNCAMP - SP abre vaga para Auxiliar de Limpeza no AME de Limeira",
-        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
-        "titulo": "FUNCAMP - SP abre vaga para Auxiliar de Limpeza no AME de Limeira",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/funcamp-sp-abre-vaga-para-auxiliar-de-limpeza-no-ame-de-limeira",
-        "vagas": 1,
-        "salarioMaximo": 2511.66,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      },
-      {
         "id": "prefeitura-de-limeira-sp-prorroga-inscricoes-de-concursos-com-vagas-em-diversas-areas:3526902",
         "concursoId": "prefeitura-de-limeira-sp-prorroga-inscricoes-de-concursos-com-vagas-em-diversas-areas",
         "codigoIbge": 3526902,
@@ -12787,7 +12579,7 @@
         "inscricaoFim": "2026-09-21"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3529203,
@@ -12890,8 +12682,8 @@
     "longitude": -46.9532,
     "concursos": [
       {
-        "id": "prefeitura-de-mogi-mirim-sp-abre-concursos-e-processo-seletivo-com-vagas-para-diversas-areas:3530805",
-        "concursoId": "prefeitura-de-mogi-mirim-sp-abre-concursos-e-processo-seletivo-com-vagas-para-diversas-areas",
+        "id": "prefeitura-de-mogi-mirim-sp-divulga-retificacoes-dos-concursos-publicos:3530805",
+        "concursoId": "prefeitura-de-mogi-mirim-sp-divulga-retificacoes-dos-concursos-publicos",
         "codigoIbge": 3530805,
         "cidade": "Mogi Mirim",
         "uf": "SP",
@@ -12899,12 +12691,12 @@
         "longitude": -46.9532,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Mogi Mirim — Prefeitura de Mogi Mirim - SP abre concursos e processo seletivo com vagas para diversas áreas",
+        "contextoLocalidade": "Prefeitura de Mogi Mirim — Prefeitura de Mogi Mirim - SP divulga retificações dos concursos públicos",
         "orgao": "Prefeitura de Mogi Mirim",
-        "titulo": "Prefeitura de Mogi Mirim - SP abre concursos e processo seletivo com vagas para diversas áreas",
+        "titulo": "Prefeitura de Mogi Mirim - SP divulga retificações dos concursos públicos",
         "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mogi-mirim-sp-abre-concursos-e-processo-seletivo-com-vagas-para-diversas-areas",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mogi-mirim-sp-divulga-retificacoes-dos-concursos-publicos",
         "vagas": 56,
         "salarioMaximo": 6586.98,
         "inscricaoTexto": "10/09/2026",
@@ -12961,6 +12753,58 @@
         "salarioMaximo": 3689.48,
         "inscricaoTexto": "07/09/2026",
         "inscricaoFim": "2026-09-07"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 3533908,
+    "cidade": "Olímpia",
+    "uf": "SP",
+    "latitude": -20.7366,
+    "longitude": -48.9106,
+    "concursos": [
+      {
+        "id": "prefeitura-de-olimpia-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-9-mil:3533908",
+        "concursoId": "prefeitura-de-olimpia-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-9-mil",
+        "codigoIbge": 3533908,
+        "cidade": "Olímpia",
+        "uf": "SP",
+        "latitude": -20.7366,
+        "longitude": -48.9106,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura da Estância Turística de Olímpia — Prefeitura de Olímpia - SP reabre inscrições para o concurso público com salários de até R$ 9 mil",
+        "orgao": "Prefeitura da Estância Turística de Olímpia",
+        "titulo": "Prefeitura de Olímpia - SP reabre inscrições para o concurso público com salários de até R$ 9 mil",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-olimpia-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-9-mil",
+        "vagas": 70,
+        "salarioMaximo": 9581.64,
+        "inscricaoTexto": "Reaberto até22/09/2026",
+        "inscricaoFim": "2026-09-22"
+      },
+      {
+        "id": "prefeitura-de-olimpia-sp-reabre-inscricoes-do-concurso-publico-para-historiador-e-museologo:3533908",
+        "concursoId": "prefeitura-de-olimpia-sp-reabre-inscricoes-do-concurso-publico-para-historiador-e-museologo",
+        "codigoIbge": 3533908,
+        "cidade": "Olímpia",
+        "uf": "SP",
+        "latitude": -20.7366,
+        "longitude": -48.9106,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura da Estância Turística de Olímpia — Prefeitura de Olímpia - SP reabre inscrições do concurso público para Historiador e Museólogo",
+        "orgao": "Prefeitura da Estância Turística de Olímpia",
+        "titulo": "Prefeitura de Olímpia - SP reabre inscrições do concurso público para Historiador e Museólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-olimpia-sp-reabre-inscricoes-do-concurso-publico-para-historiador-e-museologo",
+        "vagas": 2,
+        "salarioMaximo": 6506.88,
+        "inscricaoTexto": "Reaberto até22/09/2026",
+        "inscricaoFim": "2026-09-22"
       }
     ],
     "totalConcursos": 2
@@ -13111,37 +12955,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3537156,
-    "cidade": "Pedrinhas Paulista",
-    "uf": "SP",
-    "latitude": -22.8174,
-    "longitude": -50.7933,
-    "concursos": [
-      {
-        "id": "prefeitura-de-pedrinhas-paulista-sp-abre-concurso-publico-para-o-cargo-de-motorista:3537156",
-        "concursoId": "prefeitura-de-pedrinhas-paulista-sp-abre-concurso-publico-para-o-cargo-de-motorista",
-        "codigoIbge": 3537156,
-        "cidade": "Pedrinhas Paulista",
-        "uf": "SP",
-        "latitude": -22.8174,
-        "longitude": -50.7933,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Pedrinhas Paulista — Prefeitura de Pedrinhas Paulista - SP abre concurso público para o cargo de motorista",
-        "orgao": "Prefeitura de Pedrinhas Paulista",
-        "titulo": "Prefeitura de Pedrinhas Paulista - SP abre concurso público para o cargo de motorista",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pedrinhas-paulista-sp-abre-concurso-publico-para-o-cargo-de-motorista",
-        "vagas": 1,
-        "salarioMaximo": 2108.74,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3537305,
     "cidade": "Penápolis",
     "uf": "SP",
@@ -13168,37 +12981,6 @@
         "salarioMaximo": 2300.86,
         "inscricaoTexto": "07/09/2026",
         "inscricaoFim": "2026-09-07"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3543402,
-    "cidade": "Ribeirão Preto",
-    "uf": "SP",
-    "latitude": -21.1699,
-    "longitude": -47.8099,
-    "concursos": [
-      {
-        "id": "hcfmrp-usp-sp-abre-concursos-publicos-para-contratacao-de-medicos-em-duas-especialidades:3543402",
-        "concursoId": "hcfmrp-usp-sp-abre-concursos-publicos-para-contratacao-de-medicos-em-duas-especialidades",
-        "codigoIbge": 3543402,
-        "cidade": "Ribeirão Preto",
-        "uf": "SP",
-        "latitude": -21.1699,
-        "longitude": -47.8099,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HCFMRP-USP - Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da Universidade de São Paulo — HCFMRP-USP - SP abre concursos públicos para contratação de médicos em duas especialidades",
-        "orgao": "HCFMRP-USP - Hospital das Clínicas da Faculdade de Medicina de Ribeirão Preto da Universidade de São Paulo",
-        "titulo": "HCFMRP-USP - SP abre concursos públicos para contratação de médicos em duas especialidades",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hcfmrp-usp-sp-abre-concursos-publicos-para-contratacao-de-medicos-em-duas-especialidades",
-        "vagas": 2,
-        "salarioMaximo": 5979.93,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
       }
     ],
     "totalConcursos": 1
@@ -13380,37 +13162,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 3548500,
-    "cidade": "Santos",
-    "uf": "SP",
-    "latitude": -23.9535,
-    "longitude": -46.335,
-    "concursos": [
-      {
-        "id": "prefeitura-de-santos-sp-divulga-retificacoes-de-concursos-publicos:3548500",
-        "concursoId": "prefeitura-de-santos-sp-divulga-retificacoes-de-concursos-publicos",
-        "codigoIbge": 3548500,
-        "cidade": "Santos",
-        "uf": "SP",
-        "latitude": -23.9535,
-        "longitude": -46.335,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Santos — Prefeitura de Santos - SP divulga retificações de concursos públicos",
-        "orgao": "Prefeitura de Santos",
-        "titulo": "Prefeitura de Santos - SP divulga retificações de concursos públicos",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santos-sp-divulga-retificacoes-de-concursos-publicos",
-        "vagas": 226,
-        "salarioMaximo": 12163.43,
-        "inscricaoTexto": "20/08/2026",
-        "inscricaoFim": "2026-08-20"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3549102,
     "cidade": "São João da Boa Vista",
     "uf": "SP",
@@ -13572,30 +13323,9 @@
         "salarioMaximo": 13814,
         "inscricaoTexto": "08/09/2026",
         "inscricaoFim": "2026-09-08"
-      },
-      {
-        "id": "tce-sp-divulga-retificacao-do-concurso-publico-para-auditor-de-controle-externo:3550308",
-        "concursoId": "tce-sp-divulga-retificacao-do-concurso-publico-para-auditor-de-controle-externo",
-        "codigoIbge": 3550308,
-        "cidade": "São Paulo",
-        "uf": "SP",
-        "latitude": -23.5329,
-        "longitude": -46.6395,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas estão previstas para o dia 11 de outubro de 2026, na cidade de São Paulo/SP.",
-        "orgao": "TCESP - Tribunal de Contas do Estado de São Paulo",
-        "titulo": "TCE-SP divulga retificação do concurso público para Auditor de Controle Externo",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/tce-sp-divulga-retificacao-do-concurso-publico-para-auditor-de-controle-externo",
-        "vagas": 50,
-        "salarioMaximo": 20940.2,
-        "inscricaoTexto": "20/08/2026",
-        "inscricaoFim": "2026-08-20"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3550506,
@@ -13802,27 +13532,6 @@
     "longitude": -47.2728,
     "concursos": [
       {
-        "id": "funcamp-sp-abre-vaga-para-auxiliar-de-manutencao-no-hospital-estadual-sumare:3552403",
-        "concursoId": "funcamp-sp-abre-vaga-para-auxiliar-de-manutencao-no-hospital-estadual-sumare",
-        "codigoIbge": 3552403,
-        "cidade": "Sumaré",
-        "uf": "SP",
-        "latitude": -22.8204,
-        "longitude": -47.2728,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FUNCAMP - Fundação de Desenvolvimento da Unicamp — FUNCAMP - SP abre vaga para Auxiliar de Manutenção no Hospital Estadual Sumaré",
-        "orgao": "FUNCAMP - Fundação de Desenvolvimento da Unicamp",
-        "titulo": "FUNCAMP - SP abre vaga para Auxiliar de Manutenção no Hospital Estadual Sumaré",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/funcamp-sp-abre-vaga-para-auxiliar-de-manutencao-no-hospital-estadual-sumare",
-        "vagas": 1,
-        "salarioMaximo": 2078.68,
-        "inscricaoTexto": "04/09/2026",
-        "inscricaoFim": "2026-09-04"
-      },
-      {
         "id": "funcamp-sp-abre-vaga-para-auxiliar-de-manutencao-de-eletrica-no-hospital-estadual-de-sumare:3552403",
         "concursoId": "funcamp-sp-abre-vaga-para-auxiliar-de-manutencao-de-eletrica-no-hospital-estadual-de-sumare",
         "codigoIbge": 3552403,
@@ -13928,7 +13637,7 @@
         "inscricaoFim": "2026-09-15"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 3552502,
@@ -13988,6 +13697,37 @@
         "salarioMaximo": 22537.36,
         "inscricaoTexto": "23/10/2026",
         "inscricaoFim": "2026-10-23"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3555802,
+    "cidade": "Urânia",
+    "uf": "SP",
+    "latitude": -20.2455,
+    "longitude": -50.6455,
+    "concursos": [
+      {
+        "id": "prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras:3555802",
+        "concursoId": "prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras",
+        "codigoIbge": 3555802,
+        "cidade": "Urânia",
+        "uf": "SP",
+        "latitude": -20.2455,
+        "longitude": -50.6455,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Urânia — Prefeitura de Urânia - SP abre concurso público para Coordenador e Orientador Social do CRAS",
+        "orgao": "Prefeitura de Urânia",
+        "titulo": "Prefeitura de Urânia - SP abre concurso público para Coordenador e Orientador Social do CRAS",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras",
+        "vagas": 2,
+        "salarioMaximo": 3562.8,
+        "inscricaoTexto": "01/10/2026",
+        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
