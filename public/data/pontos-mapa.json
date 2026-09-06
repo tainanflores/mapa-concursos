@@ -2751,27 +2751,6 @@
         "inscricaoFim": "2026-09-06"
       },
       {
-        "id": "hospital-metropolitano-odilon-behrens-mg-abre-processo-seletivo-para-tecnico-em-nutricao-e-dietetica:3106200",
-        "concursoId": "hospital-metropolitano-odilon-behrens-mg-abre-processo-seletivo-para-tecnico-em-nutricao-e-dietetica",
-        "codigoIbge": 3106200,
-        "cidade": "Belo Horizonte",
-        "uf": "MG",
-        "latitude": -19.9102,
-        "longitude": -43.9266,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "O Hospital Metropolitano Odilon Behrens (HOB), em Belo Horizonte/MG, divulgou o edital do Processo Seletivo Simplificado destinado à contratação de pessoal por tempo determinado e à formação de cadastro de reserva para Técnico em Nutrição e Dietética.",
-        "orgao": "HOB - Hospital Metropolitano Odilon Behrens",
-        "titulo": "Hospital Metropolitano Odilon Behrens - MG abre processo seletivo para Técnico em Nutrição e Dietética",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-metropolitano-odilon-behrens-mg-abre-processo-seletivo-para-tecnico-em-nutricao-e-dietetica",
-        "vagas": null,
-        "salarioMaximo": 2608.39,
-        "inscricaoTexto": "05/09/2026",
-        "inscricaoFim": "2026-09-05"
-      },
-      {
         "id": "sudecap-mg-abre-processo-seletivo-com-vagas-para-engenheiros-e-biologos:3106200",
         "concursoId": "sudecap-mg-abre-processo-seletivo-com-vagas-para-engenheiros-e-biologos",
         "codigoIbge": 3106200,
@@ -2793,7 +2772,7 @@
         "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 7
+    "totalConcursos": 6
   },
   {
     "codigoIbge": 3106408,
@@ -8483,37 +8462,6 @@
         "salarioMaximo": 19535.28,
         "inscricaoTexto": "15/09/2026",
         "inscricaoFim": "2026-09-15"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4304408,
-    "cidade": "Canela",
-    "uf": "RS",
-    "latitude": -29.356,
-    "longitude": -50.8119,
-    "concursos": [
-      {
-        "id": "prefeitura-de-canela-rs-abre-concurso-com-remuneracao-de-ate-5130:4304408",
-        "concursoId": "prefeitura-de-canela-rs-abre-concurso-com-remuneracao-de-ate-5130",
-        "codigoIbge": 4304408,
-        "cidade": "Canela",
-        "uf": "RS",
-        "latitude": -29.356,
-        "longitude": -50.8119,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Canela — Prefeitura de Canela - RS abre concurso com remuneração de até R$ 5.130,63",
-        "orgao": "Prefeitura de Canela",
-        "titulo": "Prefeitura de Canela - RS abre concurso com remuneração de até R$ 5.130,63",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-canela-rs-abre-concurso-com-remuneracao-de-ate-5130",
-        "vagas": 140,
-        "salarioMaximo": 5130.63,
-        "inscricaoTexto": "21/08/2026",
-        "inscricaoFim": "2026-08-21"
       }
     ],
     "totalConcursos": 1
