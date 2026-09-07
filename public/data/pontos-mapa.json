@@ -435,37 +435,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2910800,
-    "cidade": "Feira de Santana",
-    "uf": "BA",
-    "latitude": -12.2664,
-    "longitude": -38.9663,
-    "concursos": [
-      {
-        "id": "secretaria-municipal-de-educacao-de-feira-de-santana-ba-abre-400-vagas-para-jovens-aprendizes:2910800",
-        "concursoId": "secretaria-municipal-de-educacao-de-feira-de-santana-ba-abre-400-vagas-para-jovens-aprendizes",
-        "codigoIbge": 2910800,
-        "cidade": "Feira de Santana",
-        "uf": "BA",
-        "latitude": -12.2664,
-        "longitude": -38.9663,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SEDUC - Secretaria Municipal de Educação de Feira de Santana — Secretaria Municipal de Educação de Feira de Santana - BA abre 400 vagas para jovens aprendizes",
-        "orgao": "SEDUC - Secretaria Municipal de Educação de Feira de Santana",
-        "titulo": "Secretaria Municipal de Educação de Feira de Santana - BA abre 400 vagas para jovens aprendizes",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-municipal-de-educacao-de-feira-de-santana-ba-abre-400-vagas-para-jovens-aprendizes",
-        "vagas": 400,
-        "salarioMaximo": null,
-        "inscricaoTexto": "06/09/2026",
-        "inscricaoFim": "2026-09-06"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2919405,
     "cidade": "Licínio de Almeida",
     "uf": "BA",
@@ -627,37 +596,6 @@
         "salarioMaximo": 4150,
         "inscricaoTexto": "08/09/2026",
         "inscricaoFim": "2026-09-08"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2929909,
-    "cidade": "Seabra",
-    "uf": "BA",
-    "latitude": -12.4169,
-    "longitude": -41.7722,
-    "concursos": [
-      {
-        "id": "camara-de-seabra-ba-prorroga-inscricoes-de-concurso-publico:2929909",
-        "concursoId": "camara-de-seabra-ba-prorroga-inscricoes-de-concurso-publico",
-        "codigoIbge": 2929909,
-        "cidade": "Seabra",
-        "uf": "BA",
-        "latitude": -12.4169,
-        "longitude": -41.7722,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Seabra — Câmara de Seabra - BA prorroga inscrições de concurso público",
-        "orgao": "Câmara de Seabra",
-        "titulo": "Câmara de Seabra - BA prorroga inscrições de concurso público",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-seabra-ba-prorroga-inscricoes-de-concurso-publico",
-        "vagas": 37,
-        "salarioMaximo": 5000,
-        "inscricaoTexto": "Prorrogado até06/09/2026",
-        "inscricaoFim": "2026-09-06"
       }
     ],
     "totalConcursos": 1
@@ -989,37 +927,6 @@
         "salarioMaximo": 5620.27,
         "inscricaoTexto": "20/09/2026",
         "inscricaoFim": "2026-09-20"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2305902,
-    "cidade": "Ipueiras",
-    "uf": "CE",
-    "latitude": -4.53802,
-    "longitude": -40.7118,
-    "concursos": [
-      {
-        "id": "camara-de-ipueiras-ce-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio:2305902",
-        "concursoId": "camara-de-ipueiras-ce-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio",
-        "codigoIbge": 2305902,
-        "cidade": "Ipueiras",
-        "uf": "CE",
-        "latitude": -4.53802,
-        "longitude": -40.7118,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Ipueiras — Câmara de Ipueiras - CE abre concurso público para cargos de nível fundamental e médio",
-        "orgao": "Câmara de Ipueiras",
-        "titulo": "Câmara de Ipueiras - CE abre concurso público para cargos de nível fundamental e médio",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-ipueiras-ce-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio",
-        "vagas": 8,
-        "salarioMaximo": 1653.42,
-        "inscricaoTexto": "06/09/2026",
-        "inscricaoFim": "2026-09-06"
       }
     ],
     "totalConcursos": 1
@@ -2730,27 +2637,6 @@
         "inscricaoFim": "2026-10-08"
       },
       {
-        "id": "hospital-metropolitano-odilon-behrens-mg-prorroga-inscricoes-do-processo-seletivo-para-analista-de-politicas-publicas:3106200",
-        "concursoId": "hospital-metropolitano-odilon-behrens-mg-prorroga-inscricoes-do-processo-seletivo-para-analista-de-politicas-publicas",
-        "codigoIbge": 3106200,
-        "cidade": "Belo Horizonte",
-        "uf": "MG",
-        "latitude": -19.9102,
-        "longitude": -43.9266,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "O Hospital Metropolitano Odilon Behrens (HOB), em Belo Horizonte/MG, abriu um Processo Seletivo Simplificado com o objetivo de contratar por tempo determinado e formar cadastro de reserva para o cargo de Analista de Políticas Públicas.",
-        "orgao": "HOB - Hospital Metropolitano Odilon Behrens",
-        "titulo": "Hospital Metropolitano Odilon Behrens - MG prorroga inscrições do processo seletivo para Analista de Políticas Públicas",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-metropolitano-odilon-behrens-mg-prorroga-inscricoes-do-processo-seletivo-para-analista-de-politicas-publicas",
-        "vagas": null,
-        "salarioMaximo": 6091.61,
-        "inscricaoTexto": "Prorrogado até06/09/2026",
-        "inscricaoFim": "2026-09-06"
-      },
-      {
         "id": "sudecap-mg-abre-processo-seletivo-com-vagas-para-engenheiros-e-biologos:3106200",
         "concursoId": "sudecap-mg-abre-processo-seletivo-com-vagas-para-engenheiros-e-biologos",
         "codigoIbge": 3106200,
@@ -2772,7 +2658,7 @@
         "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 3106408,
@@ -5334,7 +5220,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-senador-modestino-goncalves-mg-abre-vagas-para-cargos-de-nivel-medio",
         "vagas": 3,
         "salarioMaximo": 3242,
-        "inscricaoTexto": "07/09 a07/10/2026",
+        "inscricaoTexto": "07/10/2026",
         "inscricaoFim": "2026-10-07"
       }
     ],
@@ -6050,58 +5936,6 @@
         "salarioMaximo": null,
         "inscricaoTexto": "17/09/2026",
         "inscricaoFim": "2026-09-17"
-      },
-      {
-        "id": "companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos:1501402",
-        "concursoId": "companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos",
-        "codigoIbge": 1501402,
-        "cidade": "Belém",
-        "uf": "PA",
-        "latitude": -1.4554,
-        "longitude": -48.4898,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas objetivas e discursivas ocorrerão nas cidades de Belém e Santarém, em 6 ou 13 de setembro de 2026, a depender do cargo, conforme especificado em cada edital.",
-        "orgao": "CDP - Companhia Docas do Pará",
-        "titulo": "Companhia Docas do Pará reabre inscrições de concursos públicos",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos",
-        "vagas": 33,
-        "salarioMaximo": 6985.76,
-        "inscricaoTexto": "Reaberto até24/08/2026",
-        "inscricaoFim": "2026-08-24"
-      }
-    ],
-    "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 1506807,
-    "cidade": "Santarém",
-    "uf": "PA",
-    "latitude": -2.43849,
-    "longitude": -54.6996,
-    "concursos": [
-      {
-        "id": "companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos:1506807",
-        "concursoId": "companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos",
-        "codigoIbge": 1506807,
-        "cidade": "Santarém",
-        "uf": "PA",
-        "latitude": -2.43849,
-        "longitude": -54.6996,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas objetivas e discursivas ocorrerão nas cidades de Belém e Santarém, em 6 ou 13 de setembro de 2026, a depender do cargo, conforme especificado em cada edital.",
-        "orgao": "CDP - Companhia Docas do Pará",
-        "titulo": "Companhia Docas do Pará reabre inscrições de concursos públicos",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/companhia-docas-do-para-reabre-inscricoes-de-concursos-publicos",
-        "vagas": 33,
-        "salarioMaximo": 6985.76,
-        "inscricaoTexto": "Reaberto até24/08/2026",
-        "inscricaoFim": "2026-08-24"
       }
     ],
     "totalConcursos": 1
@@ -10225,30 +10059,9 @@
         "salarioMaximo": 16990.33,
         "inscricaoTexto": "24/09/2026",
         "inscricaoFim": "2026-09-24"
-      },
-      {
-        "id": "fahece-sc-abre-selecao-para-condutor-socorrista-em-lages:4209300",
-        "concursoId": "fahece-sc-abre-selecao-para-condutor-socorrista-em-lages",
-        "codigoIbge": 4209300,
-        "cidade": "Lages",
-        "uf": "SC",
-        "latitude": -27.815,
-        "longitude": -50.3259,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre seleção para Condutor Socorrista em Lages",
-        "orgao": "FAHECE - Fundação de Apoio ao Hemosc e Cepon",
-        "titulo": "FAHECE - SC abre seleção para Condutor Socorrista em Lages",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-selecao-para-condutor-socorrista-em-lages",
-        "vagas": 1,
-        "salarioMaximo": 3731.71,
-        "inscricaoTexto": "06/09/2026",
-        "inscricaoFim": "2026-09-06"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4209904,
@@ -10886,7 +10699,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joaquim-sc-abre-concurso-publico-com-salarios-de-ate-10330",
         "vagas": 7,
         "salarioMaximo": 10330.35,
-        "inscricaoTexto": "07/09 a05/10/2026",
+        "inscricaoTexto": "05/10/2026",
         "inscricaoFim": "2026-10-05"
       }
     ],
