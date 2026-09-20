@@ -1580,7 +1580,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-heitorai-go-abre-concurso-publico-com-vagas-para-diversas-areas",
         "vagas": 82,
         "salarioMaximo": 9383.4,
-        "inscricaoTexto": "20/09 a20/10/2026",
+        "inscricaoTexto": "20/10/2026",
         "inscricaoFim": "2026-10-20"
       }
     ],
@@ -1611,7 +1611,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-hidrolina-go-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
         "vagas": 80,
         "salarioMaximo": 3847.97,
-        "inscricaoTexto": "20/09 a20/10/2026",
+        "inscricaoTexto": "20/10/2026",
         "inscricaoFim": "2026-10-20"
       }
     ],
@@ -5060,37 +5060,6 @@
         "salarioMaximo": 9237.12,
         "inscricaoTexto": "21 a22/09/2026",
         "inscricaoFim": "2026-09-22"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5002001,
-    "cidade": "Batayporã",
-    "uf": "MS",
-    "latitude": -22.2944,
-    "longitude": -53.2705,
-    "concursos": [
-      {
-        "id": "prefeitura-de-bataypora-ms-abre-processo-seletivo-para-a-secretaria-de-saude:5002001",
-        "concursoId": "prefeitura-de-bataypora-ms-abre-processo-seletivo-para-a-secretaria-de-saude",
-        "codigoIbge": 5002001,
-        "cidade": "Batayporã",
-        "uf": "MS",
-        "latitude": -22.2944,
-        "longitude": -53.2705,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Batayporã — Prefeitura de Batayporã - MS abre processo seletivo para a Secretaria de Saúde",
-        "orgao": "Prefeitura de Batayporã",
-        "titulo": "Prefeitura de Batayporã - MS abre processo seletivo para a Secretaria de Saúde",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bataypora-ms-abre-processo-seletivo-para-a-secretaria-de-saude",
-        "vagas": 4,
-        "salarioMaximo": 6305.47,
-        "inscricaoTexto": "19/09/2026",
-        "inscricaoFim": "2026-09-19"
       }
     ],
     "totalConcursos": 1
@@ -9222,27 +9191,6 @@
         "inscricaoFim": "2026-09-20"
       },
       {
-        "id": "fahece-sc-abre-processo-seletivo-para-tecnico-em-informatica-no-cepon-de-florianopolis:4205407",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-tecnico-em-informatica-no-cepon-de-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre processo seletivo para Técnico em Informática no CEPON de Florianópolis",
-        "orgao": "FAHECE - Fundação de Apoio ao Hemosc e Cepon",
-        "titulo": "FAHECE - SC abre processo seletivo para Técnico em Informática no CEPON de Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-tecnico-em-informatica-no-cepon-de-florianopolis",
-        "vagas": 1,
-        "salarioMaximo": 3066.92,
-        "inscricaoTexto": "19/09/2026",
-        "inscricaoFim": "2026-09-19"
-      },
-      {
         "id": "fahece-sc-abre-vaga-para-psicologo-no-hemosc-de-florianopolis:4205407",
         "concursoId": "fahece-sc-abre-vaga-para-psicologo-no-hemosc-de-florianopolis",
         "codigoIbge": 4205407,
@@ -9285,7 +9233,7 @@
         "inscricaoFim": "2026-09-25"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 4205506,
