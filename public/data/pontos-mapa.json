@@ -120,30 +120,9 @@
         "salarioMaximo": 11563.77,
         "inscricaoTexto": "Reaberto até16/10/2026",
         "inscricaoFim": "2026-10-16"
-      },
-      {
-        "id": "seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil:2700300",
-        "concursoId": "seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil",
-        "codigoIbge": 2700300,
-        "cidade": "Arapiraca",
-        "uf": "AL",
-        "latitude": -9.75487,
-        "longitude": -36.6615,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 6 de dezembro de 2026, no turno da tarde, em Arapiraca/AL e Maceió/AL.",
-        "orgao": "Polícia Civil",
-        "titulo": "SEPLAG - AL publica edital de concurso público para Agente e Escrivão na Polícia Civil",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil",
-        "vagas": 150,
-        "salarioMaximo": 5318.63,
-        "inscricaoTexto": "11/09/2026",
-        "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2702405,
@@ -245,30 +224,9 @@
         "salarioMaximo": 11563.77,
         "inscricaoTexto": "Reaberto até16/10/2026",
         "inscricaoFim": "2026-10-16"
-      },
-      {
-        "id": "seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil:2704302",
-        "concursoId": "seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil",
-        "codigoIbge": 2704302,
-        "cidade": "Maceió",
-        "uf": "AL",
-        "latitude": -9.66599,
-        "longitude": -35.735,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 6 de dezembro de 2026, no turno da tarde, em Arapiraca/AL e Maceió/AL.",
-        "orgao": "Polícia Civil",
-        "titulo": "SEPLAG - AL publica edital de concurso público para Agente e Escrivão na Polícia Civil",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/seplag-al-publica-edital-de-concurso-publico-para-agente-e-escrivao-na-policia-civil",
-        "vagas": 150,
-        "salarioMaximo": 5318.63,
-        "inscricaoTexto": "11/09/2026",
-        "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2707305,
@@ -634,6 +592,99 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2910800,
+    "cidade": "Feira de Santana",
+    "uf": "BA",
+    "latitude": -12.2664,
+    "longitude": -38.9663,
+    "concursos": [
+      {
+        "id": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948:2910800",
+        "concursoId": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "codigoIbge": 2910800,
+        "cidade": "Feira de Santana",
+        "uf": "BA",
+        "latitude": -12.2664,
+        "longitude": -38.9663,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Técnico em Química (1 vaga para Feira de Santana)",
+        "orgao": "SENAR-AR/BA - Serviço Nacional de Aprendizagem Rural",
+        "titulo": "SENAR-AR/BA abre processo seletivo com salários de até R$ 6.948,00",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "vagas": 2,
+        "salarioMaximo": 6948,
+        "inscricaoTexto": "18/10/2026",
+        "inscricaoFim": "2026-10-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 2913705,
+    "cidade": "Inhambupe",
+    "uf": "BA",
+    "latitude": -11.781,
+    "longitude": -38.355,
+    "concursos": [
+      {
+        "id": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948:2913705",
+        "concursoId": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "codigoIbge": 2913705,
+        "cidade": "Inhambupe",
+        "uf": "BA",
+        "latitude": -11.781,
+        "longitude": -38.355,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Pedagogo (1 vaga para Inhambupe)",
+        "orgao": "SENAR-AR/BA - Serviço Nacional de Aprendizagem Rural",
+        "titulo": "SENAR-AR/BA abre processo seletivo com salários de até R$ 6.948,00",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "vagas": 2,
+        "salarioMaximo": 6948,
+        "inscricaoTexto": "18/10/2026",
+        "inscricaoFim": "2026-10-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 2915601,
+    "cidade": "Itamaraju",
+    "uf": "BA",
+    "latitude": -17.0378,
+    "longitude": -39.5386,
+    "concursos": [
+      {
+        "id": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948:2915601",
+        "concursoId": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "codigoIbge": 2915601,
+        "cidade": "Itamaraju",
+        "uf": "BA",
+        "latitude": -17.0378,
+        "longitude": -39.5386,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Pedagogo (cadastro de reserva para Itamaraju)",
+        "orgao": "SENAR-AR/BA - Serviço Nacional de Aprendizagem Rural",
+        "titulo": "SENAR-AR/BA abre processo seletivo com salários de até R$ 6.948,00",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "vagas": 2,
+        "salarioMaximo": 6948,
+        "inscricaoTexto": "18/10/2026",
+        "inscricaoFim": "2026-10-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2925303,
     "cidade": "Porto Seguro",
     "uf": "BA",
@@ -754,9 +805,30 @@
         "salarioMaximo": 3546.42,
         "inscricaoTexto": "30/10/2026",
         "inscricaoFim": "2026-10-30"
+      },
+      {
+        "id": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948:2927408",
+        "concursoId": "senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "codigoIbge": 2927408,
+        "cidade": "Salvador",
+        "uf": "BA",
+        "latitude": -12.9718,
+        "longitude": -38.5011,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Analista de RH (cadastro de reserva para Salvador)",
+        "orgao": "SENAR-AR/BA - Serviço Nacional de Aprendizagem Rural",
+        "titulo": "SENAR-AR/BA abre processo seletivo com salários de até R$ 6.948,00",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/senar-ar-ba-abre-processo-seletivo-com-salarios-de-ate-6948",
+        "vagas": 2,
+        "salarioMaximo": 6948,
+        "inscricaoTexto": "18/10/2026",
+        "inscricaoFim": "2026-10-18"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 2300200,
@@ -1116,37 +1188,6 @@
         "salarioMaximo": null,
         "inscricaoTexto": "05/10/2026",
         "inscricaoFim": "2026-10-05"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2312908,
-    "cidade": "Sobral",
-    "uf": "CE",
-    "latitude": -3.68913,
-    "longitude": -40.3482,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sobral-ce-reabre-as-inscricoes-do-concurso-publico-para-guarda-civil-municipal:2312908",
-        "concursoId": "prefeitura-de-sobral-ce-reabre-as-inscricoes-do-concurso-publico-para-guarda-civil-municipal",
-        "codigoIbge": 2312908,
-        "cidade": "Sobral",
-        "uf": "CE",
-        "latitude": -3.68913,
-        "longitude": -40.3482,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Sobral — Prefeitura de Sobral - CE reabre as inscrições do concurso público para Guarda Civil Municipal",
-        "orgao": "Prefeitura de Sobral",
-        "titulo": "Prefeitura de Sobral - CE reabre as inscrições do concurso público para Guarda Civil Municipal",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sobral-ce-reabre-as-inscricoes-do-concurso-publico-para-guarda-civil-municipal",
-        "vagas": 370,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "Reaberto até11/09/2026",
-        "inscricaoFim": "2026-09-11"
       }
     ],
     "totalConcursos": 1
@@ -5569,30 +5610,9 @@
         "salarioMaximo": 6631.81,
         "inscricaoTexto": "04/10/2026",
         "inscricaoFim": "2026-10-04"
-      },
-      {
-        "id": "dmae-de-uberlandia-mg-retifica-edital-de-concurso-publico:3170206",
-        "concursoId": "dmae-de-uberlandia-mg-retifica-edital-de-concurso-publico",
-        "codigoIbge": 3170206,
-        "cidade": "Uberlândia",
-        "uf": "MG",
-        "latitude": -18.9141,
-        "longitude": -48.2749,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "DMAE - Departamento Municipal de Água e Esgoto de Uberlândia — DMAE de Uberlândia - MG retifica edital de concurso público",
-        "orgao": "DMAE - Departamento Municipal de Água e Esgoto de Uberlândia",
-        "titulo": "DMAE de Uberlândia - MG retifica edital de concurso público",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/dmae-de-uberlandia-mg-retifica-edital-de-concurso-publico",
-        "vagas": 59,
-        "salarioMaximo": 9879.08,
-        "inscricaoTexto": "11/09/2026",
-        "inscricaoFim": "2026-09-11"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3170404,
@@ -11337,37 +11357,6 @@
         "salarioMaximo": 24722.94,
         "inscricaoTexto": "09/10/2026",
         "inscricaoFim": "2026-10-09"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4211751,
-    "cidade": "Otacílio Costa",
-    "uf": "SC",
-    "latitude": -27.4789,
-    "longitude": -50.1231,
-    "concursos": [
-      {
-        "id": "prefeitura-de-otacilio-costa-sc-abre-selecao-para-a-area-da-educacao:4211751",
-        "concursoId": "prefeitura-de-otacilio-costa-sc-abre-selecao-para-a-area-da-educacao",
-        "codigoIbge": 4211751,
-        "cidade": "Otacílio Costa",
-        "uf": "SC",
-        "latitude": -27.4789,
-        "longitude": -50.1231,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Otacílio Costa — Prefeitura de Otacílio Costa - SC abre seleção para a área da Educação",
-        "orgao": "Prefeitura de Otacílio Costa",
-        "titulo": "Prefeitura de Otacílio Costa - SC abre seleção para a área da Educação",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-otacilio-costa-sc-abre-selecao-para-a-area-da-educacao",
-        "vagas": null,
-        "salarioMaximo": 5130.94,
-        "inscricaoTexto": "26/09/2026",
-        "inscricaoFim": "2026-09-26"
       }
     ],
     "totalConcursos": 1
