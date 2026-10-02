@@ -47,9 +47,30 @@
         "salarioMaximo": 19404,
         "inscricaoTexto": "15/10/2026",
         "inscricaoFim": "2026-10-15"
+      },
+      {
+        "id": "tce-ac-reabre-concurso-para-auditor-conselheiro-substituto:1200401",
+        "concursoId": "tce-ac-reabre-concurso-para-auditor-conselheiro-substituto",
+        "codigoIbge": 1200401,
+        "cidade": "Rio Branco",
+        "uf": "AC",
+        "latitude": -9.97499,
+        "longitude": -67.8243,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas objetivas e discursivas serão aplicadas no dia 17 de janeiro de 2027, em Rio Branco/AC.",
+        "orgao": "TCE - Tribunal de Contas do Estado do Acre",
+        "titulo": "TCE - AC reabre concurso para Auditor - Conselheiro Substituto",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/tce-ac-reabre-concurso-para-auditor-conselheiro-substituto",
+        "vagas": 1,
+        "salarioMaximo": 39753.22,
+        "inscricaoTexto": "Reabertura de05 a26/10/2026",
+        "inscricaoFim": "2026-10-26"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2700300,
@@ -506,6 +527,27 @@
         "inscricaoFim": "2026-10-29"
       },
       {
+        "id": "sead-ap-abre-concursos-para-assistentes-administrativos-e-analistas:1600105",
+        "concursoId": "sead-ap-abre-concursos-para-assistentes-administrativos-e-analistas",
+        "codigoIbge": 1600105,
+        "cidade": "Amapá",
+        "uf": "AP",
+        "latitude": 2.05267,
+        "longitude": -50.7957,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SEAD - Secretaria de Estado da Administração do Amapá — SEAD - AP abre concursos para assistentes administrativos e analistas",
+        "orgao": "SEAD - Secretaria de Estado da Administração do Amapá",
+        "titulo": "SEAD - AP abre concursos para assistentes administrativos e analistas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sead-ap-abre-concursos-para-assistentes-administrativos-e-analistas",
+        "vagas": 358,
+        "salarioMaximo": 8331.35,
+        "inscricaoTexto": "08 a29/10/2026",
+        "inscricaoFim": "2026-10-29"
+      },
+      {
         "id": "sead-ap-publica-edital-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil:1600105",
         "concursoId": "sead-ap-publica-edital-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil",
         "codigoIbge": 1600105,
@@ -527,7 +569,7 @@
         "inscricaoFim": "2026-10-19"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 1600600,
@@ -1649,6 +1691,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3205200,
+    "cidade": "Vila Velha",
+    "uf": "ES",
+    "latitude": -20.3417,
+    "longitude": -40.2875,
+    "concursos": [
+      {
+        "id": "hospital-evangelico-de-vila-velha-es-abre-selecao-para-residencia-e-especializacao-medica:3205200",
+        "concursoId": "hospital-evangelico-de-vila-velha-es-abre-selecao-para-residencia-e-especializacao-medica",
+        "codigoIbge": 3205200,
+        "cidade": "Vila Velha",
+        "uf": "ES",
+        "latitude": -20.3417,
+        "longitude": -40.2875,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "HEVV - Hospital Evangélico de Vila Velha — Hospital Evangélico de Vila Velha - ES abre seleção para residência e especialização médica",
+        "orgao": "HEVV - Hospital Evangélico de Vila Velha",
+        "titulo": "Hospital Evangélico de Vila Velha - ES abre seleção para residência e especialização médica",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-evangelico-de-vila-velha-es-abre-selecao-para-residencia-e-especializacao-medica",
+        "vagas": 40,
+        "salarioMaximo": 4106.09,
+        "inscricaoTexto": "30/10/2026",
+        "inscricaoFim": "2026-10-30"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3205309,
     "cidade": "Vitória",
     "uf": "ES",
@@ -1780,9 +1853,30 @@
         "salarioMaximo": 8882.28,
         "inscricaoTexto": "09/10/2026",
         "inscricaoFim": "2026-10-09"
+      },
+      {
+        "id": "samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica:3205309",
+        "concursoId": "samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica",
+        "codigoIbge": 3205309,
+        "cidade": "Vitória",
+        "uf": "ES",
+        "latitude": -20.3155,
+        "longitude": -40.3128,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "No Espírito Santo, o Serviço de Atendimento Móvel de Urgência (SAMU 192/ES), organizado pela Irmandade da Santa Casa de Misericórdia de Vitória/ES, divulgou um edital de processo seletivo, com o objetivo de contratar profissional para a função de Telefonista Auxiliar de Regulação Médica (TARM).",
+        "orgao": "SAMU 192/ES - Serviço de Atendimento Móvel de Urgência",
+        "titulo": "SAMU 192 - ES abre processo seletivo para o cargo de telefonista auxiliar de regulação médica",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica",
+        "vagas": null,
+        "salarioMaximo": 1933.15,
+        "inscricaoTexto": "11/10/2026",
+        "inscricaoFim": "2026-10-11"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 7
   },
   {
     "codigoIbge": 5200209,
@@ -2768,6 +2862,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3105400,
+    "cidade": "Barão de Cocais",
+    "uf": "MG",
+    "latitude": -19.9389,
+    "longitude": -43.4755,
+    "concursos": [
+      {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3105400",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3105400,
+        "cidade": "Barão de Cocais",
+        "uf": "MG",
+        "latitude": -19.9389,
+        "longitude": -43.4755,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de Barão de Cocais",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3106200,
     "cidade": "Belo Horizonte",
     "uf": "MG",
@@ -2949,7 +3074,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-belo-vale-mg-abre-concurso-publico-com-diversas-vagas-e-salarios-de-ate-8000",
         "vagas": 179,
         "salarioMaximo": 8000,
-        "inscricaoTexto": "02/10 a03/11/2026",
+        "inscricaoTexto": "03/11/2026",
         "inscricaoFim": "2026-11-03"
       }
     ],
@@ -3232,27 +3357,6 @@
     "longitude": -42.0313,
     "concursos": [
       {
-        "id": "cis-verde-mg-abre-processo-seletivo-para-assistente-administrativo:3113305",
-        "concursoId": "cis-verde-mg-abre-processo-seletivo-para-assistente-administrativo",
-        "codigoIbge": 3113305,
-        "cidade": "Carangola",
-        "uf": "MG",
-        "latitude": -20.7343,
-        "longitude": -42.0313,
-        "tipoLocalidade": "sede",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "As inscrições deverão ser realizadas na sede do Consórcio em Carangola, Rua Anthônio Thomé, nº 100, Bairro Triângulo, das 8h do dia 25 de setembro de 2026 às 16h do dia 1º de outubro de 2026.",
-        "orgao": "CIS-VERDE - Consórcio Intermunicipal Multifinalitário",
-        "titulo": "CIS-VERDE - MG abre processo seletivo para Assistente Administrativo",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cis-verde-mg-abre-processo-seletivo-para-assistente-administrativo",
-        "vagas": 1,
-        "salarioMaximo": 1767.52,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
-      {
         "id": "semasa-de-carangola-mg-abre-processo-seletivo-para-o-cargo-de-encanador:3113305",
         "concursoId": "semasa-de-carangola-mg-abre-processo-seletivo-para-o-cargo-de-encanador",
         "codigoIbge": 3113305,
@@ -3274,7 +3378,7 @@
         "inscricaoFim": "2026-10-02"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3113909,
@@ -3450,6 +3554,27 @@
     "longitude": -43.4221,
     "concursos": [
       {
+        "id": "cimme-mg-abre-processo-seletivo-com-salarios-de-ate-3749:3117504",
+        "concursoId": "cimme-mg-abre-processo-seletivo-com-salarios-de-ate-3749",
+        "codigoIbge": 3117504,
+        "cidade": "Conceição do Mato Dentro",
+        "uf": "MG",
+        "latitude": -19.0344,
+        "longitude": -43.4221,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "As inscrições estarão abertas de 12 a 19 de outubro de 2026, 24 horas por dia, pelo site www.institutoideap.org.br ou presencialmente no CIMME, na Rua Daniel de Carvalho, 379, Conceição do Mato Dentro/MG, das 8h às 12h.",
+        "orgao": "CIMME - Consórcio Intermunicipal Multifinalitário do Médio Espinhaço",
+        "titulo": "CIMME - MG abre processo seletivo com salários de até R$ 3.749,00",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cimme-mg-abre-processo-seletivo-com-salarios-de-ate-3749",
+        "vagas": 11,
+        "salarioMaximo": 3749,
+        "inscricaoTexto": "12 a19/10/2026",
+        "inscricaoFim": "2026-10-19"
+      },
+      {
         "id": "prefeitura-de-conceicao-do-mato-dentro-mg-retifica-edital-de-concurso-publico:3117504",
         "concursoId": "prefeitura-de-conceicao-do-mato-dentro-mg-retifica-edital-de-concurso-publico",
         "codigoIbge": 3117504,
@@ -3471,7 +3596,7 @@
         "inscricaoFim": "2026-11-06"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3118601,
@@ -3764,6 +3889,68 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3125903,
+    "cidade": "Ferros",
+    "uf": "MG",
+    "latitude": -19.2343,
+    "longitude": -43.0192,
+    "concursos": [
+      {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3125903",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3125903,
+        "cidade": "Ferros",
+        "uf": "MG",
+        "latitude": -19.2343,
+        "longitude": -43.0192,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de Ferros",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3128006,
+    "cidade": "Guanhães",
+    "uf": "MG",
+    "latitude": -18.7713,
+    "longitude": -42.9312,
+    "concursos": [
+      {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3128006",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3128006,
+        "cidade": "Guanhães",
+        "uf": "MG",
+        "latitude": -18.7713,
+        "longitude": -42.9312,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de Guanhães",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3128709,
     "cidade": "Guaxupé",
     "uf": "MG",
@@ -3947,6 +4134,27 @@
     "longitude": -43.2312,
     "concursos": [
       {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3131703",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3131703,
+        "cidade": "Itabira",
+        "uf": "MG",
+        "latitude": -19.6239,
+        "longitude": -43.2312,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Centralizada de Itabira",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      },
+      {
         "id": "itabiraprev-mg-abre-concurso-publico-com-salarios-de-ate-6280:3131703",
         "concursoId": "itabiraprev-mg-abre-concurso-publico-com-salarios-de-ate-6280",
         "codigoIbge": 3131703,
@@ -3989,7 +4197,7 @@
         "inscricaoFim": "2026-10-07"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3132107,
@@ -4175,6 +4383,27 @@
         "inscricaoFim": "2026-10-16"
       },
       {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3136207",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3136207,
+        "cidade": "João Monlevade",
+        "uf": "MG",
+        "latitude": -19.8126,
+        "longitude": -43.1735,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de João Monlevade",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      },
+      {
         "id": "prefeitura-de-joao-monlevade-mg-abre-selecao-para-o-cargo-de-motorista:3136207",
         "concursoId": "prefeitura-de-joao-monlevade-mg-abre-selecao-para-o-cargo-de-motorista",
         "codigoIbge": 3136207,
@@ -4196,7 +4425,7 @@
         "inscricaoFim": "2026-10-13"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3136702,
@@ -4318,9 +4547,30 @@
         "salarioMaximo": 5185.61,
         "inscricaoTexto": "16/10/2026",
         "inscricaoFim": "2026-10-16"
+      },
+      {
+        "id": "prefeitura-de-lagoa-santa-mg-abre-concurso-publico-com-salarios-de-ate-8860:3137601",
+        "concursoId": "prefeitura-de-lagoa-santa-mg-abre-concurso-publico-com-salarios-de-ate-8860",
+        "codigoIbge": 3137601,
+        "cidade": "Lagoa Santa",
+        "uf": "MG",
+        "latitude": -19.6397,
+        "longitude": -43.8932,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Lagoa Santa — Prefeitura de Lagoa Santa - MG abre concurso público com salários de até R$ 8.860,79",
+        "orgao": "Prefeitura de Lagoa Santa",
+        "titulo": "Prefeitura de Lagoa Santa - MG abre concurso público com salários de até R$ 8.860,79",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-lagoa-santa-mg-abre-concurso-publico-com-salarios-de-ate-8860",
+        "vagas": 79,
+        "salarioMaximo": 8860.79,
+        "inscricaoTexto": "16/12/2026 a18/01/2027",
+        "inscricaoFim": "2027-01-18"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3137700,
@@ -4726,6 +4976,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3147204,
+    "cidade": "Paraguaçu",
+    "uf": "MG",
+    "latitude": -21.5465,
+    "longitude": -45.7374,
+    "concursos": [
+      {
+        "id": "prefeitura-de-paraguacu-mg-abre-selecao-para-agente-de-desenvolvimento-infantil-e-servente-escolar:3147204",
+        "concursoId": "prefeitura-de-paraguacu-mg-abre-selecao-para-agente-de-desenvolvimento-infantil-e-servente-escolar",
+        "codigoIbge": 3147204,
+        "cidade": "Paraguaçu",
+        "uf": "MG",
+        "latitude": -21.5465,
+        "longitude": -45.7374,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Paraguaçu — Prefeitura de Paraguaçu - MG abre seleção para Agente de Desenvolvimento Infantil e Servente Escolar",
+        "orgao": "Prefeitura de Paraguaçu",
+        "titulo": "Prefeitura de Paraguaçu - MG abre seleção para Agente de Desenvolvimento Infantil e Servente Escolar",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-paraguacu-mg-abre-selecao-para-agente-de-desenvolvimento-infantil-e-servente-escolar",
+        "vagas": 3,
+        "salarioMaximo": 1807.25,
+        "inscricaoTexto": "Apenas dia05/10/2026",
+        "inscricaoFim": "2026-10-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3147907,
     "cidade": "Passos",
     "uf": "MG",
@@ -5083,9 +5364,30 @@
         "salarioMaximo": null,
         "inscricaoTexto": "09/10/2026",
         "inscricaoFim": "2026-10-09"
+      },
+      {
+        "id": "empresas-dme-mg-abrem-processo-seletivo-para-aprendizes-na-area-administrativa:3151800",
+        "concursoId": "empresas-dme-mg-abrem-processo-seletivo-para-aprendizes-na-area-administrativa",
+        "codigoIbge": 3151800,
+        "cidade": "Poços de Caldas",
+        "uf": "MG",
+        "latitude": -21.78,
+        "longitude": -46.5692,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "As Empresas DME, em Poços de Caldas/MG, abriram um Processo Seletivo para a contratação de aprendizes visando preencher 4 vagas no Curso de Aprendizagem Industrial na Área Administrativa.",
+        "orgao": "DME - Empresas DME",
+        "titulo": "Empresas DME - MG abrem processo seletivo para aprendizes na área administrativa",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/empresas-dme-mg-abrem-processo-seletivo-para-aprendizes-na-area-administrativa",
+        "vagas": 4,
+        "salarioMaximo": null,
+        "inscricaoTexto": "09/10/2026",
+        "inscricaoFim": "2026-10-09"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3152105,
@@ -5264,6 +5566,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3156007,
+    "cidade": "Rio Vermelho",
+    "uf": "MG",
+    "latitude": -18.2922,
+    "longitude": -43.0018,
+    "concursos": [
+      {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3156007",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3156007,
+        "cidade": "Rio Vermelho",
+        "uf": "MG",
+        "latitude": -18.2922,
+        "longitude": -43.0018,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de Rio Vermelho",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3156502,
     "cidade": "Rubelita",
     "uf": "MG",
@@ -5414,6 +5747,37 @@
         "salarioMaximo": 15000,
         "inscricaoTexto": "02/10/2026",
         "inscricaoFim": "2026-10-02"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3161007,
+    "cidade": "São Domingos do Prata",
+    "uf": "MG",
+    "latitude": -19.8678,
+    "longitude": -42.971,
+    "concursos": [
+      {
+        "id": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967:3161007",
+        "concursoId": "cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "codigoIbge": 3161007,
+        "cidade": "São Domingos do Prata",
+        "uf": "MG",
+        "latitude": -19.8678,
+        "longitude": -42.971,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Base Descentralizada de São Domingos do Prata",
+        "orgao": "CISURG Saúde Médio Piracicaba",
+        "titulo": "CISURG Médio Piracicaba - MG abre processo seletivo com salários de até R$ 10.967,31",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisurg-medio-piracicaba-mg-abre-processo-seletivo-com-salarios-de-ate-10967",
+        "vagas": 33,
+        "salarioMaximo": 10967.31,
+        "inscricaoTexto": "06 a20/10/2026",
+        "inscricaoFim": "2026-10-20"
       }
     ],
     "totalConcursos": 1
@@ -5968,37 +6332,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 5003306,
-    "cidade": "Coxim",
-    "uf": "MS",
-    "latitude": -18.5013,
-    "longitude": -54.751,
-    "concursos": [
-      {
-        "id": "prefeitura-de-coxim-ms-abre-processo-seletivo-para-motoristas:5003306",
-        "concursoId": "prefeitura-de-coxim-ms-abre-processo-seletivo-para-motoristas",
-        "codigoIbge": 5003306,
-        "cidade": "Coxim",
-        "uf": "MS",
-        "latitude": -18.5013,
-        "longitude": -54.751,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Coxim — Prefeitura de Coxim - MS abre processo seletivo para motoristas",
-        "orgao": "Prefeitura de Coxim",
-        "titulo": "Prefeitura de Coxim - MS abre processo seletivo para motoristas",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-coxim-ms-abre-processo-seletivo-para-motoristas",
-        "vagas": 4,
-        "salarioMaximo": 2180.45,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 5003702,
     "cidade": "Dourados",
     "uf": "MS",
@@ -6049,7 +6382,7 @@
         "contextoLocalidade": "Câmara de Ponta Porã — Câmara de Ponta Porã - MS retifica edital de concurso público",
         "orgao": "Câmara de Ponta Porã",
         "titulo": "Câmara de Ponta Porã - MS retifica edital de concurso público",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-ponta-pora-ms-retifica-edital-de-concurso-publico",
         "vagas": 19,
@@ -6532,9 +6865,61 @@
         "salarioMaximo": 3918.15,
         "inscricaoTexto": "22/10/2026",
         "inscricaoFim": "2026-10-22"
+      },
+      {
+        "id": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios:1501402",
+        "concursoId": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "codigoIbge": 1501402,
+        "cidade": "Belém",
+        "uf": "PA",
+        "latitude": -1.4554,
+        "longitude": -48.4898,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 17 de janeiro de 2027, nas cidades de Belém/PA, Marabá/PA, Santarém/PA e Macapá/AP.",
+        "orgao": "TRT 8ª Região - Tribunal Regional do Trabalho da 8ª Região",
+        "titulo": "TRT 8 - PA/AP publica edital de concurso para técnicos e analistas judiciários",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "vagas": null,
+        "salarioMaximo": 16040.88,
+        "inscricaoTexto": "05/10 a05/11/2026",
+        "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 3
+  },
+  {
+    "codigoIbge": 1504208,
+    "cidade": "Marabá",
+    "uf": "PA",
+    "latitude": -5.38075,
+    "longitude": -49.1327,
+    "concursos": [
+      {
+        "id": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios:1504208",
+        "concursoId": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "codigoIbge": 1504208,
+        "cidade": "Marabá",
+        "uf": "PA",
+        "latitude": -5.38075,
+        "longitude": -49.1327,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 17 de janeiro de 2027, nas cidades de Belém/PA, Marabá/PA, Santarém/PA e Macapá/AP.",
+        "orgao": "TRT 8ª Região - Tribunal Regional do Trabalho da 8ª Região",
+        "titulo": "TRT 8 - PA/AP publica edital de concurso para técnicos e analistas judiciários",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "vagas": null,
+        "salarioMaximo": 16040.88,
+        "inscricaoTexto": "05/10 a05/11/2026",
+        "inscricaoFim": "2026-11-05"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 1505031,
@@ -6625,9 +7010,30 @@
         "salarioMaximo": null,
         "inscricaoTexto": "10/11/2026",
         "inscricaoFim": "2026-11-10"
+      },
+      {
+        "id": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios:1506807",
+        "concursoId": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "codigoIbge": 1506807,
+        "cidade": "Santarém",
+        "uf": "PA",
+        "latitude": -2.43849,
+        "longitude": -54.6996,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 17 de janeiro de 2027, nas cidades de Belém/PA, Marabá/PA, Santarém/PA e Macapá/AP.",
+        "orgao": "TRT 8ª Região - Tribunal Regional do Trabalho da 8ª Região",
+        "titulo": "TRT 8 - PA/AP publica edital de concurso para técnicos e analistas judiciários",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
+        "vagas": null,
+        "salarioMaximo": 16040.88,
+        "inscricaoTexto": "05/10 a05/11/2026",
+        "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 2501104,
@@ -7106,37 +7512,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2605707,
-    "cidade": "Floresta",
-    "uf": "PE",
-    "latitude": -8.60307,
-    "longitude": -38.5687,
-    "concursos": [
-      {
-        "id": "prefeitura-de-floresta-pe-publica-edital-de-concurso-publico-com-diversas-vagas:2605707",
-        "concursoId": "prefeitura-de-floresta-pe-publica-edital-de-concurso-publico-com-diversas-vagas",
-        "codigoIbge": 2605707,
-        "cidade": "Floresta",
-        "uf": "PE",
-        "latitude": -8.60307,
-        "longitude": -38.5687,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Floresta — Prefeitura de Floresta - PE publica edital de concurso público com diversas vagas",
-        "orgao": "Prefeitura de Floresta",
-        "titulo": "Prefeitura de Floresta - PE publica edital de concurso público com diversas vagas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-floresta-pe-publica-edital-de-concurso-publico-com-diversas-vagas",
-        "vagas": 432,
-        "salarioMaximo": 15005.27,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2609303,
     "cidade": "Mirandiba",
     "uf": "PE",
@@ -7192,7 +7567,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/universidade-de-pernambuco-abre-concurso-publico-para-o-cargo-de-advogado",
         "vagas": 2,
         "salarioMaximo": 4165.25,
-        "inscricaoTexto": "02/10 a02/11/2026",
+        "inscricaoTexto": "02/11/2026",
         "inscricaoFim": "2026-11-02"
       }
     ],
@@ -7286,7 +7661,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/universidade-de-pernambuco-abre-concurso-publico-para-o-cargo-de-advogado",
         "vagas": 2,
         "salarioMaximo": 4165.25,
-        "inscricaoTexto": "02/10 a02/11/2026",
+        "inscricaoTexto": "02/11/2026",
         "inscricaoFim": "2026-11-02"
       }
     ],
@@ -7469,6 +7844,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2209955,
+    "cidade": "São João da Varjota",
+    "uf": "PI",
+    "latitude": -6.94082,
+    "longitude": -41.8889,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-joao-da-varjota-pi-abre-concurso-publico-para-diversos-cargos:2209955",
+        "concursoId": "prefeitura-de-sao-joao-da-varjota-pi-abre-concurso-publico-para-diversos-cargos",
+        "codigoIbge": 2209955,
+        "cidade": "São João da Varjota",
+        "uf": "PI",
+        "latitude": -6.94082,
+        "longitude": -41.8889,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São João da Varjota — Prefeitura de São João da Varjota - PI abre concurso público para diversos cargos",
+        "orgao": "Prefeitura de São João da Varjota",
+        "titulo": "Prefeitura de São João da Varjota - PI abre concurso público para diversos cargos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-da-varjota-pi-abre-concurso-publico-para-diversos-cargos",
+        "vagas": 64,
+        "salarioMaximo": 7200,
+        "inscricaoTexto": "02/11/2026",
+        "inscricaoFim": "2026-11-02"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4101150,
     "cidade": "Ângulo",
     "uf": "PR",
@@ -7593,64 +7999,12 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4103453,
-    "cidade": "Cafelândia",
-    "uf": "PR",
-    "latitude": -24.6189,
-    "longitude": -53.3207,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4103453",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4103453,
-        "cidade": "Cafelândia",
-        "uf": "PR",
-        "latitude": -24.6189,
-        "longitude": -53.3207,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Enfermeiro (8 vagas + cadastro de reserva - Cafelândia, Toledo, Guaíra, Palotina, Santa Helena)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4104808,
     "cidade": "Cascavel",
     "uf": "PR",
     "latitude": -24.9573,
     "longitude": -53.459,
     "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4104808",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4104808,
-        "cidade": "Cascavel",
-        "uf": "PR",
-        "latitude": -24.9573,
-        "longitude": -53.459,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Assistente Social (2 vagas + cadastro de reserva - Marechal Cândido Rondon e Cascavel)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
       {
         "id": "crq-da-9-regiao-do-parana-abre-concurso-publico-com-salarios-de-ate-10727:4104808",
         "concursoId": "crq-da-9-regiao-do-parana-abre-concurso-publico-com-salarios-de-ate-10727",
@@ -7673,7 +8027,7 @@
         "inscricaoFim": "2026-10-21"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4105201,
@@ -7797,27 +8151,6 @@
         "inscricaoFim": "2026-10-15"
       },
       {
-        "id": "crm-pr-abre-concurso-publico-com-salarios-de-ate-6994:4106902",
-        "concursoId": "crm-pr-abre-concurso-publico-com-salarios-de-ate-6994",
-        "codigoIbge": 4106902,
-        "cidade": "Curitiba",
-        "uf": "PR",
-        "latitude": -25.4195,
-        "longitude": -49.2646,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "A seleção será constituída por prova objetiva e por prova prática para todos os cargos, com a aplicação das provas objetivas prevista para o dia 18 de outubro de 2026, em Curitiba/PR.",
-        "orgao": "CRM - Conselho Regional de Medicina do Estado do Paraná",
-        "titulo": "CRM - PR abre concurso público com salários de até R$ 6.994,40",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/crm-pr-abre-concurso-publico-com-salarios-de-ate-6994",
-        "vagas": 2,
-        "salarioMaximo": 6994.4,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
-      {
         "id": "crq-da-9-regiao-do-parana-abre-concurso-publico-com-salarios-de-ate-10727:4106902",
         "concursoId": "crq-da-9-regiao-do-parana-abre-concurso-publico-com-salarios-de-ate-10727",
         "codigoIbge": 4106902,
@@ -7860,7 +8193,7 @@
         "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 4107850,
@@ -7889,37 +8222,6 @@
         "salarioMaximo": 4969.4,
         "inscricaoTexto": "15/10/2026",
         "inscricaoFim": "2026-10-15"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4108809,
-    "cidade": "Guaíra",
-    "uf": "PR",
-    "latitude": -24.085,
-    "longitude": -54.2573,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4108809",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4108809,
-        "cidade": "Guaíra",
-        "uf": "PR",
-        "latitude": -24.085,
-        "longitude": -54.2573,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Paraná, a Prefeitura Municipal de Guaíra abriu um Processo Seletivo Simplificado destinado à contratação temporária de profissionais de nível médio, técnico e superior para o Consórcio de Saúde dos Municípios do Oeste do Paraná - CONSAMU.",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -8065,37 +8367,6 @@
         "salarioMaximo": 10727.55,
         "inscricaoTexto": "21/10/2026",
         "inscricaoFim": "2026-10-21"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4114609,
-    "cidade": "Marechal Cândido Rondon",
-    "uf": "PR",
-    "latitude": -24.557,
-    "longitude": -54.0571,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4114609",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4114609,
-        "cidade": "Marechal Cândido Rondon",
-        "uf": "PR",
-        "latitude": -24.557,
-        "longitude": -54.0571,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Assistente Social (2 vagas + cadastro de reserva - Marechal Cândido Rondon e Cascavel)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -8267,37 +8538,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4117909,
-    "cidade": "Palotina",
-    "uf": "PR",
-    "latitude": -24.2868,
-    "longitude": -53.8404,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4117909",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4117909,
-        "cidade": "Palotina",
-        "uf": "PR",
-        "latitude": -24.2868,
-        "longitude": -53.8404,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Enfermeiro (8 vagas + cadastro de reserva - Cafelândia, Toledo, Guaíra, Palotina, Santa Helena)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4118501,
     "cidade": "Pato Branco",
     "uf": "PR",
@@ -8391,37 +8631,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4123501,
-    "cidade": "Santa Helena",
-    "uf": "PR",
-    "latitude": -24.8585,
-    "longitude": -54.336,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4123501",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4123501,
-        "cidade": "Santa Helena",
-        "uf": "PR",
-        "latitude": -24.8585,
-        "longitude": -54.336,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Enfermeiro (8 vagas + cadastro de reserva - Cafelândia, Toledo, Guaíra, Palotina, Santa Helena)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4125407,
     "cidade": "São José da Boa Vista",
     "uf": "PR",
@@ -8448,37 +8657,6 @@
         "salarioMaximo": 3249.22,
         "inscricaoTexto": "12/10/2026",
         "inscricaoFim": "2026-10-12"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4125456,
-    "cidade": "São José das Palmeiras",
-    "uf": "PR",
-    "latitude": -24.8369,
-    "longitude": -54.0572,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4125456",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4125456,
-        "cidade": "São José das Palmeiras",
-        "uf": "PR",
-        "latitude": -24.8369,
-        "longitude": -54.0572,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Motorista Socorrista (condutor de ambulância) (2 vagas + cadastro de reserva - Marechal Cândido Rondon e São José das Palmeiras)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -8546,99 +8724,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4127403,
-    "cidade": "Terra Roxa",
-    "uf": "PR",
-    "latitude": -24.1575,
-    "longitude": -54.0988,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4127403",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4127403,
-        "cidade": "Terra Roxa",
-        "uf": "PR",
-        "latitude": -24.1575,
-        "longitude": -54.0988,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Técnico em Enfermagem (12 vagas + cadastro de reserva - Marechal Cândido Rondon, Guaíra, Palotina, Terra Roxa, Tupãssi, São José das Palmeiras, Cafelândia)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4127700,
-    "cidade": "Toledo",
-    "uf": "PR",
-    "latitude": -24.7246,
-    "longitude": -53.7412,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4127700",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4127700,
-        "cidade": "Toledo",
-        "uf": "PR",
-        "latitude": -24.7246,
-        "longitude": -53.7412,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Enfermeiro (8 vagas + cadastro de reserva - Cafelândia, Toledo, Guaíra, Palotina, Santa Helena)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4127957,
-    "cidade": "Tupãssi",
-    "uf": "PR",
-    "latitude": -24.5879,
-    "longitude": -53.5105,
-    "concursos": [
-      {
-        "id": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011:4127957",
-        "concursoId": "consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "codigoIbge": 4127957,
-        "cidade": "Tupãssi",
-        "uf": "PR",
-        "latitude": -24.5879,
-        "longitude": -53.5105,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Técnico em Enfermagem (12 vagas + cadastro de reserva - Marechal Cândido Rondon, Guaíra, Palotina, Terra Roxa, Tupãssi, São José das Palmeiras, Cafelândia)",
-        "orgao": "CONSAMU - Consórcio de Saúde dos Municípios do Oeste do Paraná",
-        "titulo": "CONSAMU - PR abre processo seletivo com salários de até R$ 14.011,78",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/consamu-pr-abre-processo-seletivo-com-salarios-de-ate-14011",
-        "vagas": 36,
-        "salarioMaximo": 14011.78,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4128609,
     "cidade": "Verê",
     "uf": "PR",
@@ -8696,9 +8781,30 @@
         "salarioMaximo": null,
         "inscricaoTexto": "10/11/2026",
         "inscricaoFim": "2026-11-10"
+      },
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3300100",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3300100,
+        "cidade": "Angra dos Reis",
+        "uf": "RJ",
+        "latitude": -23.0011,
+        "longitude": -44.3196,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3300258,
@@ -8753,6 +8859,130 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3300407,
+    "cidade": "Barra Mansa",
+    "uf": "RJ",
+    "latitude": -22.5481,
+    "longitude": -44.1752,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3300407",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3300407,
+        "cidade": "Barra Mansa",
+        "uf": "RJ",
+        "latitude": -22.5481,
+        "longitude": -44.1752,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3300704,
+    "cidade": "Cabo Frio",
+    "uf": "RJ",
+    "latitude": -22.8894,
+    "longitude": -42.0286,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3300704",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3300704,
+        "cidade": "Cabo Frio",
+        "uf": "RJ",
+        "latitude": -22.8894,
+        "longitude": -42.0286,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 5 - Macaé, Cabo Frio, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3301009,
+    "cidade": "Campos dos Goytacazes",
+    "uf": "RJ",
+    "latitude": -21.7622,
+    "longitude": -41.3181,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3301009",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3301009,
+        "cidade": "Campos dos Goytacazes",
+        "uf": "RJ",
+        "latitude": -21.7622,
+        "longitude": -41.3181,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 4 - Campos dos Goytacazes, Itaperuna, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3301702,
+    "cidade": "Duque de Caxias",
+    "uf": "RJ",
+    "latitude": -22.7858,
+    "longitude": -43.3049,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3301702",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3301702,
+        "cidade": "Duque de Caxias",
+        "uf": "RJ",
+        "latitude": -22.7858,
+        "longitude": -43.3049,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 6 - Duque de Caxias, Nova Iguaçú, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3301801,
     "cidade": "Engenheiro Paulo de Frontin",
     "uf": "RJ",
@@ -8784,6 +9014,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3301900,
+    "cidade": "Itaboraí",
+    "uf": "RJ",
+    "latitude": -22.7565,
+    "longitude": -42.8639,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3301900",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3301900,
+        "cidade": "Itaboraí",
+        "uf": "RJ",
+        "latitude": -22.7565,
+        "longitude": -42.8639,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3302007,
     "cidade": "Itaguaí",
     "uf": "RJ",
@@ -8810,6 +9071,306 @@
         "salarioMaximo": null,
         "inscricaoTexto": "10/11/2026",
         "inscricaoFim": "2026-11-10"
+      },
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302007",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302007,
+        "cidade": "Itaguaí",
+        "uf": "RJ",
+        "latitude": -22.8636,
+        "longitude": -43.7798,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 3302205,
+    "cidade": "Itaperuna",
+    "uf": "RJ",
+    "latitude": -21.1997,
+    "longitude": -41.8799,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302205",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302205,
+        "cidade": "Itaperuna",
+        "uf": "RJ",
+        "latitude": -21.1997,
+        "longitude": -41.8799,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 4 - Campos dos Goytacazes, Itaperuna, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3302403,
+    "cidade": "Macaé",
+    "uf": "RJ",
+    "latitude": -22.3768,
+    "longitude": -41.7848,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302403",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302403,
+        "cidade": "Macaé",
+        "uf": "RJ",
+        "latitude": -22.3768,
+        "longitude": -41.7848,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 5 - Macaé, Cabo Frio, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3302502,
+    "cidade": "Magé",
+    "uf": "RJ",
+    "latitude": -22.6632,
+    "longitude": -43.0315,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302502",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302502,
+        "cidade": "Magé",
+        "uf": "RJ",
+        "latitude": -22.6632,
+        "longitude": -43.0315,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3302601,
+    "cidade": "Mangaratiba",
+    "uf": "RJ",
+    "latitude": -22.9594,
+    "longitude": -44.0409,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302601",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302601,
+        "cidade": "Mangaratiba",
+        "uf": "RJ",
+        "latitude": -22.9594,
+        "longitude": -44.0409,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3302700,
+    "cidade": "Maricá",
+    "uf": "RJ",
+    "latitude": -22.9354,
+    "longitude": -42.8246,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3302700",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3302700,
+        "cidade": "Maricá",
+        "uf": "RJ",
+        "latitude": -22.9354,
+        "longitude": -42.8246,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3303302,
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "latitude": -22.8832,
+    "longitude": -43.1034,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3303302",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3303302,
+        "cidade": "Niterói",
+        "uf": "RJ",
+        "latitude": -22.8832,
+        "longitude": -43.1034,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3303401,
+    "cidade": "Nova Friburgo",
+    "uf": "RJ",
+    "latitude": -22.2932,
+    "longitude": -42.5377,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3303401",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3303401,
+        "cidade": "Nova Friburgo",
+        "uf": "RJ",
+        "latitude": -22.2932,
+        "longitude": -42.5377,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3303807,
+    "cidade": "Paraty",
+    "uf": "RJ",
+    "latitude": -23.2221,
+    "longitude": -44.7175,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3303807",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3303807,
+        "cidade": "Paraty",
+        "uf": "RJ",
+        "latitude": -23.2221,
+        "longitude": -44.7175,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3303906,
+    "cidade": "Petrópolis",
+    "uf": "RJ",
+    "latitude": -22.52,
+    "longitude": -43.1926,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3303906",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3303906,
+        "cidade": "Petrópolis",
+        "uf": "RJ",
+        "latitude": -22.52,
+        "longitude": -43.1926,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
       }
     ],
     "totalConcursos": 1
@@ -8841,6 +9402,37 @@
         "salarioMaximo": 11567.11,
         "inscricaoTexto": "13/10/2026",
         "inscricaoFim": "2026-10-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3304201,
+    "cidade": "Resende",
+    "uf": "RJ",
+    "latitude": -22.4705,
+    "longitude": -44.4509,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3304201",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3304201,
+        "cidade": "Resende",
+        "uf": "RJ",
+        "latitude": -22.4705,
+        "longitude": -44.4509,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
       }
     ],
     "totalConcursos": 1
@@ -8893,6 +9485,27 @@
         "salarioMaximo": 15034.81,
         "inscricaoTexto": "Prorrogado até21/09/2026",
         "inscricaoFim": "2026-09-21"
+      },
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3304557",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3304557,
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "latitude": -22.9129,
+        "longitude": -43.2003,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 1 - Município do Rio de Janeiro",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
       },
       {
         "id": "cremerj-retifica-concurso-com-salarios-de-ate-18000-para-diversos-cargos:3304557",
@@ -8958,7 +9571,7 @@
         "inscricaoFim": "2026-10-13"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 6
   },
   {
     "codigoIbge": 3304904,
@@ -8967,6 +9580,27 @@
     "latitude": -22.8268,
     "longitude": -43.0634,
     "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3304904",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3304904,
+        "cidade": "São Gonçalo",
+        "uf": "RJ",
+        "latitude": -22.8268,
+        "longitude": -43.0634,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      },
       {
         "id": "prefeitura-de-sao-goncalo-rj-abre-concursos-para-guardas-municipais:3304904",
         "concursoId": "prefeitura-de-sao-goncalo-rj-abre-concursos-para-guardas-municipais",
@@ -8989,7 +9623,7 @@
         "inscricaoFim": "2026-11-18"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3305208,
@@ -9054,6 +9688,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3305802,
+    "cidade": "Teresópolis",
+    "uf": "RJ",
+    "latitude": -22.4165,
+    "longitude": -42.9752,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3305802",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3305802,
+        "cidade": "Teresópolis",
+        "uf": "RJ",
+        "latitude": -22.4165,
+        "longitude": -42.9752,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3306107,
     "cidade": "Valença",
     "uf": "RJ",
@@ -9080,6 +9745,37 @@
         "salarioMaximo": 4468.62,
         "inscricaoTexto": "05/10/2026",
         "inscricaoFim": "2026-10-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3306305,
+    "cidade": "Volta Redonda",
+    "uf": "RJ",
+    "latitude": -22.5202,
+    "longitude": -44.0996,
+    "concursos": [
+      {
+        "id": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario:3306305",
+        "concursoId": "cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "codigoIbge": 3306305,
+        "cidade": "Volta Redonda",
+        "uf": "RJ",
+        "latitude": -22.5202,
+        "longitude": -44.0996,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
+        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+        "titulo": "CBMERJ - RJ abre processo seletivo para 1º tenente temporário",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-abre-processo-seletivo-para-1-tenente-temporario",
+        "vagas": 192,
+        "salarioMaximo": 12279.71,
+        "inscricaoTexto": "19/10 a09/11/2026",
+        "inscricaoFim": "2026-11-09"
       }
     ],
     "totalConcursos": 1
@@ -9561,37 +10257,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 1100148,
-    "cidade": "Nova Brasilândia D'Oeste",
-    "uf": "RO",
-    "latitude": -11.7247,
-    "longitude": -62.3127,
-    "concursos": [
-      {
-        "id": "prefeitura-de-nova-brasilandia-doeste-ro-abre-selecao-para-operador-de-maquinas-pesadas-e-motorista:1100148",
-        "concursoId": "prefeitura-de-nova-brasilandia-doeste-ro-abre-selecao-para-operador-de-maquinas-pesadas-e-motorista",
-        "codigoIbge": 1100148,
-        "cidade": "Nova Brasilândia D'Oeste",
-        "uf": "RO",
-        "latitude": -11.7247,
-        "longitude": -62.3127,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Nova Brasilândia D'Oeste — Prefeitura de Nova Brasilândia D'Oeste - RO abre seleção para Operador de Máquinas Pesadas e Motorista",
-        "orgao": "Prefeitura de Nova Brasilândia D'Oeste",
-        "titulo": "Prefeitura de Nova Brasilândia D'Oeste - RO abre seleção para Operador de Máquinas Pesadas e Motorista",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-brasilandia-doeste-ro-abre-selecao-para-operador-de-maquinas-pesadas-e-motorista",
-        "vagas": 5,
-        "salarioMaximo": 1838.54,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 1100205,
     "cidade": "Porto Velho",
     "uf": "RO",
@@ -9908,6 +10573,37 @@
         "salarioMaximo": 6600,
         "inscricaoTexto": "20/10/2026",
         "inscricaoFim": "2026-10-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4305207,
+    "cidade": "Cerro Largo",
+    "uf": "RS",
+    "latitude": -28.1463,
+    "longitude": -54.7428,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cerro-largo-rs-abre-processos-seletivos-para-engenheiro-civil-e-visitador-do-pim:4305207",
+        "concursoId": "prefeitura-de-cerro-largo-rs-abre-processos-seletivos-para-engenheiro-civil-e-visitador-do-pim",
+        "codigoIbge": 4305207,
+        "cidade": "Cerro Largo",
+        "uf": "RS",
+        "latitude": -28.1463,
+        "longitude": -54.7428,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cerro Largo — Prefeitura de Cerro Largo - RS abre processos seletivos para engenheiro civil e visitador do PIM",
+        "orgao": "Prefeitura de Cerro Largo",
+        "titulo": "Prefeitura de Cerro Largo - RS abre processos seletivos para engenheiro civil e visitador do PIM",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cerro-largo-rs-abre-processos-seletivos-para-engenheiro-civil-e-visitador-do-pim",
+        "vagas": null,
+        "salarioMaximo": 5437.56,
+        "inscricaoTexto": "13/10/2026",
+        "inscricaoFim": "2026-10-13"
       }
     ],
     "totalConcursos": 1
@@ -10244,6 +10940,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4313904,
+    "cidade": "Panambi",
+    "uf": "RS",
+    "latitude": -28.2833,
+    "longitude": -53.5023,
+    "concursos": [
+      {
+        "id": "prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388:4313904",
+        "concursoId": "prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388",
+        "codigoIbge": 4313904,
+        "cidade": "Panambi",
+        "uf": "RS",
+        "latitude": -28.2833,
+        "longitude": -53.5023,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Panambi — Prefeitura de Panambi - RS abre concurso público com salários de até R$ 5.388,99",
+        "orgao": "Prefeitura de Panambi",
+        "titulo": "Prefeitura de Panambi - RS abre concurso público com salários de até R$ 5.388,99",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388",
+        "vagas": 31,
+        "salarioMaximo": 5388.99,
+        "inscricaoTexto": "28/10/2026",
+        "inscricaoFim": "2026-10-28"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4314464,
     "cidade": "Pinhal da Serra",
     "uf": "RS",
@@ -10270,37 +10997,6 @@
         "salarioMaximo": 22223.98,
         "inscricaoTexto": "16/10/2026",
         "inscricaoFim": "2026-10-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4314605,
-    "cidade": "Piratini",
-    "uf": "RS",
-    "latitude": -31.4473,
-    "longitude": -53.0973,
-    "concursos": [
-      {
-        "id": "camara-de-piratini-rs-abre-concurso-publico-para-contador-oficial-legislativo-e-servente:4314605",
-        "concursoId": "camara-de-piratini-rs-abre-concurso-publico-para-contador-oficial-legislativo-e-servente",
-        "codigoIbge": 4314605,
-        "cidade": "Piratini",
-        "uf": "RS",
-        "latitude": -31.4473,
-        "longitude": -53.0973,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Piratini — Câmara de Piratini - RS abre concurso público para Contador, Oficial Legislativo e Servente",
-        "orgao": "Câmara de Piratini",
-        "titulo": "Câmara de Piratini - RS abre concurso público para Contador, Oficial Legislativo e Servente",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-piratini-rs-abre-concurso-publico-para-contador-oficial-legislativo-e-servente",
-        "vagas": 3,
-        "salarioMaximo": 5471.63,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -10448,27 +11144,6 @@
         "inscricaoFim": "2026-10-12"
       },
       {
-        "id": "tjrs-reabre-concurso-para-outorga-de-delegacoes-de-notas-e-de-registro:4315602",
-        "concursoId": "tjrs-reabre-concurso-para-outorga-de-delegacoes-de-notas-e-de-registro",
-        "codigoIbge": 4315602,
-        "cidade": "Rio Grande",
-        "uf": "RS",
-        "latitude": -32.0349,
-        "longitude": -52.1071,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul — TJRS reabre Concurso para Outorga de Delegações de Notas e de Registro",
-        "orgao": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul",
-        "titulo": "TJRS reabre Concurso para Outorga de Delegações de Notas e de Registro",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/tjrs-reabre-concurso-para-outorga-de-delegacoes-de-notas-e-de-registro",
-        "vagas": 247,
-        "salarioMaximo": null,
-        "inscricaoTexto": "Reaberto até01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
-      {
         "id": "tjrs-retifica-concurso-publico-para-o-cargo-de-juiz-de-direito-substituto:4315602",
         "concursoId": "tjrs-retifica-concurso-publico-para-o-cargo-de-juiz-de-direito-substituto",
         "codigoIbge": 4315602,
@@ -10490,7 +11165,7 @@
         "inscricaoFim": "2026-10-14"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 4317608,
@@ -10586,6 +11261,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4321600,
+    "cidade": "Tramandaí",
+    "uf": "RS",
+    "latitude": -29.9841,
+    "longitude": -50.1322,
+    "concursos": [
+      {
+        "id": "prefeitura-de-tramandai-rs-abre-selecao-para-fonoaudiologo-e-visitador-pim:4321600",
+        "concursoId": "prefeitura-de-tramandai-rs-abre-selecao-para-fonoaudiologo-e-visitador-pim",
+        "codigoIbge": 4321600,
+        "cidade": "Tramandaí",
+        "uf": "RS",
+        "latitude": -29.9841,
+        "longitude": -50.1322,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Tramandaí — Prefeitura de Tramandaí - RS abre seleção para fonoaudiólogo e visitador PIM",
+        "orgao": "Prefeitura de Tramandaí",
+        "titulo": "Prefeitura de Tramandaí - RS abre seleção para fonoaudiólogo e visitador PIM",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tramandai-rs-abre-selecao-para-fonoaudiologo-e-visitador-pim",
+        "vagas": 3,
+        "salarioMaximo": 8407.7,
+        "inscricaoTexto": "05 a07/10/2026",
+        "inscricaoFim": "2026-10-07"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4322541,
     "cidade": "Vale Real",
     "uf": "RS",
@@ -10641,39 +11347,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aguas-mornas-sc-abre-concurso-e-processo-seletivo-com-salarios-de-ate-10109",
         "vagas": null,
         "salarioMaximo": 10109.68,
-        "inscricaoTexto": "02 a31/10/2026",
+        "inscricaoTexto": "31/10/2026",
         "inscricaoFim": "2026-10-31"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4212809,
-    "cidade": "Balneário Piçarras",
-    "uf": "SC",
-    "latitude": -26.7639,
-    "longitude": -48.6717,
-    "concursos": [
-      {
-        "id": "prefeitura-de-balneario-picarras-sc-abre-selecoes-com-salarios-de-ate-22936:4212809",
-        "concursoId": "prefeitura-de-balneario-picarras-sc-abre-selecoes-com-salarios-de-ate-22936",
-        "codigoIbge": 4212809,
-        "cidade": "Balneário Piçarras",
-        "uf": "SC",
-        "latitude": -26.7639,
-        "longitude": -48.6717,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Balneário Piçarras — Prefeitura de Balneário Piçarras - SC abre seleções com salários de até R$ 22.936,56",
-        "orgao": "Prefeitura de Balneário Piçarras",
-        "titulo": "Prefeitura de Balneário Piçarras - SC abre seleções com salários de até R$ 22.936,56",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-balneario-picarras-sc-abre-selecoes-com-salarios-de-ate-22936",
-        "vagas": null,
-        "salarioMaximo": 22936.56,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -11062,37 +11737,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4205209,
-    "cidade": "Erval Velho",
-    "uf": "SC",
-    "latitude": -27.2743,
-    "longitude": -51.443,
-    "concursos": [
-      {
-        "id": "prefeitura-de-erval-velho-sc-retifica-concurso-publico-com-salarios-de-ate-22044:4205209",
-        "concursoId": "prefeitura-de-erval-velho-sc-retifica-concurso-publico-com-salarios-de-ate-22044",
-        "codigoIbge": 4205209,
-        "cidade": "Erval Velho",
-        "uf": "SC",
-        "latitude": -27.2743,
-        "longitude": -51.443,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Erval Velho — Prefeitura de Erval Velho - SC retifica concurso público com salários de até R$ 22.044,76",
-        "orgao": "Prefeitura de Erval Velho",
-        "titulo": "Prefeitura de Erval Velho - SC retifica concurso público com salários de até R$ 22.044,76",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-erval-velho-sc-retifica-concurso-publico-com-salarios-de-ate-22044",
-        "vagas": 4,
-        "salarioMaximo": 22044.76,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4205407,
     "cidade": "Florianópolis",
     "uf": "SC",
@@ -11342,37 +11986,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4207502,
-    "cidade": "Indaial",
-    "uf": "SC",
-    "latitude": -26.8992,
-    "longitude": -49.2354,
-    "concursos": [
-      {
-        "id": "prefeitura-de-indaial-sc-publica-edital-retificado-de-processo-seletivo:4207502",
-        "concursoId": "prefeitura-de-indaial-sc-publica-edital-retificado-de-processo-seletivo",
-        "codigoIbge": 4207502,
-        "cidade": "Indaial",
-        "uf": "SC",
-        "latitude": -26.8992,
-        "longitude": -49.2354,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Indaial — Prefeitura de Indaial - SC publica edital retificado de processo seletivo",
-        "orgao": "Prefeitura de Indaial",
-        "titulo": "Prefeitura de Indaial - SC publica edital retificado de processo seletivo",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-indaial-sc-publica-edital-retificado-de-processo-seletivo",
-        "vagas": null,
-        "salarioMaximo": 5210.87,
-        "inscricaoTexto": "Reaberto até01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4207700,
     "cidade": "Ipumirim",
     "uf": "SC",
@@ -11549,58 +12162,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 4208906,
-    "cidade": "Jaraguá do Sul",
-    "uf": "SC",
-    "latitude": -26.4851,
-    "longitude": -49.0713,
-    "concursos": [
-      {
-        "id": "fujama-sc-abre-concurso-publico-para-fiscal-de-bem-estar-animal:4208906",
-        "concursoId": "fujama-sc-abre-concurso-publico-para-fiscal-de-bem-estar-animal",
-        "codigoIbge": 4208906,
-        "cidade": "Jaraguá do Sul",
-        "uf": "SC",
-        "latitude": -26.4851,
-        "longitude": -49.0713,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado de Santa Catarina, a Fundação Jaraguaense de Meio Ambiente (FUJAMA), em Jaraguá do Sul, abriu um Concurso Público destinado a preencher uma vaga para profissional com nível superior completo em Zootecnia, Medicina Veterinária ou Biologia e Carteira Nacional de Habilitação na categoria B.",
-        "orgao": "FUJAMA - Fundação Jaraguaense de Meio Ambiente",
-        "titulo": "FUJAMA - SC abre concurso público para Fiscal de Bem-estar Animal",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fujama-sc-abre-concurso-publico-para-fiscal-de-bem-estar-animal",
-        "vagas": 1,
-        "salarioMaximo": 5856.24,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
-      {
-        "id": "prefeitura-e-samae-de-jaragua-do-sul-sc-abrem-concursos-publicos-com-salarios-de-ate-15605:4208906",
-        "concursoId": "prefeitura-e-samae-de-jaragua-do-sul-sc-abrem-concursos-publicos-com-salarios-de-ate-15605",
-        "codigoIbge": 4208906,
-        "cidade": "Jaraguá do Sul",
-        "uf": "SC",
-        "latitude": -26.4851,
-        "longitude": -49.0713,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "PMJS - Prefeitura de Jaraguá do Sul e SAMAE - Serviço Autônomo Municipal de Água e Esgoto — Prefeitura e SAMAE de Jaraguá do Sul - SC abrem concursos públicos com salários de até R$ 15.605,92",
-        "orgao": "PMJS - Prefeitura de Jaraguá do Sul e SAMAE - Serviço Autônomo Municipal de Água e Esgoto",
-        "titulo": "Prefeitura e SAMAE de Jaraguá do Sul - SC abrem concursos públicos com salários de até R$ 15.605,92",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-e-samae-de-jaragua-do-sul-sc-abrem-concursos-publicos-com-salarios-de-ate-15605",
-        "vagas": 44,
-        "salarioMaximo": 15605.92,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 2
-  },
-  {
     "codigoIbge": 4209003,
     "cidade": "Joaçaba",
     "uf": "SC",
@@ -11627,6 +12188,37 @@
         "salarioMaximo": 16098.94,
         "inscricaoTexto": "02/10/2026",
         "inscricaoFim": "2026-10-02"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4209102,
+    "cidade": "Joinville",
+    "uf": "SC",
+    "latitude": -26.3045,
+    "longitude": -48.8487,
+    "concursos": [
+      {
+        "id": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville:4209102",
+        "concursoId": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
+        "codigoIbge": 4209102,
+        "cidade": "Joinville",
+        "uf": "SC",
+        "latitude": -26.3045,
+        "longitude": -48.8487,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
+        "orgao": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon",
+        "titulo": "FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
+        "vagas": null,
+        "salarioMaximo": 2507.23,
+        "inscricaoTexto": "09/10/2026",
+        "inscricaoFim": "2026-10-09"
       }
     ],
     "totalConcursos": 1
@@ -11749,7 +12341,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maravilha-sc-abre-concurso-com-salarios-de-ate-15748",
         "vagas": 11,
         "salarioMaximo": 15748.2,
-        "inscricaoTexto": "02/10 a03/11/2026",
+        "inscricaoTexto": "03/11/2026",
         "inscricaoFim": "2026-11-03"
       }
     ],
@@ -11787,37 +12379,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4211801,
-    "cidade": "Ouro",
-    "uf": "SC",
-    "latitude": -27.3379,
-    "longitude": -51.6194,
-    "concursos": [
-      {
-        "id": "prefeitura-de-ouro-sc-abre-concurso-publico-com-salarios-de-ate-5595:4211801",
-        "concursoId": "prefeitura-de-ouro-sc-abre-concurso-publico-com-salarios-de-ate-5595",
-        "codigoIbge": 4211801,
-        "cidade": "Ouro",
-        "uf": "SC",
-        "latitude": -27.3379,
-        "longitude": -51.6194,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Ouro — Prefeitura de Ouro - SC abre concurso público com salários de até R$ 5.595,07",
-        "orgao": "Prefeitura de Ouro",
-        "titulo": "Prefeitura de Ouro - SC abre concurso público com salários de até R$ 5.595,07",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ouro-sc-abre-concurso-publico-com-salarios-de-ate-5595",
-        "vagas": null,
-        "salarioMaximo": 5595.07,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4212239,
     "cidade": "Paraíso",
     "uf": "SC",
@@ -11844,30 +12405,9 @@
         "salarioMaximo": 15126.65,
         "inscricaoTexto": "13/10/2026",
         "inscricaoFim": "2026-10-13"
-      },
-      {
-        "id": "prefeitura-de-paraiso-sc-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva:4212239",
-        "concursoId": "prefeitura-de-paraiso-sc-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-        "codigoIbge": 4212239,
-        "cidade": "Paraíso",
-        "uf": "SC",
-        "latitude": -26.62,
-        "longitude": -53.6716,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Paraíso — Prefeitura de Paraíso - SC abre concurso público com vagas imediatas e cadastro de reserva",
-        "orgao": "Prefeitura de Paraíso",
-        "titulo": "Prefeitura de Paraíso - SC abre concurso público com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-paraiso-sc-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-        "vagas": 11,
-        "salarioMaximo": 15118.82,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4212908,
@@ -11960,27 +12500,6 @@
     "longitude": -49.0191,
     "concursos": [
       {
-        "id": "prefeitura-de-rancho-queimado-sc-abre-selecao-com-vaga-para-agente-de-servicos-gerais:4214300",
-        "concursoId": "prefeitura-de-rancho-queimado-sc-abre-selecao-com-vaga-para-agente-de-servicos-gerais",
-        "codigoIbge": 4214300,
-        "cidade": "Rancho Queimado",
-        "uf": "SC",
-        "latitude": -27.6727,
-        "longitude": -49.0191,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Rancho Queimado — Prefeitura de Rancho Queimado - SC abre seleção com vaga para agente de serviços gerais",
-        "orgao": "Prefeitura de Rancho Queimado",
-        "titulo": "Prefeitura de Rancho Queimado - SC abre seleção com vaga para agente de serviços gerais",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rancho-queimado-sc-abre-selecao-com-vaga-para-agente-de-servicos-gerais",
-        "vagas": 1,
-        "salarioMaximo": 2066.79,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      },
-      {
         "id": "prefeitura-de-rancho-queimado-sc-abre-selecao-com-vaga-para-agente-operacional-i:4214300",
         "concursoId": "prefeitura-de-rancho-queimado-sc-abre-selecao-com-vaga-para-agente-operacional-i",
         "codigoIbge": 4214300,
@@ -12002,7 +12521,7 @@
         "inscricaoFim": "2026-10-09"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4214409,
@@ -12259,6 +12778,37 @@
         "salarioMaximo": 7264.88,
         "inscricaoTexto": "10/10/2026",
         "inscricaoFim": "2026-10-10"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4217550,
+    "cidade": "Serra Alta",
+    "uf": "SC",
+    "latitude": -26.7229,
+    "longitude": -53.0409,
+    "concursos": [
+      {
+        "id": "prefeitura-de-serra-alta-sc-retifica-concurso-com-salarios-de-ate-9903:4217550",
+        "concursoId": "prefeitura-de-serra-alta-sc-retifica-concurso-com-salarios-de-ate-9903",
+        "codigoIbge": 4217550,
+        "cidade": "Serra Alta",
+        "uf": "SC",
+        "latitude": -26.7229,
+        "longitude": -53.0409,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Serra Alta — Prefeitura de Serra Alta - SC retifica concurso com salários de até R$ 9.903,40",
+        "orgao": "Prefeitura de Serra Alta",
+        "titulo": "Prefeitura de Serra Alta - SC retifica concurso com salários de até R$ 9.903,40",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-serra-alta-sc-retifica-concurso-com-salarios-de-ate-9903",
+        "vagas": 23,
+        "salarioMaximo": 9903.4,
+        "inscricaoTexto": "30/10/2026",
+        "inscricaoFim": "2026-10-30"
       }
     ],
     "totalConcursos": 1
@@ -13144,37 +13694,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3511102,
-    "cidade": "Catanduva",
-    "uf": "SP",
-    "latitude": -21.1314,
-    "longitude": -48.977,
-    "concursos": [
-      {
-        "id": "prefeitura-de-catanduva-sp-abre-processo-seletivo-para-profissionais-de-apoio-escolar:3511102",
-        "concursoId": "prefeitura-de-catanduva-sp-abre-processo-seletivo-para-profissionais-de-apoio-escolar",
-        "codigoIbge": 3511102,
-        "cidade": "Catanduva",
-        "uf": "SP",
-        "latitude": -21.1314,
-        "longitude": -48.977,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Catanduva — Prefeitura de Catanduva - SP abre processo seletivo para profissionais de apoio escolar",
-        "orgao": "Prefeitura de Catanduva",
-        "titulo": "Prefeitura de Catanduva - SP abre processo seletivo para profissionais de apoio escolar",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-catanduva-sp-abre-processo-seletivo-para-profissionais-de-apoio-escolar",
-        "vagas": 66,
-        "salarioMaximo": null,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3511904,
     "cidade": "Clementina",
     "uf": "SP",
@@ -13677,30 +14196,9 @@
         "salarioMaximo": 7097,
         "inscricaoTexto": "19/10/2026",
         "inscricaoFim": "2026-10-19"
-      },
-      {
-        "id": "prefeitura-de-itanhaem-sp-abre-concurso-publico-com-salarios-de-ate-6592:3522109",
-        "concursoId": "prefeitura-de-itanhaem-sp-abre-concurso-publico-com-salarios-de-ate-6592",
-        "codigoIbge": 3522109,
-        "cidade": "Itanhaém",
-        "uf": "SP",
-        "latitude": -24.1736,
-        "longitude": -46.788,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Itanhaém — Prefeitura de Itanhaém - SP abre concurso público com salários de até R$ 6.592,00",
-        "orgao": "Prefeitura de Itanhaém",
-        "titulo": "Prefeitura de Itanhaém - SP abre concurso público com salários de até R$ 6.592,00",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itanhaem-sp-abre-concurso-publico-com-salarios-de-ate-6592",
-        "vagas": 106,
-        "salarioMaximo": 6592,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3522208,
@@ -14561,6 +15059,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3545605,
+    "cidade": "Santa Adélia",
+    "uf": "SP",
+    "latitude": -21.2427,
+    "longitude": -48.8063,
+    "concursos": [
+      {
+        "id": "prefeitura-de-santa-adelia-sp-abre-selecao-para-profissionais-da-educacao:3545605",
+        "concursoId": "prefeitura-de-santa-adelia-sp-abre-selecao-para-profissionais-da-educacao",
+        "codigoIbge": 3545605,
+        "cidade": "Santa Adélia",
+        "uf": "SP",
+        "latitude": -21.2427,
+        "longitude": -48.8063,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Santa Adélia — Prefeitura de Santa Adélia - SP abre seleção para profissionais da educação",
+        "orgao": "Prefeitura de Santa Adélia",
+        "titulo": "Prefeitura de Santa Adélia - SP abre seleção para profissionais da educação",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santa-adelia-sp-abre-selecao-para-profissionais-da-educacao",
+        "vagas": 11,
+        "salarioMaximo": 1728.76,
+        "inscricaoTexto": "05 a18/10/2026",
+        "inscricaoFim": "2026-10-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3546702,
     "cidade": "Santa Gertrudes",
     "uf": "SP",
@@ -14587,37 +15116,6 @@
         "salarioMaximo": 4073.36,
         "inscricaoTexto": "08/10/2026",
         "inscricaoFim": "2026-10-08"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3547106,
-    "cidade": "Santa Mercedes",
-    "uf": "SP",
-    "latitude": -21.3495,
-    "longitude": -51.7564,
-    "concursos": [
-      {
-        "id": "prefeitura-de-santa-mercedes-sp-publica-retificacao-de-concurso-publico:3547106",
-        "concursoId": "prefeitura-de-santa-mercedes-sp-publica-retificacao-de-concurso-publico",
-        "codigoIbge": 3547106,
-        "cidade": "Santa Mercedes",
-        "uf": "SP",
-        "latitude": -21.3495,
-        "longitude": -51.7564,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Santa Mercedes — Prefeitura de Santa Mercedes - SP publica retificação de concurso público",
-        "orgao": "Prefeitura de Santa Mercedes",
-        "titulo": "Prefeitura de Santa Mercedes - SP publica retificação de concurso público",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santa-mercedes-sp-publica-retificacao-de-concurso-publico",
-        "vagas": null,
-        "salarioMaximo": 6597.21,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
@@ -14867,9 +15365,30 @@
         "salarioMaximo": null,
         "inscricaoTexto": "10/11/2026",
         "inscricaoFim": "2026-11-10"
+      },
+      {
+        "id": "sefaz-sp-abre-concurso-publico-para-analista-em-planejamento-orcamento-e-financas-publicas:3550308",
+        "concursoId": "sefaz-sp-abre-concurso-publico-para-analista-em-planejamento-orcamento-e-financas-publicas",
+        "codigoIbge": 3550308,
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "latitude": -23.5329,
+        "longitude": -46.6395,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas objetivas e discursivas estão previstas para o dia 13 de dezembro de 2026, na cidade de São Paulo.",
+        "orgao": "SEFAZ - Secretaria da Fazenda e Planejamento",
+        "titulo": "SEFAZ - SP abre concurso público para Analista em Planejamento, Orçamento e Finanças Públicas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sefaz-sp-abre-concurso-publico-para-analista-em-planejamento-orcamento-e-financas-publicas",
+        "vagas": 60,
+        "salarioMaximo": 11359.5,
+        "inscricaoTexto": "05/10 a03/11/2026",
+        "inscricaoFim": "2026-11-03"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 3550605,
@@ -15084,37 +15603,6 @@
         "salarioMaximo": 2600,
         "inscricaoTexto": "05/10/2026",
         "inscricaoFim": "2026-10-05"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3555802,
-    "cidade": "Urânia",
-    "uf": "SP",
-    "latitude": -20.2455,
-    "longitude": -50.6455,
-    "concursos": [
-      {
-        "id": "prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras:3555802",
-        "concursoId": "prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras",
-        "codigoIbge": 3555802,
-        "cidade": "Urânia",
-        "uf": "SP",
-        "latitude": -20.2455,
-        "longitude": -50.6455,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Urânia — Prefeitura de Urânia - SP abre concurso público para Coordenador e Orientador Social do CRAS",
-        "orgao": "Prefeitura de Urânia",
-        "titulo": "Prefeitura de Urânia - SP abre concurso público para Coordenador e Orientador Social do CRAS",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-urania-sp-abre-concurso-publico-para-coordenador-e-orientador-social-do-cras",
-        "vagas": 2,
-        "salarioMaximo": 3562.8,
-        "inscricaoTexto": "01/10/2026",
-        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 1
