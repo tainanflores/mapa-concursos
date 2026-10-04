@@ -4410,27 +4410,6 @@
     "inscricaoFim": "2026-10-09"
   },
   {
-    "id": "prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam:3120904",
-    "concursoId": "prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam",
-    "codigoIbge": 3120904,
-    "cidade": "Curvelo",
-    "uf": "MG",
-    "latitude": -18.7527,
-    "longitude": -44.4303,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "Prefeitura de Curvelo — Prefeitura de Curvelo - MG abre seleção para auxiliares de serviços na UPAM",
-    "orgao": "Prefeitura de Curvelo",
-    "titulo": "Prefeitura de Curvelo - MG abre seleção para auxiliares de serviços na UPAM",
-    "status": "aberto",
-    "tipoSelecao": "concurso_publico",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam",
-    "vagas": 2,
-    "salarioMaximo": 1621,
-    "inscricaoTexto": "03/10/2026",
-    "inscricaoFim": "2026-10-03"
-  },
-  {
     "id": "prefeitura-de-curvelo-mg-abre-vaga-em-processo-seletivo-para-mecanico:3120904",
     "concursoId": "prefeitura-de-curvelo-mg-abre-vaga-em-processo-seletivo-para-mecanico",
     "codigoIbge": 3120904,
@@ -7350,6 +7329,27 @@
     "inscricaoFim": "2026-10-04"
   },
   {
+    "id": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville:4209102",
+    "concursoId": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
+    "codigoIbge": 4209102,
+    "cidade": "Joinville",
+    "uf": "SC",
+    "latitude": -26.3045,
+    "longitude": -48.8487,
+    "tipoLocalidade": "nome_orgao_ou_titulo",
+    "confiancaLocalidade": "alta",
+    "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
+    "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
+    "titulo": "FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
+    "status": "aberto",
+    "tipoSelecao": "processo_seletivo",
+    "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
+    "vagas": null,
+    "salarioMaximo": 2507.23,
+    "inscricaoTexto": "09/10/2026",
+    "inscricaoFim": "2026-10-09"
+  },
+  {
     "id": "fahece-sc-abre-vaga-para-analista-de-administracao-de-pessoal-ii-em-florianopolis:4205407",
     "concursoId": "fahece-sc-abre-vaga-para-analista-de-administracao-de-pessoal-ii-em-florianopolis",
     "codigoIbge": 4205407,
@@ -7474,27 +7474,6 @@
     "salarioMaximo": 2519.21,
     "inscricaoTexto": "04/10/2026",
     "inscricaoFim": "2026-10-04"
-  },
-  {
-    "id": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville:4209102",
-    "concursoId": "fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
-    "codigoIbge": 4209102,
-    "cidade": "Joinville",
-    "uf": "SC",
-    "latitude": -26.3045,
-    "longitude": -48.8487,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
-    "orgao": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon",
-    "titulo": "FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
-    "vagas": null,
-    "salarioMaximo": 2507.23,
-    "inscricaoTexto": "09/10/2026",
-    "inscricaoFim": "2026-10-09"
   },
   {
     "id": "hospital-nossa-senhora-da-conceicao-sc-abre-selecao-para-residencia-medica-em-diversas-especialidades:4218707",
@@ -9257,8 +9236,8 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/manaus-previdencia-am-prorroga-inscricoes-de-concurso-publico",
     "vagas": 17,
     "salarioMaximo": 9175.25,
-    "inscricaoTexto": "Prorrogado até29/09/2026",
-    "inscricaoFim": "2026-09-29"
+    "inscricaoTexto": "Prorrogado até01/10/2026",
+    "inscricaoFim": "2026-10-01"
   },
   {
     "id": "camara-de-rio-branco-ac-abre-concurso-publico-com-13-vagas-imediatas:1200401",

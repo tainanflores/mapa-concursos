@@ -471,8 +471,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/manaus-previdencia-am-prorroga-inscricoes-de-concurso-publico",
         "vagas": 17,
         "salarioMaximo": 9175.25,
-        "inscricaoTexto": "Prorrogado até29/09/2026",
-        "inscricaoFim": "2026-09-29"
+        "inscricaoTexto": "Prorrogado até01/10/2026",
+        "inscricaoFim": "2026-10-01"
       }
     ],
     "totalConcursos": 3
@@ -3647,27 +3647,6 @@
     "longitude": -44.4303,
     "concursos": [
       {
-        "id": "prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam:3120904",
-        "concursoId": "prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam",
-        "codigoIbge": 3120904,
-        "cidade": "Curvelo",
-        "uf": "MG",
-        "latitude": -18.7527,
-        "longitude": -44.4303,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Curvelo — Prefeitura de Curvelo - MG abre seleção para auxiliares de serviços na UPAM",
-        "orgao": "Prefeitura de Curvelo",
-        "titulo": "Prefeitura de Curvelo - MG abre seleção para auxiliares de serviços na UPAM",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-curvelo-mg-abre-selecao-para-auxiliares-de-servicos-na-upam",
-        "vagas": 2,
-        "salarioMaximo": 1621,
-        "inscricaoTexto": "03/10/2026",
-        "inscricaoFim": "2026-10-03"
-      },
-      {
         "id": "prefeitura-de-curvelo-mg-abre-vaga-em-processo-seletivo-para-mecanico:3120904",
         "concursoId": "prefeitura-de-curvelo-mg-abre-vaga-em-processo-seletivo-para-mecanico",
         "codigoIbge": 3120904,
@@ -3689,7 +3668,7 @@
         "inscricaoFim": "2026-10-06"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3121209,
@@ -12180,8 +12159,8 @@
         "longitude": -48.8487,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon — FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
-        "orgao": "HEMOSC - Fundação de Apoio ao Hemosc e Cepon",
+        "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
         "titulo": "FAHECE - SC abre processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
         "status": "aberto",
         "tipoSelecao": "processo_seletivo",
