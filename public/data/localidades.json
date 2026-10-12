@@ -3818,7 +3818,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/cimme-mg-abre-processo-seletivo-com-salarios-de-ate-3749",
     "vagas": 11,
     "salarioMaximo": 3749,
-    "inscricaoTexto": "12 a19/10/2026",
+    "inscricaoTexto": "19/10/2026",
     "inscricaoFim": "2026-10-19"
   },
   {
@@ -4931,7 +4931,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-de-pirapama-mg-abre-concurso-com-salarios-de-ate-6221",
     "vagas": 79,
     "salarioMaximo": 6221.41,
-    "inscricaoTexto": "12/10 a10/11/2026",
+    "inscricaoTexto": "10/11/2026",
     "inscricaoFim": "2026-11-10"
   },
   {
@@ -5542,48 +5542,6 @@
     "salarioMaximo": 4314.98,
     "inscricaoTexto": "14/10/2026",
     "inscricaoFim": "2026-10-14"
-  },
-  {
-    "id": "samu-192-es-abre-processos-seletivos-para-enfermeiros-e-tecnicos-em-enfermagem-socorrista:3205069",
-    "concursoId": "samu-192-es-abre-processos-seletivos-para-enfermeiros-e-tecnicos-em-enfermagem-socorrista",
-    "codigoIbge": 3205069,
-    "cidade": "Venda Nova do Imigrante",
-    "uf": "ES",
-    "latitude": -20.327,
-    "longitude": -41.1355,
-    "tipoLocalidade": "mencao",
-    "confiancaLocalidade": "baixa",
-    "contextoLocalidade": "Enfermeiro Socorrista - Venda Nova do Imigrante e adjacências (CR)",
-    "orgao": "SAMU 192/ES - Serviço de Atendimento Móvel de Urgência",
-    "titulo": "SAMU 192 - ES abre processos seletivos para enfermeiros e técnicos em enfermagem socorrista",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/samu-192-es-abre-processos-seletivos-para-enfermeiros-e-tecnicos-em-enfermagem-socorrista",
-    "vagas": null,
-    "salarioMaximo": 3707.42,
-    "inscricaoTexto": "11/10/2026",
-    "inscricaoFim": "2026-10-11"
-  },
-  {
-    "id": "samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica:3205309",
-    "concursoId": "samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica",
-    "codigoIbge": 3205309,
-    "cidade": "Vitória",
-    "uf": "ES",
-    "latitude": -20.3155,
-    "longitude": -40.3128,
-    "tipoLocalidade": "mencao",
-    "confiancaLocalidade": "baixa",
-    "contextoLocalidade": "No Espírito Santo, o Serviço de Atendimento Móvel de Urgência (SAMU 192/ES), organizado pela Irmandade da Santa Casa de Misericórdia de Vitória/ES, divulgou um edital de processo seletivo, com o objetivo de contratar profissional para a função de Telefonista Auxiliar de Regulação Médica (TARM).",
-    "orgao": "SAMU 192/ES - Serviço de Atendimento Móvel de Urgência",
-    "titulo": "SAMU 192 - ES abre processo seletivo para o cargo de telefonista auxiliar de regulação médica",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/samu-192-es-abre-processo-seletivo-para-o-cargo-de-telefonista-auxiliar-de-regulacao-medica",
-    "vagas": null,
-    "salarioMaximo": 1933.15,
-    "inscricaoTexto": "11/10/2026",
-    "inscricaoFim": "2026-10-11"
   },
   {
     "id": "prefeitura-de-vila-velha-es-abre-processo-seletivo-com-salarios-de-ate-7579:3205200",
@@ -7140,27 +7098,6 @@
     "inscricaoFim": "2026-10-23"
   },
   {
-    "id": "fahece-sc-abre-processo-seletivo-para-fonoaudiologo-i-no-cepon-de-florianopolis:4205407",
-    "concursoId": "fahece-sc-abre-processo-seletivo-para-fonoaudiologo-i-no-cepon-de-florianopolis",
-    "codigoIbge": 4205407,
-    "cidade": "Florianópolis",
-    "uf": "SC",
-    "latitude": -27.5945,
-    "longitude": -48.5477,
-    "tipoLocalidade": "nome_orgao_ou_titulo",
-    "confiancaLocalidade": "alta",
-    "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC abre processo seletivo para Fonoaudiólogo I no CEPON de Florianópolis",
-    "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-    "titulo": "FAHECE - SC abre processo seletivo para Fonoaudiólogo I no CEPON de Florianópolis",
-    "status": "aberto",
-    "tipoSelecao": "processo_seletivo",
-    "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-fonoaudiologo-i-no-cepon-de-florianopolis",
-    "vagas": 1,
-    "salarioMaximo": 3409.85,
-    "inscricaoTexto": "11/10/2026",
-    "inscricaoFim": "2026-10-11"
-  },
-  {
     "id": "fahece-sc-anuncia-processo-seletivo-para-o-cargo-de-medico-ii-em-florianopolis:4205407",
     "concursoId": "fahece-sc-anuncia-processo-seletivo-para-o-cargo-de-medico-ii-em-florianopolis",
     "codigoIbge": 4205407,
@@ -7640,7 +7577,7 @@
     "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-imbituba-sc-abre-concurso-publico-com-salarios-de-ate-4807",
     "vagas": 8,
     "salarioMaximo": 4807.49,
-    "inscricaoTexto": "12/10 a11/11/2026",
+    "inscricaoTexto": "11/11/2026",
     "inscricaoFim": "2026-11-11"
   },
   {
