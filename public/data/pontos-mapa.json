@@ -2910,27 +2910,6 @@
         "inscricaoFim": "2026-10-30"
       },
       {
-        "id": "hob-mg-abre-selecoes-para-agente-executivo-governamental-e-medicos:3106200",
-        "concursoId": "hob-mg-abre-selecoes-para-agente-executivo-governamental-e-medicos",
-        "codigoIbge": 3106200,
-        "cidade": "Belo Horizonte",
-        "uf": "MG",
-        "latitude": -19.9102,
-        "longitude": -43.9266,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "O Hospital Metropolitano Odilon Behrens (HOB), em Belo Horizonte/MG, publicou dois editais de Processo Seletivo Simplificado para formar cadastro de reserva para profissionais de nível médio e superior.",
-        "orgao": "HOB - Hospital Metropolitano Odilon Behrens",
-        "titulo": "HOB - MG abre seleções para Agente Executivo Governamental e Médicos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hob-mg-abre-selecoes-para-agente-executivo-governamental-e-medicos",
-        "vagas": null,
-        "salarioMaximo": 18067.43,
-        "inscricaoTexto": "17/10/2026",
-        "inscricaoFim": "2026-10-17"
-      },
-      {
         "id": "ipsemg-anuncia-selecao-com-vagas-para-residencia-medica:3106200",
         "concursoId": "ipsemg-anuncia-selecao-com-vagas-para-residencia-medica",
         "codigoIbge": 3106200,
@@ -2994,7 +2973,7 @@
         "inscricaoFim": "2026-11-04"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 3106408,
@@ -14325,37 +14304,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3536570,
-    "cidade": "Paulistânia",
-    "uf": "SP",
-    "latitude": -22.5768,
-    "longitude": -49.4008,
-    "concursos": [
-      {
-        "id": "camara-de-paulistania-sp-abre-concurso-publico-com-vagas-para-assistente-contabil-e-consultor-juridico:3536570",
-        "concursoId": "camara-de-paulistania-sp-abre-concurso-publico-com-vagas-para-assistente-contabil-e-consultor-juridico",
-        "codigoIbge": 3536570,
-        "cidade": "Paulistânia",
-        "uf": "SP",
-        "latitude": -22.5768,
-        "longitude": -49.4008,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Paulistânia — Câmara de Paulistânia - SP abre concurso público com vagas para Assistente Contábil e Consultor Jurídico",
-        "orgao": "Câmara de Paulistânia",
-        "titulo": "Câmara de Paulistânia - SP abre concurso público com vagas para Assistente Contábil e Consultor Jurídico",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-paulistania-sp-abre-concurso-publico-com-vagas-para-assistente-contabil-e-consultor-juridico",
-        "vagas": 2,
-        "salarioMaximo": 5700.14,
-        "inscricaoTexto": "17/10/2026",
-        "inscricaoFim": "2026-10-17"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3537800,
     "cidade": "Piedade",
     "uf": "SP",
@@ -15377,37 +15325,6 @@
         "salarioMaximo": 12154.19,
         "inscricaoTexto": "25/10/2026",
         "inscricaoFim": "2026-10-25"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3555802,
-    "cidade": "Urânia",
-    "uf": "SP",
-    "latitude": -20.2455,
-    "longitude": -50.6455,
-    "concursos": [
-      {
-        "id": "prefeitura-de-urania-sp-prorroga-inscricoes-de-concurso-publico-para-coordenador-e-orientador-social-do-cras:3555802",
-        "concursoId": "prefeitura-de-urania-sp-prorroga-inscricoes-de-concurso-publico-para-coordenador-e-orientador-social-do-cras",
-        "codigoIbge": 3555802,
-        "cidade": "Urânia",
-        "uf": "SP",
-        "latitude": -20.2455,
-        "longitude": -50.6455,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Urânia — Prefeitura de Urânia - SP prorroga inscrições de concurso público para Coordenador e Orientador Social do CRAS",
-        "orgao": "Prefeitura de Urânia",
-        "titulo": "Prefeitura de Urânia - SP prorroga inscrições de concurso público para Coordenador e Orientador Social do CRAS",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-urania-sp-prorroga-inscricoes-de-concurso-publico-para-coordenador-e-orientador-social-do-cras",
-        "vagas": 2,
-        "salarioMaximo": 3562.8,
-        "inscricaoTexto": "Prorrogado até17/10/2026",
-        "inscricaoFim": "2026-10-17"
       }
     ],
     "totalConcursos": 1
