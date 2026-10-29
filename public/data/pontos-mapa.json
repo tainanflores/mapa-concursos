@@ -26,30 +26,9 @@
         "salarioMaximo": 3700,
         "inscricaoTexto": "30/10/2026",
         "inscricaoFim": "2026-10-30"
-      },
-      {
-        "id": "camara-de-rio-branco-ac-abre-concurso-publico-com-13-vagas-imediatas:1200401",
-        "concursoId": "camara-de-rio-branco-ac-abre-concurso-publico-com-13-vagas-imediatas",
-        "codigoIbge": 1200401,
-        "cidade": "Rio Branco",
-        "uf": "AC",
-        "latitude": -9.97499,
-        "longitude": -67.8243,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Rio Branco — Câmara de Rio Branco - AC abre concurso público com 13 vagas imediatas",
-        "orgao": "Câmara de Rio Branco",
-        "titulo": "Câmara de Rio Branco - AC abre concurso público com 13 vagas imediatas",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-rio-branco-ac-abre-concurso-publico-com-13-vagas-imediatas",
-        "vagas": 13,
-        "salarioMaximo": 6300,
-        "inscricaoTexto": "13/10/2026",
-        "inscricaoFim": "2026-10-13"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 2701902,
@@ -613,6 +592,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 2917508,
+    "cidade": "Jacobina",
+    "uf": "BA",
+    "latitude": -11.1812,
+    "longitude": -40.5117,
+    "concursos": [
+      {
+        "id": "consan-ba-reabre-inscricoes-da-selecao-para-assistente-administrativo-tecnico-em-enfermagem-e-assessor-tecnico:2917508",
+        "concursoId": "consan-ba-reabre-inscricoes-da-selecao-para-assistente-administrativo-tecnico-em-enfermagem-e-assessor-tecnico",
+        "codigoIbge": 2917508,
+        "cidade": "Jacobina",
+        "uf": "BA",
+        "latitude": -11.1812,
+        "longitude": -40.5117,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "O Consórcio Público Interfederativo de Saúde de Piemonte da Chapada Norte (CONSAN) divulgou um processo seletivo para contratação temporária de pessoal e formação de cadastro de reserva para a Policlínica Regional de Saúde de Jacobina, na Bahia.",
+        "orgao": "CONSAN - Consórcio Público Interfederativo de Saúde de Piemonte da Chapada Norte",
+        "titulo": "CONSAN - BA reabre inscrições da seleção para Assistente Administrativo, Técnico em Enfermagem e Assessor Técnico",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/consan-ba-reabre-inscricoes-da-selecao-para-assistente-administrativo-tecnico-em-enfermagem-e-assessor-tecnico",
+        "vagas": 4,
+        "salarioMaximo": 4730.85,
+        "inscricaoTexto": "Reaberto até06/11/2026",
+        "inscricaoFim": "2026-11-06"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2920700,
     "cidade": "Maraú",
     "uf": "BA",
@@ -1064,37 +1074,6 @@
         "salarioMaximo": 5620.27,
         "inscricaoTexto": "Reaberto até08/11/2026",
         "inscricaoFim": "2026-11-08"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2306553,
-    "cidade": "Itarema",
-    "uf": "CE",
-    "latitude": -2.9248,
-    "longitude": -39.9167,
-    "concursos": [
-      {
-        "id": "prefeitura-de-itarema-ce-abre-concurso-publico-com-salarios-de-ate-5622:2306553",
-        "concursoId": "prefeitura-de-itarema-ce-abre-concurso-publico-com-salarios-de-ate-5622",
-        "codigoIbge": 2306553,
-        "cidade": "Itarema",
-        "uf": "CE",
-        "latitude": -2.9248,
-        "longitude": -39.9167,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Itarema — Prefeitura de Itarema - CE abre concurso público com salários de até R$ 5.622,00",
-        "orgao": "Prefeitura de Itarema",
-        "titulo": "Prefeitura de Itarema - CE abre concurso público com salários de até R$ 5.622,00",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itarema-ce-abre-concurso-publico-com-salarios-de-ate-5622",
-        "vagas": 203,
-        "salarioMaximo": 5622,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -1612,30 +1591,9 @@
         "salarioMaximo": 3763.26,
         "inscricaoTexto": "Prorrogado até29/10/2026",
         "inscricaoFim": "2026-10-29"
-      },
-      {
-        "id": "prefeitura-de-santa-maria-de-jetiba-es-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva:3204559",
-        "concursoId": "prefeitura-de-santa-maria-de-jetiba-es-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva",
-        "codigoIbge": 3204559,
-        "cidade": "Santa Maria de Jetibá",
-        "uf": "ES",
-        "latitude": -20.0253,
-        "longitude": -40.7439,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Santa Maria de Jetibá — Prefeitura de Santa Maria de Jetibá - ES abre processo seletivo para formação de cadastro de reserva",
-        "orgao": "Prefeitura de Santa Maria de Jetibá",
-        "titulo": "Prefeitura de Santa Maria de Jetibá - ES abre processo seletivo para formação de cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santa-maria-de-jetiba-es-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva",
-        "vagas": null,
-        "salarioMaximo": 17375.97,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3204906,
@@ -1817,8 +1775,39 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-cristalina-go-retifica-concurso-publico-com-salarios-de-ate-8383",
         "vagas": 36,
         "salarioMaximo": 8383.2,
-        "inscricaoTexto": "29/10 a18/11/2026",
+        "inscricaoTexto": "18/11/2026",
         "inscricaoFim": "2026-11-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 5207535,
+    "cidade": "Faina",
+    "uf": "GO",
+    "latitude": -15.4473,
+    "longitude": -50.3622,
+    "concursos": [
+      {
+        "id": "prefeitura-e-camara-de-faina-go-reabrem-concurso-publico-com-diversas-vagas:5207535",
+        "concursoId": "prefeitura-e-camara-de-faina-go-reabrem-concurso-publico-com-diversas-vagas",
+        "codigoIbge": 5207535,
+        "cidade": "Faina",
+        "uf": "GO",
+        "latitude": -15.4473,
+        "longitude": -50.3622,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura e Câmara de Faina — Prefeitura e Câmara de Faina - GO reabrem concurso público com diversas vagas",
+        "orgao": "Prefeitura e Câmara de Faina",
+        "titulo": "Prefeitura e Câmara de Faina - GO reabrem concurso público com diversas vagas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-e-camara-de-faina-go-reabrem-concurso-publico-com-diversas-vagas",
+        "vagas": 70,
+        "salarioMaximo": 13530,
+        "inscricaoTexto": "Reabertura de03/11 a03/12/2026",
+        "inscricaoFim": "2026-12-03"
       }
     ],
     "totalConcursos": 1
@@ -2057,37 +2046,6 @@
         "salarioMaximo": 4428.13,
         "inscricaoTexto": "09 a30/11/2026",
         "inscricaoFim": "2026-11-30"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5221700,
-    "cidade": "Uruana",
-    "uf": "GO",
-    "latitude": -15.4993,
-    "longitude": -49.6861,
-    "concursos": [
-      {
-        "id": "prefeitura-de-uruana-go-abre-concurso-publico-para-analista-ambiental:5221700",
-        "concursoId": "prefeitura-de-uruana-go-abre-concurso-publico-para-analista-ambiental",
-        "codigoIbge": 5221700,
-        "cidade": "Uruana",
-        "uf": "GO",
-        "latitude": -15.4993,
-        "longitude": -49.6861,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Uruana — Prefeitura de Uruana - GO abre concurso público para analista ambiental",
-        "orgao": "Prefeitura de Uruana",
-        "titulo": "Prefeitura de Uruana - GO abre concurso público para analista ambiental",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-uruana-go-abre-concurso-publico-para-analista-ambiental",
-        "vagas": 2,
-        "salarioMaximo": 2500,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -2735,6 +2693,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3111408,
+    "cidade": "Campo Florido",
+    "uf": "MG",
+    "latitude": -19.7631,
+    "longitude": -48.5716,
+    "concursos": [
+      {
+        "id": "prefeitura-de-campo-florido-mg-abre-processo-seletivo-para-diversos-cargos:3111408",
+        "concursoId": "prefeitura-de-campo-florido-mg-abre-processo-seletivo-para-diversos-cargos",
+        "codigoIbge": 3111408,
+        "cidade": "Campo Florido",
+        "uf": "MG",
+        "latitude": -19.7631,
+        "longitude": -48.5716,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Campo Florido — Prefeitura de Campo Florido - MG abre processo seletivo para diversos cargos",
+        "orgao": "Prefeitura de Campo Florido",
+        "titulo": "Prefeitura de Campo Florido - MG abre processo seletivo para diversos cargos",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-campo-florido-mg-abre-processo-seletivo-para-diversos-cargos",
+        "vagas": null,
+        "salarioMaximo": 4580.26,
+        "inscricaoTexto": "03 a06/11/2026",
+        "inscricaoFim": "2026-11-06"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3112208,
     "cidade": "Capela Nova",
     "uf": "MG",
@@ -2792,37 +2781,6 @@
         "salarioMaximo": 5800,
         "inscricaoTexto": "Prorrogado até10/11/2026",
         "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3113305,
-    "cidade": "Carangola",
-    "uf": "MG",
-    "latitude": -20.7343,
-    "longitude": -42.0313,
-    "concursos": [
-      {
-        "id": "semasa-de-carangola-mg-abre-processo-seletivo-para-o-cargo-de-pedreiro:3113305",
-        "concursoId": "semasa-de-carangola-mg-abre-processo-seletivo-para-o-cargo-de-pedreiro",
-        "codigoIbge": 3113305,
-        "cidade": "Carangola",
-        "uf": "MG",
-        "latitude": -20.7343,
-        "longitude": -42.0313,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SEMASA - Serviço Municipal de Saneamento Básico e Infraestrutura de Carangola — SEMASA de Carangola - MG abre processo seletivo para o cargo de Pedreiro",
-        "orgao": "SEMASA - Serviço Municipal de Saneamento Básico e Infraestrutura de Carangola",
-        "titulo": "SEMASA de Carangola - MG abre processo seletivo para o cargo de Pedreiro",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/semasa-de-carangola-mg-abre-processo-seletivo-para-o-cargo-de-pedreiro",
-        "vagas": 1,
-        "salarioMaximo": 1684.8,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -3150,6 +3108,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 3119708,
+    "cidade": "Coronel Xavier Chaves",
+    "uf": "MG",
+    "latitude": -21.0277,
+    "longitude": -44.2206,
+    "concursos": [
+      {
+        "id": "camara-de-coronel-xavier-chaves-mg-abre-concurso-publico-para-analista-administrativo-e-contador:3119708",
+        "concursoId": "camara-de-coronel-xavier-chaves-mg-abre-concurso-publico-para-analista-administrativo-e-contador",
+        "codigoIbge": 3119708,
+        "cidade": "Coronel Xavier Chaves",
+        "uf": "MG",
+        "latitude": -21.0277,
+        "longitude": -44.2206,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Coronel Xavier Chaves — Câmara de Coronel Xavier Chaves - MG abre concurso público para Analista Administrativo e Contador",
+        "orgao": "Câmara de Coronel Xavier Chaves",
+        "titulo": "Câmara de Coronel Xavier Chaves - MG abre concurso público para Analista Administrativo e Contador",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-coronel-xavier-chaves-mg-abre-concurso-publico-para-analista-administrativo-e-contador",
+        "vagas": 3,
+        "salarioMaximo": 3569.14,
+        "inscricaoTexto": "06/01 a04/02/2027",
+        "inscricaoFim": "2027-02-04"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3120870,
     "cidade": "Curral de Dentro",
     "uf": "MG",
@@ -3207,9 +3196,30 @@
         "salarioMaximo": 3242,
         "inscricaoTexto": "03 a08/11/2026",
         "inscricaoFim": "2026-11-08"
+      },
+      {
+        "id": "prefeitura-de-curvelo-mg-abre-processo-seletivo-para-o-cargo-de-rondante-no-tiro-de-guerra:3120904",
+        "concursoId": "prefeitura-de-curvelo-mg-abre-processo-seletivo-para-o-cargo-de-rondante-no-tiro-de-guerra",
+        "codigoIbge": 3120904,
+        "cidade": "Curvelo",
+        "uf": "MG",
+        "latitude": -18.7527,
+        "longitude": -44.4303,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Curvelo — Prefeitura de Curvelo - MG abre processo seletivo para o cargo de Rondante no Tiro de Guerra",
+        "orgao": "Prefeitura de Curvelo",
+        "titulo": "Prefeitura de Curvelo - MG abre processo seletivo para o cargo de Rondante no Tiro de Guerra",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-curvelo-mg-abre-processo-seletivo-para-o-cargo-de-rondante-no-tiro-de-guerra",
+        "vagas": 4,
+        "salarioMaximo": 1634.36,
+        "inscricaoTexto": "03/11/2026",
+        "inscricaoFim": "2026-11-03"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3122405,
@@ -3445,37 +3455,6 @@
         "salarioMaximo": 1757.28,
         "inscricaoTexto": "26/11/2026",
         "inscricaoFim": "2026-11-26"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3134806,
-    "cidade": "Jacuí",
-    "uf": "MG",
-    "latitude": -21.0137,
-    "longitude": -46.7359,
-    "concursos": [
-      {
-        "id": "camara-de-jacui-mg-abre-vagas-para-auxiliares-administrativos:3134806",
-        "concursoId": "camara-de-jacui-mg-abre-vagas-para-auxiliares-administrativos",
-        "codigoIbge": 3134806,
-        "cidade": "Jacuí",
-        "uf": "MG",
-        "latitude": -21.0137,
-        "longitude": -46.7359,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Jacuí — Câmara de Jacuí - MG abre vagas para auxiliares administrativos",
-        "orgao": "Câmara de Jacuí",
-        "titulo": "Câmara de Jacuí - MG abre vagas para auxiliares administrativos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-jacui-mg-abre-vagas-para-auxiliares-administrativos",
-        "vagas": 3,
-        "salarioMaximo": 2046.87,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -4815,6 +4794,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3162955,
+    "cidade": "São José da Lapa",
+    "uf": "MG",
+    "latitude": -19.6971,
+    "longitude": -43.9586,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-jose-da-lapa-mg-abre-selecao-para-cadastro-de-reserva-na-educacao:3162955",
+        "concursoId": "prefeitura-de-sao-jose-da-lapa-mg-abre-selecao-para-cadastro-de-reserva-na-educacao",
+        "codigoIbge": 3162955,
+        "cidade": "São José da Lapa",
+        "uf": "MG",
+        "latitude": -19.6971,
+        "longitude": -43.9586,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São José da Lapa — Prefeitura de São José da Lapa - MG abre seleção para cadastro de reserva na educação",
+        "orgao": "Prefeitura de São José da Lapa",
+        "titulo": "Prefeitura de São José da Lapa - MG abre seleção para cadastro de reserva na educação",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-jose-da-lapa-mg-abre-selecao-para-cadastro-de-reserva-na-educacao",
+        "vagas": null,
+        "salarioMaximo": 3689.99,
+        "inscricaoTexto": "16 a18/11/2026",
+        "inscricaoFim": "2026-11-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3163904,
     "cidade": "São Pedro da União",
     "uf": "MG",
@@ -5302,6 +5312,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3170701,
+    "cidade": "Varginha",
+    "uf": "MG",
+    "latitude": -21.5556,
+    "longitude": -45.4364,
+    "concursos": [
+      {
+        "id": "prefeitura-de-varginha-mg-abre-selecao-para-auxiliar-de-educador-cuidador-residente:3170701",
+        "concursoId": "prefeitura-de-varginha-mg-abre-selecao-para-auxiliar-de-educador-cuidador-residente",
+        "codigoIbge": 3170701,
+        "cidade": "Varginha",
+        "uf": "MG",
+        "latitude": -21.5556,
+        "longitude": -45.4364,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Varginha - Secretaria Municipal de Habitação e Desenvolvimento Social (SEHAD) — Prefeitura de Varginha - MG abre seleção para Auxiliar de Educador/Cuidador Residente",
+        "orgao": "Prefeitura de Varginha - Secretaria Municipal de Habitação e Desenvolvimento Social (SEHAD)",
+        "titulo": "Prefeitura de Varginha - MG abre seleção para Auxiliar de Educador/Cuidador Residente",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-varginha-mg-abre-selecao-para-auxiliar-de-educador-cuidador-residente",
+        "vagas": 8,
+        "salarioMaximo": 1701.3,
+        "inscricaoTexto": "13/11/2026",
+        "inscricaoFim": "2026-11-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3171303,
     "cidade": "Viçosa",
     "uf": "MG",
@@ -5605,7 +5646,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-cuiaba-mt-abre-concurso-publico-com-salarios-de-ate-11629",
         "vagas": 26,
         "salarioMaximo": 11629.67,
-        "inscricaoTexto": "29/10 a30/11/2026",
+        "inscricaoTexto": "30/11/2026",
         "inscricaoFim": "2026-11-30"
       }
     ],
@@ -6050,7 +6091,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-portel-pa-abre-concurso-publico-com-salarios-de-ate-4723",
         "vagas": 27,
         "salarioMaximo": 4723.31,
-        "inscricaoTexto": "29/10 a15/11/2026",
+        "inscricaoTexto": "15/11/2026",
         "inscricaoFim": "2026-11-15"
       }
     ],
@@ -6226,7 +6267,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-areia-pb-abre-concurso-para-auxiliar-de-servicos-gerais-e-auxiliar-administrativo",
         "vagas": 4,
         "salarioMaximo": 1621,
-        "inscricaoTexto": "29/10 a29/11/2026",
+        "inscricaoTexto": "29/11/2026",
         "inscricaoFim": "2026-11-29"
       }
     ],
@@ -6454,7 +6495,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-serra-grande-pb-abre-concurso-publico-com-vagas-para-diversos-cargos",
         "vagas": 41,
         "salarioMaximo": 3651,
-        "inscricaoTexto": "29/10 a29/11/2026",
+        "inscricaoTexto": "29/11/2026",
         "inscricaoFim": "2026-11-29"
       }
     ],
@@ -6634,27 +6675,6 @@
         "inscricaoFim": "2026-11-23"
       },
       {
-        "id": "prefeitura-do-recife-pe-abre-concurso-publico-com-vagas-para-musicos:2611606",
-        "concursoId": "prefeitura-do-recife-pe-abre-concurso-publico-com-vagas-para-musicos",
-        "codigoIbge": 2611606,
-        "cidade": "Recife",
-        "uf": "PE",
-        "latitude": -8.04666,
-        "longitude": -34.8771,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura do Recife — Prefeitura do Recife - PE abre concurso público com vagas para músicos",
-        "orgao": "Prefeitura do Recife",
-        "titulo": "Prefeitura do Recife - PE abre concurso público com vagas para músicos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-do-recife-pe-abre-concurso-publico-com-vagas-para-musicos",
-        "vagas": 45,
-        "salarioMaximo": 5587.46,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      },
-      {
         "id": "universidade-de-pernambuco-abre-concurso-publico-para-o-cargo-de-advogado:2611606",
         "concursoId": "universidade-de-pernambuco-abre-concurso-publico-para-o-cargo-de-advogado",
         "codigoIbge": 2611606,
@@ -6676,7 +6696,7 @@
         "inscricaoFim": "2026-11-02"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 2615607,
@@ -6705,6 +6725,37 @@
         "salarioMaximo": 6600,
         "inscricaoTexto": "19/10/2026",
         "inscricaoFim": "2026-10-19"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 2201572,
+    "cidade": "Belém do Piauí",
+    "uf": "PI",
+    "latitude": -7.36652,
+    "longitude": -40.9688,
+    "concursos": [
+      {
+        "id": "prefeitura-de-belem-do-piaui-pi-abre-concurso-com-remuneracoes-de-ate-12000:2201572",
+        "concursoId": "prefeitura-de-belem-do-piaui-pi-abre-concurso-com-remuneracoes-de-ate-12000",
+        "codigoIbge": 2201572,
+        "cidade": "Belém do Piauí",
+        "uf": "PI",
+        "latitude": -7.36652,
+        "longitude": -40.9688,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Belém do Piauí — Prefeitura de Belém do Piauí - PI abre concurso com remunerações de até R$ 12.000,00",
+        "orgao": "Prefeitura de Belém do Piauí",
+        "titulo": "Prefeitura de Belém do Piauí - PI abre concurso com remunerações de até R$ 12.000,00",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-belem-do-piaui-pi-abre-concurso-com-remuneracoes-de-ate-12000",
+        "vagas": 49,
+        "salarioMaximo": 12000,
+        "inscricaoTexto": "30/10 a25/11/2026",
+        "inscricaoFim": "2026-11-25"
       }
     ],
     "totalConcursos": 1
@@ -7051,6 +7102,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2210300,
+    "cidade": "São Julião",
+    "uf": "PI",
+    "latitude": -7.08391,
+    "longitude": -40.8246,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-juliao-pi-suspende-concurso-publico:2210300",
+        "concursoId": "prefeitura-de-sao-juliao-pi-suspende-concurso-publico",
+        "codigoIbge": 2210300,
+        "cidade": "São Julião",
+        "uf": "PI",
+        "latitude": -7.08391,
+        "longitude": -40.8246,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São Julião — Prefeitura de São Julião - PI suspende concurso público",
+        "orgao": "Prefeitura de São Julião",
+        "titulo": "Prefeitura de São Julião - PI suspende concurso público",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-juliao-pi-suspende-concurso-publico",
+        "vagas": 112,
+        "salarioMaximo": 6000,
+        "inscricaoTexto": "Suspenso",
+        "inscricaoFim": null
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4101408,
     "cidade": "Apucarana",
     "uf": "PR",
@@ -7108,37 +7190,6 @@
         "salarioMaximo": 5677.08,
         "inscricaoTexto": "04/11/2026",
         "inscricaoFim": "2026-11-04"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4104451,
-    "cidade": "Cantagalo",
-    "uf": "PR",
-    "latitude": -25.3734,
-    "longitude": -52.1198,
-    "concursos": [
-      {
-        "id": "camara-de-cantagalo-pr-abre-concurso-publico-para-o-cargo-de-assessor-juridico:4104451",
-        "concursoId": "camara-de-cantagalo-pr-abre-concurso-publico-para-o-cargo-de-assessor-juridico",
-        "codigoIbge": 4104451,
-        "cidade": "Cantagalo",
-        "uf": "PR",
-        "latitude": -25.3734,
-        "longitude": -52.1198,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Cantagalo — Câmara de Cantagalo - PR abre concurso público para o cargo de Assessor Jurídico",
-        "orgao": "Câmara de Cantagalo",
-        "titulo": "Câmara de Cantagalo - PR abre concurso público para o cargo de Assessor Jurídico",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-cantagalo-pr-abre-concurso-publico-para-o-cargo-de-assessor-juridico",
-        "vagas": 1,
-        "salarioMaximo": 9278.5,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -7406,7 +7457,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/uel-pr-abre-processo-seletivo-para-tecnicos-em-higiene-dental-e-em-laboratorio-planetario",
         "vagas": 2,
         "salarioMaximo": 4443.18,
-        "inscricaoTexto": "29/10 a19/11/2026",
+        "inscricaoTexto": "19/11/2026",
         "inscricaoFim": "2026-11-19"
       }
     ],
@@ -7439,37 +7490,6 @@
         "salarioMaximo": 12823.98,
         "inscricaoTexto": "29/10/2026",
         "inscricaoFim": "2026-10-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4119905,
-    "cidade": "Ponta Grossa",
-    "uf": "PR",
-    "latitude": -25.0916,
-    "longitude": -50.1668,
-    "concursos": [
-      {
-        "id": "uepg-pr-abre-selecao-para-agentes-universitarios:4119905",
-        "concursoId": "uepg-pr-abre-selecao-para-agentes-universitarios",
-        "codigoIbge": 4119905,
-        "cidade": "Ponta Grossa",
-        "uf": "PR",
-        "latitude": -25.0916,
-        "longitude": -50.1668,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "UEPG - Universidade Estadual de Ponta Grossa — UEPG - PR abre seleção para agentes universitários",
-        "orgao": "UEPG - Universidade Estadual de Ponta Grossa",
-        "titulo": "UEPG - PR abre seleção para agentes universitários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/uepg-pr-abre-selecao-para-agentes-universitarios",
-        "vagas": 5,
-        "salarioMaximo": 7997.72,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -7532,6 +7552,37 @@
         "salarioMaximo": 11998.88,
         "inscricaoTexto": "25/11/2026",
         "inscricaoFim": "2026-11-25"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4121406,
+    "cidade": "Realeza",
+    "uf": "PR",
+    "latitude": -25.7711,
+    "longitude": -53.526,
+    "concursos": [
+      {
+        "id": "prefeitura-de-realeza-pr-abre-concurso-publico-para-controlador-interno-e-procurador-juridico:4121406",
+        "concursoId": "prefeitura-de-realeza-pr-abre-concurso-publico-para-controlador-interno-e-procurador-juridico",
+        "codigoIbge": 4121406,
+        "cidade": "Realeza",
+        "uf": "PR",
+        "latitude": -25.7711,
+        "longitude": -53.526,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Realeza — Prefeitura de Realeza - PR abre concurso público para Controlador Interno e Procurador Jurídico",
+        "orgao": "Prefeitura de Realeza",
+        "titulo": "Prefeitura de Realeza - PR abre concurso público para Controlador Interno e Procurador Jurídico",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-realeza-pr-abre-concurso-publico-para-controlador-interno-e-procurador-juridico",
+        "vagas": 2,
+        "salarioMaximo": 8800,
+        "inscricaoTexto": "03/11 a03/12/2026",
+        "inscricaoFim": "2026-12-03"
       }
     ],
     "totalConcursos": 1
@@ -8210,37 +8261,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3304144,
-    "cidade": "Queimados",
-    "uf": "RJ",
-    "latitude": -22.7102,
-    "longitude": -43.5518,
-    "concursos": [
-      {
-        "id": "prefeitura-de-queimados-rj-abre-concurso-publico-com-salarios-de-ate-11567:3304144",
-        "concursoId": "prefeitura-de-queimados-rj-abre-concurso-publico-com-salarios-de-ate-11567",
-        "codigoIbge": 3304144,
-        "cidade": "Queimados",
-        "uf": "RJ",
-        "latitude": -22.7102,
-        "longitude": -43.5518,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Queimados — Prefeitura de Queimados - RJ abre concurso público com salários de até R$ 11.567,11",
-        "orgao": "Prefeitura de Queimados",
-        "titulo": "Prefeitura de Queimados - RJ abre concurso público com salários de até R$ 11.567,11",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-queimados-rj-abre-concurso-publico-com-salarios-de-ate-11567",
-        "vagas": 463,
-        "salarioMaximo": 11567.11,
-        "inscricaoTexto": "13/10/2026",
-        "inscricaoFim": "2026-10-13"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3304201,
     "cidade": "Resende",
     "uf": "RJ",
@@ -8424,9 +8444,51 @@
         "salarioMaximo": 5239.4,
         "inscricaoTexto": "02/11/2026",
         "inscricaoFim": "2026-11-02"
+      },
+      {
+        "id": "riosaude-rj-abre-processo-seletivo-para-os-cargos-de-enfermeiro-e-terapeuta-ocupacional:3304557",
+        "concursoId": "riosaude-rj-abre-processo-seletivo-para-os-cargos-de-enfermeiro-e-terapeuta-ocupacional",
+        "codigoIbge": 3304557,
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "latitude": -22.9129,
+        "longitude": -43.2003,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A — RioSaúde - RJ abre processo seletivo para os cargos de enfermeiro e terapeuta ocupacional",
+        "orgao": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A",
+        "titulo": "RioSaúde - RJ abre processo seletivo para os cargos de enfermeiro e terapeuta ocupacional",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/riosaude-rj-abre-processo-seletivo-para-os-cargos-de-enfermeiro-e-terapeuta-ocupacional",
+        "vagas": 3,
+        "salarioMaximo": 6969.53,
+        "inscricaoTexto": "08/11/2026",
+        "inscricaoFim": "2026-11-08"
+      },
+      {
+        "id": "riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico:3304557",
+        "concursoId": "riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico",
+        "codigoIbge": 3304557,
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "latitude": -22.9129,
+        "longitude": -43.2003,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A — RioSaúde - RJ abre vagas para maqueiro, auxiliar de suprimentos e instrumentador cirúrgico",
+        "orgao": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A",
+        "titulo": "RioSaúde - RJ abre vagas para maqueiro, auxiliar de suprimentos e instrumentador cirúrgico",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico",
+        "vagas": 3,
+        "salarioMaximo": 2513.73,
+        "inscricaoTexto": "10/11/2026",
+        "inscricaoFim": "2026-11-10"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 8
   },
   {
     "codigoIbge": 3304904,
@@ -8698,6 +8760,99 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 1100023,
+    "cidade": "Ariquemes",
+    "uf": "RO",
+    "latitude": -9.90571,
+    "longitude": -63.0325,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100023",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100023,
+        "cidade": "Ariquemes",
+        "uf": "RO",
+        "latitude": -9.90571,
+        "longitude": -63.0325,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Ariquemes (12 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100452,
+    "cidade": "Buritis",
+    "uf": "RO",
+    "latitude": -10.1943,
+    "longitude": -63.8324,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100452",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100452,
+        "cidade": "Buritis",
+        "uf": "RO",
+        "latitude": -10.1943,
+        "longitude": -63.8324,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Buritis (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100049,
+    "cidade": "Cacoal",
+    "uf": "RO",
+    "latitude": -11.4343,
+    "longitude": -61.4562,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100049",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100049,
+        "cidade": "Cacoal",
+        "uf": "RO",
+        "latitude": -11.4343,
+        "longitude": -61.4562,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Cacoal (12 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 1100809,
     "cidade": "Candeias do Jamari",
     "uf": "RO",
@@ -8724,6 +8879,306 @@
         "salarioMaximo": 3500,
         "inscricaoTexto": "Prorrogado até30/10/2026",
         "inscricaoFim": "2026-10-30"
+      },
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100809",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100809,
+        "cidade": "Candeias do Jamari",
+        "uf": "RO",
+        "latitude": -8.7907,
+        "longitude": -63.7005,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Candeias do Jamari (3 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 1100056,
+    "cidade": "Cerejeiras",
+    "uf": "RO",
+    "latitude": -13.187,
+    "longitude": -60.8168,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100056",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100056,
+        "cidade": "Cerejeiras",
+        "uf": "RO",
+        "latitude": -13.187,
+        "longitude": -60.8168,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Cerejeiras (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100064,
+    "cidade": "Colorado do Oeste",
+    "uf": "RO",
+    "latitude": -13.1174,
+    "longitude": -60.5454,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100064",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100064,
+        "cidade": "Colorado do Oeste",
+        "uf": "RO",
+        "latitude": -13.1174,
+        "longitude": -60.5454,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Colorado do Oeste (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100940,
+    "cidade": "Cujubim",
+    "uf": "RO",
+    "latitude": -9.36065,
+    "longitude": -62.5846,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100940",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100940,
+        "cidade": "Cujubim",
+        "uf": "RO",
+        "latitude": -9.36065,
+        "longitude": -62.5846,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Cujubim (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100106,
+    "cidade": "Guajará-Mirim",
+    "uf": "RO",
+    "latitude": -10.7889,
+    "longitude": -65.3296,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100106",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100106,
+        "cidade": "Guajará-Mirim",
+        "uf": "RO",
+        "latitude": -10.7889,
+        "longitude": -65.3296,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Guajará-Mirim (7 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100114,
+    "cidade": "Jaru",
+    "uf": "RO",
+    "latitude": -10.4318,
+    "longitude": -62.4788,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100114",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100114,
+        "cidade": "Jaru",
+        "uf": "RO",
+        "latitude": -10.4318,
+        "longitude": -62.4788,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Jaru (8 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100122,
+    "cidade": "Ji-Paraná",
+    "uf": "RO",
+    "latitude": -10.8777,
+    "longitude": -61.9322,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100122",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100122,
+        "cidade": "Ji-Paraná",
+        "uf": "RO",
+        "latitude": -10.8777,
+        "longitude": -61.9322,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Ji-Paraná (39 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100338,
+    "cidade": "Nova Mamoré",
+    "uf": "RO",
+    "latitude": -10.4077,
+    "longitude": -65.3346,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100338",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100338,
+        "cidade": "Nova Mamoré",
+        "uf": "RO",
+        "latitude": -10.4077,
+        "longitude": -65.3346,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Nova Mamoré (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100155,
+    "cidade": "Ouro Preto do Oeste",
+    "uf": "RO",
+    "latitude": -10.7167,
+    "longitude": -62.2565,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100155",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100155,
+        "cidade": "Ouro Preto do Oeste",
+        "uf": "RO",
+        "latitude": -10.7167,
+        "longitude": -62.2565,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Ouro Preto do Oeste (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100189,
+    "cidade": "Pimenta Bueno",
+    "uf": "RO",
+    "latitude": -11.672,
+    "longitude": -61.198,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100189",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100189,
+        "cidade": "Pimenta Bueno",
+        "uf": "RO",
+        "latitude": -11.672,
+        "longitude": -61.198,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Pimenta Bueno (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
       }
     ],
     "totalConcursos": 1
@@ -8797,9 +9252,61 @@
         "salarioMaximo": 3847.97,
         "inscricaoTexto": "11/11/2026",
         "inscricaoFim": "2026-11-11"
+      },
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100205",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100205,
+        "cidade": "Porto Velho",
+        "uf": "RO",
+        "latitude": -8.76077,
+        "longitude": -63.8999,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Porto Velho (167 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 4
+  },
+  {
+    "codigoIbge": 1100288,
+    "cidade": "Rolim de Moura",
+    "uf": "RO",
+    "latitude": -11.7271,
+    "longitude": -61.7714,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100288",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100288,
+        "cidade": "Rolim de Moura",
+        "uf": "RO",
+        "latitude": -11.7271,
+        "longitude": -61.7714,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Rolim de Moura (6 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 1100296,
@@ -8833,6 +9340,68 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 1101492,
+    "cidade": "São Francisco do Guaporé",
+    "uf": "RO",
+    "latitude": -12.052,
+    "longitude": -63.568,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1101492",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1101492,
+        "cidade": "São Francisco do Guaporé",
+        "uf": "RO",
+        "latitude": -12.052,
+        "longitude": -63.568,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em São Francisco do Guaporé (2 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 1100320,
+    "cidade": "São Miguel do Guaporé",
+    "uf": "RO",
+    "latitude": -11.6953,
+    "longitude": -62.7192,
+    "concursos": [
+      {
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100320",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "codigoIbge": 1100320,
+        "cidade": "São Miguel do Guaporé",
+        "uf": "RO",
+        "latitude": -11.6953,
+        "longitude": -62.7192,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em São Miguel do Guaporé (4 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 1100304,
     "cidade": "Vilhena",
     "uf": "RO",
@@ -8840,25 +9409,25 @@
     "longitude": -60.1488,
     "concursos": [
       {
-        "id": "prefeitura-de-vilhena-ro-retifica-o-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias:1100304",
-        "concursoId": "prefeitura-de-vilhena-ro-retifica-o-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias",
+        "id": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros:1100304",
+        "concursoId": "sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
         "codigoIbge": 1100304,
         "cidade": "Vilhena",
         "uf": "RO",
         "latitude": -12.7502,
         "longitude": -60.1488,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "tipoLocalidade": "lotacao",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Vilhena — Prefeitura de Vilhena - RO retifica o edital de processo seletivo para Agentes de Saúde e de Endemias",
-        "orgao": "Prefeitura de Vilhena",
-        "titulo": "Prefeitura de Vilhena - RO retifica o edital de processo seletivo para Agentes de Saúde e de Endemias",
-        "status": "encerrado",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vilhena-ro-retifica-o-edital-de-processo-seletivo-para-agentes-de-saude-e-de-endemias",
-        "vagas": 30,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "13/10/2026",
-        "inscricaoFim": "2026-10-13"
+        "contextoLocalidade": "Prestador Voluntário de Serviços Administrativos em Vilhena (12 vagas)",
+        "orgao": "SESDEC - Secretaria de Estado da Segurança, Defesa e Cidadania",
+        "titulo": "SESDEC - RO abre seleção para prestadores voluntários na Polícia Militar e no Corpo de Bombeiros",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/sesdec-ro-abre-selecao-para-prestadores-voluntarios-na-policia-militar-e-no-corpo-de-bombeiros",
+        "vagas": 332,
+        "salarioMaximo": 1350,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
       }
     ],
     "totalConcursos": 1
@@ -9081,32 +9650,32 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4304408,
-    "cidade": "Canela",
+    "codigoIbge": 4304622,
+    "cidade": "Capão Bonito do Sul",
     "uf": "RS",
-    "latitude": -29.356,
-    "longitude": -50.8119,
+    "latitude": -28.1254,
+    "longitude": -51.3961,
     "concursos": [
       {
-        "id": "prefeitura-de-canela-rs-abre-selecao-para-assistentes-sociais:4304408",
-        "concursoId": "prefeitura-de-canela-rs-abre-selecao-para-assistentes-sociais",
-        "codigoIbge": 4304408,
-        "cidade": "Canela",
+        "id": "prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil:4304622",
+        "concursoId": "prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil",
+        "codigoIbge": 4304622,
+        "cidade": "Capão Bonito do Sul",
         "uf": "RS",
-        "latitude": -29.356,
-        "longitude": -50.8119,
+        "latitude": -28.1254,
+        "longitude": -51.3961,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Canela — Prefeitura de Canela - RS abre seleção para assistentes sociais",
-        "orgao": "Prefeitura de Canela",
-        "titulo": "Prefeitura de Canela - RS abre seleção para assistentes sociais",
+        "contextoLocalidade": "Prefeitura de Capão Bonito do Sul — Prefeitura de Capão Bonito do Sul - RS abre vaga para engenheiro civil",
+        "orgao": "Prefeitura de Capão Bonito do Sul",
+        "titulo": "Prefeitura de Capão Bonito do Sul - RS abre vaga para engenheiro civil",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-canela-rs-abre-selecao-para-assistentes-sociais",
-        "vagas": 4,
-        "salarioMaximo": 7988.6,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil",
+        "vagas": 1,
+        "salarioMaximo": 4673.49,
+        "inscricaoTexto": "03 a10/11/2026",
+        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -9169,37 +9738,6 @@
         "salarioMaximo": 3815.17,
         "inscricaoTexto": "29/10/2026",
         "inscricaoFim": "2026-10-29"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4308607,
-    "cidade": "Garibaldi",
-    "uf": "RS",
-    "latitude": -29.259,
-    "longitude": -51.5352,
-    "concursos": [
-      {
-        "id": "prefeitura-de-garibaldi-rs-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva:4308607",
-        "concursoId": "prefeitura-de-garibaldi-rs-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva",
-        "codigoIbge": 4308607,
-        "cidade": "Garibaldi",
-        "uf": "RS",
-        "latitude": -29.259,
-        "longitude": -51.5352,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Garibaldi — Prefeitura de Garibaldi - RS abre processo seletivo para formação de cadastro de reserva",
-        "orgao": "Prefeitura de Garibaldi",
-        "titulo": "Prefeitura de Garibaldi - RS abre processo seletivo para formação de cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-garibaldi-rs-abre-processo-seletivo-para-formacao-de-cadastro-de-reserva",
-        "vagas": null,
-        "salarioMaximo": 7823.79,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
       }
     ],
     "totalConcursos": 1
@@ -9754,37 +10292,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4313904,
-    "cidade": "Panambi",
-    "uf": "RS",
-    "latitude": -28.2833,
-    "longitude": -53.5023,
-    "concursos": [
-      {
-        "id": "prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388:4313904",
-        "concursoId": "prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388",
-        "codigoIbge": 4313904,
-        "cidade": "Panambi",
-        "uf": "RS",
-        "latitude": -28.2833,
-        "longitude": -53.5023,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Panambi — Prefeitura de Panambi - RS abre concurso público com salários de até R$ 5.388,99",
-        "orgao": "Prefeitura de Panambi",
-        "titulo": "Prefeitura de Panambi - RS abre concurso público com salários de até R$ 5.388,99",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-panambi-rs-abre-concurso-publico-com-salarios-de-ate-5388",
-        "vagas": 31,
-        "salarioMaximo": 5388.99,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4314100,
     "cidade": "Passo Fundo",
     "uf": "RS",
@@ -10118,37 +10625,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4321303,
-    "cidade": "Taquari",
-    "uf": "RS",
-    "latitude": -29.7943,
-    "longitude": -51.8653,
-    "concursos": [
-      {
-        "id": "prefeitura-de-taquari-rs-abre-selecao-para-motoristas:4321303",
-        "concursoId": "prefeitura-de-taquari-rs-abre-selecao-para-motoristas",
-        "codigoIbge": 4321303,
-        "cidade": "Taquari",
-        "uf": "RS",
-        "latitude": -29.7943,
-        "longitude": -51.8653,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Taquari — Prefeitura de Taquari - RS abre seleção para motoristas",
-        "orgao": "Prefeitura de Taquari",
-        "titulo": "Prefeitura de Taquari - RS abre seleção para motoristas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-taquari-rs-abre-selecao-para-motoristas",
-        "vagas": 3,
-        "salarioMaximo": 2657.14,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4321469,
     "cidade": "Tio Hugo",
     "uf": "RS",
@@ -10211,6 +10687,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4321501,
+    "cidade": "Torres",
+    "uf": "RS",
+    "latitude": -29.3334,
+    "longitude": -49.7333,
+    "concursos": [
+      {
+        "id": "prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas:4321501",
+        "concursoId": "prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas",
+        "codigoIbge": 4321501,
+        "cidade": "Torres",
+        "uf": "RS",
+        "latitude": -29.3334,
+        "longitude": -49.7333,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Torres — Prefeitura de Torres - RS abre seleções para cadastro de reserva em diversas áreas",
+        "orgao": "Prefeitura de Torres",
+        "titulo": "Prefeitura de Torres - RS abre seleções para cadastro de reserva em diversas áreas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas",
+        "vagas": null,
+        "salarioMaximo": 2562.23,
+        "inscricaoTexto": "10/11/2026",
+        "inscricaoFim": "2026-11-10"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4323101,
     "cidade": "Vicente Dutra",
     "uf": "RS",
@@ -10237,6 +10744,37 @@
         "salarioMaximo": 9089.82,
         "inscricaoTexto": "05/11/2026",
         "inscricaoFim": "2026-11-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4323200,
+    "cidade": "Victor Graeff",
+    "uf": "RS",
+    "latitude": -28.5632,
+    "longitude": -52.7495,
+    "concursos": [
+      {
+        "id": "prefeitura-de-victor-graeff-rs-divulga-edital-de-processo-seletivo-para-auxiliar-de-servicos-gerais:4323200",
+        "concursoId": "prefeitura-de-victor-graeff-rs-divulga-edital-de-processo-seletivo-para-auxiliar-de-servicos-gerais",
+        "codigoIbge": 4323200,
+        "cidade": "Victor Graeff",
+        "uf": "RS",
+        "latitude": -28.5632,
+        "longitude": -52.7495,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Victor Graeff — Prefeitura de Victor Graeff - RS divulga edital de processo seletivo para Auxiliar de Serviços Gerais",
+        "orgao": "Prefeitura de Victor Graeff",
+        "titulo": "Prefeitura de Victor Graeff - RS divulga edital de processo seletivo para Auxiliar de Serviços Gerais",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-victor-graeff-rs-divulga-edital-de-processo-seletivo-para-auxiliar-de-servicos-gerais",
+        "vagas": null,
+        "salarioMaximo": 1781.92,
+        "inscricaoTexto": "06/11/2026",
+        "inscricaoFim": "2026-11-06"
       }
     ],
     "totalConcursos": 1
@@ -10625,32 +11163,32 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4203907,
-    "cidade": "Capinzal",
+    "codigoIbge": 4204178,
+    "cidade": "Cerro Negro",
     "uf": "SC",
-    "latitude": -27.3473,
-    "longitude": -51.6057,
+    "latitude": -27.7942,
+    "longitude": -50.8673,
     "concursos": [
       {
-        "id": "camara-de-capinzal-sc-anuncia-concurso-publico-para-cargos-de-nivel-superior:4203907",
-        "concursoId": "camara-de-capinzal-sc-anuncia-concurso-publico-para-cargos-de-nivel-superior",
-        "codigoIbge": 4203907,
-        "cidade": "Capinzal",
+        "id": "prefeitura-de-cerro-negro-sc-abre-concurso-publico-com-salarios-de-ate-7660:4204178",
+        "concursoId": "prefeitura-de-cerro-negro-sc-abre-concurso-publico-com-salarios-de-ate-7660",
+        "codigoIbge": 4204178,
+        "cidade": "Cerro Negro",
         "uf": "SC",
-        "latitude": -27.3473,
-        "longitude": -51.6057,
+        "latitude": -27.7942,
+        "longitude": -50.8673,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Capinzal — Câmara de Capinzal - SC anuncia concurso público para cargos de nível superior",
-        "orgao": "Câmara de Capinzal",
-        "titulo": "Câmara de Capinzal - SC anuncia concurso público para cargos de nível superior",
+        "contextoLocalidade": "Prefeitura de Cerro Negro — Prefeitura de Cerro Negro - SC abre concurso público com salários de até R$ 7.660,98",
+        "orgao": "Prefeitura de Cerro Negro",
+        "titulo": "Prefeitura de Cerro Negro - SC abre concurso público com salários de até R$ 7.660,98",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-capinzal-sc-anuncia-concurso-publico-para-cargos-de-nivel-superior",
-        "vagas": 5,
-        "salarioMaximo": 4534.82,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cerro-negro-sc-abre-concurso-publico-com-salarios-de-ate-7660",
+        "vagas": 11,
+        "salarioMaximo": 7660.98,
+        "inscricaoTexto": "30/10 a19/11/2026",
+        "inscricaoFim": "2026-11-19"
       }
     ],
     "totalConcursos": 1
@@ -10881,27 +11419,6 @@
         "inscricaoFim": "2026-11-09"
       },
       {
-        "id": "fahece-sc-anuncia-vaga-de-assistente-administrativo-para-o-cepon-em-florianopolis:4205407",
-        "concursoId": "fahece-sc-anuncia-vaga-de-assistente-administrativo-para-o-cepon-em-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON — FAHECE - SC anuncia vaga de Assistente Administrativo para o CEPON em Florianópolis",
-        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-        "titulo": "FAHECE - SC anuncia vaga de Assistente Administrativo para o CEPON em Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-vaga-de-assistente-administrativo-para-o-cepon-em-florianopolis",
-        "vagas": 1,
-        "salarioMaximo": 1889.41,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      },
-      {
         "id": "fahece-sc-abre-processo-seletivo-para-o-cargo-de-assistente-administrativo-no-cepon:4205407",
         "concursoId": "fahece-sc-abre-processo-seletivo-para-o-cargo-de-assistente-administrativo-no-cepon",
         "codigoIbge": 4205407,
@@ -10965,7 +11482,7 @@
         "inscricaoFim": "2026-11-26"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 4205506,
@@ -11213,27 +11730,6 @@
     "longitude": -48.6705,
     "concursos": [
       {
-        "id": "cisamavi-sc-abre-concurso-publico-com-salarios-de-ate-10520:4208203",
-        "concursoId": "cisamavi-sc-abre-concurso-publico-com-salarios-de-ate-10520",
-        "codigoIbge": 4208203,
-        "cidade": "Itajaí",
-        "uf": "SC",
-        "latitude": -26.9101,
-        "longitude": -48.6705,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "CISAMAVI - Consórcio Público Interfederativo de Saúde e Multifinalitário do Alto Vale do Itajaí — CISAMAVI - SC abre concurso público com salários de até R$ 10.520,99",
-        "orgao": "CISAMAVI - Consórcio Público Interfederativo de Saúde e Multifinalitário do Alto Vale do Itajaí",
-        "titulo": "CISAMAVI - SC abre concurso público com salários de até R$ 10.520,99",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cisamavi-sc-abre-concurso-publico-com-salarios-de-ate-10520",
-        "vagas": 7,
-        "salarioMaximo": 10520.99,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      },
-      {
         "id": "prefeitura-de-itajai-sc-abre-processo-seletivo-para-cadastro-de-reserva-na-educacao:4208203",
         "concursoId": "prefeitura-de-itajai-sc-abre-processo-seletivo-para-cadastro-de-reserva-na-educacao",
         "codigoIbge": 4208203,
@@ -11276,7 +11772,7 @@
         "inscricaoFim": "2026-10-29"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4208302,
@@ -11522,6 +12018,37 @@
         "salarioMaximo": 8889.3,
         "inscricaoTexto": "23/11/2026",
         "inscricaoFim": "2026-11-23"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4210100,
+    "cidade": "Mafra",
+    "uf": "SC",
+    "latitude": -26.1159,
+    "longitude": -49.8086,
+    "concursos": [
+      {
+        "id": "ses-sc-abre-processo-seletivo-para-a-maternidade-dona-catarina-kuss-em-mafra:4210100",
+        "concursoId": "ses-sc-abre-processo-seletivo-para-a-maternidade-dona-catarina-kuss-em-mafra",
+        "codigoIbge": 4210100,
+        "cidade": "Mafra",
+        "uf": "SC",
+        "latitude": -26.1159,
+        "longitude": -49.8086,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SES - Secretaria de Estado da Saúde de Santa Catarina — SES - SC abre processo seletivo para a Maternidade Dona Catarina Kuss em Mafra",
+        "orgao": "SES - Secretaria de Estado da Saúde de Santa Catarina",
+        "titulo": "SES - SC abre processo seletivo para a Maternidade Dona Catarina Kuss em Mafra",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/ses-sc-abre-processo-seletivo-para-a-maternidade-dona-catarina-kuss-em-mafra",
+        "vagas": 4,
+        "salarioMaximo": 10581.16,
+        "inscricaoTexto": "11/11/2026",
+        "inscricaoFim": "2026-11-11"
       }
     ],
     "totalConcursos": 1
@@ -12113,27 +12640,6 @@
     "longitude": -52.5313,
     "concursos": [
       {
-        "id": "prefeitura-de-sao-domingos-sc-abre-concurso-publico-com-salarios-de-ate-7949:4216107",
-        "concursoId": "prefeitura-de-sao-domingos-sc-abre-concurso-publico-com-salarios-de-ate-7949",
-        "codigoIbge": 4216107,
-        "cidade": "São Domingos",
-        "uf": "SC",
-        "latitude": -26.5548,
-        "longitude": -52.5313,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São Domingos — Prefeitura de São Domingos - SC abre concurso público com salários de até R$ 7.949,24",
-        "orgao": "Prefeitura de São Domingos",
-        "titulo": "Prefeitura de São Domingos - SC abre concurso público com salários de até R$ 7.949,24",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-domingos-sc-abre-concurso-publico-com-salarios-de-ate-7949",
-        "vagas": 36,
-        "salarioMaximo": 7949.24,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      },
-      {
         "id": "prefeitura-de-sao-domingos-sc-abre-processo-seletivo-para-cadastro-de-reserva:4216107",
         "concursoId": "prefeitura-de-sao-domingos-sc-abre-processo-seletivo-para-cadastro-de-reserva",
         "codigoIbge": 4216107,
@@ -12155,7 +12661,38 @@
         "inscricaoFim": "2026-11-13"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4216206,
+    "cidade": "São Francisco do Sul",
+    "uf": "SC",
+    "latitude": -26.2579,
+    "longitude": -48.6344,
+    "concursos": [
+      {
+        "id": "camara-de-sao-francisco-do-sul-sc-abre-concurso-publico-com-salarios-de-ate-10924:4216206",
+        "concursoId": "camara-de-sao-francisco-do-sul-sc-abre-concurso-publico-com-salarios-de-ate-10924",
+        "codigoIbge": 4216206,
+        "cidade": "São Francisco do Sul",
+        "uf": "SC",
+        "latitude": -26.2579,
+        "longitude": -48.6344,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de São Francisco do Sul — Câmara de São Francisco do Sul - SC abre concurso público com salários de até R$ 10.924,72",
+        "orgao": "Câmara de São Francisco do Sul",
+        "titulo": "Câmara de São Francisco do Sul - SC abre concurso público com salários de até R$ 10.924,72",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-sao-francisco-do-sul-sc-abre-concurso-publico-com-salarios-de-ate-10924",
+        "vagas": 17,
+        "salarioMaximo": 10924.72,
+        "inscricaoTexto": "06/11 a07/12/2026",
+        "inscricaoFim": "2026-12-07"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4216305,
@@ -12437,6 +12974,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4219358,
+    "cidade": "Vitor Meireles",
+    "uf": "SC",
+    "latitude": -26.8782,
+    "longitude": -49.8328,
+    "concursos": [
+      {
+        "id": "prefeitura-de-vitor-meireles-sc-abre-concurso-publico-e-processo-seletivo-com-salarios-de-ate-11050:4219358",
+        "concursoId": "prefeitura-de-vitor-meireles-sc-abre-concurso-publico-e-processo-seletivo-com-salarios-de-ate-11050",
+        "codigoIbge": 4219358,
+        "cidade": "Vitor Meireles",
+        "uf": "SC",
+        "latitude": -26.8782,
+        "longitude": -49.8328,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Vitor Meireles — Prefeitura de Vitor Meireles - SC abre concurso público e processo seletivo com salários de até R$ 11.050,85",
+        "orgao": "Prefeitura de Vitor Meireles",
+        "titulo": "Prefeitura de Vitor Meireles - SC abre concurso público e processo seletivo com salários de até R$ 11.050,85",
+        "status": "aberto",
+        "tipoSelecao": "misto",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vitor-meireles-sc-abre-concurso-publico-e-processo-seletivo-com-salarios-de-ate-11050",
+        "vagas": 3,
+        "salarioMaximo": 11050.85,
+        "inscricaoTexto": "15/11/2026",
+        "inscricaoFim": "2026-11-15"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4219408,
     "cidade": "Witmarsum",
     "uf": "SC",
@@ -12618,6 +13186,37 @@
         "salarioMaximo": 1880.28,
         "inscricaoTexto": "18/11/2026",
         "inscricaoFim": "2026-11-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3502903,
+    "cidade": "Araçoiaba da Serra",
+    "uf": "SP",
+    "latitude": -23.5029,
+    "longitude": -47.6166,
+    "concursos": [
+      {
+        "id": "prefeitura-de-aracoiaba-da-serra-sp-abre-vaga-para-motorista-de-transporte-coletivo:3502903",
+        "concursoId": "prefeitura-de-aracoiaba-da-serra-sp-abre-vaga-para-motorista-de-transporte-coletivo",
+        "codigoIbge": 3502903,
+        "cidade": "Araçoiaba da Serra",
+        "uf": "SP",
+        "latitude": -23.5029,
+        "longitude": -47.6166,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Araçoiaba da Serra — Prefeitura de Araçoiaba da Serra - SP abre vaga para motorista de transporte coletivo",
+        "orgao": "Prefeitura de Araçoiaba da Serra",
+        "titulo": "Prefeitura de Araçoiaba da Serra - SP abre vaga para motorista de transporte coletivo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aracoiaba-da-serra-sp-abre-vaga-para-motorista-de-transporte-coletivo",
+        "vagas": 1,
+        "salarioMaximo": 2133.3,
+        "inscricaoTexto": "04/11/2026",
+        "inscricaoFim": "2026-11-04"
       }
     ],
     "totalConcursos": 1
@@ -13554,6 +14153,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3526704,
+    "cidade": "Leme",
+    "uf": "SP",
+    "latitude": -22.1809,
+    "longitude": -47.3841,
+    "concursos": [
+      {
+        "id": "prefeitura-de-leme-sp-abre-concurso-publico-com-salarios-de-ate-13359:3526704",
+        "concursoId": "prefeitura-de-leme-sp-abre-concurso-publico-com-salarios-de-ate-13359",
+        "codigoIbge": 3526704,
+        "cidade": "Leme",
+        "uf": "SP",
+        "latitude": -22.1809,
+        "longitude": -47.3841,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Leme — Prefeitura de Leme - SP abre concurso público com salários de até R$ 13.359,44",
+        "orgao": "Prefeitura de Leme",
+        "titulo": "Prefeitura de Leme - SP abre concurso público com salários de até R$ 13.359,44",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-leme-sp-abre-concurso-publico-com-salarios-de-ate-13359",
+        "vagas": 29,
+        "salarioMaximo": 13359.44,
+        "inscricaoTexto": "30/10 a30/11/2026",
+        "inscricaoFim": "2026-11-30"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3526803,
     "cidade": "Lençóis Paulista",
     "uf": "SP",
@@ -13875,6 +14505,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3530706,
+    "cidade": "Mogi Guaçu",
+    "uf": "SP",
+    "latitude": -22.3675,
+    "longitude": -46.9428,
+    "concursos": [
+      {
+        "id": "fundacao-educacional-guacuana-sp-abre-concurso-publico-para-bibliotecario-e-tecnico-em-informatica:3530706",
+        "concursoId": "fundacao-educacional-guacuana-sp-abre-concurso-publico-para-bibliotecario-e-tecnico-em-informatica",
+        "codigoIbge": 3530706,
+        "cidade": "Mogi Guaçu",
+        "uf": "SP",
+        "latitude": -22.3675,
+        "longitude": -46.9428,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "A prova objetiva está prevista para 13 de dezembro de 2026, em Mogi Guaçu/SP.",
+        "orgao": "FEG - Fundação Educacional Guaçuana",
+        "titulo": "Fundação Educacional Guaçuana - SP abre concurso público para Bibliotecário e Técnico em Informática",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fundacao-educacional-guacuana-sp-abre-concurso-publico-para-bibliotecario-e-tecnico-em-informatica",
+        "vagas": 2,
+        "salarioMaximo": 2969.41,
+        "inscricaoTexto": "19/11/2026",
+        "inscricaoFim": "2026-11-19"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3531100,
     "cidade": "Mongaguá",
     "uf": "SP",
@@ -14154,37 +14815,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3537909,
-    "cidade": "Pilar do Sul",
-    "uf": "SP",
-    "latitude": -23.8077,
-    "longitude": -47.7222,
-    "concursos": [
-      {
-        "id": "prefeitura-de-pilar-do-sul-sp-abre-processo-seletivo-para-a-area-da-educacao:3537909",
-        "concursoId": "prefeitura-de-pilar-do-sul-sp-abre-processo-seletivo-para-a-area-da-educacao",
-        "codigoIbge": 3537909,
-        "cidade": "Pilar do Sul",
-        "uf": "SP",
-        "latitude": -23.8077,
-        "longitude": -47.7222,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Pilar do Sul — Prefeitura de Pilar do Sul - SP abre processo seletivo para a área da educação",
-        "orgao": "Prefeitura de Pilar do Sul",
-        "titulo": "Prefeitura de Pilar do Sul - SP abre processo seletivo para a área da educação",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pilar-do-sul-sp-abre-processo-seletivo-para-a-area-da-educacao",
-        "vagas": 6,
-        "salarioMaximo": 6640,
-        "inscricaoTexto": "28/10/2026",
-        "inscricaoFim": "2026-10-28"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3538709,
     "cidade": "Piracicaba",
     "uf": "SP",
@@ -14247,6 +14877,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3539103,
+    "cidade": "Pirapora do Bom Jesus",
+    "uf": "SP",
+    "latitude": -23.3965,
+    "longitude": -46.9991,
+    "concursos": [
+      {
+        "id": "prefeitura-de-pirapora-do-bom-jesus-sp-abre-processo-seletivo-para-cadastro-de-reserva:3539103",
+        "concursoId": "prefeitura-de-pirapora-do-bom-jesus-sp-abre-processo-seletivo-para-cadastro-de-reserva",
+        "codigoIbge": 3539103,
+        "cidade": "Pirapora do Bom Jesus",
+        "uf": "SP",
+        "latitude": -23.3965,
+        "longitude": -46.9991,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Pirapora do Bom Jesus — Prefeitura de Pirapora do Bom Jesus - SP abre processo seletivo para cadastro de reserva",
+        "orgao": "Prefeitura de Pirapora do Bom Jesus",
+        "titulo": "Prefeitura de Pirapora do Bom Jesus - SP abre processo seletivo para cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pirapora-do-bom-jesus-sp-abre-processo-seletivo-para-cadastro-de-reserva",
+        "vagas": null,
+        "salarioMaximo": 1621,
+        "inscricaoTexto": "23/11/2026",
+        "inscricaoFim": "2026-11-23"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3539301,
     "cidade": "Pirassununga",
     "uf": "SP",
@@ -14285,8 +14946,8 @@
     "longitude": -47.5251,
     "concursos": [
       {
-        "id": "prefeitura-de-porto-feliz-sp-publica-editais-de-concursos-para-cadastro-de-reserva-em-diversas-areas:3540606",
-        "concursoId": "prefeitura-de-porto-feliz-sp-publica-editais-de-concursos-para-cadastro-de-reserva-em-diversas-areas",
+        "id": "prefeitura-de-porto-feliz-sp-retifica-editais-de-concursos-para-cadastro-de-reserva:3540606",
+        "concursoId": "prefeitura-de-porto-feliz-sp-retifica-editais-de-concursos-para-cadastro-de-reserva",
         "codigoIbge": 3540606,
         "cidade": "Porto Feliz",
         "uf": "SP",
@@ -14294,12 +14955,12 @@
         "longitude": -47.5251,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Porto Feliz — Prefeitura de Porto Feliz - SP publica editais de concursos para cadastro de reserva em diversas áreas",
+        "contextoLocalidade": "Prefeitura de Porto Feliz — Prefeitura de Porto Feliz - SP retifica editais de concursos para cadastro de reserva",
         "orgao": "Prefeitura de Porto Feliz",
-        "titulo": "Prefeitura de Porto Feliz - SP publica editais de concursos para cadastro de reserva em diversas áreas",
+        "titulo": "Prefeitura de Porto Feliz - SP retifica editais de concursos para cadastro de reserva",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-feliz-sp-publica-editais-de-concursos-para-cadastro-de-reserva-em-diversas-areas",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-feliz-sp-retifica-editais-de-concursos-para-cadastro-de-reserva",
         "vagas": null,
         "salarioMaximo": 5882.37,
         "inscricaoTexto": "05/11/2026",
@@ -14772,27 +15433,6 @@
     "longitude": -46.6395,
     "concursos": [
       {
-        "id": "detran-sp-prorroga-inscricoes-do-concurso-com-145-vagas-para-agentes-estaduais-de-transito:3550308",
-        "concursoId": "detran-sp-prorroga-inscricoes-do-concurso-com-145-vagas-para-agentes-estaduais-de-transito",
-        "codigoIbge": 3550308,
-        "cidade": "São Paulo",
-        "uf": "SP",
-        "latitude": -23.5329,
-        "longitude": -46.6395,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "DETRAN - Departamento Estadual de Trânsito de São Paulo — DETRAN - SP prorroga inscrições do concurso com 145 vagas para agentes estaduais de trânsito",
-        "orgao": "DETRAN - Departamento Estadual de Trânsito de São Paulo",
-        "titulo": "DETRAN - SP prorroga inscrições do concurso com 145 vagas para agentes estaduais de trânsito",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/detran-sp-prorroga-inscricoes-do-concurso-com-145-vagas-para-agentes-estaduais-de-transito",
-        "vagas": 145,
-        "salarioMaximo": 5702.18,
-        "inscricaoTexto": "Prorrogado até13/10/2026",
-        "inscricaoFim": "2026-10-13"
-      },
-      {
         "id": "iamspe-sp-abre-selecao-para-residencia-medica-em-diversas-especialidades:3550308",
         "concursoId": "iamspe-sp-abre-selecao-para-residencia-medica-em-diversas-especialidades",
         "codigoIbge": 3550308,
@@ -14877,7 +15517,7 @@
         "inscricaoFim": "2027-01-07"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 3550506,
@@ -15143,7 +15783,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-suzano-sp-abre-concurso-publico-com-salarios-de-ate-12062",
         "vagas": 73,
         "salarioMaximo": 12062.91,
-        "inscricaoTexto": "29/10 a25/11/2026",
+        "inscricaoTexto": "25/11/2026",
         "inscricaoFim": "2026-11-25"
       }
     ],
@@ -15176,37 +15816,6 @@
         "salarioMaximo": 6055.67,
         "inscricaoTexto": "05/11/2026",
         "inscricaoFim": "2026-11-05"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3554003,
-    "cidade": "Tatuí",
-    "uf": "SP",
-    "latitude": -23.3487,
-    "longitude": -47.8461,
-    "concursos": [
-      {
-        "id": "prefeitura-de-tatui-sp-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio:3554003",
-        "concursoId": "prefeitura-de-tatui-sp-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio",
-        "codigoIbge": 3554003,
-        "cidade": "Tatuí",
-        "uf": "SP",
-        "latitude": -23.3487,
-        "longitude": -47.8461,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Tatuí — Prefeitura de Tatuí - SP abre concurso público para cargos de nível fundamental e médio",
-        "orgao": "Prefeitura de Tatuí",
-        "titulo": "Prefeitura de Tatuí - SP abre concurso público para cargos de nível fundamental e médio",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tatui-sp-abre-concurso-publico-para-cargos-de-nivel-fundamental-e-medio",
-        "vagas": 107,
-        "salarioMaximo": 2193.73,
-        "inscricaoTexto": "13/10/2026",
-        "inscricaoFim": "2026-10-13"
       }
     ],
     "totalConcursos": 1
