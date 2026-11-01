@@ -10816,6 +10816,48 @@
     "longitude": -51.2065,
     "concursos": [
       {
+        "id": "prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135:4314902",
+        "concursoId": "prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135",
+        "codigoIbge": 4314902,
+        "cidade": "Porto Alegre",
+        "uf": "RS",
+        "latitude": -30.0318,
+        "longitude": -51.2065,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Porto Alegre — Prefeitura de Porto Alegre - RS publica concurso público com salários de até R$ 9.135,44",
+        "orgao": "Prefeitura de Porto Alegre",
+        "titulo": "Prefeitura de Porto Alegre - RS publica concurso público com salários de até R$ 9.135,44",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135",
+        "vagas": 19,
+        "salarioMaximo": 9135.44,
+        "inscricaoTexto": "05/11/2026",
+        "inscricaoFim": "2026-11-05"
+      },
+      {
+        "id": "trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios:4314902",
+        "concursoId": "trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios",
+        "codigoIbge": 4314902,
+        "cidade": "Porto Alegre",
+        "uf": "RS",
+        "latitude": -30.0318,
+        "longitude": -51.2065,
+        "tipoLocalidade": "prova",
+        "confiancaLocalidade": "media",
+        "contextoLocalidade": "As provas estão previstas para 31 de janeiro de 2027, em Porto Alegre.",
+        "orgao": "TRT 4 - Tribunal Regional do Trabalho da 4ª Região",
+        "titulo": "TRT4 - RS abre concurso público para analistas e técnicos judiciários",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios",
+        "vagas": null,
+        "salarioMaximo": 16040.88,
+        "inscricaoTexto": "25/11/2026",
+        "inscricaoFim": "2026-11-25"
+      },
+      {
         "id": "hospital-de-clinicas-de-porto-alegre-rs-abre-selecoes-para-diversos-cargos:4314902",
         "concursoId": "hospital-de-clinicas-de-porto-alegre-rs-abre-selecoes-para-diversos-cargos",
         "codigoIbge": 4314902,
@@ -10898,48 +10940,6 @@
         "salarioMaximo": 3242,
         "inscricaoTexto": "03/11/2026",
         "inscricaoFim": "2026-11-03"
-      },
-      {
-        "id": "prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135:4314902",
-        "concursoId": "prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135",
-        "codigoIbge": 4314902,
-        "cidade": "Porto Alegre",
-        "uf": "RS",
-        "latitude": -30.0318,
-        "longitude": -51.2065,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Porto Alegre — Prefeitura de Porto Alegre - RS publica concurso público com salários de até R$ 9.135,44",
-        "orgao": "Prefeitura de Porto Alegre",
-        "titulo": "Prefeitura de Porto Alegre - RS publica concurso público com salários de até R$ 9.135,44",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-alegre-rs-publica-concurso-publico-com-salarios-de-ate-9135",
-        "vagas": 19,
-        "salarioMaximo": 9135.44,
-        "inscricaoTexto": "05/11/2026",
-        "inscricaoFim": "2026-11-05"
-      },
-      {
-        "id": "trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios:4314902",
-        "concursoId": "trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios",
-        "codigoIbge": 4314902,
-        "cidade": "Porto Alegre",
-        "uf": "RS",
-        "latitude": -30.0318,
-        "longitude": -51.2065,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "As provas estão previstas para 31 de janeiro de 2027, em Porto Alegre.",
-        "orgao": "TRT4 - Tribunal Regional do Trabalho da 4ª Região",
-        "titulo": "TRT4 - RS abre concurso público para analistas e técnicos judiciários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/trt4-rs-abre-concurso-publico-para-analistas-e-tecnicos-judiciarios",
-        "vagas": null,
-        "salarioMaximo": 16040.88,
-        "inscricaoTexto": "25/11/2026",
-        "inscricaoFim": "2026-11-25"
       }
     ],
     "totalConcursos": 6
@@ -11385,37 +11385,6 @@
         "salarioMaximo": 4945.65,
         "inscricaoTexto": "03/11/2026",
         "inscricaoFim": "2026-11-03"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4200606,
-    "cidade": "Águas Mornas",
-    "uf": "SC",
-    "latitude": -27.6963,
-    "longitude": -48.8243,
-    "concursos": [
-      {
-        "id": "prefeitura-de-aguas-mornas-sc-abre-concurso-e-processo-seletivo-com-salarios-de-ate-10109:4200606",
-        "concursoId": "prefeitura-de-aguas-mornas-sc-abre-concurso-e-processo-seletivo-com-salarios-de-ate-10109",
-        "codigoIbge": 4200606,
-        "cidade": "Águas Mornas",
-        "uf": "SC",
-        "latitude": -27.6963,
-        "longitude": -48.8243,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Águas Mornas — Prefeitura de Águas Mornas - SC abre concurso e processo seletivo com salários de até R$ 10.109,68",
-        "orgao": "Prefeitura de Águas Mornas",
-        "titulo": "Prefeitura de Águas Mornas - SC abre concurso e processo seletivo com salários de até R$ 10.109,68",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aguas-mornas-sc-abre-concurso-e-processo-seletivo-com-salarios-de-ate-10109",
-        "vagas": null,
-        "salarioMaximo": 10109.68,
-        "inscricaoTexto": "31/10/2026",
-        "inscricaoFim": "2026-10-31"
       }
     ],
     "totalConcursos": 1
@@ -12029,27 +11998,6 @@
         "inscricaoFim": "2026-11-09"
       },
       {
-        "id": "fahece-sc-abre-processo-seletivo-para-o-cargo-de-assistente-administrativo-no-cepon:4205407",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-o-cargo-de-assistente-administrativo-no-cepon",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "A FAHECE abriu um Processo Seletivo, com o objetivo de preencher uma vaga para profissional de nível médio no CEPON de Florianópolis/SC.",
-        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
-        "titulo": "FAHECE - SC abre processo seletivo para o cargo de Assistente Administrativo no CEPON",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-o-cargo-de-assistente-administrativo-no-cepon",
-        "vagas": 1,
-        "salarioMaximo": 2519.21,
-        "inscricaoTexto": "31/10/2026",
-        "inscricaoFim": "2026-10-31"
-      },
-      {
         "id": "ses-sc-abre-processo-seletivo-para-medicos-em-florianopolis-e-sao-jose:4205407",
         "concursoId": "ses-sc-abre-processo-seletivo-para-medicos-em-florianopolis-e-sao-jose",
         "codigoIbge": 4205407,
@@ -12092,7 +12040,7 @@
         "inscricaoFim": "2026-11-26"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 4205506,
@@ -12483,6 +12431,37 @@
         "salarioMaximo": 2245.64,
         "inscricaoTexto": "05/11/2026",
         "inscricaoFim": "2026-11-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4209102,
+    "cidade": "Joinville",
+    "uf": "SC",
+    "latitude": -26.3045,
+    "longitude": -48.8487,
+    "concursos": [
+      {
+        "id": "fahece-sc-abre-processo-seletivo-para-assistente-administrativo-i-exclusivo-para-pcd:4209102",
+        "concursoId": "fahece-sc-abre-processo-seletivo-para-assistente-administrativo-i-exclusivo-para-pcd",
+        "codigoIbge": 4209102,
+        "cidade": "Joinville",
+        "uf": "SC",
+        "latitude": -26.3045,
+        "longitude": -48.8487,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "A FAHECE abriu um Processo Seletivo Simplificado para formar cadastro de reserva no cargo de Assistente Administrativo I no HEMOSC de Joinville/SC.",
+        "orgao": "FAHECE - Fundação de Apoio ao HEMOSC e CEPON",
+        "titulo": "FAHECE - SC abre processo seletivo para Assistente Administrativo I exclusivo para PCD",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-assistente-administrativo-i-exclusivo-para-pcd",
+        "vagas": null,
+        "salarioMaximo": 1371.62,
+        "inscricaoTexto": "06/11/2026",
+        "inscricaoFim": "2026-11-06"
       }
     ],
     "totalConcursos": 1
@@ -13301,37 +13280,6 @@
         "salarioMaximo": 6897.09,
         "inscricaoTexto": "08/11/2026",
         "inscricaoFim": "2026-11-08"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4216602,
-    "cidade": "São José",
-    "uf": "SC",
-    "latitude": -27.6136,
-    "longitude": -48.6366,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sao-jose-sc-abre-concurso-com-300-vagas-para-auxiliares-de-educacao-especial:4216602",
-        "concursoId": "prefeitura-de-sao-jose-sc-abre-concurso-com-300-vagas-para-auxiliares-de-educacao-especial",
-        "codigoIbge": 4216602,
-        "cidade": "São José",
-        "uf": "SC",
-        "latitude": -27.6136,
-        "longitude": -48.6366,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São José — Prefeitura de São José - SC abre concurso com 300 vagas para auxiliares de educação especial",
-        "orgao": "Prefeitura de São José",
-        "titulo": "Prefeitura de São José - SC abre concurso com 300 vagas para auxiliares de educação especial",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-jose-sc-abre-concurso-com-300-vagas-para-auxiliares-de-educacao-especial",
-        "vagas": 300,
-        "salarioMaximo": 4581.88,
-        "inscricaoTexto": "16/10/2026",
-        "inscricaoFim": "2026-10-16"
       }
     ],
     "totalConcursos": 1
@@ -15990,6 +15938,37 @@
         "salarioMaximo": 7078.72,
         "inscricaoTexto": "05/11/2026",
         "inscricaoFim": "2026-11-05"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3549904,
+    "cidade": "São José dos Campos",
+    "uf": "SP",
+    "latitude": -23.1896,
+    "longitude": -45.8841,
+    "concursos": [
+      {
+        "id": "ipsm-de-sao-jose-dos-campos-sp-abre-concurso-para-diversos-cargos-de-nivel-superior:3549904",
+        "concursoId": "ipsm-de-sao-jose-dos-campos-sp-abre-concurso-para-diversos-cargos-de-nivel-superior",
+        "codigoIbge": 3549904,
+        "cidade": "São José dos Campos",
+        "uf": "SP",
+        "latitude": -23.1896,
+        "longitude": -45.8841,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "IPSM - Instituto de Previdência do Servidor Municipal — IPSM de São José dos Campos - SP abre concurso para diversos cargos de nível superior",
+        "orgao": "IPSM - Instituto de Previdência do Servidor Municipal",
+        "titulo": "IPSM de São José dos Campos - SP abre concurso para diversos cargos de nível superior",
+        "status": "encerrado",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/ipsm-de-sao-jose-dos-campos-sp-abre-concurso-para-diversos-cargos-de-nivel-superior",
+        "vagas": 17,
+        "salarioMaximo": 5860.31,
+        "inscricaoTexto": "30/10/2026",
+        "inscricaoFim": "2026-10-30"
       }
     ],
     "totalConcursos": 1
