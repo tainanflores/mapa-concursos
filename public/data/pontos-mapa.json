@@ -1,36 +1,5 @@
 [
   {
-    "codigoIbge": 2701902,
-    "cidade": "Chã Preta",
-    "uf": "AL",
-    "latitude": -9.2556,
-    "longitude": -36.2983,
-    "concursos": [
-      {
-        "id": "prefeitura-de-cha-preta-al-abre-concursos-com-salarios-de-ate-7256:2701902",
-        "concursoId": "prefeitura-de-cha-preta-al-abre-concursos-com-salarios-de-ate-7256",
-        "codigoIbge": 2701902,
-        "cidade": "Chã Preta",
-        "uf": "AL",
-        "latitude": -9.2556,
-        "longitude": -36.2983,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Chã Preta — Prefeitura de Chã Preta - AL abre concursos com salários de até R$ 7.256,60",
-        "orgao": "Prefeitura de Chã Preta",
-        "titulo": "Prefeitura de Chã Preta - AL abre concursos com salários de até R$ 7.256,60",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cha-preta-al-abre-concursos-com-salarios-de-ate-7256",
-        "vagas": 76,
-        "salarioMaximo": 7256.6,
-        "inscricaoTexto": "01/11/2026",
-        "inscricaoFim": "2026-11-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2704302,
     "cidade": "Maceió",
     "uf": "AL",
@@ -1097,7 +1066,7 @@
         "contextoLocalidade": "Prefeitura de Ubajara — Prefeitura de Ubajara - CE publica retificação de concurso público",
         "orgao": "Prefeitura de Ubajara",
         "titulo": "Prefeitura de Ubajara - CE publica retificação de concurso público",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ubajara-ce-publica-retificacao-de-concurso-publico",
         "vagas": 60,
@@ -11390,37 +11359,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4201257,
-    "cidade": "Apiúna",
-    "uf": "SC",
-    "latitude": -27.0375,
-    "longitude": -49.3885,
-    "concursos": [
-      {
-        "id": "prefeitura-de-apiuna-sc-abre-processo-seletivo-para-o-cargo-de-tecnico-em-enfermagem:4201257",
-        "concursoId": "prefeitura-de-apiuna-sc-abre-processo-seletivo-para-o-cargo-de-tecnico-em-enfermagem",
-        "codigoIbge": 4201257,
-        "cidade": "Apiúna",
-        "uf": "SC",
-        "latitude": -27.0375,
-        "longitude": -49.3885,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Apiúna — Prefeitura de Apiúna - SC abre processo seletivo para o cargo de Técnico em Enfermagem",
-        "orgao": "Prefeitura de Apiúna",
-        "titulo": "Prefeitura de Apiúna - SC abre processo seletivo para o cargo de Técnico em Enfermagem",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-apiuna-sc-abre-processo-seletivo-para-o-cargo-de-tecnico-em-enfermagem",
-        "vagas": null,
-        "salarioMaximo": 2611.53,
-        "inscricaoTexto": "01/11/2026",
-        "inscricaoFim": "2026-11-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4201273,
     "cidade": "Arabutã",
     "uf": "SC",
@@ -14283,37 +14221,6 @@
         "salarioMaximo": 17716.5,
         "inscricaoTexto": "11/11/2026",
         "inscricaoFim": "2026-11-11"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3518859,
-    "cidade": "Guatapará",
-    "uf": "SP",
-    "latitude": -21.4944,
-    "longitude": -48.0356,
-    "concursos": [
-      {
-        "id": "prefeitura-de-guatapara-sp-abre-selecao-para-cadastro-de-reserva-em-diversas-areas:3518859",
-        "concursoId": "prefeitura-de-guatapara-sp-abre-selecao-para-cadastro-de-reserva-em-diversas-areas",
-        "codigoIbge": 3518859,
-        "cidade": "Guatapará",
-        "uf": "SP",
-        "latitude": -21.4944,
-        "longitude": -48.0356,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Guatapará — Prefeitura de Guatapará - SP abre seleção para cadastro de reserva em diversas áreas",
-        "orgao": "Prefeitura de Guatapará",
-        "titulo": "Prefeitura de Guatapará - SP abre seleção para cadastro de reserva em diversas áreas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guatapara-sp-abre-selecao-para-cadastro-de-reserva-em-diversas-areas",
-        "vagas": null,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "01/11/2026",
-        "inscricaoFim": "2026-11-01"
       }
     ],
     "totalConcursos": 1
