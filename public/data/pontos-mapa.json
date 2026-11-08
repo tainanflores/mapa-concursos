@@ -359,27 +359,6 @@
         "inscricaoFim": "2026-10-29"
       },
       {
-        "id": "sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil:1600105",
-        "concursoId": "sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil",
-        "codigoIbge": 1600105,
-        "cidade": "Amapá",
-        "uf": "AP",
-        "latitude": 2.05267,
-        "longitude": -50.7957,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Amapá, a Secretaria de Estado da Administração (SEAD/AP) divulgou um edital de Concurso Público para a Polícia Civil, visando à formação de cadastro de reserva nos cargos de Delegado de Polícia Civil e Oficial Investigador de Polícia Civil.",
-        "orgao": "SEAD/AP - Secretaria de Estado da Administração",
-        "titulo": "SEAD - AP prorroga inscrições de concurso para Delegado e Oficial Investigador de Polícia Civil",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil",
-        "vagas": 396,
-        "salarioMaximo": 31439.06,
-        "inscricaoTexto": "Prorrogado até23/10/2026",
-        "inscricaoFim": "2026-10-23"
-      },
-      {
         "id": "governo-do-estado-do-amapa-ap-prorroga-inscricoes-para-concurso-publico:1600105",
         "concursoId": "governo-do-estado-do-amapa-ap-prorroga-inscricoes-para-concurso-publico",
         "codigoIbge": 1600105,
@@ -422,7 +401,7 @@
         "inscricaoFim": "2026-11-13"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 1600303,
@@ -451,30 +430,9 @@
         "salarioMaximo": 9726.66,
         "inscricaoTexto": "09/11/2026",
         "inscricaoFim": "2026-11-09"
-      },
-      {
-        "id": "sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil:1600303",
-        "concursoId": "sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil",
-        "codigoIbge": 1600303,
-        "cidade": "Macapá",
-        "uf": "AP",
-        "latitude": 0.034934,
-        "longitude": -51.0694,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "A aplicação das provas objetivas e dissertativas/discursivas está prevista para o dia 6 de dezembro de 2026, na cidade de Macapá/AP.",
-        "orgao": "SEAD/AP - Secretaria de Estado da Administração",
-        "titulo": "SEAD - AP prorroga inscrições de concurso para Delegado e Oficial Investigador de Polícia Civil",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/sead-ap-prorroga-inscricoes-de-concurso-para-delegado-e-oficial-investigador-de-policia-civil",
-        "vagas": 396,
-        "salarioMaximo": 31439.06,
-        "inscricaoTexto": "Prorrogado até23/10/2026",
-        "inscricaoFim": "2026-10-23"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 1600600,
@@ -3832,6 +3790,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3124500,
+    "cidade": "Estiva",
+    "uf": "MG",
+    "latitude": -22.4577,
+    "longitude": -46.0191,
+    "concursos": [
+      {
+        "id": "prefeitura-de-estiva-mg-abre-processo-seletivo-com-sete-vagas:3124500",
+        "concursoId": "prefeitura-de-estiva-mg-abre-processo-seletivo-com-sete-vagas",
+        "codigoIbge": 3124500,
+        "cidade": "Estiva",
+        "uf": "MG",
+        "latitude": -22.4577,
+        "longitude": -46.0191,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Estiva — Prefeitura de Estiva - MG abre processo seletivo com sete vagas",
+        "orgao": "Prefeitura de Estiva",
+        "titulo": "Prefeitura de Estiva - MG abre processo seletivo com sete vagas",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-estiva-mg-abre-processo-seletivo-com-sete-vagas",
+        "vagas": 7,
+        "salarioMaximo": 1689.78,
+        "inscricaoTexto": "13/11/2026",
+        "inscricaoFim": "2026-11-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3126000,
     "cidade": "Florestal",
     "uf": "MG",
@@ -6726,27 +6715,6 @@
         "inscricaoFim": "2026-10-27"
       },
       {
-        "id": "hospital-ophir-loyola-pa-anuncia-processos-seletivos-com-vagas-para-medicos:1501402",
-        "concursoId": "hospital-ophir-loyola-pa-anuncia-processos-seletivos-com-vagas-para-medicos",
-        "codigoIbge": 1501402,
-        "cidade": "Belém",
-        "uf": "PA",
-        "latitude": -1.4554,
-        "longitude": -48.4898,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado do Pará, o Hospital Ophir Loyola (HOL), em Belém, abriu o 40º e o 41º Processo Seletivo Simplificado para preencher vagas de médico, com exigência de nível superior em Medicina, com formação na área de atuação.",
-        "orgao": "HOL - Hospital Ophir Loyola",
-        "titulo": "Hospital Ophir Loyola - PA anuncia processos seletivos com vagas para médicos",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-ophir-loyola-pa-anuncia-processos-seletivos-com-vagas-para-medicos",
-        "vagas": 54,
-        "salarioMaximo": 2176.75,
-        "inscricaoTexto": "07/11/2026",
-        "inscricaoFim": "2026-11-07"
-      },
-      {
         "id": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios:1501402",
         "concursoId": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
         "codigoIbge": 1501402,
@@ -6768,7 +6736,7 @@
         "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 1501907,
@@ -7287,37 +7255,6 @@
       }
     ],
     "totalConcursos": 4
-  },
-  {
-    "codigoIbge": 2514701,
-    "cidade": "São José do Sabugi",
-    "uf": "PB",
-    "latitude": -6.76295,
-    "longitude": -36.7972,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sao-jose-do-sabugi-pb-abre-concurso-para-diversos-cargos:2514701",
-        "concursoId": "prefeitura-de-sao-jose-do-sabugi-pb-abre-concurso-para-diversos-cargos",
-        "codigoIbge": 2514701,
-        "cidade": "São José do Sabugi",
-        "uf": "PB",
-        "latitude": -6.76295,
-        "longitude": -36.7972,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São José do Sabugi — Prefeitura de São José do Sabugi - PB abre concurso para diversos cargos",
-        "orgao": "Prefeitura de São José do Sabugi",
-        "titulo": "Prefeitura de São José do Sabugi - PB abre concurso para diversos cargos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-jose-do-sabugi-pb-abre-concurso-para-diversos-cargos",
-        "vagas": 48,
-        "salarioMaximo": 3847.97,
-        "inscricaoTexto": "07/11/2026",
-        "inscricaoFim": "2026-11-07"
-      }
-    ],
-    "totalConcursos": 1
   },
   {
     "codigoIbge": 2515708,
@@ -12173,6 +12110,37 @@
         "salarioMaximo": 6057.51,
         "inscricaoTexto": "03/12/2026",
         "inscricaoFim": "2026-12-03"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4204608,
+    "cidade": "Criciúma",
+    "uf": "SC",
+    "latitude": -28.6723,
+    "longitude": -49.3729,
+    "concursos": [
+      {
+        "id": "fahece-sc-abre-vaga-de-assistente-administrativo-para-pessoa-com-deficiencia-em-criciuma:4204608",
+        "concursoId": "fahece-sc-abre-vaga-de-assistente-administrativo-para-pessoa-com-deficiencia-em-criciuma",
+        "codigoIbge": 4204608,
+        "cidade": "Criciúma",
+        "uf": "SC",
+        "latitude": -28.6723,
+        "longitude": -49.3729,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SAMU - Serviço de Atendimento Móvel de Urgência de Criciúma — FAHECE - SC abre vaga de assistente administrativo para pessoa com deficiência em Criciúma",
+        "orgao": "SAMU - Serviço de Atendimento Móvel de Urgência de Criciúma",
+        "titulo": "FAHECE - SC abre vaga de assistente administrativo para pessoa com deficiência em Criciúma",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-vaga-de-assistente-administrativo-para-pessoa-com-deficiencia-em-criciuma",
+        "vagas": 1,
+        "salarioMaximo": 1289.06,
+        "inscricaoTexto": "08/11/2026",
+        "inscricaoFim": "2026-11-08"
       }
     ],
     "totalConcursos": 1
