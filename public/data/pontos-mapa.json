@@ -24,7 +24,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/policia-civil-do-estado-do-acre-pcac-e-sead-ac-abrem-concurso-publico-com-salarios-de-ate-19505",
         "vagas": 139,
         "salarioMaximo": 19505.66,
-        "inscricaoTexto": "11/11 a14/12/2026",
+        "inscricaoTexto": "14/12/2026",
         "inscricaoFim": "2026-12-14"
       }
     ],
@@ -55,7 +55,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/policia-civil-do-estado-do-acre-pcac-e-sead-ac-abrem-concurso-publico-com-salarios-de-ate-19505",
         "vagas": 139,
         "salarioMaximo": 19505.66,
-        "inscricaoTexto": "11/11 a14/12/2026",
+        "inscricaoTexto": "14/12/2026",
         "inscricaoFim": "2026-12-14"
       }
     ],
@@ -86,7 +86,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/policia-civil-do-estado-do-acre-pcac-e-sead-ac-abrem-concurso-publico-com-salarios-de-ate-19505",
         "vagas": 139,
         "salarioMaximo": 19505.66,
-        "inscricaoTexto": "11/11 a14/12/2026",
+        "inscricaoTexto": "14/12/2026",
         "inscricaoFim": "2026-12-14"
       }
     ],
@@ -117,39 +117,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/policia-civil-do-estado-do-acre-pcac-e-sead-ac-abrem-concurso-publico-com-salarios-de-ate-19505",
         "vagas": 139,
         "salarioMaximo": 19505.66,
-        "inscricaoTexto": "11/11 a14/12/2026",
+        "inscricaoTexto": "14/12/2026",
         "inscricaoFim": "2026-12-14"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2704302,
-    "cidade": "Maceió",
-    "uf": "AL",
-    "latitude": -9.66599,
-    "longitude": -35.735,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios:2704302",
-        "concursoId": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "codigoIbge": 2704302,
-        "cidade": "Maceió",
-        "uf": "AL",
-        "latitude": -9.66599,
-        "longitude": -35.735,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Pedagogia - Maceió-AL (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 3º Distrito Naval",
-        "titulo": "Marinha do Brasil - 3º Distrito Naval abre vagas para Oficiais Temporários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "vagas": 35,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -255,27 +224,6 @@
     "longitude": -60.0212,
     "concursos": [
       {
-        "id": "marinha-do-brasil-am-e-ro-abre-processo-seletivo-para-oficiais-temporarios-de-nivel-superior:1302603",
-        "concursoId": "marinha-do-brasil-am-e-ro-abre-processo-seletivo-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 1302603,
-        "cidade": "Manaus",
-        "uf": "AM",
-        "latitude": -3.11866,
-        "longitude": -60.0212,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Odontologia - Cirurgia e Traumatologia Bucomaxilofacial (Manaus-AM) (1 vaga)",
-        "orgao": "Com9ºDN - Comando do 9º Distrito Naval da Marinha do Brasil",
-        "titulo": "Marinha do Brasil - AM e RO abre processo seletivo para Oficiais Temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-am-e-ro-abre-processo-seletivo-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 23,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "dpe-am-abre-concurso-publico-com-salarios-de-ate-8006:1302603",
         "concursoId": "dpe-am-abre-concurso-publico-com-salarios-de-ate-8006",
         "codigoIbge": 1302603,
@@ -297,7 +245,7 @@
         "inscricaoFim": "2027-01-04"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 1302900,
@@ -359,27 +307,6 @@
         "inscricaoFim": "2026-10-29"
       },
       {
-        "id": "governo-do-estado-do-amapa-ap-prorroga-inscricoes-para-concurso-publico:1600105",
-        "concursoId": "governo-do-estado-do-amapa-ap-prorroga-inscricoes-para-concurso-publico",
-        "codigoIbge": 1600105,
-        "cidade": "Amapá",
-        "uf": "AP",
-        "latitude": 2.05267,
-        "longitude": -50.7957,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SESA - Secretaria de Estado da Saúde do Amapá — Governo do Estado do Amapá - AP prorroga inscrições para concurso público",
-        "orgao": "SESA - Secretaria de Estado da Saúde do Amapá",
-        "titulo": "Governo do Estado do Amapá - AP prorroga inscrições para concurso público",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/governo-do-estado-do-amapa-ap-prorroga-inscricoes-para-concurso-publico",
-        "vagas": 4208,
-        "salarioMaximo": 11116.42,
-        "inscricaoTexto": "Prorrogado até26/10/2026",
-        "inscricaoFim": "2026-10-26"
-      },
-      {
         "id": "tjap-ap-abre-concurso-publico-para-o-cargo-de-juiz-de-direito-substituto:1600105",
         "concursoId": "tjap-ap-abre-concurso-publico-para-o-cargo-de-juiz-de-direito-substituto",
         "codigoIbge": 1600105,
@@ -401,7 +328,7 @@
         "inscricaoFim": "2026-11-13"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 1600154,
@@ -435,37 +362,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 1600600,
-    "cidade": "Santana",
-    "uf": "AP",
-    "latitude": -0.045434,
-    "longitude": -51.1729,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados:1600600",
-        "concursoId": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "codigoIbge": 1600600,
-        "cidade": "Santana",
-        "uf": "AP",
-        "latitude": -0.045434,
-        "longitude": -51.1729,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "STA Vistoriador Naval Nível 1 (1 vaga - Santana/AP)",
-        "orgao": "Marinha do Brasil - Comando do 4º Distrito Naval",
-        "titulo": "Marinha do Brasil - 4º Distrito Naval abre seleção para oficiais temporários com vagas em diferentes estados",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "vagas": 25,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2902005,
     "cidade": "Aracatu",
     "uf": "BA",
@@ -492,6 +388,37 @@
         "salarioMaximo": 2565.32,
         "inscricaoTexto": "Prorrogado até15/11/2026",
         "inscricaoFim": "2026-11-15"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 2903201,
+    "cidade": "Barreiras",
+    "uf": "BA",
+    "latitude": -12.1439,
+    "longitude": -44.9968,
+    "concursos": [
+      {
+        "id": "prefeitura-de-barreiras-ba-abre-processo-seletivo-com-vagas-para-a-secretaria-de-educacao:2903201",
+        "concursoId": "prefeitura-de-barreiras-ba-abre-processo-seletivo-com-vagas-para-a-secretaria-de-educacao",
+        "codigoIbge": 2903201,
+        "cidade": "Barreiras",
+        "uf": "BA",
+        "latitude": -12.1439,
+        "longitude": -44.9968,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Barreiras — Prefeitura de Barreiras - BA abre processo seletivo com vagas para a Secretaria de Educação",
+        "orgao": "Prefeitura de Barreiras",
+        "titulo": "Prefeitura de Barreiras - BA abre processo seletivo com vagas para a Secretaria de Educação",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barreiras-ba-abre-processo-seletivo-com-vagas-para-a-secretaria-de-educacao",
+        "vagas": 1054,
+        "salarioMaximo": 2585.35,
+        "inscricaoTexto": "13/11/2026",
+        "inscricaoFim": "2026-11-13"
       }
     ],
     "totalConcursos": 1
@@ -652,37 +579,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2925303,
-    "cidade": "Porto Seguro",
-    "uf": "BA",
-    "latitude": -16.4435,
-    "longitude": -39.0643,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia:2925303",
-        "concursoId": "marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia",
-        "codigoIbge": 2925303,
-        "cidade": "Porto Seguro",
-        "uf": "BA",
-        "latitude": -16.4435,
-        "longitude": -39.0643,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Porto Seguro/BA",
-        "orgao": "Comando do 2º Distrito Naval da Marinha do Brasil",
-        "titulo": "Marinha do Brasil - 2º Distrito Naval abre seleção para oficiais temporários RM2 na Bahia",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia",
-        "vagas": 18,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2927002,
     "cidade": "Rio Real",
     "uf": "BA",
@@ -720,27 +616,6 @@
     "latitude": -12.9718,
     "longitude": -38.5011,
     "concursos": [
-      {
-        "id": "marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia:2927408",
-        "concursoId": "marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia",
-        "codigoIbge": 2927408,
-        "cidade": "Salvador",
-        "uf": "BA",
-        "latitude": -12.9718,
-        "longitude": -38.5011,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Salvador/BA",
-        "orgao": "Comando do 2º Distrito Naval da Marinha do Brasil",
-        "titulo": "Marinha do Brasil - 2º Distrito Naval abre seleção para oficiais temporários RM2 na Bahia",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-2-distrito-naval-abre-selecao-para-oficiais-temporarios-rm2-na-bahia",
-        "vagas": 18,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
       {
         "id": "prefeitura-de-salvador-ba-abre-concurso-publico-para-guardas-civis-municipais:2927408",
         "concursoId": "prefeitura-de-salvador-ba-abre-concurso-publico-para-guardas-civis-municipais",
@@ -784,7 +659,7 @@
         "inscricaoFim": "2026-11-06"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 2928406,
@@ -880,37 +755,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2300705,
-    "cidade": "Alto Santo",
-    "uf": "CE",
-    "latitude": -5.50894,
-    "longitude": -38.2743,
-    "concursos": [
-      {
-        "id": "prefeitura-de-alto-santo-ce-retifica-concurso-para-cargos-de-nivel-superior:2300705",
-        "concursoId": "prefeitura-de-alto-santo-ce-retifica-concurso-para-cargos-de-nivel-superior",
-        "codigoIbge": 2300705,
-        "cidade": "Alto Santo",
-        "uf": "CE",
-        "latitude": -5.50894,
-        "longitude": -38.2743,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Alto Santo — Prefeitura de Alto Santo - CE retifica concurso para cargos de nível superior",
-        "orgao": "Prefeitura de Alto Santo",
-        "titulo": "Prefeitura de Alto Santo - CE retifica concurso para cargos de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-alto-santo-ce-retifica-concurso-para-cargos-de-nivel-superior",
-        "vagas": 4,
-        "salarioMaximo": 3000,
-        "inscricaoTexto": "Reaberto até10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2301109,
     "cidade": "Aracati",
     "uf": "CE",
@@ -999,37 +843,6 @@
         "salarioMaximo": 3800,
         "inscricaoTexto": "12/11/2026",
         "inscricaoFim": "2026-11-12"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2304400,
-    "cidade": "Fortaleza",
-    "uf": "CE",
-    "latitude": -3.71664,
-    "longitude": -38.5423,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios:2304400",
-        "concursoId": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "codigoIbge": 2304400,
-        "cidade": "Fortaleza",
-        "uf": "CE",
-        "latitude": -3.71664,
-        "longitude": -38.5423,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Cirurgião-Dentista (Cirurgia e Traumatologia Bucomaxilofacial) - Fortaleza-CE (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 3º Distrito Naval",
-        "titulo": "Marinha do Brasil - 3º Distrito Naval abre vagas para Oficiais Temporários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "vagas": 35,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -1242,37 +1055,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2311009,
-    "cidade": "Poranga",
-    "uf": "CE",
-    "latitude": -4.74672,
-    "longitude": -40.9205,
-    "concursos": [
-      {
-        "id": "prefeitura-de-poranga-ce-reabre-inscricoes-para-concursos-publicos:2311009",
-        "concursoId": "prefeitura-de-poranga-ce-reabre-inscricoes-para-concursos-publicos",
-        "codigoIbge": 2311009,
-        "cidade": "Poranga",
-        "uf": "CE",
-        "latitude": -4.74672,
-        "longitude": -40.9205,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Poranga — Prefeitura de Poranga - CE reabre inscrições para concursos públicos",
-        "orgao": "Prefeitura de Poranga",
-        "titulo": "Prefeitura de Poranga - CE reabre inscrições para concursos públicos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-poranga-ce-reabre-inscricoes-para-concursos-publicos",
-        "vagas": 98,
-        "salarioMaximo": 4750,
-        "inscricaoTexto": "Reaberto até10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2311306,
     "cidade": "Quixadá",
     "uf": "CE",
@@ -1361,51 +1143,9 @@
         "salarioMaximo": 4370,
         "inscricaoTexto": "25/11/2026",
         "inscricaoFim": "2026-11-25"
-      },
-      {
-        "id": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios:5300108",
-        "concursoId": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "codigoIbge": 5300108,
-        "cidade": "Brasília",
-        "uf": "DF",
-        "latitude": -15.7795,
-        "longitude": -47.9297,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Farmácia com especialização em Farmácia Oncológica - Brasília/DF (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 7º Distrito Naval",
-        "titulo": "Marinha do Brasil - 7º Distrito Naval: edital de processo seletivo oferece vagas de nível superior para oficiais temporários",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "vagas": 17,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
-        "id": "abdi-df-processo-seletivo-abre-vagas-para-analistas-de-produtividade-e-inovacao:5300108",
-        "concursoId": "abdi-df-processo-seletivo-abre-vagas-para-analistas-de-produtividade-e-inovacao",
-        "codigoIbge": 5300108,
-        "cidade": "Brasília",
-        "uf": "DF",
-        "latitude": -15.7795,
-        "longitude": -47.9297,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "As inscrições serão feitas pelo site da Fundação Getulio Vargas, das 16h do dia 20 de outubro de 2026 até às 18h do dia 10 de novembro de 2026, pelo horário de Brasília.",
-        "orgao": "ABDI - Agência Brasileira de Desenvolvimento Industrial",
-        "titulo": "ABDI - DF: Processo seletivo abre vagas para analistas de produtividade e inovação",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/abdi-df-processo-seletivo-abre-vagas-para-analistas-de-produtividade-e-inovacao",
-        "vagas": 20,
-        "salarioMaximo": 16034.7,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3200409,
@@ -1517,30 +1257,9 @@
         "salarioMaximo": 6614.93,
         "inscricaoTexto": "16 a30/11/2026",
         "inscricaoFim": "2026-11-30"
-      },
-      {
-        "id": "prefeitura-de-aracruz-es-abre-selecao-para-guarda-vidas:3200607",
-        "concursoId": "prefeitura-de-aracruz-es-abre-selecao-para-guarda-vidas",
-        "codigoIbge": 3200607,
-        "cidade": "Aracruz",
-        "uf": "ES",
-        "latitude": -19.82,
-        "longitude": -40.2764,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Aracruz — Prefeitura de Aracruz - ES abre seleção para guarda-vidas",
-        "orgao": "Prefeitura de Aracruz",
-        "titulo": "Prefeitura de Aracruz - ES abre seleção para guarda-vidas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aracruz-es-abre-selecao-para-guarda-vidas",
-        "vagas": 60,
-        "salarioMaximo": 2181.48,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3201209,
@@ -1614,7 +1333,7 @@
         "contextoLocalidade": "O concurso terá prova objetiva para todos os cargos, com aplicação prevista para o dia 17 de janeiro de 2027, nas cidades de Colatina, Guarapari e Vitória.",
         "orgao": "CRECI - Conselho Regional de Corretores de Imóveis da 13ª Região",
         "titulo": "CRECI - ES abre concurso público com salários de até R$ 8.250,00",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/creci-es-abre-concurso-publico-com-salarios-de-ate-8250",
         "vagas": 24,
@@ -1647,37 +1366,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 3202009,
-    "cidade": "Dores do Rio Preto",
-    "uf": "ES",
-    "latitude": -20.6931,
-    "longitude": -41.8405,
-    "concursos": [
-      {
-        "id": "prefeitura-de-dores-do-rio-preto-es-abre-selecao-com-salarios-de-ate-17087:3202009",
-        "concursoId": "prefeitura-de-dores-do-rio-preto-es-abre-selecao-com-salarios-de-ate-17087",
-        "codigoIbge": 3202009,
-        "cidade": "Dores do Rio Preto",
-        "uf": "ES",
-        "latitude": -20.6931,
-        "longitude": -41.8405,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Dores do Rio Preto — Prefeitura de Dores do Rio Preto - ES abre seleção com salários de até R$ 17.087,37",
-        "orgao": "Prefeitura de Dores do Rio Preto",
-        "titulo": "Prefeitura de Dores do Rio Preto - ES abre seleção com salários de até R$ 17.087,37",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-dores-do-rio-preto-es-abre-selecao-com-salarios-de-ate-17087",
-        "vagas": 176,
-        "salarioMaximo": 17087.37,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3202405,
     "cidade": "Guarapari",
     "uf": "ES",
@@ -1697,7 +1385,7 @@
         "contextoLocalidade": "Profissional de Suporte Técnico (PST) - Assistente Administrativo - Guarapari (1 vaga + CR)",
         "orgao": "CRECI - Conselho Regional de Corretores de Imóveis da 13ª Região",
         "titulo": "CRECI - ES abre concurso público com salários de até R$ 8.250,00",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/creci-es-abre-concurso-publico-com-salarios-de-ate-8250",
         "vagas": 24,
@@ -1716,8 +1404,8 @@
     "longitude": -40.8132,
     "concursos": [
       {
-        "id": "saae-de-iconha-es-abre-concurso-publico-com-salarios-de-ate-3236:3202603",
-        "concursoId": "saae-de-iconha-es-abre-concurso-publico-com-salarios-de-ate-3236",
+        "id": "saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico:3202603",
+        "concursoId": "saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico",
         "codigoIbge": 3202603,
         "cidade": "Iconha",
         "uf": "ES",
@@ -1725,16 +1413,47 @@
         "longitude": -40.8132,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SAAE - Serviço Autônomo de Água e Esgoto de Iconha — SAAE de Iconha - ES abre concurso público com salários de até R$ 3.236,14",
+        "contextoLocalidade": "SAAE - Serviço Autônomo de Água e Esgoto de Iconha — SAAE de Iconha - ES prorroga inscrições para concurso público",
         "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Iconha",
-        "titulo": "SAAE de Iconha - ES abre concurso público com salários de até R$ 3.236,14",
+        "titulo": "SAAE de Iconha - ES prorroga inscrições para concurso público",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-iconha-es-abre-concurso-publico-com-salarios-de-ate-3236",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico",
         "vagas": 14,
         "salarioMaximo": 3236.14,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
+        "inscricaoTexto": "Prorrogado até16/11/2026",
+        "inscricaoFim": "2026-11-16"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3203353,
+    "cidade": "Marilândia",
+    "uf": "ES",
+    "latitude": -19.4114,
+    "longitude": -40.5456,
+    "concursos": [
+      {
+        "id": "camara-de-marilandia-es-abre-selecao-para-controlador-interno:3203353",
+        "concursoId": "camara-de-marilandia-es-abre-selecao-para-controlador-interno",
+        "codigoIbge": 3203353,
+        "cidade": "Marilândia",
+        "uf": "ES",
+        "latitude": -19.4114,
+        "longitude": -40.5456,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Marilândia — Câmara de Marilândia - ES abre seleção para controlador interno",
+        "orgao": "Câmara de Marilândia",
+        "titulo": "Câmara de Marilândia - ES abre seleção para controlador interno",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-marilandia-es-abre-selecao-para-controlador-interno",
+        "vagas": 1,
+        "salarioMaximo": 5348.97,
+        "inscricaoTexto": "16 a25/11/2026",
+        "inscricaoFim": "2026-11-25"
       }
     ],
     "totalConcursos": 1
@@ -1864,6 +1583,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3204955,
+    "cidade": "São Roque do Canaã",
+    "uf": "ES",
+    "latitude": -19.7411,
+    "longitude": -40.6526,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-roque-do-canaa-es-abre-concurso-publico-com-salarios-de-ate-6723:3204955",
+        "concursoId": "prefeitura-de-sao-roque-do-canaa-es-abre-concurso-publico-com-salarios-de-ate-6723",
+        "codigoIbge": 3204955,
+        "cidade": "São Roque do Canaã",
+        "uf": "ES",
+        "latitude": -19.7411,
+        "longitude": -40.6526,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São Roque do Canaã — Prefeitura de São Roque do Canaã - ES abre concurso público com salários de até R$ 6.723,72",
+        "orgao": "Prefeitura de São Roque do Canaã",
+        "titulo": "Prefeitura de São Roque do Canaã - ES abre concurso público com salários de até R$ 6.723,72",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-roque-do-canaa-es-abre-concurso-publico-com-salarios-de-ate-6723",
+        "vagas": 114,
+        "salarioMaximo": 6723.72,
+        "inscricaoTexto": "18/11 a18/12/2026",
+        "inscricaoFim": "2026-12-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5200605,
     "cidade": "Alto Paraíso de Goiás",
     "uf": "GO",
@@ -1957,6 +1707,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5204854,
+    "cidade": "Campo Limpo de Goiás",
+    "uf": "GO",
+    "latitude": -16.2971,
+    "longitude": -49.0895,
+    "concursos": [
+      {
+        "id": "prefeitura-e-camara-de-campo-limpo-de-goias-go-anunciam-concurso-publico-com-diversas-vagas:5204854",
+        "concursoId": "prefeitura-e-camara-de-campo-limpo-de-goias-go-anunciam-concurso-publico-com-diversas-vagas",
+        "codigoIbge": 5204854,
+        "cidade": "Campo Limpo de Goiás",
+        "uf": "GO",
+        "latitude": -16.2971,
+        "longitude": -49.0895,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Campo Limpo de Goiás e Câmara de Campo Limpo de Goiás — Prefeitura e Câmara de Campo Limpo de Goiás - GO anunciam concurso público com diversas vagas",
+        "orgao": "Prefeitura de Campo Limpo de Goiás e Câmara de Campo Limpo de Goiás",
+        "titulo": "Prefeitura e Câmara de Campo Limpo de Goiás - GO anunciam concurso público com diversas vagas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-e-camara-de-campo-limpo-de-goias-go-anunciam-concurso-publico-com-diversas-vagas",
+        "vagas": 105,
+        "salarioMaximo": 4042.61,
+        "inscricaoTexto": "21/12/2026 a21/01/2027",
+        "inscricaoFim": "2027-01-21"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5206206,
     "cidade": "Cristalina",
     "uf": "GO",
@@ -2026,27 +1807,6 @@
     "longitude": -49.2643,
     "concursos": [
       {
-        "id": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios:5208707",
-        "concursoId": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "codigoIbge": 5208707,
-        "cidade": "Goiânia",
-        "uf": "GO",
-        "latitude": -16.6864,
-        "longitude": -49.2643,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Pedagogia em Goiânia/GO (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 7º Distrito Naval",
-        "titulo": "Marinha do Brasil - 7º Distrito Naval: edital de processo seletivo oferece vagas de nível superior para oficiais temporários",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "vagas": 17,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "instituto-socrates-guanaes-go-abre-processo-seletivo-para-cadastro-de-reserva:5208707",
         "concursoId": "instituto-socrates-guanaes-go-abre-processo-seletivo-para-cadastro-de-reserva",
         "codigoIbge": 5208707,
@@ -2089,7 +1849,38 @@
         "inscricaoFim": "2026-11-06"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 5208806,
+    "cidade": "Goianira",
+    "uf": "GO",
+    "latitude": -16.4947,
+    "longitude": -49.427,
+    "concursos": [
+      {
+        "id": "prefeitura-de-goianira-go-abre-selecao-com-remuneracoes-de-ate-3203:5208806",
+        "concursoId": "prefeitura-de-goianira-go-abre-selecao-com-remuneracoes-de-ate-3203",
+        "codigoIbge": 5208806,
+        "cidade": "Goianira",
+        "uf": "GO",
+        "latitude": -16.4947,
+        "longitude": -49.427,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Goianira — Prefeitura de Goianira - GO abre seleção com remunerações de até R$ 3.203,66",
+        "orgao": "Prefeitura de Goianira",
+        "titulo": "Prefeitura de Goianira - GO abre seleção com remunerações de até R$ 3.203,66",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-goianira-go-abre-selecao-com-remuneracoes-de-ate-3203",
+        "vagas": 140,
+        "salarioMaximo": 3203.66,
+        "inscricaoTexto": "17/11/2026",
+        "inscricaoFim": "2026-11-17"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 5208905,
@@ -2957,6 +2748,27 @@
         "inscricaoFim": "2026-10-30"
       },
       {
+        "id": "hospital-metropolitano-odilon-behrens-mg-abre-selecao-para-medicos:3106200",
+        "concursoId": "hospital-metropolitano-odilon-behrens-mg-abre-selecao-para-medicos",
+        "codigoIbge": 3106200,
+        "cidade": "Belo Horizonte",
+        "uf": "MG",
+        "latitude": -19.9102,
+        "longitude": -43.9266,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "O Hospital Metropolitano Odilon Behrens (HOB), em Belo Horizonte/MG, abriu um Processo Seletivo Simplificado para contratação temporária de médicos e formação de cadastro de reserva.",
+        "orgao": "HOB - Hospital Metropolitano Odilon Behrens",
+        "titulo": "Hospital Metropolitano Odilon Behrens - MG abre seleção para médicos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-metropolitano-odilon-behrens-mg-abre-selecao-para-medicos",
+        "vagas": null,
+        "salarioMaximo": 18067.43,
+        "inscricaoTexto": "19/11/2026",
+        "inscricaoFim": "2026-11-19"
+      },
+      {
         "id": "ipsemg-retifica-processo-seletivo-com-vagas-para-residencia-medica:3106200",
         "concursoId": "ipsemg-retifica-processo-seletivo-com-vagas-para-residencia-medica",
         "codigoIbge": 3106200,
@@ -2999,7 +2811,7 @@
         "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 3106655,
@@ -3183,99 +2995,6 @@
         "salarioMaximo": 3076.92,
         "inscricaoTexto": "14/12/2026 a14/01/2027",
         "inscricaoFim": "2027-01-14"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3112604,
-    "cidade": "Capinópolis",
-    "uf": "MG",
-    "latitude": -18.6862,
-    "longitude": -49.5706,
-    "concursos": [
-      {
-        "id": "camara-de-capinopolis-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-5800:3112604",
-        "concursoId": "camara-de-capinopolis-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-5800",
-        "codigoIbge": 3112604,
-        "cidade": "Capinópolis",
-        "uf": "MG",
-        "latitude": -18.6862,
-        "longitude": -49.5706,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Capinópolis — Câmara de Capinópolis - MG retifica edital de concurso público com salários de até R$ 5.800,00",
-        "orgao": "Câmara de Capinópolis",
-        "titulo": "Câmara de Capinópolis - MG retifica edital de concurso público com salários de até R$ 5.800,00",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-capinopolis-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-5800",
-        "vagas": 5,
-        "salarioMaximo": 5800,
-        "inscricaoTexto": "Prorrogado até10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3112802,
-    "cidade": "Capitólio",
-    "uf": "MG",
-    "latitude": -20.6164,
-    "longitude": -46.0493,
-    "concursos": [
-      {
-        "id": "prefeitura-de-capitolio-mg-abre-processos-seletivos-para-os-cargos-de-guarda-e-operario:3112802",
-        "concursoId": "prefeitura-de-capitolio-mg-abre-processos-seletivos-para-os-cargos-de-guarda-e-operario",
-        "codigoIbge": 3112802,
-        "cidade": "Capitólio",
-        "uf": "MG",
-        "latitude": -20.6164,
-        "longitude": -46.0493,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Capitólio — Prefeitura de Capitólio - MG abre processos seletivos para os cargos de Guarda e Operário",
-        "orgao": "Prefeitura de Capitólio",
-        "titulo": "Prefeitura de Capitólio - MG abre processos seletivos para os cargos de Guarda e Operário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-capitolio-mg-abre-processos-seletivos-para-os-cargos-de-guarda-e-operario",
-        "vagas": 3,
-        "salarioMaximo": 2163.56,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3113305,
-    "cidade": "Carangola",
-    "uf": "MG",
-    "latitude": -20.7343,
-    "longitude": -42.0313,
-    "concursos": [
-      {
-        "id": "cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista:3113305",
-        "concursoId": "cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista",
-        "codigoIbge": 3113305,
-        "cidade": "Carangola",
-        "uf": "MG",
-        "latitude": -20.7343,
-        "longitude": -42.0313,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado de Minas Gerais, o Consórcio Intermunicipal Multifinalitário CIS-VERDE, em Carangola e Manhuaçu, abriu um Processo Seletivo Simplificado com o objetivo de preencher quatro vagas de motorista e formar cadastro de reserva.",
-        "orgao": "CIS-VERDE - Consórcio Intermunicipal Multifinalitário",
-        "titulo": "CIS-VERDE - MG abre processo seletivo para o cargo de Motorista",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista",
-        "vagas": 4,
-        "salarioMaximo": 1980,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -3515,9 +3234,30 @@
         "salarioMaximo": 23298.67,
         "inscricaoTexto": "Prorrogado até12/11/2026",
         "inscricaoFim": "2026-11-12"
+      },
+      {
+        "id": "prefeitura-de-confins-mg-abre-processo-seletivo-para-a-secretaria-de-educacao:3117876",
+        "concursoId": "prefeitura-de-confins-mg-abre-processo-seletivo-para-a-secretaria-de-educacao",
+        "codigoIbge": 3117876,
+        "cidade": "Confins",
+        "uf": "MG",
+        "latitude": -19.6282,
+        "longitude": -43.9931,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Confins — Prefeitura de Confins - MG abre processo seletivo para a Secretaria de Educação",
+        "orgao": "Prefeitura de Confins",
+        "titulo": "Prefeitura de Confins - MG abre processo seletivo para a Secretaria de Educação",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-confins-mg-abre-processo-seletivo-para-a-secretaria-de-educacao",
+        "vagas": 171,
+        "salarioMaximo": 3812.56,
+        "inscricaoTexto": "12/11 a03/12/2026",
+        "inscricaoFim": "2026-12-03"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3118601,
@@ -3613,37 +3353,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3122405,
-    "cidade": "Divisa Nova",
-    "uf": "MG",
-    "latitude": -21.5092,
-    "longitude": -46.1904,
-    "concursos": [
-      {
-        "id": "camara-de-divisa-nova-mg-abre-concurso-publico-para-agente-de-contratacao-e-contador:3122405",
-        "concursoId": "camara-de-divisa-nova-mg-abre-concurso-publico-para-agente-de-contratacao-e-contador",
-        "codigoIbge": 3122405,
-        "cidade": "Divisa Nova",
-        "uf": "MG",
-        "latitude": -21.5092,
-        "longitude": -46.1904,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Divisa Nova — Câmara de Divisa Nova - MG abre concurso público para Agente de Contratação e Contador",
-        "orgao": "Câmara de Divisa Nova",
-        "titulo": "Câmara de Divisa Nova - MG abre concurso público para Agente de Contratação e Contador",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-divisa-nova-mg-abre-concurso-publico-para-agente-de-contratacao-e-contador",
-        "vagas": 2,
-        "salarioMaximo": 3868.2,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3124500,
     "cidade": "Estiva",
     "uf": "MG",
@@ -3670,6 +3379,37 @@
         "salarioMaximo": 1689.78,
         "inscricaoTexto": "13/11/2026",
         "inscricaoFim": "2026-11-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3124807,
+    "cidade": "Estrela do Sul",
+    "uf": "MG",
+    "latitude": -18.7399,
+    "longitude": -47.6956,
+    "concursos": [
+      {
+        "id": "camara-de-estrela-do-sul-mg-abre-concurso-publico-com-sete-vagas:3124807",
+        "concursoId": "camara-de-estrela-do-sul-mg-abre-concurso-publico-com-sete-vagas",
+        "codigoIbge": 3124807,
+        "cidade": "Estrela do Sul",
+        "uf": "MG",
+        "latitude": -18.7399,
+        "longitude": -47.6956,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Estrela do Sul — Câmara de Estrela do Sul - MG abre concurso público com sete vagas",
+        "orgao": "Câmara de Estrela do Sul",
+        "titulo": "Câmara de Estrela do Sul - MG abre concurso público com sete vagas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-estrela-do-sul-mg-abre-concurso-publico-com-sete-vagas",
+        "vagas": 7,
+        "salarioMaximo": 2250,
+        "inscricaoTexto": "11/01 a11/02/2027",
+        "inscricaoFim": "2027-02-11"
       }
     ],
     "totalConcursos": 1
@@ -4230,27 +3970,6 @@
     "longitude": -42.028,
     "concursos": [
       {
-        "id": "cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista:3139409",
-        "concursoId": "cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista",
-        "codigoIbge": 3139409,
-        "cidade": "Manhuaçu",
-        "uf": "MG",
-        "latitude": -20.2572,
-        "longitude": -42.028,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado de Minas Gerais, o Consórcio Intermunicipal Multifinalitário CIS-VERDE, em Carangola e Manhuaçu, abriu um Processo Seletivo Simplificado com o objetivo de preencher quatro vagas de motorista e formar cadastro de reserva.",
-        "orgao": "CIS-VERDE - Consórcio Intermunicipal Multifinalitário",
-        "titulo": "CIS-VERDE - MG abre processo seletivo para o cargo de Motorista",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cis-verde-mg-abre-processo-seletivo-para-o-cargo-de-motorista",
-        "vagas": 4,
-        "salarioMaximo": 1980,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "emater-mg-anuncia-retificacao-de-concurso-publico-com-salarios-de-ate-7321:3139409",
         "concursoId": "emater-mg-anuncia-retificacao-de-concurso-publico-com-salarios-de-ate-7321",
         "codigoIbge": 3139409,
@@ -4272,7 +3991,7 @@
         "inscricaoFim": "2026-10-30"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3143807,
@@ -4330,7 +4049,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-natercia-mg-abre-concurso-publico-para-auxiliar-de-servicos-gerais-e-oficial-legislativo",
         "vagas": 1,
         "salarioMaximo": 1668.22,
-        "inscricaoTexto": "11/11 a11/12/2026",
+        "inscricaoTexto": "11/12/2026",
         "inscricaoFim": "2026-12-11"
       }
     ],
@@ -4394,37 +4113,6 @@
         "salarioMaximo": 5200,
         "inscricaoTexto": "Reaberto até26/11/2026",
         "inscricaoFim": "2026-11-26"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3145802,
-    "cidade": "Onça de Pitangui",
-    "uf": "MG",
-    "latitude": -19.7276,
-    "longitude": -44.8058,
-    "concursos": [
-      {
-        "id": "prefeitura-de-onca-de-pitangui-mg-abre-processo-seletivo-com-salarios-de-ate-14829:3145802",
-        "concursoId": "prefeitura-de-onca-de-pitangui-mg-abre-processo-seletivo-com-salarios-de-ate-14829",
-        "codigoIbge": 3145802,
-        "cidade": "Onça de Pitangui",
-        "uf": "MG",
-        "latitude": -19.7276,
-        "longitude": -44.8058,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Onça de Pitangui — Prefeitura de Onça de Pitangui - MG abre processo seletivo com salários de até R$ 14.829,31",
-        "orgao": "Prefeitura de Onça de Pitangui",
-        "titulo": "Prefeitura de Onça de Pitangui - MG abre processo seletivo com salários de até R$ 14.829,31",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-onca-de-pitangui-mg-abre-processo-seletivo-com-salarios-de-ate-14829",
-        "vagas": 11,
-        "salarioMaximo": 14829.31,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -4518,37 +4206,6 @@
         "salarioMaximo": 11715.84,
         "inscricaoTexto": "18/11/2026",
         "inscricaoFim": "2026-11-18"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3147006,
-    "cidade": "Paracatu",
-    "uf": "MG",
-    "latitude": -17.2252,
-    "longitude": -46.8711,
-    "concursos": [
-      {
-        "id": "prefeitura-de-paracatu-mg-abre-selecao-para-diretor-e-vice-diretor-de-unidade-escolar:3147006",
-        "concursoId": "prefeitura-de-paracatu-mg-abre-selecao-para-diretor-e-vice-diretor-de-unidade-escolar",
-        "codigoIbge": 3147006,
-        "cidade": "Paracatu",
-        "uf": "MG",
-        "latitude": -17.2252,
-        "longitude": -46.8711,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Paracatu — Prefeitura de Paracatu - MG abre seleção para diretor e vice-diretor de unidade escolar",
-        "orgao": "Prefeitura de Paracatu",
-        "titulo": "Prefeitura de Paracatu - MG abre seleção para diretor e vice-diretor de unidade escolar",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-paracatu-mg-abre-selecao-para-diretor-e-vice-diretor-de-unidade-escolar",
-        "vagas": null,
-        "salarioMaximo": 7210.64,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -4716,27 +4373,6 @@
     "longitude": -44.934,
     "concursos": [
       {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3151206",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3151206,
-        "cidade": "Pirapora",
-        "uf": "MG",
-        "latitude": -17.3392,
-        "longitude": -44.934,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Pedagogia (Pirapora/MG - 1 vaga)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "saae-de-pirapora-mg-abre-concurso-publico-com-salarios-de-ate-4848:3151206",
         "concursoId": "saae-de-pirapora-mg-abre-concurso-publico-com-salarios-de-ate-4848",
         "codigoIbge": 3151206,
@@ -4758,7 +4394,7 @@
         "inscricaoFim": "2026-11-18"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3151800,
@@ -5040,37 +4676,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3158508,
-    "cidade": "Santana de Pirapama",
-    "uf": "MG",
-    "latitude": -18.9962,
-    "longitude": -44.0409,
-    "concursos": [
-      {
-        "id": "prefeitura-de-santana-de-pirapama-mg-abre-concurso-com-salarios-de-ate-6221:3158508",
-        "concursoId": "prefeitura-de-santana-de-pirapama-mg-abre-concurso-com-salarios-de-ate-6221",
-        "codigoIbge": 3158508,
-        "cidade": "Santana de Pirapama",
-        "uf": "MG",
-        "latitude": -18.9962,
-        "longitude": -44.0409,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Santana de Pirapama — Prefeitura de Santana de Pirapama - MG abre concurso com salários de até R$ 6.221,41",
-        "orgao": "Prefeitura de Santana de Pirapama",
-        "titulo": "Prefeitura de Santana de Pirapama - MG abre concurso com salários de até R$ 6.221,41",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-de-pirapama-mg-abre-concurso-com-salarios-de-ate-6221",
-        "vagas": 79,
-        "salarioMaximo": 6221.41,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3159100,
     "cidade": "Santana dos Montes",
     "uf": "MG",
@@ -5232,9 +4837,30 @@
         "salarioMaximo": 3689.99,
         "inscricaoTexto": "16 a18/11/2026",
         "inscricaoFim": "2026-11-18"
+      },
+      {
+        "id": "prefeitura-de-sao-jose-da-lapa-mg-abre-processo-seletivo-com-8-vagas-e-cadastro-de-reserva:3162955",
+        "concursoId": "prefeitura-de-sao-jose-da-lapa-mg-abre-processo-seletivo-com-8-vagas-e-cadastro-de-reserva",
+        "codigoIbge": 3162955,
+        "cidade": "São José da Lapa",
+        "uf": "MG",
+        "latitude": -19.6971,
+        "longitude": -43.9586,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São José da Lapa — Prefeitura de São José da Lapa - MG abre processo seletivo com 8 vagas e cadastro de reserva",
+        "orgao": "Prefeitura de São José da Lapa",
+        "titulo": "Prefeitura de São José da Lapa - MG abre processo seletivo com 8 vagas e cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-jose-da-lapa-mg-abre-processo-seletivo-com-8-vagas-e-cadastro-de-reserva",
+        "vagas": 8,
+        "salarioMaximo": 2931.8,
+        "inscricaoTexto": "16 a20/11/2026",
+        "inscricaoFim": "2026-11-20"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3163300,
@@ -5786,6 +5412,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5001243,
+    "cidade": "Aral Moreira",
+    "uf": "MS",
+    "latitude": -22.9385,
+    "longitude": -55.6334,
+    "concursos": [
+      {
+        "id": "camara-de-aral-moreira-ms-abre-concurso-publico-com-salarios-de-ate-7566:5001243",
+        "concursoId": "camara-de-aral-moreira-ms-abre-concurso-publico-com-salarios-de-ate-7566",
+        "codigoIbge": 5001243,
+        "cidade": "Aral Moreira",
+        "uf": "MS",
+        "latitude": -22.9385,
+        "longitude": -55.6334,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Aral Moreira — Câmara de Aral Moreira - MS abre concurso público com salários de até R$ 7.566,00",
+        "orgao": "Câmara de Aral Moreira",
+        "titulo": "Câmara de Aral Moreira - MS abre concurso público com salários de até R$ 7.566,00",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-aral-moreira-ms-abre-concurso-publico-com-salarios-de-ate-7566",
+        "vagas": 4,
+        "salarioMaximo": 7566,
+        "inscricaoTexto": "12 a22/11/2026",
+        "inscricaoFim": "2026-11-22"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5002001,
     "cidade": "Batayporã",
     "uf": "MS",
@@ -5941,6 +5598,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5003751,
+    "cidade": "Eldorado",
+    "uf": "MS",
+    "latitude": -23.7868,
+    "longitude": -54.2838,
+    "concursos": [
+      {
+        "id": "prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao:5003751",
+        "concursoId": "prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao",
+        "codigoIbge": 5003751,
+        "cidade": "Eldorado",
+        "uf": "MS",
+        "latitude": -23.7868,
+        "longitude": -54.2838,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Secretaria Municipal de Educação, Esporte e Cultura de Eldorado — Prefeitura de Eldorado - MS abre seleção para profissionais da educação",
+        "orgao": "Secretaria Municipal de Educação, Esporte e Cultura de Eldorado",
+        "titulo": "Prefeitura de Eldorado - MS abre seleção para profissionais da educação",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao",
+        "vagas": null,
+        "salarioMaximo": null,
+        "inscricaoTexto": "16/11/2026",
+        "inscricaoFim": "2026-11-16"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5005707,
     "cidade": "Naviraí",
     "uf": "MS",
@@ -6060,6 +5748,37 @@
         "salarioMaximo": 5215.39,
         "inscricaoTexto": "04/12/2026",
         "inscricaoFim": "2026-12-04"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 5007695,
+    "cidade": "São Gabriel do Oeste",
+    "uf": "MS",
+    "latitude": -19.3889,
+    "longitude": -54.5507,
+    "concursos": [
+      {
+        "id": "saae-de-sao-gabriel-do-oeste-ms-abre-processo-seletivo-para-coletor-de-residuos:5007695",
+        "concursoId": "saae-de-sao-gabriel-do-oeste-ms-abre-processo-seletivo-para-coletor-de-residuos",
+        "codigoIbge": 5007695,
+        "cidade": "São Gabriel do Oeste",
+        "uf": "MS",
+        "latitude": -19.3889,
+        "longitude": -54.5507,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SAAE - Serviço Autônomo de Água e Esgoto de São Gabriel do Oeste — SAAE de São Gabriel do Oeste - MS abre processo seletivo para Coletor de Resíduos",
+        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de São Gabriel do Oeste",
+        "titulo": "SAAE de São Gabriel do Oeste - MS abre processo seletivo para Coletor de Resíduos",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-sao-gabriel-do-oeste-ms-abre-processo-seletivo-para-coletor-de-residuos",
+        "vagas": null,
+        "salarioMaximo": 1769.68,
+        "inscricaoTexto": "12 a13/11/2026",
+        "inscricaoFim": "2026-11-13"
       }
     ],
     "totalConcursos": 1
@@ -6303,6 +6022,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5103379,
+    "cidade": "Cotriguaçu",
+    "uf": "MT",
+    "latitude": -9.85656,
+    "longitude": -58.4192,
+    "concursos": [
+      {
+        "id": "prefeitura-de-cotriguacu-mt-abre-processo-seletivo-para-cadastro-de-reserva:5103379",
+        "concursoId": "prefeitura-de-cotriguacu-mt-abre-processo-seletivo-para-cadastro-de-reserva",
+        "codigoIbge": 5103379,
+        "cidade": "Cotriguaçu",
+        "uf": "MT",
+        "latitude": -9.85656,
+        "longitude": -58.4192,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cotriguaçu — Prefeitura de Cotriguaçu - MT abre processo seletivo para cadastro de reserva",
+        "orgao": "Prefeitura de Cotriguaçu",
+        "titulo": "Prefeitura de Cotriguaçu - MT abre processo seletivo para cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cotriguacu-mt-abre-processo-seletivo-para-cadastro-de-reserva",
+        "vagas": null,
+        "salarioMaximo": 4749.42,
+        "inscricaoTexto": "24/11 a02/12/2026",
+        "inscricaoFim": "2026-12-02"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 5103403,
     "cidade": "Cuiabá",
     "uf": "MT",
@@ -6360,6 +6110,37 @@
         "salarioMaximo": 27645.05,
         "inscricaoTexto": "16/11/2026",
         "inscricaoFim": "2026-11-16"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 5106158,
+    "cidade": "Nova Bandeirantes",
+    "uf": "MT",
+    "latitude": -9.84977,
+    "longitude": -57.8139,
+    "concursos": [
+      {
+        "id": "prefeitura-de-nova-bandeirantes-mt-abre-selecao-com-salarios-de-ate-4928:5106158",
+        "concursoId": "prefeitura-de-nova-bandeirantes-mt-abre-selecao-com-salarios-de-ate-4928",
+        "codigoIbge": 5106158,
+        "cidade": "Nova Bandeirantes",
+        "uf": "MT",
+        "latitude": -9.84977,
+        "longitude": -57.8139,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Nova Bandeirantes — Prefeitura de Nova Bandeirantes - MT abre seleção com salários de até R$ 4.928,75",
+        "orgao": "Prefeitura de Nova Bandeirantes",
+        "titulo": "Prefeitura de Nova Bandeirantes - MT abre seleção com salários de até R$ 4.928,75",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-bandeirantes-mt-abre-selecao-com-salarios-de-ate-4928",
+        "vagas": 189,
+        "salarioMaximo": 4928.75,
+        "inscricaoTexto": "25/11 a03/12/2026",
+        "inscricaoFim": "2026-12-03"
       }
     ],
     "totalConcursos": 1
@@ -6527,27 +6308,6 @@
     "longitude": -48.4898,
     "concursos": [
       {
-        "id": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados:1501402",
-        "concursoId": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "codigoIbge": 1501402,
-        "cidade": "Belém",
-        "uf": "PA",
-        "latitude": -1.4554,
-        "longitude": -48.4898,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Médico - Ortopedia (1 vaga - Belém/PA)",
-        "orgao": "Marinha do Brasil - Comando do 4º Distrito Naval",
-        "titulo": "Marinha do Brasil - 4º Distrito Naval abre seleção para oficiais temporários com vagas em diferentes estados",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "vagas": 25,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "seplad-e-fhcgv-pa-prorrogam-inscricoes-para-concurso-publico:1501402",
         "concursoId": "seplad-e-fhcgv-pa-prorrogam-inscricoes-para-concurso-publico",
         "codigoIbge": 1501402,
@@ -6590,7 +6350,7 @@
         "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 1501907,
@@ -6724,27 +6484,6 @@
     "longitude": -54.6996,
     "concursos": [
       {
-        "id": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados:1506807",
-        "concursoId": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "codigoIbge": 1506807,
-        "cidade": "Santarém",
-        "uf": "PA",
-        "latitude": -2.43849,
-        "longitude": -54.6996,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "STA Inspetor Naval Nível 1 (1 vaga - Santarém/PA)",
-        "orgao": "Marinha do Brasil - Comando do 4º Distrito Naval",
-        "titulo": "Marinha do Brasil - 4º Distrito Naval abre seleção para oficiais temporários com vagas em diferentes estados",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "vagas": 25,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios:1506807",
         "concursoId": "trt-8-pa-ap-publica-edital-de-concurso-para-tecnicos-e-analistas-judiciarios",
         "codigoIbge": 1506807,
@@ -6766,7 +6505,7 @@
         "inscricaoFim": "2026-11-05"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 1507458,
@@ -6795,37 +6534,6 @@
         "salarioMaximo": 3000,
         "inscricaoTexto": "23/11/2026",
         "inscricaoFim": "2026-11-23"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 1508050,
-    "cidade": "Trairão",
-    "uf": "PA",
-    "latitude": -4.57347,
-    "longitude": -55.9429,
-    "concursos": [
-      {
-        "id": "prefeitura-de-trairao-pa-abre-selecao-para-brigadistas-de-incendio:1508050",
-        "concursoId": "prefeitura-de-trairao-pa-abre-selecao-para-brigadistas-de-incendio",
-        "codigoIbge": 1508050,
-        "cidade": "Trairão",
-        "uf": "PA",
-        "latitude": -4.57347,
-        "longitude": -55.9429,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Trairão — Prefeitura de Trairão - PA abre seleção para brigadistas de incêndio.",
-        "orgao": "Prefeitura de Trairão",
-        "titulo": "Prefeitura de Trairão - PA abre seleção para brigadistas de incêndio.",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-trairao-pa-abre-selecao-para-brigadistas-de-incendio",
-        "vagas": 6,
-        "salarioMaximo": 3777.94,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -6993,27 +6701,6 @@
     "longitude": -34.8641,
     "concursos": [
       {
-        "id": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios:2507507",
-        "concursoId": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "codigoIbge": 2507507,
-        "cidade": "João Pessoa",
-        "uf": "PB",
-        "latitude": -7.11509,
-        "longitude": -34.8641,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Enfermagem - João Pessoa-PB (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 3º Distrito Naval",
-        "titulo": "Marinha do Brasil - 3º Distrito Naval abre vagas para Oficiais Temporários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "vagas": 35,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "dpe-pb-abre-concurso-publico-com-salarios-de-ate-5197:2507507",
         "concursoId": "dpe-pb-abre-concurso-publico-com-salarios-de-ate-5197",
         "codigoIbge": 2507507,
@@ -7033,27 +6720,6 @@
         "salarioMaximo": 5197.5,
         "inscricaoTexto": "13/11/2026",
         "inscricaoFim": "2026-11-13"
-      },
-      {
-        "id": "sedec-joao-pessoa-pb-abre-selecao-para-educadores-sociais-voluntarios:2507507",
-        "concursoId": "sedec-joao-pessoa-pb-abre-selecao-para-educadores-sociais-voluntarios",
-        "codigoIbge": 2507507,
-        "cidade": "João Pessoa",
-        "uf": "PB",
-        "latitude": -7.11509,
-        "longitude": -34.8641,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SEDEC - Secretaria Municipal de Educação e Cultura de João Pessoa — SEDEC João Pessoa - PB abre seleção para educadores sociais voluntários",
-        "orgao": "SEDEC - Secretaria Municipal de Educação e Cultura de João Pessoa",
-        "titulo": "SEDEC João Pessoa - PB abre seleção para educadores sociais voluntários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/sedec-joao-pessoa-pb-abre-selecao-para-educadores-sociais-voluntarios",
-        "vagas": null,
-        "salarioMaximo": 918.39,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       },
       {
         "id": "tjpb-retifica-concurso-publico-para-analistas-judiciarios:2507507",
@@ -7077,7 +6743,38 @@
         "inscricaoFim": "2026-11-18"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 2509909,
+    "cidade": "Natuba",
+    "uf": "PB",
+    "latitude": -7.63514,
+    "longitude": -35.5586,
+    "concursos": [
+      {
+        "id": "prefeitura-de-natuba-pb-abre-concurso-publico-para-diversos-cargos:2509909",
+        "concursoId": "prefeitura-de-natuba-pb-abre-concurso-publico-para-diversos-cargos",
+        "codigoIbge": 2509909,
+        "cidade": "Natuba",
+        "uf": "PB",
+        "latitude": -7.63514,
+        "longitude": -35.5586,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Natuba — Prefeitura de Natuba - PB abre concurso público para diversos cargos",
+        "orgao": "Prefeitura de Natuba",
+        "titulo": "Prefeitura de Natuba - PB abre concurso público para diversos cargos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-natuba-pb-abre-concurso-publico-para-diversos-cargos",
+        "vagas": 141,
+        "salarioMaximo": 3988.96,
+        "inscricaoTexto": "12/11 a13/12/2026",
+        "inscricaoFim": "2026-12-13"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 2510659,
@@ -7408,27 +7105,6 @@
     "longitude": -34.8771,
     "concursos": [
       {
-        "id": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios:2611606",
-        "concursoId": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "codigoIbge": 2611606,
-        "cidade": "Recife",
-        "uf": "PE",
-        "latitude": -8.04666,
-        "longitude": -34.8771,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Cirurgião-Dentista (Prótese Dentária) - Recife-PE (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 3º Distrito Naval",
-        "titulo": "Marinha do Brasil - 3º Distrito Naval abre vagas para Oficiais Temporários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "vagas": 35,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "pmpe-altera-periodo-de-inscricao-para-concurso-publico-de-soldados-e-oficiais:2611606",
         "concursoId": "pmpe-altera-periodo-de-inscricao-para-concurso-publico-de-soldados-e-oficiais",
         "codigoIbge": 2611606,
@@ -7471,7 +7147,7 @@
         "inscricaoFim": "2027-01-04"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 2613107,
@@ -7784,68 +7460,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2206696,
-    "cidade": "Murici dos Portelas",
-    "uf": "PI",
-    "latitude": -3.319,
-    "longitude": -42.094,
-    "concursos": [
-      {
-        "id": "prefeitura-de-murici-dos-portelas-pi-abre-vagas-para-tecnicos-e-enfermeiros-socorristas:2206696",
-        "concursoId": "prefeitura-de-murici-dos-portelas-pi-abre-vagas-para-tecnicos-e-enfermeiros-socorristas",
-        "codigoIbge": 2206696,
-        "cidade": "Murici dos Portelas",
-        "uf": "PI",
-        "latitude": -3.319,
-        "longitude": -42.094,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Murici dos Portelas — Prefeitura de Murici dos Portelas - PI abre vagas para técnicos e enfermeiros socorristas",
-        "orgao": "Prefeitura de Murici dos Portelas",
-        "titulo": "Prefeitura de Murici dos Portelas - PI abre vagas para técnicos e enfermeiros socorristas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-murici-dos-portelas-pi-abre-vagas-para-tecnicos-e-enfermeiros-socorristas",
-        "vagas": 4,
-        "salarioMaximo": 4518.16,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2207702,
-    "cidade": "Parnaíba",
-    "uf": "PI",
-    "latitude": -2.90585,
-    "longitude": -41.7754,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados:2207702",
-        "concursoId": "marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "codigoIbge": 2207702,
-        "cidade": "Parnaíba",
-        "uf": "PI",
-        "latitude": -2.90585,
-        "longitude": -41.7754,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Pedagogia (1 vaga - Parnaíba-PI)",
-        "orgao": "Marinha do Brasil - Comando do 4º Distrito Naval",
-        "titulo": "Marinha do Brasil - 4º Distrito Naval abre seleção para oficiais temporários com vagas em diferentes estados",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-4-distrito-naval-abre-selecao-para-oficiais-temporarios-com-vagas-em-diferentes-estados",
-        "vagas": 25,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2210003,
     "cidade": "São João do Piauí",
     "uf": "PI",
@@ -7929,6 +7543,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4101408,
+    "cidade": "Apucarana",
+    "uf": "PR",
+    "latitude": -23.55,
+    "longitude": -51.4635,
+    "concursos": [
+      {
+        "id": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional:4101408",
+        "concursoId": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "codigoIbge": 4101408,
+        "cidade": "Apucarana",
+        "uf": "PR",
+        "latitude": -23.55,
+        "longitude": -51.4635,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Reitoria, com lotação em Apucarana",
+        "orgao": "Unespar - Universidade Estadual do Paraná",
+        "titulo": "Unespar - PR abre processo seletivo para agente universitário profissional",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "vagas": 13,
+        "salarioMaximo": 7997.72,
+        "inscricaoTexto": "16 a30/11/2026",
+        "inscricaoFim": "2026-11-30"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4104808,
     "cidade": "Cascavel",
     "uf": "PR",
@@ -7986,9 +7631,30 @@
         "salarioMaximo": 14117.18,
         "inscricaoTexto": "05/11/2026",
         "inscricaoFim": "2026-11-05"
+      },
+      {
+        "id": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional:4106902",
+        "concursoId": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "codigoIbge": 4106902,
+        "cidade": "Curitiba",
+        "uf": "PR",
+        "latitude": -25.4195,
+        "longitude": -49.2646,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Reitoria, com lotação em Curitiba",
+        "orgao": "Unespar - Universidade Estadual do Paraná",
+        "titulo": "Unespar - PR abre processo seletivo para agente universitário profissional",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "vagas": 13,
+        "salarioMaximo": 7997.72,
+        "inscricaoTexto": "16 a30/11/2026",
+        "inscricaoFim": "2026-11-30"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4107538,
@@ -8017,37 +7683,6 @@
         "salarioMaximo": 14045.9,
         "inscricaoTexto": "17/11/2026",
         "inscricaoFim": "2026-11-17"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4108007,
-    "cidade": "Florestópolis",
-    "uf": "PR",
-    "latitude": -22.8623,
-    "longitude": -51.3882,
-    "concursos": [
-      {
-        "id": "prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389:4108007",
-        "concursoId": "prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389",
-        "codigoIbge": 4108007,
-        "cidade": "Florestópolis",
-        "uf": "PR",
-        "latitude": -22.8623,
-        "longitude": -51.3882,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Florestópolis — Prefeitura de Florestópolis - PR abre concurso público com salários de até R$ 15.389,87",
-        "orgao": "Prefeitura de Florestópolis",
-        "titulo": "Prefeitura de Florestópolis - PR abre concurso público com salários de até R$ 15.389,87",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-florestopolis-pr-abre-concurso-publico-com-salarios-de-ate-15389",
-        "vagas": 46,
-        "salarioMaximo": 15389.87,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -8208,6 +7843,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4118402,
+    "cidade": "Paranavaí",
+    "uf": "PR",
+    "latitude": -23.0816,
+    "longitude": -52.4617,
+    "concursos": [
+      {
+        "id": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional:4118402",
+        "concursoId": "unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "codigoIbge": 4118402,
+        "cidade": "Paranavaí",
+        "uf": "PR",
+        "latitude": -23.0816,
+        "longitude": -52.4617,
+        "tipoLocalidade": "lotacao",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Reitoria, com lotação em Paranavaí",
+        "orgao": "Unespar - Universidade Estadual do Paraná",
+        "titulo": "Unespar - PR abre processo seletivo para agente universitário profissional",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/unespar-pr-abre-processo-seletivo-para-agente-universitario-profissional",
+        "vagas": 13,
+        "salarioMaximo": 7997.72,
+        "inscricaoTexto": "16 a30/11/2026",
+        "inscricaoFim": "2026-11-30"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4120804,
     "cidade": "Quatro Barras",
     "uf": "PR",
@@ -8246,8 +7912,8 @@
     "longitude": -52.9102,
     "concursos": [
       {
-        "id": "prefeitura-de-quedas-do-iguacu-pr-abre-concurso-publico-com-salarios-de-ate-11998:4120903",
-        "concursoId": "prefeitura-de-quedas-do-iguacu-pr-abre-concurso-publico-com-salarios-de-ate-11998",
+        "id": "prefeitura-de-quedas-do-iguacu-pr-retifica-edital-de-concurso-publico:4120903",
+        "concursoId": "prefeitura-de-quedas-do-iguacu-pr-retifica-edital-de-concurso-publico",
         "codigoIbge": 4120903,
         "cidade": "Quedas do Iguaçu",
         "uf": "PR",
@@ -8255,12 +7921,12 @@
         "longitude": -52.9102,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Quedas do Iguaçu — Prefeitura de Quedas do Iguaçu - PR abre concurso público com salários de até R$ 11.998,88",
+        "contextoLocalidade": "Prefeitura de Quedas do Iguaçu — Prefeitura de Quedas do Iguaçu - PR retifica edital de concurso público",
         "orgao": "Prefeitura de Quedas do Iguaçu",
-        "titulo": "Prefeitura de Quedas do Iguaçu - PR abre concurso público com salários de até R$ 11.998,88",
+        "titulo": "Prefeitura de Quedas do Iguaçu - PR retifica edital de concurso público",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-quedas-do-iguacu-pr-abre-concurso-publico-com-salarios-de-ate-11998",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-quedas-do-iguacu-pr-retifica-edital-de-concurso-publico",
         "vagas": 140,
         "salarioMaximo": 11998.88,
         "inscricaoTexto": "25/11/2026",
@@ -8301,64 +7967,12 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4127601,
-    "cidade": "Tijucas do Sul",
-    "uf": "PR",
-    "latitude": -25.9311,
-    "longitude": -49.195,
-    "concursos": [
-      {
-        "id": "prefeitura-de-tijucas-do-sul-pr-abre-vagas-para-psicologo-e-tecnico-em-seguranca-do-trabalho:4127601",
-        "concursoId": "prefeitura-de-tijucas-do-sul-pr-abre-vagas-para-psicologo-e-tecnico-em-seguranca-do-trabalho",
-        "codigoIbge": 4127601,
-        "cidade": "Tijucas do Sul",
-        "uf": "PR",
-        "latitude": -25.9311,
-        "longitude": -49.195,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Tijucas do Sul — Prefeitura de Tijucas do Sul - PR abre vagas para Psicólogo e Técnico em Segurança do Trabalho",
-        "orgao": "Prefeitura de Tijucas do Sul",
-        "titulo": "Prefeitura de Tijucas do Sul - PR abre vagas para Psicólogo e Técnico em Segurança do Trabalho",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tijucas-do-sul-pr-abre-vagas-para-psicologo-e-tecnico-em-seguranca-do-trabalho",
-        "vagas": 2,
-        "salarioMaximo": 4976.61,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3300100,
     "cidade": "Angra dos Reis",
     "uf": "RJ",
     "latitude": -23.0011,
     "longitude": -44.3196,
     "concursos": [
-      {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3300100",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3300100,
-        "cidade": "Angra dos Reis",
-        "uf": "RJ",
-        "latitude": -23.0011,
-        "longitude": -44.3196,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Português - Letras (Angra dos Reis/RJ - 1 vaga)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
       {
         "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3300100",
         "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
@@ -8379,37 +7993,6 @@
         "salarioMaximo": 12279.71,
         "inscricaoTexto": "Prorrogado até16/11/2026",
         "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 3300258,
-    "cidade": "Arraial do Cabo",
-    "uf": "RJ",
-    "latitude": -22.9774,
-    "longitude": -42.0267,
-    "concursos": [
-      {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3300258",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3300258,
-        "cidade": "Arraial do Cabo",
-        "uf": "RJ",
-        "latitude": -22.9774,
-        "longitude": -42.0267,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Veterinária (Arraial do Cabo/RJ - 1 vaga)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -8577,27 +8160,6 @@
     "longitude": -43.7798,
     "concursos": [
       {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3302007",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3302007,
-        "cidade": "Itaguaí",
-        "uf": "RJ",
-        "latitude": -22.8636,
-        "longitude": -43.7798,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Administração (Itaguaí/RJ - 1 vaga)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302007",
         "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
         "codigoIbge": 3302007,
@@ -8619,7 +8181,7 @@
         "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3302205,
@@ -9043,27 +8605,6 @@
         "inscricaoFim": "2026-11-11"
       },
       {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3304557",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3304557,
-        "cidade": "Rio de Janeiro",
-        "uf": "RJ",
-        "latitude": -22.9129,
-        "longitude": -43.2003,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Odontologia (Rio de Janeiro/RJ - 3 vagas)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "ebserh-brasil-processo-seletivo-oferece-vagas-para-medicos-em-diversas-especialidades:3304557",
         "concursoId": "ebserh-brasil-processo-seletivo-oferece-vagas-para-medicos-em-diversas-especialidades",
         "codigoIbge": 3304557,
@@ -9148,27 +8689,6 @@
         "inscricaoFim": "2026-11-12"
       },
       {
-        "id": "riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico:3304557",
-        "concursoId": "riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico",
-        "codigoIbge": 3304557,
-        "cidade": "Rio de Janeiro",
-        "uf": "RJ",
-        "latitude": -22.9129,
-        "longitude": -43.2003,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A — RioSaúde - RJ abre vagas para maqueiro, auxiliar de suprimentos e instrumentador cirúrgico",
-        "orgao": "RioSaúde - Empresa Pública de Saúde do Rio de Janeiro S/A",
-        "titulo": "RioSaúde - RJ abre vagas para maqueiro, auxiliar de suprimentos e instrumentador cirúrgico",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/riosaude-rj-abre-vagas-para-maqueiro-auxiliar-de-suprimentos-e-instrumentador-cirurgico",
-        "vagas": 3,
-        "salarioMaximo": 2513.73,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "riosaude-rj-abre-processo-seletivo-para-enfermeiros:3304557",
         "concursoId": "riosaude-rj-abre-processo-seletivo-para-enfermeiros",
         "codigoIbge": 3304557,
@@ -9190,7 +8710,7 @@
         "inscricaoFim": "2026-11-15"
       }
     ],
-    "totalConcursos": 8
+    "totalConcursos": 6
   },
   {
     "codigoIbge": 3304904,
@@ -9245,32 +8765,32 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 3305208,
-    "cidade": "São Pedro da Aldeia",
+    "codigoIbge": 3305505,
+    "cidade": "Saquarema",
     "uf": "RJ",
-    "latitude": -22.8429,
-    "longitude": -42.1026,
+    "latitude": -22.9292,
+    "longitude": -42.5099,
     "concursos": [
       {
-        "id": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior:3305208",
-        "concursoId": "comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "codigoIbge": 3305208,
-        "cidade": "São Pedro da Aldeia",
+        "id": "prefeitura-de-saquarema-rj-abre-selecao-para-agentes-de-saude-e-endemias:3305505",
+        "concursoId": "prefeitura-de-saquarema-rj-abre-selecao-para-agentes-de-saude-e-endemias",
+        "codigoIbge": 3305505,
+        "cidade": "Saquarema",
         "uf": "RJ",
-        "latitude": -22.8429,
-        "longitude": -42.1026,
-        "tipoLocalidade": "lotacao",
+        "latitude": -22.9292,
+        "longitude": -42.5099,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Odontologia (São Pedro da Aldeia/RJ - 2 vagas)",
-        "orgao": "Com1ºDN - Comando do 1º Distrito Naval da Marinha do Brasil",
-        "titulo": "Comando do 1º Distrito Naval - RJ/MG abre vagas para oficiais temporários de nível superior",
+        "contextoLocalidade": "Prefeitura de Saquarema — Prefeitura de Saquarema - RJ abre seleção para agentes de saúde e endemias",
+        "orgao": "Prefeitura de Saquarema",
+        "titulo": "Prefeitura de Saquarema - RJ abre seleção para agentes de saúde e endemias",
         "status": "aberto",
         "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/comando-do-1-distrito-naval-rj-mg-abre-vagas-para-oficiais-temporarios-de-nivel-superior",
-        "vagas": 171,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-saquarema-rj-abre-selecao-para-agentes-de-saude-e-endemias",
+        "vagas": 217,
+        "salarioMaximo": 3242,
+        "inscricaoTexto": "17/11 a22/12/2026",
+        "inscricaoFim": "2026-12-22"
       }
     ],
     "totalConcursos": 1
@@ -9338,6 +8858,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2400703,
+    "cidade": "Alto do Rodrigues",
+    "uf": "RN",
+    "latitude": -5.28186,
+    "longitude": -36.75,
+    "concursos": [
+      {
+        "id": "camara-de-alto-do-rodrigues-rn-abre-concurso-publico-com-12-vagas:2400703",
+        "concursoId": "camara-de-alto-do-rodrigues-rn-abre-concurso-publico-com-12-vagas",
+        "codigoIbge": 2400703,
+        "cidade": "Alto do Rodrigues",
+        "uf": "RN",
+        "latitude": -5.28186,
+        "longitude": -36.75,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Alto do Rodrigues — Câmara de Alto do Rodrigues - RN abre concurso público com 12 vagas",
+        "orgao": "Câmara de Alto do Rodrigues",
+        "titulo": "Câmara de Alto do Rodrigues - RN abre concurso público com 12 vagas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-alto-do-rodrigues-rn-abre-concurso-publico-com-12-vagas",
+        "vagas": 12,
+        "salarioMaximo": 2500,
+        "inscricaoTexto": "12/11 a13/12/2026",
+        "inscricaoFim": "2026-12-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2408003,
     "cidade": "Mossoró",
     "uf": "RN",
@@ -9364,37 +8915,6 @@
         "salarioMaximo": 8810.69,
         "inscricaoTexto": "12/11/2026",
         "inscricaoFim": "2026-11-12"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2408102,
-    "cidade": "Natal",
-    "uf": "RN",
-    "latitude": -5.79357,
-    "longitude": -35.1986,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios:2408102",
-        "concursoId": "marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "codigoIbge": 2408102,
-        "cidade": "Natal",
-        "uf": "RN",
-        "latitude": -5.79357,
-        "longitude": -35.1986,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Cirurgião-Dentista (Ortodontia) - Natal-RN (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 3º Distrito Naval",
-        "titulo": "Marinha do Brasil - 3º Distrito Naval abre vagas para Oficiais Temporários",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-3-distrito-naval-abre-vagas-para-oficiais-temporarios",
-        "vagas": 35,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -10176,37 +9696,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4304622,
-    "cidade": "Capão Bonito do Sul",
-    "uf": "RS",
-    "latitude": -28.1254,
-    "longitude": -51.3961,
-    "concursos": [
-      {
-        "id": "prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil:4304622",
-        "concursoId": "prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil",
-        "codigoIbge": 4304622,
-        "cidade": "Capão Bonito do Sul",
-        "uf": "RS",
-        "latitude": -28.1254,
-        "longitude": -51.3961,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Capão Bonito do Sul — Prefeitura de Capão Bonito do Sul - RS abre vaga para engenheiro civil",
-        "orgao": "Prefeitura de Capão Bonito do Sul",
-        "titulo": "Prefeitura de Capão Bonito do Sul - RS abre vaga para engenheiro civil",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-capao-bonito-do-sul-rs-abre-vaga-para-engenheiro-civil",
-        "vagas": 1,
-        "salarioMaximo": 4673.49,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4305108,
     "cidade": "Caxias do Sul",
     "uf": "RS",
@@ -10300,6 +9789,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4309100,
+    "cidade": "Gramado",
+    "uf": "RS",
+    "latitude": -29.3734,
+    "longitude": -50.8762,
+    "concursos": [
+      {
+        "id": "prefeitura-de-gramado-rs-abre-processo-seletivo-para-o-cargo-de-biologo-i:4309100",
+        "concursoId": "prefeitura-de-gramado-rs-abre-processo-seletivo-para-o-cargo-de-biologo-i",
+        "codigoIbge": 4309100,
+        "cidade": "Gramado",
+        "uf": "RS",
+        "latitude": -29.3734,
+        "longitude": -50.8762,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Gramado — Prefeitura de Gramado - RS abre processo seletivo para o cargo de Biólogo I",
+        "orgao": "Prefeitura de Gramado",
+        "titulo": "Prefeitura de Gramado - RS abre processo seletivo para o cargo de Biólogo I",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-gramado-rs-abre-processo-seletivo-para-o-cargo-de-biologo-i",
+        "vagas": 2,
+        "salarioMaximo": 11376.31,
+        "inscricaoTexto": "13/11/2026",
+        "inscricaoFim": "2026-11-13"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4309407,
     "cidade": "Guaporé",
     "uf": "RS",
@@ -10326,37 +9846,6 @@
         "salarioMaximo": 3404.76,
         "inscricaoTexto": "19/11/2026",
         "inscricaoFim": "2026-11-19"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4310108,
-    "cidade": "Igrejinha",
-    "uf": "RS",
-    "latitude": -29.5693,
-    "longitude": -50.7919,
-    "concursos": [
-      {
-        "id": "prefeitura-de-igrejinha-rs-abre-vagas-para-auxiliar-de-farmacia-de-manipulacao-e-auxiliar-de-servicos-gerais:4310108",
-        "concursoId": "prefeitura-de-igrejinha-rs-abre-vagas-para-auxiliar-de-farmacia-de-manipulacao-e-auxiliar-de-servicos-gerais",
-        "codigoIbge": 4310108,
-        "cidade": "Igrejinha",
-        "uf": "RS",
-        "latitude": -29.5693,
-        "longitude": -50.7919,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Igrejinha — Prefeitura de Igrejinha - RS abre vagas para Auxiliar de Farmácia de Manipulação e Auxiliar de Serviços Gerais",
-        "orgao": "Prefeitura de Igrejinha",
-        "titulo": "Prefeitura de Igrejinha - RS abre vagas para Auxiliar de Farmácia de Manipulação e Auxiliar de Serviços Gerais",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-igrejinha-rs-abre-vagas-para-auxiliar-de-farmacia-de-manipulacao-e-auxiliar-de-servicos-gerais",
-        "vagas": 3,
-        "salarioMaximo": 2211.47,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -10590,68 +10079,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 4312906,
-    "cidade": "Nova Bassano",
-    "uf": "RS",
-    "latitude": -28.7291,
-    "longitude": -51.7072,
-    "concursos": [
-      {
-        "id": "prefeitura-de-nova-bassano-rs-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva:4312906",
-        "concursoId": "prefeitura-de-nova-bassano-rs-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-        "codigoIbge": 4312906,
-        "cidade": "Nova Bassano",
-        "uf": "RS",
-        "latitude": -28.7291,
-        "longitude": -51.7072,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Nova Bassano — Prefeitura de Nova Bassano - RS abre concurso público com vagas imediatas e cadastro de reserva",
-        "orgao": "Prefeitura de Nova Bassano",
-        "titulo": "Prefeitura de Nova Bassano - RS abre concurso público com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-bassano-rs-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-        "vagas": 45,
-        "salarioMaximo": 5933.7,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4312955,
-    "cidade": "Nova Boa Vista",
-    "uf": "RS",
-    "latitude": -27.9926,
-    "longitude": -52.9784,
-    "concursos": [
-      {
-        "id": "prefeitura-de-nova-boa-vista-rs-abre-concurso-publico-com-salarios-de-ate-12039:4312955",
-        "concursoId": "prefeitura-de-nova-boa-vista-rs-abre-concurso-publico-com-salarios-de-ate-12039",
-        "codigoIbge": 4312955,
-        "cidade": "Nova Boa Vista",
-        "uf": "RS",
-        "latitude": -27.9926,
-        "longitude": -52.9784,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Nova Boa Vista — Prefeitura de Nova Boa Vista - RS abre concurso público com salários de até R$ 12.039,12",
-        "orgao": "Prefeitura de Nova Boa Vista",
-        "titulo": "Prefeitura de Nova Boa Vista - RS abre concurso público com salários de até R$ 12.039,12",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-boa-vista-rs-abre-concurso-publico-com-salarios-de-ate-12039",
-        "vagas": 20,
-        "salarioMaximo": 12039.12,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4313086,
     "cidade": "Nova Pádua",
     "uf": "RS",
@@ -10752,48 +10179,6 @@
     "longitude": -52.4091,
     "concursos": [
       {
-        "id": "hospital-beneficente-dr-cesar-santos-rs-abre-processo-seletivo-com-quatro-vagas:4314100",
-        "concursoId": "hospital-beneficente-dr-cesar-santos-rs-abre-processo-seletivo-com-quatro-vagas",
-        "codigoIbge": 4314100,
-        "cidade": "Passo Fundo",
-        "uf": "RS",
-        "latitude": -28.2576,
-        "longitude": -52.4091,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "César Santos, em Passo Fundo, abriu um Processo Seletivo Simplificado visando preencher quatro vagas temporárias para profissionais de nível médio e superior.",
-        "orgao": "HBCS - Hospital Beneficente Dr. César Santos",
-        "titulo": "Hospital Beneficente Dr. César Santos - RS abre processo seletivo com quatro vagas",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-beneficente-dr-cesar-santos-rs-abre-processo-seletivo-com-quatro-vagas",
-        "vagas": 4,
-        "salarioMaximo": 6050.19,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
-        "id": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-remuneracoes-de-ate-6050:4314100",
-        "concursoId": "hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-remuneracoes-de-ate-6050",
-        "codigoIbge": 4314100,
-        "cidade": "Passo Fundo",
-        "uf": "RS",
-        "latitude": -28.2576,
-        "longitude": -52.4091,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "César Santos, em Passo Fundo, abriu um Processo Seletivo Simplificado para preencher quatro vagas temporárias de nível médio e superior.",
-        "orgao": "Hospital Beneficente Dr. César Santos",
-        "titulo": "Hospital Beneficente Dr. César Santos - RS abre seleção com remunerações de até R$ 6.050,19",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-beneficente-dr-cesar-santos-rs-abre-selecao-com-remuneracoes-de-ate-6050",
-        "vagas": 4,
-        "salarioMaximo": 6050.19,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "prefeitura-de-passo-fundo-rs-abre-processo-seletivo-para-bibliotecario:4314100",
         "concursoId": "prefeitura-de-passo-fundo-rs-abre-processo-seletivo-para-bibliotecario",
         "codigoIbge": 4314100,
@@ -10815,7 +10200,7 @@
         "inscricaoFim": "2026-11-19"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4314407,
@@ -10974,37 +10359,6 @@
     "totalConcursos": 4
   },
   {
-    "codigoIbge": 4315602,
-    "cidade": "Rio Grande",
-    "uf": "RS",
-    "latitude": -32.0349,
-    "longitude": -52.1071,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-5-distrito-naval-abre-selecao-para-oficiais-medicos-temporarios-no-rs:4315602",
-        "concursoId": "marinha-do-brasil-5-distrito-naval-abre-selecao-para-oficiais-medicos-temporarios-no-rs",
-        "codigoIbge": 4315602,
-        "cidade": "Rio Grande",
-        "uf": "RS",
-        "latitude": -32.0349,
-        "longitude": -52.1071,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "As vagas estão distribuídas na cidade de Rio Grande/RS.",
-        "orgao": "Comando do 5º Distrito Naval da Marinha do Brasil",
-        "titulo": "Marinha do Brasil - 5º Distrito Naval abre seleção para Oficiais Médicos Temporários no RS",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-5-distrito-naval-abre-selecao-para-oficiais-medicos-temporarios-no-rs",
-        "vagas": 5,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4317608,
     "cidade": "Santo Antônio da Patrulha",
     "uf": "RS",
@@ -11117,6 +10471,37 @@
       }
     ],
     "totalConcursos": 2
+  },
+  {
+    "codigoIbge": 4319109,
+    "cidade": "São Martinho",
+    "uf": "RS",
+    "latitude": -27.7112,
+    "longitude": -53.9699,
+    "concursos": [
+      {
+        "id": "prefeitura-de-sao-martinho-rs-abre-selecao-para-monitor-de-escola:4319109",
+        "concursoId": "prefeitura-de-sao-martinho-rs-abre-selecao-para-monitor-de-escola",
+        "codigoIbge": 4319109,
+        "cidade": "São Martinho",
+        "uf": "RS",
+        "latitude": -27.7112,
+        "longitude": -53.9699,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São Martinho — Prefeitura de São Martinho - RS abre seleção para Monitor de Escola",
+        "orgao": "Prefeitura de São Martinho",
+        "titulo": "Prefeitura de São Martinho - RS abre seleção para Monitor de Escola",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-martinho-rs-abre-selecao-para-monitor-de-escola",
+        "vagas": null,
+        "salarioMaximo": 1635.75,
+        "inscricaoTexto": "13/11/2026",
+        "inscricaoFim": "2026-11-13"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4319406,
@@ -11302,8 +10687,8 @@
     "longitude": -49.7333,
     "concursos": [
       {
-        "id": "prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas:4321501",
-        "concursoId": "prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas",
+        "id": "prefeitura-de-torres-rs-abre-processo-seletivo-para-monitor-psr:4321501",
+        "concursoId": "prefeitura-de-torres-rs-abre-processo-seletivo-para-monitor-psr",
         "codigoIbge": 4321501,
         "cidade": "Torres",
         "uf": "RS",
@@ -11311,19 +10696,40 @@
         "longitude": -49.7333,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Torres — Prefeitura de Torres - RS abre seleções para cadastro de reserva em diversas áreas",
+        "contextoLocalidade": "Prefeitura de Torres — Prefeitura de Torres - RS abre processo seletivo para Monitor PSR",
         "orgao": "Prefeitura de Torres",
-        "titulo": "Prefeitura de Torres - RS abre seleções para cadastro de reserva em diversas áreas",
+        "titulo": "Prefeitura de Torres - RS abre processo seletivo para Monitor PSR",
         "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-selecoes-para-cadastro-de-reserva-em-diversas-areas",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-processo-seletivo-para-monitor-psr",
         "vagas": null,
-        "salarioMaximo": 2562.23,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
+        "salarioMaximo": 2100,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
+      },
+      {
+        "id": "prefeitura-de-torres-rs-abre-processo-seletivo-para-cuidador-de-pessoas-com-deficiencia:4321501",
+        "concursoId": "prefeitura-de-torres-rs-abre-processo-seletivo-para-cuidador-de-pessoas-com-deficiencia",
+        "codigoIbge": 4321501,
+        "cidade": "Torres",
+        "uf": "RS",
+        "latitude": -29.3334,
+        "longitude": -49.7333,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Torres — Prefeitura de Torres - RS abre processo seletivo para Cuidador de Pessoas com Deficiência",
+        "orgao": "Prefeitura de Torres",
+        "titulo": "Prefeitura de Torres - RS abre processo seletivo para Cuidador de Pessoas com Deficiência",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-torres-rs-abre-processo-seletivo-para-cuidador-de-pessoas-com-deficiencia",
+        "vagas": null,
+        "salarioMaximo": 2400,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4321709,
@@ -11414,6 +10820,68 @@
         "salarioMaximo": 19660.06,
         "inscricaoTexto": "04/12/2026",
         "inscricaoFim": "2026-12-04"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4201273,
+    "cidade": "Arabutã",
+    "uf": "SC",
+    "latitude": -27.1587,
+    "longitude": -52.1423,
+    "concursos": [
+      {
+        "id": "cmdca-de-arabuta-sc-prorroga-inscricoes-de-processo-para-escolha-suplementar-de-conselheiro-tutelar:4201273",
+        "concursoId": "cmdca-de-arabuta-sc-prorroga-inscricoes-de-processo-para-escolha-suplementar-de-conselheiro-tutelar",
+        "codigoIbge": 4201273,
+        "cidade": "Arabutã",
+        "uf": "SC",
+        "latitude": -27.1587,
+        "longitude": -52.1423,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Conselho Tutelar de Arabutã — CMDCA de Arabutã - SC prorroga inscrições de processo para escolha suplementar de conselheiro tutelar",
+        "orgao": "Conselho Tutelar de Arabutã",
+        "titulo": "CMDCA de Arabutã - SC prorroga inscrições de processo para escolha suplementar de conselheiro tutelar",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/cmdca-de-arabuta-sc-prorroga-inscricoes-de-processo-para-escolha-suplementar-de-conselheiro-tutelar",
+        "vagas": 1,
+        "salarioMaximo": 2735.45,
+        "inscricaoTexto": "Prorrogado até20/11/2026",
+        "inscricaoFim": "2026-11-20"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4201406,
+    "cidade": "Araranguá",
+    "uf": "SC",
+    "latitude": -28.9356,
+    "longitude": -49.4918,
+    "concursos": [
+      {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4201406",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4201406,
+        "cidade": "Araranguá",
+        "uf": "SC",
+        "latitude": -28.9356,
+        "longitude": -49.4918,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Araranguá",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
       }
     ],
     "totalConcursos": 1
@@ -11538,9 +11006,30 @@
         "salarioMaximo": 8505,
         "inscricaoTexto": "16/11/2026",
         "inscricaoFim": "2026-11-16"
+      },
+      {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4202008",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4202008,
+        "cidade": "Balneário Camboriú",
+        "uf": "SC",
+        "latitude": -26.9926,
+        "longitude": -48.6352,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Balneário Camboriú",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4202099,
@@ -11813,37 +11302,6 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 4204202,
-    "cidade": "Chapecó",
-    "uf": "SC",
-    "latitude": -27.1004,
-    "longitude": -52.6152,
-    "concursos": [
-      {
-        "id": "fahece-sc-abre-processo-seletivo-para-o-hemosc-em-chapeco:4204202",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-o-hemosc-em-chapeco",
-        "codigoIbge": 4204202,
-        "cidade": "Chapecó",
-        "uf": "SC",
-        "latitude": -27.1004,
-        "longitude": -52.6152,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HEMOSC - Centro de Hematologia e Hemoterapia de Santa Catarina — FAHECE - SC abre processo seletivo para o HEMOSC em Chapecó",
-        "orgao": "HEMOSC - Centro de Hematologia e Hemoterapia de Santa Catarina",
-        "titulo": "FAHECE - SC abre processo seletivo para o HEMOSC em Chapecó",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-o-hemosc-em-chapeco",
-        "vagas": 1,
-        "salarioMaximo": 4946.9,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4204301,
     "cidade": "Concórdia",
     "uf": "SC",
@@ -11901,6 +11359,37 @@
         "salarioMaximo": 1289.06,
         "inscricaoTexto": "Prorrogado até12/11/2026",
         "inscricaoFim": "2026-11-12"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4204806,
+    "cidade": "Curitibanos",
+    "uf": "SC",
+    "latitude": -27.2824,
+    "longitude": -50.5816,
+    "concursos": [
+      {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4204806",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4204806,
+        "cidade": "Curitibanos",
+        "uf": "SC",
+        "latitude": -27.2824,
+        "longitude": -50.5816,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Curitibanos",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
       }
     ],
     "totalConcursos": 1
@@ -12038,6 +11527,27 @@
         "inscricaoFim": "2026-11-12"
       },
       {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4205407",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4205407,
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "latitude": -27.5945,
+        "longitude": -48.5477,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Florianópolis",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
+      },
+      {
         "id": "tjsc-abre-concurso-publico-para-o-cargo-de-juiz-substituto:4205407",
         "concursoId": "tjsc-abre-concurso-publico-para-o-cargo-de-juiz-substituto",
         "codigoIbge": 4205407,
@@ -12059,7 +11569,7 @@
         "inscricaoFim": "2026-11-26"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 4205506,
@@ -12202,9 +11712,30 @@
         "salarioMaximo": 20364.15,
         "inscricaoTexto": "29/11/2026",
         "inscricaoFim": "2026-11-29"
+      },
+      {
+        "id": "prefeitura-de-ibirama-sc-abre-processo-seletivo-para-cadastro-de-reserva:4206900",
+        "concursoId": "prefeitura-de-ibirama-sc-abre-processo-seletivo-para-cadastro-de-reserva",
+        "codigoIbge": 4206900,
+        "cidade": "Ibirama",
+        "uf": "SC",
+        "latitude": -27.0547,
+        "longitude": -49.5193,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Ibirama — Prefeitura de Ibirama - SC abre processo seletivo para cadastro de reserva",
+        "orgao": "Prefeitura de Ibirama",
+        "titulo": "Prefeitura de Ibirama - SC abre processo seletivo para cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ibirama-sc-abre-processo-seletivo-para-cadastro-de-reserva",
+        "vagas": null,
+        "salarioMaximo": 4531.43,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4207106,
@@ -12607,6 +12138,27 @@
     "longitude": -49.8086,
     "concursos": [
       {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4210100",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4210100,
+        "cidade": "Mafra",
+        "uf": "SC",
+        "latitude": -26.1159,
+        "longitude": -49.8086,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "Mafra",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
+      },
+      {
         "id": "ses-sc-abre-processo-seletivo-para-a-maternidade-dona-catarina-kuss-em-mafra:4210100",
         "concursoId": "ses-sc-abre-processo-seletivo-para-a-maternidade-dona-catarina-kuss-em-mafra",
         "codigoIbge": 4210100,
@@ -12628,7 +12180,7 @@
         "inscricaoFim": "2026-11-11"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4210308,
@@ -13159,6 +12711,37 @@
     "totalConcursos": 2
   },
   {
+    "codigoIbge": 4216909,
+    "cidade": "São Lourenço do Oeste",
+    "uf": "SC",
+    "latitude": -26.3557,
+    "longitude": -52.8498,
+    "concursos": [
+      {
+        "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4216909",
+        "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "codigoIbge": 4216909,
+        "cidade": "São Lourenço do Oeste",
+        "uf": "SC",
+        "latitude": -26.3557,
+        "longitude": -52.8498,
+        "tipoLocalidade": "mencao",
+        "confiancaLocalidade": "baixa",
+        "contextoLocalidade": "São Lourenço do Oeste",
+        "orgao": "SES - Secretaria de Estado da Saúde",
+        "titulo": "Secretaria de Estado da Saúde - SC abre vagas para motorista socorrista e psicólogo",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
+        "vagas": 6,
+        "salarioMaximo": 5670.38,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4217253,
     "cidade": "São Pedro de Alcântara",
     "uf": "SC",
@@ -13547,9 +13130,30 @@
         "salarioMaximo": 8971.98,
         "inscricaoTexto": "12/11 a14/12/2026",
         "inscricaoFim": "2026-12-14"
+      },
+      {
+        "id": "unesp-abre-concurso-para-assistente-administrativo-ii-na-area-de-materiais-em-aracatuba-sp:3502804",
+        "concursoId": "unesp-abre-concurso-para-assistente-administrativo-ii-na-area-de-materiais-em-aracatuba-sp",
+        "codigoIbge": 3502804,
+        "cidade": "Araçatuba",
+        "uf": "SP",
+        "latitude": -21.2076,
+        "longitude": -50.4401,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "UNESP - Universidade Estadual Paulista — UNESP abre concurso para assistente administrativo II na área de Materiais em Araçatuba - SP",
+        "orgao": "UNESP - Universidade Estadual Paulista",
+        "titulo": "UNESP abre concurso para assistente administrativo II na área de Materiais em Araçatuba - SP",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/unesp-abre-concurso-para-assistente-administrativo-ii-na-area-de-materiais-em-aracatuba-sp",
+        "vagas": 1,
+        "salarioMaximo": 6537.74,
+        "inscricaoTexto": "19/11 a03/12/2026",
+        "inscricaoFim": "2026-12-03"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3502903,
@@ -14138,9 +13742,30 @@
         "salarioMaximo": 5565,
         "inscricaoTexto": "03/12/2026",
         "inscricaoFim": "2026-12-03"
+      },
+      {
+        "id": "prefeitura-de-cubatao-sp-abre-concurso-publico-para-assistente-social:3513504",
+        "concursoId": "prefeitura-de-cubatao-sp-abre-concurso-publico-para-assistente-social",
+        "codigoIbge": 3513504,
+        "cidade": "Cubatão",
+        "uf": "SP",
+        "latitude": -23.8911,
+        "longitude": -46.424,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Cubatão — Prefeitura de Cubatão - SP abre concurso público para assistente social",
+        "orgao": "Prefeitura de Cubatão",
+        "titulo": "Prefeitura de Cubatão - SP abre concurso público para assistente social",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cubatao-sp-abre-concurso-publico-para-assistente-social",
+        "vagas": null,
+        "salarioMaximo": 5565,
+        "inscricaoTexto": "17/12/2026",
+        "inscricaoFim": "2026-12-17"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3513603,
@@ -14367,27 +13992,6 @@
     "longitude": -47.6927,
     "concursos": [
       {
-        "id": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp:3521002",
-        "concursoId": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "codigoIbge": 3521002,
-        "cidade": "Iperó",
-        "uf": "SP",
-        "latitude": -23.3513,
-        "longitude": -47.6927,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Administração, Iperó - SP (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 8º Distrito Naval",
-        "titulo": "Marinha do Brasil - 8º Distrito Naval abre vagas para Oficiais RM2 em SP",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "vagas": 36,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "prefeitura-de-ipero-sp-abre-concursos-publicos-e-processo-seletivo:3521002",
         "concursoId": "prefeitura-de-ipero-sp-abre-concursos-publicos-e-processo-seletivo",
         "codigoIbge": 3521002,
@@ -14409,7 +14013,38 @@
         "inscricaoFim": "2026-11-19"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3522109,
+    "cidade": "Itanhaém",
+    "uf": "SP",
+    "latitude": -24.1736,
+    "longitude": -46.788,
+    "concursos": [
+      {
+        "id": "prefeitura-de-itanhaem-sp-abre-processos-seletivos-para-niveis-fundamental-e-medio:3522109",
+        "concursoId": "prefeitura-de-itanhaem-sp-abre-processos-seletivos-para-niveis-fundamental-e-medio",
+        "codigoIbge": 3522109,
+        "cidade": "Itanhaém",
+        "uf": "SP",
+        "latitude": -24.1736,
+        "longitude": -46.788,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura da Estância Balneária de Itanhaém — Prefeitura de Itanhaém - SP abre processos seletivos para níveis fundamental e médio",
+        "orgao": "Prefeitura da Estância Balneária de Itanhaém",
+        "titulo": "Prefeitura de Itanhaém - SP abre processos seletivos para níveis fundamental e médio",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itanhaem-sp-abre-processos-seletivos-para-niveis-fundamental-e-medio",
+        "vagas": 33,
+        "salarioMaximo": 2662,
+        "inscricaoTexto": "28/11/2026",
+        "inscricaoFim": "2026-11-28"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3522703,
@@ -14500,9 +14135,30 @@
         "salarioMaximo": 7553.69,
         "inscricaoTexto": "07/12/2026",
         "inscricaoFim": "2026-12-07"
+      },
+      {
+        "id": "prefeitura-de-itu-sp-abre-concurso-publico-com-vagas-para-cuidador-e-educador-social:3523909",
+        "concursoId": "prefeitura-de-itu-sp-abre-concurso-publico-com-vagas-para-cuidador-e-educador-social",
+        "codigoIbge": 3523909,
+        "cidade": "Itu",
+        "uf": "SP",
+        "latitude": -23.2544,
+        "longitude": -47.2927,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura da Estância Turística de Itu — Prefeitura de Itu - SP abre concurso público com vagas para cuidador e educador social",
+        "orgao": "Prefeitura da Estância Turística de Itu",
+        "titulo": "Prefeitura de Itu - SP abre concurso público com vagas para cuidador e educador social",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itu-sp-abre-concurso-publico-com-vagas-para-cuidador-e-educador-social",
+        "vagas": 5,
+        "salarioMaximo": 2738.09,
+        "inscricaoTexto": "04/12/2026",
+        "inscricaoFim": "2026-12-04"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3525003,
@@ -14645,37 +14301,6 @@
         "salarioMaximo": 15123.99,
         "inscricaoTexto": "16/11 a15/12/2026",
         "inscricaoFim": "2026-12-15"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3526100,
-    "cidade": "Juquiá",
-    "uf": "SP",
-    "latitude": -24.3101,
-    "longitude": -47.6426,
-    "concursos": [
-      {
-        "id": "prefeitura-de-juquia-sp-abre-concurso-publico-com-salarios-de-ate-8653:3526100",
-        "concursoId": "prefeitura-de-juquia-sp-abre-concurso-publico-com-salarios-de-ate-8653",
-        "codigoIbge": 3526100,
-        "cidade": "Juquiá",
-        "uf": "SP",
-        "latitude": -24.3101,
-        "longitude": -47.6426,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Juquiá — Prefeitura de Juquiá - SP abre concurso público com salários de até R$ 8.653,17",
-        "orgao": "Prefeitura de Juquiá",
-        "titulo": "Prefeitura de Juquiá - SP abre concurso público com salários de até R$ 8.653,17",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-juquia-sp-abre-concurso-publico-com-salarios-de-ate-8653",
-        "vagas": 13,
-        "salarioMaximo": 8653.17,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
@@ -15410,30 +15035,9 @@
         "salarioMaximo": 8971.98,
         "inscricaoTexto": "12/11 a14/12/2026",
         "inscricaoFim": "2026-12-14"
-      },
-      {
-        "id": "prudenprev-sp-abre-concurso-publico-com-salarios-de-ate-11102:3541406",
-        "concursoId": "prudenprev-sp-abre-concurso-publico-com-salarios-de-ate-11102",
-        "codigoIbge": 3541406,
-        "cidade": "Presidente Prudente",
-        "uf": "SP",
-        "latitude": -22.1207,
-        "longitude": -51.3925,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "PRUDENPREV - Sistema de Previdência do Município de Presidente Prudente — PRUDENPREV - SP abre concurso público com salários de até R$ 11.102,06",
-        "orgao": "PRUDENPREV - Sistema de Previdência do Município de Presidente Prudente",
-        "titulo": "PRUDENPREV - SP abre concurso público com salários de até R$ 11.102,06",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prudenprev-sp-abre-concurso-publico-com-salarios-de-ate-11102",
-        "vagas": 10,
-        "salarioMaximo": 11102.06,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3542602,
@@ -15603,68 +15207,6 @@
     "totalConcursos": 6
   },
   {
-    "codigoIbge": 3544301,
-    "cidade": "Roseira",
-    "uf": "SP",
-    "latitude": -22.8938,
-    "longitude": -45.307,
-    "concursos": [
-      {
-        "id": "prefeitura-de-roseira-sp-abre-processo-seletivo-com-salarios-de-ate-5130:3544301",
-        "concursoId": "prefeitura-de-roseira-sp-abre-processo-seletivo-com-salarios-de-ate-5130",
-        "codigoIbge": 3544301,
-        "cidade": "Roseira",
-        "uf": "SP",
-        "latitude": -22.8938,
-        "longitude": -45.307,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Roseira — Prefeitura de Roseira - SP abre processo seletivo com salários de até R$ 5.130,63",
-        "orgao": "Prefeitura de Roseira",
-        "titulo": "Prefeitura de Roseira - SP abre processo seletivo com salários de até R$ 5.130,63",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-roseira-sp-abre-processo-seletivo-com-salarios-de-ate-5130",
-        "vagas": null,
-        "salarioMaximo": 5130.63,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3544608,
-    "cidade": "Sabino",
-    "uf": "SP",
-    "latitude": -21.4593,
-    "longitude": -49.5755,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sabino-sp-abre-concurso-publico-para-monitor-de-transporte-escolar:3544608",
-        "concursoId": "prefeitura-de-sabino-sp-abre-concurso-publico-para-monitor-de-transporte-escolar",
-        "codigoIbge": 3544608,
-        "cidade": "Sabino",
-        "uf": "SP",
-        "latitude": -21.4593,
-        "longitude": -49.5755,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Sabino — Prefeitura de Sabino - SP abre concurso público para monitor de transporte escolar",
-        "orgao": "Prefeitura de Sabino",
-        "titulo": "Prefeitura de Sabino - SP abre concurso público para monitor de transporte escolar",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sabino-sp-abre-concurso-publico-para-monitor-de-transporte-escolar",
-        "vagas": 1,
-        "salarioMaximo": 1572.65,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3545506,
     "cidade": "Sandovalina",
     "uf": "SP",
@@ -15779,6 +15321,58 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3547304,
+    "cidade": "Santana de Parnaíba",
+    "uf": "SP",
+    "latitude": -23.4439,
+    "longitude": -46.9178,
+    "concursos": [
+      {
+        "id": "prefeitura-de-santana-de-parnaiba-sp-abre-selecao-para-medicos:3547304",
+        "concursoId": "prefeitura-de-santana-de-parnaiba-sp-abre-selecao-para-medicos",
+        "codigoIbge": 3547304,
+        "cidade": "Santana de Parnaíba",
+        "uf": "SP",
+        "latitude": -23.4439,
+        "longitude": -46.9178,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Santana de Parnaíba — Prefeitura de Santana de Parnaíba - SP abre seleção para médicos",
+        "orgao": "Prefeitura de Santana de Parnaíba",
+        "titulo": "Prefeitura de Santana de Parnaíba - SP abre seleção para médicos",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-de-parnaiba-sp-abre-selecao-para-medicos",
+        "vagas": null,
+        "salarioMaximo": 13087.86,
+        "inscricaoTexto": "23/11/2026",
+        "inscricaoFim": "2026-11-23"
+      },
+      {
+        "id": "prefeitura-de-santana-de-parnaiba-sp-abre-concurso-publico-com-salarios-de-ate-7497:3547304",
+        "concursoId": "prefeitura-de-santana-de-parnaiba-sp-abre-concurso-publico-com-salarios-de-ate-7497",
+        "codigoIbge": 3547304,
+        "cidade": "Santana de Parnaíba",
+        "uf": "SP",
+        "latitude": -23.4439,
+        "longitude": -46.9178,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura do Município de Santana de Parnaíba — Prefeitura de Santana de Parnaíba - SP abre concurso público com salários de até R$ 7.497,97",
+        "orgao": "Prefeitura do Município de Santana de Parnaíba",
+        "titulo": "Prefeitura de Santana de Parnaíba - SP abre concurso público com salários de até R$ 7.497,97",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-de-parnaiba-sp-abre-concurso-publico-com-salarios-de-ate-7497",
+        "vagas": 76,
+        "salarioMaximo": 7497.97,
+        "inscricaoTexto": "08/12/2026",
+        "inscricaoFim": "2026-12-08"
+      }
+    ],
+    "totalConcursos": 2
+  },
+  {
     "codigoIbge": 3547809,
     "cidade": "Santo André",
     "uf": "SP",
@@ -15857,30 +15451,9 @@
         "salarioMaximo": 8971.98,
         "inscricaoTexto": "12/11 a14/12/2026",
         "inscricaoFim": "2026-12-14"
-      },
-      {
-        "id": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp:3548500",
-        "concursoId": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "codigoIbge": 3548500,
-        "cidade": "Santos",
-        "uf": "SP",
-        "latitude": -23.9535,
-        "longitude": -46.335,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "STA - Segurança do Tráfego Aquaviário, Santos - SP (2 vagas)",
-        "orgao": "Marinha do Brasil - Comando do 8º Distrito Naval",
-        "titulo": "Marinha do Brasil - 8º Distrito Naval abre vagas para Oficiais RM2 em SP",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "vagas": 36,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3548807,
@@ -15940,9 +15513,30 @@
         "salarioMaximo": 9833,
         "inscricaoTexto": "29/10/2026",
         "inscricaoFim": "2026-10-29"
+      },
+      {
+        "id": "prefeitura-de-sao-carlos-sp-abre-concurso-publico-com-salarios-de-ate-9701:3548906",
+        "concursoId": "prefeitura-de-sao-carlos-sp-abre-concurso-publico-com-salarios-de-ate-9701",
+        "codigoIbge": 3548906,
+        "cidade": "São Carlos",
+        "uf": "SP",
+        "latitude": -22.0174,
+        "longitude": -47.886,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São Carlos — Prefeitura de São Carlos - SP abre concurso público com salários de até R$ 9.701,00",
+        "orgao": "Prefeitura de São Carlos",
+        "titulo": "Prefeitura de São Carlos - SP abre concurso público com salários de até R$ 9.701,00",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-carlos-sp-abre-concurso-publico-com-salarios-de-ate-9701",
+        "vagas": 21,
+        "salarioMaximo": 9701,
+        "inscricaoTexto": "12/11 a01/12/2026",
+        "inscricaoFim": "2026-12-01"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3549102,
@@ -16160,27 +15754,6 @@
         "inscricaoFim": "2027-01-04"
       },
       {
-        "id": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp:3550308",
-        "concursoId": "marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "codigoIbge": 3550308,
-        "cidade": "São Paulo",
-        "uf": "SP",
-        "latitude": -23.5329,
-        "longitude": -46.6395,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Medicina - Auditoria Médica, São Paulo - SP (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 8º Distrito Naval",
-        "titulo": "Marinha do Brasil - 8º Distrito Naval abre vagas para Oficiais RM2 em SP",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-8-distrito-naval-abre-vagas-para-oficiais-rm2-em-sp",
-        "vagas": 36,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
-      },
-      {
         "id": "sp-aguas-sp-abre-concurso-publico-com-salarios-de-ate-12070:3550308",
         "concursoId": "sp-aguas-sp-abre-concurso-publico-com-salarios-de-ate-12070",
         "codigoIbge": 3550308,
@@ -16223,7 +15796,7 @@
         "inscricaoFim": "2027-01-07"
       }
     ],
-    "totalConcursos": 6
+    "totalConcursos": 5
   },
   {
     "codigoIbge": 3550506,
@@ -16474,6 +16047,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3553500,
+    "cidade": "Tapiraí",
+    "uf": "SP",
+    "latitude": -23.9612,
+    "longitude": -47.5062,
+    "concursos": [
+      {
+        "id": "prefeitura-de-tapirai-sp-abre-concurso-publico-com-salarios-de-ate-7991:3553500",
+        "concursoId": "prefeitura-de-tapirai-sp-abre-concurso-publico-com-salarios-de-ate-7991",
+        "codigoIbge": 3553500,
+        "cidade": "Tapiraí",
+        "uf": "SP",
+        "latitude": -23.9612,
+        "longitude": -47.5062,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Tapiraí — Prefeitura de Tapiraí - SP abre concurso público com salários de até R$ 7.991,27",
+        "orgao": "Prefeitura de Tapiraí",
+        "titulo": "Prefeitura de Tapiraí - SP abre concurso público com salários de até R$ 7.991,27",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tapirai-sp-abre-concurso-publico-com-salarios-de-ate-7991",
+        "vagas": 24,
+        "salarioMaximo": 7991.27,
+        "inscricaoTexto": "14/12/2026",
+        "inscricaoFim": "2026-12-14"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3554656,
     "cidade": "Torre de Pedra",
     "uf": "SP",
@@ -16536,6 +16140,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3555901,
+    "cidade": "Uru",
+    "uf": "SP",
+    "latitude": -21.7866,
+    "longitude": -49.2848,
+    "concursos": [
+      {
+        "id": "prefeitura-de-uru-sp-abre-concurso-publico-com-vagas-em-diversas-areas-de-atuacao:3555901",
+        "concursoId": "prefeitura-de-uru-sp-abre-concurso-publico-com-vagas-em-diversas-areas-de-atuacao",
+        "codigoIbge": 3555901,
+        "cidade": "Uru",
+        "uf": "SP",
+        "latitude": -21.7866,
+        "longitude": -49.2848,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Uru — Prefeitura de Uru - SP abre concurso público com vagas em diversas áreas de atuação",
+        "orgao": "Prefeitura de Uru",
+        "titulo": "Prefeitura de Uru - SP abre concurso público com vagas em diversas áreas de atuação",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-uru-sp-abre-concurso-publico-com-vagas-em-diversas-areas-de-atuacao",
+        "vagas": 6,
+        "salarioMaximo": 5217.7,
+        "inscricaoTexto": "25/11/2026",
+        "inscricaoFim": "2026-11-25"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3557006,
     "cidade": "Votorantim",
     "uf": "SP",
@@ -16593,37 +16228,6 @@
         "salarioMaximo": 1800,
         "inscricaoTexto": "30/11/2026",
         "inscricaoFim": "2026-11-30"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 1721000,
-    "cidade": "Palmas",
-    "uf": "TO",
-    "latitude": -10.24,
-    "longitude": -48.3558,
-    "concursos": [
-      {
-        "id": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios:1721000",
-        "concursoId": "marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "codigoIbge": 1721000,
-        "cidade": "Palmas",
-        "uf": "TO",
-        "latitude": -10.24,
-        "longitude": -48.3558,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Pedagogia em Palmas/TO (1 vaga)",
-        "orgao": "Marinha do Brasil - Comando do 7º Distrito Naval",
-        "titulo": "Marinha do Brasil - 7º Distrito Naval: edital de processo seletivo oferece vagas de nível superior para oficiais temporários",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/marinha-do-brasil-7-distrito-naval-edital-de-processo-seletivo-oferece-vagas-de-nivel-superior-para-oficiais-temporarios",
-        "vagas": 17,
-        "salarioMaximo": null,
-        "inscricaoTexto": "10/11/2026",
-        "inscricaoFim": "2026-11-10"
       }
     ],
     "totalConcursos": 1
