@@ -372,56 +372,35 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2910909,
-    "cidade": "Firmino Alves",
+    "codigoIbge": 2911105,
+    "cidade": "Formosa do Rio Preto",
     "uf": "BA",
-    "latitude": -14.9823,
-    "longitude": -39.9269,
+    "latitude": -11.0328,
+    "longitude": -45.193,
     "concursos": [
       {
-        "id": "prefeitura-de-firmino-alves-ba-retifica-concurso-publico-com-salarios-de-ate-4867:2910909",
-        "concursoId": "prefeitura-de-firmino-alves-ba-retifica-concurso-publico-com-salarios-de-ate-4867",
-        "codigoIbge": 2910909,
-        "cidade": "Firmino Alves",
+        "id": "prefeitura-de-formosa-do-rio-preto-ba-abre-processo-seletivo-para-profissionais-da-saude:2911105",
+        "concursoId": "prefeitura-de-formosa-do-rio-preto-ba-abre-processo-seletivo-para-profissionais-da-saude",
+        "codigoIbge": 2911105,
+        "cidade": "Formosa do Rio Preto",
         "uf": "BA",
-        "latitude": -14.9823,
-        "longitude": -39.9269,
+        "latitude": -11.0328,
+        "longitude": -45.193,
         "tipoLocalidade": "nome_orgao_ou_titulo",
         "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Firmino Alves — Prefeitura de Firmino Alves - BA retifica concurso público com salários de até R$ 4.867,77",
-        "orgao": "Prefeitura de Firmino Alves",
-        "titulo": "Prefeitura de Firmino Alves - BA retifica concurso público com salários de até R$ 4.867,77",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-firmino-alves-ba-retifica-concurso-publico-com-salarios-de-ate-4867",
-        "vagas": 210,
-        "salarioMaximo": 4867.77,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
-        "id": "prefeitura-de-firmino-alves-ba-prorroga-inscricoes-para-processo-seletivo:2910909",
-        "concursoId": "prefeitura-de-firmino-alves-ba-prorroga-inscricoes-para-processo-seletivo",
-        "codigoIbge": 2910909,
-        "cidade": "Firmino Alves",
-        "uf": "BA",
-        "latitude": -14.9823,
-        "longitude": -39.9269,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Firmino Alves — Prefeitura de Firmino Alves - BA prorroga inscrições para processo seletivo",
-        "orgao": "Prefeitura de Firmino Alves",
-        "titulo": "Prefeitura de Firmino Alves - BA prorroga inscrições para processo seletivo",
+        "contextoLocalidade": "Prefeitura de Formosa do Rio Preto — Prefeitura de Formosa do Rio Preto - BA abre processo seletivo para profissionais da saúde",
+        "orgao": "Prefeitura de Formosa do Rio Preto",
+        "titulo": "Prefeitura de Formosa do Rio Preto - BA abre processo seletivo para profissionais da saúde",
         "status": "aberto",
         "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-firmino-alves-ba-prorroga-inscricoes-para-processo-seletivo",
-        "vagas": 50,
-        "salarioMaximo": 8000,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-formosa-do-rio-preto-ba-abre-processo-seletivo-para-profissionais-da-saude",
+        "vagas": 68,
+        "salarioMaximo": 1808.33,
+        "inscricaoTexto": "23 a29/11/2026",
+        "inscricaoFim": "2026-11-29"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 2917003,
@@ -481,37 +460,6 @@
         "salarioMaximo": 3242,
         "inscricaoTexto": "23/11/2026",
         "inscricaoFim": "2026-11-23"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2920700,
-    "cidade": "Maraú",
-    "uf": "BA",
-    "latitude": -14.1035,
-    "longitude": -39.0137,
-    "concursos": [
-      {
-        "id": "prefeitura-de-marau-ba-reabre-inscricoes-de-processo-seletivo-para-agentes-comunitarios-de-saude:2920700",
-        "concursoId": "prefeitura-de-marau-ba-reabre-inscricoes-de-processo-seletivo-para-agentes-comunitarios-de-saude",
-        "codigoIbge": 2920700,
-        "cidade": "Maraú",
-        "uf": "BA",
-        "latitude": -14.1035,
-        "longitude": -39.0137,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Maraú — Prefeitura de Maraú - BA reabre inscrições de processo seletivo para agentes comunitários de saúde",
-        "orgao": "Prefeitura de Maraú",
-        "titulo": "Prefeitura de Maraú - BA reabre inscrições de processo seletivo para agentes comunitários de saúde",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-marau-ba-reabre-inscricoes-de-processo-seletivo-para-agentes-comunitarios-de-saude",
-        "vagas": null,
-        "salarioMaximo": null,
-        "inscricaoTexto": "Reaberto até16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -879,68 +827,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2311306,
-    "cidade": "Quixadá",
-    "uf": "CE",
-    "latitude": -4.9663,
-    "longitude": -39.0155,
-    "concursos": [
-      {
-        "id": "prefeitura-de-quixada-ce-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva:2311306",
-        "concursoId": "prefeitura-de-quixada-ce-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
-        "codigoIbge": 2311306,
-        "cidade": "Quixadá",
-        "uf": "CE",
-        "latitude": -4.9663,
-        "longitude": -39.0155,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Quixadá — Prefeitura de Quixadá - CE abre processo seletivo com vagas imediatas e cadastro de reserva",
-        "orgao": "Prefeitura de Quixadá",
-        "titulo": "Prefeitura de Quixadá - CE abre processo seletivo com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-quixada-ce-abre-processo-seletivo-com-vagas-imediatas-e-cadastro-de-reserva",
-        "vagas": 411,
-        "salarioMaximo": 3138,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 2313609,
-    "cidade": "Ubajara",
-    "uf": "CE",
-    "latitude": -3.85448,
-    "longitude": -40.9204,
-    "concursos": [
-      {
-        "id": "prefeitura-de-ubajara-ce-publica-retificacao-de-concurso-publico:2313609",
-        "concursoId": "prefeitura-de-ubajara-ce-publica-retificacao-de-concurso-publico",
-        "codigoIbge": 2313609,
-        "cidade": "Ubajara",
-        "uf": "CE",
-        "latitude": -3.85448,
-        "longitude": -40.9204,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Ubajara — Prefeitura de Ubajara - CE publica retificação de concurso público",
-        "orgao": "Prefeitura de Ubajara",
-        "titulo": "Prefeitura de Ubajara - CE publica retificação de concurso público",
-        "status": "encerrado",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ubajara-ce-publica-retificacao-de-concurso-publico",
-        "vagas": 60,
-        "salarioMaximo": 3242,
-        "inscricaoTexto": "01/11/2026",
-        "inscricaoFim": "2026-11-01"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 5300108,
     "cidade": "Brasília",
     "uf": "DF",
@@ -1129,37 +1015,6 @@
     "totalConcursos": 3
   },
   {
-    "codigoIbge": 3200508,
-    "cidade": "Apiacá",
-    "uf": "ES",
-    "latitude": -21.1523,
-    "longitude": -41.5693,
-    "concursos": [
-      {
-        "id": "prefeitura-de-apiaca-es-abre-selecao-para-cadastro-de-reserva-de-professores-e-pedagogos:3200508",
-        "concursoId": "prefeitura-de-apiaca-es-abre-selecao-para-cadastro-de-reserva-de-professores-e-pedagogos",
-        "codigoIbge": 3200508,
-        "cidade": "Apiacá",
-        "uf": "ES",
-        "latitude": -21.1523,
-        "longitude": -41.5693,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Apiacá — Prefeitura de Apiacá - ES abre seleção para cadastro de reserva de professores e pedagogos",
-        "orgao": "Prefeitura de Apiacá",
-        "titulo": "Prefeitura de Apiacá - ES abre seleção para cadastro de reserva de professores e pedagogos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-apiaca-es-abre-selecao-para-cadastro-de-reserva-de-professores-e-pedagogos",
-        "vagas": null,
-        "salarioMaximo": 3206.64,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3200607,
     "cidade": "Aracruz",
     "uf": "ES",
@@ -1326,37 +1181,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3202603,
-    "cidade": "Iconha",
-    "uf": "ES",
-    "latitude": -20.7913,
-    "longitude": -40.8132,
-    "concursos": [
-      {
-        "id": "saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico:3202603",
-        "concursoId": "saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico",
-        "codigoIbge": 3202603,
-        "cidade": "Iconha",
-        "uf": "ES",
-        "latitude": -20.7913,
-        "longitude": -40.8132,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "SAAE - Serviço Autônomo de Água e Esgoto de Iconha — SAAE de Iconha - ES prorroga inscrições para concurso público",
-        "orgao": "SAAE - Serviço Autônomo de Água e Esgoto de Iconha",
-        "titulo": "SAAE de Iconha - ES prorroga inscrições para concurso público",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/saae-de-iconha-es-prorroga-inscricoes-para-concurso-publico",
-        "vagas": 14,
-        "salarioMaximo": 3236.14,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3203130,
     "cidade": "João Neiva",
     "uf": "ES",
@@ -1476,37 +1300,6 @@
         "salarioMaximo": 9018.78,
         "inscricaoTexto": "19/11/2026",
         "inscricaoFim": "2026-11-19"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3204351,
-    "cidade": "Rio Bananal",
-    "uf": "ES",
-    "latitude": -19.2719,
-    "longitude": -40.3366,
-    "concursos": [
-      {
-        "id": "prefeitura-de-rio-bananal-es-abre-concurso-publico-para-professores-e-pedagogos:3204351",
-        "concursoId": "prefeitura-de-rio-bananal-es-abre-concurso-publico-para-professores-e-pedagogos",
-        "codigoIbge": 3204351,
-        "cidade": "Rio Bananal",
-        "uf": "ES",
-        "latitude": -19.2719,
-        "longitude": -40.3366,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Rio Bananal — Prefeitura de Rio Bananal - ES abre concurso público para professores e pedagogos",
-        "orgao": "Prefeitura de Rio Bananal",
-        "titulo": "Prefeitura de Rio Bananal - ES abre concurso público para professores e pedagogos",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-bananal-es-abre-concurso-publico-para-professores-e-pedagogos",
-        "vagas": 120,
-        "salarioMaximo": 3208.18,
-        "inscricaoTexto": "23/11/2026",
-        "inscricaoFim": "2026-11-23"
       }
     ],
     "totalConcursos": 1
@@ -2873,30 +2666,9 @@
         "salarioMaximo": 18067.43,
         "inscricaoTexto": "19/11/2026",
         "inscricaoFim": "2026-11-19"
-      },
-      {
-        "id": "sudecap-mg-abre-processo-seletivo-com-salarios-de-ate-9375:3106200",
-        "concursoId": "sudecap-mg-abre-processo-seletivo-com-salarios-de-ate-9375",
-        "codigoIbge": 3106200,
-        "cidade": "Belo Horizonte",
-        "uf": "MG",
-        "latitude": -19.9102,
-        "longitude": -43.9266,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado de Minas Gerais, a Superintendência de Desenvolvimento da Capital (SUDECAP) de Belo Horizonte abriu um Processo Seletivo Simplificado para preencher vagas temporárias em funções de nível superior ou técnico.",
-        "orgao": "SUDECAP - Superintendência de Desenvolvimento da Capital",
-        "titulo": "SUDECAP - MG abre processo seletivo com salários de até R$ 9.375,06",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/sudecap-mg-abre-processo-seletivo-com-salarios-de-ate-9375",
-        "vagas": 27,
-        "salarioMaximo": 9375.06,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3107208,
@@ -3192,7 +2964,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-carmo-da-cachoeira-mg-abre-selecao-para-agentes-de-saude-e-de-endemias",
         "vagas": 2,
         "salarioMaximo": 3242,
-        "inscricaoTexto": "17/11 a17/12/2026",
+        "inscricaoTexto": "17/12/2026",
         "inscricaoFim": "2026-12-17"
       }
     ],
@@ -3350,30 +3122,9 @@
         "salarioMaximo": 20743.06,
         "inscricaoTexto": "25 a26/11/2026",
         "inscricaoFim": "2026-11-26"
-      },
-      {
-        "id": "prefeitura-de-claudio-mg-abre-processo-seletivo-para-cadastro-de-reserva-na-educacao:3116605",
-        "concursoId": "prefeitura-de-claudio-mg-abre-processo-seletivo-para-cadastro-de-reserva-na-educacao",
-        "codigoIbge": 3116605,
-        "cidade": "Cláudio",
-        "uf": "MG",
-        "latitude": -20.4437,
-        "longitude": -44.7673,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Cláudio - Secretaria Municipal de Educação — Prefeitura de Cláudio - MG abre processo seletivo para cadastro de reserva na educação",
-        "orgao": "Prefeitura de Cláudio - Secretaria Municipal de Educação",
-        "titulo": "Prefeitura de Cláudio - MG abre processo seletivo para cadastro de reserva na educação",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-claudio-mg-abre-processo-seletivo-para-cadastro-de-reserva-na-educacao",
-        "vagas": null,
-        "salarioMaximo": 4748.99,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 3117876,
@@ -3650,9 +3401,30 @@
         "salarioMaximo": 15479.2,
         "inscricaoTexto": "20/11/2026",
         "inscricaoFim": "2026-11-20"
+      },
+      {
+        "id": "prefeitura-de-ibertioga-mg-abre-selecao-para-operadores-de-maquinas-e-tratoristas:3129400",
+        "concursoId": "prefeitura-de-ibertioga-mg-abre-selecao-para-operadores-de-maquinas-e-tratoristas",
+        "codigoIbge": 3129400,
+        "cidade": "Ibertioga",
+        "uf": "MG",
+        "latitude": -21.433,
+        "longitude": -43.9639,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Ibertioga — Prefeitura de Ibertioga - MG abre seleção para operadores de máquinas e tratoristas",
+        "orgao": "Prefeitura de Ibertioga",
+        "titulo": "Prefeitura de Ibertioga - MG abre seleção para operadores de máquinas e tratoristas",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ibertioga-mg-abre-selecao-para-operadores-de-maquinas-e-tratoristas",
+        "vagas": 5,
+        "salarioMaximo": 2703.55,
+        "inscricaoTexto": "23/11/2026",
+        "inscricaoFim": "2026-11-23"
       }
     ],
-    "totalConcursos": 1
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 3130903,
@@ -3867,37 +3639,6 @@
         "salarioMaximo": 4786.59,
         "inscricaoTexto": "17/12/2026",
         "inscricaoFim": "2026-12-17"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3137304,
-    "cidade": "Lagoa dos Patos",
-    "uf": "MG",
-    "latitude": -16.978,
-    "longitude": -44.5754,
-    "concursos": [
-      {
-        "id": "prefeitura-de-lagoa-dos-patos-mg-abre-processo-seletivo-para-psicologos:3137304",
-        "concursoId": "prefeitura-de-lagoa-dos-patos-mg-abre-processo-seletivo-para-psicologos",
-        "codigoIbge": 3137304,
-        "cidade": "Lagoa dos Patos",
-        "uf": "MG",
-        "latitude": -16.978,
-        "longitude": -44.5754,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Lagoa dos Patos — Prefeitura de Lagoa dos Patos - MG abre processo seletivo para psicólogos",
-        "orgao": "Prefeitura de Lagoa dos Patos",
-        "titulo": "Prefeitura de Lagoa dos Patos - MG abre processo seletivo para psicólogos",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-lagoa-dos-patos-mg-abre-processo-seletivo-para-psicologos",
-        "vagas": 2,
-        "salarioMaximo": 3323.66,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -4250,6 +3991,37 @@
         "salarioMaximo": 1668.22,
         "inscricaoTexto": "11/12/2026",
         "inscricaoFim": "2026-12-11"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3144805,
+    "cidade": "Nova Lima",
+    "uf": "MG",
+    "latitude": -19.9758,
+    "longitude": -43.8509,
+    "concursos": [
+      {
+        "id": "prefeitura-de-nova-lima-mg-abre-processo-seletivo-com-salarios-de-ate-8106:3144805",
+        "concursoId": "prefeitura-de-nova-lima-mg-abre-processo-seletivo-com-salarios-de-ate-8106",
+        "codigoIbge": 3144805,
+        "cidade": "Nova Lima",
+        "uf": "MG",
+        "latitude": -19.9758,
+        "longitude": -43.8509,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "SEMSA - Secretaria Municipal de Saúde de Nova Lima — Prefeitura de Nova Lima - MG abre processo seletivo com salários de até R$ 8.106,76",
+        "orgao": "SEMSA - Secretaria Municipal de Saúde de Nova Lima",
+        "titulo": "Prefeitura de Nova Lima - MG abre processo seletivo com salários de até R$ 8.106,76",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-lima-mg-abre-processo-seletivo-com-salarios-de-ate-8106",
+        "vagas": 24,
+        "salarioMaximo": 8106.76,
+        "inscricaoTexto": "26/11 a02/12/2026",
+        "inscricaoFim": "2026-12-02"
       }
     ],
     "totalConcursos": 1
@@ -4796,7 +4568,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-firme-mg-abre-novo-concurso-publico-com-salarios-de-ate-3873",
         "vagas": 19,
         "salarioMaximo": 3873.3,
-        "inscricaoTexto": "17/11 a17/12/2026",
+        "inscricaoTexto": "17/12/2026",
         "inscricaoFim": "2026-12-17"
       }
     ],
@@ -4827,7 +4599,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/fhemig-mg-abre-selecao-para-medico-no-instituto-raul-soares",
         "vagas": 1,
         "salarioMaximo": 7040.85,
-        "inscricaoTexto": "17 a24/11/2026",
+        "inscricaoTexto": "24/11/2026",
         "inscricaoFim": "2026-11-24"
       }
     ],
@@ -5378,9 +5150,30 @@
         "salarioMaximo": 3074.11,
         "inscricaoTexto": "21/12/2026 a08/01/2027",
         "inscricaoFim": "2027-01-08"
+      },
+      {
+        "id": "prefeitura-de-sao-tomas-de-aquino-mg-abre-vagas-para-secretaria-de-desenvolvimento-social:3165107",
+        "concursoId": "prefeitura-de-sao-tomas-de-aquino-mg-abre-vagas-para-secretaria-de-desenvolvimento-social",
+        "codigoIbge": 3165107,
+        "cidade": "São Tomás de Aquino",
+        "uf": "MG",
+        "latitude": -20.7791,
+        "longitude": -47.0962,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São Tomás de Aquino — Prefeitura de São Tomás de Aquino - MG abre vagas para Secretaria de Desenvolvimento Social",
+        "orgao": "Prefeitura de São Tomás de Aquino",
+        "titulo": "Prefeitura de São Tomás de Aquino - MG abre vagas para Secretaria de Desenvolvimento Social",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-tomas-de-aquino-mg-abre-vagas-para-secretaria-de-desenvolvimento-social",
+        "vagas": 4,
+        "salarioMaximo": 2664.25,
+        "inscricaoTexto": "21 a23/12/2026",
+        "inscricaoFim": "2026-12-23"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 3165305,
@@ -5900,37 +5693,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 5003751,
-    "cidade": "Eldorado",
-    "uf": "MS",
-    "latitude": -23.7868,
-    "longitude": -54.2838,
-    "concursos": [
-      {
-        "id": "prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao:5003751",
-        "concursoId": "prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao",
-        "codigoIbge": 5003751,
-        "cidade": "Eldorado",
-        "uf": "MS",
-        "latitude": -23.7868,
-        "longitude": -54.2838,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Secretaria Municipal de Educação, Esporte e Cultura de Eldorado — Prefeitura de Eldorado - MS abre seleção para profissionais da educação",
-        "orgao": "Secretaria Municipal de Educação, Esporte e Cultura de Eldorado",
-        "titulo": "Prefeitura de Eldorado - MS abre seleção para profissionais da educação",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-eldorado-ms-abre-selecao-para-profissionais-da-educacao",
-        "vagas": null,
-        "salarioMaximo": null,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 5005707,
     "cidade": "Naviraí",
     "uf": "MS",
@@ -6348,7 +6110,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-comodoro-mt-abre-selecao-para-formacao-de-cadastro-de-reserva-na-saude",
         "vagas": 39,
         "salarioMaximo": 7929.74,
-        "inscricaoTexto": "17/11 a01/12/2026",
+        "inscricaoTexto": "01/12/2026",
         "inscricaoFim": "2026-12-01"
       }
     ],
@@ -6474,37 +6236,6 @@
         "salarioMaximo": 12937.29,
         "inscricaoTexto": "26/11/2026",
         "inscricaoFim": "2026-11-26"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 5105622,
-    "cidade": "Mirassol d'Oeste",
-    "uf": "MT",
-    "latitude": -15.6759,
-    "longitude": -58.0951,
-    "concursos": [
-      {
-        "id": "prefeitura-de-mirassol-doeste-mt-abre-processo-seletivo-com-salarios-de-ate-27645:5105622",
-        "concursoId": "prefeitura-de-mirassol-doeste-mt-abre-processo-seletivo-com-salarios-de-ate-27645",
-        "codigoIbge": 5105622,
-        "cidade": "Mirassol d'Oeste",
-        "uf": "MT",
-        "latitude": -15.6759,
-        "longitude": -58.0951,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Mirassol d'Oeste — Prefeitura de Mirassol d'Oeste - MT abre processo seletivo com salários de até R$ 27.645,05",
-        "orgao": "Prefeitura de Mirassol d'Oeste",
-        "titulo": "Prefeitura de Mirassol d'Oeste - MT abre processo seletivo com salários de até R$ 27.645,05",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mirassol-doeste-mt-abre-processo-seletivo-com-salarios-de-ate-27645",
-        "vagas": 205,
-        "salarioMaximo": 27645.05,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -6727,6 +6458,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 5107941,
+    "cidade": "Tabaporã",
+    "uf": "MT",
+    "latitude": -11.3007,
+    "longitude": -56.8312,
+    "concursos": [
+      {
+        "id": "prefeitura-de-tabapora-mt-abre-selecao-com-salarios-de-ate-9677:5107941",
+        "concursoId": "prefeitura-de-tabapora-mt-abre-selecao-com-salarios-de-ate-9677",
+        "codigoIbge": 5107941,
+        "cidade": "Tabaporã",
+        "uf": "MT",
+        "latitude": -11.3007,
+        "longitude": -56.8312,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Tabaporã — Prefeitura de Tabaporã - MT abre seleção com salários de até R$ 9.677,25",
+        "orgao": "Prefeitura de Tabaporã",
+        "titulo": "Prefeitura de Tabaporã - MT abre seleção com salários de até R$ 9.677,25",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tabapora-mt-abre-selecao-com-salarios-de-ate-9677",
+        "vagas": 165,
+        "salarioMaximo": 9677.25,
+        "inscricaoTexto": "01/12/2026",
+        "inscricaoFim": "2026-12-01"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 1501402,
     "cidade": "Belém",
     "uf": "PA",
@@ -6803,7 +6565,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-maraba-pa-abre-concurso-publico-para-guarda-municipal",
         "vagas": 60,
         "salarioMaximo": 2076.4,
-        "inscricaoTexto": "17/11 a28/12/2026",
+        "inscricaoTexto": "28/12/2026",
         "inscricaoFim": "2026-12-28"
       },
       {
@@ -7010,7 +6772,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-baia-da-traicao-pb-abre-concurso-publico-com-vagas-em-diversos-cargos",
         "vagas": 117,
         "salarioMaximo": 10000,
-        "inscricaoTexto": "17/11 a16/12/2026",
+        "inscricaoTexto": "16/12/2026",
         "inscricaoFim": "2026-12-16"
       }
     ],
@@ -7566,6 +7328,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 2614501,
+    "cidade": "Surubim",
+    "uf": "PE",
+    "latitude": -7.84746,
+    "longitude": -35.7481,
+    "concursos": [
+      {
+        "id": "prefeitura-de-surubim-pe-abre-processo-seletivo-para-a-secretaria-de-saude:2614501",
+        "concursoId": "prefeitura-de-surubim-pe-abre-processo-seletivo-para-a-secretaria-de-saude",
+        "codigoIbge": 2614501,
+        "cidade": "Surubim",
+        "uf": "PE",
+        "latitude": -7.84746,
+        "longitude": -35.7481,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Surubim — Prefeitura de Surubim - PE abre processo seletivo para a Secretaria de Saúde",
+        "orgao": "Prefeitura de Surubim",
+        "titulo": "Prefeitura de Surubim - PE abre processo seletivo para a Secretaria de Saúde",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-surubim-pe-abre-processo-seletivo-para-a-secretaria-de-saude",
+        "vagas": 9,
+        "salarioMaximo": 2600,
+        "inscricaoTexto": "27/11/2026",
+        "inscricaoFim": "2026-11-27"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 2615607,
     "cidade": "Trindade",
     "uf": "PE",
@@ -7752,37 +7545,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 2205458,
-    "cidade": "Joca Marques",
-    "uf": "PI",
-    "latitude": -3.4804,
-    "longitude": -42.4255,
-    "concursos": [
-      {
-        "id": "camara-de-joca-marques-pi-abre-concurso-publico-com-oito-vagas-imediatas:2205458",
-        "concursoId": "camara-de-joca-marques-pi-abre-concurso-publico-com-oito-vagas-imediatas",
-        "codigoIbge": 2205458,
-        "cidade": "Joca Marques",
-        "uf": "PI",
-        "latitude": -3.4804,
-        "longitude": -42.4255,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Joca Marques — Câmara de Joca Marques - PI abre concurso público com oito vagas imediatas",
-        "orgao": "Câmara de Joca Marques",
-        "titulo": "Câmara de Joca Marques - PI abre concurso público com oito vagas imediatas",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-joca-marques-pi-abre-concurso-publico-com-oito-vagas-imediatas",
-        "vagas": 8,
-        "salarioMaximo": 3800,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 2206407,
     "cidade": "Monsenhor Gil",
     "uf": "PI",
@@ -7821,27 +7583,6 @@
     "longitude": -42.2559,
     "concursos": [
       {
-        "id": "prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude:2210003",
-        "concursoId": "prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude",
-        "codigoIbge": 2210003,
-        "cidade": "São João do Piauí",
-        "uf": "PI",
-        "latitude": -8.35466,
-        "longitude": -42.2559,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São João do Piauí — Prefeitura de São João do Piauí - PI revoga suspensão de processo seletivo para Agente de Endemias e de Saúde",
-        "orgao": "Prefeitura de São João do Piauí",
-        "titulo": "Prefeitura de São João do Piauí - PI revoga suspensão de processo seletivo para Agente de Endemias e de Saúde",
-        "status": "encerrado",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude",
-        "vagas": 80,
-        "salarioMaximo": 1621,
-        "inscricaoTexto": "15/11/2026",
-        "inscricaoFim": "2026-11-15"
-      },
-      {
         "id": "camara-de-sao-joao-do-piaui-pi-abre-concurso-publico-para-controlador-interno:2210003",
         "concursoId": "camara-de-sao-joao-do-piaui-pi-abre-concurso-publico-para-controlador-interno",
         "codigoIbge": 2210003,
@@ -7861,6 +7602,27 @@
         "salarioMaximo": 4052.5,
         "inscricaoTexto": "30/11/2026",
         "inscricaoFim": "2026-11-30"
+      },
+      {
+        "id": "prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude:2210003",
+        "concursoId": "prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude",
+        "codigoIbge": 2210003,
+        "cidade": "São João do Piauí",
+        "uf": "PI",
+        "latitude": -8.35466,
+        "longitude": -42.2559,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de São João do Piauí — Prefeitura de São João do Piauí - PI revoga suspensão de processo seletivo para Agente de Endemias e de Saúde",
+        "orgao": "Prefeitura de São João do Piauí",
+        "titulo": "Prefeitura de São João do Piauí - PI revoga suspensão de processo seletivo para Agente de Endemias e de Saúde",
+        "status": "encerrado",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-do-piaui-pi-revoga-suspensao-de-processo-seletivo-para-agente-de-endemias-e-de-saude",
+        "vagas": 80,
+        "salarioMaximo": 1621,
+        "inscricaoTexto": "15/11/2026",
+        "inscricaoFim": "2026-11-15"
       }
     ],
     "totalConcursos": 2
@@ -7892,6 +7654,37 @@
         "salarioMaximo": 6000,
         "inscricaoTexto": "Suspenso",
         "inscricaoFim": null
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4100707,
+    "cidade": "Alto Piquiri",
+    "uf": "PR",
+    "latitude": -24.0224,
+    "longitude": -53.44,
+    "concursos": [
+      {
+        "id": "prefeitura-de-alto-piquiri-pr-abre-processo-seletivo-para-cadastro-de-reserva-em-diversas-areas:4100707",
+        "concursoId": "prefeitura-de-alto-piquiri-pr-abre-processo-seletivo-para-cadastro-de-reserva-em-diversas-areas",
+        "codigoIbge": 4100707,
+        "cidade": "Alto Piquiri",
+        "uf": "PR",
+        "latitude": -24.0224,
+        "longitude": -53.44,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Alto Piquiri — Prefeitura de Alto Piquiri - PR abre processo seletivo para cadastro de reserva em diversas áreas",
+        "orgao": "Prefeitura de Alto Piquiri",
+        "titulo": "Prefeitura de Alto Piquiri - PR abre processo seletivo para cadastro de reserva em diversas áreas",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-alto-piquiri-pr-abre-processo-seletivo-para-cadastro-de-reserva-em-diversas-areas",
+        "vagas": null,
+        "salarioMaximo": 4403.97,
+        "inscricaoTexto": "26/11/2026",
+        "inscricaoFim": "2026-11-26"
       }
     ],
     "totalConcursos": 1
@@ -8061,6 +7854,37 @@
       }
     ],
     "totalConcursos": 3
+  },
+  {
+    "codigoIbge": 4107009,
+    "cidade": "Curiúva",
+    "uf": "PR",
+    "latitude": -24.0362,
+    "longitude": -50.4576,
+    "concursos": [
+      {
+        "id": "prefeitura-de-curiuva-pr-abre-processo-seletivo-para-tecnico-de-enfermagem:4107009",
+        "concursoId": "prefeitura-de-curiuva-pr-abre-processo-seletivo-para-tecnico-de-enfermagem",
+        "codigoIbge": 4107009,
+        "cidade": "Curiúva",
+        "uf": "PR",
+        "latitude": -24.0362,
+        "longitude": -50.4576,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Curiúva — Prefeitura de Curiúva - PR abre processo seletivo para Técnico de Enfermagem",
+        "orgao": "Prefeitura de Curiúva",
+        "titulo": "Prefeitura de Curiúva - PR abre processo seletivo para Técnico de Enfermagem",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-curiuva-pr-abre-processo-seletivo-para-tecnico-de-enfermagem",
+        "vagas": 1,
+        "salarioMaximo": 3022.73,
+        "inscricaoTexto": "27/11/2026",
+        "inscricaoFim": "2026-11-27"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4107538,
@@ -8373,6 +8197,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4124400,
+    "cidade": "Santo Antônio do Sudoeste",
+    "uf": "PR",
+    "latitude": -26.0737,
+    "longitude": -53.7251,
+    "concursos": [
+      {
+        "id": "prefeitura-de-santo-antonio-do-sudoeste-pr-abre-selecao-com-vagas-imediatas-e-cadastro-de-reserva:4124400",
+        "concursoId": "prefeitura-de-santo-antonio-do-sudoeste-pr-abre-selecao-com-vagas-imediatas-e-cadastro-de-reserva",
+        "codigoIbge": 4124400,
+        "cidade": "Santo Antônio do Sudoeste",
+        "uf": "PR",
+        "latitude": -26.0737,
+        "longitude": -53.7251,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Santo Antônio do Sudoeste — Prefeitura de Santo Antônio do Sudoeste - PR abre seleção com vagas imediatas e cadastro de reserva",
+        "orgao": "Prefeitura de Santo Antônio do Sudoeste",
+        "titulo": "Prefeitura de Santo Antônio do Sudoeste - PR abre seleção com vagas imediatas e cadastro de reserva",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santo-antonio-do-sudoeste-pr-abre-selecao-com-vagas-imediatas-e-cadastro-de-reserva",
+        "vagas": 21,
+        "salarioMaximo": 6206.47,
+        "inscricaoTexto": "18/11/2026",
+        "inscricaoFim": "2026-11-18"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4128104,
     "cidade": "Umuarama",
     "uf": "PR",
@@ -8425,126 +8280,12 @@
     "totalConcursos": 2
   },
   {
-    "codigoIbge": 3300100,
-    "cidade": "Angra dos Reis",
-    "uf": "RJ",
-    "latitude": -23.0011,
-    "longitude": -44.3196,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3300100",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3300100,
-        "cidade": "Angra dos Reis",
-        "uf": "RJ",
-        "latitude": -23.0011,
-        "longitude": -44.3196,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3300407,
-    "cidade": "Barra Mansa",
-    "uf": "RJ",
-    "latitude": -22.5481,
-    "longitude": -44.1752,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3300407",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3300407,
-        "cidade": "Barra Mansa",
-        "uf": "RJ",
-        "latitude": -22.5481,
-        "longitude": -44.1752,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3300704,
-    "cidade": "Cabo Frio",
-    "uf": "RJ",
-    "latitude": -22.8894,
-    "longitude": -42.0286,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3300704",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3300704,
-        "cidade": "Cabo Frio",
-        "uf": "RJ",
-        "latitude": -22.8894,
-        "longitude": -42.0286,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 5 - Macaé, Cabo Frio, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3301009,
     "cidade": "Campos dos Goytacazes",
     "uf": "RJ",
     "latitude": -21.7622,
     "longitude": -41.3181,
     "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3301009",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3301009,
-        "cidade": "Campos dos Goytacazes",
-        "uf": "RJ",
-        "latitude": -21.7622,
-        "longitude": -41.3181,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 4 - Campos dos Goytacazes, Itaperuna, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
       {
         "id": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313:3301009",
         "concursoId": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313",
@@ -8565,99 +8306,6 @@
         "salarioMaximo": 7313.35,
         "inscricaoTexto": "17/12/2026",
         "inscricaoFim": "2026-12-17"
-      }
-    ],
-    "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 3301702,
-    "cidade": "Duque de Caxias",
-    "uf": "RJ",
-    "latitude": -22.7858,
-    "longitude": -43.3049,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3301702",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3301702,
-        "cidade": "Duque de Caxias",
-        "uf": "RJ",
-        "latitude": -22.7858,
-        "longitude": -43.3049,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 6 - Duque de Caxias, Nova Iguaçu, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3301900,
-    "cidade": "Itaboraí",
-    "uf": "RJ",
-    "latitude": -22.7565,
-    "longitude": -42.8639,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3301900",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3301900,
-        "cidade": "Itaboraí",
-        "uf": "RJ",
-        "latitude": -22.7565,
-        "longitude": -42.8639,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3302007,
-    "cidade": "Itaguaí",
-    "uf": "RJ",
-    "latitude": -22.8636,
-    "longitude": -43.7798,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302007",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302007,
-        "cidade": "Itaguaí",
-        "uf": "RJ",
-        "latitude": -22.8636,
-        "longitude": -43.7798,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -8694,312 +8342,12 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3302205,
-    "cidade": "Itaperuna",
-    "uf": "RJ",
-    "latitude": -21.1997,
-    "longitude": -41.8799,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302205",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302205,
-        "cidade": "Itaperuna",
-        "uf": "RJ",
-        "latitude": -21.1997,
-        "longitude": -41.8799,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 4 - Campos dos Goytacazes, Itaperuna, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3302403,
-    "cidade": "Macaé",
-    "uf": "RJ",
-    "latitude": -22.3768,
-    "longitude": -41.7848,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302403",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302403,
-        "cidade": "Macaé",
-        "uf": "RJ",
-        "latitude": -22.3768,
-        "longitude": -41.7848,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 5 - Macaé, Cabo Frio, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3302502,
-    "cidade": "Magé",
-    "uf": "RJ",
-    "latitude": -22.6632,
-    "longitude": -43.0315,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302502",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302502,
-        "cidade": "Magé",
-        "uf": "RJ",
-        "latitude": -22.6632,
-        "longitude": -43.0315,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3302601,
-    "cidade": "Mangaratiba",
-    "uf": "RJ",
-    "latitude": -22.9594,
-    "longitude": -44.0409,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302601",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302601,
-        "cidade": "Mangaratiba",
-        "uf": "RJ",
-        "latitude": -22.9594,
-        "longitude": -44.0409,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3302700,
-    "cidade": "Maricá",
-    "uf": "RJ",
-    "latitude": -22.9354,
-    "longitude": -42.8246,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3302700",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3302700,
-        "cidade": "Maricá",
-        "uf": "RJ",
-        "latitude": -22.9354,
-        "longitude": -42.8246,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3303302,
-    "cidade": "Niterói",
-    "uf": "RJ",
-    "latitude": -22.8832,
-    "longitude": -43.1034,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3303302",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3303302,
-        "cidade": "Niterói",
-        "uf": "RJ",
-        "latitude": -22.8832,
-        "longitude": -43.1034,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3303401,
-    "cidade": "Nova Friburgo",
-    "uf": "RJ",
-    "latitude": -22.2932,
-    "longitude": -42.5377,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3303401",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3303401,
-        "cidade": "Nova Friburgo",
-        "uf": "RJ",
-        "latitude": -22.2932,
-        "longitude": -42.5377,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3303500,
-    "cidade": "Nova Iguaçu",
-    "uf": "RJ",
-    "latitude": -22.7556,
-    "longitude": -43.4603,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3303500",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3303500,
-        "cidade": "Nova Iguaçu",
-        "uf": "RJ",
-        "latitude": -22.7556,
-        "longitude": -43.4603,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 6 - Duque de Caxias, Nova Iguaçu, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3303807,
-    "cidade": "Paraty",
-    "uf": "RJ",
-    "latitude": -23.2221,
-    "longitude": -44.7175,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3303807",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3303807,
-        "cidade": "Paraty",
-        "uf": "RJ",
-        "latitude": -23.2221,
-        "longitude": -44.7175,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 7 - Angra dos Reis, Itaguaí, Mangaratiba, Paraty",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3303906,
     "cidade": "Petrópolis",
     "uf": "RJ",
     "latitude": -22.52,
     "longitude": -43.1926,
     "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3303906",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3303906,
-        "cidade": "Petrópolis",
-        "uf": "RJ",
-        "latitude": -22.52,
-        "longitude": -43.1926,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
       {
         "id": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313:3303906",
         "concursoId": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313",
@@ -9022,7 +8370,7 @@
         "inscricaoFim": "2026-12-17"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3304144,
@@ -9082,30 +8430,9 @@
         "salarioMaximo": 8374,
         "inscricaoTexto": "11/11/2026",
         "inscricaoFim": "2026-11-11"
-      },
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3304201",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3304201,
-        "cidade": "Resende",
-        "uf": "RJ",
-        "latitude": -22.4705,
-        "longitude": -44.4509,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3304557,
@@ -9178,27 +8505,6 @@
         "inscricaoFim": "2026-11-11"
       },
       {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3304557",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3304557,
-        "cidade": "Rio de Janeiro",
-        "uf": "RJ",
-        "latitude": -22.9129,
-        "longitude": -43.2003,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 1 - Município do Rio de Janeiro",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313:3304557",
         "concursoId": "crp-05-rj-abre-concurso-publico-com-salarios-de-ate-7313",
         "codigoIbge": 3304557,
@@ -9220,7 +8526,7 @@
         "inscricaoFim": "2026-12-17"
       }
     ],
-    "totalConcursos": 5
+    "totalConcursos": 4
   },
   {
     "codigoIbge": 3304904,
@@ -9249,30 +8555,9 @@
         "salarioMaximo": 4535.54,
         "inscricaoTexto": "18/11/2026",
         "inscricaoFim": "2026-11-18"
-      },
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3304904",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3304904,
-        "cidade": "São Gonçalo",
-        "uf": "RJ",
-        "latitude": -22.8268,
-        "longitude": -43.0634,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 8 - Niterói, São Gonçalo, Maricá, Itaboraí, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3305505,
@@ -9299,7 +8584,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-saquarema-rj-abre-selecao-para-agentes-de-saude-e-endemias",
         "vagas": 217,
         "salarioMaximo": 3242,
-        "inscricaoTexto": "17/11 a22/12/2026",
+        "inscricaoTexto": "22/12/2026",
         "inscricaoFim": "2026-12-22"
       }
     ],
@@ -9332,68 +8617,6 @@
         "salarioMaximo": 3206.64,
         "inscricaoTexto": "25/11/2026",
         "inscricaoFim": "2026-11-25"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3305802,
-    "cidade": "Teresópolis",
-    "uf": "RJ",
-    "latitude": -22.4165,
-    "longitude": -42.9752,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3305802",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3305802,
-        "cidade": "Teresópolis",
-        "uf": "RJ",
-        "latitude": -22.4165,
-        "longitude": -42.9752,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 2 - Petrópolis, Magé, Nova Friburgo, Teresópolis, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3306305,
-    "cidade": "Volta Redonda",
-    "uf": "RJ",
-    "latitude": -22.5202,
-    "longitude": -44.0996,
-    "concursos": [
-      {
-        "id": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario:3306305",
-        "concursoId": "cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "codigoIbge": 3306305,
-        "cidade": "Volta Redonda",
-        "uf": "RJ",
-        "latitude": -22.5202,
-        "longitude": -44.0996,
-        "tipoLocalidade": "mencao",
-        "confiancaLocalidade": "baixa",
-        "contextoLocalidade": "Região 3 - Volta Redonda, Barra Mansa, Resende, demais municípios",
-        "orgao": "CBMERJ - Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
-        "titulo": "CBMERJ - RJ prorroga inscrições de processo seletivo para 1º tenente temporário",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/cbmerj-rj-prorroga-inscricoes-de-processo-seletivo-para-1-tenente-temporario",
-        "vagas": 192,
-        "salarioMaximo": 12279.71,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -9485,7 +8708,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-upanema-rn-abre-selecao-para-profissionais-da-educacao",
         "vagas": 92,
         "salarioMaximo": 3610.2,
-        "inscricaoTexto": "17 a24/11/2026",
+        "inscricaoTexto": "24/11/2026",
         "inscricaoFim": "2026-11-24"
       }
     ],
@@ -9923,27 +9146,6 @@
         "inscricaoFim": "2026-12-07"
       },
       {
-        "id": "prefeitura-de-porto-velho-ro-prorroga-inscricoes-de-concurso-publico-com-vagas-para-a-educacao:1100205",
-        "concursoId": "prefeitura-de-porto-velho-ro-prorroga-inscricoes-de-concurso-publico-com-vagas-para-a-educacao",
-        "codigoIbge": 1100205,
-        "cidade": "Porto Velho",
-        "uf": "RO",
-        "latitude": -8.76077,
-        "longitude": -63.8999,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Porto Velho — Prefeitura de Porto Velho - RO prorroga inscrições de concurso público com vagas para a educação",
-        "orgao": "Prefeitura de Porto Velho",
-        "titulo": "Prefeitura de Porto Velho - RO prorroga inscrições de concurso público com vagas para a educação",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-velho-ro-prorroga-inscricoes-de-concurso-publico-com-vagas-para-a-educacao",
-        "vagas": 328,
-        "salarioMaximo": 3847.97,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "prefeitura-de-porto-velho-ro-prorroga-inscricoes-para-concurso-publico:1100205",
         "concursoId": "prefeitura-de-porto-velho-ro-prorroga-inscricoes-para-concurso-publico",
         "codigoIbge": 1100205,
@@ -9956,7 +9158,7 @@
         "contextoLocalidade": "SEMUSA - Secretaria Municipal de Saúde de Porto Velho — Prefeitura de Porto Velho - RO prorroga inscrições para concurso público",
         "orgao": "SEMUSA - Secretaria Municipal de Saúde de Porto Velho",
         "titulo": "Prefeitura de Porto Velho - RO prorroga inscrições para concurso público",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-velho-ro-prorroga-inscricoes-para-concurso-publico",
         "vagas": 1554,
@@ -9986,7 +9188,7 @@
         "inscricaoFim": "2026-11-17"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
   },
   {
     "codigoIbge": 1100288,
@@ -10113,6 +9315,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 1400704,
+    "cidade": "Uiramutã",
+    "uf": "RR",
+    "latitude": 4.60314,
+    "longitude": -60.1815,
+    "concursos": [
+      {
+        "id": "prefeitura-de-uiramuta-rr-abre-selecao-para-agentes-de-saude-e-endemias:1400704",
+        "concursoId": "prefeitura-de-uiramuta-rr-abre-selecao-para-agentes-de-saude-e-endemias",
+        "codigoIbge": 1400704,
+        "cidade": "Uiramutã",
+        "uf": "RR",
+        "latitude": 4.60314,
+        "longitude": -60.1815,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Uiramutã — Prefeitura de Uiramutã - RR abre seleção para agentes de saúde e endemias",
+        "orgao": "Prefeitura de Uiramutã",
+        "titulo": "Prefeitura de Uiramutã - RR abre seleção para agentes de saúde e endemias",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-uiramuta-rr-abre-selecao-para-agentes-de-saude-e-endemias",
+        "vagas": 26,
+        "salarioMaximo": 3242,
+        "inscricaoTexto": "24/11/2026",
+        "inscricaoFim": "2026-11-24"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4300802,
     "cidade": "Antônio Prado",
     "uf": "RS",
@@ -10201,37 +9434,6 @@
         "salarioMaximo": 4427.71,
         "inscricaoTexto": "23/11/2026",
         "inscricaoFim": "2026-11-23"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4301859,
-    "cidade": "Barra do Guarita",
-    "uf": "RS",
-    "latitude": -27.1927,
-    "longitude": -53.7109,
-    "concursos": [
-      {
-        "id": "prefeitura-de-barra-do-guarita-rs-abre-processo-seletivo-com-salarios-de-ate-4059:4301859",
-        "concursoId": "prefeitura-de-barra-do-guarita-rs-abre-processo-seletivo-com-salarios-de-ate-4059",
-        "codigoIbge": 4301859,
-        "cidade": "Barra do Guarita",
-        "uf": "RS",
-        "latitude": -27.1927,
-        "longitude": -53.7109,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Barra do Guarita — Prefeitura de Barra do Guarita - RS abre processo seletivo com salários de até R$ 4.059,98",
-        "orgao": "Prefeitura de Barra do Guarita",
-        "titulo": "Prefeitura de Barra do Guarita - RS abre processo seletivo com salários de até R$ 4.059,98",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-barra-do-guarita-rs-abre-processo-seletivo-com-salarios-de-ate-4059",
-        "vagas": 65,
-        "salarioMaximo": 4059.98,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -10592,8 +9794,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ijui-rs-retifica-edital-de-concurso-publico",
         "vagas": 157,
         "salarioMaximo": 21312.22,
-        "inscricaoTexto": "Prorrogado até19/11/2026",
-        "inscricaoFim": "2026-11-19"
+        "inscricaoTexto": "Prorrogado até24/11/2026",
+        "inscricaoFim": "2026-11-24"
       },
       {
         "id": "previjui-rs-anuncia-concurso-publico-com-salarios-de-ate-8983:4310207",
@@ -10675,7 +9877,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jari-rs-abre-processo-seletivo-para-professores-e-medicos",
         "vagas": null,
         "salarioMaximo": 13385.32,
-        "inscricaoTexto": "17 a19/11/2026",
+        "inscricaoTexto": "19/11/2026",
         "inscricaoFim": "2026-11-19"
       }
     ],
@@ -10837,6 +10039,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 4314506,
+    "cidade": "Pinheiro Machado",
+    "uf": "RS",
+    "latitude": -31.5794,
+    "longitude": -53.3798,
+    "concursos": [
+      {
+        "id": "camara-de-pinheiro-machado-rs-abre-concurso-publico-para-motorista-e-servente:4314506",
+        "concursoId": "camara-de-pinheiro-machado-rs-abre-concurso-publico-para-motorista-e-servente",
+        "codigoIbge": 4314506,
+        "cidade": "Pinheiro Machado",
+        "uf": "RS",
+        "latitude": -31.5794,
+        "longitude": -53.3798,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Câmara de Vereadores de Pinheiro Machado — Câmara de Pinheiro Machado - RS abre concurso público para Motorista e Servente",
+        "orgao": "Câmara de Vereadores de Pinheiro Machado",
+        "titulo": "Câmara de Pinheiro Machado - RS abre concurso público para Motorista e Servente",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-pinheiro-machado-rs-abre-concurso-publico-para-motorista-e-servente",
+        "vagas": 2,
+        "salarioMaximo": 1816.88,
+        "inscricaoTexto": "16/12/2026",
+        "inscricaoFim": "2026-12-16"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4314605,
     "cidade": "Piratini",
     "uf": "RS",
@@ -10962,6 +10195,37 @@
     "totalConcursos": 4
   },
   {
+    "codigoIbge": 4317608,
+    "cidade": "Santo Antônio da Patrulha",
+    "uf": "RS",
+    "latitude": -29.8268,
+    "longitude": -50.5175,
+    "concursos": [
+      {
+        "id": "prefeitura-de-santo-antonio-da-patrulha-rs-abre-selecao-para-o-cargo-de-cuidador-social:4317608",
+        "concursoId": "prefeitura-de-santo-antonio-da-patrulha-rs-abre-selecao-para-o-cargo-de-cuidador-social",
+        "codigoIbge": 4317608,
+        "cidade": "Santo Antônio da Patrulha",
+        "uf": "RS",
+        "latitude": -29.8268,
+        "longitude": -50.5175,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Santo Antônio da Patrulha — Prefeitura de Santo Antônio da Patrulha - RS abre seleção para o cargo de Cuidador Social",
+        "orgao": "Prefeitura de Santo Antônio da Patrulha",
+        "titulo": "Prefeitura de Santo Antônio da Patrulha - RS abre seleção para o cargo de Cuidador Social",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santo-antonio-da-patrulha-rs-abre-selecao-para-o-cargo-de-cuidador-social",
+        "vagas": null,
+        "salarioMaximo": 2367.2,
+        "inscricaoTexto": "04/12/2026",
+        "inscricaoFim": "2026-12-04"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 4318499,
     "cidade": "São José do Inhacorá",
     "uf": "RS",
@@ -11012,37 +10276,6 @@
       }
     ],
     "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 4319406,
-    "cidade": "São Pedro do Sul",
-    "uf": "RS",
-    "latitude": -29.6202,
-    "longitude": -54.1855,
-    "concursos": [
-      {
-        "id": "prefeitura-de-sao-pedro-do-sul-rs-abre-selecao-para-visitadores-dos-programas-crianca-feliz-e-primeira-infancia-melhor:4319406",
-        "concursoId": "prefeitura-de-sao-pedro-do-sul-rs-abre-selecao-para-visitadores-dos-programas-crianca-feliz-e-primeira-infancia-melhor",
-        "codigoIbge": 4319406,
-        "cidade": "São Pedro do Sul",
-        "uf": "RS",
-        "latitude": -29.6202,
-        "longitude": -54.1855,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de São Pedro do Sul — Prefeitura de São Pedro do Sul - RS abre seleção para visitadores dos programas Criança Feliz e Primeira Infância Melhor",
-        "orgao": "Prefeitura de São Pedro do Sul",
-        "titulo": "Prefeitura de São Pedro do Sul - RS abre seleção para visitadores dos programas Criança Feliz e Primeira Infância Melhor",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-pedro-do-sul-rs-abre-selecao-para-visitadores-dos-programas-crianca-feliz-e-primeira-infancia-melhor",
-        "vagas": 6,
-        "salarioMaximo": 1621,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
   },
   {
     "codigoIbge": 4320800,
@@ -11126,68 +10359,6 @@
       }
     ],
     "totalConcursos": 2
-  },
-  {
-    "codigoIbge": 4321469,
-    "cidade": "Tio Hugo",
-    "uf": "RS",
-    "latitude": -28.5712,
-    "longitude": -52.5955,
-    "concursos": [
-      {
-        "id": "prefeitura-de-tio-hugo-rs-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva:4321469",
-        "concursoId": "prefeitura-de-tio-hugo-rs-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
-        "codigoIbge": 4321469,
-        "cidade": "Tio Hugo",
-        "uf": "RS",
-        "latitude": -28.5712,
-        "longitude": -52.5955,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Tio Hugo — Prefeitura de Tio Hugo - RS abre concurso com vagas imediatas e cadastro de reserva",
-        "orgao": "Prefeitura de Tio Hugo",
-        "titulo": "Prefeitura de Tio Hugo - RS abre concurso com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tio-hugo-rs-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
-        "vagas": 66,
-        "salarioMaximo": 11943.11,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4321493,
-    "cidade": "Toropi",
-    "uf": "RS",
-    "latitude": -29.4782,
-    "longitude": -54.2244,
-    "concursos": [
-      {
-        "id": "camara-de-toropi-rs-abre-concurso-publico-para-agente-de-servicos-complementares:4321493",
-        "concursoId": "camara-de-toropi-rs-abre-concurso-publico-para-agente-de-servicos-complementares",
-        "codigoIbge": 4321493,
-        "cidade": "Toropi",
-        "uf": "RS",
-        "latitude": -29.4782,
-        "longitude": -54.2244,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Câmara de Toropi — Câmara de Toropi - RS abre concurso público para Agente de Serviços Complementares",
-        "orgao": "Câmara de Toropi",
-        "titulo": "Câmara de Toropi - RS abre concurso público para Agente de Serviços Complementares",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-toropi-rs-abre-concurso-publico-para-agente-de-servicos-complementares",
-        "vagas": 1,
-        "salarioMaximo": 1654.47,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
   },
   {
     "codigoIbge": 4321501,
@@ -11342,27 +10513,6 @@
     "longitude": -49.4918,
     "concursos": [
       {
-        "id": "hospital-regional-de-ararangua-sc-abre-selecoes-para-cozinheiro-auxiliar-de-cozinha-e-copeiro:4201406",
-        "concursoId": "hospital-regional-de-ararangua-sc-abre-selecoes-para-cozinheiro-auxiliar-de-cozinha-e-copeiro",
-        "codigoIbge": 4201406,
-        "cidade": "Araranguá",
-        "uf": "SC",
-        "latitude": -28.9356,
-        "longitude": -49.4918,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Hospital Regional Deputado Affonso Ghizzo de Araranguá e Policlínica Regional — Hospital Regional de Araranguá - SC abre seleções para Cozinheiro, Auxiliar de Cozinha e Copeiro",
-        "orgao": "Hospital Regional Deputado Affonso Ghizzo de Araranguá e Policlínica Regional",
-        "titulo": "Hospital Regional de Araranguá - SC abre seleções para Cozinheiro, Auxiliar de Cozinha e Copeiro",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/hospital-regional-de-ararangua-sc-abre-selecoes-para-cozinheiro-auxiliar-de-cozinha-e-copeiro",
-        "vagas": null,
-        "salarioMaximo": null,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "prefeitura-de-ararangua-sc-abre-processos-seletivos-para-diferentes-areas:4201406",
         "concursoId": "prefeitura-de-ararangua-sc-abre-processos-seletivos-para-diferentes-areas",
         "codigoIbge": 4201406,
@@ -11405,7 +10555,7 @@
         "inscricaoFim": "2026-11-24"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4201505,
@@ -11508,27 +10658,6 @@
     "longitude": -48.6352,
     "concursos": [
       {
-        "id": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar:4202008",
-        "concursoId": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "codigoIbge": 4202008,
-        "cidade": "Balneário Camboriú",
-        "uf": "SC",
-        "latitude": -26.9926,
-        "longitude": -48.6352,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "A prova objetiva e a redação estão previstas para o dia 13 de dezembro de 2026, em Balneário Camboriú, Blumenau, Canoinhas, Chapecó, Criciúma, Florianópolis, Joaçaba, Joinville, Lages, Rio do Sul, São Miguel do Oeste e Tubarão, podendo ocorrer também em cidades vizinhas.",
-        "orgao": "PMSC - Polícia Militar de Santa Catarina",
-        "titulo": "PMSC retifica concurso para Soldados do Quadro de Praças Policial Militar",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "vagas": 500,
-        "salarioMaximo": 8505,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo:4202008",
         "concursoId": "secretaria-de-estado-da-saude-sc-abre-vagas-para-motorista-socorrista-e-psicologo",
         "codigoIbge": 4202008,
@@ -11550,7 +10679,7 @@
         "inscricaoFim": "2026-11-24"
       }
     ],
-    "totalConcursos": 2
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 4202099,
@@ -11612,27 +10741,6 @@
         "inscricaoFim": "2026-12-02"
       },
       {
-        "id": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar:4202404",
-        "concursoId": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "codigoIbge": 4202404,
-        "cidade": "Blumenau",
-        "uf": "SC",
-        "latitude": -26.9155,
-        "longitude": -49.0709,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "A prova objetiva e a redação estão previstas para o dia 13 de dezembro de 2026, em Balneário Camboriú, Blumenau, Canoinhas, Chapecó, Criciúma, Florianópolis, Joaçaba, Joinville, Lages, Rio do Sul, São Miguel do Oeste e Tubarão, podendo ocorrer também em cidades vizinhas.",
-        "orgao": "PMSC - Polícia Militar de Santa Catarina",
-        "titulo": "PMSC retifica concurso para Soldados do Quadro de Praças Policial Militar",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "vagas": 500,
-        "salarioMaximo": 8505,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "prefeitura-de-blumenau-sc-abre-concurso-publico-para-a-area-da-educacao:4202404",
         "concursoId": "prefeitura-de-blumenau-sc-abre-concurso-publico-para-a-area-da-educacao",
         "codigoIbge": 4202404,
@@ -11654,7 +10762,7 @@
         "inscricaoFim": "2026-12-09"
       }
     ],
-    "totalConcursos": 3
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4202602,
@@ -11745,37 +10853,6 @@
         "salarioMaximo": 4182.55,
         "inscricaoTexto": "15/12/2026",
         "inscricaoFim": "2026-12-15"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 4203808,
-    "cidade": "Canoinhas",
-    "uf": "SC",
-    "latitude": -26.1766,
-    "longitude": -50.395,
-    "concursos": [
-      {
-        "id": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar:4203808",
-        "concursoId": "pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "codigoIbge": 4203808,
-        "cidade": "Canoinhas",
-        "uf": "SC",
-        "latitude": -26.1766,
-        "longitude": -50.395,
-        "tipoLocalidade": "prova",
-        "confiancaLocalidade": "media",
-        "contextoLocalidade": "A prova objetiva e a redação estão previstas para o dia 13 de dezembro de 2026, em Balneário Camboriú, Blumenau, Canoinhas, Chapecó, Criciúma, Florianópolis, Joaçaba, Joinville, Lages, Rio do Sul, São Miguel do Oeste e Tubarão, podendo ocorrer também em cidades vizinhas.",
-        "orgao": "PMSC - Polícia Militar de Santa Catarina",
-        "titulo": "PMSC retifica concurso para Soldados do Quadro de Praças Policial Militar",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/pmsc-retifica-concurso-para-soldados-do-quadro-de-pracas-policial-militar",
-        "vagas": 500,
-        "salarioMaximo": 8505,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
@@ -12058,6 +11135,27 @@
         "inscricaoFim": "2026-12-09"
       },
       {
+        "id": "fahece-sc-abre-processos-seletivos-para-enfermagem-no-cepon-de-florianopolis:4205407",
+        "concursoId": "fahece-sc-abre-processos-seletivos-para-enfermagem-no-cepon-de-florianopolis",
+        "codigoIbge": 4205407,
+        "cidade": "Florianópolis",
+        "uf": "SC",
+        "latitude": -27.5945,
+        "longitude": -48.5477,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "CEPON - Centro de Pesquisas Oncológicas — FAHECE - SC abre processos seletivos para Enfermagem no CEPON de Florianópolis",
+        "orgao": "CEPON - Centro de Pesquisas Oncológicas",
+        "titulo": "FAHECE - SC abre processos seletivos para Enfermagem no CEPON de Florianópolis",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processos-seletivos-para-enfermagem-no-cepon-de-florianopolis",
+        "vagas": 2,
+        "salarioMaximo": 5001.11,
+        "inscricaoTexto": "19/11/2026",
+        "inscricaoFim": "2026-11-19"
+      },
+      {
         "id": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-o-cargo-de-terapeuta-ocupacional-i-em-florianopolis:4205407",
         "concursoId": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-o-cargo-de-terapeuta-ocupacional-i-em-florianopolis",
         "codigoIbge": 4205407,
@@ -12077,48 +11175,6 @@
         "salarioMaximo": 4546.46,
         "inscricaoTexto": "Prorrogado até22/11/2026",
         "inscricaoFim": "2026-11-22"
-      },
-      {
-        "id": "fahece-sc-anuncia-vaga-de-assistente-de-laboratorio-i-em-florianopolis:4205407",
-        "concursoId": "fahece-sc-anuncia-vaga-de-assistente-de-laboratorio-i-em-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "FAHECE — FAHECE - SC anuncia vaga de Assistente de Laboratório I em Florianópolis",
-        "orgao": "FAHECE",
-        "titulo": "FAHECE - SC anuncia vaga de Assistente de Laboratório I em Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-anuncia-vaga-de-assistente-de-laboratorio-i-em-florianopolis",
-        "vagas": 1,
-        "salarioMaximo": 3373.62,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
-        "id": "fahece-sc-abre-processo-seletivo-para-o-hemosc-de-florianopolis:4205407",
-        "concursoId": "fahece-sc-abre-processo-seletivo-para-o-hemosc-de-florianopolis",
-        "codigoIbge": 4205407,
-        "cidade": "Florianópolis",
-        "uf": "SC",
-        "latitude": -27.5945,
-        "longitude": -48.5477,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HEMOSC — FAHECE - SC abre processo seletivo para o HEMOSC de Florianópolis",
-        "orgao": "HEMOSC",
-        "titulo": "FAHECE - SC abre processo seletivo para o HEMOSC de Florianópolis",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-abre-processo-seletivo-para-o-hemosc-de-florianopolis",
-        "vagas": 1,
-        "salarioMaximo": 4826.37,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       },
       {
         "id": "prefeitura-de-florianopolis-sc-abre-selecao-para-a-secretaria-de-educacao:4205407",
@@ -12184,7 +11240,7 @@
         "inscricaoFim": "2026-11-26"
       }
     ],
-    "totalConcursos": 7
+    "totalConcursos": 6
   },
   {
     "codigoIbge": 4205506,
@@ -12457,37 +11513,6 @@
     "totalConcursos": 4
   },
   {
-    "codigoIbge": 4207650,
-    "cidade": "Iporã do Oeste",
-    "uf": "SC",
-    "latitude": -26.9854,
-    "longitude": -53.5355,
-    "concursos": [
-      {
-        "id": "prefeitura-de-ipora-do-oeste-sc-abre-concurso-publico-e-processos-seletivos-com-salarios-de-ate-19265:4207650",
-        "concursoId": "prefeitura-de-ipora-do-oeste-sc-abre-concurso-publico-e-processos-seletivos-com-salarios-de-ate-19265",
-        "codigoIbge": 4207650,
-        "cidade": "Iporã do Oeste",
-        "uf": "SC",
-        "latitude": -26.9854,
-        "longitude": -53.5355,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Iporã do Oeste — Prefeitura de Iporã do Oeste - SC abre concurso público e processos seletivos com salários de até R$ 19.265,80",
-        "orgao": "Prefeitura de Iporã do Oeste",
-        "titulo": "Prefeitura de Iporã do Oeste - SC abre concurso público e processos seletivos com salários de até R$ 19.265,80",
-        "status": "aberto",
-        "tipoSelecao": "misto",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipora-do-oeste-sc-abre-concurso-publico-e-processos-seletivos-com-salarios-de-ate-19265",
-        "vagas": 5,
-        "salarioMaximo": 19265.8,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 4207759,
     "cidade": "Iraceminha",
     "uf": "SC",
@@ -12588,48 +11613,6 @@
     "longitude": -48.8487,
     "concursos": [
       {
-        "id": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-medico-no-hemosc-de-joinville:4209102",
-        "concursoId": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-medico-no-hemosc-de-joinville",
-        "codigoIbge": 4209102,
-        "cidade": "Joinville",
-        "uf": "SC",
-        "latitude": -26.3045,
-        "longitude": -48.8487,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HEMOSC — FAHECE - SC prorroga inscrições de processo seletivo para Médico no HEMOSC de Joinville",
-        "orgao": "HEMOSC",
-        "titulo": "FAHECE - SC prorroga inscrições de processo seletivo para Médico no HEMOSC de Joinville",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-medico-no-hemosc-de-joinville",
-        "vagas": 1,
-        "salarioMaximo": 10153.19,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
-        "id": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville:4209102",
-        "concursoId": "fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
-        "codigoIbge": 4209102,
-        "cidade": "Joinville",
-        "uf": "SC",
-        "latitude": -26.3045,
-        "longitude": -48.8487,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "HEMOSC - Centro de Hematologia e Hemoterapia de Santa Catarina — FAHECE - SC prorroga inscrições de processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
-        "orgao": "HEMOSC - Centro de Hematologia e Hemoterapia de Santa Catarina",
-        "titulo": "FAHECE - SC prorroga inscrições de processo seletivo para técnico de enfermagem PcD no HEMOSC de Joinville",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fahece-sc-prorroga-inscricoes-de-processo-seletivo-para-tecnico-de-enfermagem-pcd-no-hemosc-de-joinville",
-        "vagas": null,
-        "salarioMaximo": 2507.23,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "ses-sc-abre-processo-seletivo-para-tecnicos-em-enfermagem-e-enfermeiros-em-joinville:4209102",
         "concursoId": "ses-sc-abre-processo-seletivo-para-tecnicos-em-enfermagem-e-enfermeiros-em-joinville",
         "codigoIbge": 4209102,
@@ -12672,7 +11655,7 @@
         "inscricaoFim": "2026-11-26"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 2
   },
   {
     "codigoIbge": 4209300,
@@ -12694,7 +11677,7 @@
         "contextoLocalidade": "Prefeitura de Lages - Secretaria da Saúde — Prefeitura de Lages - SC abre seleção para diversos cargos na Secretaria da Saúde",
         "orgao": "Prefeitura de Lages - Secretaria da Saúde",
         "titulo": "Prefeitura de Lages - SC abre seleção para diversos cargos na Secretaria da Saúde",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-lages-sc-abre-selecao-para-diversos-cargos-na-secretaria-da-saude",
         "vagas": 14,
@@ -12906,7 +11889,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/samae-de-nova-trento-sc-abre-processo-seletivo-para-operador-de-ete-eta",
         "vagas": null,
         "salarioMaximo": 2785.85,
-        "inscricaoTexto": "17 a27/11/2026",
+        "inscricaoTexto": "27/11/2026",
         "inscricaoFim": "2026-11-27"
       }
     ],
@@ -12968,6 +11951,37 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-belo-sc-abre-processo-seletivo-para-o-cargo-de-fiscal-de-temporada",
         "vagas": 14,
         "salarioMaximo": 1999.76,
+        "inscricaoTexto": "26/11/2026",
+        "inscricaoFim": "2026-11-26"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 4213708,
+    "cidade": "Pouso Redondo",
+    "uf": "SC",
+    "latitude": -27.2567,
+    "longitude": -49.9301,
+    "concursos": [
+      {
+        "id": "prefeitura-de-pouso-redondo-sc-abre-processo-seletivo-com-salarios-de-ate-21091:4213708",
+        "concursoId": "prefeitura-de-pouso-redondo-sc-abre-processo-seletivo-com-salarios-de-ate-21091",
+        "codigoIbge": 4213708,
+        "cidade": "Pouso Redondo",
+        "uf": "SC",
+        "latitude": -27.2567,
+        "longitude": -49.9301,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Pouso Redondo — Prefeitura de Pouso Redondo - SC abre processo seletivo com salários de até R$ 21.091,49",
+        "orgao": "Prefeitura de Pouso Redondo",
+        "titulo": "Prefeitura de Pouso Redondo - SC abre processo seletivo com salários de até R$ 21.091,49",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pouso-redondo-sc-abre-processo-seletivo-com-salarios-de-ate-21091",
+        "vagas": null,
+        "salarioMaximo": 21091.49,
         "inscricaoTexto": "26/11/2026",
         "inscricaoFim": "2026-11-26"
       }
@@ -13617,6 +12631,37 @@
     "totalConcursos": 1
   },
   {
+    "codigoIbge": 3501509,
+    "cidade": "Alvinlândia",
+    "uf": "SP",
+    "latitude": -22.4435,
+    "longitude": -49.7623,
+    "concursos": [
+      {
+        "id": "prefeitura-de-alvinlandia-sp-abre-processo-seletivo-com-salarios-de-ate-9742:3501509",
+        "concursoId": "prefeitura-de-alvinlandia-sp-abre-processo-seletivo-com-salarios-de-ate-9742",
+        "codigoIbge": 3501509,
+        "cidade": "Alvinlândia",
+        "uf": "SP",
+        "latitude": -22.4435,
+        "longitude": -49.7623,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Alvinlândia — Prefeitura de Alvinlândia - SP abre processo seletivo com salários de até R$ 9.742,35",
+        "orgao": "Prefeitura de Alvinlândia",
+        "titulo": "Prefeitura de Alvinlândia - SP abre processo seletivo com salários de até R$ 9.742,35",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-alvinlandia-sp-abre-processo-seletivo-com-salarios-de-ate-9742",
+        "vagas": null,
+        "salarioMaximo": 9742.35,
+        "inscricaoTexto": "29/11/2026",
+        "inscricaoFim": "2026-11-29"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
     "codigoIbge": 3501905,
     "cidade": "Amparo",
     "uf": "SP",
@@ -14167,37 +13212,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3512209,
-    "cidade": "Conchal",
-    "uf": "SP",
-    "latitude": -22.3375,
-    "longitude": -47.1729,
-    "concursos": [
-      {
-        "id": "prefeitura-de-conchal-sp-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias:3512209",
-        "concursoId": "prefeitura-de-conchal-sp-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
-        "codigoIbge": 3512209,
-        "cidade": "Conchal",
-        "uf": "SP",
-        "latitude": -22.3375,
-        "longitude": -47.1729,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Conchal — Prefeitura de Conchal - SP abre processo seletivo para Agentes de Saúde e de Endemias",
-        "orgao": "Prefeitura de Conchal",
-        "titulo": "Prefeitura de Conchal - SP abre processo seletivo para Agentes de Saúde e de Endemias",
-        "status": "aberto",
-        "tipoSelecao": "processo_seletivo",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conchal-sp-abre-processo-seletivo-para-agentes-de-saude-e-de-endemias",
-        "vagas": 3,
-        "salarioMaximo": 2277.89,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3512704,
     "cidade": "Corumbataí",
     "uf": "SP",
@@ -14574,8 +13588,8 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/camara-de-ibiuna-sp-prorroga-inscricoes-de-concurso-publico-para-assistente-administrativo-e-controlador-interno",
         "vagas": 2,
         "salarioMaximo": 5570.09,
-        "inscricaoTexto": "Prorrogado até16/11/2026",
-        "inscricaoFim": "2026-11-16"
+        "inscricaoTexto": "Prorrogado até23/11/2026",
+        "inscricaoFim": "2026-11-23"
       }
     ],
     "totalConcursos": 1
@@ -14921,7 +13935,7 @@
         "contextoLocalidade": "Prefeitura de Louveira — Prefeitura de Louveira - SP abre concursos com vagas imediatas e cadastro de reserva",
         "orgao": "Prefeitura de Louveira",
         "titulo": "Prefeitura de Louveira - SP abre concursos com vagas imediatas e cadastro de reserva",
-        "status": "aberto",
+        "status": "encerrado",
         "tipoSelecao": "concurso_publico",
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-louveira-sp-abre-concursos-com-vagas-imediatas-e-cadastro-de-reserva",
         "vagas": 19,
@@ -15140,37 +14154,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3532108,
-    "cidade": "Murutinga do Sul",
-    "uf": "SP",
-    "latitude": -20.9908,
-    "longitude": -51.2774,
-    "concursos": [
-      {
-        "id": "prefeitura-de-murutinga-do-sul-sp-publica-retificacoes-de-concurso-publico:3532108",
-        "concursoId": "prefeitura-de-murutinga-do-sul-sp-publica-retificacoes-de-concurso-publico",
-        "codigoIbge": 3532108,
-        "cidade": "Murutinga do Sul",
-        "uf": "SP",
-        "latitude": -20.9908,
-        "longitude": -51.2774,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Murutinga do Sul — Prefeitura de Murutinga do Sul - SP publica retificações de concurso público",
-        "orgao": "Prefeitura de Murutinga do Sul",
-        "titulo": "Prefeitura de Murutinga do Sul - SP publica retificações de concurso público",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-murutinga-do-sul-sp-publica-retificacoes-de-concurso-publico",
-        "vagas": 15,
-        "salarioMaximo": 5118.2,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3533403,
     "cidade": "Nova Odessa",
     "uf": "SP",
@@ -15257,7 +14240,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-onda-verde-sp-abre-processo-seletivo-com-salarios-de-ate-4104",
         "vagas": 4,
         "salarioMaximo": 4104,
-        "inscricaoTexto": "17 a29/11/2026",
+        "inscricaoTexto": "29/11/2026",
         "inscricaoFim": "2026-11-29"
       }
     ],
@@ -15352,6 +14335,37 @@
         "salarioMaximo": 21296.07,
         "inscricaoTexto": "09/12/2026",
         "inscricaoFim": "2026-12-09"
+      }
+    ],
+    "totalConcursos": 1
+  },
+  {
+    "codigoIbge": 3537909,
+    "cidade": "Pilar do Sul",
+    "uf": "SP",
+    "latitude": -23.8077,
+    "longitude": -47.7222,
+    "concursos": [
+      {
+        "id": "prefeitura-de-pilar-do-sul-sp-abre-concurso-publico-com-salarios-de-ate-6593:3537909",
+        "concursoId": "prefeitura-de-pilar-do-sul-sp-abre-concurso-publico-com-salarios-de-ate-6593",
+        "codigoIbge": 3537909,
+        "cidade": "Pilar do Sul",
+        "uf": "SP",
+        "latitude": -23.8077,
+        "longitude": -47.7222,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Pilar do Sul — Prefeitura de Pilar do Sul - SP abre concurso público com salários de até R$ 6.593,75",
+        "orgao": "Prefeitura de Pilar do Sul",
+        "titulo": "Prefeitura de Pilar do Sul - SP abre concurso público com salários de até R$ 6.593,75",
+        "status": "aberto",
+        "tipoSelecao": "concurso_publico",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pilar-do-sul-sp-abre-concurso-publico-com-salarios-de-ate-6593",
+        "vagas": 5,
+        "salarioMaximo": 6593.75,
+        "inscricaoTexto": "26/11 a28/12/2026",
+        "inscricaoFim": "2026-12-28"
       }
     ],
     "totalConcursos": 1
@@ -15512,37 +14526,6 @@
     "totalConcursos": 1
   },
   {
-    "codigoIbge": 3541109,
-    "cidade": "Presidente Alves",
-    "uf": "SP",
-    "latitude": -22.0999,
-    "longitude": -49.4381,
-    "concursos": [
-      {
-        "id": "prefeitura-de-presidente-alves-sp-abre-concurso-publico-com-salarios-de-ate-4246:3541109",
-        "concursoId": "prefeitura-de-presidente-alves-sp-abre-concurso-publico-com-salarios-de-ate-4246",
-        "codigoIbge": 3541109,
-        "cidade": "Presidente Alves",
-        "uf": "SP",
-        "latitude": -22.0999,
-        "longitude": -49.4381,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Presidente Alves — Prefeitura de Presidente Alves - SP abre concurso público com salários de até R$ 4.246,41",
-        "orgao": "Prefeitura de Presidente Alves",
-        "titulo": "Prefeitura de Presidente Alves - SP abre concurso público com salários de até R$ 4.246,41",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-presidente-alves-sp-abre-concurso-publico-com-salarios-de-ate-4246",
-        "vagas": 3,
-        "salarioMaximo": 4246.41,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
     "codigoIbge": 3541406,
     "cidade": "Presidente Prudente",
     "uf": "SP",
@@ -15633,27 +14616,6 @@
         "inscricaoFim": "2026-12-14"
       },
       {
-        "id": "fundacao-hospital-santa-lydia-sp-abre-selecao-com-salarios-de-ate-7310:3543402",
-        "concursoId": "fundacao-hospital-santa-lydia-sp-abre-selecao-com-salarios-de-ate-7310",
-        "codigoIbge": 3543402,
-        "cidade": "Ribeirão Preto",
-        "uf": "SP",
-        "latitude": -21.1699,
-        "longitude": -47.8099,
-        "tipoLocalidade": "lotacao",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "No Estado de São Paulo, a Fundação Hospital Santa Lydia (FHSL), em Ribeirão Preto, abriu um Processo Seletivo para preencher oito vagas e formar cadastro de reserva em funções de nível médio, técnico e superior.",
-        "orgao": "FHSL - Fundação Hospital Santa Lydia",
-        "titulo": "Fundação Hospital Santa Lydia - SP abre seleção com salários de até R$ 7.310,37",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/fundacao-hospital-santa-lydia-sp-abre-selecao-com-salarios-de-ate-7310",
-        "vagas": 8,
-        "salarioMaximo": 7310.37,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
-      },
-      {
         "id": "hcfmrp-usp-abre-concurso-publico-para-medico-na-area-de-alergia-e-imunologia:3543402",
         "concursoId": "hcfmrp-usp-abre-concurso-publico-para-medico-na-area-de-alergia-e-imunologia",
         "codigoIbge": 3543402,
@@ -15696,7 +14658,38 @@
         "inscricaoFim": "2026-11-27"
       }
     ],
-    "totalConcursos": 4
+    "totalConcursos": 3
+  },
+  {
+    "codigoIbge": 3544251,
+    "cidade": "Rosana",
+    "uf": "SP",
+    "latitude": -22.5782,
+    "longitude": -53.0603,
+    "concursos": [
+      {
+        "id": "prefeitura-de-rosana-sp-abre-processo-seletivo-para-profissionais-da-educacao:3544251",
+        "concursoId": "prefeitura-de-rosana-sp-abre-processo-seletivo-para-profissionais-da-educacao",
+        "codigoIbge": 3544251,
+        "cidade": "Rosana",
+        "uf": "SP",
+        "latitude": -22.5782,
+        "longitude": -53.0603,
+        "tipoLocalidade": "nome_orgao_ou_titulo",
+        "confiancaLocalidade": "alta",
+        "contextoLocalidade": "Prefeitura de Rosana — Prefeitura de Rosana - SP abre processo seletivo para profissionais da educação",
+        "orgao": "Prefeitura de Rosana",
+        "titulo": "Prefeitura de Rosana - SP abre processo seletivo para profissionais da educação",
+        "status": "aberto",
+        "tipoSelecao": "processo_seletivo",
+        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rosana-sp-abre-processo-seletivo-para-profissionais-da-educacao",
+        "vagas": null,
+        "salarioMaximo": 3578,
+        "inscricaoTexto": "18/11 a04/12/2026",
+        "inscricaoFim": "2026-12-04"
+      }
+    ],
+    "totalConcursos": 1
   },
   {
     "codigoIbge": 3544806,
@@ -16252,7 +15245,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/ifsp-abre-concurso-publico-para-cargos-tecnico-administrativos",
         "vagas": 6,
         "salarioMaximo": 5215.39,
-        "inscricaoTexto": "17/11/2026 a04/01/2027",
+        "inscricaoTexto": "04/01/2027",
         "inscricaoFim": "2027-01-04"
       },
       {
@@ -16273,7 +15266,7 @@
         "urlPCI": "https://www.pciconcursos.com.br/noticias/sp-aguas-sp-abre-concurso-publico-com-salarios-de-ate-12070",
         "vagas": 190,
         "salarioMaximo": 12070,
-        "inscricaoTexto": "17/11 a17/12/2026",
+        "inscricaoTexto": "17/12/2026",
         "inscricaoFim": "2026-12-17"
       },
       {
@@ -16637,37 +15630,6 @@
         "salarioMaximo": 5217.7,
         "inscricaoTexto": "25/11/2026",
         "inscricaoFim": "2026-11-25"
-      }
-    ],
-    "totalConcursos": 1
-  },
-  {
-    "codigoIbge": 3557006,
-    "cidade": "Votorantim",
-    "uf": "SP",
-    "latitude": -23.5446,
-    "longitude": -47.4388,
-    "concursos": [
-      {
-        "id": "prefeitura-de-votorantim-sp-abre-concursos-publicos-com-salarios-de-ate-8377:3557006",
-        "concursoId": "prefeitura-de-votorantim-sp-abre-concursos-publicos-com-salarios-de-ate-8377",
-        "codigoIbge": 3557006,
-        "cidade": "Votorantim",
-        "uf": "SP",
-        "latitude": -23.5446,
-        "longitude": -47.4388,
-        "tipoLocalidade": "nome_orgao_ou_titulo",
-        "confiancaLocalidade": "alta",
-        "contextoLocalidade": "Prefeitura de Votorantim — Prefeitura de Votorantim - SP abre concursos públicos com salários de até R$ 8.377,33",
-        "orgao": "Prefeitura de Votorantim",
-        "titulo": "Prefeitura de Votorantim - SP abre concursos públicos com salários de até R$ 8.377,33",
-        "status": "aberto",
-        "tipoSelecao": "concurso_publico",
-        "urlPCI": "https://www.pciconcursos.com.br/noticias/prefeitura-de-votorantim-sp-abre-concursos-publicos-com-salarios-de-ate-8377",
-        "vagas": 37,
-        "salarioMaximo": 8377.33,
-        "inscricaoTexto": "16/11/2026",
-        "inscricaoFim": "2026-11-16"
       }
     ],
     "totalConcursos": 1
